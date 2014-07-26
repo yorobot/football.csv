@@ -25,7 +25,7 @@ EN_SOURCES = [
   [ '1993-94', %w(E0 E1 E2 E3) ],
 ]
 
-SC_SOURCES = [
+SCO_SOURCES = [
   [ '2013-14', %w(SC0 SC1 SC2 SC3) ],
   [ '2012-13', %w(SC0 SC1 SC2 SC3) ],
   [ '2011-12', %w(SC0 SC1 SC2 SC3) ],
