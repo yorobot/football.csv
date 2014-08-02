@@ -51,6 +51,113 @@ countries.each do |country|
 end
 
 
+task :engsoccer do |t|
+  ###
+  ## Date,Season,home,visitor,FT,hgoal,vgoal,division,tier,totgoal,goaldif,result
+  ##  NA,1888,"Aston Villa","Accrington F.C.","4-3",4,3,"1",1,7,1,"H"
+  ##  NA,1888,"Blackburn Rovers","Accrington F.C.","5-5",5,5,"1",1,10,0,"D"
+
+
+  in_path = './dl/engsoccerdata.csv'
+
+  ## try a dry test run
+
+##  i = 0
+##  CSV.foreach( in_path, headers: true ) do |row|
+##    i += 1
+##    print '.' if i % 100 == 0
+##  end
+##  puts " #{i} rows"
+
+
+  i = 0
+
+  last_season   = 0
+  last_division = ''
+  last_tier     = 0
+
+  match_count = 0
+  
+  schedule = []
+
+  out_root = './o/en-england'
+  headers  = ['Date','Team 1','Team 2','FT']
+
+  CSV.foreach( in_path, headers: true ) do |row|
+    i += 1
+
+    ### print '.' if i % 100 == 0
+
+    date   = row['Date']
+    season = row['Season'].to_i
+    team1  = row['home']
+    team2  = row['visitor']
+
+    ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
+    team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
+    team2 = TEAMS[ team2 ]   if TEAMS[ team2 ]
+
+    ## date is NA? - set to -  for not known
+    date =  '-'  if date == 'NA'
+
+    ft     = row['FT']
+
+    division = row['division']  # e.g. 1,2, 3a, 3b, 3c ??
+    tier     = row['tier'].to_i    # e.g. 1,2,3
+
+    ###
+    #  for now skip all season starting 1993/14
+    if season >= 1993
+      print '.' if i % 100 == 0
+      next
+    end
+
+    ##  for debugging - stop after 1894
+    ## if season >= 1894
+    ##  exit 
+    ## end
+
+
+    if last_division != '' && (last_division != division || last_season != season)
+
+      ## processs
+      ##  note: convert season to string
+      if last_tier == 1 || last_tier == 2
+         ## note: skip tier 3,4 for now
+         ### fix: add missing tiers!!!!
+
+         ## get league name e.g eng1  => 1-division1 or 1-premierleague  depending on year (seasons starting year)
+         year = last_season
+         league = get_league( 'en-england', year, "eng#{last_tier}" )
+
+         save_season( out_root, league, last_season.to_s, headers, schedule )
+      end
+
+
+      if last_season != season
+        puts "[debug] begin new season #{season}"
+      end
+
+      puts "[debug]   -- begin new division #{season} #{division} #{tier}"
+      puts row.inspect    ## for debugging dump first row
+
+      match_count = 0
+      schedule    = []
+    end
+
+    schedule << [date,team1,team2,ft]
+
+    match_count += 1
+
+    last_season    = season
+    last_division  = division
+    last_tier      = tier
+  end
+
+  puts 'done'
+end
+
+
 task :bundesliga do |t|
   ## all bundesliga seasons in a single .csv file e.g.
   ##    Bundesliga_1963_2014.csv
@@ -59,17 +166,20 @@ task :bundesliga do |t|
   ##  e.g.
   ## 1;1963-1964;1;1963-08-24;17:00;Werder Bremen;Borussia Dortmund;3:2;1:1
   ## 1;1963-1964;1;1963-08-24;17:00;1. FC Saarbruecken;1. FC Koeln;0:2;0:2
+  
+  #
+  # note: separator is semi-colon (e.g. ;)
 
 
   in_path = './dl/Bundesliga_1963_2014.csv'
 
   ## try a dry test run
-  i = 0
-  CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
-    i += 1
-    print '.' if i % 100 == 0
-  end
-  puts " #{i} rows"
+##  i = 0
+##  CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
+##    i += 1
+##    print '.' if i % 100 == 0
+##  end
+##  puts " #{i} rows"
 
 
   ### convert to "standard" format and
@@ -84,6 +194,10 @@ task :bundesliga do |t|
   match_count = 0
   
   schedule = []
+
+  out_root = './o/de-deutschland'
+  league  = '1-bundesliga'
+  headers = ['Round','Date','Team 1','Team 2','FT','HT']
 
   CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
     i += 1
@@ -109,7 +223,7 @@ task :bundesliga do |t|
 
     if last_num > 0 && num != last_num
 
-      save_season( last_season, schedule )
+      save_season( out_root, league, last_season, headers, schedule )
 
       ## puts "[debug] begin new season #{num} #{season}"
 
@@ -117,7 +231,8 @@ task :bundesliga do |t|
       schedule    = []
     end
 
-    schedule << [round,date,time,team1,team2,ft,ht]
+    ## note: do NOT add time
+    schedule << [round,date,team1,team2,ft,ht]
     match_count += 1
 
     last_num    = num
@@ -126,34 +241,49 @@ task :bundesliga do |t|
   end  # each row
 
   # note: do NOT forget last season
-  save_season( last_season, schedule )
+  save_season( out_root, league, last_season, headers, schedule )
 
   puts 'done'
 end
 
 
-def save_season( season, recs )
-  decade_path = "#{season[0..2]}0s"
-  season_path = "#{season[0..3]}-#{season[7..8]}"   ## change 1964-1965 to 1964-65
+def save_season( out_root, league, season, headers, recs )
 
-  league = '1-bundesliga'
-  out_root = './o/de-deutschland'
+  if season =~ /^\d{4}-\d{4}$/    ## season format is 1964-1965
+    decade_path = "#{season[0..2]}0s"
+    season_path = "#{season[0..3]}-#{season[7..8]}"   ## change 1964-1965 to 1964-65
+  elsif season =~ /^\d{4}$/
+    decade_path = "#{season[0..2]}0s"
+    season_path = "#{season}-#{(season.to_i+1).to_s[2..3]}"   ## change 1964 to 1964-65 or 1999 to 1999-00
+  else
+    puts "*** !!!! wrong season format >>#{season}<<; exit; sorry"
+    exit 1
+  end
+
 
   out_path = "#{out_root}/#{decade_path}/#{season_path}/#{league}.csv"
 
   puts "saving >>#{out_path}<< #{recs.size} records..."
 
-  ## make sure parent folders exist
-  FileUtils.mkdir_p( File.dirname(out_path) )  unless Dir.exists?( File.dirname( out_path ))
+  ## dry_run = true
+  dry_run = false
 
-  File.open( out_path, 'w' ) do |out|
-    out.puts 'Round,Date,Time,Team 1,Team 2,FT,HT'   # headers line
-    ## all recs
-    recs.each do |rec|
-      out.puts rec.join(',')
+  if dry_run
+    ## do NOT write anything to disk; do nothing for now
+  else
+    ## make sure parent folders exist
+    FileUtils.mkdir_p( File.dirname(out_path) )  unless Dir.exists?( File.dirname( out_path ))
+
+    File.open( out_path, 'w' ) do |out|
+      out.puts headers.join(',')    # headers line
+      ## all recs
+      recs.each do |rec|
+        out.puts rec.join(',')
+      end
     end
   end
 end
+
 
 
 #############
@@ -228,14 +358,24 @@ end
 
 
 def get_league( repo, year, basename)
-  if year <= 2003 && repo == 'en-england'
-    league = EN_LEAGUES_2003[basename]     ## hack: for england for now (make more generic???)
+  if repo == 'en-england' || repo == 'eng-england'
+    if year <= 1991
+      league = ENG_LEAGUES_1991[basename]
+    elsif year <= 2003
+      league = ENG_LEAGUES_2003[basename]     ## hack: for england for now (make more generic???)
+    else
+      league = LEAGUES[basename]
+    end
+  elsif repo == 'sco-scotland'
+    if year <= 1997
+      league = SCO_LEAGUES_1997[basename]
+    elsif year <= 2012
+      league = SCO_LEAGUES_2012[basename]
+    else
+      league = LEAGUES[basename]
+    end
   elsif year <= 2001 && repo == 'fr-france'
     league = FR_LEAGUES_2001[basename]
-  elsif year <= 1997 && repo == 'sco-scotland'
-    league = SCO_LEAGUES_1997[basename]
-  elsif year <= 2012 && repo == 'sco-scotland'
-    league = SCO_LEAGUES_2012[basename]
   elsif year <= 2005 && repo == 'gr-greece'
     league = GR_LEAGUES_2005[basename]
   else
@@ -243,6 +383,8 @@ def get_league( repo, year, basename)
   end
   league
 end
+
+
 
 def get_old_league( repo, year, basename )
   if year <= 2003 && repo == 'en-england'
