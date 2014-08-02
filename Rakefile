@@ -50,6 +50,112 @@ countries.each do |country|
   end
 end
 
+
+task :bundesliga do |t|
+  ## all bundesliga seasons in a single .csv file e.g.
+  ##    Bundesliga_1963_2014.csv
+  ##  assumes the following fields/header
+  ##  - Spielzeit;Saison;Spieltag;Datum;Uhrzeit;Heim;Gast;Ergebnis;Halbzeit
+  ##  e.g.
+  ## 1;1963-1964;1;1963-08-24;17:00;Werder Bremen;Borussia Dortmund;3:2;1:1
+  ## 1;1963-1964;1;1963-08-24;17:00;1. FC Saarbruecken;1. FC Koeln;0:2;0:2
+
+
+  in_path = './dl/Bundesliga_1963_2014.csv'
+
+  ## try a dry test run
+  i = 0
+  CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
+    i += 1
+    print '.' if i % 100 == 0
+  end
+  puts " #{i} rows"
+
+
+  ### convert to "standard" format and
+  ##   use new folder structure
+
+  i = 0
+  
+  last_num    = 0
+  last_season = ''
+  last_round  = 0
+  
+  match_count = 0
+  
+  schedule = []
+
+  CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
+    i += 1
+    print '.' if i % 100 == 0
+
+    num    = row['Spielzeit'].to_i
+    season = row['Saison']
+    round  = row['Spieltag'].to_i
+
+    date   = row['Datum']
+    time   = row['Uhrzeit']
+
+    team1 = row['Heim']
+    team2 = row['Gast']
+
+    ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
+    team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
+    team2 = TEAMS[ team2 ]   if TEAMS[ team2 ]
+
+    ft = row['Ergebnis'].tr(':','-')
+    ht = row['Halbzeit'].tr(':','-')
+
+
+    if last_num > 0 && num != last_num
+
+      save_season( last_season, schedule )
+
+      ## puts "[debug] begin new season #{num} #{season}"
+
+      match_count = 0
+      schedule    = []
+    end
+
+    schedule << [round,date,time,team1,team2,ft,ht]
+    match_count += 1
+
+    last_num    = num
+    last_season = season
+    last_round  = round
+  end  # each row
+
+  # note: do NOT forget last season
+  save_season( last_season, schedule )
+
+  puts 'done'
+end
+
+
+def save_season( season, recs )
+  decade_path = "#{season[0..2]}0s"
+  season_path = "#{season[0..3]}-#{season[7..8]}"   ## change 1964-1965 to 1964-65
+
+  league = '1-bundesliga'
+  out_root = './o/de-deutschland'
+
+  out_path = "#{out_root}/#{decade_path}/#{season_path}/#{league}.csv"
+
+  puts "saving >>#{out_path}<< #{recs.size} records..."
+
+  ## make sure parent folders exist
+  FileUtils.mkdir_p( File.dirname(out_path) )  unless Dir.exists?( File.dirname( out_path ))
+
+  File.open( out_path, 'w' ) do |out|
+    out.puts 'Round,Date,Time,Team 1,Team 2,FT,HT'   # headers line
+    ## all recs
+    recs.each do |rec|
+      out.puts rec.join(',')
+    end
+  end
+end
+
+
 #############
 ### add a pull a task to update all country repos
 task :pull do |t|
@@ -108,7 +214,7 @@ def fetch_repo( repo, sources )
       if response.code == '200'
         txt = response.body
         
-        File.open( out_path, "wb" ) do |out|
+        File.open( out_path, 'wb' ) do |out|
           out.write txt
         end
       else
@@ -275,18 +381,18 @@ def convert_csv( path_in, path_out )
 
     # note: greece 2001-02 etc. use HT  -  check CVS reader  row['HomeTeam'] may not be nil but an empty string?
     #   e.g. row['HomeTeam'] || row['HT'] will NOT work for now
-    ht = row['HomeTeam']
-    if ht.nil? || ht.strip.empty?   ## todo: check CVS reader - what does it return for non-existing valules/columns?
-      ht = row['HT']  
+    team1 = row['HomeTeam']
+    if team1.nil? || team1.strip.empty?   ## todo: check CVS reader - what does it return for non-existing valules/columns?
+      team1 = row['HT']
     end
 
-    at = row['AwayTeam']
-    if at.nil? || at.strip.empty?
-      at =row['AT']
+    team2 = row['AwayTeam']
+    if team2.nil? || team2.strip.empty?
+      team2 =row['AT']
     end
 
-    values << ht
-    values << at
+    values << team1
+    values << team2
 
     ## check if data present - if not skip (might be empty row)
     next if values[0].nil? && values[1].nil? && values[2].nil?  ## no date, no home team, no away team -- skip
