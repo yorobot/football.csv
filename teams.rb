@@ -22,7 +22,9 @@ TEAMS = {
   '1. FC Saarbruecken' => '1. FC Saarbrücken',
   'Bor. Moenchengladbach' => 'Bor. Mönchengladbach',
   'Preussen Muenster'   => 'Preussen Münster',
-
+  'Gutersloh'           => 'Gütersloh',
+  'Lubeck'              => 'Lübeck',
+  'Osnabruck'           => 'Osnabrück',
 
   ### tr-turkey
   'Karabukspor'     => 'Karabükspor',

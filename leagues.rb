@@ -52,6 +52,10 @@ ENG_LEAGUES_2003 = {  ## until (including) 2003-04 season
 ENG_LEAGUES_1991 = { ## until (including) 1991-92} season
   'eng1' => '1-division1', # english division 1
   'eng2' => '2-division2', # english division 2
+  'eng3'   => '3-division3', # english division 3
+  'eng3a'  => '3a-division3n',   # english division 3 (north)
+  'eng3b'  => '3b-division3s',   # english division 3 (south)
+  'eng4' => '4-division4', # english division 4  - check if real?
 }
 
 

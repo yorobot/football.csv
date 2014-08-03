@@ -31,7 +31,8 @@ task :engsoccer do |t|
   schedule = []
 
   out_root = './o/en-england'
-  headers  = ['Date','Team 1','Team 2','FT']
+  ## use "standard" default format/fields
+  headers  = ['Round','Date','Team 1','Team 2','FT','HT']
 
   CSV.foreach( in_path, headers: true ) do |row|
     i += 1
@@ -72,17 +73,13 @@ task :engsoccer do |t|
 
       ## processs
       ##  note: convert season to string
-      if last_tier == 1 || last_tier == 2
-         ## note: skip tier 3,4 for now
-         ### fix: add missing tiers!!!!
+      
+      ## get league name e.g eng1  => 1-division1 or 1-premierleague  depending on year (seasons starting year)
+      ##                     eng3a => 1-division3n (north) etc.
+      year = last_season
+      league = get_league( 'en-england', year, "eng#{last_division}" )
 
-         ## get league name e.g eng1  => 1-division1 or 1-premierleague  depending on year (seasons starting year)
-         year = last_season
-         league = get_league( 'en-england', year, "eng#{last_tier}" )
-
-         save_season( out_root, league, last_season.to_s, headers, schedule )
-      end
-
+      save_season( out_root, league, last_season.to_s, headers, schedule )
 
       if last_season != season
         puts "[debug] begin new season #{season}"
@@ -95,7 +92,8 @@ task :engsoccer do |t|
       schedule    = []
     end
 
-    schedule << [date,team1,team2,ft]
+    ## note: for now round, and ht (half-time) results are always missing
+    schedule << ['-',date,team1,team2,ft,'-']
 
     match_count += 1
 
