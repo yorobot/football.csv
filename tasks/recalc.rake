@@ -9,6 +9,18 @@ task :detables do |t|
   recalc_repo( 'de-deutschland' )
 end # task :entables
 
+task :estables do |t|
+  recalc_repo( 'es-espana' )
+end # task :entables
+
+task :ittables do |t|
+  recalc_repo( 'it-italy' )
+end # task :entables
+
+task :frtables do |t|
+  recalc_repo( 'fr-france' )
+end # task :entables
+
 
 
 def recalc_repo( repo )
@@ -30,15 +42,18 @@ def recalc_repo( repo )
 
      buf = ""
 
-     ## for now start/try eng1 league; add more later
-     Dir.glob( "#{in_path_season}/1-*.csv").each do |in_path_csv|
+     ## note: assume 1-,2- etc. gets us back sorted leagues
+     ##  - use sort. (will not sort by default)
+     Dir.glob( "#{in_path_season}/*.csv").sort.each do |in_path_csv|
        puts "   csv: #{in_path_csv}"
-       
+
        matches   = load_matches( in_path_csv )
        standings = Standings.new
        standings.update( matches )
        ## pp standings.to_a
 
+       buf << "\n"
+       buf << "~~~\n"
 
        ## add standings table in markdown to buffer (buf)
        standings.to_a.each do |l|
@@ -53,8 +68,10 @@ def recalc_repo( repo )
          buf << "\n"
        end
 
+       buf << "~~~\n"
        buf << "\n"
-       buf << "(Source: #{File.basename(in_path_csv)})"
+       buf << "(Source: `#{File.basename(in_path_csv)}`)\n"
+       buf << "\n"
      end
 
      ###  cut-off in_path_root (e.g. ../en-england) + 1 for /
@@ -63,12 +80,15 @@ def recalc_repo( repo )
      out_path = "#{out_root}/#{segment}/README.md"
      puts "out_path=>>#{out_path}<<, segment=>>#{segment}<<"
 
+     ## make sure parent folders exist
+     FileUtils.mkdir_p( File.dirname(out_path) )  unless Dir.exists?( File.dirname( out_path ))
+
      File.open( out_path, 'w' ) do |out|
        out.puts "\n\n"
-       out.puts "### Standings\n\n"
-       out.puts "~~~\n"
+       out.puts "### Standings\n"
+       out.puts "\n"
        out.puts buf
-       out.puts "~~~\n"
+       out.puts "\n"
      end
    end
 end  # method recalc_repo
