@@ -1,42 +1,5 @@
 # encoding: utf-8
 
-## map football_data leagues to our own keys
-
-FOOTBALL_DATA_LEAGUES = {
-  'E0'  => 'eng1',  # english premier league
-  'E1'  => 'eng2',  # english championship league
-  'E2'  => 'eng3',  # english league 1
-  'E3'  => 'eng4',  # english league 2
-  'EC'  => 'eng5',  # english conference
-
-  'SP1' => 'es1',   # spanish liga 1
-  'SP2' => 'es2',   # spanish liga 2
-
-  'F1'  => 'fr1',   # french ligue 1
-  'F2'  => 'fr2',   # french ligue 2
-
-  'I1'  => 'it1',   # italian serie a
-  'I2'  => 'it2',   # italian serie b
-
-  'D1'  => 'de1',   # german bundesliga
-  'D2'  => 'de2',   # german 2. bundesliga
-
-  'SC0' => 'sco1',  # scotish Premiership  # starting w/ 2013-14 season
-  'SC1' => 'sco2',  # scotish Championship
-  'SC2' => 'sco3',  # scotish League One
-  'SC3' => 'sco4',  # scotish League Two
-
-  'N1'  => 'nl1',   # dutch eredivisie
-
-  'B1'  => 'be1',   # belgian pro league
-
-  'P1'  => 'pt1',   # portugese Primeira Liga
-
-  'T1'  => 'tr1',   # turkish Süper Lig
-
-  'G1'  => 'gr1',   # greek Superleague
-}
-
 
 LEAGUES = {
   'eng1' => '1-premierleague',  # english premier league
