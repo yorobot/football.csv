@@ -6,19 +6,23 @@ TEAMS = {
   ### de-deutschland
   'Bayern Munich'      => 'Bayern München',
   'Bayern Muenchen'    => 'Bayern München',
-  'Munich 1860'        => 'München 1860',
+  'Munich 1860'        => 'TSV 1860 München',
   'TSV 1860 Muenchen'  => 'TSV 1860 München',
-  'Nurnberg'           => 'Nürnberg',
+  'Nurnberg'           => '1. FC Nürnberg',  ### todo: check if save to always map to 1. FC Nürnberg
   '1. FC Nuernberg'    => '1. FC Nürnberg',
-  'FC Koln'            => 'FC Köln',
-  'F Koln'             => 'FC Köln',
+  'FC Koln'            => '1. FC Köln',
+  'F Koln'             => '1. FC Köln',
   '1. FC Koeln'        => '1. FC Köln',
   'Greuther Furth'     => 'Greuther Fürth',
   'Fortuna Dusseldorf' => 'Fortuna Düsseldorf',
-  'Saarbrucken'        => 'Saarbrücken',
+  'Fortuna Duesseldorf'=> 'Fortuna Düsseldorf',
+## todo/check if included (see generated teams.csv)
+##  'Dusseldorf'         => 'Düsseldorf',    ## same as fortuna duesseldorf??
+  'Saarbrucken'        => 'Saarbrücken',   ## todo: check if save to use 1. FC Saarbruecken??
   '1. FC Saarbruecken' => '1. FC Saarbrücken',
   'Bor. Moenchengladbach' => 'Bor. Mönchengladbach',
   'Preussen Muenster'   => 'Preussen Münster',
+
 
   ### tr-turkey
   'Karabukspor'     => 'Karabükspor',

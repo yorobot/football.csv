@@ -77,7 +77,7 @@ private
       puts " !!!! skipping match - not yet over (play_at date in the future)"
       return
     end
-    
+
     unless m.complete?
       puts "!!! [calc_standings] skipping match #{m.team1} - #{m.team2} - scores incomplete #{m.score_str}"
       return
@@ -86,29 +86,52 @@ private
     line1 = @lines[ m.team1 ] || StandingsLine.new( m.team1 )
     line2 = @lines[ m.team2 ] || StandingsLine.new( m.team2 )
 
-    line1.played += 1
-    line2.played += 1
+    line1.played      += 1
+    line1.home_played += 1
+
+    line2.played      += 1
+    line2.away_played += 1
 
     if m.winner == 1
-      line1.won  += 1
-      line2.lost += 1
-      line1.pts += @pts_won
+      line1.won      += 1
+      line1.home_won += 1
+
+      line2.lost      += 1
+      line2.away_lost += 1
+
+      line1.pts      += @pts_won
+      line1.home_pts += @pts_won
     elsif m.winner == 2
-      line1.lost += 1
-      line2.won += 1
-      line2.pts += @pts_won
+      line1.lost      += 1
+      line1.home_lost += 1
+
+      line2.won       += 1
+      line2.away_won  += 1
+
+      line2.pts      += @pts_won
+      line2.away_pts += @pts_won
     else ## assume drawn/tie (that is, 0)
-      line1.drawn += 1
-      line2.drawn += 1
-      line1.pts += 1
-      line2.pts += 1
+      line1.drawn      += 1
+      line1.home_drawn += 1
+
+      line2.drawn      += 1
+      line2.away_drawn += 1
+
+      line1.pts      += 1
+      line1.home_pts += 1
+      line2.pts      += 1
+      line2.away_pts += 1
     end
 
-    line1.goals_for     += m.score1
-    line1.goals_against += m.score2
- 
-    line2.goals_for     += m.score2
-    line2.goals_against += m.score1
+    line1.goals_for      += m.score1
+    line1.home_goals_for += m.score1
+    line1.goals_against      += m.score2
+    line1.home_goals_against += m.score2
+
+    line2.goals_for      += m.score2
+    line2.away_goals_for += m.score2
+    line2.goals_against      += m.score1
+    line2.away_goals_against += m.score1
 
     @lines[ m.team1 ] = line1
     @lines[ m.team2 ] = line2
@@ -118,20 +141,24 @@ end  # class Standings
 
 
 class StandingsLine
-  attr_accessor  :team,
-                 :rank, :played, :won, :lost, :drawn,
-                 :goals_for, :goals_against, :pts
+  attr_accessor  :rank, :team,
+                 :played, :won, :lost, :drawn,                      ## -- total
+                 :goals_for, :goals_against, :pts,
+                 :home_played, :home_won, :home_lost, :home_drawn,  ## -- home
+                 :home_goals_for, :home_goals_against, :home_pts,
+                 :away_played, :away_won, :away_lost, :away_drawn,  ## -- away
+                 :away_goals_for, :away_goals_against, :away_pts
 
   def initialize( team )
-    @team = team
     @rank = nil # use 0? why? why not?
-    @played = 0
-    @won = 0
-    @lost = 0
-    @drawn = 0
-    @goals_for = 0
-    @goals_against = 0
-    @pts = 0
+    @team = team
+    @played = @home_played = @away_played = 0
+    @won    = @home_won    = @away_won    = 0
+    @lost   = @home_lost   = @away_lost   = 0
+    @drawn  = @home_drawn  = @away_drawn  = 0
+    @goals_for     = @home_goals_for     = @away_goals_for     = 0
+    @goals_against = @home_goals_against = @away_goals_against = 0
+    @pts    = @home_pts    = @away_pts    = 0
   end
 end # class StandingsLine
 
