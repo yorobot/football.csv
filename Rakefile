@@ -21,6 +21,7 @@ require './scripts/standings'
 require './scripts/utils'
 require './scripts/leagues'
 require './scripts/convert'
+require './scripts/teams'
 
 
 
