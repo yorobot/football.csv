@@ -1,6 +1,12 @@
 # encoding: utf-8
 
 
+
+#####
+# todo:  rename importer to import  (use sportdb-import) for (new) gem name !!!
+#
+
+
 require 'pp'
 require 'csv'
 require 'date'
@@ -25,8 +31,7 @@ require 'date'
 TEAMS = { }
 
 
-
-def find_teams( path_in )
+def find_teams_in_txt( path_in )
 
   teams = Hash.new( 0 )   ## default value is 0
 
@@ -66,12 +71,13 @@ def find_teams( path_in )
     teams[ team2 ] += 1
   end
 
-  teams
+  pp teams
+
+  ## note: only return team names (not hash with usage counter)
+  teams.keys
 end
 
-teams = find_teams( './dl/eng-england/2017-18/E0.csv' )
-puts "#{teams.size} teams:"
-pp teams
+
 
 
 require 'sportdb/models'
@@ -82,73 +88,147 @@ SportDb.connect( adapter:  'sqlite3',
 ## build schema
 SportDb.create_all
 
-### check country
-country = WorldDb::Model::Country.find_by( key: 'eng' )
-if country.nil?
-   country = WorldDb::Model::Country.create!(
-     key:  'eng',
-     name: 'England',
-     code: 'ENG',
-     area: 1,
-     pop:  1
-   )
+
+
+
+
+## built-in countries for (quick starter) auto-add
+COUNTRIES = {    ## rename to AUTO or BUILTIN_COUNTRIES or QUICK_COUNTRIES - why? why not?
+  eng: ['England',  'ENG'],     ## title/name, code
+}
+
+def find_country( key )   ## e.g. key = 'eng' or 'de' etc.
+
+   country = WorldDb::Model::Country.find_by( key: key )
+   if country.nil?
+     ### check quick built-tin auto-add country data
+     data = COUNTRIES[ key.to_sym ]
+     if data.nil?
+       puts "** unknown country for key >#{key}<; sorry - add to COUNTRIES table"
+       exit 1
+     end
+
+     name, code = data
+
+     country = WorldDb::Model::Country.create!(
+        key:  key,
+        name: name,
+        code: code,
+        area: 1,
+        pop:  1
+     )
+   end
+   pp country
+   country
 end
 
-pp country
 
 
-## add teams
+def find_teams( team_names, country: )
+  recs = []
 
-team_name = teams.keys[0]
-team_key  = team_name.downcase
+  ## add/find teams
+  team_names.each do |team_name|
+    ## remove spaces too (e.g. Man City => mancity)
+    team_key  = team_name.downcase.gsub( /[ ]/, '' )
 
-team = SportDb::Model::Team.find_by( title: team_name )
-if team.nil?
-  team = SportDb::Model::Team.create!(
-    key:   team_key,
-    title: team_name,
-    country_id: country.id
-   )
+    puts "add team: #{team_key}, #{team_name}:"
+
+    team = SportDb::Model::Team.find_by( title: team_name )
+    if team.nil?
+       team = SportDb::Model::Team.create!(
+         key:   team_key,
+         title: team_name,
+         country_id: country.id
+       )
+    end
+    pp team
+    recs << team
+  end
+
+  recs  # return activerecord team objects
 end
-
-pp team
-
-
 
 
 ### add season
-
-season = SportDb::Model::Season.find_by( key: '2017-18' )
-if season.nil?
-  season = SportDb::Model::Season.create!(
-    key:   '2017-18',
-    title: '2017-18'
-  )
+def find_season( key )  ## e.g. key = '2017-18'
+  ## todo/fix:
+  ##   always use 2017/18  or 2017-18
+  ##    use search and replace to change / to - or similar!!!
+  season = SportDb::Model::Season.find_by( key: key )
+  if season.nil?
+     season = SportDb::Model::Season.create!(
+       key:   key,
+       title: key
+     )
+  end
+  pp season
+  season
 end
 
-pp season
+
+
+## built-in countries for (quick starter) auto-add
+LEAGUES = {    ## rename to AUTO or BUILTIN_LEAGUES or QUICK_LEAGUES  - why? why not?
+  en: 'English Premier League',
+}
+
 
 ### add league
-##  en,    English Premier League
-league = SportDb::Model::League.find_by( key: 'en' )
-if league.nil?
-   league = SportDb::Model::League.create!(
-     key:   'en',
-     title: 'English Premier League'
-   )
+def find_league( key )  ## e.g. key = 'en' or 'en.2' etc.
+  ##  en,    English Premier League
+  league = SportDb::Model::League.find_by( key: key )
+  if league.nil?
+     ### check quick built-tin auto-add league data
+     data = LEAGUES[ key.to_sym ]
+     if data.nil?
+       puts "** unknown league for key >#{key}<; sorry - add to LEAGUES table"
+       exit 1
+     end
+
+     name = data
+
+     league = SportDb::Model::League.create!(
+        key:   key,
+        title: name,  # e.g. 'English Premier League'
+     )
+  end
+  pp league
+  league
 end
 
-pp league
 
-
-## add event
-event = SportDb::Model::Event.find_by( key: 'en.2017/18' )
-if event.nil?
-  event = SportDb::Model::Event.create!(
-    league_id: league.id,
-    season_id: season.id,
-    start_at:  Date.new( 2017, 7, 1 )
-   )
+def find_event( league:, season: )
+  ## add event
+  ##  key = 'en.2017/18'
+  event = SportDb::Model::Event.find_by( league_id: league.id, season_id: season.id  )
+  if event.nil?
+    ## quick hack/change later !!
+    ##  start_at use year and 7,1 e.g. Date.new( 2017, 7, 1 )
+    year = season.key[0..3].to_i  ## eg. 2017-18 => 2017
+    event = SportDb::Model::Event.create!(
+       league_id: league.id,
+       season_id: season.id,
+       start_at:  Date.new( year, 7, 1 )
+     )
+  end
+  pp event
+  event
 end
 
-pp event
+
+
+
+
+country = find_country( 'eng' )
+league  = find_league( 'en' )
+
+['2017-18', '2016-17' ].each do |season_txt|
+   teams_txt = find_teams_in_txt( "./dl/eng-england/#{season_txt}/E0.csv" )
+   puts "#{teams_txt.size} teams:"
+   pp teams_txt
+
+   teams   = find_teams( teams_txt, country: country )
+   season  = find_season( season_txt )
+   event   = find_event( season: season, league: league )
+end
