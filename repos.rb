@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 COUNTRY_REPOS = {
-  eng:  'en-england',   ## use en for key - why? why not?
+  eng:  'eng-england',   ## use en for key - why? why not?
   es:   'es-espana',
   de:   'de-deutschland',
   fr:   'fr-france',
@@ -13,4 +13,3 @@ COUNTRY_REPOS = {
   tr:   'tr-turkey',
   gr:   'gr-greece',
 }
-

@@ -34,7 +34,7 @@ def fetch_repo( repo, sources )
   sources.each do |rec|
     dirname   = rec[0]
     basenames = rec[1]
-    
+
     basenames.each do |basename|
       season_path = dirname[2..3]+dirname[5..6]  # e.g. 2008-09 becomse 0809 etc
       in_url = "#{in_base}/#{season_path}/#{basename}.csv"
@@ -42,21 +42,22 @@ def fetch_repo( repo, sources )
       out_path = "#{out_root}/#{dirname}/#{basename}.csv"
 
       puts " in_url: >>#{in_url}<<, out_path: >>#{out_path}<<"
-      
+
       ## make sure parent folders exist
       FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
-      
+
       worker = Fetcher::Worker.new
       response = worker.get( in_url )
 
       if response.code == '200'
         txt = response.body
-        
+
         File.open( out_path, 'wb' ) do |out|
           out.write txt
         end
       else
         puts " *** !!!! HTTP error #{response.code} - #{resonse.message}"
+        exit 1
       end
 
     end
@@ -73,7 +74,7 @@ def convert_repo( repo, sources )
   sources.each do |rec|
     dirname   = rec[0]
     basenames = rec[1]
-    
+
     basenames.each do |basename|
 
       in_path = "#{in_root}/#{dirname}/#{basename}.csv"
@@ -94,9 +95,8 @@ def convert_repo( repo, sources )
 
       ## makedirs_p for out_path
       FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
- 
+
       convert_csv( in_path, out_path )
     end
   end
 end
-
