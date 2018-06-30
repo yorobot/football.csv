@@ -23,6 +23,17 @@ matches_txt = find_matches_in_txt( './dl/eng-england/2017-18/E0.csv',
 
 pp matches_txt[0..2]
 
+
+matches_txt = find_matches_in_txt( './dl/eng-england/2017-18/E0.csv',
+                     headers: { team1:  'HomeTeam',
+                                team2:  'AwayTeam',
+                                date:   'Date',
+                                score1: 'FTHG',
+                                score2: 'FTAG' } )
+
+pp matches_txt[0..2]
+
+
 ###
 # Country,League,Season,Date,Time,Home,Away,HG,AG,
 #  Res,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
