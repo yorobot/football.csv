@@ -7,13 +7,8 @@
 #
 
 
-require 'pp'
-require 'csv'
-require 'date'
-
-###
-# our own code
-require_relative 'read_txt'
+require_relative 'lib/read'
 
 
-find_seasons_in_txt( './dl/at-austria/AT.csv' )
+
+find_seasons_in_txt( './dl/at-austria/AUT.csv' )
