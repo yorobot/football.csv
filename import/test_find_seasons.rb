@@ -11,4 +11,5 @@ require_relative 'lib/read'
 
 
 
-find_seasons_in_txt( './dl/at-austria/AUT.csv' )
+seasons_txt = find_seasons_in_txt( './dl/at-austria/AUT.csv' )
+pp seasons_txt

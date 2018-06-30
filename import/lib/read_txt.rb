@@ -25,12 +25,48 @@ MatchStruct = Struct.new( :date,
                           :score1i, :score2i)    ## rename to MatchRow, MatchTxt, etc. - why? why not?
 
 
+def find_header( headers, candidates )
+  candidates.each do |candidate|
+     return candidate if headers.include? candidate  ## bingo!!!
+  end
+  nil  ## no matching header  found!!!
+end
 
-def find_matches_in_txt( path, season: nil )
 
-  matches = []
+def find_matches_in_txt( path, headers: nil, filters: nil )
+
+  headers_mapping = {}
 
   csv = CSV.read( path, headers: true )
+
+
+  pp csv
+
+  if headers   ## use user supplied headers if present
+    headers_mapping = headers_mapping.merge( headers )
+  else
+
+    headers = csv.headers   ## note: returns an array of strings (header names)
+    pp headers
+
+    # note: greece 2001-02 etc. use HT  -  check CVS reader  row['HomeTeam'] may not be nil but an empty string?
+    #   e.g. row['HomeTeam'] || row['HT'] will NOT work for now
+
+    headers_mapping[:team1]  = find_header( headers, ['Team 1', 'Team.1', 'HomeTeam', 'HT', 'Home'] )
+    headers_mapping[:team2]  = find_header( headers, ['Team 2', 'Team.2', 'AwayTeam', 'AT', 'Away'] )
+    headers_mapping[:date]   = find_header( headers, ['Date'] )
+
+    ## note: FT = Full Time, HG = Home Goal, AG = Away Goal
+    headers_mapping[:score1] = find_header( headers, ['FTHG', 'HG'] )
+    headers_mapping[:score2] = find_header( headers, ['FTAG', 'AG'] )
+
+    ## check for half time scores ?
+    ##  note: HT = Half Time
+    headers_mapping[:score1i] = find_header( headers, ['HTHG'] )
+    headers_mapping[:score2i] = find_header( headers, ['HTAG'] )
+  end
+
+  pp headers_mapping
 
   ### todo/fix: check headers - how?
   ##  if present HomeTeam or HT required etc.
@@ -40,28 +76,27 @@ def find_matches_in_txt( path, season: nil )
   ##    exit 1
   ##
 
+  matches = []
+
   csv.each_with_index do |row,i|
 
     puts "[#{i}] " + row.inspect  if i < 2
 
 
-     if season    ## filter for season?
-       next if row['Season'] != season
+     if filters    ## filter MUST match if present e.g. row['Season'] == '2017/2018'
+       skip = false
+       filters.each do |header, value|
+         if row[ header ] != value   ## e.g. row['Season']
+           skip = true
+           break
+         end
+       end
+       next if skip   ## if header values NOT matching
      end
 
 
-    # note: greece 2001-02 etc. use HT  -  check CVS reader  row['HomeTeam'] may not be nil but an empty string?
-    #   e.g. row['HomeTeam'] || row['HT'] will NOT work for now
-    team1 = row['HomeTeam']
-    team1 = row['HT']        if team1.nil? || team1.strip.empty?   ## todo: check CVS reader - what does it return for non-existing valules/columns?
-    team1 = row['Home']      if team1.nil? || team1.strip.empty?
-
-
-    team2 = row['AwayTeam']
-    team2 = row['AT']        if team2.nil? || team2.strip.empty?
-    team2 = row['Away']      if team2.nil? || team2.strip.empty?
-
-
+    team1 = row[ headers_mapping[ :team1 ]]
+    team2 = row[ headers_mapping[ :team2 ]]
 
     ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
     team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
@@ -74,7 +109,7 @@ def find_matches_in_txt( path, season: nil )
       next
     end
 
-    date = row['Date']
+    date = row[ headers_mapping[ :date ]]
 
     date = date.strip   # make sure not leading or trailing spaces left over
 
@@ -90,16 +125,17 @@ def find_matches_in_txt( path, season: nil )
     date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
 
 
-    score1 = row['FTHG']
-    score1 = row['HG']     if score1.nil? || score1.strip.empty?
-
-    score2 = row['FTAG']
-    score2 = row['AG']     if score2.nil? || score2.strip.empty?
-
+    score1 = row[ headers_mapping[ :score1 ]]
+    score2 = row[ headers_mapping[ :score2 ]]
 
     ## check for half time scores ?
-    score1i = row['HTHG']
-    score2i = row['HTAG']
+    if headers_mapping[ :score1i ] && headers_mapping[ :score2i ]
+      score1i = row[ headers_mapping[ :score1i ]]
+      score2i = row[ headers_mapping[ :score2i ]]
+    else
+      score1i = nil
+      score2i = nil
+    end
 
 
     match = MatchStruct.new( date,
@@ -109,7 +145,7 @@ def find_matches_in_txt( path, season: nil )
     matches << match
   end
 
-  pp matches
+  ## pp matches
 
   ## note: only return team names (not hash with usage counter)
   matches
