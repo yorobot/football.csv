@@ -69,7 +69,9 @@ end
 def convert_repo( repo, sources )
 
   in_root  = "./dl/#{repo}"
-  out_root = "./o/#{repo}"
+
+  out_root = "./o/#{repo}"    ## for debugging / testing
+  ## out_root = "../../footballcsv/#{repo}"    ## for "real" updates
 
   sources.each do |rec|
     dirname   = rec[0]
@@ -87,7 +89,7 @@ def convert_repo( repo, sources )
         year = 2020
       end
 
-      league      = get_league( repo, year, basename )
+      league      = get_league( repo, year, FOOTBALLDATA_LEAGUES[basename] )
 
       out_path = "#{out_root}/#{dirname}/#{league}.csv"
 

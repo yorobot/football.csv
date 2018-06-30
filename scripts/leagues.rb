@@ -24,6 +24,13 @@ def get_league( repo, year, basename)
   else
     league = LEAGUES[basename]
   end
+
+
+  if league.nil?
+    puts "** no match / mapping found for league >#{basename}<, year: #{year}, repo: #{repo}"
+    exit 1
+  end
+
   league
 end
 
@@ -45,4 +52,3 @@ def get_old_league( repo, year, basename )
   end
   league
 end
-
