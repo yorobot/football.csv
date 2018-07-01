@@ -17,8 +17,14 @@ require 'sportdb/models'
 
 ###
 # our own code
+require_relative 'structs/match'
+require_relative 'structs/standings'
+
 require_relative 'read_txt'
 require_relative 'read_db'
+
+require_relative 'convert'
+
 
 
 

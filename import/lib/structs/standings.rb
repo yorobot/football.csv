@@ -5,6 +5,33 @@
 ##   reuse standings helper/calculator from sportdb
 ##   do NOT duplicate
 
+module SportDb
+  module Struct
+
+
+class StandingsLine
+  attr_accessor  :rank, :team,
+                 :played, :won, :lost, :drawn,                      ## -- total
+                 :goals_for, :goals_against, :pts,
+                 :home_played, :home_won, :home_lost, :home_drawn,  ## -- home
+                 :home_goals_for, :home_goals_against, :home_pts,
+                 :away_played, :away_won, :away_lost, :away_drawn,  ## -- away
+                 :away_goals_for, :away_goals_against, :away_pts
+
+  def initialize( team )
+    @rank = nil # use 0? why? why not?
+    @team = team
+    @played = @home_played = @away_played = 0
+    @won    = @home_won    = @away_won    = 0
+    @lost   = @home_lost   = @away_lost   = 0
+    @drawn  = @home_drawn  = @away_drawn  = 0
+    @goals_for     = @home_goals_for     = @away_goals_for     = 0
+    @goals_against = @home_goals_against = @away_goals_against = 0
+    @pts    = @home_pts    = @away_pts    = 0
+  end
+end # class StandingsLine
+
+
 
 class Standings
 
@@ -64,7 +91,7 @@ class Standings
     ary.each_with_index do |line,i|
       line.rank = i+1 ## add ranking (e.g. 1,2,3 etc.) - note: i starts w/ zero (0)
     end
-    
+
     ary
   end  # to_a
 
@@ -140,92 +167,5 @@ private
 end  # class Standings
 
 
-class StandingsLine
-  attr_accessor  :rank, :team,
-                 :played, :won, :lost, :drawn,                      ## -- total
-                 :goals_for, :goals_against, :pts,
-                 :home_played, :home_won, :home_lost, :home_drawn,  ## -- home
-                 :home_goals_for, :home_goals_against, :home_pts,
-                 :away_played, :away_won, :away_lost, :away_drawn,  ## -- away
-                 :away_goals_for, :away_goals_against, :away_pts
-
-  def initialize( team )
-    @rank = nil # use 0? why? why not?
-    @team = team
-    @played = @home_played = @away_played = 0
-    @won    = @home_won    = @away_won    = 0
-    @lost   = @home_lost   = @away_lost   = 0
-    @drawn  = @home_drawn  = @away_drawn  = 0
-    @goals_for     = @home_goals_for     = @away_goals_for     = 0
-    @goals_against = @home_goals_against = @away_goals_against = 0
-    @pts    = @home_pts    = @away_pts    = 0
-  end
-end # class StandingsLine
-
-
-class Match
-
-  attr_reader :team1,  :team2,
-              :score1, :score2,
-              :winner    # return 1,2,0   1 => team1, 2 => team2, 0 => draw/tie
-
-  def initialize
-    ## do nothing for now (use from_csv to setup data)
-  end
-
-  def over?()      true; end  ## for now all matches are over - in the future check date!!!
-  def complete?()  true; end  ## for now all scores are complete - in the future check scores; might be missing - not yet entered
-
-  def score_str    # pretty print scores; convenience method
-    "#{score1}-#{score2}"
-  end
-
-
-  def from_csv( row )
-    @team1 = row[ 'Team 1' ]
-    @team2 = row[ 'Team 2' ]
-
-    ft = row[ 'FT' ]
-    if ft =~ /^\d{1,2}-\d{1,2}$/   ## sanity check scores format
-      scores = ft.split('-')
-      @score1 = scores[0].to_i
-      @score2 = scores[1].to_i
-
-      ### calculate winner - use 1,2,0
-      if @score1 > @score2
-        @winner = 1
-      elsif @score2 > @score1
-        @winner = 2
-      elsif @score1 == @score2
-        @winner = 0
-      else
-        ## should never happen
-        puts "*** !!! wrong full time scores format; cannot calculate winner >>#{@score1}-#{@score2}<<; exit; sorry"
-        exit 1
-      end
-    else
-      puts "*** !!! wrong full time scores format >>#{ft}<<; exit; sorry"
-      exit 1
-    end
-    
-    ## note: return self for allowing chaining e.g. matches << Match.new.from_csv( row )
-    self
-  end
-
-end  # class Match
-
-
-
-def load_matches( path_in )
-
-  csv = CSV.read( path_in, headers: true )
-
-  matches = []
-
-  csv.each_with_index do |row,i|
-    matches << Match.new.from_csv( row )
-  end
-
-  matches
-end
-
+end # module Struct
+end # module SportDb

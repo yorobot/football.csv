@@ -8,19 +8,24 @@ require 'pp'
 require 'fetcher'
 
 
+
+require_relative 'import/lib/read'
+
+
+
 ### our own code
 
 require './repos'
 require './leagues'
-require './leagues_old'
 require './teams'
 require './footballdata'
 
 
-require './scripts/standings'
+
+
+
 require './scripts/utils'
 require './scripts/leagues'
-require './scripts/convert'
 require './scripts/teams'
 
 
@@ -33,5 +38,3 @@ Dir.glob('./tasks/**/*.rake').each do |r|
   import r
   # see blog.smartlogicsolutions.com/2009/05/26/including-external-rake-files-in-your-projects-rakefile-keep-your-rake-tasks-organized/
 end
-
-

@@ -81,7 +81,7 @@ FOOTBALLDATA_SOURCES.each do |country_key, sources|
         league  = SportDb::Importer::League.find( league_key )
 
         ## e.g. ./dl/eng-england/2017-18/E0.csv
-        matches_txt = find_matches_in_txt( "./dl/#{COUNTRY_REPOS[country_key]}/#{season_key}/#{league_key_txt}.csv" )
+        matches_txt = CsvMatchReader.read( "./dl/#{COUNTRY_REPOS[country_key]}/#{season_key}/#{league_key_txt}.csv" )
         puts "#{matches_txt.size} matches:"
 
         update_matches_txt( matches_txt,
@@ -110,7 +110,7 @@ FOOTBALLDATA_SOURCES_II.each do |country_key, league_key_txt|
   season_keys.each do |season_key|
     season  = SportDb::Importer::Season.find( season_key )
 
-    matches_txt = find_matches_in_txt( "./dl/#{COUNTRY_REPOS[country_key]}/#{league_key_txt}.csv",
+    matches_txt = CsvMatchReader.read( "./dl/#{COUNTRY_REPOS[country_key]}/#{league_key_txt}.csv",
                                        filters: { 'Season' => season_key } )
     puts "#{matches_txt.size} matches:"
 

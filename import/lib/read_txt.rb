@@ -19,21 +19,14 @@ TEAMS = { }
 
 
 
-MatchStruct = Struct.new( :date,
-                          :team1,   :team2,
-                          :score1,  :score2,
-                          :score1i, :score2i)    ## rename to MatchRow, MatchTxt, etc. - why? why not?
 
 
-def find_header( headers, candidates )
-  candidates.each do |candidate|
-     return candidate if headers.include? candidate  ## bingo!!!
-  end
-  nil  ## no matching header  found!!!
-end
 
 
-def find_matches_in_txt( path, headers: nil, filters: nil )
+class CsvMatchReader
+
+
+def self.read( path, headers: nil, filters: nil )
 
   headers_mapping = {}
 
@@ -52,18 +45,30 @@ def find_matches_in_txt( path, headers: nil, filters: nil )
     # note: greece 2001-02 etc. use HT  -  check CVS reader  row['HomeTeam'] may not be nil but an empty string?
     #   e.g. row['HomeTeam'] || row['HT'] will NOT work for now
 
-    headers_mapping[:team1]  = find_header( headers, ['Team 1', 'Team.1', 'HomeTeam', 'HT', 'Home'] )
-    headers_mapping[:team2]  = find_header( headers, ['Team 2', 'Team.2', 'AwayTeam', 'AT', 'Away'] )
-    headers_mapping[:date]   = find_header( headers, ['Date'] )
+    if find_header( headers, ['Team 1']) && find_header( headers, ['Team 2'])
+       ## assume our own football.csv format, see github.com/footballcsv
+       headers_mapping[:team1]  = find_header( headers, ['Team 1'] )
+       headers_mapping[:team2]  = find_header( headers, ['Team 2'] )
+       headers_mapping[:date]   = find_header( headers, ['Date'] )
 
-    ## note: FT = Full Time, HG = Home Goal, AG = Away Goal
-    headers_mapping[:score1] = find_header( headers, ['FTHG', 'HG'] )
-    headers_mapping[:score2] = find_header( headers, ['FTAG', 'AG'] )
+       ## check for all-in-one full time (ft) and half time (ht9 scores?
+       headers_mapping[:score]  = find_header( headers, ['FT'] )
+       headers_mapping[:scorei] = find_header( headers, ['HT'] )
+    else
+       ## else try footballdata.uk and others
+       headers_mapping[:team1]  = find_header( headers, ['HomeTeam', 'HT', 'Home'] )
+       headers_mapping[:team2]  = find_header( headers, ['AwayTeam', 'AT', 'Away'] )
+       headers_mapping[:date]   = find_header( headers, ['Date'] )
 
-    ## check for half time scores ?
-    ##  note: HT = Half Time
-    headers_mapping[:score1i] = find_header( headers, ['HTHG'] )
-    headers_mapping[:score2i] = find_header( headers, ['HTAG'] )
+       ## note: FT = Full Time, HG = Home Goal, AG = Away Goal
+       headers_mapping[:score1] = find_header( headers, ['FTHG', 'HG'] )
+       headers_mapping[:score2] = find_header( headers, ['FTAG', 'AG'] )
+
+       ## check for half time scores ?
+       ##  note: HT = Half Time
+       headers_mapping[:score1i] = find_header( headers, ['HTHG'] )
+       headers_mapping[:score2i] = find_header( headers, ['HTAG'] )
+    end
   end
 
   pp headers_mapping
@@ -124,24 +129,51 @@ def find_matches_in_txt( path, headers: nil, filters: nil )
 
     date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
 
+    score1  = nil
+    score2  = nil
+    score1i = nil
+    score2i = nil
 
-    score1 = row[ headers_mapping[ :score1 ]]
-    score2 = row[ headers_mapping[ :score2 ]]
+    ## check for full time scores ?
+    if headers_mapping[ :score1 ] && headers_mapping[ :score2 ]
+      score1 = row[ headers_mapping[ :score1 ]]
+      score2 = row[ headers_mapping[ :score2 ]]
+      ## todo: add to_i if not blank? why? why not?
+    end
 
     ## check for half time scores ?
     if headers_mapping[ :score1i ] && headers_mapping[ :score2i ]
       score1i = row[ headers_mapping[ :score1i ]]
       score2i = row[ headers_mapping[ :score2i ]]
-    else
-      score1i = nil
-      score2i = nil
+      ## todo: add to_i if not blank? why? why not?
+    end
+
+    ## check for all-in-one full time scores?
+    if headers_mapping[ :score ]
+      ft = row[ headers_mapping[ :score ] ]
+      if ft =~ /^\d{1,2}-\d{1,2}$/   ## sanity check scores format
+        scores = ft.split('-')
+        score1 = scores[0].to_i
+        score2 = scores[1].to_i
+      end
+      ## todo/fix: issue warning if non-empty!!! and not matching format!!!!
+    end
+
+    if headers_mapping[ :scorei ]
+      ht = row[ headers_mapping[ :scorei ] ]
+      if ht =~ /^\d{1,2}-\d{1,2}$/   ## sanity check scores format
+        scores = ht.split('-')
+        score1i = scores[0].to_i
+        score2i = scores[1].to_i
+      end
+      ## todo/fix: issue warning if non-empty!!! and not matching format!!!!
     end
 
 
-    match = MatchStruct.new( date,
-                             team1,  team2,
-                             score1, score2,
-                             score1i, score2i )
+    match = SportDb::Struct::Match.create( date:  date,
+                                           team1: team1,     team2: team2,
+                                           score1: score1,   score2: score2,
+                                           score1i: score1i, score2i: score2i )
     matches << match
   end
 
@@ -150,6 +182,18 @@ def find_matches_in_txt( path, headers: nil, filters: nil )
   ## note: only return team names (not hash with usage counter)
   matches
 end
+
+
+private
+
+def self.find_header( headers, candidates )
+  candidates.each do |candidate|
+     return candidate if headers.include? candidate  ## bingo!!!
+  end
+  nil  ## no matching header  found!!!
+end
+
+end # class CsvReader
 
 
 
