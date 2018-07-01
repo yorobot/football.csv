@@ -1,5 +1,32 @@
 # encoding: utf-8
 
+module SportDb
+  module Struct
+
+
+class TeamUsageLine
+  attr_accessor  :team,
+                 :matches,  ## number of matches (played),
+                 :seasons,  ## number of seasons
+                 ## :played1, ## in division 1
+                 ## :played2, ## in division 2
+                 ## :played3, ## in division 3
+                 ## :seasons1,
+                 ## :seasons2,
+                 ## :seasons3,
+                 :last_season  ## cache for last_season seen
+
+  def initialize( team )
+    @team = team
+
+    @matches  = 0
+    @seasons  = 0
+    @last_season = nil  # or use 0 or '' why? why not?
+  end
+end # class TeamUsageLine
+
+
+
 
 class TeamUsage
 
@@ -8,10 +35,10 @@ class TeamUsage
   end
 
 
-  def update( season, matches )
+  def update( matches, season: '?' )
     ## convenience - update all matches at once
     matches.each_with_index do |match,i| # note: index(i) starts w/ zero (0)
-      update_match( season, match )
+      update_match( match, season: season )
     end
     self  # note: return self to allow chaining
   end
@@ -36,7 +63,7 @@ class TeamUsage
 
 
 private
-  def update_match( season, m )   ## add a match
+  def update_match( m, season: '?' )   ## add a match
 
     line1 = @lines[ m.team1 ] || TeamUsageLine.new( m.team1 )
     line2 = @lines[ m.team2 ] || TeamUsageLine.new( m.team2 )
@@ -56,28 +83,7 @@ private
   end  # method update_match
 
 
-
 end # class TeamUsage
 
-class TeamUsageLine
-  attr_accessor  :team,
-                 :matches,  ## number of matches (played),
-                 :seasons,  ## number of seasons
-                 ## :played1, ## in division 1
-                 ## :played2, ## in division 2
-                 ## :played3, ## in division 3
-                 ## :seasons1,
-                 ## :seasons2,
-                 ## :seasons3,
-                 :last_season  ## cache for last_season seen
-
-  def initialize( team )
-    @team = team
-
-    @matches  = 0
-    @seasons  = 0
-    @last_season = nil  # or use 0 or '' why? why not?
-  end
-end # class TeamUsageLine
-
-
+end # module Struct
+end # module SportDb

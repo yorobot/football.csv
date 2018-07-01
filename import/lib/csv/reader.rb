@@ -90,9 +90,6 @@ def self.read( path, headers: nil, filters: nil )
     team1 = row[ headers_mapping[ :team1 ]]
     team2 = row[ headers_mapping[ :team2 ]]
 
-    ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
-    team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
-    team2 = TEAMS[ team2 ]   if TEAMS[ team2 ]
 
     ## check if data present - if not skip (might be empty row)
     if team1.nil? && team2.nil?
@@ -101,8 +98,20 @@ def self.read( path, headers: nil, filters: nil )
       next
     end
 
+    ## remove possible match playeed counters e.g. (4) (11) etc.
+    team1 = team1.sub( /\(\d+\)/, '' ).strip
+    team2 = team2.sub( /\(\d+\)/, '' ).strip
+
+    ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
+    team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
+    team2 = TEAMS[ team2 ]   if TEAMS[ team2 ]
+
+
     date = row[ headers_mapping[ :date ]]
 
+    ## remove possible weekday or weeknumber  e.g. (Fri) (4) etc.
+    date = date.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
+    date = date.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
     date = date.strip   # make sure not leading or trailing spaces left over
 
     if date =~ /^\d{2}\/\d{2}\/\d{4}$/
@@ -111,6 +120,8 @@ def self.read( path, headers: nil, filters: nil )
       date_fmt = '%d/%m/%y'   # e.g. 17/08/02
     elsif date =~ /^\d{4}-\d{2}-\d{2}$/      ## "standard" / default date format
       date_fmt = '%Y-%m-%d'   # e.g. 1995-08-04
+    elsif date =~ /^\d{1,2} \w{3} \d{4}$/
+      date_fmt = '%d %b %Y'   # e.g. 8 Jul 2017
     else
       puts "*** !!! wrong (unknown) date format >>#{date}<<; cannot continue; fix it; sorry"
       exit 1
@@ -128,6 +139,7 @@ def self.read( path, headers: nil, filters: nil )
       score1 = row[ headers_mapping[ :score1 ]]
       score2 = row[ headers_mapping[ :score2 ]]
       ## todo: add to_i if not blank? why? why not?
+      ##  note: check for blank string!! e.g. "".to_i => 0  (we need nil)
     end
 
     ## check for half time scores ?

@@ -18,9 +18,11 @@ def convert_csv( path_in, path_out )
   ##
 
 
+  ## track match played for team
+  played = Hash.new(0)
 
   out = File.new( path_out, 'w' )    ## fix: use utf8!!!!!!!
-  out <<  "Date,Team 1,Team 2,FT,HT\n"  # add header
+  out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
 
   matches_txt.each_with_index do |match,i|
 
@@ -28,26 +30,45 @@ def convert_csv( path_in, path_out )
        puts "[#{i}]:" + match.inspect
     end
 
-
     values = []
-    values << match.date     ## note: assumes string for now e.g. 2018-11-22
+    values << "?"   ## match round - fix - add!!!!
 
-    values << match.team1
-    values << match.team2
+
+    ## note:
+    ##   as a convention add all auto-calculated values in ()
+    ##  e.g. weekday e.g. (Fri), weeknumber (22), matches played (2), etc.
+
+    ## for easier double-checking of rounds and dates
+    ##  (auto-)add weekday and weeknumber
+    if match.date
+      ## note: assumes string for now e.g. 2018-11-22
+      date = Date.strptime( match.date, '%Y-%m-%d' )
+      values << date.strftime( '(%a) %-d %b %Y (%-W)' )   ## print weekday e.g. Fri, Sat, etc.
+    else
+      values << '?'
+    end
+
+    team1_played = played[match.team1] += 1
+    team2_played = played[match.team2] += 1
+
+    values << "#{match.team1} (#{team1_played})"
 
     if match.score1 && match.score2
       values << match.score_str
     else
       # no (or incomplete) full time score; add empty
-      values << ''
+      values << '?'
     end
 
     if match.score1i && match.score2i
       values << match.scorei_str
     else
       # no (or incomplete) half time score; add empty
-      values << ''
+      values << '?'
     end
+
+    values << "#{match.team2} (#{team2_played})"
+
 
     out << values.join( ',' )
     out << "\n"

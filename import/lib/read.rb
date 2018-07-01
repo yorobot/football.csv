@@ -19,6 +19,8 @@ require 'sportdb/models'
 # our own code
 require_relative 'structs/match'
 require_relative 'structs/standings'
+require_relative 'structs/teams'
+
 
 require_relative 'csv/reader'
 require_relative 'csv/package'

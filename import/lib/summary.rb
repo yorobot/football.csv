@@ -3,8 +3,9 @@
 
 def build_summary_report( repo, path: )
 
-  buf_summary = ""
+  buf_summaries = []   ## use one summary for every level for now
   buf_details = ""
+
 
   pack = CsvPackage.new( repo, path: path )
 
@@ -25,10 +26,8 @@ def build_summary_report( repo, path: )
      ## todo: add total goals e.g.  187 goals or something!!!!
 
       buf_details << "  - #{matches.size} matches - "
-      buf_details << "start: #{start_date.strftime( '%Y-%m-%d' )}"
-      buf_details << " (#{start_date.strftime( '%a' )}), "   ## print weekday
-      buf_details << "end: #{end_date.strftime( '%Y-%m-%d' )}"
-      buf_details << " (#{end_date.strftime( '%a' )})"   ## print weekday
+      buf_details << "start: #{start_date.strftime( '%a %b/%-d %Y' )}, "
+      buf_details << "end: #{end_date.strftime( '%a %b/%-d %Y' )}"
       buf_details << "\n"
 
 
@@ -51,13 +50,21 @@ def build_summary_report( repo, path: )
 
       ## todo: add total goals e.g.  187 goals or something!!!!
 
+
+      ## todo/fix:
+      ##   use level (e.g. 1-bundesliga)
+      #    from file instead of loop index for summary index - why? why not?
+      #     will handle missing leagues in hierachy
+      #     or handles 3a,3b !!!!! etc.  (see england)
+
+      buf_summaries[i] ||= ''    ## init summary if first time
+      buf_summary = buf_summaries[i]
+
       buf_summary << "- [`#{season_file}`](#{season_file}) => "
       buf_summary << "#{team_usage.size} teams / "
       buf_summary << "#{matches.size} matches / "
-      buf_summary << "start: #{start_date.strftime( '%Y-%m-%d' )}"
-      buf_summary << " (#{start_date.strftime( '%a' )}), "   ## print weekday
-      buf_summary << "end: #{end_date.strftime( '%Y-%m-%d' )}"
-      buf_summary << " (#{end_date.strftime( '%a' )})"   ## print weekday
+      buf_summary << "start: #{start_date.strftime( '%a %b/%-d %Y' )}, "
+      buf_summary << "end: #{end_date.strftime( '%a %b/%-d %Y' )}"
 
       ## check all teams with equal number of matches - if not warn!!
       if team_usage.first[1] != team_usage.last[1]
@@ -69,5 +76,51 @@ def build_summary_report( repo, path: )
     buf_details << "\n"
   end
 
-  "# Summary\n\n" + buf_summary + "\n\n" + buf_details
+  "# Summary\n\n" + buf_summaries.join( "\n<!-- break -->\n" ) + "\n\n" + buf_details
 end
+
+
+
+def build_teams_report( repo, path: )
+
+  ## find all teams and generate a map w/ all teams n some stats
+  teams = SportDb::Struct::TeamUsage.new
+
+
+  pack = CsvPackage.new( repo, path: path )
+
+  season_entries = pack.find_entries_by_season
+  season_entries.each do |season_entry|
+    season_dir   = season_entry[0]
+    season_files = season_entry[1]    ## .csv (data)files
+
+    season_files.each_with_index do |season_file,i|
+      ## note: assume last directory is the season (season folder)
+      season = File.basename( File.dirname( season_file ) )   # get eg. 2011-12
+      puts "  season=>#{season}<"
+
+      matches   = CsvMatchReader.read( pack.expand_path( season_file ) )
+
+      teams.update( matches, season: season )
+    end
+  end
+
+  buf = ''
+  buf << "## Team Usage Stats\n\n"
+
+  ary = teams.to_a
+
+  buf << "```\n"
+  buf << "  #{ary.size} teams:\n"
+
+  ary.each_with_index do |t,j|
+    buf << ('  %5s  '   % "[#{j+1}]")
+    buf << ('%-28s  '   % t.team)
+    buf << (':: %4d matches in ' % t.matches)
+    buf << ('%3d seasons' % t.seasons)
+    buf << "\n"
+  end
+  buf << "```\n"
+
+  buf
+end # method build_teams_report
