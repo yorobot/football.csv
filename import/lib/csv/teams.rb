@@ -1,9 +1,23 @@
 # encoding: utf-8
 
 
+## unify team names; team (builtin/known/shared) name mappings
+
+
+## todo: check if defined?
+##    if defined use merge hash - why? why not?
+
+
+## used by CsvMatchReader
+
 ## cleanup team names - use local ("native") name with umlaut etc.
-TEAMS = {
-  ### de-deutschland
+
+
+
+##############################
+### de-deutschland
+
+TEAMS_DE = {
   'Bayern Munich'      => 'Bayern München',
   'Bayern Muenchen'    => 'Bayern München',
   'Munich 1860'        => 'TSV 1860 München',
@@ -25,8 +39,12 @@ TEAMS = {
   'Gutersloh'           => 'Gütersloh',
   'Lubeck'              => 'Lübeck',
   'Osnabruck'           => 'Osnabrück',
+}
 
-  ### tr-turkey
+
+############################################
+### tr-turkey
+TEAMS_TR = {
   'Karabukspor'     => 'Karabükspor',
   'Kasimpasa'       => 'Kasımpaşa',
   'Fenerbahce'      => 'Fenerbahçe',
@@ -36,3 +54,12 @@ TEAMS = {
   'Eskisehirspor'   => 'Eskişehirspor',
 }
 
+
+
+##
+##  todo/fix: change to TEAM_MAPPINGS  - why? why not?
+
+
+## merge all hashes into one (TEAMS hash)
+##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
+TEAMS = [TEAMS_DE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }

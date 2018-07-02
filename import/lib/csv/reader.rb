@@ -1,12 +1,6 @@
 # encoding: utf-8
 
 
-## unify team names; team (builtin/known/shared) name mappings
-TEAMS = { }
-
-
-
-
 ##
 ##  todo/fix: always use utf8 in file read/write!!!
 

@@ -23,7 +23,7 @@ pp pack.expand_path( season_files[0] )
 
 
 puts build_summary_report( 'be-belgium', path: './o' )
-puts build_teams_report( 'be-belgium', path: './o' )
+## puts build_teams_report( 'be-belgium', path: './o' )
 
 ## puts build_summary_report( 'fr-france', path: './o' )
 ## puts build_teams_report( 'fr-france', path: './o' )

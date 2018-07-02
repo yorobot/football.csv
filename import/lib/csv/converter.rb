@@ -1,7 +1,10 @@
 # encoding: utf-8
 
 
-def convert_csv( path_in, path_out )
+
+class CsvMatchConverter
+
+def self.convert( path_in, path_out )
   puts ''
   puts "convert >>#{path_in}<< to >>#{path_out}<<"
 
@@ -76,3 +79,5 @@ def convert_csv( path_in, path_out )
 
   out.close
 end
+
+end # class CsvMatchConverter

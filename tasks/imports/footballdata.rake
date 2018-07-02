@@ -98,7 +98,7 @@ def convert_repo( repo, sources )
       ## makedirs_p for out_path
       FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
 
-      convert_csv( in_path, out_path )
+      CsvMatchConverter.convert( in_path, out_path )
     end
   end
 end

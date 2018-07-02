@@ -17,7 +17,6 @@ require_relative 'import/lib/read'
 
 require './repos'
 require './leagues'
-require './teams'
 require './footballdata'
 
 

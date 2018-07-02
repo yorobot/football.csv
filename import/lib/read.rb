@@ -22,18 +22,19 @@ require_relative 'structs/standings'
 require_relative 'structs/teams'
 
 
+require_relative 'csv/teams'
 require_relative 'csv/reader'
+require_relative 'csv/converter'
 require_relative 'csv/package'
+require_relative 'csv/reports/seasons.rb'
+require_relative 'csv/reports/summary.rb'
+require_relative 'csv/reports/teams.rb'
+
 
 
 
 require_relative 'read_txt'
 require_relative 'read_db'
-
-require_relative 'convert'
-
-require_relative 'summary'
-
 
 
 
