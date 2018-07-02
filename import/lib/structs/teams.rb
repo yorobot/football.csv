@@ -7,21 +7,15 @@ module SportDb
 class TeamUsageLine
   attr_accessor  :team,
                  :matches,  ## number of matches (played),
-                 :seasons,  ## number of seasons
-                 ## :played1, ## in division 1
-                 ## :played2, ## in division 2
-                 ## :played3, ## in division 3
-                 ## :seasons1,
-                 ## :seasons2,
-                 ## :seasons3,
-                 :last_season  ## cache for last_season seen
+                 :seasons,  ## (optianl) array of seasons, use seasons.size for count
+                 :levels    ## (optional) hash of levels (holds mapping level to TeamUsageLine)
 
   def initialize( team )
     @team = team
 
     @matches  = 0
-    @seasons  = 0
-    @last_season = nil  # or use 0 or '' why? why not?
+    @seasons  = []
+    @levels   = {}
   end
 end # class TeamUsageLine
 
@@ -35,10 +29,10 @@ class TeamUsage
   end
 
 
-  def update( matches, season: '?' )
+  def update( matches, season: '?', level: nil )
     ## convenience - update all matches at once
     matches.each_with_index do |match,i| # note: index(i) starts w/ zero (0)
-      update_match( match, season: season )
+      update_match( match, season: season, level: level )
     end
     self  # note: return self to allow chaining
   end
@@ -63,23 +57,28 @@ class TeamUsage
 
 
 private
-  def update_match( m, season: '?' )   ## add a match
+  def update_match( m, season: '?', level: nil )   ## add a match
 
-    line1 = @lines[ m.team1 ] || TeamUsageLine.new( m.team1 )
-    line2 = @lines[ m.team2 ] || TeamUsageLine.new( m.team2 )
+    line1 = @lines[ m.team1 ] ||= TeamUsageLine.new( m.team1 )
+    line2 = @lines[ m.team2 ] ||= TeamUsageLine.new( m.team2 )
 
     line1.matches +=1
     line2.matches +=1
 
-    line1.seasons +=1   if season != line1.last_season
-    line2.seasons +=1   if season != line2.last_season
+    ## include season if not seen before (allow season in multiple files!!!)
+    line1.seasons << season    unless line1.seasons.include?( season )
+    line2.seasons << season    unless line2.seasons.include?( season )
 
+    if level
+      line1_level = line1.levels[ level ] ||= TeamUsageLine.new( m.team1 )
+      line2_level = line2.levels[ level ] ||= TeamUsageLine.new( m.team2 )
 
-    line1.last_season = season
-    line2.last_season = season
+      line1_level.matches +=1
+      line2_level.matches +=1
 
-    @lines[ m.team1 ] = line1
-    @lines[ m.team2 ] = line2
+      line1_level.seasons << season    unless line1_level.seasons.include?( season )
+      line2_level.seasons << season    unless line2_level.seasons.include?( season )
+    end
   end  # method update_match
 
 
