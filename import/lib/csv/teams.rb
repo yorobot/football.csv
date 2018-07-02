@@ -44,21 +44,6 @@ TEAMS_DE = {
 }
 
 
-############################################
-## tr-turkey
-
-TEAMS_TR = {
-  'Karabukspor'     => 'Karabükspor',
-  'Kasimpasa'       => 'Kasımpaşa',
-  'Fenerbahce'      => 'Fenerbahçe',
-  'Genclerbirligi'  => 'Gençlerbirliği',
-  'Elazigspor'      => 'Elazığspor',
-  'Besiktas'        => 'Beşiktaş',
-  'Eskisehirspor'   => 'Eskişehirspor',
-}
-
-
-
 #############################################
 ## fr-france
 
@@ -122,6 +107,75 @@ TEAMS_FR = {
 ##   Paris St Germain: [Paris SG, PSG, ...]
 
 
+############################
+## es-espana (spain) - [es]
+
+
+TEAMS_ES = {
+  'Malaga'      => 'Málaga CF',
+  'Sevilla'     => 'Sevilla FC',
+  'Ath Madrid'  => 'Atlético Madrid',   ## Atlético de Madrid
+  'Las Palmas'  => 'UD Las Palmas',
+  'Espanol'     => 'RCD Español',
+  'Getafe'      => 'Getafe CF',
+  'La Coruna'   => 'RCD La Coruña',
+  'Sociedad'    => 'Real Sociedad',
+  'Vallecano'   => 'Rayo Vallecano',
+  'Valencia'    => 'Valencia CF',
+  'Ath Bilbao'  => 'Athletic Club Bilbao',  ## Athletic Club
+  'Barcelona'   => 'FC Barcelona',
+  'Betis'       => 'Real Betis',
+  'Levante'     => 'Levante UD',
+  'Celta'       => 'RC Celta Vigo',   ## R. C. Celta de Vigo
+  'Sp Gijon'    => 'Sporting Gijón',   ## Sporting de Gijón
+  'Real Madrid' => 'Real Madrid CF',
+  'Granada'     => 'Granada CF',
+  'Eibar'       => 'SD Eibar',
+  'Villarreal'  => 'Villarreal CF',
+}
+
+
+##########################################
+# be-belgium   - [nl,fr,de]
+
+
+TEAMS_BE = {
+  'Anderlecht'   => 'RSC Anderlecht',
+  'Antwerp'      => 'Royal Antwerp FC',
+  'Charleroi'    => 'Sporting Charleroi',   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
+  ## 'Club Brugge'  => 'Club Brugge',  ## Club Brugge KV
+  'Eupen'        => 'KAS Eupen',    ## [de]
+  'Genk'         => 'KRC Genk',
+  'Gent'         => 'KAA Gent',
+  'Kortrijk'     => 'KV Kortrijk',
+  'Lokeren'      => 'KSC Lokeren OV',  ##  Sporting Lokeren
+  'Mechelen'     => 'KV Mechelen',
+  'Mouscron'     => 'Royal Excel Moeskroen',
+  'Oostende'     => 'KV Oostende',
+  'St Truiden'   => 'Sint-Truidense VV',
+  'Standard'     => 'Standard Liège',  ## [fr] Standard de Liège
+  'Waasland-Beveren'  => 'KVRS Waasland - SK Beveren',
+  'Waregem'      => 'SV Zulte Waregem',
+   'Westerlo'    => 'KVC Westerlo',
+  ## 'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
+  ## 'Cercle Brugge' => 'Cercle Brugge',   ## Cercle Brugge KSV
+   'Lierse'  => 'K. Lierse SK',
+}
+
+
+############################################
+## tr-turkey
+
+TEAMS_TR = {
+  'Karabukspor'     => 'Karabükspor',
+  'Kasimpasa'       => 'Kasımpaşa',
+  'Fenerbahce'      => 'Fenerbahçe',
+  'Genclerbirligi'  => 'Gençlerbirliği',
+  'Elazigspor'      => 'Elazığspor',
+  'Besiktas'        => 'Beşiktaş',
+  'Eskisehirspor'   => 'Eskişehirspor',
+}
+
 
 
 ##
@@ -130,5 +184,5 @@ TEAMS_FR = {
 
 ## merge all hashes into one (TEAMS hash)
 ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
-TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
+TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_BE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
 
