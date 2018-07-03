@@ -11,8 +11,8 @@ def self.read( path, headers: nil, filters: nil )
 
   headers_mapping = {}
 
-  csv = CSV.read( path, headers: true )
-
+  csv = CSV.read( path, headers: true,
+                        external_encoding: 'utf-8' )  ## note: always use (assume) utf8 for now
 
   pp csv
 

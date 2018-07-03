@@ -70,8 +70,12 @@ def convert_repo( repo, sources )
 
   in_root  = "./dl/#{repo}"
 
-  out_root = "./o/#{repo}"    ## for debugging / testing
-  ## out_root = "../../footballcsv/#{repo}"    ## for "real" updates
+  out_repo_path = "../../footballcsv"
+  ## out_repo_path = "./o"    ## for debugging / testing
+
+  ## e.g. ../../footballcsv/be-belgium or ./o/be-belgium etc.
+  out_root = "#{out_repo_path}/#{repo}"    ## for "real" updates
+
 
   sources.each do |rec|
     dirname   = rec[0]
@@ -101,4 +105,10 @@ def convert_repo( repo, sources )
       CsvMatchConverter.convert( in_path, out_path )
     end
   end
+
+  ###################################################
+  ## (auto-) add / update SUMMARY.md report
+  pack = CsvPackage.new( repo, path: out_repo_path )
+  report = SummaryReport.new( pack )
+  report.save( "#{out_root}/SUMMARY.md" )
 end
