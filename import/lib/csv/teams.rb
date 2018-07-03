@@ -247,7 +247,7 @@ TEAMS_NL={
 'Heracles'        => 'Heracles Almelo',
 'MVV Maastricht'  => 'MVV Maastricht',
 'NAC Breda'       => 'NAC Breda',
-'Nijmegen'        => 'NEC	Nijmegen',
+'Nijmegen'        => 'NEC Nijmegen',
 'PSV Eindhoven'   => 'PSV Eindhoven',
 
 'Roda'             => 'Roda JC Kerkrade',
@@ -321,7 +321,7 @@ TEAMS_TR = {
 
 ## merge all hashes into one (TEAMS hash)
 ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
-TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_BE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
+TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_NL, TEAMS_BE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
 
 
 
