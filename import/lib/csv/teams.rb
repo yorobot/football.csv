@@ -115,9 +115,14 @@ TEAMS_FR = {
 
 TEAMS_ES = {
   'Malaga'      => 'Málaga CF',
-  'Sevilla'     => 'Sevilla FC',
-  'Ath Madrid'  => 'Atlético Madrid',   ## Atlético de Madrid
-  'Ath Madrid B' => 'Atlético Madrid B', 
+  'Malaga B'    => 'Málaga CF B',
+
+  'Sevilla'       => 'Sevilla FC',
+  'Sevilla B'     => 'Sevilla FC B',
+
+  'Ath Madrid'    => 'Atlético Madrid',   ## Atlético de Madrid
+  'Ath Madrid B'  => 'Atlético Madrid B', 
+
   'Las Palmas'  => 'UD Las Palmas',
   'Espanol'     => 'RCD Español',
   'Getafe'      => 'Getafe CF',
@@ -133,8 +138,10 @@ TEAMS_ES = {
   'Levante'     => 'Levante UD',
   'Celta'       => 'RC Celta Vigo',   ## R. C. Celta de Vigo
   'Sp Gijon'    => 'Sporting Gijón',   ## Sporting de Gijón
-  'Real Madrid' => 'Real Madrid CF',
+  'Real Madrid'   => 'Real Madrid CF',
+  'Real Madrid B' => 'Real Madrid CF B',
 
+  
   'Alaves'    => 'Deportivo Alavés',
   'Albacete'  => 'Albacete Balompié',
   'Alcorcon'  => 'A. D. Alcorcón',
@@ -171,6 +178,51 @@ TEAMS_ES = {
 
   'Eibar'       => 'SD Eibar',
   'Villarreal'  => 'Villarreal CF',  
+  'Villareal'     => 'Villarreal CF',    ## fix typo!!
+  'Villarreal B'  => 'Villarreal CF B',
+
+'Jaen'       => 'Real Jaén CF',
+'Leganes'    => 'CD Leganés',
+'Leonesa'    => 'Cultural Leonesa',
+'Lerida'     => 'UE Lleida',
+'Lleida'     => 'UE Lleida',
+'Llagostera' => 'UE Llagostera',
+'Logrones'   => 'CD Logroñés',
+'Lorca'      => 'Lorca FC',
+'Lugo'       => 'CD Lugo',
+'Mallorca'   => 'RCD Mallorca',
+'Mallorca B'  => 'RCD Mallorca B',
+'Merida'     => 'CP Mérida',
+'Mirandes'   => 'CD Mirandés',
+'Murcia'     => 'Real Murcia CF',
+
+'Numancia'      => 'CD Numancia',
+'Osasuna'       => 'CA Osasuna',
+'Ourense'       => 'CD Ourense',
+'Orense'        => 'CD Ourense',  ## fix typo!!
+'Oviedo'        => 'Real Oviedo',
+'Poli Ejido'    => 'Polideportivo Ejido',
+'Ponferradina'  => 'SD Ponferradina',
+'Pontevedra'    => 'Pontevedra CF',
+
+'Real Union'     => 'Real Unión',
+'Recreativo'     => 'Recreativo Huelva',
+'Reus Deportiu'  => 'CF Reus',
+'Sabadell'       => 'CE Sabadell',
+'Salamanca'      => 'UD Salamanca',
+'Santander'      => 'Real Racing Santander',
+
+'Tenerife'       => 'CD Tenerife',
+'Terrassa'       => 'Terrassa FC',
+'Toledo'         => 'CD Toledo',
+'U.Las Palmas'   => 'Universidad Las Palmas',
+'UCAM Murcia'    => 'UCAM Murcia',
+
+'Valladolid'     => 'Real Valladolid CF',
+'Vecindario'     => 'UD Vecindario',
+
+'Xerez'          => 'Xerez CD',
+'Zaragoza'       => 'Real Zaragoza',  
 }
 
 
