@@ -15,6 +15,23 @@ def build_team_usage_in_matches_txt( matches )
 end
 
 
+def calc_goals_in_matches_txt( matches )
+  ## total goals
+  goals = 0
+  matches.each_with_index do |match|
+    if match.score1 && match.score2
+      goals += match.score1
+      goals += match.score2
+
+      ## todo: add after extra time? if knock out (k.o.) - why? why not?
+      ##   make it a flag/opt?
+    end
+  end
+  goals
+end
+
+
+
 def find_teams_in_matches_txt( matches )
 
   teams = Hash.new( 0 )   ## default value is 0

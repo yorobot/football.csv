@@ -14,3 +14,5 @@ pp TEAMS_TR
 puts "-----------"
 
 pp TEAMS
+
+pp PRINT_TEAMS    ## pretty print team names (reverse hash lookup)

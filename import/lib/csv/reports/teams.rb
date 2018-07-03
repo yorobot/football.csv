@@ -1,20 +1,24 @@
 # encoding: utf-8
 
 
-def build_teams_report( repo, path: )
+class TeamsReport    ## change to CsvPackageTeamsReport - why? why not?
 
+
+def initialize( pack )
+  @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
+end
+
+
+def build_summary
   ###
   ## todo - add count for seasons by level !!!!!
   ##   e.g. level 1 - 25 seasons, 2 - 14 seasons, etc.
-
 
   ## find all teams and generate a map w/ all teams n some stats
   teams = SportDb::Struct::TeamUsage.new
   levels = Hash.new(0)   ## keep a counter of levels usage (more than one level?)
 
-  pack = CsvPackage.new( repo, path: path )
-
-  season_entries = pack.find_entries_by_season
+  season_entries = @pack.find_entries_by_season
   season_entries.each do |season_entry|
     season_dir   = season_entry[0]
     season_files = season_entry[1]    ## .csv (data)files
@@ -33,7 +37,7 @@ def build_teams_report( repo, path: )
 
       levels[level] += 1   ## keep track of level usage
 
-      matches   = CsvMatchReader.read( pack.expand_path( season_file ) )
+      matches   = CsvMatchReader.read( @pack.expand_path( season_file ) )
 
       teams.update( matches, season: season, level: level )
     end
@@ -51,7 +55,12 @@ def build_teams_report( repo, path: )
 
   ary.each_with_index do |t,j|
     buf << ('  %5s  '   % "[#{j+1}]")
-    buf << ('%-28s  '   % t.team)
+    if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
+      team_name_with_marker = "**#{t.team}**"    ## add (*) - why? why not?
+    else
+      team_name_with_marker = "#{t.team} (???)"
+    end
+    buf << ('%-30s  '   % team_name_with_marker)
     buf << (':: %4d matches in ' % t.matches)
     buf << ('%3d seasons' % t.seasons.size)
 
@@ -80,12 +89,34 @@ def build_teams_report( repo, path: )
   buf << "\n\n"
 
 
+  ## show list of teams without known pretty print name
+  ## show details
+  buf << "### Pretty Print Teams\n\n"
+
+  names = []
+  ary = teams.to_a
+  ary.each do |t|
+    names << t.team     if PRINT_TEAMS[t.team].nil?
+  end
+  names = names.sort   ## sort from a-z
+
+  buf << "Unknown / Missing / ??? (#{names.size}):\n\n"
+  buf << "#{names.join(', ')}\n"
+  buf << "\n"
+
+
   ## show details
   buf << "### Season\n\n"
 
   ary = teams.to_a
   ary.each do |t|
-    buf << "- **#{t.team}** - #{t.seasons.size} seasons in #{t.levels.size} levels\n"
+    buf << "- "
+    if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
+      team_name_with_marker = "**#{t.team}**"    ## add (*) - why? why not?
+    else
+      team_name_with_marker = "#{t.team} (???)"
+    end
+    buf << "#{team_name_with_marker} - #{t.seasons.size} seasons in #{t.levels.size} levels\n"
     levels.each do |level_key,_|
        level = t.levels[ level_key ]
        if level
@@ -98,4 +129,13 @@ def build_teams_report( repo, path: )
   buf << "\n"
 
   buf
-end # method build_teams_report
+end # method build_summary
+
+
+def save( path )
+  File.open( path, 'w:utf-8' ) do |f|
+    f.write build_summary
+  end
+end
+
+end # class TeamsReport

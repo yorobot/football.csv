@@ -85,11 +85,13 @@ TEAMS_FR = {
    'Nancy'           => 'AS Nancy Lorraine',
    'Niort'           => 'Chamois Niortais FC',
    'Orleans'         => 'US Orléans',
-   ## 'Paris FC'        => 'Paris FC',
    'Quevilly Rouen'  => 'US Quevilly-Rouen Métropole',  ## Quevilly-Rouen
    'Sochaux'         => 'FC Sochaux-Montbéliard',
    'Tours'           => 'Tours FC',
    'Valenciennes'    => 'Valenciennes FC',
+
+    ## as is 1:1 (register/add for pretty print names check/lookup)
+    'Paris FC'        => 'Paris FC',
 }
 
 
@@ -143,7 +145,6 @@ TEAMS_BE = {
   'Anderlecht'   => 'RSC Anderlecht',
   'Antwerp'      => 'Royal Antwerp FC',
   'Charleroi'    => 'Sporting Charleroi',   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
-  ## 'Club Brugge'  => 'Club Brugge',  ## Club Brugge KV
   'Eupen'        => 'KAS Eupen',    ## [de]
   'Genk'         => 'KRC Genk',
   'Gent'         => 'KAA Gent',
@@ -157,9 +158,12 @@ TEAMS_BE = {
   'Waasland-Beveren'  => 'KVRS Waasland - SK Beveren',
   'Waregem'      => 'SV Zulte Waregem',
    'Westerlo'    => 'KVC Westerlo',
-  ## 'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
-  ## 'Cercle Brugge' => 'Cercle Brugge',   ## Cercle Brugge KSV
    'Lierse'  => 'K. Lierse SK',
+
+   ## as is 1:1  (register/add for pretty print names check/lookup)
+   'Club Brugge'         => 'Club Brugge',  ## Club Brugge KV
+   'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
+   'Cercle Brugge'       => 'Cercle Brugge',   ## Cercle Brugge KSV
 }
 
 
@@ -186,3 +190,16 @@ TEAMS_TR = {
 ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
 TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_BE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
 
+
+
+###
+## reverse hash for lookup/list of "official / registered(?)"
+##    pretty  recommended unique (long form)
+##    team names
+
+# like invert but not lossy
+# {"one"=>1,"two"=>2, "1"=>1, "2"=>2}.inverse => {1=>["one", "1"], 2=>["two", "2"]}
+PRINT_TEAMS = TEAMS.each_with_object({}) do |(key,value),out|
+  out[value] ||= []
+  out[value] << key
+end

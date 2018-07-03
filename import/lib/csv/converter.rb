@@ -24,7 +24,7 @@ def self.convert( path_in, path_out )
   ## track match played for team
   played = Hash.new(0)
 
-  out = File.new( path_out, 'w' )    ## fix: use utf8!!!!!!!
+  out = File.new( path_out, 'w:utf-8' )    ## fix: use utf8!!!!!!!
   out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
 
   matches_txt.each_with_index do |match,i|
