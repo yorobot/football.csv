@@ -90,6 +90,38 @@ TEAMS_FR = {
    'Tours'           => 'Tours FC',
    'Valenciennes'    => 'Valenciennes FC',
 
+  'Arles'   => 'AC Arles-Avignon',
+  'Bastia'  => 'SC Bastia',
+  'Beauvais' => 'AS Beauvais Oise',
+  'Besancon' => 'Racing Besançon',     ## Besançon RC
+  'Boulogne' => 'US Boulogne',
+  'CA Bastia' => 'CA Bastia',
+  'Cannes'    => 'AS Cannes',
+  'Charleville' => 'FCO Charleville',
+  'Creteil'     => 'US Créteil',
+  'Epinal'      => 'SAS Épinal',
+  'Evian Thonon Gaillard'  => 'Évian TG FC',  ## Évian Thonon-Gaillard FC
+  'Grenoble'       => 'Grenoble Foot 38',
+  'Gueugnon'       => 'FC Gueugnon',
+  'Istres'         => 'FC Istres',
+  'Laval'          => 'Stade Lavallois',
+  'Le Mans'        => 'Le Mans FC',
+  'Libourne'       => 'FC Libourne-Saint-Seurin',
+  'Louhans-Cuis.'  => 'CS Louhans-Cuiseaux',
+  'Martigues'      => 'FC Martigues',
+  'Mulhouse'       => 'FC Mulhouse',
+  'Perpignan'      => 'Perpignan FC',
+  'Red Star'       => 'Red Star FC',
+  'Red Star 93'    => 'Red Star FC',
+  'Rouen'          => 'FC Rouen',
+  'Sedan'          => 'CS Sedan-Ardennes',
+  'Sete'           => 'FC Sète',
+  'St Brieuc'      => 'Stade Briochin',
+  'Toulon'         => 'Sporting Toulon Var',
+  'Valence'        => 'ASOA Valence',    ## Olympique Valence
+  'Vannes'         => 'Vannes OC',
+  'Wasquehal'      => 'Wasquehal Foot',   ## ES Wasquehal
+
     ## as is 1:1 (register/add for pretty print names check/lookup)
     'Paris FC'        => 'Paris FC',
 }
