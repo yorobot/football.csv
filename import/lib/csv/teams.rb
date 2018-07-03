@@ -227,6 +227,50 @@ TEAMS_ES = {
 
 
 ##########################################
+# nl-netherlands
+
+TEAMS_NL={
+
+'AZ Alkmaar'      => 'AZ Alkmaar',
+'Ajax'            => 'Ajax Amsterdam',
+'Cambuur'         => 'SC Cambuur',
+'Den Bosch'       => 'FC Den Bosch',
+'Den Haag'        => 'ADO Den Haag',
+'Dordrecht'       => 'FC Dordrecht',
+'Excelsior'       => 'SBV Excelsior',    ## SBV Excelsior Rotterdam
+'Feyenoord'       => 'Feyenoord Rotterdam',
+'For Sittard'     => 'Fortuna Sittard',
+'Go Ahead Eagles' => 'Go Ahead Eagles',
+'Graafschap'      => 'BV De Graafschap',
+'Groningen'       => 'FC Groningen',
+'Heerenveen'      => 'SC Heerenveen',
+'Heracles'        => 'Heracles Almelo',
+'MVV Maastricht'  => 'MVV Maastricht',
+'NAC Breda'       => 'NAC Breda',
+'Nijmegen'        => 'NEC	Nijmegen',
+'PSV Eindhoven'   => 'PSV Eindhoven',
+
+'Roda'             => 'Roda JC Kerkrade',
+'Roda JC'          => 'Roda JC Kerkrade',
+
+'Roosendaal'       => 'RBC Roosendaal',
+
+'Sparta'           => 'Sparta Rotterdam',
+'Sparta Rotterdam' => 'Sparta Rotterdam',
+
+'Twente'           => 'FC Twente',
+'Utrecht'          => 'FC Utrecht',
+'VVV Venlo'        => 'VVV Venlo',
+'Vitesse'          => 'Vitesse Arnhem',
+'Volendam'         => 'FC Volendam',
+'Waalwijk'         => 'RKC Waalwijk',
+'Willem II'        => 'Willem II',    ## Willem II Tilburg
+'Zwolle'           => 'PEC Zwolle',
+}
+
+
+
+##########################################
 # be-belgium   - [nl,fr,de]
 
 
