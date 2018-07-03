@@ -144,7 +144,7 @@ TEAMS_ES = {
   
   'Alaves'    => 'Deportivo Alavés',
   'Albacete'  => 'Albacete Balompié',
-  'Alcorcon'  => 'A. D. Alcorcón',
+  'Alcorcon'  => 'AD Alcorcón',
   'Alcoyano'  => 'CD Alcoyano',
   'Algeciras' => 'Algeciras CF',
   'Alicante'  => 'Alicante CF',
