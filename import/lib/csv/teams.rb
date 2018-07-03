@@ -117,6 +117,7 @@ TEAMS_ES = {
   'Malaga'      => 'Málaga CF',
   'Sevilla'     => 'Sevilla FC',
   'Ath Madrid'  => 'Atlético Madrid',   ## Atlético de Madrid
+  'Ath Madrid B' => 'Atlético Madrid B', 
   'Las Palmas'  => 'UD Las Palmas',
   'Espanol'     => 'RCD Español',
   'Getafe'      => 'Getafe CF',
@@ -124,16 +125,52 @@ TEAMS_ES = {
   'Sociedad'    => 'Real Sociedad',
   'Vallecano'   => 'Rayo Vallecano',
   'Valencia'    => 'Valencia CF',
-  'Ath Bilbao'  => 'Athletic Club Bilbao',  ## Athletic Club
-  'Barcelona'   => 'FC Barcelona',
+  'Ath Bilbao'   => 'Athletic Club Bilbao',  ## Athletic Club
+  'Ath Bilbao B' => 'Athletic Club Bilbao B',
+  'Barcelona'    => 'FC Barcelona',
+  'Barcelona B'  => 'FC Barcelona B',
   'Betis'       => 'Real Betis',
   'Levante'     => 'Levante UD',
   'Celta'       => 'RC Celta Vigo',   ## R. C. Celta de Vigo
   'Sp Gijon'    => 'Sporting Gijón',   ## Sporting de Gijón
   'Real Madrid' => 'Real Madrid CF',
-  'Granada'     => 'Granada CF',
+
+  'Alaves'    => 'Deportivo Alavés',
+  'Albacete'  => 'Albacete Balompié',
+  'Alcorcon'  => 'A. D. Alcorcón',
+  'Alcoyano'  => 'CD Alcoyano',
+  'Algeciras' => 'Algeciras CF',
+  'Alicante'  => 'Alicante CF',
+  'Almeria'   => 'UD Almería',
+
+  'Badajoz'   => 'CD Badajoz',
+  'Burgos'    => 'Burgos CF',
+
+  'Cadiz'     => 'Cádiz CF',
+  'Cartagena' => 'FC Cartagena',
+  'Castellon'  => 'CD Castellón',
+  'Ciudad de Murcia' => 'Real Murcia CF',
+  'Compostela'  => 'SD Compostela',
+  'Cordoba'     => 'Córdoba CF',
+
+   'Ecija'       => 'Écija Balompié',
+   'Elche'        => 'Elche CF',
+   'Extremadura'  => 'CF Extremadura',
+   'Ferrol'       => 'Racing Ferrol',
+
+   'Gimnastic'  => 'Gimnàstic Tarragona',
+   'Girona'     => 'Girona FC',
+
+   'Guadalajara'  => 'CD Guadalajara',
+   'Hercules'     => 'Hércules CF',
+   'Huesca'       => 'SD Huesca',
+  
+  
+  'Granada'     => 'Granada CF',   ## note: different from Granada 74 !!!
+  'Granada 74'  => 'Granada 74',  ## see https://es.wikipedia.org/wiki/Granada_74_Club_de_F%C3%BAtbol
+
   'Eibar'       => 'SD Eibar',
-  'Villarreal'  => 'Villarreal CF',
+  'Villarreal'  => 'Villarreal CF',  
 }
 
 
