@@ -284,19 +284,40 @@ TEAMS_BE = {
   'Kortrijk'     => 'KV Kortrijk',
   'Lokeren'      => 'KSC Lokeren OV',  ##  Sporting Lokeren
   'Mechelen'     => 'KV Mechelen',
-  'Mouscron'     => 'Royal Excel Moeskroen',
+
+  'Mouscron'          => 'Royal Excel Moeskroen',
+  'Mouscron-Peruwelz' => 'Royal Excel Moeskroen',
+
   'Oostende'     => 'KV Oostende',
   'St Truiden'   => 'Sint-Truidense VV',
-  'Standard'     => 'Standard Liège',  ## [fr] Standard de Liège
-  'Waasland-Beveren'  => 'KVRS Waasland - SK Beveren',
+  'Standard'          => 'Standard Liège',  ## [fr] Standard de Liège
+  'Waasland-Beveren'  => 'Waasland-Beveren',  ## KVRS Waasland - SK Beveren
   'Waregem'      => 'SV Zulte Waregem',
    'Westerlo'    => 'KVC Westerlo',
-   'Lierse'  => 'K. Lierse SK',
+   'Lierse'       => 'K Lierse SK',
 
+  'Aalst'    => 'SC Eendracht Aalst',
+  'Bergen'   => 'RAEC Mons',
+  'Beveren'   => 'KSK Beveren',
+  'Dender'    => 'FCV Dender EH',
+  'Geel'          => 'KFC Verbroedering Geel',
+  'Germinal'      => 'Germinal Beerschot',
+  'Harelbeke'     => 'KRC Harelbeke',
+  'Heusden Zolder' => 'K Heusden-Zolder',
+  'Lommel'         => 'KFC Lommel SK',
+  'Louvieroise'    => 'RAA Louviéroise',
+  'Molenbeek'      => 'RWD Molenbeek',
+  'Roeselare'   => 'KSV Roeselare',
+  'Seraing'     => 'RFC Seraing',
+  'Tubize'      => 'AFC Tubize',
+  
    ## as is 1:1  (register/add for pretty print names check/lookup)
    'Club Brugge'         => 'Club Brugge',  ## Club Brugge KV
-   'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
    'Cercle Brugge'       => 'Cercle Brugge',   ## Cercle Brugge KSV
+
+    'FC Brussels' => 'FC Brussels',
+
+    'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
 }
 
 
