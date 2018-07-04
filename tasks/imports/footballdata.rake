@@ -108,7 +108,17 @@ def convert_repo( repo, sources )
 
   ###################################################
   ## (auto-) add / update SUMMARY.md report
+  ## (auto-) add ) update README.md pages with standings
+
   pack = CsvPackage.new( repo, path: out_repo_path )
-  report = SummaryReport.new( pack )
-  report.save( "#{out_root}/SUMMARY.md" )
+
+  ### todo:
+  ## use all-in-one   pack.update_reports - why? why not?
+
+  summary_report = CsvSummaryReport.new( pack )
+  summary_report.write
+  ## note: write same as summary.save( "#{out_root}/SUMMARY.md" )
+
+  standings_writer = CsvStandingsWriter.new( pack )
+  standings_writer.write
 end

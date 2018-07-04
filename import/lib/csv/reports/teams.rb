@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 
-class TeamsReport    ## change to CsvPackageTeamsReport - why? why not?
+class CsvTeamsReport    ## change to CsvPackageTeamsReport - why? why not?
 
 
 def initialize( pack )
@@ -138,4 +138,4 @@ def save( path )
   end
 end
 
-end # class TeamsReport
+end # class CsvTeamsReport

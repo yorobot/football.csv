@@ -96,6 +96,77 @@ class Standings
   end  # to_a
 
 
+  def build( source: nil )   ## build / pretty print standings table in string buffer
+    ## keep pretty printer in struct - why? why not?
+
+
+    ## add standings table in markdown to buffer (buf)
+
+    ## todo: use different styles/formats (simple/ etc  ???)
+
+  ## simple table (only totals - no home/away)
+  ##       standings.to_a.each do |l|
+  ##         buf << '%2d. '  % l.rank
+  ##         buf << '%-28s  ' % l.team
+  ##         buf << '%2d '     % l.played
+  ##         buf << '%3d '     % l.won
+  ##         buf << '%3d '     % l.drawn
+  ##         buf << '%3d '     % l.lost
+  ##         buf << '%3d:%-3d ' % [l.goals_for,l.goals_against]
+  ##         buf << '%3d'       % l.pts
+  ##         buf << "\n"
+  ##       end
+
+    buf = ''
+    buf << "\n"
+    buf << "```\n"
+    buf << "                                        - Home -          - Away -            - Total -\n"
+    buf << "                                 Pld   W  D  L   F:A     W  D  L   F:A      F:A   +/-  Pts\n"
+
+    to_a.each do |l|
+      buf << '%2d. '  % l.rank
+      buf << '%-28s  ' % l.team
+      buf << '%2d  '     % l.played
+
+      buf << '%2d '      % l.home_won
+      buf << '%2d '      % l.home_drawn
+      buf << '%2d '      % l.home_lost
+      buf << '%3d:%-3d  ' % [l.home_goals_for,l.home_goals_against]
+
+      buf << '%2d '       % l.away_won
+      buf << '%2d '       % l.away_drawn
+      buf << '%2d '       % l.away_lost
+      buf << '%3d:%-3d  ' % [l.away_goals_for,l.away_goals_against]
+
+      buf << '%3d:%-3d ' % [l.goals_for,l.goals_against]
+
+      goals_diff = l.goals_for-l.goals_against
+      if goals_diff > 0
+        buf << '%3s  '  %  "+#{goals_diff}"
+      elsif goals_diff < 0
+        buf << '%3s  '  %  "#{goals_diff}"
+      else ## assume 0
+        buf << '     '
+      end
+
+      buf << '%3d'       % l.pts
+      buf << "\n"
+    end
+
+    buf << "```\n"
+    buf << "\n"
+
+    ## optinal: add data source if known / present
+    ##   assume (relative) markdown link for now in README.md
+    if source
+      buf << "(Source: [`#{source}`](#{source}))\n"
+      buf << "\n"
+    end
+
+    buf
+  end
+
+
 private
   def update_match( m )   ## add a match
 

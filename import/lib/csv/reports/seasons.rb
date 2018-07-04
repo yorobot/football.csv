@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 
-class SeasonsReport   ## change to CsvPackageSeasonsReport - why? why not?
+class CsvSeasonsReport   ## change to CsvPackageSeasonsReport - why? why not?
 
 def initialize( pack )
   @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
@@ -100,4 +100,4 @@ def save( path )
   end
 end
 
-end # class SeasonsReport
+end # class CsvSeasonsReport
