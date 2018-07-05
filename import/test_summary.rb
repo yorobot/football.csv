@@ -22,6 +22,7 @@ pp pack.expand_path( season_files[0] )
 
 
 
+=begin
 be = CsvPackage.new( 'be-belgium', path: './o' )
 
 be_seasons = SeasonsReport.new( be )
@@ -35,6 +36,15 @@ be_teams.save( './o/be_teams.txt' )
 be_summary = SummaryReport.new( be )
 puts be_summary.build_summary
 be_summary.save( './o/be_summary.txt' )
+=end
+
+tr = CsvPackage.new( 'tr-turkey', path: './o' )
+
+tr_summary = CsvSummaryReport.new( tr )
+puts tr_summary.build_summary
+tr_summary.save( './o/tr_summary.txt' )
+
+
 
 ## puts build_summary_report( 'be-belgium', path: './o' )
 ## puts build_teams_report( 'be-belgium', path: './o' )

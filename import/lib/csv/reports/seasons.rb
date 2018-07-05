@@ -54,6 +54,21 @@ def build_summary
       buf_details << "\n"
 
 
+      ## find all unmapped/unknown/missing teams
+      ##   with no pretty print team names in league
+      names = []
+      team_usage.each do |rec|
+        team_name = rec[0]
+        names << team_name     if PRINT_TEAMS[team_name].nil?
+      end
+      names = names.sort   ## sort from a-z
+
+      if names.size > 0
+        buf_details << "    - #{names.size} teams unknown / missing / ???: "
+        buf_details << "#{names.join(', ')}\n"
+      end
+
+
       ## todo/fix:
       ## todo/fix:
       ## todo/fix:

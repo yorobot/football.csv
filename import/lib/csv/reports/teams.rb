@@ -102,7 +102,16 @@ def build_summary
 
   buf << "Unknown / Missing / ??? (#{names.size}):\n\n"
   buf << "#{names.join(', ')}\n"
-  buf << "\n"
+  buf << "\n\n"
+
+
+  ## for easy update add cut-n-paste code snippet
+  buf << "```\n"
+  names.each do |name|
+    buf << "  '#{name}' => '',\n"
+  end
+  buf << "```\n\n"
+
 
 
   ## show details
