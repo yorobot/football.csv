@@ -153,7 +153,7 @@ TEAMS_ES = {
   'Sevilla B'     => 'Sevilla FC B',
 
   'Ath Madrid'    => 'Atlético Madrid',   ## Atlético de Madrid
-  'Ath Madrid B'  => 'Atlético Madrid B', 
+  'Ath Madrid B'  => 'Atlético Madrid B',
 
   'Las Palmas'  => 'UD Las Palmas',
   'Espanol'     => 'RCD Español',
@@ -173,7 +173,7 @@ TEAMS_ES = {
   'Real Madrid'   => 'Real Madrid CF',
   'Real Madrid B' => 'Real Madrid CF B',
 
-  
+
   'Alaves'    => 'Deportivo Alavés',
   'Albacete'  => 'Albacete Balompié',
   'Alcorcon'  => 'AD Alcorcón',
@@ -203,13 +203,13 @@ TEAMS_ES = {
    'Guadalajara'  => 'CD Guadalajara',
    'Hercules'     => 'Hércules CF',
    'Huesca'       => 'SD Huesca',
-  
-  
+
+
   'Granada'     => 'Granada CF',   ## note: different from Granada 74 !!!
   'Granada 74'  => 'Granada 74',  ## see https://es.wikipedia.org/wiki/Granada_74_Club_de_F%C3%BAtbol
 
   'Eibar'       => 'SD Eibar',
-  'Villarreal'  => 'Villarreal CF',  
+  'Villarreal'  => 'Villarreal CF',
   'Villareal'     => 'Villarreal CF',    ## fix typo!!
   'Villarreal B'  => 'Villarreal CF B',
 
@@ -254,7 +254,7 @@ TEAMS_ES = {
 'Vecindario'     => 'UD Vecindario',
 
 'Xerez'          => 'Xerez CD',
-'Zaragoza'       => 'Real Zaragoza',  
+'Zaragoza'       => 'Real Zaragoza',
 }
 
 
@@ -269,7 +269,7 @@ TEAMS_NL={
 'Den Bosch'       => 'FC Den Bosch',
 'Den Haag'        => 'ADO Den Haag',
 'Dordrecht'       => 'FC Dordrecht',
-'Excelsior'       => 'SBV Excelsior',    ## SBV Excelsior Rotterdam
+'Excelsior'       => 'SBV Excelsior Rotterdam',    ## SBV Excelsior
 'Feyenoord'       => 'Feyenoord Rotterdam',
 'For Sittard'     => 'Fortuna Sittard',
 'Go Ahead Eagles' => 'Go Ahead Eagles',
@@ -296,7 +296,7 @@ TEAMS_NL={
 'Vitesse'          => 'Vitesse Arnhem',
 'Volendam'         => 'FC Volendam',
 'Waalwijk'         => 'RKC Waalwijk',
-'Willem II'        => 'Willem II',    ## Willem II Tilburg
+'Willem II'        => 'Willem II Tilburg',    ## Willem II
 'Zwolle'           => 'PEC Zwolle',
 }
 
@@ -342,7 +342,7 @@ TEAMS_BE = {
   'Roeselare'   => 'KSV Roeselare',
   'Seraing'     => 'RFC Seraing',
   'Tubize'      => 'AFC Tubize',
-  
+
    ## as is 1:1  (register/add for pretty print names check/lookup)
    'Club Brugge'         => 'Club Brugge',  ## Club Brugge KV
    'Cercle Brugge'       => 'Cercle Brugge',   ## Cercle Brugge KSV
@@ -355,17 +355,82 @@ TEAMS_BE = {
 
 ############################################
 ## tr-turkey
+##
+##  see https://en.wikipedia.org/wiki/Süper_Lig
 
-TEAMS_TR = {
-  'Karabukspor'     => 'Karabükspor',
-  'Kasimpasa'       => 'Kasımpaşa',
-  'Fenerbahce'      => 'Fenerbahçe',
-  'Genclerbirligi'  => 'Gençlerbirliği',
-  'Elazigspor'      => 'Elazığspor',
-  'Besiktas'        => 'Beşiktaş',
-  'Eskisehirspor'   => 'Eskişehirspor',
-}
 
+TEAMS_TR = <<TXT
+ Fenerbahce        =>  Fenerbahçe İstanbul SK,  İstanbul
+ Galatasaray       =>  Galatasaray İstanbul AŞ, İstanbul
+ Besiktas          =>  Beşiktaş İstanbul JK,    İstanbul
+ Kasimpasa         =>  Kasımpaşa İstanbul SK,   İstanbul
+
+ ## (double) check if Buyuksehyr matching !?
+ Buyuksehyr        =>  İstanbul Başakşehir,  İstanbul
+
+ Genclerbirligi    =>  Gençlerbirliği Ankara SK, Ankara
+ Osmanlispor       =>  Osmanlıspor Ankara,       Ankara
+
+ ## Kardemir Karabükspor  -- key??
+ Karabukspor      =>  Kardemir Karabükspor,  Karabük
+ Elazigspor       =>  Elazığspor,            Elazığ
+ Eskisehirspor    =>  Eskişehirspor,         Eskişehir
+
+ Akhisar Belediyespor =>  Akhisar Belediyespor, Akhisar
+ Alanyaspor       =>      Alanyaspor,  Alanya
+ Antalyaspor      =>      Antalyaspor, Antalya
+ Bursaspor        =>      Bursaspor,   Bursa
+ Goztep           =>      Göztepe Izmir, İzmir
+ Kayserispor      =>      Kayserispor,   Kayseri
+ Konyaspor        =>      Konyaspor,     Konya
+ Sivasspor        =>      Sivasspor,     Sivas
+ Trabzonspor      =>      Trabzonspor AŞ, Trabzon
+ Yeni Malatyaspor  =>     Yeni Malatyaspor, Malatya
+
+ Adanaspor       =>       Adanaspor,       Adana
+ Gaziantepspor   =>       Gaziantepspor,	 Gaziantep
+ Rizespor        =>       Çaykur Rizespor, Rize
+
+ Balikesirspor       =>   Balıkesirspor,       Balıkesir
+ Erciyesspor         =>   Kayseri Erciyesspor, Kayseri
+ Mersin Idman Yurdu  =>   Mersin İdmanyurdu,   Mersin
+TXT
+
+
+
+def teams_to_h( txt )
+  h = {}
+  txt.each_line do |line|
+    line = line.strip
+
+    next if line.empty?
+    next if line.start_with?( '#' )   ## skip comments too
+
+    pp line
+    names_line, team_line = line.split( '=>' )
+    ## pp names_line
+    ## pp team_line
+
+    names = names_line.split( ',' )   # team names
+    team  = team_line.split( ',' )   # (canoncial) team name, team_city
+
+    ## remove leading and trailing spaces
+    names = names.map { |name| name.strip }
+    team  = team.map { |team| team.strip }
+    pp names
+    pp team
+
+
+    canonical_team_name = team[0]
+    team_city           = team[1]    ## note: team_city is optional for now (might be nil!!!)
+
+    names.each do |name|
+      ## todo/fix: warn about duplicates ???????
+      h[name] = canonical_team_name
+    end
+  end
+  h
+end
 
 
 ##
@@ -374,7 +439,9 @@ TEAMS_TR = {
 
 ## merge all hashes into one (TEAMS hash)
 ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
-TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_NL, TEAMS_BE, TEAMS_TR].reduce( {} ) { |memo,h| memo.merge( h ) }
+TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_NL, TEAMS_BE,
+         teams_to_h(TEAMS_TR)
+       ].reduce( {} ) { |memo,h| memo.merge( h ) }
 
 
 

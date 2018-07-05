@@ -56,10 +56,11 @@ def build_summary
   ary.each_with_index do |t,j|
     buf << ('  %5s  '   % "[#{j+1}]")
     if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
-      team_name_with_marker = "**#{t.team}**"    ## add (*) - why? why not?
+      team_name_with_marker = "#{t.team}"    ## add (*) - why? why not?
     else
-      team_name_with_marker = "#{t.team} (???)"
+      team_name_with_marker = " x #{t.team} (???)"
     end
+    ### todo/fix: add pluralize (match/matches) - check: pluralize method in rails?
     buf << ('%-30s  '   % team_name_with_marker)
     buf << (':: %4d matches in ' % t.matches)
     buf << ('%3d seasons' % t.seasons.size)
@@ -91,7 +92,6 @@ def build_summary
 
   ## show list of teams without known pretty print name
   ## show details
-  buf << "### Pretty Print Teams\n\n"
 
   names = []
   ary = teams.to_a
@@ -108,7 +108,33 @@ def build_summary
   ## for easy update add cut-n-paste code snippet
   buf << "```\n"
   names.each do |name|
-    buf << "  '#{name}' => '',\n"
+    buf << ("  %-22s =>\n" % name)
+  end
+  buf << "```\n\n"
+
+
+
+  buf << "### Team Name Mappings\n\n"
+  buf << "```\n"
+
+  ary = teams.to_a
+  ary.each do |t|
+    buf << ('%-26s => ' % t.team)
+
+    ## todo: (auto-)add key to names too - why? why not?
+    print_teams = PRINT_TEAMS[t.team]
+    if print_teams
+       if print_teams.size == 1
+         buf << "#{print_teams[0]}"
+       else
+         ## sort by lenght (smallest first)
+         print_teams_sorted = print_teams.sort { |l,r| l.length <=> r.length }
+         buf << "(#{print_teams.size}) #{print_teams_sorted.join(' • ')}"
+       end
+    else
+       buf << " x"
+    end
+    buf << "\n"
   end
   buf << "```\n\n"
 
@@ -123,14 +149,15 @@ def build_summary
     if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
       team_name_with_marker = "**#{t.team}**"    ## add (*) - why? why not?
     else
-      team_name_with_marker = "#{t.team} (???)"
+      team_name_with_marker = "x #{t.team} (???)"
     end
-    buf << "#{team_name_with_marker} - #{t.seasons.size} seasons in #{t.levels.size} levels\n"
+    buf << "#{team_name_with_marker} - #{t.seasons.size} #{pluralize('season',t.seasons.size)} in #{t.levels.size} #{pluralize('level',t.levels.size)}\n"
     levels.each do |level_key,_|
        level = t.levels[ level_key ]
        if level
          buf << "  - #{level_key} (#{level.seasons.size}): "
-         buf << level.seasons.sort.reverse.join(' ')
+         ## was before pretty print:  buf << level.seasons.sort.reverse.join(' ')
+         buf << pretty_print_seasons( level.seasons.sort.reverse )
          buf << "\n"
        end
     end
@@ -146,5 +173,74 @@ def save( path )
     f.write build_summary
   end
 end
+
+
+
+#### private helpers
+private
+
+def pluralize( noun, counter )
+   if counter == 1
+     noun
+   else
+     "#{noun}s"
+   end
+end
+
+
+### todo: move to seasons utils or something - why? why not??
+
+def pretty_print_seasons( seasons )
+  ## e.g. ['2015-16', '2014-15', '2013-14', '1999-00', '1998-99', '1993-94']
+  ##      => 2015-16..2013-14 (3) 1999-00..1998-99 (2) 1993-94
+  ##  or
+  ##      ['2014-15', '1994-95']
+  ##      => 2014-15 1994-95
+  ##  or
+  ##      ['2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2006-07', '2005-06', '2004-05', '2003-04']
+  ##      => 2017-18..2008-09 (10) 2006-07..2003-04 (4)
+
+
+  ## step 1: collect seasons in runs
+  runs = []
+  seasons.each do |season|
+
+    run = runs[-1]  ## get last run (note: returns nil if empty)
+
+    if run.nil?
+      ## start new run - very first season / item
+      run = []
+      run << season
+      runs << run
+    else
+      season_prev = run[-1]  ## get last season from run
+      year_prev   = season_prev[0..3].to_i  ## get year
+
+      year = season[0..3].to_i  ## get year (from season) eg. 2015-16 => 2015
+
+      if year == year_prev-1   ## keep adding to run
+        run << season
+      else ## start new run
+        run = []
+        run << season
+        runs << run
+      end
+    end
+  end
+
+  ## step 2: print runs into buffer (string)
+  buf = ''
+  runs.each do |run|
+     if run.size == 1
+        buf << "#{run[0]} "
+     else
+        ## use first and last season
+        buf << "#{run[0]}..#{run[-1]} (#{run.size}) "
+     end
+  end
+  buf = buf.strip   # remove trainling space(s)
+  buf
+end
+
 
 end # class CsvTeamsReport
