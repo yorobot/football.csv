@@ -17,288 +17,304 @@
 ##############################
 ### de-deutschland
 
-TEAMS_DE = {
-  'Bayern Munich'      => 'Bayern München',
-  'Bayern Muenchen'    => 'Bayern München',
-  'Munich 1860'        => 'TSV 1860 München',
-  'TSV 1860 Muenchen'  => 'TSV 1860 München',
-  'Nurnberg'           => '1. FC Nürnberg',  ### todo: check if save to always map to 1. FC Nürnberg
-  '1. FC Nuernberg'    => '1. FC Nürnberg',
+TEAMS_DE = <<TXT
+  Bayern Munich, Bayern Muenchen         =>  Bayern München,   München
+  Munich 1860, TSV 1860 Muenchen         =>  TSV 1860 München, München
 
-  'FC Koln'            => '1. FC Köln',
-  'F Koln'             => '1. FC Köln',  ## todo/fix: check might be Fortuna Köln!! (in season 73/74 in bl)
-  '1. FC Koeln'        => '1. FC Köln',
+### todo: check if save to always map Nurnberg to 1. FC Nürnberg
+  Nurnberg, 1. FC Nuernberg              =>  1. FC Nürnberg, Nürnberg
 
-  'Greuther Furth'      => 'Greuther Fürth',
-  'Fortuna Dusseldorf'  => 'Fortuna Düsseldorf',
-  'Fortuna Duesseldorf' => 'Fortuna Düsseldorf',
+## todo/fix: check F Koln might be Fortuna Köln!! (in season 73/74 in bl)
+  F Koln, FC Koln, 1. FC Koeln           => 1. FC Köln, Köln
+
+  Greuther Furth                            => Greuther Fürth, Fürth
+  Fortuna Dusseldorf, Fortuna Duesseldorf   => Fortuna Düsseldorf, Düsseldorf
+
 ## todo/check if included (see generated teams.csv)
-##  'Dusseldorf'         => 'Düsseldorf',    ## same as fortuna duesseldorf??
-  'Saarbrucken'        => 'Saarbrücken',   ## todo: check if save to use 1. FC Saarbruecken??
-  '1. FC Saarbruecken' => '1. FC Saarbrücken',
-  'Bor. Moenchengladbach' => 'Bor. Mönchengladbach',
-  'Preussen Muenster'   => 'Preussen Münster',
-  'Gutersloh'           => 'Gütersloh',
-  'Lubeck'              => 'Lübeck',
-  'Osnabruck'           => 'Osnabrück',
-}
+##  Dusseldorf         => Düsseldorf     ## same as fortuna duesseldorf??
+
+##  Saarbrucken        => Saarbrücken    ## todo: check if save to use 1. FC Saarbruecken??
+  1. FC Saarbruecken                        => 1. FC Saarbrücken, Saarbrücken
+  Bor. Moenchengladbach                     => Bor. Mönchengladbach, Mönchengladbach
+  Preussen Muenster                         => Preussen Münster, Münster
+  Gutersloh                                 => Gütersloh, Gütersloh
+  Lubeck                                    => Lübeck, Lübeck
+  Osnabruck                                 => Osnabrück, Osnabrück
+TXT
 
 
 #############################################
-## fr-france
+## fr-france (and mc-monaco)
 
-TEAMS_FR = {
-  'Amiens'      => 'Amiens SC',
-  'Angers'      => 'Angers SCO',
-  'Bordeaux'    => 'Girondins de Bordeaux',
-  'Caen'        => 'Stade Malherbe Caen',  ## SM Caean
-  'Dijon'       => 'Dijon FCO',
-  'Guingamp'    => 'EA Guingamp',
-  'Lille'       => 'Lille OSC',
-  'Lyon'        => 'Olympique Lyonnais',
-  'Marseille'   => 'Olympique de Marseille',
-  'Metz'        => 'FC Metz',
-  'Monaco'      => 'AS Monaco',
-  'Montpellier' => 'Montpellier HSC',  ## Montpellier Hérault SC
-  'Nantes'      => 'FC Nantes',
-  'Nice'        => 'OGC Nice',
-  'Paris SG'    => 'Paris Saint-Germain',
-  'Rennes'      => 'Stade Rennais FC',
-  'St Etienne'  => 'AS Saint-Étienne',
-  'Strasbourg'  => 'RC Strasbourg',
-  'Toulouse'    => 'Toulouse FC',
-  'Troyes'      => 'ES Troyes AC',
-  'Reims'       => 'Stade de Reims',
-  'Nimes'       => 'Nîmes Olympique',
-
-   'Ajaccio'      => 'AC Ajaccio',
-   'Ajaccio GFCO' => 'GFC Ajaccio',
-
-   'Auxerre'         => 'AJ Auxerre',
-   'Bourg Peronnas'  => 'Bourg-en-Bresse 01',   ## Bourg-en-Bresse
-   'Brest'           => 'Stade Brestois 29',
-   'Chateauroux'     => 'LB Châteauroux',
-   'Clermont'        => 'Clermont Foot 63',
-   'Le Havre'        => 'Le Havre AC',
-   'Lens'            => 'RC Lens',
-   'Lorient'         => 'FC Lorient',
-   'Nancy'           => 'AS Nancy Lorraine',
-   'Niort'           => 'Chamois Niortais FC',
-   'Orleans'         => 'US Orléans',
-   'Quevilly Rouen'  => 'US Quevilly-Rouen Métropole',  ## Quevilly-Rouen
-   'Sochaux'         => 'FC Sochaux-Montbéliard',
-   'Tours'           => 'Tours FC',
-   'Valenciennes'    => 'Valenciennes FC',
-
-  'Arles'   => 'AC Arles-Avignon',
-  'Bastia'  => 'SC Bastia',
-  'Beauvais' => 'AS Beauvais Oise',
-  'Besancon' => 'Racing Besançon',     ## Besançon RC
-  'Boulogne' => 'US Boulogne',
-  'CA Bastia' => 'CA Bastia',
-  'Cannes'    => 'AS Cannes',
-  'Charleville' => 'FCO Charleville',
-  'Creteil'     => 'US Créteil',
-  'Epinal'      => 'SAS Épinal',
-  'Evian Thonon Gaillard'  => 'Évian TG FC',  ## Évian Thonon-Gaillard FC
-  'Grenoble'       => 'Grenoble Foot 38',
-  'Gueugnon'       => 'FC Gueugnon',
-  'Istres'         => 'FC Istres',
-  'Laval'          => 'Stade Lavallois',
-  'Le Mans'        => 'Le Mans FC',
-  'Libourne'       => 'FC Libourne-Saint-Seurin',
-  'Louhans-Cuis.'  => 'CS Louhans-Cuiseaux',
-  'Martigues'      => 'FC Martigues',
-  'Mulhouse'       => 'FC Mulhouse',
-  'Perpignan'      => 'Perpignan FC',
-  'Red Star'       => 'Red Star FC',
-  'Red Star 93'    => 'Red Star FC',
-  'Rouen'          => 'FC Rouen',
-  'Sedan'          => 'CS Sedan-Ardennes',
-  'Sete'           => 'FC Sète',
-  'St Brieuc'      => 'Stade Briochin',
-  'Toulon'         => 'Sporting Toulon Var',
-  'Valence'        => 'ASOA Valence',    ## Olympique Valence
-  'Vannes'         => 'Vannes OC',
-  'Wasquehal'      => 'Wasquehal Foot',   ## ES Wasquehal
-
-    ## as is 1:1 (register/add for pretty print names check/lookup)
-    'Paris FC'        => 'Paris FC',
-}
+TEAMS_MC = <<TXT
+   Monaco      => AS Monaco, Monaco
+TXT
 
 
+TEAMS_FR = <<TXT
+  Amiens      => Amiens SC, ?
+  Angers      => Angers SCO, ?
+  Bordeaux    => Girondins de Bordeaux, Bordeaux
 
-##
-# Red Star History
-# - Red Star FC 93 (2003-2012)
-# - Red Star FC (2012-)
+  Caen        => Stade Malherbe Caen, ?    ## use - SM Caean - why? why not?
+  Dijon       => Dijon FCO, Dijon
+  Guingamp    => EA Guingamp, ?
+  Lille       => Lille OSC, Lille
+  Lyon        => Olympique Lyonnais, Lyon
+  Marseille   => Olympique de Marseille, Marseille
+  Metz        => FC Metz, Metz
 
+  Montpellier => Montpellier HSC, Montpellier   ## use - Montpellier Hérault SC - why? why not?
+  Nantes      => FC Nantes, Nantes
+  Nice        => OGC Nice, Nice
 
-### todo:
-##  change to yaml datafiles - why? why not?
-##
-##  eg.:
-##   Paris St Germain: [Paris SG, PSG, ...]
+  Paris SG    => Paris Saint-Germain, Paris
+  Paris FC    => Paris FC, Paris
+
+  Rennes      => Stade Rennais FC, Rennes
+  St Etienne  => AS Saint-Étienne, ?
+  Strasbourg  => RC Strasbourg, Strasbourg
+  Toulouse    => Toulouse FC, Toulouse
+  Troyes      => ES Troyes AC, ?
+  Reims       => Stade de Reims, Reims
+  Nimes       => Nîmes Olympique, Nîmes
+
+   Ajaccio         => AC Ajaccio,  Ajaccio
+   Ajaccio GFCO    => GFC Ajaccio, Ajaccio
+
+   Auxerre         => AJ Auxerre, ?
+   Bourg Peronnas  => Bourg-en-Bresse 01, ?    ## use - Bourg-en-Bresse - why? why not?
+   Brest           => Stade Brestois 29, Brest
+   Chateauroux     => LB Châteauroux, ?
+   Clermont        => Clermont Foot 63, Clermont
+   Le Havre        => Le Havre AC, Le Havre
+   Lens            => RC Lens, ?
+   Lorient         => FC Lorient, ?
+   Nancy           => AS Nancy Lorraine, Nancy
+   Niort           => Chamois Niortais FC, ?
+   Orleans         => US Orléans, Orléans
+
+   Quevilly Rouen  => US Quevilly-Rouen Métropole,  ?   ## use Quevilly-Rouen - why? why not?
+   Sochaux         => FC Sochaux-Montbéliard, ?
+   Tours           => Tours FC, Tours
+   Valenciennes    => Valenciennes FC, ?
+
+  Arles            => AC Arles-Avignon, ?
+  Bastia           => SC Bastia, Bastia
+  CA Bastia        => CA Bastia, Bastia
+
+  Beauvais         => AS Beauvais Oise, ?
+
+  Besancon         => Racing Besançon, ?   ## use Besançon RC - why? why not?
+  Boulogne         => US Boulogne, ?
+  Cannes           => AS Cannes, Cannes
+  Charleville      => FCO Charleville,
+  Creteil          => US Créteil,
+  Epinal           => SAS Épinal,
+  Evian Thonon Gaillard  => Évian TG FC,    ## use Évian Thonon-Gaillard FC - why? why not?
+  Grenoble         => Grenoble Foot 38, Grenoble
+  Gueugnon       => FC Gueugnon, ?
+  Istres         => FC Istres, ?
+  Laval          => Stade Lavallois, ?
+  Le Mans        => Le Mans FC, Le Mans
+  Libourne       => FC Libourne-Saint-Seurin,
+  Louhans-Cuis.  => CS Louhans-Cuiseaux,
+  Martigues      => FC Martigues,
+  Mulhouse       => FC Mulhouse, Mulhouse
+  Perpignan      => Perpignan FC,
+
+  ##
+  # Red Star History
+  # - Red Star FC 93 (2003-2012)
+  # - Red Star FC (2012-)
+  Red Star, Red Star 93  => Red Star FC,
+
+  Rouen          => FC Rouen,
+  Sedan          => CS Sedan-Ardennes,
+  Sete           => FC Sète,
+  St Brieuc      => Stade Briochin,
+  Toulon         => Sporting Toulon Var,
+
+  Valence        => ASOA Valence, Valence   ## use Olympique Valence - why? why not?
+  Vannes         => Vannes OC,
+  Wasquehal      => Wasquehal Foot,         ## use ES Wasquehal - why? why not?
+TXT
+
 
 
 ############################
 ## es-espana (spain) - [es]
 
 
-TEAMS_ES = {
-  'Malaga'      => 'Málaga CF',
-  'Malaga B'    => 'Málaga CF B',
+TEAMS_ES = <<TXT
+  Malaga         => Málaga CF,   Málaga
+  Malaga B       => Málaga CF B, Málaga
 
-  'Sevilla'       => 'Sevilla FC',
-  'Sevilla B'     => 'Sevilla FC B',
+  Sevilla       => Sevilla FC,   Sevilla
+  Sevilla B     => Sevilla FC B, Sevilla
 
-  'Ath Madrid'    => 'Atlético Madrid',   ## Atlético de Madrid
-  'Ath Madrid B'  => 'Atlético Madrid B',
+  Ath Madrid    => Atlético Madrid,    Madrid    ## use Atlético de Madrid - why? why not?
+  Ath Madrid B  => Atlético Madrid B,  Madrid
 
-  'Las Palmas'  => 'UD Las Palmas',
-  'Espanol'     => 'RCD Español',
-  'Getafe'      => 'Getafe CF',
-  'La Coruna'   => 'RCD La Coruña',
-  'Sociedad'    => 'Real Sociedad',
-  'Vallecano'   => 'Rayo Vallecano',
-  'Valencia'    => 'Valencia CF',
-  'Ath Bilbao'   => 'Athletic Club Bilbao',  ## Athletic Club
-  'Ath Bilbao B' => 'Athletic Club Bilbao B',
-  'Barcelona'    => 'FC Barcelona',
-  'Barcelona B'  => 'FC Barcelona B',
-  'Betis'       => 'Real Betis',
-  'Levante'     => 'Levante UD',
-  'Celta'       => 'RC Celta Vigo',   ## R. C. Celta de Vigo
-  'Sp Gijon'    => 'Sporting Gijón',   ## Sporting de Gijón
-  'Real Madrid'   => 'Real Madrid CF',
-  'Real Madrid B' => 'Real Madrid CF B',
+  Real Madrid   => Real Madrid CF,   Madrid
+  Real Madrid B => Real Madrid CF B, Madrid
+
+  Getafe        => Getafe CF, ?
 
 
-  'Alaves'    => 'Deportivo Alavés',
-  'Albacete'  => 'Albacete Balompié',
-  'Alcorcon'  => 'AD Alcorcón',
-  'Alcoyano'  => 'CD Alcoyano',
-  'Algeciras' => 'Algeciras CF',
-  'Alicante'  => 'Alicante CF',
-  'Almeria'   => 'UD Almería',
+  Barcelona    => FC Barcelona,   Barcelona
+  Barcelona B  => FC Barcelona B, Barcelona
 
-  'Badajoz'   => 'CD Badajoz',
-  'Burgos'    => 'Burgos CF',
-
-  'Cadiz'     => 'Cádiz CF',
-  'Cartagena' => 'FC Cartagena',
-  'Castellon'  => 'CD Castellón',
-  'Ciudad de Murcia' => 'Real Murcia CF',
-  'Compostela'  => 'SD Compostela',
-  'Cordoba'     => 'Córdoba CF',
-
-   'Ecija'       => 'Écija Balompié',
-   'Elche'        => 'Elche CF',
-   'Extremadura'  => 'CF Extremadura',
-   'Ferrol'       => 'Racing Ferrol',
-
-   'Gimnastic'  => 'Gimnàstic Tarragona',
-   'Girona'     => 'Girona FC',
-
-   'Guadalajara'  => 'CD Guadalajara',
-   'Hercules'     => 'Hércules CF',
-   'Huesca'       => 'SD Huesca',
+  Espanol      => RCD Español, Barcelona
 
 
-  'Granada'     => 'Granada CF',   ## note: different from Granada 74 !!!
-  'Granada 74'  => 'Granada 74',  ## see https://es.wikipedia.org/wiki/Granada_74_Club_de_F%C3%BAtbol
+  Las Palmas     => UD Las Palmas,          Las Palmas
+  U.Las Palmas   => Universidad Las Palmas, Las Palmas
 
-  'Eibar'       => 'SD Eibar',
-  'Villarreal'  => 'Villarreal CF',
-  'Villareal'     => 'Villarreal CF',    ## fix typo!!
-  'Villarreal B'  => 'Villarreal CF B',
+  La Coruna    => RCD La Coruña, La Coruña
+  Sociedad     => Real Sociedad,
+  Vallecano   => Rayo Vallecano,
+  Valencia    => Valencia CF, Valencia
 
-'Jaen'       => 'Real Jaén CF',
-'Leganes'    => 'CD Leganés',
-'Leonesa'    => 'Cultural Leonesa',
-'Lerida'     => 'UE Lleida',
-'Lleida'     => 'UE Lleida',
-'Llagostera' => 'UE Llagostera',
-'Logrones'   => 'CD Logroñés',
-'Lorca'      => 'Lorca FC',
-'Lugo'       => 'CD Lugo',
-'Mallorca'   => 'RCD Mallorca',
-'Mallorca B'  => 'RCD Mallorca B',
-'Merida'     => 'CP Mérida',
-'Mirandes'   => 'CD Mirandés',
-'Murcia'     => 'Real Murcia CF',
 
-'Numancia'      => 'CD Numancia',
-'Osasuna'       => 'CA Osasuna',
-'Ourense'       => 'CD Ourense',
-'Orense'        => 'CD Ourense',  ## fix typo!!
-'Oviedo'        => 'Real Oviedo',
-'Poli Ejido'    => 'Polideportivo Ejido',
-'Ponferradina'  => 'SD Ponferradina',
-'Pontevedra'    => 'Pontevedra CF',
+  Ath Bilbao   => Athletic Club Bilbao,   Bilbao    ## use Athletic Club - why? why not?
+  Ath Bilbao B => Athletic Club Bilbao B, Bilbao
+  Betis       => Real Betis,
+  Levante     => Levante UD,
+  Celta       => RC Celta Vigo,             ## use R. C. Celta de Vigo - why? why not?
+  Sp Gijon    => Sporting Gijón, Gijón      ## use Sporting de Gijón - why? why not?
 
-'Real Union'     => 'Real Unión',
-'Recreativo'     => 'Recreativo Huelva',
-'Reus Deportiu'  => 'CF Reus',
-'Sabadell'       => 'CE Sabadell',
-'Salamanca'      => 'UD Salamanca',
-'Santander'      => 'Real Racing Santander',
 
-'Tenerife'       => 'CD Tenerife',
-'Terrassa'       => 'Terrassa FC',
-'Toledo'         => 'CD Toledo',
-'U.Las Palmas'   => 'Universidad Las Palmas',
-'UCAM Murcia'    => 'UCAM Murcia',
+  Alaves    => Deportivo Alavés,
+  Albacete  => Albacete Balompié,
+  Alcorcon  => AD Alcorcón,
+  Alcoyano  => CD Alcoyano,
+  Algeciras => Algeciras CF,
+  Alicante  => Alicante CF,
+  Almeria   => UD Almería,
 
-'Valladolid'     => 'Real Valladolid CF',
-'Vecindario'     => 'UD Vecindario',
+  Badajoz   => CD Badajoz,
+  Burgos    => Burgos CF,
 
-'Xerez'          => 'Xerez CD',
-'Zaragoza'       => 'Real Zaragoza',
-}
+  Cadiz     => Cádiz CF,
+  Cartagena => FC Cartagena,
+  Castellon  => CD Castellón,
+  Ciudad de Murcia => Real Murcia CF,
+  Compostela  => SD Compostela,
+  Cordoba     => Córdoba CF,
+
+   Ecija       => Écija Balompié,
+   Elche        => Elche CF,
+   Extremadura  => CF Extremadura,
+   Ferrol       => Racing Ferrol,
+
+   Gimnastic  => Gimnàstic Tarragona,
+   Girona     => Girona FC,
+
+   Guadalajara  => CD Guadalajara,
+   Hercules     => Hércules CF,
+   Huesca       => SD Huesca,
+
+
+   ## note: different from Granada 74 <=> Granda (CF) !!!
+   ##   see https://es.wikipedia.org/wiki/Granada_74_Club_de_Fútbol
+   Granada        => Granada CF, Granada
+   Granada 74     => Granada 74, Granada
+
+  Eibar       => SD Eibar,
+
+  Villarreal, Villareal   => Villarreal CF,    Villarreal    ## fix typo Villareal
+  Villarreal B            => Villarreal CF B,  Villarreal
+
+  Jaen            => Real Jaén CF,
+  Leganes         => CD Leganés,
+  Leonesa         => Cultural Leonesa,
+  Lerida, Lleida  => UE Lleida,
+  Llagostera      => UE Llagostera,
+  Logrones        => CD Logroñés,
+  Lorca           => Lorca FC,
+  Lugo            => CD Lugo,
+
+  Mallorca        => RCD Mallorca,   Mallorca
+  Mallorca B      => RCD Mallorca B, Mallorca
+
+  Merida     => CP Mérida,
+  Mirandes   => CD Mirandés,
+
+  Murcia         => Real Murcia CF, Murcia
+  UCAM Murcia    => UCAM Murcia,    Murcia
+
+  Numancia         => CD Numancia,
+  Osasuna          => CA Osasuna,
+  Ourense, Orense  => CD Ourense,
+  Oviedo           => Real Oviedo,
+  Poli Ejido    => Polideportivo Ejido,
+  Ponferradina  => SD Ponferradina,
+  Pontevedra    => Pontevedra CF,
+
+  Real Union     => Real Unión,
+  Recreativo     => Recreativo Huelva,
+  Reus Deportiu  => CF Reus,
+  Sabadell       => CE Sabadell,
+  Salamanca      => UD Salamanca,
+  Santander      => Real Racing Santander,
+
+  Tenerife       => CD Tenerife,
+  Terrassa       => Terrassa FC,
+  Toledo         => CD Toledo,
+
+  Valladolid     => Real Valladolid CF,
+  Vecindario     => UD Vecindario,
+
+  Xerez          => Xerez CD,
+  Zaragoza       => Real Zaragoza,
+TXT
 
 
 ##########################################
 # nl-netherlands
 
-TEAMS_NL={
+TEAMS_NL= <<TXT
 
-'AZ Alkmaar'      => 'AZ Alkmaar',
-'Ajax'            => 'Ajax Amsterdam',
-'Cambuur'         => 'SC Cambuur',
-'Den Bosch'       => 'FC Den Bosch',
-'Den Haag'        => 'ADO Den Haag',
-'Dordrecht'       => 'FC Dordrecht',
-'Excelsior'       => 'SBV Excelsior Rotterdam',    ## SBV Excelsior
-'Feyenoord'       => 'Feyenoord Rotterdam',
-'For Sittard'     => 'Fortuna Sittard',
-'Go Ahead Eagles' => 'Go Ahead Eagles',
-'Graafschap'      => 'BV De Graafschap',
-'Groningen'       => 'FC Groningen',
-'Heerenveen'      => 'SC Heerenveen',
-'Heracles'        => 'Heracles Almelo',
-'MVV Maastricht'  => 'MVV Maastricht',
-'NAC Breda'       => 'NAC Breda',
-'Nijmegen'        => 'NEC Nijmegen',
-'PSV Eindhoven'   => 'PSV Eindhoven',
+Ajax                      => Ajax Amsterdam, Amsterdam
 
-'Roda'             => 'Roda JC Kerkrade',
-'Roda JC'          => 'Roda JC Kerkrade',
+Feyenoord                 => Feyenoord Rotterdam,     Rotterdam
+Sparta, Sparta Rotterdam  => Sparta Rotterdam,        Rotterdam
+Excelsior                 => SBV Excelsior Rotterdam, Rotterdam    ## use SBV Excelsior - why? why not?
 
-'Roosendaal'       => 'RBC Roosendaal',
 
-'Sparta'           => 'Sparta Rotterdam',
-'Sparta Rotterdam' => 'Sparta Rotterdam',
+AZ Alkmaar      => AZ Alkmaar,
+Cambuur         => SC Cambuur,
+Den Bosch       => FC Den Bosch,
+Den Haag        => ADO Den Haag,
+Dordrecht       => FC Dordrecht,
+For Sittard     => Fortuna Sittard,
+Go Ahead Eagles => Go Ahead Eagles, ?
+Graafschap      => BV De Graafschap,
+Groningen       => FC Groningen,
+Heerenveen      => SC Heerenveen,
+Heracles        => Heracles Almelo,
+MVV Maastricht  => MVV Maastricht, Maastricht
+NAC Breda       => NAC Breda,
+Nijmegen        => NEC Nijmegen,
+PSV Eindhoven   => PSV Eindhoven, Eindhoven
 
-'Twente'           => 'FC Twente',
-'Utrecht'          => 'FC Utrecht',
-'VVV Venlo'        => 'VVV Venlo',
-'Vitesse'          => 'Vitesse Arnhem',
-'Volendam'         => 'FC Volendam',
-'Waalwijk'         => 'RKC Waalwijk',
-'Willem II'        => 'Willem II Tilburg',    ## Willem II
-'Zwolle'           => 'PEC Zwolle',
-}
+Roda, Roda JC   => Roda JC Kerkrade
+
+Roosendaal       => RBC Roosendaal,
+
+
+Twente           => FC Twente,
+Utrecht          => FC Utrecht,
+VVV Venlo        => VVV Venlo,
+Vitesse          => Vitesse Arnhem,
+Volendam         => FC Volendam,
+Waalwijk         => RKC Waalwijk,
+
+
+Willem II        => Willem II Tilburg, Tilburg    ## use Willem II - why? why not?
+Zwolle           => PEC Zwolle,
+TXT
 
 
 
@@ -306,51 +322,50 @@ TEAMS_NL={
 # be-belgium   - [nl,fr,de]
 
 
-TEAMS_BE = {
-  'Anderlecht'   => 'RSC Anderlecht',
-  'Antwerp'      => 'Royal Antwerp FC',
-  'Charleroi'    => 'Sporting Charleroi',   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
-  'Eupen'        => 'KAS Eupen',    ## [de]
-  'Genk'         => 'KRC Genk',
-  'Gent'         => 'KAA Gent',
-  'Kortrijk'     => 'KV Kortrijk',
-  'Lokeren'      => 'KSC Lokeren OV',  ##  Sporting Lokeren
-  'Mechelen'     => 'KV Mechelen',
+TEAMS_BE = <<TXT
+  Anderlecht     => RSC Anderlecht, Brussels
+  FC Brussels    => FC Brussels,    Brussels
 
-  'Mouscron'          => 'Royal Excel Moeskroen',
-  'Mouscron-Peruwelz' => 'Royal Excel Moeskroen',
 
-  'Oostende'     => 'KV Oostende',
-  'St Truiden'   => 'Sint-Truidense VV',
-  'Standard'          => 'Standard Liège',  ## [fr] Standard de Liège
-  'Waasland-Beveren'  => 'Waasland-Beveren',  ## KVRS Waasland - SK Beveren
-  'Waregem'      => 'SV Zulte Waregem',
-   'Westerlo'    => 'KVC Westerlo',
-   'Lierse'       => 'K Lierse SK',
+  Antwerp      => Royal Antwerp FC,
+  Charleroi    => Sporting Charleroi,   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
+  Eupen        => KAS Eupen,    ## [de]
+  Genk         => KRC Genk,
+  Gent         => KAA Gent,
+  Kortrijk     => KV Kortrijk,
+  Lokeren      => KSC Lokeren OV,  ##  Sporting Lokeren
+  Mechelen     => KV Mechelen,
 
-  'Aalst'    => 'SC Eendracht Aalst',
-  'Bergen'   => 'RAEC Mons',
-  'Beveren'   => 'KSK Beveren',
-  'Dender'    => 'FCV Dender EH',
-  'Geel'          => 'KFC Verbroedering Geel',
-  'Germinal'      => 'Germinal Beerschot',
-  'Harelbeke'     => 'KRC Harelbeke',
-  'Heusden Zolder' => 'K Heusden-Zolder',
-  'Lommel'         => 'KFC Lommel SK',
-  'Louvieroise'    => 'RAA Louviéroise',
-  'Molenbeek'      => 'RWD Molenbeek',
-  'Roeselare'   => 'KSV Roeselare',
-  'Seraing'     => 'RFC Seraing',
-  'Tubize'      => 'AFC Tubize',
+  Mouscron, Mouscron-Peruwelz    => Royal Excel Moeskroen,
 
-   ## as is 1:1  (register/add for pretty print names check/lookup)
-   'Club Brugge'         => 'Club Brugge',  ## Club Brugge KV
-   'Cercle Brugge'       => 'Cercle Brugge',   ## Cercle Brugge KSV
+  Oostende     => KV Oostende,
+  St Truiden   => Sint-Truidense VV,
+  Standard          => Standard Liège,  ## [fr] Standard de Liège
+  Waasland-Beveren  => Waasland-Beveren,  ## KVRS Waasland - SK Beveren
+  Waregem      => SV Zulte Waregem,
+   Westerlo    => KVC Westerlo,
+   Lierse       => K Lierse SK,
 
-    'FC Brussels' => 'FC Brussels',
+  Aalst    => SC Eendracht Aalst,
+  Bergen   => RAEC Mons,
+  Beveren   => KSK Beveren,
+  Dender    => FCV Dender EH,
+  Geel          => KFC Verbroedering Geel,
+  Germinal      => Germinal Beerschot,
+  Harelbeke     => KRC Harelbeke,
+  Heusden Zolder => K Heusden-Zolder,
+  Lommel         => KFC Lommel SK,
+  Louvieroise    => RAA Louviéroise,
+  Molenbeek      => RWD Molenbeek,
+  Roeselare   => KSV Roeselare,
+  Seraing     => RFC Seraing,
+  Tubize      => AFC Tubize,
 
-    'Oud-Heverlee Leuven' => 'Oud-Heverlee Leuven',
-}
+   Club Brugge         => Club Brugge,    Brugge     ## Club Brugge KV
+   Cercle Brugge       => Cercle Brugge,  Brugge     ## Cercle Brugge KSV
+
+    Oud-Heverlee Leuven => Oud-Heverlee Leuven,
+TXT
 
 
 ############################################
@@ -371,7 +386,6 @@ TEAMS_TR = <<TXT
  Genclerbirligi    =>  Gençlerbirliği Ankara SK, Ankara
  Osmanlispor       =>  Osmanlıspor Ankara,       Ankara
 
- ## Kardemir Karabükspor  -- key??
  Karabukspor      =>  Kardemir Karabükspor,  Karabük
  Elazigspor       =>  Elazığspor,            Elazığ
  Eskisehirspor    =>  Eskişehirspor,         Eskişehir
@@ -398,7 +412,7 @@ TXT
 
 
 
-def teams_to_h( txt )
+def teams_txt_to_h( txt )
   h = {}
   txt.each_line do |line|
     line = line.strip
@@ -406,10 +420,13 @@ def teams_to_h( txt )
     next if line.empty?
     next if line.start_with?( '#' )   ## skip comments too
 
+    ## strip inline comments too
+    ##  e.g Eupen        => KAS Eupen,    ## [de]
+    ##   => Eupen        => KAS Eupen,
+    line = line.sub( /#.*/, '' ).strip
+
     pp line
     names_line, team_line = line.split( '=>' )
-    ## pp names_line
-    ## pp team_line
 
     names = names_line.split( ',' )   # team names
     team  = team_line.split( ',' )   # (canoncial) team name, team_city
@@ -439,9 +456,15 @@ end
 
 ## merge all hashes into one (TEAMS hash)
 ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
-TEAMS = [TEAMS_DE, TEAMS_FR, TEAMS_ES, TEAMS_NL, TEAMS_BE,
-         teams_to_h(TEAMS_TR)
-       ].reduce( {} ) { |memo,h| memo.merge( h ) }
+TEAMS = [
+         TEAMS_DE,
+         TEAMS_MC,
+         TEAMS_FR,
+         TEAMS_ES,
+         TEAMS_NL,
+         TEAMS_BE,
+         TEAMS_TR
+       ].reduce( {} ) { |memo,txt| memo.merge( teams_txt_to_h( txt )) }
 
 
 
