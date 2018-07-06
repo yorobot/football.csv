@@ -199,7 +199,6 @@ TEAMS_ES = <<TXT
   Cadiz     => Cádiz CF,
   Cartagena => FC Cartagena,
   Castellon  => CD Castellón,
-  Ciudad de Murcia => Real Murcia CF,
   Compostela  => SD Compostela,
   Cordoba     => Córdoba CF,
 
@@ -241,8 +240,10 @@ TEAMS_ES = <<TXT
   Merida     => CP Mérida,
   Mirandes   => CD Mirandés,
 
-  Murcia         => Real Murcia CF, Murcia
-  UCAM Murcia    => UCAM Murcia,    Murcia
+  Murcia           => Real Murcia CF,      Murcia
+  UCAM Murcia      => UCAM Murcia,         Murcia
+  Ciudad de Murcia => CF Ciudad de Murcia, Murcia
+
 
   Numancia         => CD Numancia,
   Osasuna          => CA Osasuna,
@@ -278,11 +279,11 @@ TEAMS_IT= <<TXT
   Roma         =>  AS Roma,  Roma
   Lazio        =>  SS Lazio, Roma
 
-  Inter        =>  FC Internazionale Milano, Milano
   Milan        =>  AC Milan,                 Milano
+  Inter        =>  FC Internazionale Milano, Milano
 
-  Juventus     =>  Juventus,    Torino
   Torino       =>  Torino FC,   Torino
+  Juventus     =>  Juventus,    Torino
 
   Verona       => Hellas Verona FC, Verona
   Chievo       => AC Chievo Verona, Verona
@@ -339,37 +340,37 @@ Sparta, Sparta Rotterdam  => Sparta Rotterdam,        Rotterdam
 Excelsior                 => SBV Excelsior Rotterdam, Rotterdam    ## use SBV Excelsior - why? why not?
 
 
-AZ Alkmaar      => AZ Alkmaar,
-Cambuur         => SC Cambuur,
-Den Bosch       => FC Den Bosch,
-Den Haag        => ADO Den Haag,
-Dordrecht       => FC Dordrecht,
-For Sittard     => Fortuna Sittard,
-Go Ahead Eagles => Go Ahead Eagles, ?
-Graafschap      => BV De Graafschap,
-Groningen       => FC Groningen,
-Heerenveen      => SC Heerenveen,
-Heracles        => Heracles Almelo,
+AZ Alkmaar      => AZ Alkmaar, Alkmaar
+Cambuur         => SC Cambuur, Leeuwarden
+Den Bosch       => FC Den Bosch, 's-Hertogenbosch
+Den Haag        => ADO Den Haag, Den Haag
+Dordrecht       => FC Dordrecht, Dordrecht
+For Sittard     => Fortuna Sittard, Sittard
+Go Ahead Eagles => Go Ahead Eagles, Deventer
+Graafschap      => BV De Graafschap,  Doetinchem
+Groningen       => FC Groningen, Groningen
+Heerenveen      => SC Heerenveen, Heerenveen
+Heracles        => Heracles Almelo, Almelo
 MVV Maastricht  => MVV Maastricht, Maastricht
-NAC Breda       => NAC Breda,
-Nijmegen        => NEC Nijmegen,
+NAC Breda       => NAC Breda, Breda
+Nijmegen        => NEC Nijmegen, Nijmegen
 PSV Eindhoven   => PSV Eindhoven, Eindhoven
 
-Roda, Roda JC   => Roda JC Kerkrade
+Roda, Roda JC   => Roda JC Kerkrade,  Kerkrade
 
-Roosendaal       => RBC Roosendaal,
+Roosendaal       => RBC Roosendaal, Roosendaal
 
 
-Twente           => FC Twente,
-Utrecht          => FC Utrecht,
-VVV Venlo        => VVV Venlo,
-Vitesse          => Vitesse Arnhem,
-Volendam         => FC Volendam,
-Waalwijk         => RKC Waalwijk,
+Twente           => FC Twente,  Enschede
+Utrecht          => FC Utrecht, Utrecht
+VVV Venlo        => VVV Venlo, Venlo      ## use VVV-Venlo - why? why not?
+Vitesse          => Vitesse Arnhem, Arnhem
+Volendam         => FC Volendam, Volendam
+Waalwijk         => RKC Waalwijk, Waalwijk
 
 
 Willem II        => Willem II Tilburg, Tilburg    ## use Willem II - why? why not?
-Zwolle           => PEC Zwolle,
+Zwolle           => PEC Zwolle, Zwolle
 TXT
 
 
@@ -383,25 +384,29 @@ TEAMS_BE = <<TXT
   FC Brussels    => FC Brussels,    Brussels
 
 
-  Antwerp      => Royal Antwerp FC,
-  Charleroi    => Sporting Charleroi,   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
-  Eupen        => KAS Eupen,    ## [de]
-  Genk         => KRC Genk,
-  Gent         => KAA Gent,
-  Kortrijk     => KV Kortrijk,
-  Lokeren      => KSC Lokeren OV,  ##  Sporting Lokeren
-  Mechelen     => KV Mechelen,
+  Antwerp      => Royal Antwerp FC,    Antwerpen
+  Charleroi    => Sporting Charleroi, Charleroi   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
+  Eupen        => KAS Eupen,   Eupen  ## [de]
+  Genk         => KRC Genk,   Genk
+  Gent         => KAA Gent,       Gent
+  Kortrijk     => KV Kortrijk,    Kortrijk
+  Lokeren      => KSC Lokeren OV,  Lokeren   ##  Sporting Lokeren
+  Mechelen     => KV Mechelen,     Mechelen
 
-  Mouscron, Mouscron-Peruwelz    => Royal Excel Moeskroen,
+  Club Brugge         => Club Brugge,    Brugge     ## Club Brugge KV
+  Cercle Brugge       => Cercle Brugge,  Brugge     ## Cercle Brugge KSV
 
-  Oostende     => KV Oostende,
-  St Truiden   => Sint-Truidense VV,
-  Standard          => Standard Liège,  ## [fr] Standard de Liège
-  Waasland-Beveren  => Waasland-Beveren,  ## KVRS Waasland - SK Beveren
-  Waregem      => SV Zulte Waregem,
+  Mouscron, Mouscron-Peruwelz    => Royal Excel Moeskroen, Moeskroen
+
+  Oostende     => KV Oostende,        Oostende
+  St Truiden   => Sint-Truidense VV,  Sint-Truiden
+  Standard          => Standard Liège,   Liège   ## [fr] Standard de Liège
+  Waasland-Beveren  => Waasland-Beveren,  Beveren   ## KVRS Waasland - SK Beveren
+  Waregem      => SV Zulte Waregem,  Waregem
+
+
    Westerlo    => KVC Westerlo,
    Lierse       => K Lierse SK,
-
   Aalst    => SC Eendracht Aalst,
   Bergen   => RAEC Mons,
   Beveren   => KSK Beveren,
@@ -416,12 +421,38 @@ TEAMS_BE = <<TXT
   Roeselare   => KSV Roeselare,
   Seraing     => RFC Seraing,
   Tubize      => AFC Tubize,
-
-   Club Brugge         => Club Brugge,    Brugge     ## Club Brugge KV
-   Cercle Brugge       => Cercle Brugge,  Brugge     ## Cercle Brugge KSV
-
-    Oud-Heverlee Leuven => Oud-Heverlee Leuven,
+  Oud-Heverlee Leuven => Oud-Heverlee Leuven,
 TXT
+
+
+#############################################
+## pt-portugal
+
+
+
+TEAMS_PT = <<TXT
+Benfica        => SL Benfica,                 Lisbon
+Sp Lisbon      => Sporting Clube de Portugal, Lisbon
+Belenenses     => Os Belenenses,              Lisbon
+
+Porto          => FC Porto,     Porto
+Boavista       => Boavista FC,  Porto
+
+  Aves         => CD Aves, Aves
+  Chaves       => GD Chaves, Chaves
+  Estoril      => Estoril Praia, Estoril
+  Feirense     => CD Feirense, Santa Maria da Feira
+  Guimaraes    => Vitória de Guimarães, Guimarães   ## Vitória SC
+  Maritimo     => CS Marítimo, Funchal
+  Moreirense    => Moreirense FC, Moreira de Cónegos
+  Pacos Ferreira  => FC Paços de Ferreira, Paços de Ferreira
+  Portimonense    => Portimonense SC, Portimão
+  Rio Ave        => Rio Ave FC, Vila do Conde
+  Setubal        => Vitória de Setúbal, Setúbal   ## Vitória FC
+  Sp Braga       => SC Braga, Braga
+  Tondela        => CD Tondela, Tondela
+TXT
+
 
 
 ############################################
@@ -518,6 +549,7 @@ TEAMS = [
          TEAMS_FR,
          TEAMS_ES,
          TEAMS_IT,
+         TEAMS_PT,
          TEAMS_NL,
          TEAMS_BE,
          TEAMS_TR
