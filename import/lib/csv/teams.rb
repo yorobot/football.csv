@@ -272,6 +272,62 @@ TXT
 
 
 ##########################################
+# it-italy  [it]
+
+TEAMS_IT= <<TXT
+  Roma         =>  AS Roma,  Roma
+  Lazio        =>  SS Lazio, Roma
+
+  Inter        =>  FC Internazionale Milano, Milano
+  Milan        =>  AC Milan,                 Milano
+
+  Juventus     =>  Juventus,    Torino
+  Torino       =>  Torino FC,   Torino
+
+  Verona       => Hellas Verona FC, Verona
+  Chievo       => AC Chievo Verona, Verona
+
+  Genoa        =>  Genoa CFC,      Genova
+  Sampdoria    =>  UC Sampdoria,   Genova
+
+  Atalanta     => Atalanta BC,     Bergamo
+  Benevento    => Benevento,       Benevento
+  Bologna      => Bologna FC,      Bologna
+  Cagliari     => Cagliari Calcio, Cagliari
+  Crotone      => FC Crotone,      Crotone
+  Fiorentina   =>  ACF Fiorentina, Firenze
+  Napoli       =>  SSC Napoli,     Napoli
+  Sassuolo     =>  US Sassuolo Calcio, Sassuolo
+  Spal         =>  SPAL,           Ferrara
+  Udinese      =>  Udinese Calcio, Udine
+
+
+  Ascoli       =>  Ascoli, Ascoli Piceno
+  Avellino     =>  Avellino, Avellino
+  Bari         =>  Bari, Bari
+  Brescia      =>  Brescia, Brescia
+  Carpi        =>  Carpi, Carpi
+  Cesena        => Cesena, Cesena
+   Cittadella   => Cittadella, Cittadella
+  Cremonese     => Cremonese, Cremona
+  Empoli        => Empoli, Empoli
+  Foggia        => Foggia, Foggia
+  Frosinone     => Frosinone, Frosinone
+  Novara        => Novara, Novara
+  Palermo       => Palermo, Palermo
+  Parma         => Parma, Parma
+  Perugia       => Perugia, Perugia
+  Pescara       => Pescara, Pescara
+  Pro Vercelli  =>  Pro Vercelli, Vercelli
+  Salernitana   => Salernitana, Salerno
+  Spezia        => Spezia, La Spezia
+  Ternana       => Ternana, Terni
+  Venezia       => Venezia, Venezia
+  Virtus Entella   =>   Virtus Entella, Chiavari
+TXT
+
+
+##########################################
 # nl-netherlands
 
 TEAMS_NL= <<TXT
@@ -461,6 +517,7 @@ TEAMS = [
          TEAMS_MC,
          TEAMS_FR,
          TEAMS_ES,
+         TEAMS_IT,
          TEAMS_NL,
          TEAMS_BE,
          TEAMS_TR
