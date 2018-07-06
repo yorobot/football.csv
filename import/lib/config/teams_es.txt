@@ -1,0 +1,126 @@
+############################
+## es-espana (spain) - [es]
+
+
+Malaga         => Málaga CF,   Málaga
+Malaga B       => Málaga CF B, Málaga
+
+Sevilla       => Sevilla FC,   Sevilla
+Sevilla B     => Sevilla FC B, Sevilla
+
+Ath Madrid    => Atlético Madrid,    Madrid    ## use Atlético de Madrid - why? why not?
+Ath Madrid B  => Atlético Madrid B,  Madrid
+
+Real Madrid   => Real Madrid CF,   Madrid
+Real Madrid B => Real Madrid CF B, Madrid
+
+Getafe        => Getafe CF, ?
+
+
+Barcelona    => FC Barcelona,   Barcelona
+Barcelona B  => FC Barcelona B, Barcelona
+
+Espanol      => RCD Español, Barcelona
+
+
+Las Palmas     => UD Las Palmas,          Las Palmas
+U.Las Palmas   => Universidad Las Palmas, Las Palmas
+
+La Coruna    => RCD La Coruña, La Coruña
+Sociedad     => Real Sociedad,
+Vallecano   => Rayo Vallecano,
+Valencia    => Valencia CF, Valencia
+
+
+Ath Bilbao   => Athletic Club Bilbao,   Bilbao    ## use Athletic Club - why? why not?
+Ath Bilbao B => Athletic Club Bilbao B, Bilbao
+Betis       => Real Betis,
+Levante     => Levante UD,
+Celta       => RC Celta Vigo,             ## use R. C. Celta de Vigo - why? why not?
+Sp Gijon    => Sporting Gijón, Gijón      ## use Sporting de Gijón - why? why not?
+
+
+Alaves    => Deportivo Alavés,
+Albacete  => Albacete Balompié,
+Alcorcon  => AD Alcorcón,
+Alcoyano  => CD Alcoyano,
+Algeciras => Algeciras CF,
+Alicante  => Alicante CF,
+Almeria   => UD Almería,
+
+Badajoz   => CD Badajoz,
+Burgos    => Burgos CF,
+
+Cadiz     => Cádiz CF,
+Cartagena => FC Cartagena,
+Castellon  => CD Castellón,
+Compostela  => SD Compostela,
+Cordoba     => Córdoba CF,
+
+Ecija       => Écija Balompié,
+Elche        => Elche CF,
+Extremadura  => CF Extremadura,
+Ferrol       => Racing Ferrol,
+
+Gimnastic  => Gimnàstic Tarragona,
+Girona     => Girona FC,
+
+Guadalajara  => CD Guadalajara,
+Hercules     => Hércules CF,
+Huesca       => SD Huesca,
+
+
+## note: different from Granada 74 <=> Granda (CF) !!!
+##   see https://es.wikipedia.org/wiki/Granada_74_Club_de_Fútbol
+Granada        => Granada CF, Granada
+Granada 74     => Granada 74, Granada
+
+Eibar       => SD Eibar,
+
+Villarreal, Villareal   => Villarreal CF,    Villarreal    ## fix typo Villareal
+Villarreal B            => Villarreal CF B,  Villarreal
+
+Jaen            => Real Jaén CF,
+Leganes         => CD Leganés,
+Leonesa         => Cultural Leonesa,
+Lerida, Lleida  => UE Lleida,
+Llagostera      => UE Llagostera,
+Logrones        => CD Logroñés,
+Lorca           => Lorca FC,
+Lugo            => CD Lugo,
+
+Mallorca        => RCD Mallorca,   Mallorca
+Mallorca B      => RCD Mallorca B, Mallorca
+
+Merida     => CP Mérida,
+Mirandes   => CD Mirandés,
+
+Murcia           => Real Murcia CF,      Murcia
+UCAM Murcia      => UCAM Murcia,         Murcia
+Ciudad de Murcia => CF Ciudad de Murcia, Murcia
+
+
+Numancia         => CD Numancia,
+Osasuna          => CA Osasuna,
+Ourense, Orense  => CD Ourense,
+Oviedo           => Real Oviedo,
+Poli Ejido    => Polideportivo Ejido,
+Ponferradina  => SD Ponferradina,
+Pontevedra    => Pontevedra CF,
+
+Real Union     => Real Unión,
+Recreativo     => Recreativo Huelva,
+Reus Deportiu  => CF Reus,
+Sabadell       => CE Sabadell,
+Salamanca      => UD Salamanca,
+Santander      => Real Racing Santander,
+
+Tenerife       => CD Tenerife,
+Terrassa       => Terrassa FC,
+Toledo         => CD Toledo,
+
+Valladolid     => Real Valladolid CF,
+Vecindario     => UD Vecindario,
+
+Xerez          => Xerez CD,
+Zaragoza       => Real Zaragoza,

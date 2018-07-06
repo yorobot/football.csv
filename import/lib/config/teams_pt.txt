@@ -1,0 +1,24 @@
+#############################################
+## pt-portugal
+
+
+Benfica        => SL Benfica,       Lisbon
+Sp Lisbon      => Sporting CP,      Lisbon    ## Sporting Clube de Portugal
+Belenenses     => Os Belenenses,    Lisbon
+
+Porto          => FC Porto,     Porto
+Boavista       => Boavista FC,  Porto
+
+Aves         => CD Aves, Aves
+Chaves       => GD Chaves, Chaves
+Estoril      => Estoril Praia, Estoril
+Feirense     => CD Feirense, Santa Maria da Feira
+Guimaraes    => Vitória de Guimarães, Guimarães   ## Vitória SC
+Maritimo     => CS Marítimo, Funchal
+Moreirense    => Moreirense FC, Moreira de Cónegos
+Pacos Ferreira  => FC Paços de Ferreira, Paços de Ferreira
+Portimonense    => Portimonense SC, Portimão
+Rio Ave        => Rio Ave FC, Vila do Conde
+Setubal        => Vitória de Setúbal, Setúbal   ## Vitória FC
+Sp Braga       => SC Braga, Braga
+Tondela        => CD Tondela, Tondela

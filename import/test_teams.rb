@@ -8,11 +8,11 @@
 require_relative 'lib/read'
 
 
-pp TEAMS_DE
-pp TEAMS_TR
+pp SportDb::Import::TEAMS_DE
+pp SportDb::Import::TEAMS_TR
 
 puts "-----------"
 
-pp TEAMS
+pp SportDb::Import::TEAMS
 
-pp PRINT_TEAMS    ## pretty print team names (reverse hash lookup)
+pp SportDb::Import::PRINT_TEAMS    ## pretty print team names (reverse hash lookup)

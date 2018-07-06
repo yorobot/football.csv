@@ -22,7 +22,9 @@ require_relative 'structs/standings'
 require_relative 'structs/teams'
 
 
-require_relative 'csv/teams'
+require_relative 'config/teams'
+
+
 require_relative 'csv/reader'
 require_relative 'csv/converter'
 require_relative 'csv/package'

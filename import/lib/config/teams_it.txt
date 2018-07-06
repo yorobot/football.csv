@@ -1,0 +1,53 @@
+##########################################
+# it-italy  [it]
+
+
+Roma         =>  AS Roma,  Roma
+Lazio        =>  SS Lazio, Roma
+
+Milan        =>  AC Milan,                 Milano
+Inter        =>  FC Internazionale Milano, Milano
+
+Torino       =>  Torino FC,   Torino
+Juventus     =>  Juventus,    Torino
+
+Verona       => Hellas Verona FC, Verona
+Chievo       => AC Chievo Verona, Verona
+
+Genoa        =>  Genoa CFC,      Genova
+Sampdoria    =>  UC Sampdoria,   Genova
+
+Atalanta     => Atalanta BC,     Bergamo
+Benevento    => Benevento,       Benevento
+Bologna      => Bologna FC,      Bologna
+Cagliari     => Cagliari Calcio, Cagliari
+Crotone      => FC Crotone,      Crotone
+Fiorentina   =>  ACF Fiorentina, Firenze
+Napoli       =>  SSC Napoli,     Napoli
+Sassuolo     =>  US Sassuolo Calcio, Sassuolo
+Spal         =>  SPAL,           Ferrara
+Udinese      =>  Udinese Calcio, Udine
+
+
+Ascoli       =>  Ascoli, Ascoli Piceno
+Avellino     =>  Avellino, Avellino
+Bari         =>  Bari, Bari
+Brescia      =>  Brescia, Brescia
+Carpi        =>  Carpi, Carpi
+Cesena        => Cesena, Cesena
+Cittadella   => Cittadella, Cittadella
+Cremonese     => Cremonese, Cremona
+Empoli        => Empoli, Empoli
+Foggia        => Foggia, Foggia
+Frosinone     => Frosinone, Frosinone
+Novara        => Novara, Novara
+Palermo       => Palermo, Palermo
+Parma         => Parma, Parma
+Perugia       => Perugia, Perugia
+Pescara       => Pescara, Pescara
+Pro Vercelli  =>  Pro Vercelli, Vercelli
+Salernitana   => Salernitana, Salerno
+Spezia        => Spezia, La Spezia
+Ternana       => Ternana, Terni
+Venezia       => Venezia, Venezia
+Virtus Entella   =>   Virtus Entella, Chiavari
