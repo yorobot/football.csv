@@ -8,11 +8,8 @@
 require_relative 'lib/read'
 
 
-pp SportDb::Import::TEAMS_DE
-pp SportDb::Import::TEAMS_TR
+pp SportDb::Import.config.team_mappings
 
 puts "-----------"
 
-pp SportDb::Import::TEAMS
-
-pp SportDb::Import::PRINT_TEAMS    ## pretty print team names (reverse hash lookup)
+pp SportDb::Import.config.teams
