@@ -44,6 +44,8 @@ def build_summary
   end
 
 
+  canonical_teams = SportDb::Import.config.teams  ## was pretty_print_team_names
+
 
   buf = ''
   buf << "## Teams\n\n"
@@ -55,7 +57,7 @@ def build_summary
 
   ary.each_with_index do |t,j|
     buf << ('  %5s  '   % "[#{j+1}]")
-    if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
+    if canonical_teams[t.team]   ## add marker e.g. (*) for pretty print team name
       team_name_with_marker = "#{t.team}"    ## add (*) - why? why not?
     else
       team_name_with_marker = " x #{t.team} (???)"
@@ -90,13 +92,13 @@ def build_summary
   buf << "\n\n"
 
 
-  ## show list of teams without known pretty print name
+  ## show list of teams without known canoncial/pretty print name
   ## show details
 
   names = []
   ary = teams.to_a
   ary.each do |t|
-    names << t.team     if PRINT_TEAMS[t.team].nil?
+    names << t.team     if canonical_teams[t.team].nil?
   end
   names = names.sort   ## sort from a-z
 
@@ -108,7 +110,7 @@ def build_summary
   ## for easy update add cut-n-paste code snippet
   buf << "```\n"
   names.each do |name|
-    buf << ("  %-22s =>\n" % name)
+    buf << ("%-22s =>\n" % name)
   end
   buf << "```\n\n"
 
@@ -119,20 +121,25 @@ def build_summary
 
   ary = teams.to_a
   ary.each do |t|
-    buf << ('%-26s => ' % t.team)
 
     ## todo: (auto-)add key to names too - why? why not?
-    print_teams = PRINT_TEAMS[t.team]
+    ##  todo/fix: change to alt_teams_names!!!
+    print_teams = canonical_teams[t.team]
     if print_teams
+       buf << ('%-26s  ' % t.team)
+       ## note: remove canonical name if listed in alt names for now
+       print_teams = print_teams.select {|team| team != t.team }
        if print_teams.size == 1
-         buf << "#{print_teams[0]}"
-       else
+         buf << "=> #{print_teams[0]}"
+       elsif print_teams.size > 1
          ## sort by lenght (smallest first)
          print_teams_sorted = print_teams.sort { |l,r| l.length <=> r.length }
-         buf << "(#{print_teams.size}) #{print_teams_sorted.join(' • ')}"
+         buf << "=> (#{print_teams.size}) #{print_teams_sorted.join(' • ')}"
+       else
+         ## canonical name is mapping name - do not repeat/print for now
        end
     else
-       buf << " x"
+       buf << " x #{t.team} (???)"
     end
     buf << "\n"
   end
@@ -146,7 +153,7 @@ def build_summary
   ary = teams.to_a
   ary.each do |t|
     buf << "- "
-    if PRINT_TEAMS[t.team]   ## add marker e.g. (*) for pretty print team name
+    if canonical_teams[t.team]   ## add marker e.g. (*) for pretty print team name
       team_name_with_marker = "**#{t.team}**"    ## add (*) - why? why not?
     else
       team_name_with_marker = "x #{t.team} (???)"
@@ -235,7 +242,10 @@ def pretty_print_seasons( seasons )
         buf << "#{run[0]} "
      else
         ## use first and last season
-        buf << "#{run[0]}..#{run[-1]} (#{run.size}) "
+        ##  try for now use .. (2)
+        ##                  ... (3)
+        ##                  ..... (4) etc.
+        buf << "#{run[0]}#{'.'*run.size}#{run[-1]} (#{run.size}) "
      end
   end
   buf = buf.strip   # remove trainling space(s)

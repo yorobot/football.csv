@@ -1,8 +1,6 @@
 # encoding: utf-8
 
 
-##
-##  todo/fix: always use utf8 in file read/write!!!
 
 class CsvMatchReader
 
@@ -92,13 +90,15 @@ def self.read( path, headers: nil, filters: nil )
       next
     end
 
-    ## remove possible match playeed counters e.g. (4) (11) etc.
+    ## remove possible match played counters e.g. (4) (11) etc.
     team1 = team1.sub( /\(\d+\)/, '' ).strip
     team2 = team2.sub( /\(\d+\)/, '' ).strip
 
     ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
-    team1 = TEAMS[ team1 ]   if TEAMS[ team1 ]
-    team2 = TEAMS[ team2 ]   if TEAMS[ team2 ]
+    ##  use "global" default/built-in team mappings for now
+    team_mappings = SportDb::Import.config.team_mappings
+    team1 = team_mappings[ team1 ]   if team_mappings[ team1 ]
+    team2 = team_mappings[ team2 ]   if team_mappings[ team2 ]
 
 
     date = row[ headers_mapping[ :date ]]
@@ -177,6 +177,7 @@ def self.read( path, headers: nil, filters: nil )
   ## note: only return team names (not hash with usage counter)
   matches
 end
+
 
 
 private

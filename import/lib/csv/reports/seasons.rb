@@ -54,12 +54,15 @@ def build_summary
       buf_details << "\n"
 
 
+
+      canonical_teams = SportDb::Import.config.teams  ## was pretty_print_team_names
+
       ## find all unmapped/unknown/missing teams
       ##   with no pretty print team names in league
       names = []
       team_usage.each do |rec|
         team_name = rec[0]
-        names << team_name     if PRINT_TEAMS[team_name].nil?
+        names << team_name     if canonical_teams[team_name].nil?
       end
       names = names.sort   ## sort from a-z
 
