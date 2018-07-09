@@ -7,16 +7,79 @@ Panathinaikos  =>  Panathinaikos FC,  Athens
 Apollon        =>  Apollon Smyrnis FC,  Athens
 Atromitos      =>  Atromitos FC,      Athens    ## use!? - Peristeri a suburban municipality in the northwestern part of the Athens agglomeration
 Panionios      =>  Panionios GSS,     Athens    ## use!? - Nea Smyrni a municipality and a southern suburb of Athens
+Akratitos      =>  APO Akratitos,      Athens        ## Ano Liosia, Athens
+Athinaikos     =>  Athinaikos AS FC,   Athens
 
-Olympiakos        =>  Olympiacos FC,       Piraeus
+Chalkidona     => Chalkidona FC, Athens   ## Nikaia - a suburb in the western part of the Athens agglomeration
+Egaleo         => Egaleo FC, Athens   ## Egaleo - a suburb of Athens
 
-PAOK              =>  PAOK FC,             Thessaloniki
+Ethnikos Asteras | Eth Asteras => Ethnikos Asteras FC, Athens   ## Kaisariani - a suburban town and a municipality in the eastern part of the Athens agglomeration
+
+Kalithea | Kallithea  =>  Kallithea FC, Kallithea   ## Kallithea - the 4th biggest in the Athens urban area
+Thrasyvoulos         => Thrasyvoulos FC,  Fyli  ##  a town and a municipality in the northwestern part of Attica; a suburb of Athens
+
+
+Proodeftiki | Proodeytiki => Proodeftiki FC, Nikaia
+Ionikos      => Ionikos FC, Nikaia   ## Athens Nikaia - a suburb in the western part of the Athens agglomeration
+
+
+Olympiakos                     => Olympiacos Piraeus FC,  Piraeus
+Ethnikos Piraeus | Ethnikos    => Ethnikos Piraeus FC,    Piraeus
+
+
+
+PAOK              =>  PAOK FC,              Thessaloniki
+Aris              =>  Aris Thessaloniki FC, Thessaloniki
+Iraklis           => Iraklis 1908 Thessaloniki FC, Thessaloniki
+
+Kalamaria  =>  Apollon Pontou FC, Kalamaria    ## Kalamaria, Thessaloniki
+
+
 Asteras Tripolis  =>  Asteras Tripolis FC, Tripoli
+
 Xanthi        =>  Xanthi FC,           Xanthi
 Panetolikos   =>  Panetolikos GFS,     Agrinio
-Giannina      =>  PAS Giannina FC,     Ioannina
-Levadeiakos   =>  Levadiakos FC,       Livadeia
+Giannina | Yiannina  =>  PAS Giannina FC,     Ioannina
+Levadeiakos         =>  Levadiakos FC,       Livadeia
 Larisa        =>  AE Larissa FC,       Larissa
-Lamia         =>  Lamia,               Lamia
+Lamia         =>  PAS Lamia 1964,      Lamia
 Kerkyra       =>  Kerkyra FC,          Corfu
 Platanias     =>  Platanias FC,        Chania
+
+
+
+Doxa | Doxa Dramas   => Doxa Dramas FC, Drama
+
+Edessaikos => Edessaikos FC,  Edessa
+
+
+
+Eleysina        =>  Panelefsiniakos FC, Elefsina
+
+Ergotelis       => Ergotelis FC, Heraklion
+OFI             => OFI Crete FC, Heraklion
+
+
+Kalamata   =>  Kalamata FC,       Kalamata
+
+Kallonis   =>  AEL Kalloni FC, Kalloni
+Kastoria   =>  Kastoria FC, Kastoria
+Kavala     =>  Kavala FC, Kavala
+
+Niki Volos        => Niki Volou FC, Volos
+Olympiakos Volou  => Olympiacos Volou 1937 FC, Volos
+
+Levadiakos  => Levadiakos FC, Livadeia
+
+
+Panahaiki   => Panachaiki FC, Patras
+
+
+Paniliakos   => Paniliakos FC, Pyrgos
+Panserraikos => Panserraikos FC, Serres
+Panthrakikos => Panthrakikos FC, Komotini
+
+
+Trikala      => Trikala FC, Trikala
+
+Veria | Veroia  =>   Veria FC, Veria

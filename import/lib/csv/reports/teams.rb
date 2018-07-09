@@ -92,115 +92,18 @@ def build_summary
   buf << "\n\n"
 
 
-  ## show list of teams without known canoncial/pretty print name
-  ## show details
 
-  names = []
-  ary = teams.to_a
-  ary.each do |t|
-    names << t.team     if canonical_teams[t.team].nil?
-  end
-  names = names.sort   ## sort from a-z
-
-  buf << "Unknown / Missing / ??? (#{names.size}):\n\n"
-  buf << "#{names.join(', ')}\n"
-  buf << "\n\n"
-
-
-  ## for easy update add cut-n-paste code snippet
-  buf << "```\n"
-  names.each do |name|
-    buf << ("%-22s =>\n" % name)
-  end
-  buf << "```\n\n"
-
-
+  ## use all team names from team usage stats (all used teams)
+  team_names = teams.to_a.map { |t| t.team }
 
   buf << "### Team Name Mappings\n\n"
-  buf << "```\n"
-
-  ary = teams.to_a
-  ary.each do |t|
-
-    alt_team_names = canonical_teams[t.team] ? canonical_teams[t.team].alt_names : nil
-
-    if alt_team_names
-       buf << ('%-26s  ' % t.team)
-       if alt_team_names.size == 1
-         buf << "=> #{alt_team_names[0]}"
-       elsif alt_team_names.size > 1
-         ## sort by lenght (smallest first)
-         alt_team_names_sorted = alt_team_names.sort { |l,r| l.length <=> r.length }
-         buf << "=> (#{alt_team_names.size}) #{alt_team_names_sorted.join(' • ')}"
-       else
-         ## canonical name is mapping name - do not repeat/print for now
-       end
-    else
-       buf << " x #{t.team} (???)"
-    end
-    buf << "\n"
-  end
-  buf << "```\n\n"
-
+  buf << TeamMappingReport.new.build( team_names )
+  buf << "\n\n"
 
 
   buf << "### Teams by City\n\n"
-
-  cities = {}
-
-  ary = teams.to_a
-  ary.each do |t|
-    team = canonical_teams[t.team]
-    if team
-       team_city = team.city || '?'    ## convert nil to ?
-       cities[team_city] ||= []
-       cities[team_city] << team
-    else
-      ## collect missing teams too - why? why not?
-      cities['x'] ||= []
-      cities['x'] << t.team
-    end
-  end
-
-
-  ## sort cities by name
-  ##   todo/fix: exlude special key x and ? - why? why not?
-  cities.keys.sort.each do |city|
-    v = cities[city]
-    if city == 'x'
-      buf << "- x (???) missing (#{v.size}): "
-      buf << v.join(', ')
-      buf << "\n"
-    else
-      if city == '?'
-        buf << "- #{city}"
-      else
-        buf << "- **#{city}**"
-      end
-      if v.size > 1
-        buf << " (#{v.size})"
-      end
-      buf << ": "
-
-      buf << v.map { |t| t.name }.join( ', ')  ## print all canonical team names
-      buf << "\n"
-      #### add details if v.size > 1
-      ## if v.size > 1
-        v.each do |t|
-          buf << "  - #{t.name} "
-          if t.alt_names && t.alt_names.size > 0
-            ##  todo/fix:
-            ##    add check for matching city name !!!!
-            ##     sort by smallest first - why? why not?
-            buf << " (#{t.alt_names.size}) #{t.alt_names.join(' • ')}"
-          end
-          buf << "\n"
-        end
-      ## end
-    end
-  end
+  buf << TeamCityReport.new.build( team_names )
   buf << "\n\n"
-
 
 
 

@@ -71,7 +71,7 @@ def parse_teams_txt( txt )
     pp line
     names_line, team_line = line.split( '=>' )
 
-    names = names_line.split( ',' )   # team names
+    names = names_line.split( /[|,]/ )   # team names - allow comma(,) or pipe(|)
     team  = team_line.split( ',' )   # (canoncial) team name, team_city
 
     ## remove leading and trailing spaces
@@ -80,11 +80,17 @@ def parse_teams_txt( txt )
     pp names
     pp team
 
+    canonical_name = team[0]
+    city           = team[1]
+
+    ## note: remove from alt_names if canonical name (mapping 1:1)
+    alt_names = names.select {|name| name != canonical_name }
+
     ## todo: add country (code) too!!!
     rec = SportDb::Struct::Team.create(
-                                    name:      team[0],
-                                    city:      team[1],    ## note: team_city is optional for now (might be nil!!!)
-                                    alt_names: names
+                                    name:      canonical_name,
+                                    city:      city,     ## note: team_city is optional for now (might be nil!!!)
+                                    alt_names: alt_names
                                   )
     ## pp rec
     recs << rec

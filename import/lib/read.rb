@@ -34,6 +34,10 @@ require_relative 'csv/reports/summary.rb'
 require_relative 'csv/reports/teams.rb'
 
 
+require_relative 'csv/reports/team_city.rb'
+require_relative 'csv/reports/team_mapping.rb'
+
+
 
 
 require_relative 'read_txt'
