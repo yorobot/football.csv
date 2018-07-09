@@ -143,6 +143,64 @@ def build_summary
   buf << "```\n\n"
 
 
+
+  buf << "### Teams by City\n\n"
+
+  cities = {}
+
+  ary = teams.to_a
+  ary.each do |t|
+    team = canonical_teams[t.team]
+    if team
+       team_city = team.city || '?'    ## convert nil to ?
+       cities[team_city] ||= []
+       cities[team_city] << team
+    else
+      ## collect missing teams too - why? why not?
+      cities['x'] ||= []
+      cities['x'] << t.team
+    end
+  end
+
+
+  cities.each do |city,v|
+    if city == 'x'
+      buf << "- x (???) missing (#{v.size}): "
+      buf << v.join(', ')
+      buf << "\n"
+    else
+      if city == '?'
+        buf << "- #{city}"
+      else
+        buf << "- **#{city}**"
+      end
+      if v.size > 1
+        buf << " (#{v.size})"
+      end
+      buf << ": "
+
+      buf << v.map { |t| t.name }.join( ', ')  ## print all canonical team names
+      buf << "\n"
+      #### add details if v.size > 1
+      ## if v.size > 1
+        v.each do |t|
+          buf << "  - #{t.name} "
+          if t.alt_names && t.alt_names.size > 0
+            ##  todo/fix:
+            ##    add check for matching city name !!!!
+            ##     sort by smallest first - why? why not?
+            buf << " (#{t.alt_names.size}) #{t.alt_names.join('•')}"
+          end
+          buf << "\n"
+        end
+      ## end
+    end
+  end
+  buf << "\n\n"
+
+
+
+
   ## show details
   buf << "### Season\n\n"
 
