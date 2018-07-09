@@ -10,12 +10,15 @@ end
 
 def build_summary
 
-  buf_summaries = []   ## use one summary for every level for now
+  buf_summaries = {}   ## use one summary for every level for now
   buf_details = ""
 
 
   season_entries = @pack.find_entries_by_season
-  season_entries.each do |season_entry|
+
+  ## note: sort season - latest first
+  ##  todo/fix: use File.basename() for sort  - allows subdirs e.g. 1980s, archive etc.
+  season_entries.sort { |l,r| r[0] <=> l[0] }.each do |season_entry|
     season_dir   = season_entry[0]
     season_files = season_entry[1]    ## .csv (data)files
 
@@ -72,17 +75,25 @@ def build_summary
       end
 
 
-      ## todo/fix:
-      ## todo/fix:
-      ## todo/fix:
-      ##   use level (e.g. 1-bundesliga)
-      #    from file instead of loop index for summary index - why? why not?
-      #     will handle missing leagues in hierachy
-      #     or handles 3a,3b !!!!! etc.  (see england)
+    ## todo/fix:
+    ## todo/fix:
+    ## todo/fix:
+    ##   use level (e.g. 1-bundesliga)
+    #    from file instead of loop index for summary index - why? why not?
+    #     will handle missing leagues in hierachy
+    #     or handles 3a,3b !!!!! etc.  (see england)
 
+      ## 1-bundesliga
+      ## 3a-liga-north
 
-      buf_summaries[i] ||= ''    ## init summary if first time
-      buf_summary = buf_summaries[i]
+      if File.basename( season_file ) =~ /^(\d)[ab]?-/
+        level = $1
+      else
+        level = '?'   ## use 0 - why? why not? use numeric key - why? why not?
+      end
+
+      buf_summaries[level] ||= ''    ## init summary if first time
+      buf_summary = buf_summaries[level]
 
       buf_summary << "- [`#{season_file}`](#{season_file}) => "
       buf_summary << "#{team_usage.size} teams / "
@@ -103,7 +114,7 @@ def build_summary
 
   buf = ''
   buf << "## Datafiles\n\n"
-  buf << buf_summaries.join( "\n<!-- break -->\n" )
+  buf << buf_summaries.values.join( "\n<!-- break -->\n" )
   buf << "\n\n"
   buf << "### Seasons\n\n"
   buf << buf_details
