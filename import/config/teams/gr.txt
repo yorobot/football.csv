@@ -1,0 +1,21 @@
+####################################################
+# gr-greece
+
+AEK Athens FC,     Athens    ## use!? - Marousi or Maroussi a suburban city in the northeastern part of the Athens agglomeration
+Panathinaikos FC,  Athens
+Apollon Smyrnis FC,  Athens
+Atromitos FC,      Athens    ## use!? - Peristeri a suburban municipality in the northwestern part of the Athens agglomeration
+Panionios GSS,     Athens    ## use!? - Nea Smyrni a municipality and a southern suburb of Athens
+
+Olympiacos FC,       Piraeus
+
+PAOK FC,             Thessaloniki
+Asteras Tripolis FC, Tripoli
+Xanthi FC,           Xanthi
+Panetolikos GFS,     Agrinio
+PAS Giannina FC,     Ioannina
+Levadiakos FC,       Livadeia
+AE Larissa FC,       Larissa
+Lamia,               Lamia
+Kerkyra FC,          Corfu
+Platanias FC,        Chania
