@@ -163,7 +163,10 @@ def build_summary
   end
 
 
-  cities.each do |city,v|
+  ## sort cities by name
+  ##   todo/fix: exlude special key x and ? - why? why not?
+  cities.keys.sort.each do |city|
+    v = cities[city]
     if city == 'x'
       buf << "- x (???) missing (#{v.size}): "
       buf << v.join(', ')
@@ -189,7 +192,7 @@ def build_summary
             ##  todo/fix:
             ##    add check for matching city name !!!!
             ##     sort by smallest first - why? why not?
-            buf << " (#{t.alt_names.size}) #{t.alt_names.join('•')}"
+            buf << " (#{t.alt_names.size}) #{t.alt_names.join(' • ')}"
           end
           buf << "\n"
         end

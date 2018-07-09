@@ -52,7 +52,22 @@ def fetch_repo( repo, sources )
       if response.code == '200'
         txt = response.body
 
-        File.open( out_path, 'wb' ) do |out|
+## [debug] GET=http://www.football-data.co.uk/mmz4281/0405/SC0.csv
+##    Encoding::UndefinedConversionError: "\xA0" from ASCII-8BIT to UTF-8
+
+        ## note: assume windows encoding (for football-data.uk)
+        ##  convert to utf-8
+        ##   use "Windows-1252" for input - why? why not?
+        ##    see https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
+
+        txt = txt.force_encoding( 'ISO-8859-1' )
+        txt = txt.encode( 'UTF-8' )
+
+        ## fix: newlines - always use "unix" style"
+        txt = txt.gsub( "\r\n", "\n" )
+
+        ## todo/fix: for txt encoding to utf-8 - why? why not?
+        File.open( out_path, 'w:utf-8' ) do |out|
           out.write txt
         end
       else
