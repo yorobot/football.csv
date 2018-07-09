@@ -1,0 +1,56 @@
+#########################################
+# sco-scotland
+
+  =>  Celtic FC,       Glasgow
+  =>  Rangers FC,      Glasgow
+  =>  Partick Thistle, Glasgow
+  =>  Queen's Park,    Glasgow
+
+
+  =>  Heart of Midlothian FC,  Edinburgh   ## Gorgie - West of Edinburgh
+  =>  Hibernian FC,            Edinburgh   ## Leith  - North of Edinburgh
+  =>  Edinburgh City,          Edinburgh
+
+  =>  Aberdeen FC, Aberdeen
+
+  =>  Dundee FC, Dundee
+  =>  Dundee United, Dundee
+
+  =>  Hamilton Academical FC,  Hamilton
+  =>  Kilmarnock FC, Kilmarnock
+  =>  Motherwell FC, Motherwell
+  =>  Ross County,  Dingwall
+  =>  St Johnstone FC, Perth
+
+
+  =>  Brechin City,  Brechin
+  =>  Dumbarton,     Dumbarton
+  =>  Dunfermline Athletic, Dunfermline
+  =>  Falkirk,  Falkirk
+  =>  Greenock Morton,  Greenock
+  =>  Inverness Caledonian Thistle, Inverness
+  =>  Livingston FC, Livingston
+  =>  Queen of the South,  Dumfries
+  =>  Saint Mirren FC,  Paisley
+
+
+  =>  Airdrieonians,    Airdrie
+  =>  Albion Rovers,    Coatbridge
+  =>  Alloa Athletic,   Alloa
+  =>  Arbroath,         Arbroath
+  =>  Ayr United,       Ayr
+  =>  East Fife,        Methil
+  =>  Forfar Athletic,  Forfar
+  =>  Raith Rovers,     Kirkcaldy
+  =>  Stranraer,        Stranraer
+
+
+  =>  Annan Athletic,   Annan
+  =>  Berwick Rangers,  Berwick-upon-Tweed  ## note: in England !!!
+  =>  Clyde,            Cumbernauld
+  =>  Cowdenbeath,      Cowdenbeath
+  =>  Elgin City,       Elgin
+  =>  Montrose,         Montrose
+  =>  Peterhead,        Peterhead
+  =>  Stenhousemuir,    Stenhousemuir
+  =>  Stirling Albion,  Stirling
