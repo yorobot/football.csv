@@ -122,19 +122,16 @@ def build_summary
   ary = teams.to_a
   ary.each do |t|
 
-    ## todo: (auto-)add key to names too - why? why not?
-    ##  todo/fix: change to alt_teams_names!!!
-    print_teams = canonical_teams[t.team]
-    if print_teams
+    alt_team_names = canonical_teams[t.team] ? canonical_teams[t.team].alt_names : nil
+
+    if alt_team_names
        buf << ('%-26s  ' % t.team)
-       ## note: remove canonical name if listed in alt names for now
-       print_teams = print_teams.select {|team| team != t.team }
-       if print_teams.size == 1
-         buf << "=> #{print_teams[0]}"
-       elsif print_teams.size > 1
+       if alt_team_names.size == 1
+         buf << "=> #{alt_team_names[0]}"
+       elsif alt_team_names.size > 1
          ## sort by lenght (smallest first)
-         print_teams_sorted = print_teams.sort { |l,r| l.length <=> r.length }
-         buf << "=> (#{print_teams.size}) #{print_teams_sorted.join(' • ')}"
+         alt_team_names_sorted = alt_team_names.sort { |l,r| l.length <=> r.length }
+         buf << "=> (#{alt_team_names.size}) #{alt_team_names_sorted.join(' • ')}"
        else
          ## canonical name is mapping name - do not repeat/print for now
        end
@@ -144,7 +141,6 @@ def build_summary
     buf << "\n"
   end
   buf << "```\n\n"
-
 
 
   ## show details

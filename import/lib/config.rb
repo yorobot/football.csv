@@ -20,27 +20,32 @@ class Configuration
 
     ## unify team names; team (builtin/known/shared) name mappings
     ## cleanup team names - use local ("native") name with umlaut etc.
-    ##
-    ## merge all hashes into one (TEAMS hash)
-    ##   e.g. TEAMS = {}.merge( TEAMS_DE ).merge( TEAMS_TR )
-    h = {}
+    recs = []
     %w(de fr es it pt nl be tr).each do |country|
        txt = File.open( "#{SportDb::Import.data_dir}/teams/#{country}.txt", 'r:utf-8' ).read
-       h = h.merge( teams_txt_to_h( txt ) )
+       recs += parse_teams_txt( txt )
     end
 
-    @team_mappings = h
+    ############################
+    ## add team mappings
+    ##   alt names to canonical pretty (recommended unique) name
+    @team_mappings = {}
+
+    recs.each do |rec|
+       rec.alt_names.each do |alt_name|
+         ## todo/fix: warn about duplicates (if key exits) ???????
+         @team_mappings[ alt_name ] = rec.name
+       end
+    end
 
 ###
 ## reverse hash for lookup/list of "official / registered(?)"
-##    pretty  recommended unique (long form)
+##    pretty recommended canonical unique (long form)
 ##    team names
 
-# like invert but not lossy
-# {"one"=>1,"two"=>2, "1"=>1, "2"=>2}.inverse => {1=>["one", "1"], 2=>["two", "2"]}
-    @teams = h.each_with_object({}) do |(key,value),out|
-       out[value] ||= []
-       out[value] << key
+    @teams = {}
+    recs.each do |rec|
+      @teams[ rec.name ] = rec
     end
 
     self  ## return self for chaining
@@ -50,8 +55,8 @@ class Configuration
 
 private
 
-def teams_txt_to_h( txt )
-  h = {}
+def parse_teams_txt( txt )
+  recs = []
   txt.each_line do |line|
     line = line.strip
 
@@ -75,16 +80,16 @@ def teams_txt_to_h( txt )
     pp names
     pp team
 
-
-    canonical_team_name = team[0]
-    team_city           = team[1]    ## note: team_city is optional for now (might be nil!!!)
-
-    names.each do |name|
-      ## todo/fix: warn about duplicates ???????
-      h[name] = canonical_team_name
-    end
+    ## todo: add country (code) too!!!
+    rec = SportDb::Struct::Team.create(
+                                    name:      team[0],
+                                    city:      team[1],    ## note: team_city is optional for now (might be nil!!!)
+                                    alt_names: names
+                                  )
+    ## pp rec
+    recs << rec
   end
-  h
+  recs
 end
 
 end # class Configuration
