@@ -221,15 +221,19 @@ private
       line2.away_pts += 1
     end
 
-    line1.goals_for      += m.score1
-    line1.home_goals_for += m.score1
-    line1.goals_against      += m.score2
-    line1.home_goals_against += m.score2
+    if m.score1 && m.score2
+      line1.goals_for      += m.score1
+      line1.home_goals_for += m.score1
+      line1.goals_against      += m.score2
+      line1.home_goals_against += m.score2
 
-    line2.goals_for      += m.score2
-    line2.away_goals_for += m.score2
-    line2.goals_against      += m.score1
-    line2.away_goals_against += m.score1
+      line2.goals_for      += m.score2
+      line2.away_goals_for += m.score2
+      line2.goals_against      += m.score1
+      line2.away_goals_against += m.score1
+    else
+      puts "*** warn: [standings] skipping match with missing scores: #{m.inspect}"
+    end
 
     @lines[ m.team1 ] = line1
     @lines[ m.team2 ] = line2

@@ -39,6 +39,18 @@ class Match
     @score2i = @score2i.to_i  if @score2i
 
 
+    ## todo/fix:
+    ##  gr-greece/2014-15/G1.csv:
+    ##     G1,10/05/15,Niki Volos,OFI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    ##
+
+    ##  for now score1 and score2 must be present
+    if @score1.nil? || @score2.nil?
+      puts "*** missing scores for match:"
+      pp kwargs
+      ## exit 1
+    end
+
     ## todo/fix: auto-calculate winner
     # return 1,2,0   1 => team1, 2 => team2, 0 => draw/tie
     ### calculate winner - use 1,2,0
