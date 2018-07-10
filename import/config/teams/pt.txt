@@ -2,9 +2,9 @@
 ## pt-portugal
 
 
-Benfica        => SL Benfica,       Lisboa 
+Benfica        => SL Benfica,       Lisboa
 Sp Lisbon      => Sporting CP,      Lisboa     ## Sporting Clube de Portugal
-Belenenses     => Os Belenenses,    Lisboa 
+Belenenses     => Os Belenenses,    Lisboa
 
 Porto          => FC Porto,     Porto
 Boavista       => Boavista FC,  Porto
@@ -34,10 +34,20 @@ Desp. Chaves     => Desportivo de Chaves, Chaves
 Est Amadora      => CF Estrela da Amadora, Amadora
 Farense          => SC Farense, Faro
 Gil Vicente      => Gil Vicente FC, Barcelos
-Leiria           => União de Leiria,   Leiria    ## União Desportiva de Leiria
-Madeira          => União da Madeira,  Funchal
+Leiria                   => União de Leiria,   Leiria    ## União Desportiva de Leiria
+Madeira | Uniao Madeira  => União da Madeira,  Funchal
 Salgueiros       => SC Salgueiros,  Paranhos
 Tirsense         => FC Tirsense,  Santo Tirso
-Campomaior       => SC Campomaiorense, Campo Maior
+Campomaior | Campomaiorense   => SC Campomaiorense, Campo Maior
 Felgueiras       => FC Felgueiras, Felgueiras
 Leca             => Leça FC, Leça da Palmeira
+
+
+Alverca                => FC Alverca, Alverca do Ribatejo
+Espinho                => Sporting de Espinho,  Espinho     ## Sporting Clube de Espinho
+Leixoes                => Leixões SC, Matosinhos
+Naval                  => Naval 1º de Maio, Figueira da Foz  ## Associação Naval 1º de Maio
+Olhanense              => SC Olhanense,     Olhão
+Santa Clara            => CD Santa Clara,   Ponta Delgada
+Trofense               => CD Trofense,     Tulipa  ## Clube Desportivo Trofense
+Varzim                 => Varzim SC,       Póvoa de Varzim
