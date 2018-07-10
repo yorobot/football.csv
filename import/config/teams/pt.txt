@@ -24,6 +24,11 @@ Setubal        => Vitória de Setúbal, Setúbal   ## Vitória FC
 Sp Braga       => SC Braga, Braga
 Tondela        => CD Tondela, Tondela
 
+Academica     =>  Académica de Coimbra, Coimbra  ## Associação Académica de Coimbra – Organismo Autónomo de Futebol (AAC–OAF)
+Arouca        =>  FC Arouca, Arouca
+Nacional      =>  CD Nacional Madeira, Funchal   ## Clube Desportivo Nacional
+Penafiel      =>  FC Penafiel, Penafiel
+
 Beira Mar        => SC Beira-Mar, Aveiro
 Desp. Chaves     => Desportivo de Chaves, Chaves
 Est Amadora      => CF Estrela da Amadora, Amadora
