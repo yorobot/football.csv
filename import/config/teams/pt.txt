@@ -2,12 +2,13 @@
 ## pt-portugal
 
 
-Benfica        => SL Benfica,       Lisbon
-Sp Lisbon      => Sporting CP,      Lisbon    ## Sporting Clube de Portugal
-Belenenses     => Os Belenenses,    Lisbon
+Benfica        => SL Benfica,       Lisboa 
+Sp Lisbon      => Sporting CP,      Lisboa     ## Sporting Clube de Portugal
+Belenenses     => Os Belenenses,    Lisboa 
 
 Porto          => FC Porto,     Porto
 Boavista       => Boavista FC,  Porto
+
 
 Aves         => CD Aves, Aves
 Chaves       => GD Chaves, Chaves
@@ -22,3 +23,16 @@ Rio Ave        => Rio Ave FC, Vila do Conde
 Setubal        => Vitória de Setúbal, Setúbal   ## Vitória FC
 Sp Braga       => SC Braga, Braga
 Tondela        => CD Tondela, Tondela
+
+Beira Mar        => SC Beira-Mar, Aveiro
+Desp. Chaves     => Desportivo de Chaves, Chaves
+Est Amadora      => CF Estrela da Amadora, Amadora
+Farense          => SC Farense, Faro
+Gil Vicente      => Gil Vicente FC, Barcelos
+Leiria           => União de Leiria,   Leiria    ## União Desportiva de Leiria
+Madeira          => União da Madeira,  Funchal
+Salgueiros       => SC Salgueiros,  Paranhos
+Tirsense         => FC Tirsense,  Santo Tirso
+Campomaior       => SC Campomaiorense, Campo Maior
+Felgueiras       => FC Felgueiras, Felgueiras
+Leca             => Leça FC, Leça da Palmeira
