@@ -51,3 +51,30 @@ Spezia        => Spezia, La Spezia
 Ternana       => Ternana, Terni
 Venezia       => Venezia, Venezia
 Virtus Entella   =>   Virtus Entella, Chiavari
+
+
+Piacenza    => Piacenza Calcio 1919, Piacenza
+Vicenza     => LR Vicenza Virtus, Vicenza
+Padova	    =>	Calcio Padova, Padova
+Modena      => Modena FC, Modena
+Siena       => SS Robur Siena, Siena
+Ancona      =>  US Anconitana ASD, Ancona
+
+Cosenza     => Cosenza Calcio, Cosenza
+F. Andria   => SS Fidelis Andria 1928, Andria   ## Fidelis Andria
+Lecce       => US Lecce, Lecce
+Lucchese    => AS Lucchese Libertas 1905,	Lucca
+Monza       => SS Monza 1912, Monza
+Ravenna     => Ravenna FC 1913, Ravenna
+Reggiana    => AC Reggiana 1919, Reggio Emilia
+Reggina     => Urbs Reggina 1914, Reggio Calabria
+Treviso     => ACD Treviso, Treviso
+C. Sangro   =>  ASD Castel di Sangro, Castel di Sangro
+Albinoleffe => Unione Calcio Albinoleffe, Albino e Leffe
+Catania     => Calcio Catania, Catania
+Como        => Como 1907, Como
+Livorno     => AS Livorno Calcio, Livorno
+Messina     => ACR Messina SSD, Messina
+Triestina   => US Triestina Calcio 1918, Trieste
+Arezzo      => SS Arezzo, Arezzo
+Catanzaro   => US Catanzaro 1929, Catanzaro
