@@ -4,9 +4,12 @@
 
 Anderlecht     => RSC Anderlecht, Brussels
 FC Brussels    => FC Brussels,    Brussels
+Molenbeek      => RWD Molenbeek,  Brussels
 
 
-Antwerp      => Royal Antwerp FC,    Antwerpen
+Antwerp        => Royal Antwerp FC,    Antwerpen
+Germinal       => Germinal Beerschot, Antwerpen
+
 Charleroi    => Sporting Charleroi, Charleroi   ##  [fr]	Royal Charleroi Sporting Club; Sporting de Charleroi
 Eupen        => KAS Eupen,   Eupen  ## [de]
 Genk         => KRC Genk,   Genk
@@ -27,20 +30,18 @@ Waasland-Beveren  => Waasland-Beveren,  Beveren   ## KVRS Waasland - SK Beveren
 Waregem      => SV Zulte Waregem,  Waregem
 
 
-Westerlo    => KVC Westerlo,
-Lierse       => K Lierse SK,
-Aalst     => SC Eendracht Aalst,
-Bergen    => RAEC Mons,
-Beveren   => KSK Beveren,
-Dender    => FCV Dender EH,
-Geel           => KFC Verbroedering Geel,
-Germinal       => Germinal Beerschot,
-Harelbeke      => KRC Harelbeke,
-Heusden Zolder => K Heusden-Zolder,
-Lommel         => KFC Lommel SK,
-Louvieroise    => RAA Louviéroise,
-Molenbeek      => RWD Molenbeek,
-Roeselare      => KSV Roeselare,
-Seraing        => RFC Seraing,
-Tubize         => AFC Tubize,
-Oud-Heverlee Leuven => Oud-Heverlee Leuven,
+Westerlo    => KVC Westerlo, Westerlo
+Lierse       => K Lierse SK, Lier
+Aalst     => SC Eendracht Aalst, Aalst
+Bergen    => RAEC Mons, Bergen
+Beveren   => KSK Beveren, Beveren
+Dender    => FCV Dender EH, Denderleeuw
+Geel           => KFC Verbroedering Geel, Geel
+Harelbeke      => KRC Harelbeke, Harelbeke
+Heusden Zolder => K Heusden-Zolder,  Heusden-Zolder
+Lommel         => KFC Lommel SK,  Lommel
+Louvieroise    => RAA Louviéroise, La Louvière
+Roeselare      => KSV Roeselare, Roeselare
+Seraing        => RFC Seraing, Seraing
+Tubize         => AFC Tubize, Tubize
+Oud-Heverlee Leuven => Oud-Heverlee Leuven,  Leuven
