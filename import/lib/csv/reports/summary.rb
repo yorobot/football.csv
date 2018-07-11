@@ -13,6 +13,8 @@ def build_summary
   buf << CsvSeasonsReport.new( @pack ).build_summary
   buf << "\n\n"
   buf << CsvTeamsReport.new( @pack ).build_summary
+  buf << "\n\n"
+  buf << CsvPyramidReport.new( @pack ).build_summary
   buf
 end
 

@@ -32,6 +32,7 @@ require_relative 'csv/standings'
 require_relative 'csv/reports/seasons.rb'
 require_relative 'csv/reports/summary.rb'
 require_relative 'csv/reports/teams.rb'
+require_relative 'csv/reports/pyramid.rb'
 
 
 require_relative 'csv/reports/team_city.rb'
