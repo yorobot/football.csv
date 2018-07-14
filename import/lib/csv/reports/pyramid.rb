@@ -4,21 +4,118 @@
 class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? why not?
 
 
+   class TeamLine
+     attr_reader :name, :seasons
+
+     def initialize( name )
+       @name     = name
+       @seasons  = {}    ## seasons by level
+     end
+
+     def update( level:, season: )
+       ##  use seasons to track datafile count as value - why? why not?
+       h = @seasons[ level ] ||= Hash.new(0)
+       h[ season ] += 1
+     end
+   end   # class TeamLine
+
+   class SeasonLine
+     attr_reader :name, :datafiles
+
+     def initialize( name )
+       @name       = name
+       @datafiles  = {}    ## datafiles by level
+     end
+
+     def update( level:, datafile: )
+       ##  use seasons to track datafile count as value - why? why not?
+       recs = @datafiles[ level ] ||= []
+       recs << datafile
+     end
+   end   # class SeasonLine
+
+
+   class LevelLine
+     ## attr_reader :name, :seasons, :teams
+
+     def initialize( name )
+       @name     = name
+       @seasons  = Hash.new(0)  ## count no of datafiles for season
+                                ## add seasons (note: allow multiple datafiles per season)
+       @teams    = {}   ## count for now all seasons of teams
+     end
+
+     def update_season( season )
+        @seasons[ season ] += 1
+     end
+
+     def update_team( team, season: '?' )
+         @teams[ team ] ||= []
+         @teams[ team ] << season   unless @teams[ team ].include?( season )
+     end
+
+
+     def build    ## use build_summary (in string buffer for reporting)
+       season_keys = @seasons.keys
+       team_keys   = @teams.keys
+
+       buf = ''
+       buf << "level #{@name}\n"
+
+       buf << "- #{season_keys.size} seasons: "
+       ## sort season_keys - why? why not?
+       season_keys.sort.reverse.each do |season_key|
+         season_count = @seasons[season_key]
+         buf << "#{season_key} "
+         buf << " (#{season_count}) "    if season_count > 1
+       end
+       buf << "\n"
+
+       buf << "- #{team_keys.size} teams: "
+       team_keys.sort.each do |team_key|
+         team_seasons = @teams[team_key]
+         buf << "#{team_key} (#{team_seasons.size}) "
+       end
+       buf << "\n"
+
+       ## add teams grouped by seasons count e.g.:
+       ##  22 seasons:  Madrid, Barcelona
+       ##   3 seasons:   Eibar, ...
+       teams_by_seasons = {}
+       @teams.each do |team_key, team_seasons|
+         seasons_count = team_seasons.size
+         teams_by_seasons[seasons_count] ||= []
+         teams_by_seasons[seasons_count] << team_key
+       end
+       ## sort by key (e.g. seasons_count : integer)
+       teams_by_seasons.keys.sort.reverse.each do |seasons_count|
+         team_names = teams_by_seasons[seasons_count]
+         buf << "  - #{seasons_count} seasons: "
+         buf << team_names.sort.join( ', ' )
+         buf << "\n"
+       end
+
+       buf << "\n\n"
+       buf
+     end # method build
+   end   # class LevelLine
+
+
+
 def initialize( pack )
   @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
 end
 
 
 def build_summary
+
   ###
   ## todo - add count for seasons by level !!!!!
   ##   e.g. level 1 - 25 seasons, 2 - 14 seasons, etc.
 
-  ## find all teams and generate a map w/ all teams n some stats
-  teams = SportDb::Struct::TeamUsage.new
-
-  ## collect all seasons by level and all seasons of teams by level
-  levels = {}
+   all_teams   = {}   ## holds TeamLine records
+   all_seasons = {}   ## holds SeasonLine records
+   all_levels  = {}   ## holds LevelLine records -- collect all seasons by level and all seasons of teams by level
 
 
   season_entries = @pack.find_entries_by_season
@@ -42,28 +139,33 @@ def build_summary
       ## check if level 0 - no integer - why? why not?
 
 
-      ## keep track of level usage
-      levels[level] ||= {}
-      ## add seasons (allow multiple datafiles per season)
-      level_seasons = levels[level][:seasons] ||= Hash.new(0)   ## count no of datafiles
-      level_seasons[ season ] += 1
+      ###########################################################
+      ## keep track of statistics with "line" records for level, season, team, etc.
+      level_line = all_levels[ level ] ||= LevelLine.new( level )
+      level_line.update_season( season )
 
-      level_teams   = levels[level][:teams] ||= {}
+      season_line = all_seasons[ season ] ||= SeasonLine.new( season )
+      season_line.update( level: level, datafile: season_file )
+
 
       matches   = CsvMatchReader.read( @pack.expand_path( season_file ) )
-
       team_usage_hash = build_team_usage_in_matches_txt( matches )
 
       team_names = team_usage_hash.keys.sort
       team_names.each do |team_name|
-        level_teams[ team_name ] ||= []
-        level_teams[ team_name ] << season   unless level_teams[ team_name ].include?( season )
+        team_line = all_teams[ team_name ] ||= TeamLine.new( team_name )
+        team_line.update( level: level, season: season )
+
+        level_line.update_team( team_name, season: season )
       end
     end
   end
 
 
-  pp levels
+  pp all_seasons
+  pp all_teams
+  pp all_levels
+
 
 
   ##########################
@@ -71,51 +173,23 @@ def build_summary
 
   buf = ''
 
-  level_keys = levels.keys
-  buf << "#{level_keys.size} levels: #{level_keys.join(' ')}\n\n"
+  season_keys = all_seasons.keys
+  level_keys  = all_levels.keys
+  team_keys   = all_teams.keys
+
+  buf << "#{season_keys.size} seasons, "
+  buf << "#{level_keys.size} levels (#{level_keys.join(' ')}), "
+  buf << "#{team_keys.size} teams\n\n"
+
+  ## todo: add no of datafiles  (and no of matches too??)
+
 
   ## loop 1) summary
   level_keys.each do |level_key|
-    level = levels[level_key]
-    season_keys = level[:seasons].keys
-    team_keys   = level[:teams].keys
-    buf << "level #{level_key}\n"
-
-    buf << "- #{season_keys.size} seasons: "
-    ## sort season_keys - why? why not?
-    season_keys.sort.reverse.each do |season_key|
-      season_count = level[:seasons][season_key]
-      buf << "#{season_key} "
-      buf << " (#{season_count}) "    if season_count > 1
-    end
-    buf << "\n"
-
-    buf << "- #{team_keys.size} teams: "
-    team_keys.sort.each do |team_key|
-      team_seasons = level[:teams][team_key]
-      buf << "#{team_key} (#{team_seasons.size}) "
-    end
-    buf << "\n"
-
-    ## add teams grouped by seasons count e.g.:
-    ##  22 seasons:  Madrid, Barcelona
-    ##   3 seasons:   Eibar, ...
-    teams_by_seasons = {}
-    level[:teams].each do |team_key, team_seasons|
-      seasons_count = team_seasons.size
-      teams_by_seasons[seasons_count] ||= []
-      teams_by_seasons[seasons_count] << team_key
-    end
-    ## sort by key (e.g. seasons_count : integer)
-    teams_by_seasons.keys.sort.reverse.each do |seasons_count|
-      team_names = teams_by_seasons[seasons_count]
-      buf << "  - #{seasons_count} seasons: "
-      buf << team_names.sort.join( ', ' )
-      buf << "\n"
-    end
-
-    buf << "\n\n"
+    level = all_levels[level_key]
+    buf << level.build
   end
+
 
 =begin
   ## loop 2) details

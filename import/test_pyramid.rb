@@ -13,6 +13,7 @@ puts es_pyramid.build_summary
 es_pyramid.save( './o/es_pyramid.txt' )
 
 
+=begin
 sco = CsvPackage.new( 'sco-scotland', path: './o' )
 
 sco_pyramid = CsvPyramidReport.new( sco )
@@ -27,3 +28,4 @@ fr_pyramid = CsvPyramidReport.new( fr )
 puts fr_pyramid.build_summary
 
 fr_pyramid.save( './o/fr_pyramid.txt' )
+=end
