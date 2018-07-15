@@ -5,7 +5,8 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
 
 
    class TeamLine
-     attr_reader :name, :seasons
+     attr_reader :name,
+                 :seasons
 
      def initialize( name )
        @name     = name
@@ -20,7 +21,8 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
    end   # class TeamLine
 
    class SeasonLine
-     attr_reader :name, :datafiles
+     attr_reader :name,
+                 :datafiles
 
      def initialize( name )
        @name       = name
@@ -113,9 +115,11 @@ def build_summary
   ## todo - add count for seasons by level !!!!!
   ##   e.g. level 1 - 25 seasons, 2 - 14 seasons, etc.
 
-   all_teams   = {}   ## holds TeamLine records
-   all_seasons = {}   ## holds SeasonLine records
-   all_levels  = {}   ## holds LevelLine records -- collect all seasons by level and all seasons of teams by level
+   all_teams     = {}   ## holds TeamLine records
+   all_seasons   = {}   ## holds SeasonLine records
+   all_levels    = {}   ## holds LevelLine records -- collect all seasons by level and all seasons of teams by level
+   all_datafiles = {}   ## holds MatchAnalyzer objects - keyed by datafile name/path
+
 
 
   season_entries = @pack.find_entries_by_season
@@ -141,6 +145,12 @@ def build_summary
 
       ###########################################################
       ## keep track of statistics with "line" records for level, season, team, etc.
+      matches   = CsvMatchReader.read( @pack.expand_path( season_file ) )
+
+      matchlist = SportDb::Struct::Matchlist.new( matches )
+      all_datafiles[season_file] = matchlist
+
+
       level_line = all_levels[ level ] ||= LevelLine.new( level )
       level_line.update_season( season )
 
@@ -148,15 +158,11 @@ def build_summary
       season_line.update( level: level, datafile: season_file )
 
 
-      matches   = CsvMatchReader.read( @pack.expand_path( season_file ) )
-      team_usage_hash = build_team_usage_in_matches_txt( matches )
-
-      team_names = team_usage_hash.keys.sort
-      team_names.each do |team_name|
-        team_line = all_teams[ team_name ] ||= TeamLine.new( team_name )
+      matchlist.teams.each do |team|
+        team_line = all_teams[ team ] ||= TeamLine.new( team )
         team_line.update( level: level, season: season )
 
-        level_line.update_team( team_name, season: season )
+        level_line.update_team( team, season: season )
       end
     end
   end
@@ -167,19 +173,21 @@ def build_summary
   pp all_levels
 
 
-
   ##########################
   ## print / analyze
 
   buf = ''
 
-  season_keys = all_seasons.keys
-  level_keys  = all_levels.keys
-  team_keys   = all_teams.keys
+  season_keys   = all_seasons.keys
+  level_keys    = all_levels.keys
+  team_keys     = all_teams.keys
+  datafile_keys = all_datafiles.keys
 
   buf << "#{season_keys.size} seasons, "
   buf << "#{level_keys.size} levels (#{level_keys.join(' ')}), "
-  buf << "#{team_keys.size} teams\n\n"
+  buf << "#{team_keys.size} teams "
+  buf << "in #{datafile_keys.size} datafiles"
+  buf << "\n\n"
 
   ## todo: add no of datafiles  (and no of matches too??)
 
@@ -189,6 +197,16 @@ def build_summary
     level = all_levels[level_key]
     buf << level.build
   end
+
+  ## loop 2) datafiles
+  datafile_keys.each do |datafile_key|
+    matchlist = all_datafiles[datafile_key]
+    rounds = matchlist.rounds? ? matchlist.rounds : '???'
+    buf << "#{datafile_key} - "
+    buf << "#{matchlist.teams.size} teams, #{matchlist.matches.size} matches, #{rounds} rounds"
+    buf << "\n"
+  end
+  buf << "\n\n"
 
 
 =begin

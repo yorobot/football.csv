@@ -18,6 +18,7 @@ require 'sportdb/models'
 ###
 # our own code
 require_relative 'structs/match'
+require_relative 'structs/matchlist'
 require_relative 'structs/standings'
 require_relative 'structs/teams'
 
