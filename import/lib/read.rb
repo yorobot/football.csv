@@ -25,6 +25,8 @@ require_relative 'structs/teams'
 
 require_relative 'config'
 
+require_relative 'season_utils'
+
 
 require_relative 'csv/reader'
 require_relative 'csv/converter'
