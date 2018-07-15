@@ -198,6 +198,7 @@ def build_summary
     buf << level.build
   end
 
+=begin
   ## loop 2) datafiles
   datafile_keys.each do |datafile_key|
     matchlist = all_datafiles[datafile_key]
@@ -207,6 +208,58 @@ def build_summary
     buf << "\n"
   end
   buf << "\n\n"
+=end
+
+
+
+  ## loop seasons
+  season_keys.each do |season_key|
+    prev_season_key = calc_prev_season( season_key )
+
+    season          = all_seasons[season_key]
+    prev_season     = all_seasons[prev_season_key]
+    ## season holds datafiles (grouped) by level
+
+    buf << "#{season_key} - #{season.datafiles.size} levels (#{season.datafiles.keys.join(' ')})"
+    buf << "\n"
+
+    ## todo/fix: rename/change datafiles to level - why? why not?
+    season.datafiles.keys.each do |level_key|
+      buf << "  - #{level_key}:"
+      datafiles = season.datafiles[level_key]
+
+      ## find matchlist by datafile name
+      matchlist = all_datafiles[ datafiles[0] ]  ## work with first datafile only for now
+      buf << " #{matchlist.teams.count} teams"
+      buf << "\n"
+
+      ## find previous/last season if available for diff
+      if prev_season
+        prev_datafiles = prev_season.datafiles[level_key]
+        if prev_datafiles  ## note: level might be missing in prev season!!
+          ## buf << "    - diff #{season_key} <=> #{prev_season_key}:\n"
+          prev_matchlist = all_datafiles[ prev_datafiles[0] ]  ## work with first datafile only for now
+
+          diff_up   = (matchlist.teams - prev_matchlist.teams).sort
+          diff_down = (prev_matchlist.teams -  matchlist.teams).sort
+
+          buf << "    - (++) new in season #{season_key}: "
+          buf << "(#{diff_up.size}) #{diff_up.join(', ')}\n"
+
+          buf << "    - (--) out "
+          if level_key == 1    ## todo: check level_key is string or int?
+            buf << "down: "
+          else
+            buf << "up/down: "   ## assume up/down for all other levels in pyramid
+          end
+          buf << "(#{diff_down.size}) #{diff_down.join(', ')}\n"
+          buf << "\n"
+        end
+      end
+    end
+  end
+  buf << "\n\n"
+
 
 
 =begin
@@ -248,5 +301,28 @@ def save( path )
     f.write build_summary
   end
 end
+
+
+
+
+#####
+# helpers
+#
+def calc_prev_season( season )
+  ## todo: add 1964-1965 format too!!!
+  if season =~ /^(\d{4})-(\d{2})$/    ## season format is  1964-65
+    fst = $1.to_i - 1
+    snd = (100+$2.to_i-1) % 100    ## note: add 100 to turn 00 => 99
+    "%4d-%02d" % [fst,snd]
+  elsif season =~ /^(\d{4})$/
+    fst = $1.to_i - 1
+    "%4d" % [fst]
+  else
+    puts "*** !!!! wrong season format >>#{season}<<; exit; sorry"
+    exit 1
+  end
+end
+
+
 
 end # class CsvPyramidReport
