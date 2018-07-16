@@ -1,0 +1,23 @@
+
+Austria Vienna         =>  FK Austria Wien, Wien
+Rapid Vienna           =>  SK Rapid Wien, Wien
+
+Mattersburg            =>  SV Mattersburg,      Mattersburg › Burgenland
+
+Admira                 =>  FC Admira Wacker Mödling, Maria Enzersdorf › Niederösterreich   ## use Südstadt ?? - Südstadt ist ein Ortsteil der Marktgemeinde Maria Enzersdorf
+Neustadt               =>  SC Wiener Neustadt,  Wr. Neustadt › Niederösterreich
+St. Polten             =>  SKN St. Pölten,      St. Pölten   › Niederösterreich
+
+LASK Linz              =>  LASK Linz,           Linz              › Oberösterreich        ## use Pasching ??
+Ried                   =>  SV Ried,             Ried i. Innkreis  › Oberösterreich
+
+Sturm Graz             =>  SK Sturm Graz,       Graz    › Steiermark
+
+AC Wolfsberger         =>  Wolfsberger AC, 	Wolfsberg › Kärnten
+
+Grodig                 =>  SV Grödig,           Grödig    › Salzburg
+Salzburg               =>  FC RB Salzburg,      Salzburg  › Salzburg         ## use 	Wals-Siezenheim ??
+
+Wacker Innsbruck       =>  FC Wacker Innsbruck, Innsbruck › Tirol
+
+Altach                 =>  SCR Altach,          Altach › Vorarlberg
