@@ -10,13 +10,13 @@ end
 def build_summary
   buf = ''
   buf << "# Summary\n\n"
-  buf << CsvSeasonsReport.new( @pack ).build_summary
+  buf << CsvPyramidReport.new( @pack ).build_summary
   buf << "\n\n"
   buf << CsvTeamsReport.new( @pack ).build_summary
-  ## buf << "\n\n"
-  ## buf << CsvPyramidReport.new( @pack ).build_summary
+  buf << "\n\n"
   buf
 end
+
 
 def save( path )
   File.open( path, 'w:utf-8' ) do |f|

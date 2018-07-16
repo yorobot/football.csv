@@ -277,10 +277,46 @@ def build_summary
         buf << "\n"
       else
         ## todo/fix: print teams with match played
+=begin
+team_usage_hash = build_team_usage_in_matches_txt( matches )
+team_usage = team_usage_hash.to_a
+## sort by matches_played and than by team_name !!!!
+team_usage = team_usage.sort do |l,r|
+   res = r[1] <=> l[1]     ## note: reverse order - bigger number first e.g. 30 > 28 etc.
+   res = l[0] <=> r[0]  if res == 0
+   res
+end
+
+buf_details << "  - #{team_usage.size} teams: "
+team_usage.each do |rec|
+  team_name      = rec[0]
+  matches_played = rec[1]
+  buf_details << "#{team_name} (#{matches_played}) "
+end
+buf_details << "\n"
+=end
       end
 
       ## todo/fix:
       ##    add unknown (missing canonical mapping) teams!!!!
+
+=begin
+canonical_teams = SportDb::Import.config.teams  ## was pretty_print_team_names
+
+## find all unmapped/unknown/missing teams
+##   with no pretty print team names in league
+names = []
+team_usage.each do |rec|
+  team_name = rec[0]
+  names << team_name     if canonical_teams[team_name].nil?
+end
+names = names.sort   ## sort from a-z
+
+if names.size > 0
+  buf_details << "    - #{names.size} teams unknown / missing / ???: "
+  buf_details << "#{names.join(', ')}\n"
+end
+=end
 
 
       ## find previous/last season if available for diff
