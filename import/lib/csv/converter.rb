@@ -1,33 +1,17 @@
 # encoding: utf-8
 
 
+class CsvMatchWriter
 
-class CsvMatchConverter
-
-def self.convert( path_in, path_out )
-  puts ''
-  puts "convert >>#{path_in}<< to >>#{path_out}<<"
-
-
-   ## use new CsvMatchReader
-   matches_txt = CsvMatchReader.read( path_in )
-
-  ### todo/fix: check headers - how?
-  ##  if present HomeTeam or HT required etc.
-  ##   issue error/warn is not present
-  ##
-  ## puts "*** !!! wrong (unknown) headers format; cannot continue; fix it; sorry"
-  ##    exit 1
-  ##
+def self.write( path, matches )
+  out = File.new( path, 'w:utf-8' )    ## fix: use utf8!!!!!!!
+  out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
 
 
   ## track match played for team
   played = Hash.new(0)
 
-  out = File.new( path_out, 'w:utf-8' )    ## fix: use utf8!!!!!!!
-  out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
-
-  matches_txt.each_with_index do |match,i|
+  matches.each_with_index do |match,i|
 
     if i < 2
        puts "[#{i}]:" + match.inspect
@@ -78,6 +62,29 @@ def self.convert( path_in, path_out )
   end
 
   out.close
+end
+end # class CsvMatchWriter
+
+
+class CsvMatchConverter
+
+def self.convert( in_path, out_path )
+  puts ''
+  puts "convert >>#{in_path}<< to >>#{out_path}<<"
+
+
+   ## use new CsvMatchReader
+   matches = CsvMatchReader.read( in_path )
+
+  ### todo/fix: check headers - how?
+  ##  if present HomeTeam or HT required etc.
+  ##   issue error/warn is not present
+  ##
+  ## puts "*** !!! wrong (unknown) headers format; cannot continue; fix it; sorry"
+  ##    exit 1
+  ##
+
+  CsvMatchWriter.write( out_path, matches )
 end
 
 end # class CsvMatchConverter

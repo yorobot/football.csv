@@ -17,6 +17,24 @@ module SeasonHelper ## use Helpers why? why not?
     end
   end  # method prev
 
+
+
+  def directory( season )
+    ## convert season name to "standard" season name for directory
+    season = season.tr('/','-')  ## todo/fix: use [\-/] in regex directly!!!
+    if season =~ /^(\d{4})-(\d{4})$/   ## e.g. 2011-2010 or 2011/2011 => 2011-10
+      "%4d-%02d" % [$1.to_i, $2.to_i % 100]
+    elsif season =~ /^(\d{4})-(\d{2})$/
+      "%4d-%02d" % [$1.to_i, $2.to_i]
+    elsif season =~ /^(\d{4})$/
+      "%4d" % [$1.to_i]
+    else
+      puts "*** !!!! wrong season format >>#{season}<<; exit; sorry"
+      exit 1
+    end
+  end
+
+
   ## todo: add self.prettyprint (or pretty_print)
 end  # module SeasonHelper
 
