@@ -53,8 +53,17 @@ end
 at_txt = './dl/at-austria/AUT.csv'
 mx_txt = './dl/mx-mexico/MEX.csv'
 
-root = './o'
-## root = '../../footballcsv'
+## root = './o'
+root = '../../footballcsv'
 
 split_seasons( at_txt, out_root: "#{root}/at-austria", basename: '1-bundesliga' )
 split_seasons( mx_txt, out_root: "#{root}/mx-mexico",  basename: '1-liga' )
+
+
+at_pack = CsvPackage.new( 'at-austria', path: root )
+at_summary_report = CsvSummaryReport.new( at_pack )
+at_summary_report.write
+
+mx_pack = CsvPackage.new( 'mx-mexico', path: root )
+mx_summary_report = CsvSummaryReport.new( mx_pack )
+mx_summary_report.write
