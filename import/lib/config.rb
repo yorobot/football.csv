@@ -21,7 +21,7 @@ class Configuration
     ## unify team names; team (builtin/known/shared) name mappings
     ## cleanup team names - use local ("native") name with umlaut etc.
     recs = []
-    %w(de fr es it pt nl be tr gr sco).each do |country|
+    %w(de fr es it pt nl be tr gr sco at mx).each do |country|
        txt = File.open( "#{SportDb::Import.data_dir}/teams/#{country}.txt", 'r:utf-8' ).read
        recs += parse_teams_txt( txt )
     end
@@ -82,6 +82,9 @@ def parse_teams_txt( txt )
 
     canonical_name = team[0]
     city           = team[1]
+
+    ## squish (white)spaces e.g. León     › Guanajuato  => León › Guanajuato
+    city = city.gsub( /[ \t]+/, ' ' )   if city
 
     ## note: remove from alt_names if canonical name (mapping 1:1)
     alt_names = names.select {|name| name != canonical_name }
