@@ -4,25 +4,75 @@
 Bayern Munich | Bayern Muenchen           =>  Bayern München,   München › Bayern
 Munich 1860 | TSV 1860 Muenchen           =>  TSV 1860 München, München › Bayern
 
-### todo: check if save to always map Nurnberg to 1. FC Nürnberg
-Nurnberg | 1. FC Nuernberg                =>  1. FC Nürnberg, Nürnberg › Bayern
 
-Greuther Furth                            => Greuther Fürth, Fürth › Bayern
+Nurnberg | 1. FC Nuernberg                =>  1. FC Nürnberg, Nürnberg › Bayern    ### todo: always map Nurnberg to 1. FC Nürnberg ?!
 
-## todo/fix: check F Koln might be Fortuna Köln!! (in season 73/74 in bl)
+Greuther Furth                            => Greuther Fürth, Fürth    › Bayern
+Augsburg                                  => FC Augsburg,    Augsburg › Bayern
+Unterhaching                             =>  SpVgg Unterhaching,  Unterhaching › Bayern
+Ingolstadt                               =>  FC Ingolstadt 04,    Ingolstadt › Bayern               ##  bis 2004 MTV Ingolstadt und ESV Ingolstadt-Ringsee
+
+
 FC Koln | 1. FC Koeln           => 1. FC Köln,   Köln › Nordrhein-Westfalen
 F Koln                          => Fortuna Köln, Köln › Nordrhein-Westfalen
 
-Fortuna Dusseldorf | Fortuna Duesseldorf   => Fortuna Düsseldorf, Düsseldorf › Nordrhein-Westfalen
-## todo/check if included (see generated teams.csv)
-##  Dusseldorf         => Düsseldorf     ## same as fortuna duesseldorf??
+Dusseldorf | Fortuna Dusseldorf | Fortuna Duesseldorf   => Fortuna Düsseldorf, Düsseldorf › Nordrhein-Westfalen
 
-Bor. Moenchengladbach                     => Bor. Mönchengladbach, Mönchengladbach › Nordrhein-Westfalen
-Preussen Muenster                         => Preussen Münster, Münster   › Nordrhein-Westfalen
-Gutersloh                                 => Gütersloh,        Gütersloh › Nordrhein-Westfalen
 
-##  Saarbrucken        => Saarbrücken    ## todo: check if save to use 1. FC Saarbruecken??
-1. FC Saarbruecken                        => 1. FC Saarbrücken,   Saarbrücken › Saarland
+Dortmund           =>  Borussia Dortmund,    Dortmund      › Nordrhein-Westfalen
+Schalke 04         =>  FC Schalke 04,        Gelsenkirchen › Nordrhein-Westfalen
+Leverkusen         =>  Bayer 04 Leverkusen,  Leverkusen    › Nordrhein-Westfalen
+Duisburg           =>  MSV Duisburg,         Duisburg      › Nordrhein-Westfalen     ## until 1965/66 Meidericher SV
+Bor. Moenchengladbach | M'Gladbach | M'gladbach        => Bor. Mönchengladbach, Mönchengladbach › Nordrhein-Westfalen
 
-Lubeck                                    => Lübeck,           Lübeck    › Schleswig-Holstein
-Osnabruck                                 => Osnabrück,        Osnabrück › Niedersachsen
+Bochum             =>  VfL Bochum,            Bochum › Nordrhein-Westfalen
+Wattenscheid       =>  SG Wattenscheid 09,    Bochum › Nordrhein-Westfalen   ## Wattenscheid - Bochumer Stadtbezirk
+
+Bielefeld          =>  Arminia Bielefeld,    Bielefeld     › Nordrhein-Westfalen
+Preussen Muenster  =>  Preussen Münster,     Münster       › Nordrhein-Westfalen
+Gutersloh          =>  Gütersloh,            Gütersloh     › Nordrhein-Westfalen
+Uerdingen          =>  KFC Uerdingen,        Krefeld       › Nordrhein-Westfalen     ## bis 1995 FC Bayer 05 Uerdingen
+Aachen             =>  Alemannia Aachen,     Aachen        › Nordrhein-Westfalen
+Paderborn          =>  SC Paderborn 07,      Paderborn     › Nordrhein-Westfalen
+
+
+Saarbrucken | 1. FC Saarbruecken     =>  1. FC Saarbrücken,   Saarbrücken › Saarland
+
+
+Osnabruck     =>  Osnabrück,        Osnabrück › Niedersachsen
+Wolfsburg     =>  VfL Wolfsburg,     Wolfsburg › Niedersachsen
+Hannover      =>  Hannover 96,          Hannover › Niedersachsen
+Braunschweig  =>  Eintracht Braunschweig,   Braunschweig › Niedersachsen
+
+
+Cottbus        =>  Energie Cottbus,      Cottbus › Brandenburg
+
+Hertha        =>  Hertha BSC,        	Berlin › Berlin
+
+Hamburg        =>  Hamburger SV,      Hamburg › Hamburg
+St Pauli       =>  FC St. Pauli,      Hamburg › Hamburg   ## use stadtteil St. Pauli ??
+
+Werder Bremen =>  Werder Bremen,      Bremen › Bremen
+
+
+Stuttgart     =>  VfB Stuttgart,        Stuttgart › Baden-Württemberg
+Freiburg      =>  SC Freiburg,       	  Freiburg  › Baden-Württemberg
+Hoffenheim    =>  TSG 1899 Hoffenheim,  Sinsheim-Hoffenheim › Baden-Württemberg
+Karlsruhe     =>  Karlsruher SC,        Karlsruhe › Baden-Württemberg
+Ulm           =>  SSV Ulm 1846,         Ulm › Baden-Württemberg
+
+Ein Frankfurt  =>  Eintracht Frankfurt,   Frankfurt › Hessen
+Darmstadt      =>  SV Darmstadt 98,       Darmstadt › Hessen
+
+Kaiserslautern =>  1. FC Kaiserslautern, Kaiserslautern › Rheinland-Pfalz
+Mainz          =>  1. FSV Mainz 05,      Mainz          › Rheinland-Pfalz
+
+Lubeck         =>  Lübeck,           Lübeck    › Schleswig-Holstein
+
+Hansa Rostock  =>  Hansa Rostock,        Rostock › Mecklenburg-Vorpommern
+
+
+Dresden        =>  Dynamo Dresden,      Dresden › Sachsen
+
+RB Leipzig     =>  RB Leipzig,          Leipzig › Sachsen
+Leipzig        =>  VfB Leipzig,         Leipzig › Sachsen   ## note: 2004 augelöst in bl 1993/94
