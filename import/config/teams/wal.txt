@@ -1,2 +1,10 @@
 #########################
 # wal-wales
+
+
+#######
+#  note: teams in english premier league!!!!
+
+Swansea       =>  Swansea City AFC,        Swansea
+Cardiff       =>  Cardiff City FC,         Cardiff
+
