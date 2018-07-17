@@ -18,68 +18,70 @@ Ethnikos Asteras | Eth Asteras => Ethnikos Asteras FC, Athens   ## Kaisariani - 
 Kalithea | Kallithea  =>  Kallithea FC, Kallithea   ## Kallithea - the 4th biggest in the Athens urban area
 Thrasyvoulos         => Thrasyvoulos FC,  Fyli  ##  a town and a municipality in the northwestern part of Attica; a suburb of Athens
 
-
-Proodeftiki | Proodeytiki => Proodeftiki FC, Nikaia
-Ionikos      => Ionikos FC, Nikaia   ## Athens Nikaia - a suburb in the western part of the Athens agglomeration
+Eleysina        =>  Panelefsiniakos FC, Elefsina › Attica
 
 
-Olympiakos                     => Olympiacos Piraeus FC,  Piraeus
-Ethnikos Piraeus | Ethnikos    => Ethnikos Piraeus FC,    Piraeus
+Proodeftiki | Proodeytiki => Proodeftiki FC, Nikaia › Attica
+Ionikos      => Ionikos FC, Nikaia › Attica   ## Athens Nikaia - a suburb in the western part of the Athens agglomeration
 
 
-
-PAOK              =>  PAOK FC,              Thessaloniki
-Aris              =>  Aris Thessaloniki FC, Thessaloniki
-Iraklis           => Iraklis 1908 Thessaloniki FC, Thessaloniki
-
-Kalamaria  =>  Apollon Pontou FC, Kalamaria    ## Kalamaria, Thessaloniki
-
-
-Asteras Tripolis  =>  Asteras Tripolis FC, Tripoli
-
-Xanthi        =>  Xanthi FC,           Xanthi
-Panetolikos   =>  Panetolikos GFS,     Agrinio
-Giannina | Yiannina  =>  PAS Giannina FC,     Ioannina
-Levadeiakos         =>  Levadiakos FC,       Livadeia
-Larisa        =>  AE Larissa FC,       Larissa
-Lamia         =>  PAS Lamia 1964,      Lamia
-Kerkyra       =>  Kerkyra FC,          Corfu
-Platanias     =>  Platanias FC,        Chania
+Olympiakos                     => Olympiacos Piraeus FC,  Piraeus › Attica
+Ethnikos Piraeus | Ethnikos    => Ethnikos Piraeus FC,    Piraeus › Attica
 
 
 
-Doxa | Doxa Dramas   => Doxa Dramas FC, Drama
+PAOK              =>  PAOK FC,              Thessaloniki › Central Macedonia
+Aris              =>  Aris Thessaloniki FC, Thessaloniki › Central Macedonia
+Iraklis           => Iraklis 1908 Thessaloniki FC, Thessaloniki › Central Macedonia
 
-Edessaikos => Edessaikos FC,  Edessa
-
-
-
-Eleysina        =>  Panelefsiniakos FC, Elefsina
-
-Ergotelis       => Ergotelis FC, Heraklion
-OFI             => OFI Crete FC, Heraklion
+Kalamaria  =>  Apollon Pontou FC, Kalamaria › Central Macedonia    ## Kalamaria, Thessaloniki
 
 
-Kalamata   =>  Kalamata FC,       Kalamata
+Asteras Tripolis  =>  Asteras Tripolis FC, Tripoli › Peloponnese
 
-Kallonis   =>  AEL Kalloni FC, Kalloni
-Kastoria   =>  Kastoria FC, Kastoria
-Kavala     =>  Kavala FC, Kavala
-
-Niki Volos        => Niki Volou FC, Volos
-Olympiakos Volou  => Olympiacos Volou 1937 FC, Volos
-
-Levadiakos  => Levadiakos FC, Livadeia
-
-
-Panahaiki   => Panachaiki FC, Patras
+Xanthi        =>  Xanthi FC,           Xanthi › Thrace
+Panetolikos   =>  Panetolikos GFS,     Agrinio › West Greece
+Giannina | Yiannina  =>  PAS Giannina FC,     Ioannina › Epirus
+Levadeiakos         =>  Levadiakos FC,       Livadeia › Central Greece
+Larisa        =>  AE Larissa FC,       Larissa › Thessaly
+Lamia         =>  PAS Lamia 1964,      Lamia › Central Greece
+Kerkyra       =>  Kerkyra FC,          Corfu › Ionian Islands
+Platanias     =>  Platanias FC,        Chania › Crete
 
 
-Paniliakos   => Paniliakos FC, Pyrgos
-Panserraikos => Panserraikos FC, Serres
-Panthrakikos => Panthrakikos FC, Komotini
+
+Doxa | Doxa Dramas   => Doxa Dramas FC, Drama › Macedonia
+
+Edessaikos           => Edessaikos FC,  Edessa › Macedonia
 
 
-Trikala      => Trikala FC, Trikala
 
-Veria | Veroia  =>   Veria FC, Veria
+
+
+Ergotelis       => Ergotelis FC, Heraklion › Crete
+OFI             => OFI Crete FC, Heraklion › Crete
+
+
+Kalamata   =>  Kalamata FC,       Kalamata › Peloponnese
+
+Kallonis   =>  AEL Kalloni FC, Kalloni › Aegean Islands
+Kastoria   =>  Kastoria FC, Kastoria › Macedonia
+Kavala     =>  Kavala FC, Kavala › Macedonia
+
+Niki Volos        => Niki Volou FC, Volos › Thessaly
+Olympiakos Volou  => Olympiacos Volou 1937 FC, Volos › Thessaly
+
+Levadiakos  => Levadiakos FC, Livadeia › Central Greece
+
+
+Panahaiki   => Panachaiki FC, Patras › Peloponnese
+
+
+Paniliakos   => Paniliakos FC, Pyrgos › Peloponnese
+Panserraikos => Panserraikos FC, Serres › Macedonia
+Panthrakikos => Panthrakikos FC, Komotini › Thrace
+
+
+Trikala      => Trikala FC, Trikala › Thessaly
+
+Veria | Veroia  =>   Veria FC, Veria › Macedonia
