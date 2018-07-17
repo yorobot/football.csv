@@ -2,20 +2,23 @@
 # nl-netherlands
 
 
-Ajax                      => Ajax Amsterdam, Amsterdam
+Ajax                       => Ajax Amsterdam, Amsterdam › Noord-Holland
 
-Feyenoord                 => Feyenoord Rotterdam,     Rotterdam
-Sparta, Sparta Rotterdam  => Sparta Rotterdam,        Rotterdam
-Excelsior                 => SBV Excelsior Rotterdam, Rotterdam    ## use SBV Excelsior - why? why not?
+Feyenoord                  => Feyenoord Rotterdam,     Rotterdam › Zuid-Holland
+Sparta | Sparta Rotterdam  => Sparta Rotterdam,        Rotterdam › Zuid-Holland
+Excelsior                  => SBV Excelsior Rotterdam, Rotterdam › Zuid-Holland    ## use SBV Excelsior - why? why not?
 
 
-AZ Alkmaar      => AZ Alkmaar, Alkmaar
-Cambuur         => SC Cambuur, Leeuwarden
-Den Bosch       => FC Den Bosch, 's-Hertogenbosch
-Den Haag        => ADO Den Haag, Den Haag
-Dordrecht       => FC Dordrecht, Dordrecht
-For Sittard     => Fortuna Sittard, Sittard
-Go Ahead Eagles => Go Ahead Eagles, Deventer
+AZ Alkmaar      => AZ Alkmaar, Alkmaar    › Noord-Holland
+Cambuur         => SC Cambuur, Leeuwarden › Friesland
+
+Den Bosch       => FC Den Bosch,    's-Hertogenbosch › Noord-Brabant
+Den Haag        => ADO Den Haag,    Den Haag › Zuid-Holland
+Dordrecht       => FC Dordrecht,    Dordrecht › Zuid-Holland
+For Sittard     => Fortuna Sittard, Sittard › Limburg
+Go Ahead Eagles => Go Ahead Eagles, Deventer › Overijssel
+
+
 Graafschap      => BV De Graafschap,  Doetinchem
 Groningen       => FC Groningen, Groningen
 Heerenveen      => SC Heerenveen, Heerenveen
@@ -25,7 +28,7 @@ NAC Breda       => NAC Breda, Breda
 Nijmegen        => NEC Nijmegen, Nijmegen
 PSV Eindhoven   => PSV Eindhoven, Eindhoven
 
-Roda, Roda JC   => Roda JC Kerkrade,  Kerkrade
+Roda | Roda JC   => Roda JC Kerkrade,  Kerkrade
 
 Roosendaal       => RBC Roosendaal, Roosendaal
 

@@ -21,7 +21,7 @@ class Configuration
     ## unify team names; team (builtin/known/shared) name mappings
     ## cleanup team names - use local ("native") name with umlaut etc.
     recs = []
-    %w(de fr es it pt nl be tr gr sco at mx).each do |country|
+    %w(de fr mc es it pt nl be tr gr eng wal sco at mx).each do |country|
        txt = File.open( "#{SportDb::Import.data_dir}/teams/#{country}.txt", 'r:utf-8' ).read
        recs += parse_teams_txt( txt )
     end

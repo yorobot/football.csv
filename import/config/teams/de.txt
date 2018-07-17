@@ -1,0 +1,28 @@
+##############################
+### de-deutschland
+
+Bayern Munich | Bayern Muenchen           =>  Bayern München,   München › Bayern
+Munich 1860 | TSV 1860 Muenchen           =>  TSV 1860 München, München › Bayern
+
+### todo: check if save to always map Nurnberg to 1. FC Nürnberg
+Nurnberg | 1. FC Nuernberg                =>  1. FC Nürnberg, Nürnberg › Bayern
+
+Greuther Furth                            => Greuther Fürth, Fürth › Bayern
+
+## todo/fix: check F Koln might be Fortuna Köln!! (in season 73/74 in bl)
+FC Koln | 1. FC Koeln           => 1. FC Köln,   Köln › Nordrhein-Westfalen
+F Koln                          => Fortuna Köln, Köln › Nordrhein-Westfalen
+
+Fortuna Dusseldorf | Fortuna Duesseldorf   => Fortuna Düsseldorf, Düsseldorf › Nordrhein-Westfalen
+## todo/check if included (see generated teams.csv)
+##  Dusseldorf         => Düsseldorf     ## same as fortuna duesseldorf??
+
+Bor. Moenchengladbach                     => Bor. Mönchengladbach, Mönchengladbach › Nordrhein-Westfalen
+Preussen Muenster                         => Preussen Münster, Münster   › Nordrhein-Westfalen
+Gutersloh                                 => Gütersloh,        Gütersloh › Nordrhein-Westfalen
+
+##  Saarbrucken        => Saarbrücken    ## todo: check if save to use 1. FC Saarbruecken??
+1. FC Saarbruecken                        => 1. FC Saarbrücken,   Saarbrücken › Saarland
+
+Lubeck                                    => Lübeck,           Lübeck    › Schleswig-Holstein
+Osnabruck                                 => Osnabrück,        Osnabrück › Niedersachsen

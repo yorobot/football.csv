@@ -41,7 +41,7 @@ St Mirren     =>  Saint Mirren FC,  Paisley
 ##  - x Airdrie (???) - 8 seasons in 1 level
 ##  - 2 (8): 2001-02........1994-95 (8)
 
-Airdrie Utd, Airdrie   =>  Airdrieonians,    Airdrie
+Airdrie Utd | Airdrie   =>  Airdrieonians,    Airdrie
 
 
 Albion Rvs         =>  Albion Rovers,    Coatbridge
@@ -49,8 +49,8 @@ Alloa          =>  Alloa Athletic,   Alloa
 Arbroath       =>  Arbroath,         Arbroath
 Ayr            =>  Ayr United,       Ayr
 East Fife      =>  East Fife,        Methil
-Forfar           =>  Forfar Athletic,  Forfar
-Raith Rvs, Raith =>  Raith Rovers,     Kirkcaldy
+Forfar            =>  Forfar Athletic,  Forfar
+Raith Rvs | Raith =>  Raith Rovers,     Kirkcaldy
 Stranraer         =>  Stranraer,        Stranraer
 
 
@@ -58,7 +58,6 @@ Stranraer         =>  Stranraer,        Stranraer
 
 
 Annan Athletic     =>  Annan Athletic,   Annan
-Berwick            =>  Berwick Rangers,  Berwick-upon-Tweed       ## note: in England !!!
 Clyde              =>  Clyde,            Cumbernauld
 Cowdenbeath        =>  Cowdenbeath,      Cowdenbeath
 Elgin              =>  Elgin City,       Elgin

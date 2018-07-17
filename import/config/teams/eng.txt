@@ -1,0 +1,13 @@
+##################################
+# eng-england
+#
+#  note: see wal.txt for teams from wales
+
+
+
+
+
+####
+#  note: english teams in scotish league !!!
+
+Berwick            =>  Berwick Rangers,  Berwick-upon-Tweed       ## note: in England !!!

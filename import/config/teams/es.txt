@@ -77,17 +77,17 @@ Granada 74     => Granada 74, Granada
 
 Eibar       => SD Eibar,
 
-Villarreal, Villareal   => Villarreal CF,    Villarreal    ## fix typo Villareal
-Villarreal B            => Villarreal CF B,  Villarreal
+Villarreal | Villareal   => Villarreal CF,    Villarreal    ## fix typo Villareal
+Villarreal B             => Villarreal CF B,  Villarreal
 
-Jaen            => Real Jaén CF,
-Leganes         => CD Leganés,
-Leonesa         => Cultural Leonesa,
-Lerida, Lleida  => UE Lleida,
-Llagostera      => UE Llagostera,
-Logrones        => CD Logroñés,
-Lorca           => Lorca FC,
-Lugo            => CD Lugo,
+Jaen             => Real Jaén CF,
+Leganes          => CD Leganés,
+Leonesa          => Cultural Leonesa,
+Lerida | Lleida  => UE Lleida,
+Llagostera       => UE Llagostera,
+Logrones         => CD Logroñés,
+Lorca            => Lorca FC,
+Lugo             => CD Lugo,
 
 Mallorca        => RCD Mallorca,   Mallorca
 Mallorca B      => RCD Mallorca B, Mallorca
@@ -100,10 +100,10 @@ UCAM Murcia      => UCAM Murcia,         Murcia
 Ciudad de Murcia => CF Ciudad de Murcia, Murcia
 
 
-Numancia         => CD Numancia,
-Osasuna          => CA Osasuna,
-Ourense, Orense  => CD Ourense,
-Oviedo           => Real Oviedo,
+Numancia          => CD Numancia,
+Osasuna           => CA Osasuna,
+Ourense | Orense  => CD Ourense,
+Oviedo            => Real Oviedo,
 Poli Ejido    => Polideportivo Ejido,
 Ponferradina  => SD Ponferradina,
 Pontevedra    => Pontevedra CF,
