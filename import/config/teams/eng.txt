@@ -4,6 +4,82 @@
 #  note: see wal.txt for teams from wales
 
 
+Arsenal    =>  Arsenal FC, London   ## Greater London
+Chelsea    =>  Chelsea FC, London   ## Greater London
+Tottenham  =>  Tottenham Hotspur FC, London   ## Greater London
+West Ham   =>  West Ham United FC, London   ## Greater London
+Fulham     =>   Fulham FC,         London   ## Greater London
+Charlton   =>  Charlton Athletic FC,  London   ## Greater London
+Crystal Palace  => Crystal Palace FC,  London   ## Greater London
+Wimbledon     =>  Wimbledon FC,         London   ## Greater London
+QPR           =>  Queens Park Rangers FC,  London   ## Greater London
+
+
+
+Everton    =>    Everton FC,   Liverpool › Lancashire   ## North West England
+Liverpool   =>   Liverpool FC, Liverpool › Lancashire
+
+Blackburn    =>   Blackburn Rovers FC,  Blackburn › Lancashire
+Burnley      =>   Burnley FC,           Burnley › Lancashire
+Blackpool    =>   Blackpool FC,        Blackpool › Lancashire
+
+
+Man United  =>   Manchester United FC,  Manchester     ## North West England
+Man City    =>   Manchester City FC,    Manchester     ## North West England
+
+Bolton       =>   Bolton Wanderers FC,  Bolton › Greater Manchester
+Wigan        =>   Wigan Athletic FC,    Wigan › Greater Manchester
+Oldham       =>  Oldham Athletic AFC,   Oldham › Greater Manchester
+
+
+Aston Villa  =>  Aston Villa FC,       Birmingham › Warwickshire   ## West Midlands
+Birmingham   =>  Birmingham City FC,   Birmingham › Warwickshire   ## West Midlands
+
+
+Newcastle    =>  Newcastle United FC,  Newcastle upon Tyne › Northumberland   ## North East
+
+
+Southampton  =>   Southampton FC,       Southampton › Hampshire
+
+
+Sunderland   =>   Sunderland AFC,       Sunderland
+
+
+Leicester      =>  Leicester City FC,    Leicester
+West Brom      =>  West Bromwich Albion FC,  West Bromwich › West Midlands
+Coventry       =>  Coventry City FC,       Coventry › West Midlands
+Wolves         =>  Wolverhampton Wanderers FC,   Wolverhampton › West Midlands
+
+
+Middlesbrough | Middlesboro   =>  Middlesbrough FC,     Middlesbrough › North Yorkshire
+
+Leeds          =>  Leeds United FC,        Leeds › West Yorkshire
+Bradford        =>  Bradford City AFC,  Bradford › West Yorkshire
+Huddersfield    =>  Huddersfield Town AFC,  Huddersfield › West Yorkshire
+
+Hull          =>   Hull City AFC,    Hull › East Yorkshire
+
+Sheffield Weds   => Sheffield Wednesday FC,  Sheffield › South Yorkshire
+Sheffield United => Sheffield United FC,  Sheffield › South Yorkshire
+
+Barnsley        =>  Barnsley FC,     Barnsley › South Yorkshire
+
+
+Stoke          =>  Stoke City FC,          Stoke-on-Trent › Staffordshire
+
+Derby          =>  Derby County FC,        Derby › Derbyshire
+Norwich        =>  Norwich City FC,         Norwich › Norfolk
+Portsmouth     =>  Portsmouth FC,          Portsmouth › Hampshire
+
+Watford       =>   Watford FC,       Watford › Hertfordshire
+
+
+Ipswich         =>  Ipswich Town FC,   Ipswich › Suffolk
+Nott'm Forest   =>  Nottingham Forest FC,   West Bridgford › Nottinghamshire
+Bournemouth     =>  AFC Bournemouth,   Bournemouth › Dorset
+Reading         =>  Reading FC,        Reading › Berkshire
+Brighton        =>  Brighton & Hove Albion FC,   Falmer › East Sussex
+Swindon         =>  Swindon Town FC,  Swindon › Wiltshire
 
 
 
