@@ -118,6 +118,10 @@ Luton         =>  Luton Town FC,          Luton › Bedfordshire
 Milton Keynes Dons => Milton Keynes Dons FC,   Milton Keynes › Buckinghamshire
 Yeovil        =>  Yeovil Town FC,              Yeovil › Somerset
 
+Forest Green   => Forest Green Rovers FC,     Nailsworth › Gloucestershire
+Kidderminster  => Kidderminster Harriers FC,  Kidderminster › Worcestershire
+Woking         => Woking FC,                  Woking › Surrey
+
 
 
 ####
