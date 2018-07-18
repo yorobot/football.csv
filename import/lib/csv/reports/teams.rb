@@ -127,6 +127,13 @@ def build_summary
          buf << "\n"
        end
     end
+
+    ## add levels up/down line e.g. ⇑ (2) / ⇓ (1):  1 ⇑2 2 ⇓1 1 ⇑2 2 2 2
+    if t.levels.size > 1
+      buf << "  - "
+      buf << SeasonUtils.pretty_print_levels( t.levels )
+      buf << "\n"
+    end
   end
   buf << "\n"
 

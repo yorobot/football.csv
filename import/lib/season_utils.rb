@@ -136,6 +136,66 @@ module SeasonHelper ## use Helpers why? why not?
     buf
   end
 
+
+  def pretty_print_levels( levels )   ## todo: rename to levels_up_down or levels_line or something? why? why not?
+    seasons = {}  ## seasons lookup with levels
+    ups   = 0
+    downs = 0
+
+    level_keys = levels.keys
+    level_keys.each do |level_key|
+      level = levels[level_key]
+      level.seasons.each do |season|
+        seasons[season] ||= []
+        seasons[season] << level_key   ## todo: check if level already included? possible? why? why not?
+      end
+    end
+
+    buf = ''
+    last_season = nil
+    last_level  = nil
+
+    seasons.keys.sort.reverse.each do |season|
+       l = seasons[season]
+       if l.size > 1
+         buf << "**WARN: more than one level in season #{season}: #{l.join( )}**"
+       else
+         ll = l[0]
+         ## check diff
+         ##
+         ### todo/fix: check for last_season==season+1 (check for proper sequence/no missing season?)
+         if last_season && last_level
+           diff = last_level - ll.to_i
+           if diff > 0
+             downs += 1
+             buf << "⇓"
+           elsif diff < 0
+             ups += 1
+             buf << "⇑"
+           else
+             # assume diff==0; do (add) nothing
+           end
+         end
+         buf << "#{ll} "
+
+         last_season = season
+         last_level  = ll.to_i   ## always use/assume int
+       end
+    end
+
+   ## e.g. ⇑ (2) / ⇓ (1):  1 ⇑2 2 ⇓1 1 ⇑2 2 2 2
+    buf_header = ''
+    buf_header << "⇑ (#{ups})"   if ups > 0
+    if downs > 0
+      buf_header << " / "  if buf_header.size > 0  ## use ups > 0 - why? why not?
+      buf_header << "⇓ (#{downs})"
+    end
+    buf_header << ": "        if buf_header.size > 0  # not blank
+
+
+    buf_header + buf
+  end
+
 end  # module SeasonHelper
 
 
