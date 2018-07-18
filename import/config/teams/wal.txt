@@ -3,8 +3,8 @@
 
 
 #######
-#  note: teams in english premier league!!!!
+#  note: teams in english premier league & english league (championship, etc.) !!!!
 
 Swansea       =>  Swansea City AFC,        Swansea
 Cardiff       =>  Cardiff City FC,         Cardiff
-
+Wrexham       =>  Wrexham AFC,             Wrexham
