@@ -5,6 +5,7 @@
 #######
 #  note: teams in english premier league & english league (championship, etc.) !!!!
 
-Swansea       =>  Swansea City AFC,        Swansea
-Cardiff       =>  Cardiff City FC,         Cardiff
-Wrexham       =>  Wrexham AFC,             Wrexham
+Swansea          =>  Swansea City AFC,        Swansea
+Cardiff          =>  Cardiff City FC,         Cardiff
+Wrexham          =>  Wrexham AFC,             Wrexham
+Newport County   =>  Newport County AFC,      Newport
