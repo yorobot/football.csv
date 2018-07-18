@@ -90,11 +90,23 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
          teams_by_seasons[seasons_count] ||= []
          teams_by_seasons[seasons_count] << team_key
        end
+
        ## sort by key (e.g. seasons_count : integer)
+       canonical_teams = SportDb::Import.config.teams  ## was pretty_print_team_names
+
        teams_by_seasons.keys.sort.reverse.each do |seasons_count|
          team_names = teams_by_seasons[seasons_count]
          buf << "  - #{seasons_count} seasons: "
-         buf << team_names.sort.join( ', ' )
+
+         ## markup teams if canonical / known / registered
+         team_names = team_names.sort.map do |team_name|
+           if canonical_teams[team_name]   ## add marker e.g. (*) for pretty print team name
+             "**#{team_name}**"    ## add (*) - why? why not?
+           else
+             "x #{team_name} (???)"
+           end
+         end
+         buf << team_names.join( ', ' )
          buf << "\n"
        end
 

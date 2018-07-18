@@ -123,8 +123,7 @@ def build_summary
        level = t.levels[ level_key ]
        if level
          buf << "  - #{level_key} (#{level.seasons.size}): "
-         ## was before pretty print:  buf << level.seasons.sort.reverse.join(' ')
-         buf << pretty_print_seasons( level.seasons.sort.reverse )
+         buf << SeasonUtils.pretty_print( level.seasons )
          buf << "\n"
        end
     end
@@ -152,64 +151,6 @@ def pluralize( noun, counter )
    else
      "#{noun}s"
    end
-end
-
-
-### todo: move to seasons utils or something - why? why not??
-
-def pretty_print_seasons( seasons )
-  ## e.g. ['2015-16', '2014-15', '2013-14', '1999-00', '1998-99', '1993-94']
-  ##      => 2015-16..2013-14 (3) 1999-00..1998-99 (2) 1993-94
-  ##  or
-  ##      ['2014-15', '1994-95']
-  ##      => 2014-15 1994-95
-  ##  or
-  ##      ['2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2006-07', '2005-06', '2004-05', '2003-04']
-  ##      => 2017-18..2008-09 (10) 2006-07..2003-04 (4)
-
-
-  ## step 1: collect seasons in runs
-  runs = []
-  seasons.each do |season|
-
-    run = runs[-1]  ## get last run (note: returns nil if empty)
-
-    if run.nil?
-      ## start new run - very first season / item
-      run = []
-      run << season
-      runs << run
-    else
-      season_prev = run[-1]  ## get last season from run
-      year_prev   = season_prev[0..3].to_i  ## get year
-
-      year = season[0..3].to_i  ## get year (from season) eg. 2015-16 => 2015
-
-      if year == year_prev-1   ## keep adding to run
-        run << season
-      else ## start new run
-        run = []
-        run << season
-        runs << run
-      end
-    end
-  end
-
-  ## step 2: print runs into buffer (string)
-  buf = ''
-  runs.each do |run|
-     if run.size == 1
-        buf << "#{run[0]} "
-     else
-        ## use first and last season
-        ##  try for now use .. (2)
-        ##                  ... (3)
-        ##                  ..... (4) etc.
-        buf << "#{run[0]}#{'.'*run.size}#{run[-1]} (#{run.size}) "
-     end
-  end
-  buf = buf.strip   # remove trainling space(s)
-  buf
 end
 
 
