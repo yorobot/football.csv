@@ -9,7 +9,7 @@ def initialize( pack )
 end
 
 
-def build_summary
+def build_summary   ## todo/fix: rename build_summary to build
   ###
   ## todo - add count for seasons by level !!!!!
   ##   e.g. level 1 - 25 seasons, 2 - 14 seasons, etc.
@@ -29,11 +29,12 @@ def build_summary
       puts "  season=>#{season}<"
 
       season_file_basename = File.basename( season_file, '.csv' )    ## e.g. 1-bundesliga, 3a-division3-north etc.
-      ## assume first char is a letter for the level!!!!
-      ##
-      level = season_file_basename[0].to_i
-      ##  use to_i -why? why not?  -keep level as a string?
-      ## check if level 0 - no integer - why? why not?
+
+      ## use level naming convention e.g.:
+      ##   1-liga, 01-liga =>  1
+      ##   1a-liga, 1b-liga => 1
+      ##   liga  =>  999     -- note: use 999 for undefined/unknown level !!!
+      level = LevelUtils.level( season_file_basename )   ## note: returns (always) a number!!!
 
       levels[level] += 1   ## keep track of level usage
 

@@ -96,6 +96,10 @@ class Standings
   end  # to_a
 
 
+
+  #####
+  ###
+  ## fix: move build to StandingsPart/Report   !!!!
   def build( source: nil )   ## build / pretty print standings table in string buffer
     ## keep pretty printer in struct - why? why not?
 

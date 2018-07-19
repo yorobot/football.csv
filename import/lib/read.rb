@@ -20,12 +20,14 @@ require 'sportdb/models'
 require_relative 'structs/match'
 require_relative 'structs/matchlist'
 require_relative 'structs/standings'
-require_relative 'structs/teams'
+require_relative 'structs/team'
+require_relative 'structs/team_usage'
 
 
 require_relative 'config'
 
 require_relative 'season_utils'
+require_relative 'level_utils'
 
 
 require_relative 'csv/reader'
