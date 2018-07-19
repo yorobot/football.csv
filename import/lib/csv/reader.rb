@@ -108,6 +108,7 @@ def self.read( path, headers: nil, filters: nil )
     date = date.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
     date = date.strip   # make sure not leading or trailing spaces left over
 
+
     if date =~ /^\d{2}\/\d{2}\/\d{4}$/
       date_fmt = '%d/%m/%Y'   # e.g. 17/08/2002
     elsif date =~ /^\d{2}\/\d{2}\/\d{2}$/
@@ -117,11 +118,18 @@ def self.read( path, headers: nil, filters: nil )
     elsif date =~ /^\d{1,2} \w{3} \d{4}$/
       date_fmt = '%d %b %Y'   # e.g. 8 Jul 2017
     else
-      puts "*** !!! wrong (unknown) date format >>#{date}<<; cannot continue; fix it; sorry"
-      exit 1
+      date_fmt = nil   ## unkown date format/missing date
+      puts "*** !!! wrong (unknown) date format >>#{date}<<;"   ### cannot continue; fix it; sorry"
+      ## todo/fix: add to errors/warns list - why? why not?
+      ## exit 1
     end
 
-    date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
+    if date_fmt
+       ## todo/check: use date object (keep string?) - why? why not?
+       date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
+    else
+       date = nil
+    end
 
     score1  = nil
     score2  = nil

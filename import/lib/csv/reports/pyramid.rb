@@ -250,7 +250,11 @@ def build_summary
          else
            buf << " **WARN - unbalanced rounds - fix/double check?!**"
          end
-         buf << " #{matchlist.start_date.strftime( '%a %d %b %Y' )} - #{matchlist.end_date.strftime( '%a %d %b %Y' )}"
+         if matchlist.start_date? && matchlist.end_date?  ## note: start_date/end_date might be optional/missing
+           buf << " #{matchlist.start_date.strftime( '%a %d %b %Y' )} - #{matchlist.end_date.strftime( '%a %d %b %Y' )}"
+         else
+           buf << "**WARN - start: ???, end: ???**"
+         end
          buf << "\n"
       end
     end
@@ -281,7 +285,11 @@ def build_summary
       buf << " #{matchlist.matches.size} matches, "
       buf << " #{matchlist.goals} goals, "
       buf << " #{matchlist.rounds} rounds, "    if matchlist.rounds?
-      buf << " #{matchlist.start_date.strftime( '%a %-d %b %Y' )} - #{matchlist.end_date.strftime( '%a %-d %b %Y' )}"
+      if matchlist.start_date? && matchlist.end_date?
+        buf << " #{matchlist.start_date.strftime( '%a %-d %b %Y' )} - #{matchlist.end_date.strftime( '%a %-d %b %Y' )}"
+      else
+        buf << " start: ???, end: ???"
+      end
       buf << "\n"
 
       if matchlist.rounds?

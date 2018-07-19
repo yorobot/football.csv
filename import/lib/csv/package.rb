@@ -34,8 +34,17 @@ class CsvPackage
    root_path = @path
    pp root_path
 
-   ### assume /1998-99/ dir folder format for seasons now
-   season_paths = Dir.glob( "#{root_path}/**/[0-9][0-9][0-9][0-9]-[0-9][0-9]" )
+
+   ### assume /1998-99/ =>   or
+   ##         /1998/    =>
+   ##   for dir folder format for seasons / years for now
+
+   season_patterns = [
+     '[0-9][0-9][0-9][0-9]-[0-9][0-9]',  ## e.g. /1998-99/
+     '[0-9][0-9][0-9][0-9]'              ## e.g  /1999/  - note: will NOT include /1990s etc.
+   ]
+
+   season_paths = Dir.glob( "#{root_path}/**/{#{season_patterns.join(',')}}" )
    season_paths.each_with_index do |season_path,i|
 
 
