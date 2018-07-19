@@ -158,14 +158,20 @@ module SeasonHelper ## use Helpers why? why not?
     seasons.keys.sort.reverse.each do |season|
        l = seasons[season]
        if l.size > 1
-         buf << "**WARN: more than one level in season #{season}: #{l.join( )}**"
+         buf << "**WARN: more than one level in season #{season}: #{l.join( )}** "
        else
-         ll = l[0]
-         ## check diff
-         ##
-         ### todo/fix: check for last_season==season+1 (check for proper sequence/no missing season?)
+         lfst = l[0]
          if last_season && last_level
-           diff = last_level - ll.to_i
+
+           ## check for season == last_season-1 or season+1 == last_season (check for proper sequence/no missing season?)
+           season_exp = prev( last_season )
+           if season != season_exp
+              buf << " **?? #{season_exp} ??** "   ## missing season/broken run
+              ## todo/fix: check/output missing more than one season in run
+           end
+
+           ## check diff
+           diff = last_level - lfst.to_i
            if diff > 0
              downs += 1
              buf << "⇓"
@@ -176,10 +182,10 @@ module SeasonHelper ## use Helpers why? why not?
              # assume diff==0; do (add) nothing
            end
          end
-         buf << "#{ll} "
+         buf << "#{lfst} "
 
          last_season = season
-         last_level  = ll.to_i   ## always use/assume int
+         last_level  = lfst.to_i   ## always use/assume int
        end
     end
 
@@ -187,10 +193,10 @@ module SeasonHelper ## use Helpers why? why not?
     buf_header = ''
     buf_header << "⇑ (#{ups})"   if ups > 0
     if downs > 0
-      buf_header << " / "  if buf_header.size > 0  ## use ups > 0 - why? why not?
+      buf_header << " / "     if ups > 0
       buf_header << "⇓ (#{downs})"
     end
-    buf_header << ": "        if buf_header.size > 0  # not blank
+    buf_header << ": "        if ups > 0 || downs > 0
 
 
     buf_header + buf

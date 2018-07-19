@@ -2,6 +2,8 @@
 
 ## Todos
 
+- fix/todo: change all level keys to (always) numbers/integers !!! e.g. 1,2,3, etc.
+  - do NOT use strings (anywhere/anymore) !!!
 
 - matches.csv format
   - check auto-added week number - add plus one (+1!!!) Jan 2 is week 1 (not 0)
@@ -11,6 +13,3 @@
 
 - add option for adjusting date (w/ hour) by timezone (offset)
   - see mx-mexico !!! (uses UTC by default e.g. 1:00am, 23:00, etc. ??)
-
-
-  
