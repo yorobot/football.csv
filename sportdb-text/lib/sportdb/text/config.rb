@@ -5,7 +5,7 @@ module SportDb
 
 def self.data_dir
   ## fix/todo: use SportDb::Import.root plus /config
-  File.expand_path( "#{File.dirname(File.dirname(__FILE__))}/config" )
+  File.expand_path( "#{File.dirname(File.dirname(File.dirname(File.dirname(__FILE__))))}/config" )
 end
 
 
