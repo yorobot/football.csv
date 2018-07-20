@@ -103,32 +103,33 @@ def self.read( path, headers: nil, filters: nil )
 
     date = row[ headers_mapping[ :date ]]
 
-    ## remove possible weekday or weeknumber  e.g. (Fri) (4) etc.
-    date = date.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
-    date = date.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
     date = date.strip   # make sure not leading or trailing spaces left over
 
-
-    if date =~ /^\d{2}\/\d{2}\/\d{4}$/
-      date_fmt = '%d/%m/%Y'   # e.g. 17/08/2002
-    elsif date =~ /^\d{2}\/\d{2}\/\d{2}$/
-      date_fmt = '%d/%m/%y'   # e.g. 17/08/02
-    elsif date =~ /^\d{4}-\d{2}-\d{2}$/      ## "standard" / default date format
-      date_fmt = '%Y-%m-%d'   # e.g. 1995-08-04
-    elsif date =~ /^\d{1,2} \w{3} \d{4}$/
-      date_fmt = '%d %b %Y'   # e.g. 8 Jul 2017
-    else
-      date_fmt = nil   ## unkown date format/missing date
-      puts "*** !!! wrong (unknown) date format >>#{date}<<;"   ### cannot continue; fix it; sorry"
-      ## todo/fix: add to errors/warns list - why? why not?
-      ## exit 1
-    end
-
-    if date_fmt
-       ## todo/check: use date object (keep string?) - why? why not?
-       date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
-    else
+    if date.empty? || date == '-' || date == '?'
+       ## note: allow missing / unknown date for match
        date = nil
+    else
+      ## remove possible weekday or weeknumber  e.g. (Fri) (4) etc.
+      date = date.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
+      date = date.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
+      date = date.strip   # make sure not leading or trailing spaces left over
+
+      if date =~ /^\d{2}\/\d{2}\/\d{4}$/
+        date_fmt = '%d/%m/%Y'   # e.g. 17/08/2002
+      elsif date =~ /^\d{2}\/\d{2}\/\d{2}$/
+        date_fmt = '%d/%m/%y'   # e.g. 17/08/02
+      elsif date =~ /^\d{4}-\d{2}-\d{2}$/      ## "standard" / default date format
+        date_fmt = '%Y-%m-%d'   # e.g. 1995-08-04
+      elsif date =~ /^\d{1,2} \w{3} \d{4}$/
+        date_fmt = '%d %b %Y'   # e.g. 8 Jul 2017
+      else
+        puts "*** !!! wrong (unknown) date format >>#{date}<<; cannot continue; fix it; sorry"
+        ## todo/fix: add to errors/warns list - why? why not?
+        exit 1
+      end
+
+      ## todo/check: use date object (keep string?) - why? why not?
+      date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
     end
 
     score1  = nil
@@ -140,7 +141,7 @@ def self.read( path, headers: nil, filters: nil )
     if headers_mapping[ :score1 ] && headers_mapping[ :score2 ]
       score1 = row[ headers_mapping[ :score1 ]]
       score2 = row[ headers_mapping[ :score2 ]]
-      ## todo: add to_i if not blank? why? why not?
+      ## todo/fix: add to_i if not blank? why? why not?
       ##  note: check for blank string!! e.g. "".to_i => 0  (we need nil)
     end
 
@@ -148,7 +149,7 @@ def self.read( path, headers: nil, filters: nil )
     if headers_mapping[ :score1i ] && headers_mapping[ :score2i ]
       score1i = row[ headers_mapping[ :score1i ]]
       score2i = row[ headers_mapping[ :score2i ]]
-      ## todo: add to_i if not blank? why? why not?
+      ## todo/fix: add to_i if not blank? why? why not?
     end
 
     ## check for all-in-one full time scores?
