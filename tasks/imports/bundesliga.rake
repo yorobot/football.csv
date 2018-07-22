@@ -41,5 +41,16 @@ CsvMatchSplitter.split( in_path,
                             season: 'Saison',
                             } )
 
+
+  ## update reports
+  pack = CsvPackage.new( 'de-deutschland', path: out_root )
+
+  summary_report = CsvSummaryReport.new( pack )
+  summary_report.write
+  ## note: write same as summary.save( "#{out_root}/SUMMARY.md" )
+
+  standings_writer = CsvStandingsWriter.new( pack )
+  standings_writer.write
+
   puts 'done'
 end
