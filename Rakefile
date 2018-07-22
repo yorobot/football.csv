@@ -23,7 +23,6 @@ require './footballdata'
 
 
 
-require './scripts/utils'
 require './scripts/leagues'
 
 

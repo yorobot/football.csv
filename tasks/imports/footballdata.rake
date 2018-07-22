@@ -93,7 +93,7 @@ def convert_repo( repo, sources )
 
 
   sources.each do |rec|
-    dirname   = rec[0]
+    dirname   = rec[0]   ## note: dirname is season e.g. 2011-12 etc.
     basenames = rec[1]
 
     basenames.each do |basename|
@@ -110,10 +110,17 @@ def convert_repo( repo, sources )
 
       league      = get_league( repo, year, FOOTBALLDATA_LEAGUES[basename] )
 
-      out_path = "#{out_root}/#{dirname}/#{league}.csv"
+      ## note: for de-deutschland and eng-england
+      ##   use long format e.g. 2010s/2011-12 etc
+      if ['de-deutschland', 'eng-england'].include? repo
+        out_path = "#{out_root}/#{SeasonUtils.directory(dirname, format: 'long')}/#{league}.csv"
+      else
+        out_path = "#{out_root}/#{SeasonUtils.directory(dirname)}/#{league}.csv"
+      end
 
       puts "in_path: #{in_path}, out_path: #{out_path}"
 
+      ## todo/fix: move mkdir_p to converter - why? why not?
       ## makedirs_p for out_path
       FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
 
