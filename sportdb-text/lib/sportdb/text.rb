@@ -5,6 +5,7 @@
 require 'pp'
 require 'csv'
 require 'date'
+require 'fileutils'
 
 
 
@@ -29,6 +30,7 @@ require 'sportdb/text/csv/reader'
 require 'sportdb/text/csv/converter'
 require 'sportdb/text/csv/package'
 require 'sportdb/text/csv/standings'
+require 'sportdb/text/csv/splitter'
 require 'sportdb/text/csv/reports/summary.rb'
 require 'sportdb/text/csv/reports/teams.rb'
 require 'sportdb/text/csv/reports/pyramid.rb'

@@ -11,9 +11,3 @@ pp $:
 pp File.read( './sportdb-text/lib/sportdb/text/version.rb' )
 
 require 'sportdb/text'
-
-
-###
-# our own extra code
-
-require_relative 'read_txt'

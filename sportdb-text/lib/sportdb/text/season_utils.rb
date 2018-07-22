@@ -19,20 +19,46 @@ module SeasonHelper ## use Helpers why? why not?
 
 
 
-  def directory( season )
+  def directory( season, format: nil )
+    ##  todo: find better names for formats - why? why not?:
+    ##    long | archive | decade(?)   =>   1980s/1988-89, 2010s/2017-18, ...
+    ##    short | std(?)   =>   1988-89, 2017-18, ...
+
     ## convert season name to "standard" season name for directory
-    season = season.tr('/','-')  ## todo/fix: use [\-/] in regex directly!!!
-    if season =~ /^(\d{4})-(\d{4})$/   ## e.g. 2011-2010 or 2011/2011 => 2011-10
-      "%4d-%02d" % [$1.to_i, $2.to_i % 100]
-    elsif season =~ /^(\d{4})-(\d{2})$/
-      "%4d-%02d" % [$1.to_i, $2.to_i]
+
+    ## todo/fix: move to parse / validate season (for (re)use)!!!! - why? why not?
+    if season =~ /^(\d{4})[\-\/](\d{4})$/   ## e.g. 2011-2012 or 2011/2012 => 2011-12
+      years = [$1.to_i, $2.to_i]
+    elsif season =~ /^(\d{4})[\-\/](\d{2})$/   ## e.g. 2011-12 or 2011/12  => 2011-12
+      years = [$1.to_i, $1.to_i+1]
+      ## note: check that season end year is (always) season start year + 1
+      if ($1.to_i+1) % 100 != $2.to_i
+        puts "*** !!!! wrong season format >>#{season}<<; season end year MUST (always) equal season start year + 1; exit; sorry"
+        exit 1
+      end
     elsif season =~ /^(\d{4})$/
-      "%4d" % [$1.to_i]
+      years = [$1.to_i]
     else
       puts "*** !!!! wrong season format >>#{season}<<; exit; sorry"
       exit 1
     end
-  end
+
+
+    if ['l', 'long', 'archive' ].include?( format.to_s )   ## note: allow passing in of symbol to e.g. 'long' or :long
+      if years.size == 2
+        "%3d0s/%4d-%02d" % [years[0] / 10, years[0], years[1] % 100]   ## e.g. 2000s/2001-02
+      else  ## assume size 1 (single year season)
+        "%3d0s/%4d" % [years[0] / 10, years[0]]
+      end
+    else  ## default 'short' format / fallback
+      if years.size == 2
+        "%4d-%02d" % [years[0], years[1] % 100]   ## e.g. 2001-02
+      else  ## assume size 1 (single year season)
+        "%4d" % years[0]
+      end
+    end
+  end # method directory
+
 
 
   def start_year( season ) ## get start year

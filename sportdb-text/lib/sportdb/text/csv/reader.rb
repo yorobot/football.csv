@@ -5,12 +5,15 @@
 class CsvMatchReader
 
 
-def self.read( path, headers: nil, filters: nil )
+def self.read( path, headers: nil, filters: nil, col_sep: ',' )
 
   headers_mapping = {}
 
-  csv = CSV.read( path, headers: true,
-                        external_encoding: 'utf-8' )  ## note: always use (assume) utf8 for now
+  csv_options = { headers: true,
+                  col_sep: col_sep,
+                  external_encoding: 'utf-8' }   ## note: always use (assume) utf8 for now
+
+  csv = CSV.read( path, csv_options )
 
   pp csv
 
@@ -155,8 +158,8 @@ def self.read( path, headers: nil, filters: nil )
     ## check for all-in-one full time scores?
     if headers_mapping[ :score ]
       ft = row[ headers_mapping[ :score ] ]
-      if ft =~ /^\d{1,2}-\d{1,2}$/   ## sanity check scores format
-        scores = ft.split('-')
+      if ft =~ /^\d{1,2}[\-:]\d{1,2}$/   ## sanity check scores format
+        scores = ft.split( /[\-:]/ )
         score1 = scores[0].to_i
         score2 = scores[1].to_i
       end
@@ -165,8 +168,8 @@ def self.read( path, headers: nil, filters: nil )
 
     if headers_mapping[ :scorei ]
       ht = row[ headers_mapping[ :scorei ] ]
-      if ht =~ /^\d{1,2}-\d{1,2}$/   ## sanity check scores format
-        scores = ht.split('-')
+      if ht =~ /^\d{1,2}[\-:]\d{1,2}$/   ## sanity check scores format
+        scores = ht.split( /[\-:]/)   ## allow 1-1 and 1:1
         score1i = scores[0].to_i
         score2i = scores[1].to_i
       end
