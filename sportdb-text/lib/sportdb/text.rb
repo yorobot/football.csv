@@ -27,6 +27,7 @@ require 'sportdb/text/level_utils'
 
 
 require 'sportdb/text/csv/reader'
+require 'sportdb/text/csv/writer'
 require 'sportdb/text/csv/converter'
 require 'sportdb/text/csv/package'
 require 'sportdb/text/csv/standings'
@@ -38,6 +39,13 @@ require 'sportdb/text/csv/reports/pyramid.rb'
 
 require 'sportdb/text/csv/reports/team_city.rb'
 require 'sportdb/text/csv/reports/team_mapping.rb'
+
+
+
+
+module SportDb
+   Structs = Struct ## add convenience alias (e.g. lets you use include SportDb::Structs)
+end
 
 
 

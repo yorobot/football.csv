@@ -36,6 +36,8 @@ def self.read( path, headers: nil, filters: nil, col_sep: ',' )
        ## check for all-in-one full time (ft) and half time (ht9 scores?
        headers_mapping[:score]  = find_header( headers, ['FT'] )
        headers_mapping[:scorei] = find_header( headers, ['HT'] )
+
+       headers_mapping[:round]  = find_header( headers, ['Round'] )
     else
        ## else try footballdata.uk and others
        headers_mapping[:team1]  = find_header( headers, ['HomeTeam', 'HT', 'Home'] )
@@ -104,36 +106,46 @@ def self.read( path, headers: nil, filters: nil, col_sep: ',' )
     team2 = team_mappings[ team2 ]   if team_mappings[ team2 ]
 
 
-    date = row[ headers_mapping[ :date ]]
+    col = row[ headers_mapping[ :date ]]
+    col = col.strip   # make sure not leading or trailing spaces left over
 
-    date = date.strip   # make sure not leading or trailing spaces left over
-
-    if date.empty? || date == '-' || date == '?'
+    if col.empty? || col == '-' || col == '?'
        ## note: allow missing / unknown date for match
        date = nil
     else
       ## remove possible weekday or weeknumber  e.g. (Fri) (4) etc.
-      date = date.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
-      date = date.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
-      date = date.strip   # make sure not leading or trailing spaces left over
+      col = col.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
+      col = col.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
+      col = col.strip   # make sure not leading or trailing spaces left over
 
-      if date =~ /^\d{2}\/\d{2}\/\d{4}$/
+      if col =~ /^\d{2}\/\d{2}\/\d{4}$/
         date_fmt = '%d/%m/%Y'   # e.g. 17/08/2002
-      elsif date =~ /^\d{2}\/\d{2}\/\d{2}$/
+      elsif col =~ /^\d{2}\/\d{2}\/\d{2}$/
         date_fmt = '%d/%m/%y'   # e.g. 17/08/02
-      elsif date =~ /^\d{4}-\d{2}-\d{2}$/      ## "standard" / default date format
+      elsif col =~ /^\d{4}-\d{2}-\d{2}$/      ## "standard" / default date format
         date_fmt = '%Y-%m-%d'   # e.g. 1995-08-04
-      elsif date =~ /^\d{1,2} \w{3} \d{4}$/
+      elsif col =~ /^\d{1,2} \w{3} \d{4}$/
         date_fmt = '%d %b %Y'   # e.g. 8 Jul 2017
       else
-        puts "*** !!! wrong (unknown) date format >>#{date}<<; cannot continue; fix it; sorry"
+        puts "*** !!! wrong (unknown) date format >>#{col}<<; cannot continue; fix it; sorry"
         ## todo/fix: add to errors/warns list - why? why not?
         exit 1
       end
 
       ## todo/check: use date object (keep string?) - why? why not?
-      date = Date.strptime( date, date_fmt ).strftime( '%Y-%m-%d' )
+      ##  todo/fix: yes!! use date object!!!! do NOT use string
+      date = Date.strptime( col, date_fmt ).strftime( '%Y-%m-%d' )
     end
+
+
+    round   = nil
+    ## check for (optional) round / matchday
+    if headers_mapping[ :round ]
+      col = row[ headers_mapping[ :round ]]
+      ## todo: issue warning if not ? or - (and just empty string) why? why not
+      round = col.to_i  if col =~ /^\d{1,2}$/     # check format - e.g. ignore ? or - or such non-numbers for now
+    end
+
 
     score1  = nil
     score2  = nil
@@ -142,17 +154,22 @@ def self.read( path, headers: nil, filters: nil, col_sep: ',' )
 
     ## check for full time scores ?
     if headers_mapping[ :score1 ] && headers_mapping[ :score2 ]
-      score1 = row[ headers_mapping[ :score1 ]]
-      score2 = row[ headers_mapping[ :score2 ]]
-      ## todo/fix: add to_i if not blank? why? why not?
-      ##  note: check for blank string!! e.g. "".to_i => 0  (we need nil)
+      ft = [ row[ headers_mapping[ :score1 ]],
+             row[ headers_mapping[ :score2 ]] ]
+
+      ## todo/fix: issue warning if not ? or - (and just empty string) why? why not
+      score1 = ft[0].to_i  if ft[0] =~ /^\d{1,2}$/
+      score2 = ft[1].to_i  if ft[1] =~ /^\d{1,2}$/
     end
 
     ## check for half time scores ?
     if headers_mapping[ :score1i ] && headers_mapping[ :score2i ]
-      score1i = row[ headers_mapping[ :score1i ]]
-      score2i = row[ headers_mapping[ :score2i ]]
-      ## todo/fix: add to_i if not blank? why? why not?
+      ht = [ row[ headers_mapping[ :score1i ]],
+             row[ headers_mapping[ :score2i ]] ]
+
+      ## todo/fix: issue warning if not ? or - (and just empty string) why? why not
+      score1i = ht[0].to_i  if ht[0] =~ /^\d{1,2}$/
+      score2i = ht[1].to_i  if ht[1] =~ /^\d{1,2}$/
     end
 
     ## check for all-in-one full time scores?
@@ -177,16 +194,15 @@ def self.read( path, headers: nil, filters: nil, col_sep: ',' )
     end
 
 
-    match = SportDb::Struct::Match.create( date:  date,
-                                           team1: team1,     team2: team2,
-                                           score1: score1,   score2: score2,
-                                           score1i: score1i, score2i: score2i )
+    match = SportDb::Struct::Match.new( date:  date,
+                                        team1: team1,     team2: team2,
+                                        score1: score1,   score2: score2,
+                                        score1i: score1i, score2i: score2i,
+                                        round:  round )
     matches << match
   end
 
   ## pp matches
-
-  ## note: only return team names (not hash with usage counter)
   matches
 end
 
@@ -195,8 +211,10 @@ end
 private
 
 def self.find_header( headers, candidates )
+   ## todo/fix: use find_first from enumare of similar ?! - why? more idiomatic code?
+
   candidates.each do |candidate|
-     return candidate if headers.include? candidate  ## bingo!!!
+     return candidate   if headers.include? candidate  ## bingo!!!
   end
   nil  ## no matching header  found!!!
 end

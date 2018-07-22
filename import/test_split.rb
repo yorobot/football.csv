@@ -33,7 +33,8 @@ Spielzeit;Saison;Spieltag;Datum;Uhrzeit;Heim;Gast;Ergebnis;Halbzeit
                             date:  'Datum',
                             score: 'Ergebnis',
                             scorei: 'Halbzeit',
-                            season: 'Saison'
+                            round:  'Spieltag',
+                            season: 'Saison',
                             } )
 end
 

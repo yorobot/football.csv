@@ -8,6 +8,6 @@ require 'pp'
 $:.unshift( './sportdb-text/lib' )
 pp $:
 
-pp File.read( './sportdb-text/lib/sportdb/text/version.rb' )
+## pp File.read( './sportdb-text/lib/sportdb/text/version.rb' )
 
 require 'sportdb/text'
