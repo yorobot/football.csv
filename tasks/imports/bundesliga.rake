@@ -23,8 +23,8 @@ task :bundesliga do |t|
 ##  end
 ##  puts " #{i} rows"
 
- out_root = './o'
- ## out_root = '../../footballcsv'
+ ## out_root = './o'
+ out_root = '../../footballcsv'
 
 CsvMatchSplitter.split( in_path,
                         out_root: "#{out_root}/de-deutschland",
