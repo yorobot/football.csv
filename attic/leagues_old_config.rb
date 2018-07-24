@@ -2,6 +2,11 @@
 
 
 LEAGUES = {
+  'eng1' => '1-premierleague',  # english premier league
+  'eng2' => '2-championship',  # english championship league
+  'eng3' => '3-league1',  # english league 1
+  'eng4' => '4-league2',  # english league 2
+  'eng5' => '5-conference',  # english conference
 
   'es1'  => '1-liga',  # spanish liga 1
   'es2'  => '2-liga2',  # spanish liga 2
@@ -35,6 +40,23 @@ LEAGUES = {
 ##########################################
 # hacks for renames/rebrandings/reorgs
 
+
+ENG_LEAGUES_2003 = {  ## until (including) 2003-04 season
+  'eng1' => '1-premierleague', # english premier league
+  'eng2' => '2-division1',  # english division 1
+  'eng3' => '3-division2',  # english division 2
+  'eng4' => '4-division3',  # english division 3
+}
+
+# note: in season 1992/93 the premier league starts
+ENG_LEAGUES_1991 = { ## until (including) 1991-92} season
+  'eng1' => '1-division1', # english division 1
+  'eng2' => '2-division2', # english division 2
+  'eng3'   => '3-division3', # english division 3
+  'eng3a'  => '3a-division3n',   # english division 3 (north)
+  'eng3b'  => '3b-division3s',   # english division 3 (south)
+  'eng4' => '4-division4', # english division 4  - check if real?
+}
 
 
 
