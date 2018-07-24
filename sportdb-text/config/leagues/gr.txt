@@ -1,7 +1,7 @@
 
 
-'1' => 'superleague' },  # greek Superleague
+1  =>  superleague,  Greek Superleague
 
 
 [2005-06]    ## until (including) 2005-06 season
-  'gr1' => '1-alphaethniki',   # greek Alpha Ethniki
+1  =>  alphaethniki,  Greek Alpha Ethniki

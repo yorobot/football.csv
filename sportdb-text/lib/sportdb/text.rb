@@ -20,7 +20,11 @@ require 'sportdb/text/structs/team'
 require 'sportdb/text/structs/team_usage'
 
 
-require 'sportdb/text/config'
+require 'sportdb/text/config/league'
+require 'sportdb/text/config/league_reader'
+require 'sportdb/text/config/team_reader'
+require 'sportdb/text/config/config'
+
 
 require 'sportdb/text/season_utils'
 require 'sportdb/text/level_utils'
