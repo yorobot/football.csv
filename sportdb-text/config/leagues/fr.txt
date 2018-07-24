@@ -1,0 +1,11 @@
+
+
+ { '1' => 'ligue1',  # french ligue 1
+             '2' => 'ligue2',  # french ligue 2
+           },
+
+
+[2001-02]     ## until (including) 2001-02 season
+  'fr1'  => '1-division1',  # french ligue 1
+  'fr2'  => '2-division2',  # french ligue 2
+}

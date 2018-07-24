@@ -24,6 +24,8 @@ require 'sportdb/text/config'
 
 require 'sportdb/text/season_utils'
 require 'sportdb/text/level_utils'
+require 'sportdb/text/league_utils'
+
 
 
 require 'sportdb/text/csv/reader'

@@ -15,6 +15,8 @@ class Configuration
   attr_accessor :team_mappings
   attr_accessor :teams
 
+  attr_accessor :leagues
+
 
   def initialize
 
@@ -48,6 +50,13 @@ class Configuration
       @teams[ rec.name ] = rec
     end
 
+
+    #####
+    # add / read-in leagues config
+    @leagues = LeagueInfo.new
+
+
+
     self  ## return self for chaining
   end
 
@@ -55,6 +64,9 @@ class Configuration
 
 private
 
+
+####
+##  fix: move to TeamTxtReader or TeamInfoReader - why? why not?
 def parse_teams_txt( txt )
   recs = []
   txt.each_line do |line|
