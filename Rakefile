@@ -1,12 +1,7 @@
 # encoding: utf-8
 
-require 'csv'
-require 'pp'
-
-
 # 3rd party gems
 require 'fetcher'
-
 
 
 require_relative 'import/lib/read'
@@ -16,14 +11,8 @@ require_relative 'import/lib/read'
 ### our own code
 
 require './repos'
-require './leagues'
 require './footballdata'
 
-
-
-
-
-require './scripts/leagues'
 
 
 ############################################

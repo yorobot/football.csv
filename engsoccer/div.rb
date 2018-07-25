@@ -4,7 +4,13 @@ require 'csv'
 require 'pp'
 
 
-path = './dl/engsoccer/england.csv'
+##### todo: check if date missing and how often
+##### todo: check if season if always moving forward (sorted)
+##### todo: check half time (ht) ??
+###     add csv headers here
+
+
+path = './dl/engsoccerdata/data-raw/england.csv'
 
 ## 194_040 rows
 # divs:
