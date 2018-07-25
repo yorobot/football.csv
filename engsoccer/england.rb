@@ -51,6 +51,8 @@ divs  = Hash.new(0)
 tiers = Hash.new(0)
 teams = Hash.new(0)
 seasons = Hash.new(0)
+scores  = Hash.new(0)
+
 missing_dates = []
 
 
@@ -78,6 +80,8 @@ CSV.foreach( path, headers: true ) do |row|
 
   seasons[row['Season']] += 1
 
+  scores[row['FT']] += 1
+
   date = row['Date']
   if date.empty? || date == 'NA'
     puts "*** missing date in row: #{row.inspect}"
@@ -101,6 +105,7 @@ CSV.foreach( path, headers: true ) do |row|
 
 
   ## double check scores
+
     ft     = row['FT']
     ## note: for now round, and ht (half-time) results are always missing
 
@@ -150,7 +155,7 @@ teams.each do |team,match_count|
 end
 
 
-puts "#{unknown_teams.size} unkown teams:"
+puts "#{unknown_teams.size} unknown teams:"
 pp unknown_teams
 ## pp unknown_teams.to_a
 
@@ -159,3 +164,7 @@ puts "sorted by match count:"
 sorted_teams = unknown_teams.to_a.sort { |l,r| r[1] <=> l[1] }
 
 pp sorted_teams
+
+
+puts "#{scores.size} scores:"
+pp scores

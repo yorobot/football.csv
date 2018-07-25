@@ -1,0 +1,4 @@
+
+Toronto FC              =>  Toronto FC,          Toronto
+Vancouver Whitecaps     =>  Vancouver Whitecaps, Vancouver
+Montreal Impact         =>  Montreal Impact,     Montreal

@@ -1,0 +1,22 @@
+
+
+San Jose Earthquakes    =>  San Jose Earthquakes
+DC United               =>  DC United
+LA Galaxy               =>  LA Galaxy
+New York Red Bulls      =>  New York Red Bulls
+New York City FC        =>  New York City FC
+Tampa Bay Mutiny        =>  Tampa Bay Mutiny
+New England Revolution  =>  New England Revolution
+Columbus Crew           =>  Columbus Crew
+Sporting Kansas City    =>  Sporting Kansas City
+Colorado Rapids         =>  Colorado Rapids
+FC Dallas               =>  FC Dallas
+Miami Fusion            =>  Miami Fusion
+Chicago Fire            =>  Chicago Fire
+CD Chivas USA           =>  CD Chivas USA
+Real Salt Lake          =>  Real Salt Lake
+Houston Dynamo          =>  Houston Dynamo
+Seattle Sounders        =>  Seattle Sounders
+Philadelphia Union      =>  Philadelphia Union
+Portland Timbers        =>  Portland Timbers
+Orlando City            =>  Orlando City
