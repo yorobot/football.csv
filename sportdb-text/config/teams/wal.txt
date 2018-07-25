@@ -9,3 +9,6 @@ Swansea | Swansea City  =>  Swansea City AFC,        Swansea
 Cardiff | Cardiff City  =>  Cardiff City FC,         Cardiff
 Wrexham          =>  Wrexham AFC,             Wrexham
 Newport County   =>  Newport County AFC,      Newport
+Merthyr Town     =>  Merthyr Town FC,         Merthyr Tydfil
+
+Aberdare Athletic  =>  Aberdare Athletic FC (1893-1928),  Aberdare

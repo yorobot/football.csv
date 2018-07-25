@@ -6,7 +6,7 @@ require 'pp'
 require './import/lib/read'
 
 team_mappings = SportDb::Import.config.team_mappings
-
+known_teams   = SportDb::Import.config.teams
 
 
 ##### todo: check if date missing and how often
@@ -141,7 +141,8 @@ pp teams
 ### check for unknown teams
 unknown_teams = {}
 teams.each do |team,match_count|
-    if team_mappings[ team ]
+    ## note: do NOT forget to check known_teams (1:1) mapping too!!!! (to avoid duplicate mappings)
+    if team_mappings[ team ] || known_teams[ team ]
       # do nothing
     else
       unknown_teams[team] = match_count
