@@ -1,19 +1,19 @@
 # encoding: utf-8
 
-require 'csv'
-require 'pp'
-
+require './import/lib/read'
 
 
 path = './dl/engsoccerdata/data-raw/mls.csv'
 
-confs   = Hash.new(0)
-rounds  = Hash.new(0)
-legs    = Hash.new(0)
-teams   = Hash.new(0)
-seasons = Hash.new(0)
-scores  = Hash.new(0)
-missing_dates = []
+headers = { team1:  'home',  team2: 'visitor',
+            conf1:  'hconf', conf2: 'vconf',
+            score:  'FT',
+            season: 'Season',
+            date:   'Date',
+            round:  'round',
+            leg:    'leg'  }
+
+CsvMatchReader.dump( path, headers: headers )
 
 
 ##
@@ -78,58 +78,3 @@ missing_dates = []
  "2015"=>357,
  "2016"=>357}
 =end
-
-i = 0
-CSV.foreach( path, headers: true ) do |row|
-  i += 1
-
-  if i == 1
-    pp row
-  end
-
-  print '.' if i % 100 == 0
-
-  confs[row['hconf']] += 1
-  confs[row['vconf']] += 1
-
-  rounds[row['round']] += 1
-  legs[row['leg']]     += 1
-
-
-  teams[row['home']] += 1
-  teams[row['visitor']] += 1
-
-  scores[row['FT']] += 1
-
-  seasons[row['Season']] += 1
-
-  date = row['Date']
-  if date.empty? || date == 'NA'
-    puts "*** missing date in row: #{row.inspect}"
-    missing_dates << row
-  end
-end
-
-
-puts " #{i} rows"
-
-puts "#{confs.size} confs:"
-pp confs
-
-puts "#{legs.size} legs:"
-pp legs
-
-puts "#{rounds.size} rounds:"
-pp rounds
-
-puts "#{seasons.size} seasons:"
-pp seasons
-
-puts "#{scores.size} scores:"
-pp scores
-
-puts "#{missing_dates.size} missing dates:"
-pp missing_dates
-
-puts "#{teams.size} teams:"
-pp teams

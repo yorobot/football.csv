@@ -2,10 +2,10 @@
 
 
 task :engsummary do |t|
-  ## root = './o'
-  root = '../../footballcsv'
+  root = './o'
+  ## root = '../../footballcsv'
 
-  pack = CsvPackage.new( 'eng-england', path: root )
+  pack = CsvPackage.new( 'eng-england2', path: root )
   ## pp pack.find_entries_by_season
 
   report = CsvSummaryReport.new( pack )
@@ -45,8 +45,8 @@ task :engsoccer do |t|
 
   matches = []
 
-  ## out_root = './o/eng-england2'
-  out_root = '../../footballcsv/eng-england'
+  out_root = './o/eng-england2'
+  ## out_root = '../../footballcsv/eng-england'
 
 
   CSV.foreach( in_path, headers: true ) do |row|

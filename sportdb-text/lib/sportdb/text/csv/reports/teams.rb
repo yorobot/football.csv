@@ -9,7 +9,7 @@ def initialize( pack )
 end
 
 
-def build_summary   ## todo/fix: rename build_summary to build
+def build
   ###
   ## todo - add count for seasons by level !!!!!
   ##   e.g. level 1 - 25 seasons, 2 - 14 seasons, etc.
@@ -98,12 +98,12 @@ def build_summary   ## todo/fix: rename build_summary to build
   team_names = teams.to_a.map { |t| t.team }
 
   buf << "### Team Name Mappings\n\n"
-  buf << TeamMappingReport.new.build( team_names )
+  buf << TeamMappingsPart.new( team_names ).build
   buf << "\n\n"
 
 
   buf << "### Teams by City\n\n"
-  buf << TeamCityReport.new.build( team_names )
+  buf << TeamsByCityPart.new( team_names ).build
   buf << "\n\n"
 
 
@@ -139,12 +139,15 @@ def build_summary   ## todo/fix: rename build_summary to build
   buf << "\n"
 
   buf
-end # method build_summary
+end # method build
+alias_method :render, :build
+
+
 
 
 def save( path )
   File.open( path, 'w:utf-8' ) do |f|
-    f.write build_summary
+    f.write build
   end
 end
 

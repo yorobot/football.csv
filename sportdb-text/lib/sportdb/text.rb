@@ -43,8 +43,8 @@ require 'sportdb/text/csv/reports/teams.rb'
 require 'sportdb/text/csv/reports/pyramid.rb'
 
 
-require 'sportdb/text/csv/reports/team_city.rb'
-require 'sportdb/text/csv/reports/team_mapping.rb'
+require 'sportdb/text/csv/reports/part_teams_by_city.rb'
+require 'sportdb/text/csv/reports/part_team_mappings.rb'
 
 
 

@@ -1,15 +1,14 @@
 # encoding: utf-8
 
 
-class TeamMappingReport    ## change to TeamMapping(s)Part/Block/Partial/Builder or something - why? why not?
+class TeamMappingsPart    ## change to TeamMapping(s)Part/Block/Partial/Builder or something - why? why not?
 
-
-def initialize
-  # do nothing for now
+def initialize( team_names )
+  @team_names = team_names
 end
 
 
-def build( team_names )
+def build   ## todo/check: always use render as name - why? why not?
 
   canonical_teams =  SportDb::Import.config.teams
 
@@ -17,7 +16,7 @@ def build( team_names )
   ## show list of teams without known canoncial/pretty print name
   missing_teams = []
 
-  team_names.each do |team_name|
+  @team_names.each do |team_name|
     missing_teams << team_name     if canonical_teams[team_name].nil?
   end
 
@@ -44,7 +43,8 @@ def build( team_names )
   buf << "\n\n"
   buf << "```\n"
 
-  team_names.each do |team_name|
+
+  @team_names.each do |team_name|
     team = canonical_teams[team_name]
     if team
        alt_team_names =  team.alt_names
@@ -69,6 +69,9 @@ def build( team_names )
   buf << "```\n\n"
 
   buf
-end
+end  # method build
 
-end # class TeamMappingReport
+alias_method :render, :build
+
+
+end # class TeamMappingsPart

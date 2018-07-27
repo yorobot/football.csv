@@ -6,33 +6,37 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
 
    class TeamLine
      attr_reader :name,
-                 :seasons
+                 :levels
 
      def initialize( name )
-       @name     = name
-       @seasons  = {}    ## seasons by level
+       @name    = name
+       @levels  = {}    ## holds seasons by level
      end
 
      def update( level:, season: )
        ##  use seasons to track datafile count as value - why? why not?
-       h = @seasons[ level ] ||= Hash.new(0)
-       h[ season ] += 1
+       ##   fix/todo: store datafiles in season - why? why not?
+       ##   - use [].size to check how many datafiles per season?
+       seasons = @levels[ level ] ||= Hash.new(0)
+       seasons[ season ] += 1
      end
    end   # class TeamLine
 
+
+
    class SeasonLine
      attr_reader :name,
-                 :datafiles
+                 :levels
 
      def initialize( name )
-       @name       = name
-       @datafiles  = {}    ## datafiles by level
+       @name    = name
+       @levels  = {}    ## holds datafiles by level
      end
 
      def update( level:, datafile: )
        ##  use seasons to track datafile count as value - why? why not?
-       recs = @datafiles[ level ] ||= []
-       recs << datafile
+       datafiles = @levels[ level ] ||= []
+       datafiles << datafile
      end
    end   # class SeasonLine
 
@@ -113,6 +117,8 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
        buf << "\n\n"
        buf
      end # method build
+     alias_method :render, :build
+
    end   # class LevelLine
 
 
@@ -122,7 +128,7 @@ def initialize( pack )
 end
 
 
-def build_summary
+def build
 
   ###
   ## todo - add count for seasons by level !!!!!
@@ -149,12 +155,8 @@ def build_summary
       puts "  season=>#{season}<"
 
       season_file_basename = File.basename( season_file, '.csv' )    ## e.g. 1-bundesliga, 3a-division3-north etc.
-      ## assume first char is a letter for the level!!!!
-      ##
-      level = season_file_basename[0].to_i
-      ##  use to_i -why? why not?  -keep level as a string?
-      ## check if level 0 - no integer - why? why not?
 
+      level = LevelUtils.level( season_file_basename )   ## note: returns (always) a number!!!
 
       ###########################################################
       ## keep track of statistics with "line" records for level, season, team, etc.
@@ -236,6 +238,8 @@ def build_summary
       datafiles = level.seasons[season_key]
 
       if datafiles.size > 1
+         ### fix!!!!!
+         ###
          buf << "   - todo/fix more than one dafile per season!!!"
       else
          datafile  = datafiles[0]
@@ -262,6 +266,7 @@ def build_summary
   end
 
 
+
   ## loop 3) season details
   season_keys.each do |season_key|
     prev_season_key = SeasonUtils.prev( season_key )
@@ -270,13 +275,17 @@ def build_summary
     prev_season     = all_seasons[prev_season_key]
     ## season holds datafiles (grouped) by level
 
-    buf << "#{season_key} - #{season.datafiles.size} levels (#{season.datafiles.keys.join(' ')})"
+    buf << "#{season_key} - #{season.levels.size} levels (#{season.levels.keys.join(' ')})"
     buf << "\n"
 
-    ## todo/fix: rename/change datafiles to level - why? why not?
-    season.datafiles.keys.each do |level_key|
+    season.levels.keys.each do |level_key|
       buf << "  - #{level_key}:"
-      datafiles = season.datafiles[level_key]
+      datafiles = season.levels[level_key]
+
+      ####
+      ####  fix:
+      ####   loop over datafiles (might be more than one!!)
+
       buf << " [`#{datafiles[0]}`](#{datafiles[0]}) - "
 
       ## find matchlist by datafile name
@@ -341,7 +350,7 @@ end
 
       ## find previous/last season if available for diff
       if prev_season
-        prev_datafiles = prev_season.datafiles[level_key]
+        prev_datafiles = prev_season.levels[level_key]
         if prev_datafiles  ## note: level might be missing in prev season!!
           ## buf << "    - diff #{season_key} <=> #{prev_season_key}:\n"
           prev_matchlist = all_datafiles[ prev_datafiles[0] ]  ## work with first datafile only for now
@@ -367,12 +376,13 @@ end
   buf << "\n\n"
 
   buf
-end # method build_summary
+end # method build
+alias_method :render, :build
 
 
 def save( path )
   File.open( path, 'w:utf-8' ) do |f|
-    f.write build_summary
+    f.write build
   end
 end
 

@@ -1,4 +1,4 @@
 
-Toronto FC              =>  Toronto FC,          Toronto
-Vancouver Whitecaps     =>  Vancouver Whitecaps, Vancouver
-Montreal Impact         =>  Montreal Impact,     Montreal
+                     => Montreal Impact        (2012-),  Montreal  › Quebec
+                     => Toronto FC             (2007-),  Toronto   › Ontario
+Vancouver Whitecaps  => Vancouver Whitecaps FC (2011-),  Vancouver › British Columbia

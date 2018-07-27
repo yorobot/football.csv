@@ -7,20 +7,22 @@ def initialize( pack )
   @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
 end
 
-def build_summary
+def build
   buf = ''
   buf << "# Summary\n\n"
-  buf << CsvPyramidReport.new( @pack ).build_summary
+  buf << CsvPyramidReport.new( @pack ).build
   buf << "\n\n"
-  buf << CsvTeamsReport.new( @pack ).build_summary
+  buf << CsvTeamsReport.new( @pack ).build
   buf << "\n\n"
   buf
 end
+alias_method :render, :build
+
 
 
 def save( path )
   File.open( path, 'w:utf-8' ) do |f|
-    f.write build_summary
+    f.write build
   end
 end
 

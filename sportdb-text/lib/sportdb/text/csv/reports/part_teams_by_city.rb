@@ -1,23 +1,21 @@
 # encoding: utf-8
 
 
-class TeamCityReport    ## change to TeamCityPart/Block/Partial/Builder or something - why? why not?
+class TeamsByCityPart    ## change to TeamCityPart/Block/Partial/Builder or something - why? why not?
 
 
-def initialize
-  # do nothing for now
+def initialize( team_names )
+  @team_names = team_names
 end
 
 
-def build( team_names )
-
+def build     ## todo/check: always use render as name - why? why not?
   canonical_teams =  SportDb::Import.config.teams
-
 
   cities        = {}
   missing_teams = []
 
-  team_names.each do |team_name|
+  @team_names.each do |team_name|
     team = canonical_teams[team_name]
     if team
        team_city = team.city || '?'    ## convert nil to ?
@@ -91,8 +89,8 @@ def build( team_names )
 
   buf << "\n\n"
   buf
+end  # method build
 
-end
+alias_method :render, :build
 
-
-end  # class TeamCityReport
+end  # class TeamsByCityPart

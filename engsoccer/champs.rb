@@ -1,25 +1,20 @@
 # encoding: utf-8
 
-require 'csv'
-require 'pp'
-
 require './import/lib/read'
-
-team_mappings = SportDb::Import.config.team_mappings
-known_teams   = SportDb::Import.config.teams
-
 
 
 path = './dl/engsoccerdata/data-raw/champs.csv'
 
-rounds    = Hash.new(0)
-legs      = Hash.new(0)
-teams     = Hash.new(0)
-seasons   = Hash.new(0)
-scores    = Hash.new(0)
-countries = Hash.new(0)
-missing_dates = []
+headers = {
+##  team1:    'home',     team2:    'visitor',
+  country1: 'hcountry', country2: 'vcountry',
+  round:    'round',
+  leg:      'leg',
+  score:    'FT',
+  season:   'Season',
+  date:     'Date' }
 
+CsvMatchReader.dump( path, headers: headers )
 
 ##
 #  first row:
@@ -210,82 +205,3 @@ missing_dates = []
  "AND"=>22,
  "GIB"=>6}
 =end
-
-
-i = 0
-CSV.foreach( path, headers: true ) do |row|
-  i += 1
-
-  if i == 1
-    pp row
-  end
-
-  print '.' if i % 100 == 0
-
-  rounds[row['round']] += 1
-  legs[row['leg']]     += 1
-
-
-  teams[row['home']] += 1
-  teams[row['visitor']] += 1
-
-  countries[row['hcountry']] += 1
-  countries[row['vcountry']] += 1
-
-  scores[row['FT']] += 1
-
-  seasons[row['Season']] += 1
-
-  date = row['Date']
-  if date.empty? || date == 'NA'
-    puts "*** missing date in row: #{row.inspect}"
-    missing_dates << row
-  end
-end
-
-
-puts " #{i} rows"
-
-puts "#{legs.size} legs:"
-pp legs
-
-puts "#{rounds.size} rounds:"
-pp rounds
-
-puts "#{seasons.size} seasons:"
-pp seasons
-
-puts "#{scores.size} scores:"
-pp scores
-
-puts "#{missing_dates.size} missing dates:"
-pp missing_dates
-
-puts "#{countries.size} countries:"
-pp countries
-
-puts "#{teams.size} teams:"
-pp teams
-
-
-### check for unknown teams
-unknown_teams = {}
-teams.each do |team,match_count|
-    ## note: do NOT forget to check known_teams (1:1) mapping too!!!! (to avoid duplicate mappings)
-    if team_mappings[ team ] || known_teams[ team ]
-      # do nothing
-    else
-      unknown_teams[team] = match_count
-    end
-end
-
-
-puts "#{unknown_teams.size} unknown teams:"
-## pp unknown_teams
-## pp unknown_teams.to_a
-
-## sort unknown_teams by match_count
-puts "sorted by match count:"
-sorted_teams = unknown_teams.to_a.sort { |l,r| r[1] <=> l[1] }
-
-pp sorted_teams
