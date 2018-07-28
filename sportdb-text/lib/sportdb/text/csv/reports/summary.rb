@@ -3,9 +3,17 @@
 
 class CsvSummaryReport   ## change to CsvPackageSummaryReport - why? why not?
 
-def initialize( pack )
-  @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
+def initialize( pack_or_path )
+  if pack_or_path.is_a?( CsvPackage )
+    pack = pack_or_path
+    @pack = pack    # CsvPackage e.g.pack = CsvPackage.new( repo, path: path )
+  else  ## assume filepath (string)
+    path = pack_or_path
+    @pack = CsvPackage.new( path )
+    pp @pack.find_entries_by_season
+  end
 end
+
 
 def build
   buf = ''
