@@ -4,7 +4,12 @@
 class CsvMatchWriter
 
 def self.write( path, matches )
-  out = File.new( path, 'w:utf-8' )    ## fix: use utf8!!!!!!!
+
+  ## for convenience - make sure parent folders/directories exist
+  FileUtils.mkdir_p( File.dirname( path) )  unless Dir.exists?( File.dirname( path ))
+
+
+  out = File.new( path, 'w:utf-8' )
   out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
 
 

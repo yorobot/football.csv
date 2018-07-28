@@ -88,13 +88,14 @@ def convert_repo( repo, sources )
   out_repo_path = "../../footballcsv"
   ## out_repo_path = "./o"    ## for debugging / testing
 
+
   ## e.g. ../../footballcsv/be-belgium or ./o/be-belgium etc.
   out_root = "#{out_repo_path}/#{repo}"    ## for "real" updates
 
 
   sources.each do |rec|
     dirname   = rec[0]   ## note: dirname is season e.g. 2011-12 etc.
-    basenames = rec[1]
+    basenames = rec[1]   ## e.g. E1,E2,etc.
 
     basenames.each do |basename|
 
@@ -105,34 +106,43 @@ def convert_repo( repo, sources )
       if m
         year = m[1].to_i
       else
-        year = 2020
+        ## year = 2020
+        puts "missing year (season) in dir >#{dirname}<; sorry"
+        exit 1
       end
 
-      league      = get_league( repo, year, FOOTBALLDATA_LEAGUES[basename] )
+      ## build season from season_start_year e.g. 2003 => 2003-04 etc.
+      season = "%4d-%02d" % [year, (year+1)%100]
+
+      league_key = FOOTBALLDATA_LEAGUES[basename]
+      ## e.g.: eng.1, fr.1, fr.2 etc.  split into country and level
+      ## note: use level as string e.g. '1', '2'
+      league_country, league_level  = league_key.split( '.' )
+
+
+      league_basename = LeagueUtils.basename( league_level,
+                                       country: league_country,
+                                       season:  season )
 
       ## note: for de-deutschland and eng-england
       ##   use long format e.g. 2010s/2011-12 etc
-      if ['de-deutschland', 'eng-england'].include? repo
-        out_path = "#{out_root}/#{SeasonUtils.directory(dirname, format: 'long')}/#{league}.csv"
+      if ['de-deutschland', 'eng-england'].include?( repo )
+        out_path = "#{out_root}/#{SeasonUtils.directory(dirname, format: 'long')}/#{league_basename}.csv"
       else
-        out_path = "#{out_root}/#{SeasonUtils.directory(dirname)}/#{league}.csv"
+        out_path = "#{out_root}/#{SeasonUtils.directory(dirname)}/#{league_basename}.csv"
       end
 
       puts "in_path: #{in_path}, out_path: #{out_path}"
-
-      ## todo/fix: move mkdir_p to converter - why? why not?
-      ## makedirs_p for out_path
-      FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
-
       CsvMatchConverter.convert( in_path, out_path )
     end
   end
+
 
   ###################################################
   ## (auto-) add / update SUMMARY.md report
   ## (auto-) add ) update README.md pages with standings
 
-  pack = CsvPackage.new( repo, path: out_repo_path )
+  pack = CsvPackage.new( "#{out_repo_path}/#{repo}" )
 
   ### todo:
   ## use all-in-one   pack.update_reports - why? why not?
@@ -141,6 +151,6 @@ def convert_repo( repo, sources )
   summary_report.write
   ## note: write same as summary.save( "#{out_root}/SUMMARY.md" )
 
-  standings_writer = CsvStandingsWriter.new( pack )
-  standings_writer.write
+  ## standings_writer = CsvStandingsWriter.new( pack )
+  ## standings_writer.write
 end

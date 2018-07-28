@@ -2,19 +2,14 @@
 
 
 task :engsummary do |t|
-  root = './o'
-  ## root = '../../footballcsv'
+  ## root = './o'
+  root = '../../footballcsv'
 
-  pack = CsvPackage.new( 'eng-england2', path: root )
-  ## pp pack.find_entries_by_season
-
-  report = CsvSummaryReport.new( pack )
+  report = CsvSummaryReport.new( "#{root}/eng-england" )
   report.write
 end
 
 
-##
-## fix/todo: sort matches by date before saving/writing!!!!
 
 task :engsoccer do |t|
   ###
@@ -45,8 +40,8 @@ task :engsoccer do |t|
 
   matches = []
 
-  out_root = './o/eng-england2'
-  ## out_root = '../../footballcsv/eng-england'
+  ## out_root = './o/eng-england2'
+  out_root = '../../footballcsv/eng-england'
 
 
   CSV.foreach( in_path, headers: true ) do |row|
@@ -117,14 +112,17 @@ task :engsoccer do |t|
                                        country: 'eng',
                                        season:  last_season )
 
+      ## todo/fix: change directory to dirname (like FileUtils) or add alias - why? why not?
       directory = SeasonUtils.directory( last_season, format: 'long' )
       puts "write #{basename} (#{directory}) in #{out_root}"
 
       out_path = "#{out_root}/#{directory}/#{basename}.csv"
-      ## make sure parent folders exist
-      FileUtils.mkdir_p( File.dirname(out_path) )  unless Dir.exists?( File.dirname( out_path ))
 
       ##  save_season
+      ##   note:  sort matches by date before saving/writing!!!!
+      ##     note: for now assume date in string in 1999-11-30 format (allows sort by "simple" a-z)
+      matches = matches.sort { |l,r| l.date <=> r.date }
+
       CsvMatchWriter.write( out_path, matches )
 
       if last_year != year

@@ -3,39 +3,41 @@
 ## map football_data leagues to our own keys
 
 FOOTBALLDATA_LEAGUES = {
-  'E0'  => 'eng1',  # english premier league
-  'E1'  => 'eng2',  # english championship league
-  'E2'  => 'eng3',  # english league 1
-  'E3'  => 'eng4',  # english league 2
-  'EC'  => 'eng5',  # english conference
+  'E0'  => 'eng.1',  # english premier league
+  'E1'  => 'eng.2',  # english championship league
+  'E2'  => 'eng.3',  # english league 1
+  'E3'  => 'eng.4',  # english league 2
+  'EC'  => 'eng.5',  # english conference
 
-  'SP1' => 'es1',   # spanish liga 1
-  'SP2' => 'es2',   # spanish liga 2
+  'SP1' => 'es.1',   # spanish liga 1
+  'SP2' => 'es.2',   # spanish liga 2
 
-  'F1'  => 'fr1',   # french ligue 1
-  'F2'  => 'fr2',   # french ligue 2
+  'F1'  => 'fr.1',   # french ligue 1
+  'F2'  => 'fr.2',   # french ligue 2
 
-  'I1'  => 'it1',   # italian serie a
-  'I2'  => 'it2',   # italian serie b
+  'I1'  => 'it.1',   # italian serie a
+  'I2'  => 'it.2',   # italian serie b
 
-  'D1'  => 'de1',   # german bundesliga
-  'D2'  => 'de2',   # german 2. bundesliga
+  'D1'  => 'de.1',   # german bundesliga
+  'D2'  => 'de.2',   # german 2. bundesliga
 
-  'SC0' => 'sco1',  # scotish Premiership  # starting w/ 2013-14 season
-  'SC1' => 'sco2',  # scotish Championship
-  'SC2' => 'sco3',  # scotish League One
-  'SC3' => 'sco4',  # scotish League Two
+  'SC0' => 'sco.1',  # scotish Premiership  # starting w/ 2013-14 season
+  'SC1' => 'sco.2',  # scotish Championship
+  'SC2' => 'sco.3',  # scotish League One
+  'SC3' => 'sco.4',  # scotish League Two
 
-  'N1'  => 'nl1',   # dutch eredivisie
+  'N1'  => 'nl.1',   # dutch eredivisie
 
-  'B1'  => 'be1',   # belgian pro league
+  'B1'  => 'be.1',   # belgian pro league
 
-  'P1'  => 'pt1',   # portugese Primeira Liga
+  'P1'  => 'pt.1',   # portugese Primeira Liga
 
-  'T1'  => 'tr1',   # turkish Süper Lig
+  'T1'  => 'tr.1',   # turkish Süper Lig
 
-  'G1'  => 'gr1',   # greek Superleague
+  'G1'  => 'gr.1',   # greek Superleague
 }
+
+
 
 FOOTBALLDATA_SOURCES =
 {
