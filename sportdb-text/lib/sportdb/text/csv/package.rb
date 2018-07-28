@@ -6,10 +6,17 @@ class CsvPackage
 
   attr_reader :name, :path
 
-  def initialize( name, path: "." )
-     @name  = name
-     @path  = "#{path}/#{name}"
+  def initialize( path )
+
+     @name = File.basename( path )
+
+     ## e.g convert eng-england  to ./eng-england
+     ##   always add ./ to path if empty (not specified) - why? why not?
+
+     dirname  = File.dirname( path )   ## note: returns ./ if name is without dirs e.g. eng-england etc.
+     @path = "#{dirname}/#{@name}"   # note: should be the same as name - use name itself!!! - why? why not
   end
+
 
   def expand_path( name )
     File.expand_path( name, @path )

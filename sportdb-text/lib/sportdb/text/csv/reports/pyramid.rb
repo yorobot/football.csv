@@ -42,10 +42,11 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
 
 
    class LevelLine
-     attr_reader  :seasons, :teams     ## add :name - why? why not?
+     attr_reader  :name, :seasons, :teams     ## add :name - why? why not?
 
      def initialize( name )
-       @name     = name
+       @name     = name.to_s  ## (auto-)convert to string (better always pass-in a string!!!)
+
        @seasons  = {}   ## count for now all datafiles for season
                         ##   note: allow multiple datafiles per season
        @teams    = {}   ## count for now all seasons of teams
@@ -60,65 +61,6 @@ class CsvPyramidReport    ## change to CsvTeamsUpDown/Diff/Level/Report - why? w
          @teams[ team ] ||= []
          @teams[ team ] << season   unless @teams[ team ].include?( season )
      end
-
-
-     def build    ## use build_summary (in string buffer for reporting)
-       season_keys = @seasons.keys
-       team_keys   = @teams.keys
-
-       buf = ''
-       buf << "level #{@name}\n"
-
-       buf << "- #{season_keys.size} seasons: "
-       ## sort season_keys - why? why not?
-       season_keys.sort.reverse.each do |season_key|
-         datafiles = @seasons[season_key]
-         buf << "#{season_key} "
-         buf << " (#{datafiles.size}) "    if datafiles.size > 1
-       end
-       buf << "\n"
-
-       buf << "- #{team_keys.size} teams: "
-       team_keys.sort.each do |team_key|
-         team_seasons = @teams[team_key]
-         buf << "#{team_key} (#{team_seasons.size}) "
-       end
-       buf << "\n"
-
-       ## add teams grouped by seasons count e.g.:
-       ##  22 seasons:  Madrid, Barcelona
-       ##   3 seasons:   Eibar, ...
-       teams_by_seasons = {}
-       @teams.each do |team_key, team_seasons|
-         seasons_count = team_seasons.size
-         teams_by_seasons[seasons_count] ||= []
-         teams_by_seasons[seasons_count] << team_key
-       end
-
-       ## sort by key (e.g. seasons_count : integer)
-       canonical_teams = SportDb::Import.config.teams  ## was pretty_print_team_names
-
-       teams_by_seasons.keys.sort.reverse.each do |seasons_count|
-         team_names = teams_by_seasons[seasons_count]
-         buf << "  - #{seasons_count} seasons: "
-
-         ## markup teams if canonical / known / registered
-         team_names = team_names.sort.map do |team_name|
-           if canonical_teams[team_name]   ## add marker e.g. (*) for pretty print team name
-             "**#{team_name}**"    ## add (*) - why? why not?
-           else
-             "x #{team_name} (???)"
-           end
-         end
-         buf << team_names.join( ', ' )
-         buf << "\n"
-       end
-
-       buf << "\n\n"
-       buf
-     end # method build
-     alias_method :render, :build
-
    end   # class LevelLine
 
 
@@ -210,7 +152,7 @@ def build
   ## loop 1) summary
   level_keys.each do |level_key|
     level = all_levels[level_key]
-    buf << level.build
+    buf << LevelPart.new( level ).build
   end
 
 

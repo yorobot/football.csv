@@ -45,6 +45,7 @@ require 'sportdb/text/csv/reports/pyramid.rb'
 
 require 'sportdb/text/csv/reports/part_teams_by_city.rb'
 require 'sportdb/text/csv/reports/part_team_mappings.rb'
+require 'sportdb/text/csv/reports/part_level.rb'
 
 
 
