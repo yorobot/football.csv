@@ -125,9 +125,9 @@ def build
   end
 
 
-  pp all_seasons
-  pp all_teams
-  pp all_levels
+  ## pp all_seasons
+  ## pp all_teams
+  ## pp all_levels
 
 
   ##########################
@@ -135,22 +135,23 @@ def build
 
   buf = ''
 
-  season_keys   = all_seasons.keys
-  level_keys    = all_levels.keys
-  team_keys     = all_teams.keys
-  datafile_keys = all_datafiles.keys
 
-  buf << "#{season_keys.size} seasons, "
-  buf << "#{level_keys.size} levels (#{level_keys.join(' ')}), "
-  buf << "#{team_keys.size} teams "
-  buf << "in #{datafile_keys.size} datafiles"
+  ## season_keys   = all_seasons.keys
+  ## level_keys    = all_levels.keys
+  ## team_keys     = all_teams.keys
+  ## datafile_keys = all_datafiles.keys
+
+  buf << "#{all_seasons.keys.size} seasons, "
+  buf << "#{all_levels.keys.size} levels (#{all_levels.keys.join(' ')}), "
+  buf << "#{all_teams.keys.size} teams "
+  buf << "in #{all_datafiles.keys.size} datafiles"
   buf << "\n\n"
 
   ## todo: add no of datafiles  (and no of matches too??)
 
 
   ## loop 1) summary
-  level_keys.each do |level_key|
+  all_levels.keys.each do |level_key|
     level = all_levels[level_key]
     buf << LevelPart.new( level ).build
   end
@@ -170,7 +171,10 @@ def build
 
 
   ## loop 2) datafile summary by level
-  level_keys.each do |level_key|
+
+  ## todo/fix: move to (Pyramid) DatafilesByLevelPart
+
+  all_levels.keys.each do |level_key|
     level = all_levels[level_key]
 
     season_keys = level.seasons.keys
@@ -179,29 +183,36 @@ def build
     season_keys.sort.reverse.each do |season_key|
       datafiles = level.seasons[season_key]
 
+      ## add header for multiple datafiles
       if datafiles.size > 1
-         ### fix!!!!!
-         ###
-         buf << "   - todo/fix more than one dafile per season!!!"
-      else
-         datafile  = datafiles[0]
-         matchlist = all_datafiles[ datafile ]  ## work with first datafile only for now
+        buf << "- "
+        datafiles.each_with_index do |datafile,i|
+           buf << ", "  if i > 0
+           buf << "[`#{datafile}`](#{datafile})"
+        end
+        buf << " (#{datafiles.size})\n"
+      end
 
-         buf << "- [`#{datafile}`](#{datafile}) => "
-         buf << " #{matchlist.teams.size} teams, "
-         buf << " #{matchlist.matches.size} matches, "
-         buf << " #{matchlist.goals} goals, "
-         if matchlist.rounds?
-           buf << " #{matchlist.rounds} rounds, "
-         else
-           buf << " **WARN - unbalanced rounds - fix/double check?!**"
-         end
-         if matchlist.start_date? && matchlist.end_date?  ## note: start_date/end_date might be optional/missing
-           buf << " #{matchlist.start_date.strftime( '%a %d %b %Y' )} - #{matchlist.end_date.strftime( '%a %d %b %Y' )}"
-         else
-           buf << "**WARN - start: ???, end: ???**"
-         end
-         buf << "\n"
+      datafiles.each do |datafile|
+          buf << "   " if datafiles.size > 1   ## extra ident if multiple datafiles
+
+          matchlist = all_datafiles[ datafile ]  ## work with first datafile only for now
+
+          buf << "- [`#{datafile}`](#{datafile}) => "
+          buf << " #{matchlist.teams.size} teams, "
+          buf << " #{matchlist.matches.size} matches, "
+          buf << " #{matchlist.goals} goals, "
+          if matchlist.rounds?
+            buf << " #{matchlist.rounds} rounds, "
+          else
+            buf << " **WARN - unbalanced rounds - fix/double check?!**"
+          end
+          if matchlist.start_date? && matchlist.end_date?  ## note: start_date/end_date might be optional/missing
+            buf << " #{matchlist.start_date.strftime( '%a %d %b %Y' )} - #{matchlist.end_date.strftime( '%a %d %b %Y' )}"
+          else
+            buf << "**WARN - start: ???, end: ???**"
+          end
+          buf << "\n"
       end
     end
     buf << "\n\n"
@@ -209,14 +220,30 @@ def build
 
 
 
+
+
   ## loop 3) season details
-  season_keys.each do |season_key|
+
+  ## todo/fix: move to (Pyramid) DatafilesBySeasonPart
+
+  ## debug (short) loop
+  ## all_seasons.keys.each do |season_key|
+  ##   season = all_seasons[season_key]
+  ##   buf << "#{season_key} - #{season.levels.size} levels (#{season.levels.keys.join(' ')})"
+  ##   buf << "\n"
+  ## end
+  ## buf << "\n\n"
+
+
+  ## full loop
+  all_seasons.keys.each do |season_key|
     prev_season_key = SeasonUtils.prev( season_key )
 
     season          = all_seasons[season_key]
     prev_season     = all_seasons[prev_season_key]
     ## season holds datafiles (grouped) by level
 
+    buf << "\n\n"
     buf << "#{season_key} - #{season.levels.size} levels (#{season.levels.keys.join(' ')})"
     buf << "\n"
 
@@ -224,29 +251,71 @@ def build
       buf << "  - #{level_key}:"
       datafiles = season.levels[level_key]
 
-      ####
-      ####  fix:
-      ####   loop over datafiles (might be more than one!!)
-
-      buf << " [`#{datafiles[0]}`](#{datafiles[0]}) - "
-
-      ## find matchlist by datafile name
-      matchlist = all_datafiles[ datafiles[0] ]  ## work with first datafile only for now
-      buf << " #{matchlist.teams.size} teams, "
-      buf << " #{matchlist.matches.size} matches, "
-      buf << " #{matchlist.goals} goals, "
-      buf << " #{matchlist.rounds} rounds, "    if matchlist.rounds?
-      if matchlist.start_date? && matchlist.end_date?
-        buf << " #{matchlist.start_date.strftime( '%a %-d %b %Y' )} - #{matchlist.end_date.strftime( '%a %-d %b %Y' )}"
-      else
-        buf << " start: ???, end: ???"
+      ## add header for multiple datafiles
+      if datafiles.size > 1
+        buf << " "
+        datafiles.each_with_index do |datafile,i|
+           buf << ", "  if i > 0
+           buf << "[`#{datafile}`](#{datafile})"
+        end
+        buf << " (#{datafiles.size})\n"
       end
-      buf << "\n"
 
-      if matchlist.rounds?
-        buf << "    - #{matchlist.teams.join(', ')}"
+      datafiles.each_with_index do |datafile,i|
+        buf << "    -" if datafiles.size > 1   ## extra list item and ident if multiple datafiles
+
+        buf << " [`#{datafile}`](#{datafile}) - "
+
+        ## find matchlist by datafile name
+        matchlist = all_datafiles[ datafile ]
+        buf << " #{matchlist.teams.size} teams, "
+        buf << " #{matchlist.matches.size} matches, "
+        buf << " #{matchlist.goals} goals, "
+        buf << " #{matchlist.rounds} rounds, "    if matchlist.rounds?
+        if matchlist.start_date? && matchlist.end_date?
+          buf << " #{matchlist.start_date.strftime( '%a %-d %b %Y' )} - #{matchlist.end_date.strftime( '%a %-d %b %Y' )}"
+        else
+          buf << " start: ???, end: ???"
+        end
         buf << "\n"
-      else
+
+        buf << "  "  if datafiles.size > 1   ## add extra ident if multiple datafiles
+        if matchlist.rounds?
+          buf << "    - #{matchlist.teams.join(', ')}"
+          buf << "\n"
+        else
+          buf << "    - **unbalanced rounds - add teams with matches played here**"
+          buf << "\n"
+        end
+
+
+        ## find previous/last season if available for diff
+        ## fix/todo: only works for single datafiles for now!!!
+        ##   make more "generic" - how???
+        if prev_season
+          prev_datafiles = prev_season.levels[level_key]
+          if prev_datafiles && datafiles.size == 1      ## note: level might be missing in prev season!!
+            ## buf << "    - diff #{season_key} <=> #{prev_season_key}:\n"
+            prev_matchlist = all_datafiles[ prev_datafiles[0] ]  ## work with first datafile only for now
+
+            diff_plus   = (matchlist.teams - prev_matchlist.teams).sort
+            diff_minus  = (prev_matchlist.teams -  matchlist.teams).sort
+
+            buf << "      - (++) new in season #{season_key}: "
+            buf << "(#{diff_plus.size}) #{diff_plus.join(', ')}\n"
+
+            buf << "      - (--) out "
+            if level_key == 1    ## todo: check level_key is string or int?
+              buf << "down: "
+            else
+              buf << "up/down: "   ## assume up/down for all other levels in pyramid
+            end
+            buf << "(#{diff_minus.size}) #{diff_minus.join(', ')}\n"
+            buf << "\n"
+          end
+        end
+      end  # each datafile
+
         ## todo/fix: print teams with match played
 =begin
 team_usage_hash = build_team_usage_in_matches_txt( matches )
@@ -266,7 +335,7 @@ team_usage.each do |rec|
 end
 buf_details << "\n"
 =end
-      end
+
 
       ## todo/fix:
       ##    add unknown (missing canonical mapping) teams!!!!
@@ -290,35 +359,17 @@ end
 =end
 
 
-      ## find previous/last season if available for diff
-      if prev_season
-        prev_datafiles = prev_season.levels[level_key]
-        if prev_datafiles  ## note: level might be missing in prev season!!
-          ## buf << "    - diff #{season_key} <=> #{prev_season_key}:\n"
-          prev_matchlist = all_datafiles[ prev_datafiles[0] ]  ## work with first datafile only for now
-
-          diff_plus   = (matchlist.teams - prev_matchlist.teams).sort
-          diff_minus  = (prev_matchlist.teams -  matchlist.teams).sort
-
-          buf << "      - (++) new in season #{season_key}: "
-          buf << "(#{diff_plus.size}) #{diff_plus.join(', ')}\n"
-
-          buf << "      - (--) out "
-          if level_key == 1    ## todo: check level_key is string or int?
-            buf << "down: "
-          else
-            buf << "up/down: "   ## assume up/down for all other levels in pyramid
-          end
-          buf << "(#{diff_minus.size}) #{diff_minus.join(', ')}\n"
-          buf << "\n"
-        end
-      end
-    end
-  end
+    end  # each level
+  end  # each season
   buf << "\n\n"
+
+
+  # puts "[debug] all_seasons:"
+  # pp all_seasons
 
   buf
 end # method build
+
 alias_method :render, :build
 
 
