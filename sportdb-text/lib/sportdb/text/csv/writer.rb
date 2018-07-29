@@ -13,6 +13,9 @@ def self.write( path, matches, format: 'classic' )
 
   if format == 'mls'
     out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,Conf 1,Conf 2,ET,P\n"  # add headers
+  elsif format == 'champs'
+    ## add country1 and country2 to team name - why? why not?
+    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,ET,P,Country 1,Country 2\n"  # add headers
   else   ## default to classic headers
     out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
   end
@@ -30,7 +33,7 @@ def self.write( path, matches, format: 'classic' )
 
     values = []
 
-    if format == 'mls'
+    if ['mls', 'champs'].include?( format )
       values << match.stage
     end
 
@@ -40,7 +43,7 @@ def self.write( path, matches, format: 'classic' )
       values << "?"   ## match round missing - fix - add!!!!
     end
 
-    if format == 'mls'
+    if ['mls', 'champs'].include?( format )
       ## note: use - for undefined/nil/not applicable (n/a)
       ##       use ? for unknown
       values << (match.leg ? match.leg : '')
@@ -93,7 +96,9 @@ def self.write( path, matches, format: 'classic' )
     if format == 'mls'
       values << match.conf1
       values << match.conf2
+    end
 
+    if ['mls', 'champs'].include?( format )
       if match.score1et && match.score2et
         values << "#{match.score1et}-#{match.score2et} (a.e.t.)"
       else
@@ -107,6 +112,10 @@ def self.write( path, matches, format: 'classic' )
       end
     end
 
+    if format == 'champs'
+      values << match.country1
+      values << match.country2
+    end
 
     out << values.join( ',' )
     out << "\n"

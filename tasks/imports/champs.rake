@@ -1,34 +1,34 @@
 
 
 
-def write_mls_season( root:, year:, matches: )
+def write_champs_season( root:, season:, matches: )
 
   ## convert to season as string e.g. .
-  basename = "1-mls"
+  basename = "champs"
 
   ## todo/fix: change directory to dirname (like FileUtils) or add alias - why? why not?
-  dirname = "#{year}"
+  dirname = "#{season}"
   puts "write #{basename} (#{dirname}) in #{root}"
 
   path = "#{root}/#{dirname}/#{basename}.csv"
 
-  CsvMatchWriter.write( path, matches, format: 'mls' )
+  CsvMatchWriter.write( path, matches, format: 'champs' )
 end
 
 
 
-task :mlssummary do |t|
+task :champssummary do |t|
   ## root = './o'
   root = '../../footballcsv'
 
-  report = CsvSummaryReport.new( "#{root}/major-league-soccer" )
+  report = CsvSummaryReport.new( "#{root}/europe-champions-league" )
   report.write
 end
 
 
-task :mls do |t|
+task :champs do |t|
 
-  in_path = './dl/engsoccerdata/data-raw/mls.csv'
+  in_path = './dl/engsoccerdata/data-raw/champs.csv'
 
   i = 0
   CSV.foreach( in_path, headers: true ) do |row|
@@ -45,8 +45,8 @@ task :mls do |t|
 
   matches = []
 
-  ## out_root = './o/major-league-soccer'
-  out_root = '../../footballcsv/major-league-soccer'
+  ## out_root = './o/europe-champions-league'
+  out_root = '../../footballcsv/europe-champions-league'
 
 
   CSV.foreach( in_path, headers: true ) do |row|
@@ -85,64 +85,100 @@ task :mls do |t|
 
 
     ft     = row['FT']
-    ## note: for now round, and ht (half-time) results are always missing
-
     ## todo/fix: check format with regex !!!
     score = ft.split('-')   ## todo/check - only working if always has score?!
     score1 = score[0].to_i
     score2 = score[1].to_i
 
+    ht     = row['HT']
+    ## todo/fix: check format with regex !!!
+    score = ht.split('-')   ## todo/check - only working if always has score?!
+    score1i = score[0].to_i
+    score2i = score[1].to_i
 
-   ####
-   #  5 rounds:
-   # {"regular"=>4703, "conf_semi"=>181,  "conf_final"=>74, "mls_final"=>21, "play_in"=>16}
+
+=begin
+   33 rounds:
+   {"Round1"=>1091,
+    "QF"=>470,
+    "SF"=>237,
+    "final"=>62,
+    "R16"=>768,
+    "PrelimF"=>28,
+    "1"=>30,
+    "Round2"=>48,
+    "GroupB"=>252,
+    "GroupA"=>252,
+    "prelim"=>68,
+    "GroupD"=>216,
+    "GroupC"=>216,
+    "Q-1"=>318,
+    "Q-2"=>582,
+    "GroupF"=>180,
+    "GroupE"=>180,
+    "Q-3"=>528,
+    "GroupB-prelim"=>48,
+    "GroupA-prelim"=>48,
+    "GroupC-prelim"=>48,
+    "GroupD-prelim"=>48,
+    "GroupH-prelim"=>48,
+    "GroupF-prelim"=>48,
+    "GroupE-prelim"=>48,
+    "GroupG-prelim"=>48,
+    "GroupB-inter"=>48,
+    "GroupA-inter"=>48,
+    "GroupC-inter"=>48,
+    "GroupD-inter"=>48,
+    "GroupH"=>156,
+    "GroupG"=>156,
+    "Q-PO"=>140}
+=end
 
    ## note: use '?' for undefined / unknown / missing (required) value
    ##        use nil or '-' for n/a (not/applicable)
 
     round_str    = row['round']
 
-    if round_str == 'regular'
-      stage = 'Regular'    ## or (s) season / regular season - why? why not?
-      round = '?'
-    else
-      stage = 'Playoff'     ## or (p) playoffs / post season   - why? why not?
-      round = round_str
+    stage = '?'
+    round = round_str
 
-      round = 'Conf. Knockout'   if round == 'play_in'
-      round = 'Conf. Semifinals' if round == 'conf_semi'
-      round = 'Conf. Finals'     if round == 'conf_final'
-      round = 'Final'            if round == 'mls_final'    ## use Cup Final or Finals - why? why not?
-    end
+####
+#  6 legs:
+#  { "NA"=>62,
+#    "1"=>2137, "2"=>2136,
+#    "replay"=>34, "initial"=>1,
+#    "groups"=>2184}
 
-    #####
-    #  4 legs:
-    # {"NA"=>4758, "1"=>108, "2"=>108, "3"=>21}
     leg         = row['leg']
     leg = nil   if leg.empty? || leg == 'NA'
 
 
-    conf1  = row['hconf']
-    conf2  = row['vconf']
+    country1  = row['hcountry']
+    country2  = row['vcountry']
 
 
     ### todo/fix: warn
     ##   if a.e.t present   full time (ft) should be a tie/draw e.g. 2-2 not 1-2 or something!!!
     ##   note: check for leg with aggregate score!!!!
 
-    et1 = row['hgoalaet']
+    et1 = row['aethgoal']
     if et1.empty? || et1 == 'NA'
       score1et = nil
     else
       score1et = et1.to_i
     end
 
-    et2 = row['vgoalaet']
+    et2 = row['aetvgoal']
     if et2.empty? || et2 == 'NA'
       score2et = nil
     else
       score2et = et2.to_i
     end
+
+
+=begin
+    ## check - fix penalties (pens)
+
 
     ### todo/fix: warn
     ##   if pen(alty) present   a.e.t. should be a tie/draw e.g. 2-2 not 1-2 or something!!!
@@ -162,21 +198,18 @@ task :mls do |t|
     else
       score2p = p2.to_i
     end
-
-
-    ##  for debugging - stop after 1894
-    ## if year >= 1894
-    ##  exit
-    ## end
+=end
 
 
     if last_year > 0  &&  (last_year != year)
       ## processs
       ##  note: convert season to string
 
-      write_mls_season( root:    out_root,
-                        year:    last_year,
-                        matches: matches )
+      last_season = "%4d-%02d" % [last_year,(last_year+1)%100]
+
+      write_champs_season( root:    out_root,
+                           season:  last_season,
+                           matches: matches )
 
       if last_year != year
         puts "[debug] begin new season #{year}"
@@ -189,22 +222,26 @@ task :mls do |t|
       date:     date,
       team1:    team1,    team2:    team2,
       score1:   score1,   score2:   score2,
+      score1i:  score1i,  score2i:  score2i,
       score1et: score1et, score2et: score2et,
-      score1p:  score1p,  score2p:  score2p,
+      ## score1p:  score1p,  score2p:  score2p,
       round:  round,
       stage:  stage,
       leg:    leg,
-      conf1:  conf1,      conf2:  conf2
+      country1:  country1,      country2:  country2
     )
     matches << match
 
     last_year      = year
   end
 
+
   ## save last season (too)
-  write_mls_season( root:    out_root,
-                    year:    last_year,
-                    matches: matches )
+  last_season = "%4d-%02d" % [last_year,(last_year+1)%100]  ## e.g. 2011-12 or 1999-00
+
+  write_champs_season( root:    out_root,
+                       season:  last_season,
+                       matches: matches )
 
   puts "done"
 end

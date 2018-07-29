@@ -18,7 +18,8 @@ class Match
               :round,     ## todo/fix:  use round_num or similar - for compat with db activerecord version? why? why not?
               :leg,      ## e.g. 1,2,3 etc.   - use leg for marking **replay** too - keep/make leg numeric?! - why? why not?
               :stage,
-              :conf1,    :conf2      ## special case for mls e.g. conference1, conference2 (e.g. west, east, central)
+              :conf1,    :conf2,      ## special case for mls e.g. conference1, conference2 (e.g. west, east, central)
+              :country1, :country2    ## special case for champions league etc. - uses FIFA country code
 
   def initialize( **kwargs )
     update( kwargs )  unless kwargs.empty?
@@ -31,11 +32,13 @@ class Match
 
   def update( **kwargs )
     ## note: check with has_key?  because value might be nil!!!
-    @date    = kwargs[:date]     if kwargs.has_key? :date
-    @team1   = kwargs[:team1]    if kwargs.has_key? :team1
-    @team2   = kwargs[:team2]    if kwargs.has_key? :team2
-    @conf1   = kwargs[:conf1]    if kwargs.has_key? :conf1
-    @conf2   = kwargs[:conf2]    if kwargs.has_key? :conf2
+    @date     = kwargs[:date]     if kwargs.has_key? :date
+    @team1    = kwargs[:team1]    if kwargs.has_key? :team1
+    @team2    = kwargs[:team2]    if kwargs.has_key? :team2
+    @conf1    = kwargs[:conf1]    if kwargs.has_key? :conf1
+    @conf2    = kwargs[:conf2]    if kwargs.has_key? :conf2
+    @country1 = kwargs[:country1]  if kwargs.has_key? :country1
+    @country2 = kwargs[:country2]  if kwargs.has_key? :country2
 
     ## note: round is a string!!!  e.g. '1', '2' for matchday or 'Final', 'Semi-final', etc.
     ##   todo: use to_s - why? why not?
