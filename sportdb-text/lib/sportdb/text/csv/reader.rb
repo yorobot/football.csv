@@ -114,7 +114,7 @@ def self.read( path, headers: nil, filters: nil, col_sep: ',' )
        date = nil
     else
       ## remove possible weekday or weeknumber  e.g. (Fri) (4) etc.
-      col = col.sub( /\(\d+\)/, '' )  ## e.g. (4), (21) etc.
+      col = col.sub( /\(W?\d{1,2}\)/, '' )  ## e.g. (W11), (4), (21) etc.
       col = col.sub( /\(\w+\)/, '' )  ## e.g. (Fri), (Fr) etc.
       col = col.strip   # make sure not leading or trailing spaces left over
 

@@ -12,7 +12,7 @@ def self.write( path, matches, format: 'classic' )
   out = File.new( path, 'w:utf-8' )
 
   if format == 'mls'
-    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,Conf 1,Conf 2,ET,Pen\n"  # add headers
+    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,Conf 1,Conf 2,ET,P\n"  # add headers
   else   ## default to classic headers
     out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
   end
@@ -43,7 +43,7 @@ def self.write( path, matches, format: 'classic' )
     if format == 'mls'
       ## note: use - for undefined/nil/not applicable (n/a)
       ##       use ? for unknown
-      values << (match.leg ? match.leg : '-')
+      values << (match.leg ? match.leg : '')
     end
 
 
@@ -95,15 +95,15 @@ def self.write( path, matches, format: 'classic' )
       values << match.conf2
 
       if match.score1et && match.score2et
-        values << "#{match.score1et}-#{match.score2et}"
+        values << "#{match.score1et}-#{match.score2et} (a.e.t.)"
       else
-        values << '-'
+        values << ''
       end
 
       if match.score1p && match.score2p
-        values << "#{match.score1p}-#{match.score2p}"
+        values << "#{match.score1p}-#{match.score2p} (pen.)"
       else
-        values << '-'
+        values << ''
       end
     end
 

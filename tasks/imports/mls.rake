@@ -21,6 +21,15 @@ end
 
 
 
+task :mlssummary do |t|
+  ## root = './o'
+  root = '../../footballcsv'
+
+  report = CsvSummaryReport.new( "#{root}/major-league-soccer" )
+  report.write
+end
+
+
 task :mls do |t|
 
   in_path = './dl/engsoccerdata/data-raw/mls.csv'
@@ -92,24 +101,29 @@ task :mls do |t|
    #  5 rounds:
    # {"regular"=>4703, "conf_semi"=>181,  "conf_final"=>74, "mls_final"=>21, "play_in"=>16}
 
+   ## note: use '?' for undefined / unknown / missing (required) value
+   ##        use nil or '-' for n/a (not/applicable)
+
     round_str    = row['round']
 
     if round_str == 'regular'
-      stage = 'regular'
+      stage = 'Regular'    ## or (s) season / regular season - why? why not?
       round = '?'
     else
-      stage = 'playoff'
+      stage = 'Playoff'     ## or (p) playoffs / post season   - why? why not?
       round = round_str
 
-      round = 'final'   if round == 'mls_final'    ## change mls_final => final
+      round = 'Conf. Knockout'   if round == 'play_in'
+      round = 'Conf. Semifinals' if round == 'conf_semi'
+      round = 'Conf. Finals'     if round == 'conf_final'
+      round = 'Final'            if round == 'mls_final'    ## use Cup Final or Finals - why? why not?
     end
 
     #####
     #  4 legs:
     # {"NA"=>4758, "1"=>108, "2"=>108, "3"=>21}
     leg         = row['leg']
-    leg = nil   if leg.empty?      ## note: use '?' for undefined / unknown
-    leg = '-'   if leg == 'NA'     ##       use '-' for not/applicable
+    leg = nil   if leg.empty? || leg == 'NA'
 
 
     conf1  = row['hconf']

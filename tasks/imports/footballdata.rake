@@ -10,18 +10,20 @@
 # end
 
 
+## note: define tasks for all countries
 FOOTBALLDATA_SOURCES.each do |k,v|
   country_code    = k
   country_path    = COUNTRY_REPOS[k]
   country_sources = v
 
-  ## define tasks for all countries
-  task country_code do |t|
-    convert_repo( country_path, country_sources )
-  end
-
+  ## step 1: fetch (download) datasets
   task "get#{country_code}".to_sym do |t|
     fetch_repo( country_path, country_sources )
+  end
+
+  ## step 2: convert datasets
+  task country_code do |t|
+    convert_repo( country_path, country_sources )
   end
 end
 
