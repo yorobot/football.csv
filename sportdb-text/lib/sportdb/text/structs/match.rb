@@ -15,8 +15,10 @@ class Match
               :score1et, :score2et,  ## extra time
               :score1p,  :score2p,   ## penalty
               :winner,    # return 1,2,0   1 => team1, 2 => team2, 0 => draw/tie
-              :round     ## todo/fix:  use round_num or similar - for compat with db activerecord version? why? why not?
-
+              :round,     ## todo/fix:  use round_num or similar - for compat with db activerecord version? why? why not?
+              :leg,      ## e.g. 1,2,3 etc.   - use leg for marking **replay** too - keep/make leg numeric?! - why? why not?
+              :stage,
+              :conf1,    :conf2      ## special case for mls e.g. conference1, conference2 (e.g. west, east, central)
 
   def initialize( **kwargs )
     update( kwargs )  unless kwargs.empty?
@@ -32,11 +34,14 @@ class Match
     @date    = kwargs[:date]     if kwargs.has_key? :date
     @team1   = kwargs[:team1]    if kwargs.has_key? :team1
     @team2   = kwargs[:team2]    if kwargs.has_key? :team2
+    @conf1   = kwargs[:conf1]    if kwargs.has_key? :conf1
+    @conf2   = kwargs[:conf2]    if kwargs.has_key? :conf2
 
+    ## note: round is a string!!!  e.g. '1', '2' for matchday or 'Final', 'Semi-final', etc.
+    ##   todo: use to_s - why? why not?
     @round   = kwargs[:round]    if kwargs.has_key? :round
-    ## note: (always) (auto-)convert round num (matchday) to integers
-    @round   = @round.to_i       if @round
-
+    @stage   = kwargs[:stage]    if kwargs.has_key? :stage
+    @leg     = kwargs[:leg]      if kwargs.has_key? :leg
 
     @score1   = kwargs[:score1]    if kwargs.has_key? :score1
     @score1i  = kwargs[:score1i]   if kwargs.has_key? :score1i

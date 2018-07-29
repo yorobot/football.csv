@@ -3,14 +3,20 @@
 
 class CsvMatchWriter
 
-def self.write( path, matches )
+def self.write( path, matches, format: 'classic' )
 
   ## for convenience - make sure parent folders/directories exist
   FileUtils.mkdir_p( File.dirname( path) )  unless Dir.exists?( File.dirname( path ))
 
 
   out = File.new( path, 'w:utf-8' )
-  out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add header
+
+  if format == 'mls'
+    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,Conf 1,Conf 2,ET,Pen\n"  # add headers
+  else   ## default to classic headers
+    out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
+  end
+
 
 
   ## track match played for team
@@ -24,10 +30,20 @@ def self.write( path, matches )
 
     values = []
 
+    if format == 'mls'
+      values << match.stage
+    end
+
     if match.round     ## optional: might be nil
       values << match.round
     else
       values << "?"   ## match round missing - fix - add!!!!
+    end
+
+    if format == 'mls'
+      ## note: use - for undefined/nil/not applicable (n/a)
+      ##       use ? for unknown
+      values << (match.leg ? match.leg : '-')
     end
 
 
@@ -41,7 +57,7 @@ def self.write( path, matches )
     if match.date
       ## note: assumes string for now e.g. 2018-11-22
       date = Date.strptime( match.date, '%Y-%m-%d' )
-      values << date.strftime( '(%a) %-d %b %Y (%-W)' )   ## print weekday e.g. Fri, Sat, etc.
+      values << date.strftime( '(%a) %-d %b %Y (W%-W)' )   ## print weekday e.g. Fri, Sat, etc.
     else
       values << '?'
     end
@@ -49,7 +65,11 @@ def self.write( path, matches )
     team1_played = played[match.team1] += 1
     team2_played = played[match.team2] += 1
 
-    values << "#{match.team1} (#{team1_played})"
+
+    ## note: remove (1991-)  or (-2011) or (1899-1911) from team names for now
+    team1 = match.team1.gsub( /\([0-9\- ]+\)/, '' ).strip
+
+    values << "#{team1} (#{team1_played})"
 
     if match.score1 && match.score2
       values << match.score_str
@@ -65,7 +85,27 @@ def self.write( path, matches )
       values << '?'
     end
 
-    values << "#{match.team2} (#{team2_played})"
+    ## note: remove (1991-)  or (-2011) or (1899-1911) from team names for now
+    team2 = match.team2.gsub( /\([0-9\- ]+\)/, '' ).strip
+    values << "#{team2} (#{team2_played})"
+
+
+    if format == 'mls'
+      values << match.conf1
+      values << match.conf2
+
+      if match.score1et && match.score2et
+        values << "#{match.score1et}-#{match.score2et}"
+      else
+        values << '-'
+      end
+
+      if match.score1p && match.score2p
+        values << "#{match.score1p}-#{match.score2p}"
+      else
+        values << '-'
+      end
+    end
 
 
     out << values.join( ',' )
