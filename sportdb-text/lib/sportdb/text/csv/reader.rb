@@ -4,16 +4,22 @@
 
 class CsvMatchReader
 
+## todo/check: what name? use from_string, from_file, etc. instead of read / parse - why? why not?
 
 def self.read( path, headers: nil, filters: nil, col_sep: ',' )
+   text = File.open( path, 'r:utf-8' ).read   ## note: make sure to use (assume) utf-8
+   parse( text, headers, filters, col_sep )
+end
+
+def self.parse( text, headers: nil, filters: nil, col_sep: ',' )
 
   headers_mapping = {}
 
   csv_options = { headers: true,
-                  col_sep: col_sep,
-                  external_encoding: 'utf-8' }   ## note: always use (assume) utf8 for now
+                  col_sep: col_sep }
+                ###  external_encoding: 'utf-8' }   ## note: always use (assume) utf8 for now
 
-  csv = CSV.read( path, csv_options )
+  csv = CSV.parse( text, csv_options )
 
   pp csv
 

@@ -8,9 +8,10 @@ module SportDb
   class Country
     ## built-in countries for (quick starter) auto-add
     COUNTRIES = {    ## rename to AUTO or BUILTIN_COUNTRIES or QUICK_COUNTRIES - why? why not?
-      eng: ['England',  'ENG'],     ## title/name, code
-      fr:  ['France',   'FRA'],
-      at:  ['Austria',  'AUT'],
+      eng: ['England',     'ENG'],     ## title/name, code
+      fr:  ['France',      'FRA'],
+      at:  ['Austria',     'AUT'],
+      de:  ['Deutschland', 'DEU'],   ## use fifa code or iso?
     }
 
 def self.find( key )   ## e.g. key = 'eng' or 'de' etc.
@@ -76,7 +77,10 @@ LEAGUES = {    ## rename to AUTO or BUILTIN_LEAGUES or QUICK_LEAGUES  - why? why
   en: 'English Premier League',
   fr: 'Ligue 1',
   at: 'Österr. Bundesliga',
+  de: '1. Bundesliga',
+  'de.2': '2. Bundesliga',
 }
+
 
 ### add league
 def self.find( key )  ## e.g. key = 'en' or 'en.2' etc.
@@ -117,7 +121,14 @@ def find_teams( team_names, country: )
   team_names.each do |team_name|
     ## remove spaces too (e.g. Man City => mancity)
     ## remove dot (.) too e.g. St. Polten => stpolten
-    team_key  = team_name.downcase.gsub( /[ .]/, '' )
+    ##        amp (& too e.g. Brighton & Hove Albion FC = brightonhove...
+    ##        numbers  1. FC Kaiserslautern:
+    ## team_key  = team_name.downcase.gsub( /[0-9&. ]/, '' )
+    ## fix: reuse ascify from sportdb
+
+    ## remove all non-ascii a-z chars
+    team_key  = team_name.downcase.gsub( /[^a-z]/, '' )
+
 
     puts "add team: #{team_key}, #{team_name}:"
 

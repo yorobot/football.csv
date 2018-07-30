@@ -23,9 +23,11 @@ require_relative 'read_db'
 
 def update_matches_txt( matches_txt, season:, league:, country: )
 
-  teams_txt = find_teams_in_matches_txt( matches_txt )
+  matchlist = SportDb::Struct::Matchlist.new( matches_txt )
+  teams_txt = matchlist.teams           ## was: find_teams_in_matches_txt( matches_txt )
   puts "#{teams_txt.size} teams:"
   pp teams_txt
+
 
   ## note: assume for now team all from same country
   ##   fix!!! - english premier league has teams from wales
