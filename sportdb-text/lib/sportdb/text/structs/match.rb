@@ -18,6 +18,7 @@ class Match
               :round,     ## todo/fix:  use round_num or similar - for compat with db activerecord version? why? why not?
               :leg,      ## e.g. 1,2,3 etc.   - use leg for marking **replay** too - keep/make leg numeric?! - why? why not?
               :stage,
+              :group,
               :conf1,    :conf2,      ## special case for mls e.g. conference1, conference2 (e.g. west, east, central)
               :country1, :country2    ## special case for champions league etc. - uses FIFA country code
 
@@ -45,6 +46,8 @@ class Match
     @round   = kwargs[:round]    if kwargs.has_key? :round
     @stage   = kwargs[:stage]    if kwargs.has_key? :stage
     @leg     = kwargs[:leg]      if kwargs.has_key? :leg
+    @group   = kwargs[:group]    if kwargs.has_key? :group
+
 
     @score1   = kwargs[:score1]    if kwargs.has_key? :score1
     @score1i  = kwargs[:score1i]   if kwargs.has_key? :score1i

@@ -12,10 +12,10 @@ def self.write( path, matches, format: 'classic' )
   out = File.new( path, 'w:utf-8' )
 
   if format == 'mls'
-    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,Conf 1,Conf 2,ET,P\n"  # add headers
+    out <<  "Stage,Round,Leg,Conf 1,Conf 2,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
   elsif format == 'champs'
     ## add country1 and country2 to team name - why? why not?
-    out <<  "Stage,Round,Leg,Date,Team 1,FT,HT,Team 2,ET,P,Country 1,Country 2\n"  # add headers
+    out <<  "Stage,Round,Leg,Group,Date,Team 1,FT,HT,Team 2,ET,P,Country 1,Country 2\n"  # add headers
   else   ## default to classic headers
     out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
   end
@@ -47,6 +47,16 @@ def self.write( path, matches, format: 'classic' )
       ## note: use - for undefined/nil/not applicable (n/a)
       ##       use ? for unknown
       values << (match.leg ? match.leg : '')
+    end
+
+
+    if format == 'mls'
+      values << match.conf1
+      values << match.conf2
+    end
+
+    if format == 'champs'
+      values << (match.group ? match.group : '')
     end
 
 
@@ -92,11 +102,6 @@ def self.write( path, matches, format: 'classic' )
     team2 = match.team2.gsub( /\([0-9\- ]+\)/, '' ).strip
     values << "#{team2} (#{team2_played})"
 
-
-    if format == 'mls'
-      values << match.conf1
-      values << match.conf2
-    end
 
     if ['mls', 'champs'].include?( format )
       if match.score1et && match.score2et

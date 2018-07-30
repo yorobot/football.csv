@@ -134,56 +134,6 @@ def score_equal?( col, col1, col2 )
 end
 
 
-
-
-round_mapping = {
-  ##  map round to => round / stage / group
-
- "PrelimF" => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 28,
- "prelim"  => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 68,
-
- "1"      => ['Round 1'],       # 30
- "Round1" => ['Round 1'],       # 1091   ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
- "Round2" => ['Round 2'],       # 48     ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
-
- "Q-1"  => ['Qualifying Round 1', 'Qualifying'], # =>318,
- "Q-2"  => ['Qualifying Round 2', 'Qualifying'], # =>582,
- "Q-3"  => ['Qualifying Round 3', 'Qualifying'], # =>528,
- "Q-PO" => ['Playoff Round',      'Qualifying'], # =>140 -- use own playoff stage - why? why not?
-
- "GroupA"  => ['Matchday ?',  'Group', 'A'],
- "GroupB"  => ['Matchday ?',  'Group', 'B'],
- "GroupC"  => ['Matchday ?',  'Group', 'C'],
- "GroupD"  => ['Matchday ?',  'Group', 'D'],
- "GroupE"  => ['Matchday ?',  'Group', 'E'],
- "GroupF"  => ['Matchday ?',  'Group', 'F'],
- "GroupG"  => ['Matchday ?',  'Group', 'G'],
- "GroupH"  => ['Matchday ?',  'Group', 'H'],
-
-  ## 1st Group Stage
- "GroupA-prelim"  => ['Matchday ?', 'Group 1st', '1/A'],  ## 48 - use just A for group - why? why not?
- "GroupB-prelim"  => ['Matchday ?', 'Group 1st', '1/B'],  ## 48
- "GroupC-prelim"  => ['Matchday ?', 'Group 1st', '1/C'],  ## 48
- "GroupD-prelim"  => ['Matchday ?', 'Group 1st', '1/D'],  ## 48
- "GroupE-prelim"  => ['Matchday ?', 'Group 1st', '1/E'],  ## 48
- "GroupF-prelim"  => ['Matchday ?', 'Group 1st', '1/F'],  ## 48
- "GroupG-prelim"  => ['Matchday ?', 'Group 1st', '1/G'],  ## 48
- "GroupH-prelim"  => ['Matchday ?', 'Group 1st', '1/H'],  ## 48
-  ## 2nd Group Stage
- "GroupA-inter"   => ['Matchday ?', 'Group 2nd', '2/A'],  ## 48 - use just A for group - why? why not?
- "GroupB-inter"   => ['Matchday ?', 'Group 2nd', '2/B'],  ## 48
- "GroupC-inter"   => ['Matchday ?', 'Group 2nd', '2/C'],  ## 48
- "GroupD-inter"   => ['Matchday ?', 'Group 2nd', '2/D'],  ## 48
-
-  ## Use Knockout Stage if Champions league (starting in 1992/3 season)
- "R16"    => ['Round of 16',   ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>768,
- "QF"     => ['Quarterfinals', ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>470,
- "SF"     => ['Semifinals',    ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>237,
- "final"  => ['Final',         ->(year) { year >= 1992 ? 'Knockout' : '' }],   # =>62,
-}
-
-
-
 values = {}
 
 last_year = nil
@@ -291,48 +241,7 @@ CSV.foreach( path, headers: true ) do |row|
 =end
 
   year       = row['Season'].strip.to_i
-  round_str  = row['round'].strip
 
-
-  r = round_mapping[ round_str ]
-  if r.nil?
-    puts "*** missing round mapping >#{round_str}<"
-    exit 1
-  end
-
-  round = r[0]
-
-  if r[1].is_a?( Proc )
-     stage = r[1].call( year )
-  else
-     stage = r[1]  ## note: defaults to nil if not present
-  end
-
-  group = r[2]   ## note: defaults to nil if not present
-
-
-  leg_str = row['leg'].strip
-
-  if leg_str.empty? || leg_str == 'NA'
-    leg = nil
-  elsif leg_str == 'groups' || leg_str == 'initial'
-    leg = nil
-  elsif leg_str == 'replay'
-    leg = 'Replay'    ## move to its own column or use its own replay round ??
-  else
-    leg = leg_str
-  end
-
-
-  pens_str = row['pens'].strip
-  if pens_str.empty? || pens_str == 'NA'
-    pen = nil
-  elsif pens_str =~ /^\d{1,2}-\d{1,2}$/   ## e.g. 10-11, 5-4, etc.
-    pen = pens_str
-  else
-    puts "*** warn/todo/fix: handle penalties >#{pens_str}<"
-    pen = nil
-  end
 
 =begin
 {"1"       => 2137,
@@ -345,6 +254,7 @@ CSV.foreach( path, headers: true ) do |row|
 
 
 =begin
+columns:
 "aet","pens",
 "hgoal","vgoal",
 "FTagg_home","FTagg_visitor",

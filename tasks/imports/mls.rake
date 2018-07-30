@@ -67,16 +67,16 @@ task :mls do |t|
     #      1,"regular",NA,NA,NA,NA,NA
 
 
-    date   = row['Date']
+    date   = row['Date'].strip
 
     ## date is NA? - set to -  for not known
     date = nil    if date.empty? || date == 'NA'
 
 
-    year   = row['Season'].to_i    ## note: it's always the season start year (only)
+    year   = row['Season'].strip.to_i    ## note: it's always the season start year (only)
 
-    team1  = row['home']
-    team2  = row['visitor']
+    team1  = row['home'].strip
+    team2  = row['visitor'].strip
 
     ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
     team_mappings = SportDb::Import.config.team_mappings
@@ -84,7 +84,7 @@ task :mls do |t|
     team2 = team_mappings[ team2 ]   if team_mappings[ team2 ]
 
 
-    ft     = row['FT']
+    ft     = row['FT'].strip
     ## note: for now round, and ht (half-time) results are always missing
 
     ## todo/fix: check format with regex !!!
@@ -100,7 +100,7 @@ task :mls do |t|
    ## note: use '?' for undefined / unknown / missing (required) value
    ##        use nil or '-' for n/a (not/applicable)
 
-    round_str    = row['round']
+    round_str    = row['round'].strip
 
     if round_str == 'regular'
       stage = 'Regular'    ## or (s) season / regular season - why? why not?
@@ -118,26 +118,26 @@ task :mls do |t|
     #####
     #  4 legs:
     # {"NA"=>4758, "1"=>108, "2"=>108, "3"=>21}
-    leg         = row['leg']
+    leg         = row['leg'].strip
     leg = nil   if leg.empty? || leg == 'NA'
 
 
-    conf1  = row['hconf']
-    conf2  = row['vconf']
+    conf1  = row['hconf'].strip
+    conf2  = row['vconf'].strip
 
 
     ### todo/fix: warn
     ##   if a.e.t present   full time (ft) should be a tie/draw e.g. 2-2 not 1-2 or something!!!
     ##   note: check for leg with aggregate score!!!!
 
-    et1 = row['hgoalaet']
+    et1 = row['hgoalaet'].strip
     if et1.empty? || et1 == 'NA'
       score1et = nil
     else
       score1et = et1.to_i
     end
 
-    et2 = row['vgoalaet']
+    et2 = row['vgoalaet'].strip
     if et2.empty? || et2 == 'NA'
       score2et = nil
     else
@@ -149,14 +149,14 @@ task :mls do |t|
     ##   note: check for leg with aggregate score!!!!
     ##   if leg != 1  score might be not tied/drawn (but aggregate score is)
 
-    p1 = row['hpen']
+    p1 = row['hpen'].strip
     if p1.empty? || p1 == 'NA'
       score1p = nil
     else
       score1p = p1.to_i
     end
 
-    p2 = row['vpen']
+    p2 = row['vpen'].strip
     if p2.empty? || p2 == 'NA'
       score2p = nil
     else

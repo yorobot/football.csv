@@ -12,6 +12,19 @@ def write_champs_season( root:, season:, matches: )
 
   path = "#{root}/#{dirname}/#{basename}.csv"
 
+
+  ###
+  ## todo: (stable??) sort by
+  #    1) date and
+  #    2) group if present (e.g. A,B,C, etc.)
+
+  matches = matches.sort do |l,r|
+    res = l.date <=> r.date
+    res = l.group <=> r.group  if res == 0 && l.group && r.group
+    res
+  end
+
+
   CsvMatchWriter.write( path, matches, format: 'champs' )
 end
 
@@ -39,16 +52,62 @@ task :champs do |t|
 
 
 
-  i = 0
-
-  last_year     = 0        ## e.g.  1996, 1997, etc.
-
-  matches = []
 
   ## out_root = './o/europe-champions-league'
   out_root = '../../footballcsv/europe-champions-league'
 
 
+round_mapping = {
+  ##  map round to => round / stage / group
+
+ "PrelimF" => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 28,
+ "prelim"  => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 68,
+
+ "1"      => ['Round 1'],       # 30
+ "Round1" => ['Round 1'],       # 1091   ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
+ "Round2" => ['Round 2'],       # 48     ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
+
+ "Q-1"  => ['Qualifying Round 1', 'Qualifying'], # =>318,
+ "Q-2"  => ['Qualifying Round 2', 'Qualifying'], # =>582,
+ "Q-3"  => ['Qualifying Round 3', 'Qualifying'], # =>528,
+ "Q-PO" => ['Playoff Round',      'Qualifying'], # =>140 -- use own playoff stage - why? why not?
+
+ "GroupA"  => ['Matchday ?',  'Group', 'A'],
+ "GroupB"  => ['Matchday ?',  'Group', 'B'],
+ "GroupC"  => ['Matchday ?',  'Group', 'C'],
+ "GroupD"  => ['Matchday ?',  'Group', 'D'],
+ "GroupE"  => ['Matchday ?',  'Group', 'E'],
+ "GroupF"  => ['Matchday ?',  'Group', 'F'],
+ "GroupG"  => ['Matchday ?',  'Group', 'G'],
+ "GroupH"  => ['Matchday ?',  'Group', 'H'],
+
+  ## 1st Group Stage
+ "GroupA-prelim"  => ['Matchday ?', 'Group 1st', '1/A'],  ## 48 - use just A for group - why? why not?
+ "GroupB-prelim"  => ['Matchday ?', 'Group 1st', '1/B'],  ## 48
+ "GroupC-prelim"  => ['Matchday ?', 'Group 1st', '1/C'],  ## 48
+ "GroupD-prelim"  => ['Matchday ?', 'Group 1st', '1/D'],  ## 48
+ "GroupE-prelim"  => ['Matchday ?', 'Group 1st', '1/E'],  ## 48
+ "GroupF-prelim"  => ['Matchday ?', 'Group 1st', '1/F'],  ## 48
+ "GroupG-prelim"  => ['Matchday ?', 'Group 1st', '1/G'],  ## 48
+ "GroupH-prelim"  => ['Matchday ?', 'Group 1st', '1/H'],  ## 48
+  ## 2nd Group Stage
+ "GroupA-inter"   => ['Matchday ?', 'Group 2nd', '2/A'],  ## 48 - use just A for group - why? why not?
+ "GroupB-inter"   => ['Matchday ?', 'Group 2nd', '2/B'],  ## 48
+ "GroupC-inter"   => ['Matchday ?', 'Group 2nd', '2/C'],  ## 48
+ "GroupD-inter"   => ['Matchday ?', 'Group 2nd', '2/D'],  ## 48
+
+  ## Use Knockout Stage if Champions league (starting in 1992/3 season)
+ "R16"    => ['Round of 16',   ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>768,
+ "QF"     => ['Quarterfinals', ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>470,
+ "SF"     => ['Semifinals',    ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>237,
+ "final"  => ['Final',         ->(year) { year >= 1992 ? 'Knockout' : '' }],   # =>62,
+}
+
+
+  i = 0
+  last_year = nil       ## e.g.  1996, 1997, etc.
+
+  matches = []
   CSV.foreach( in_path, headers: true ) do |row|
     i += 1
 
@@ -67,16 +126,16 @@ task :champs do |t|
     #      1,"regular",NA,NA,NA,NA,NA
 
 
-    date   = row['Date']
+    date   = row['Date'].strip
 
     ## date is NA? - set to -  for not known
     date = nil    if date.empty? || date == 'NA'
 
 
-    year   = row['Season'].to_i    ## note: it's always the season start year (only)
+    year   = row['Season'].strip.to_i    ## note: it's always the season start year (only)
 
-    team1  = row['home']
-    team2  = row['visitor']
+    team1  = row['home'].strip
+    team2  = row['visitor'].strip
 
     ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
     team_mappings = SportDb::Import.config.team_mappings
@@ -84,13 +143,13 @@ task :champs do |t|
     team2 = team_mappings[ team2 ]   if team_mappings[ team2 ]
 
 
-    ft     = row['FT']
+    ft     = row['FT'].strip
     ## todo/fix: check format with regex !!!
     score = ft.split('-')   ## todo/check - only working if always has score?!
     score1 = score[0].to_i
     score2 = score[1].to_i
 
-    ht     = row['HT']
+    ht     = row['HT'].strip
     ## todo/fix: check format with regex !!!
     score = ht.split('-')   ## todo/check - only working if always has score?!
     score1i = score[0].to_i
@@ -137,10 +196,23 @@ task :champs do |t|
    ## note: use '?' for undefined / unknown / missing (required) value
    ##        use nil or '-' for n/a (not/applicable)
 
-    round_str    = row['round']
+    round_str    = row['round'].strip
 
-    stage = '?'
-    round = round_str
+  r = round_mapping[ round_str ]
+  if r.nil?
+    puts "*** missing round mapping >#{round_str}<"
+    exit 1
+  end
+
+  round = r[0]
+
+  if r[1].is_a?( Proc )
+     stage = r[1].call( year )
+  else
+     stage = r[1]  ## note: defaults to nil if not present
+  end
+
+  group = r[2]   ## note: defaults to nil if not present
 
 ####
 #  6 legs:
@@ -149,26 +221,38 @@ task :champs do |t|
 #    "replay"=>34, "initial"=>1,
 #    "groups"=>2184}
 
-    leg         = row['leg']
-    leg = nil   if leg.empty? || leg == 'NA'
+  leg_str = row['leg'].strip
+
+  if leg_str.empty? || leg_str == 'NA'
+    leg = nil
+  elsif leg_str == 'groups' || leg_str == 'initial'
+    leg = nil
+  elsif leg_str == 'replay'
+    leg = 'Replay'    ## move to its own column or use its own replay round ??
+  else
+    leg = leg_str
+  end
 
 
-    country1  = row['hcountry']
-    country2  = row['vcountry']
+    country1  = row['hcountry'].strip
+    country2  = row['vcountry'].strip
 
 
     ### todo/fix: warn
     ##   if a.e.t present   full time (ft) should be a tie/draw e.g. 2-2 not 1-2 or something!!!
     ##   note: check for leg with aggregate score!!!!
 
-    et1 = row['aethgoal']
+    ##
+    ## todo: use aet (and split) - why? why not?
+
+    et1 = row['aethgoal'].strip
     if et1.empty? || et1 == 'NA'
       score1et = nil
     else
       score1et = et1.to_i
     end
 
-    et2 = row['aetvgoal']
+    et2 = row['aetvgoal'].strip
     if et2.empty? || et2 == 'NA'
       score2et = nil
     else
@@ -176,32 +260,26 @@ task :champs do |t|
     end
 
 
-=begin
-    ## check - fix penalties (pens)
-
+    p = row['pens'].strip
+    if p.empty? || p == 'NA'
+      score1p = score2p = nil
+    elsif p =~ /^\d{1,2}-\d{1,2}$/   ## e.g. 10-11, 5-4, etc.
+      score = p.split('-')
+      score1p = score[0].to_i
+      score2p = score[1].to_i
+    else
+      puts "*** warn/todo/fix: handle penalties >#{p}<"
+      score1p = score2p = nil
+    end
 
     ### todo/fix: warn
     ##   if pen(alty) present   a.e.t. should be a tie/draw e.g. 2-2 not 1-2 or something!!!
     ##   note: check for leg with aggregate score!!!!
     ##   if leg != 1  score might be not tied/drawn (but aggregate score is)
 
-    p1 = row['hpen']
-    if p1.empty? || p1 == 'NA'
-      score1p = nil
-    else
-      score1p = p1.to_i
-    end
-
-    p2 = row['vpen']
-    if p2.empty? || p2 == 'NA'
-      score2p = nil
-    else
-      score2p = p2.to_i
-    end
-=end
 
 
-    if last_year > 0  &&  (last_year != year)
+    if last_year  &&  (last_year != year)
       ## processs
       ##  note: convert season to string
 
@@ -224,11 +302,12 @@ task :champs do |t|
       score1:   score1,   score2:   score2,
       score1i:  score1i,  score2i:  score2i,
       score1et: score1et, score2et: score2et,
-      ## score1p:  score1p,  score2p:  score2p,
-      round:  round,
-      stage:  stage,
-      leg:    leg,
-      country1:  country1,      country2:  country2
+      score1p:  score1p,  score2p:  score2p,
+      round:    round,
+      stage:    stage,
+      leg:      leg,
+      group:    group,
+      country1: country1, country2:  country2
     )
     matches << match
 
