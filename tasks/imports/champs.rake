@@ -60,17 +60,23 @@ task :champs do |t|
 round_mapping = {
   ##  map round to => round / stage / group
 
- "PrelimF" => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 28,
- "prelim"  => ['Preliminary Round', ->(year) { year >= 1992 ? 'Qualifying' : '' }], ## 68,
+  ## note 1991/2 season first with group stage!! Use Knockout Stage if Champions league (starting in 1992/3 season)
+  ## note 1994/5 season first with qualifying round (before preliminary)
+  ##  => use qualifying stage starting with 1994/5 season
+
+  ## note: shorten Preliminary to Prelim.
+ "PrelimF" => ['Prelim. Round', ->(year) { year >= 1994 ? 'Qualifying' : '' }], ## 28,
+ "prelim"  => ['Prelim. Round', ->(year) { year >= 1994 ? 'Qualifying' : '' }], ## 68,
 
  "1"      => ['Round 1'],       # 30
  "Round1" => ['Round 1'],       # 1091   ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
  "Round2" => ['Round 2'],       # 48     ## - use qualifying stage for cl in 1993/4 ?? - why? why not?
 
- "Q-1"  => ['Qualifying Round 1', 'Qualifying'], # =>318,
- "Q-2"  => ['Qualifying Round 2', 'Qualifying'], # =>582,
- "Q-3"  => ['Qualifying Round 3', 'Qualifying'], # =>528,
- "Q-PO" => ['Playoff Round',      'Qualifying'], # =>140 -- use own playoff stage - why? why not?
+  ## note: shorten Qualifying to Qual.
+ "Q-1"  => ['Qual. Round 1', 'Qualifying'], # =>318,
+ "Q-2"  => ['Qual. Round 2', 'Qualifying'], # =>582,
+ "Q-3"  => ['Qual. Round 3', 'Qualifying'], # =>528,
+ "Q-PO" => ['Playoff Round', 'Qualifying'], # =>140 -- use own playoff stage - why? why not?
 
  "GroupA"  => ['Matchday ?',  'Group', 'A'],
  "GroupB"  => ['Matchday ?',  'Group', 'B'],
@@ -82,25 +88,29 @@ round_mapping = {
  "GroupH"  => ['Matchday ?',  'Group', 'H'],
 
   ## 1st Group Stage
- "GroupA-prelim"  => ['Matchday ?', 'Group 1st', '1/A'],  ## 48 - use just A for group - why? why not?
- "GroupB-prelim"  => ['Matchday ?', 'Group 1st', '1/B'],  ## 48
- "GroupC-prelim"  => ['Matchday ?', 'Group 1st', '1/C'],  ## 48
- "GroupD-prelim"  => ['Matchday ?', 'Group 1st', '1/D'],  ## 48
- "GroupE-prelim"  => ['Matchday ?', 'Group 1st', '1/E'],  ## 48
- "GroupF-prelim"  => ['Matchday ?', 'Group 1st', '1/F'],  ## 48
- "GroupG-prelim"  => ['Matchday ?', 'Group 1st', '1/G'],  ## 48
- "GroupH-prelim"  => ['Matchday ?', 'Group 1st', '1/H'],  ## 48
+ "GroupA-prelim"  => ['Matchday ?', 'Group 1st', '1|A'],  ## 48 - use just A for group - why? why not?
+ "GroupB-prelim"  => ['Matchday ?', 'Group 1st', '1|B'],  ## 48
+ "GroupC-prelim"  => ['Matchday ?', 'Group 1st', '1|C'],  ## 48
+ "GroupD-prelim"  => ['Matchday ?', 'Group 1st', '1|D'],  ## 48
+ "GroupE-prelim"  => ['Matchday ?', 'Group 1st', '1|E'],  ## 48
+ "GroupF-prelim"  => ['Matchday ?', 'Group 1st', '1|F'],  ## 48
+ "GroupG-prelim"  => ['Matchday ?', 'Group 1st', '1|G'],  ## 48
+ "GroupH-prelim"  => ['Matchday ?', 'Group 1st', '1|H'],  ## 48
   ## 2nd Group Stage
- "GroupA-inter"   => ['Matchday ?', 'Group 2nd', '2/A'],  ## 48 - use just A for group - why? why not?
- "GroupB-inter"   => ['Matchday ?', 'Group 2nd', '2/B'],  ## 48
- "GroupC-inter"   => ['Matchday ?', 'Group 2nd', '2/C'],  ## 48
- "GroupD-inter"   => ['Matchday ?', 'Group 2nd', '2/D'],  ## 48
+  ##   use 2/A insteaod 2|A or A|2 or A/2 ??
+ "GroupA-inter"   => ['Matchday ?', 'Group 2nd', '2|A'],  ## 48 - use just A for group - why? why not?
+ "GroupB-inter"   => ['Matchday ?', 'Group 2nd', '2|B'],  ## 48
+ "GroupC-inter"   => ['Matchday ?', 'Group 2nd', '2|C'],  ## 48
+ "GroupD-inter"   => ['Matchday ?', 'Group 2nd', '2|D'],  ## 48
 
-  ## Use Knockout Stage if Champions league (starting in 1992/3 season)
- "R16"    => ['Round of 16',   ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>768,
- "QF"     => ['Quarterfinals', ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>470,
- "SF"     => ['Semifinals',    ->(year) { year >= 1992 ? 'Knockout' : '' }],  # =>237,
- "final"  => ['Final',         ->(year) { year >= 1992 ? 'Knockout' : '' }],   # =>62,
+  ## note 1991/2 season first with group stage!! Use Knockout Stage if Champions league (starting in 1992/3 season)
+  ## note 1994/5 season first with qualifying round (before preliminary)
+  ##               and first with quarterfinals (before just final and semifinals)
+  ##  => use Knockout stage starting with 1994/5 season
+ "R16"    => ['Round of 16',   ->(year) { year >= 1994 ? 'Knockout' : '' }],  # =>768,
+ "QF"     => ['Quarterfinals', ->(year) { year >= 1994 ? 'Knockout' : '' }],  # =>470,
+ "SF"     => ['Semifinals',    ->(year) { year >= 1994 ? 'Knockout' : '' }],  # =>237,
+ "final"  => ['Final',         ->(year) { year >= 1994 ? 'Knockout' : '' }],   # =>62,
 }
 
 

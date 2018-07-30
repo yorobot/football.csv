@@ -11,15 +11,29 @@ def self.write( path, matches, format: 'classic' )
 
   out = File.new( path, 'w:utf-8' )
 
+  ## champs "hack":
+  ##   do NOT include stage,group col(umn)s if no group defined/present
+  group_count    =  matches.reduce( 0 ) {|count,m|  (m.group.nil? || m.group.empty?) ? count : count+1  }
+
+  ## todo:
+  ## add (optional) comments as last column if present
+
+
+
+
   if format == 'mls'
-    out <<  "Stage,Round,Leg,Conf 1,Conf 2,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+    out <<  "Stage,Round,Conf 1,Conf 2,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
   elsif format == 'champs'
-    ## add country1 and country2 to team name - why? why not?
-    out <<  "Stage,Round,Leg,Group,Date,Team 1,FT,HT,Team 2,ET,P,Country 1,Country 2\n"  # add headers
+    if group_count > 0
+      ## only add stage and group columns if present
+      #  in champions league first groups / group stage starting in 2011/12
+      out <<  "Stage,Round,Group,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+    else
+      out <<  "Round,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+    end
   else   ## default to classic headers
     out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
   end
-
 
 
   ## track match played for team
@@ -33,21 +47,35 @@ def self.write( path, matches, format: 'classic' )
 
     values = []
 
-    if ['mls', 'champs'].include?( format )
+    if format == 'mls' || (format == 'champs' && group_count > 0)
       values << match.stage
     end
 
+
     if match.round     ## optional: might be nil
-      values << match.round
+      round_buf = "#{match.round}"
+
+      ## append leg if present
+      if match.leg
+        if match.leg =~ /^\d{1}$/
+          round_buf << " | Leg #{match.leg}"
+        else
+          ## todo/check: warn about unkown leg !? - why? why not?
+          ##  note: Replay for now only known non-numeric leg value
+          round_buf << " | #{match.leg}"
+        end
+      end
+      values << round_buf
     else
       values << "?"   ## match round missing - fix - add!!!!
     end
 
-    if ['mls', 'champs'].include?( format )
+
+    ## if ['mls', 'champs'].include?( format )
       ## note: use - for undefined/nil/not applicable (n/a)
       ##       use ? for unknown
-      values << (match.leg ? match.leg : '')
-    end
+    ##  values << (match.leg ? match.leg : '')
+    ## end
 
 
     if format == 'mls'
@@ -55,7 +83,7 @@ def self.write( path, matches, format: 'classic' )
       values << match.conf2
     end
 
-    if format == 'champs'
+    if format == 'champs' && group_count > 0
       values << (match.group ? match.group : '')
     end
 
@@ -82,10 +110,21 @@ def self.write( path, matches, format: 'classic' )
     ## note: remove (1991-)  or (-2011) or (1899-1911) from team names for now
     team1 = match.team1.gsub( /\([0-9\- ]+\)/, '' ).strip
 
-    values << "#{team1} (#{team1_played})"
+    if format == 'champs'
+      ## add country to team
+      values << "#{team1} › #{match.country1} (#{team1_played})"
+    else
+      values << "#{team1} (#{team1_played})"
+    end
+
 
     if match.score1 && match.score2
-      values << match.score_str
+      ## add (*) a.e.t present marker - why? makes it easier to read (for humans)
+      if match.score1et && match.score2et
+        values << "#{match.score_str} (*)"
+      else
+        values << match.score_str
+      end
     else
       # no (or incomplete) full time score; add empty
       values << '?'
@@ -100,7 +139,14 @@ def self.write( path, matches, format: 'classic' )
 
     ## note: remove (1991-)  or (-2011) or (1899-1911) from team names for now
     team2 = match.team2.gsub( /\([0-9\- ]+\)/, '' ).strip
-    values << "#{team2} (#{team2_played})"
+
+
+    if format == 'champs'
+      ## add country to team
+      values << "#{team2} › #{match.country2} (#{team2_played})"
+    else
+      values << "#{team2} (#{team2_played})"
+    end
 
 
     if ['mls', 'champs'].include?( format )
@@ -117,10 +163,11 @@ def self.write( path, matches, format: 'classic' )
       end
     end
 
-    if format == 'champs'
-      values << match.country1
-      values << match.country2
-    end
+
+    # if format == 'champs'
+    #  values << match.country1
+    #  values << match.country2
+    # end
 
     out << values.join( ',' )
     out << "\n"
