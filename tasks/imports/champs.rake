@@ -166,6 +166,7 @@ round_mapping = {
     score2i = score[1].to_i
 
 
+
 =begin
    33 rounds:
    {"Round1"=>1091,
@@ -248,6 +249,34 @@ round_mapping = {
     country2  = row['vcountry'].strip
 
 
+    score1agg = nil
+    score2agg = nil
+
+    ### cleanup agg - only add agg scores if leg defined
+    ##   todo: include replay - why? why not?
+    ##  do NOT include replay for now
+    if leg ### just add for leg 1,2,3,.. for now
+      ## add replays only if not group stage (incl. group 1st, group 2nd) or final
+      if leg == 'Replay' &&
+         ((round && round == 'Final') || (stage && stage.include?('Group')))
+        ## skip adding agg score
+      else
+        ##  todo/fix:
+        ##  check if the same ??
+        ## totagg_home, totagg_visitor   => always same as FT_agg?
+        ## tothgoal, totvgoal            => always same as FT score?
+
+        ## agg1   = row['tothgoal'].strip
+        agg1   = row['FTagg_home'].strip
+        score1agg = (agg1.empty? || agg1 == 'NA') ? nil : agg1.to_i
+
+        ## agg2   = row['totvgoal'].strip
+        agg2   = row['FTagg_visitor'].strip
+        score2agg = (agg2.empty? || agg2 == 'NA') ? nil : agg2.to_i
+      end
+    end
+
+
     ### todo/fix: warn
     ##   if a.e.t present   full time (ft) should be a tie/draw e.g. 2-2 not 1-2 or something!!!
     ##   note: check for leg with aggregate score!!!!
@@ -256,19 +285,14 @@ round_mapping = {
     ## todo: use aet (and split) - why? why not?
 
     et1 = row['aethgoal'].strip
-    if et1.empty? || et1 == 'NA'
-      score1et = nil
-    else
-      score1et = et1.to_i
-    end
+    score1et = (et1.empty? || et1 == 'NA') ? nil : et1.to_i
 
     et2 = row['aetvgoal'].strip
-    if et2.empty? || et2 == 'NA'
-      score2et = nil
-    else
-      score2et = et2.to_i
-    end
+    score2et = (et2.empty? || et2 == 'NA') ? nil : et2.to_i
 
+
+
+    comments = nil
 
     p = row['pens'].strip
     if p.empty? || p == 'NA'
@@ -278,9 +302,20 @@ round_mapping = {
       score1p = score[0].to_i
       score2p = score[1].to_i
     else
-      puts "*** warn/todo/fix: handle penalties >#{p}<"
       score1p = score2p = nil
+      ##  todo/fix: check for and list "allowed" values for comments e.g.
+      #   => 7
+      #  => 140
+      #    =>2
+      if ['coin toss', 'away goals', 'walkover'].include?( p )
+        ## add tie break to its own column? for now add to comments - why? why not?
+         comments = p
+      else
+        puts "*** error: don't know how to handle unknown penalties format / value >#{p}<"
+        exit 1
+      end
     end
+
 
     ### todo/fix: warn
     ##   if pen(alty) present   a.e.t. should be a tie/draw e.g. 2-2 not 1-2 or something!!!
@@ -307,17 +342,19 @@ round_mapping = {
     end
 
     match = SportDb::Struct::Match::new(
-      date:     date,
-      team1:    team1,    team2:    team2,
-      score1:   score1,   score2:   score2,
-      score1i:  score1i,  score2i:  score2i,
-      score1et: score1et, score2et: score2et,
-      score1p:  score1p,  score2p:  score2p,
+      date:      date,
+      team1:     team1,     team2:     team2,
+      score1:    score1,    score2:    score2,
+      score1i:   score1i,   score2i:   score2i,
+      score1et:  score1et,  score2et:  score2et,
+      score1p:   score1p,   score2p:   score2p,
+      score1agg: score1agg, score2agg: score2agg,
       round:    round,
       stage:    stage,
       leg:      leg,
       group:    group,
-      country1: country1, country2:  country2
+      country1: country1, country2:  country2,
+      comments: comments
     )
     matches << match
 

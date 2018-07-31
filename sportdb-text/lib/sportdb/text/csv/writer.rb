@@ -15,25 +15,34 @@ def self.write( path, matches, format: 'classic' )
   ##   do NOT include stage,group col(umn)s if no group defined/present
   group_count    =  matches.reduce( 0 ) {|count,m|  (m.group.nil? || m.group.empty?) ? count : count+1  }
 
-  ## todo:
   ## add (optional) comments as last column if present
+  comments_count =  matches.reduce( 0 ) {|count,m|  (m.comments.nil? || m.comments.empty?) ? count : count+1  }
 
 
 
+  headers = []
 
   if format == 'mls'
-    out <<  "Stage,Round,Conf 1,Conf 2,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+    headers += 'Stage,Round,Conf 1,Conf 2,Date,Team 1,FT,HT,Team 2,ET,P'.split(',')
   elsif format == 'champs'
     if group_count > 0
       ## only add stage and group columns if present
       #  in champions league first groups / group stage starting in 2011/12
-      out <<  "Stage,Round,Group,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+      headers += 'Stage,Round,Group,Date,Team 1,FT,HT,Team 2,∑FT,ET,P'.split(',')
     else
-      out <<  "Round,Date,Team 1,FT,HT,Team 2,ET,P\n"  # add headers
+      headers += 'Round,Date,Team 1,FT,HT,Team 2,∑FT,ET,P'.split(',')
     end
   else   ## default to classic headers
-    out <<  "Round,Date,Team 1,FT,HT,Team 2\n"  # add headers
+    header += 'Round,Date,Team 1,FT,HT,Team 2'.split(',')
   end
+
+  if comments_count > 0
+     headers << 'Comments'
+  end
+
+  out << headers.join(',')   ## e.g. Round,Date,Team 1,FT,HT,Team 2
+  out << "\n"
+
 
 
   ## track match played for team
@@ -149,6 +158,16 @@ def self.write( path, matches, format: 'classic' )
     end
 
 
+
+    if format == 'champs'
+      if match.score1agg && match.score2agg
+        values << "#{match.score1agg}-#{match.score2agg} (agg.)"
+      else
+        values << ''
+      end
+    end
+
+
     if ['mls', 'champs'].include?( format )
       if match.score1et && match.score2et
         values << "#{match.score1et}-#{match.score2et} (a.e.t.)"
@@ -163,11 +182,15 @@ def self.write( path, matches, format: 'classic' )
       end
     end
 
-
     # if format == 'champs'
     #  values << match.country1
     #  values << match.country2
     # end
+
+    if comments_count > 0
+       values << "#{match.comments}"
+    end
+
 
     out << values.join( ',' )
     out << "\n"
