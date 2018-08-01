@@ -129,6 +129,7 @@ def self.write( path, matches, format: 'classic' )
 
     if match.score1 && match.score2
       ## add (*) a.e.t present marker - why? makes it easier to read (for humans)
+      ##   move (*) marker up-front instead of back-last - why? why not?
       if match.score1et && match.score2et
         values << "#{match.score_str} (*)"
       else
@@ -158,10 +159,15 @@ def self.write( path, matches, format: 'classic' )
     end
 
 
-
     if format == 'champs'
       if match.score1agg && match.score2agg
-        values << "#{match.score1agg}-#{match.score2agg} (agg.)"
+        ## todo/check:
+        ##   check if agg score is equal if has away goals comment!!!! warn/report error - why? why not?
+        agg_buf = ''
+        agg_buf << '(a) '  if match.comments && match.comments.include?( 'Away Goals' )
+        agg_buf << "#{match.score1agg}-#{match.score2agg} (agg.)"
+
+        values << agg_buf
       else
         values << ''
       end

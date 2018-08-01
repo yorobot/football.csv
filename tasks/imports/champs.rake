@@ -1,5 +1,63 @@
 
 
+def quick_fix_matches( matches )
+  matches.map do |m|
+    if m.date  == '1992-08-19' &&
+       m.leg   == '2' &&
+       m.round == 'Prelim. Round' &&
+       m.team1 == 'Olimpija Ljubljana' &&
+       m.team2 == 'FC Norma Tallinn'
+         ## do
+         m.update( leg: '1' )  ## change leg to 1
+    elsif m.date  == '1992-08-19' &&
+          m.leg   == '2' &&
+          m.round == 'Prelim. Round' &&
+          m.team1 == 'Valletta' &&
+          m.team2 == 'Maccabi Tel Aviv'
+         m.update( leg: '1' )  ## change leg to 1
+    else
+    end
+    m
+  end
+end
+
+def resolve_match_legs( matches )
+  ####################
+  # "resolve" legs - add agg scores for leg 2
+  matches = quick_fix_matches( matches )
+  matches.each do |m2|
+    if m2.leg == '2'
+      print "find leg 1..."
+
+      leg1 = matches.find do |m1|
+        m1.team1 == m2.team2 &&
+        m1.team2 == m2.team1 &&
+        m1.leg   == '1'  &&
+        m1.round == m2.round
+      end
+
+      pp leg1
+      if leg1
+        print "Bingo!\n"
+        ## add aggregated score for leg2
+        ##  use full time score
+        ##  - check if mismatch
+
+        leg2 = m2
+        ##  todo/fix: for now assumes leg1 team1 is leg2 team2 and vice versa
+        ##    add check for finding team if team1 or team2
+        leg2.update( score1agg: leg2.score1 + leg1.score2 )
+        leg2.update( score2agg: leg2.score2 + leg1.score1 )
+      else
+        print "FAIL!!!:\n"
+        pp m2
+        exit 1
+      end
+    end
+  end
+end
+
+
 
 def write_champs_season( root:, season:, matches: )
 
@@ -24,6 +82,8 @@ def write_champs_season( root:, season:, matches: )
     res
   end
 
+  ## (auto-)add agg(regated) fulltime (ft) scores to 2nd leg matches
+  resolve_match_legs( matches )
 
   CsvMatchWriter.write( path, matches, format: 'champs' )
 end
@@ -144,8 +204,19 @@ round_mapping = {
 
     year   = row['Season'].strip.to_i    ## note: it's always the season start year (only)
 
-    team1  = row['home'].strip
-    team2  = row['visitor'].strip
+    team1      = row['home'].strip
+    team2      = row['visitor'].strip
+
+    tiewinner_str  = row['tiewinner'].strip
+    if tiewinner_str == team1
+      tiewinner = '1'
+    elsif tiewinner_str == team2
+      tiewinner = '2'
+    else
+      tiewinner = '???'
+      ## todo - issue/raise error/warning - possible
+    end
+
 
     ## reformat team if match  (e.g. Bayern Munich => Bayern München etc.)
     team_mappings = SportDb::Import.config.team_mappings
@@ -249,6 +320,7 @@ round_mapping = {
     country2  = row['vcountry'].strip
 
 
+=begin
     score1agg = nil
     score2agg = nil
 
@@ -275,7 +347,7 @@ round_mapping = {
         score2agg = (agg2.empty? || agg2 == 'NA') ? nil : agg2.to_i
       end
     end
-
+=end
 
     ### todo/fix: warn
     ##   if a.e.t present   full time (ft) should be a tie/draw e.g. 2-2 not 1-2 or something!!!
@@ -294,6 +366,13 @@ round_mapping = {
 
     comments = nil
 
+    ## todo7fix: find a better name for p_mappings?
+    p_mappings = {
+      'coin toss'  => 'Coin Toss',
+      'away goals' => 'Away Goals',
+      'walkover'   => 'Walkover'
+    }
+
     p = row['pens'].strip
     if p.empty? || p == 'NA'
       score1p = score2p = nil
@@ -307,9 +386,10 @@ round_mapping = {
       #   => 7
       #  => 140
       #    =>2
-      if ['coin toss', 'away goals', 'walkover'].include?( p )
+      if p_mappings[ p ]
         ## add tie break to its own column? for now add to comments - why? why not?
-         comments = p
+        ## e.g. Away Goal (1) or Away Goal (2) depending on winning team
+         comments = "#{p_mappings[p]} (#{tiewinner})"
       else
         puts "*** error: don't know how to handle unknown penalties format / value >#{p}<"
         exit 1
@@ -348,7 +428,6 @@ round_mapping = {
       score1i:   score1i,   score2i:   score2i,
       score1et:  score1et,  score2et:  score2et,
       score1p:   score1p,   score2p:   score2p,
-      score1agg: score1agg, score2agg: score2agg,
       round:    round,
       stage:    stage,
       leg:      leg,
