@@ -1,0 +1,28 @@
+first row: #<CSV::Row
+        "":        "1"
+        "Date":    "1888-12-15"
+        "Season":  "1888"
+        "home":    "Accrington F.C."
+        "visitor": "Aston Villa"
+        "FT":      "1-1"
+        "hgoal":   "1"
+        "vgoal":   "1"
+        "division":"1"
+        "tier":    "1"
+        "totgoal": "2"
+        "goaldif": "0"
+        "result":"  D">
+
+
+194_040 rows
+divs:
+  "1"=>47910,
+     "2"=>51940,
+   "3"=>33030, "3a"=>14386, "3b"=>14580,
+   "4"=>32194}
+
+tiers:
+  {"1"=>47910,
+   "2"=>51940,
+   "3"=>61996,
+   "4"=>32194}
