@@ -2,7 +2,7 @@
 ## es-espana (spain) - [es]
 
 
-Ath Madrid    => Atlético Madrid,    Madrid › Comunidad de Madrid   ## use Atlético de Madrid - why? why not?
+Ath Madrid | Atletico Madrid   => Atlético Madrid,    Madrid › Comunidad de Madrid   ## use Atlético de Madrid - why? why not?
 Ath Madrid B  => Atlético Madrid B,  Madrid › Comunidad de Madrid
 
 Real Madrid   => Real Madrid CF,   Madrid › Comunidad de Madrid

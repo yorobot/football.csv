@@ -2,7 +2,7 @@
 # nl-netherlands
 
 
-Ajax                       => Ajax Amsterdam, Amsterdam › Noord-Holland
+Ajax | AFC Ajax           => Ajax Amsterdam, Amsterdam › Noord-Holland
 
 Feyenoord                  => Feyenoord Rotterdam,     Rotterdam › Zuid-Holland
 Sparta | Sparta Rotterdam  => Sparta Rotterdam,        Rotterdam › Zuid-Holland

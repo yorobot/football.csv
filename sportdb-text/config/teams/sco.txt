@@ -9,7 +9,7 @@ Queens Park  =>  Queen's Park,    Glasgow
 
 
 Hearts          =>  Heart of Midlothian FC,  Edinburgh   ## Gorgie - West of Edinburgh
-Hibernian       =>  Hibernian FC,            Edinburgh   ## Leith  - North of Edinburgh
+Hibernian | Hibernians  =>  Hibernian FC,            Edinburgh   ## Leith  - North of Edinburgh
 Edinburgh City  =>  Edinburgh City,          Edinburgh
 
 Aberdeen  =>  Aberdeen FC, Aberdeen

@@ -24,8 +24,8 @@ Caen        => Stade Malherbe Caen, Caen    ## use - SM Caean - why? why not?
 Dijon       => Dijon FCO, Dijon
 Guingamp    => EA Guingamp, Guingamp
 Lille       => Lille OSC, Lille
-Lyon        => Olympique Lyonnais, Lyon
-Marseille   => Olympique de Marseille, Marseille
+Lyon | Olympique Lyon  => Olympique Lyonnais, Lyon
+Marseille | Olympique Marseille  => Olympique de Marseille, Marseille
 Metz        => FC Metz, Metz
 
 Montpellier => Montpellier HSC, Montpellier   ## use - Montpellier Hérault SC - why? why not?
@@ -34,7 +34,7 @@ Nice        => OGC Nice, Nice
 
 
 Rennes      => Stade Rennais FC, Rennes
-St Etienne  => AS Saint-Étienne, Saint-Étienne
+St Etienne | AS Saint-Etienne  => AS Saint-Étienne, Saint-Étienne
 Strasbourg  => RC Strasbourg, Strasbourg
 Toulouse    => Toulouse FC, Toulouse
 Troyes      => ES Troyes AC, Troyes

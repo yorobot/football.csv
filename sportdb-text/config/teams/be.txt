@@ -17,7 +17,7 @@ Mouscron | Mouscron-Peruwelz  => Royal Excel Mouscron,  Mouscron  › Hainaut �
 Bergen                        => RAEC Mons,             Mons      › Hainaut › Wallonie     ##  Bergen [nl]
 
 Eupen                         => KAS Eupen,             Eupen     › Liège   › Wallonie    ## [de]
-Standard                      => Standard Liège,        Liège     › Liège   › Wallonie    ## [fr] Standard de Liège
+Standard | Standard Liege     => Standard Liège,        Liège     › Liège   › Wallonie    ## [fr] Standard de Liège
 
 
 Mechelen     => KV Mechelen,    Mechelen › Antwerpen › Vlaanderen

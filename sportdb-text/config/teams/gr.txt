@@ -2,7 +2,7 @@
 # gr-greece
 
 
-AEK            =>  AEK Athens FC,     Athens    ## use!? - Marousi or Maroussi a suburban city in the northeastern part of the Athens agglomeration
+AEK | AEK Athens   =>  AEK Athens FC,     Athens    ## use!? - Marousi or Maroussi a suburban city in the northeastern part of the Athens agglomeration
 Panathinaikos  =>  Panathinaikos FC,  Athens
 Apollon        =>  Apollon Smyrnis FC,  Athens
 Atromitos      =>  Atromitos FC,      Athens    ## use!? - Peristeri a suburban municipality in the northwestern part of the Athens agglomeration
@@ -25,7 +25,7 @@ Proodeftiki | Proodeytiki => Proodeftiki FC, Nikaia › Attica
 Ionikos      => Ionikos FC, Nikaia › Attica   ## Athens Nikaia - a suburb in the western part of the Athens agglomeration
 
 
-Olympiakos                     => Olympiacos Piraeus FC,  Piraeus › Attica
+Olympiakos | Olympiacos        => Olympiacos Piraeus FC,  Piraeus › Attica
 Ethnikos Piraeus | Ethnikos    => Ethnikos Piraeus FC,    Piraeus › Attica
 
 

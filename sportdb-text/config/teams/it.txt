@@ -6,7 +6,7 @@ Roma         =>  AS Roma,  Roma
 Lazio        =>  SS Lazio, Roma
 
 Milan        =>  AC Milan,                 Milano
-Inter        =>  FC Internazionale Milano, Milano
+Inter | Internazionale  =>  FC Internazionale Milano, Milano
 
 Torino       =>  Torino FC,   Torino
 Juventus     =>  Juventus,    Torino

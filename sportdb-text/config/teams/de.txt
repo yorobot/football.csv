@@ -26,7 +26,7 @@ Dortmund           =>  Borussia Dortmund,    Dortmund      › Nordrhein-Westfal
 Schalke 04         =>  FC Schalke 04,        Gelsenkirchen › Nordrhein-Westfalen
 Leverkusen | Bayer Leverkusen =>  Bayer 04 Leverkusen,  Leverkusen    › Nordrhein-Westfalen
 Duisburg                      =>  MSV Duisburg,         Duisburg      › Nordrhein-Westfalen     ## until 1965/66 Meidericher SV
-Bor. Moenchengladbach | M'Gladbach | M'gladbach        => Bor. Mönchengladbach, Mönchengladbach › Nordrhein-Westfalen
+Bor. Moenchengladbach | M'Gladbach | M'gladbach | Borussia Monchengladbach  => Bor. Mönchengladbach, Mönchengladbach › Nordrhein-Westfalen
 
 Bochum             =>  VfL Bochum,            Bochum › Nordrhein-Westfalen
 Wattenscheid       =>  SG Wattenscheid 09,    Bochum › Nordrhein-Westfalen   ## Bochum-Wattenscheid - Bochumer Stadtbezirk
@@ -70,6 +70,9 @@ TB Berlin | TeBe Berlin  =>   Tennis Borussia Berlin, Berlin › Berlin
 Union Berlin             =>   1. FC Union Berlin,     Berlin › Berlin
 Blau-Weiss 90 Berlin     =>   Blau-Weiß 90 Berlin (-1992), Berlin › Berlin
 Tasmania 1900 Berlin     =>   SC Tasmania 1900 Berlin (-1973), Berlin › Berlin
+
+BFC Dynamo   => BFC Dynamo Berlin,     Berlin › Berlin
+
 
 Hamburg               =>  Hamburger SV,      Hamburg › Hamburg
 St Pauli | St. Pauli  =>  FC St. Pauli,      Hamburg › Hamburg   ## use stadtteil St. Pauli ??
