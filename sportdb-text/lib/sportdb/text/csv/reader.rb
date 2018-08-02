@@ -8,8 +8,9 @@ class CsvMatchReader
 
 def self.read( path, headers: nil, filters: nil, col_sep: ',' )
    text = File.open( path, 'r:utf-8' ).read   ## note: make sure to use (assume) utf-8
-   parse( text, headers, filters, col_sep )
+   parse( text, headers: headers, filters: filters, col_sep: col_sep )
 end
+
 
 def self.parse( text, headers: nil, filters: nil, col_sep: ',' )
 

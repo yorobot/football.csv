@@ -3,11 +3,18 @@
 module SportDb
   module Import
 
-
-def self.data_dir
-  ## fix/todo: use SportDb::Import.root plus /config - why? why not?
-  File.expand_path( "#{File.dirname(File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))))}/config" )
+def self.root
+  File.expand_path( File.dirname(File.dirname(File.dirname(File.dirname(File.dirname(__FILE__))))) )
 end
+
+def self.data_dir  ## rename to config_dir - why? why not?
+  "#{root}/config"
+end
+
+def self.test_data_dir
+  "#{root}/test/data"
+end
+
 
 
 class Configuration
