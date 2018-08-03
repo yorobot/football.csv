@@ -50,6 +50,10 @@ require 'sportdb/text/csv/reports/part_datafiles_by_level.rb'
 require 'sportdb/text/csv/reports/part_datafiles_by_season.rb'
 
 
+require 'sportdb/text/csv/utils/utils.rb'
+require 'sportdb/text/csv/utils/cut.rb'
+
+
 
 module SportDb
    Structs = Struct ## add convenience alias (e.g. lets you use include SportDb::Structs)
