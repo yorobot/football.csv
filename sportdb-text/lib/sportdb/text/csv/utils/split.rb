@@ -20,6 +20,11 @@ class CsvUtils
     csv_options = { col_sep: col_sep }
 
     data = CSV.parse( text, csv_options )
+
+    ## todo/check: (auto-) strip (remove all leading and trailing spaces)
+    ##     from all values - why? why not?
+    ##   check if CSV.parse has an option for it?
+
     headers = data.shift   ## remove top array item (that is, row with headers)
 
     header_mapping = {}
@@ -41,63 +46,47 @@ class CsvUtils
        res
     end
 
-    ## fix/todo: change to - check next row!!!!
-    ##   why? no special case need for first and last row!!!!!
-
-    last_columns = []   ## by default (on start) all values nil
     chunk = []
+    data.each_with_index do |row,i|
+      chunk << row
 
-    data.each do |row|
+      next_row = data[i+1]
 
-      if last_columns.any?   ## note: for first row skip check if values differ
-        changed = false
-        column_indices.each_with_index do |col,i|
-           if row[col] != last_columns[i]
+      changed = false
+      if next_row.nil?   ## end-of-file
+        changed = true
+      else
+        column_indices.each do |col|
+          if row[col] != next_row[col]
              changed = true
-             break   ## out of each_with_index loop
+             break   ## out of each column_indices loop
            end
         end
+      end
 
-        if changed
-         puts "save new chunk:"
-         pp last_columns
+      if changed
+        puts "save new chunk:"
+        column_values = column_indices.map {|col| row[col] }
+        pp column_values
 
-         chunk_with_headers = chunk.unshift( headers )
-         if blk
-           ## note: add headers to chunk (with unshift)
-           yield( last_columns, chunk_with_headers )
-         else
-           ## auto-save by default - why? why not?
-           split_save( path, last_columns, chunk_with_headers )
-         end
-
-         chunk = []
+        # note: add header(s) row upfront (as first row) to chunk (with unshift)
+        chunk_with_headers = chunk.unshift( headers )
+        if blk
+          yield( column_values, chunk_with_headers )
+        else
+          ## auto-save (write-to-file) by default - why? why not?
+          split_write( path, column_values, chunk_with_headers )
         end
-      end
 
-      chunk << row
-      last_columns = column_indices.map {|col| row[col] }
-    end
-
-
-    if chunk.any?
-      puts "save new chunk:"
-      pp last_columns
-
-      chunk_with_headers = chunk.unshift( headers )
-      if blk
-        yield( last_columns, chunk_with_headers )
-      else
-        ## auto-save by default - why? why not?
-        split_save( path, last_columns, chunk_with_headers )
+        chunk = []   ## reset chunk for next batch of records
       end
     end
+
     puts 'Done.'
   end  ## method self.split
 
 
-
-  def self.split_save( inpath, values, chunk )
+  def self.split_write( inpath, values, chunk )
     basename = File.basename( inpath, '.*' )
     dirname  = File.dirname( inpath )
 
