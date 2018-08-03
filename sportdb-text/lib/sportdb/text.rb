@@ -52,6 +52,7 @@ require 'sportdb/text/csv/reports/part_datafiles_by_season.rb'
 
 require 'sportdb/text/csv/utils/utils.rb'
 require 'sportdb/text/csv/utils/cut.rb'
+require 'sportdb/text/csv/utils/split.rb'
 
 
 

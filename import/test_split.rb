@@ -4,73 +4,29 @@
 require_relative 'lib/read'
 
 
-de_txt = './dl/Bundesliga_1963_2014.csv'
+
+eng_txt = './dl/engsoccerdata/data-test/england.csv'
+###
+#  "","Date","Season","home","visitor","FT","hgoal","vgoal","division","tier","totgoal","goaldif","result"
+#  "1",1888-12-15,1888,"Accrington F.C.","Aston Villa","1-1",1,1,"1",1,2,0,"D"
+
+CsvUtils.split( eng_txt, 'Season', 'division' )
+
+
+##
+#  Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA
+#  Austria,Bundesliga,2016/2017,23/07/16,15:00,Rapid Vienna,Ried,5,0,H,1.37,5.05,10.11,1.45,5.05,10.11,1.38,4.55,8.11
 
 at_txt = './dl/at-austria/AUT.csv'
-mx_txt = './dl/mx-mexico/MEX.csv'
-br_txt = './dl/br-brazil/BRA.csv'          # note: uses years (e.g. 2014) for seasons
-us_txt = './dl/us-united_states/USA.csv'   # note: uses years (e.g. 2014) for seasons
 
-root = './o'
-## root = '../../footballcsv'
+CsvUtils.split( at_txt, 'Season' )
 
 
-if ARGV.include?( 'de' )
-
-=begin
-Spielzeit;Saison;Spieltag;Datum;Uhrzeit;Heim;Gast;Ergebnis;Halbzeit
-1;1963-1964;1;1963-08-24;17:00;Werder Bremen;Borussia Dortmund;3:2;1:1
-=end
-
-  CsvMatchSplitter.split( de_txt,
-                          out_root: "#{root}/de-deutschland2",
-                          basename: '1-bundesliga',
-                          format: 'long',
-                          col_sep: ';',
-                          headers: {
-                            team1: 'Heim',
-                            team2: 'Gast',
-                            date:  'Datum',
-                            score: 'Ergebnis',
-                            scorei: 'Halbzeit',
-                            round:  'Spieltag',
-                            season: 'Saison',
-                            } )
-end
-
-
-
-if ARGV.include?( 'at' )
-  CsvMatchSplitter.split( at_txt,
-                          out_root: "#{root}/at-austria",
-                          basename: '1-bundesliga',
-                          format: 'long' )
-
-  at_pack = CsvPackage.new( 'at-austria', path: root )
-  at_summary_report = CsvSummaryReport.new( at_pack )
-  at_summary_report.write
-end
-
-if ARGV.include?( 'mx' )
-  split_seasons( mx_txt, out_root: "#{root}/mx-mexico",  basename: '1-liga' )
-
-  mx_pack = CsvPackage.new( 'mx-mexico', path: root )
-  mx_summary_report = CsvSummaryReport.new( mx_pack )
-  mx_summary_report.write
-end
-
-if ARGV.include?( 'us' )
-  split_seasons( us_txt, out_root: "#{root}/major-league-soccer",  basename: '1-league' )
-
-  us_pack = CsvPackage.new( 'major-league-soccer', path: root )
-  us_summary_report = CsvSummaryReport.new( us_pack )
-  us_summary_report.write
-end
-
-if ARGV.include?( 'br' )
-  split_seasons( br_txt, out_root: "#{root}/br-brazil",  basename: '1-seriea' )
-
-  br_pack = CsvPackage.new( 'br-brazil', path: root )
-  br_summary_report = CsvSummaryReport.new( br_pack )
-  br_summary_report.write
+CsvUtils.split( at_txt, 'Season' ) do |values, chunk|
+  puts "split on: "
+  pp values
+  headers = chunk.shift
+  records = chunk
+  puts headers.inspect
+  puts "#{records.size} records"   ## remove header!!
 end
