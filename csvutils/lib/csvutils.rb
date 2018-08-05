@@ -9,8 +9,10 @@ require 'fileutils'
 ###
 # our own code
 require 'csvutils/version' # let version always go first
-
-
+require 'csvutils/utils'
+require 'csvutils/split'
+require 'csvutils/cut'
+require 'csvutils/test'
 
 
 

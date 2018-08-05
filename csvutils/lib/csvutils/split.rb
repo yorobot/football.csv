@@ -5,7 +5,7 @@
 
 class CsvUtils
 
-  def self.split( path, *columns, col_sep: ',', &blk )
+  def self.split( path, *columns, sep: ',', &blk )
 
     puts "cvssplit in: >#{path}<"
 
@@ -17,7 +17,7 @@ class CsvUtils
 
     ## note: do NOT use headers
     ##   for easy sorting use "plain" array of array for records
-    csv_options = { col_sep: col_sep }
+    csv_options = { col_sep: sep }
 
     data = CSV.parse( text, csv_options )
 

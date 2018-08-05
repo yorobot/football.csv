@@ -6,5 +6,11 @@ require 'minitest/autorun'
 
 
 ## our own code
-
 require 'csvutils'
+
+## add test_data_dir helper
+class CsvUtils
+  def self.test_data_dir
+    "#{root}/test/data"
+  end
+end

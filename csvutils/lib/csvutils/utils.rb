@@ -3,7 +3,7 @@
 
 class CsvUtils
 
-  def self.header( path, col_sep: ',' )   ## use header or headers - or use both (with alias)?
+  def self.header( path, sep: ',' )   ## use header or headers - or use both (with alias)?
 
     # read first line (only)
     #  and parse with csv to get header from csv library itself
@@ -16,7 +16,7 @@ class CsvUtils
     #  "Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PH,PD,PA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA\n"
     pp line
 
-    csv_options = {  col_sep: col_sep }
+    csv_options = {  col_sep: sep }
               ###  external_encoding: 'utf-8' }   ## note: always use (assume) utf8 for now
 
     ## note: do NOT use headers: true to get "plain" data array (no hash records)
