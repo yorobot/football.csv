@@ -1,15 +1,15 @@
 Date,HomeTeam,AwayTeam,FTHG,FTAG,HTHG,HTAG
-11/08/17,Arsenal,Leicester,4,3,2,2
-12/08/17,Brighton,Man City,0,2,0,0
-12/08/17,Chelsea,Burnley,2,3,0,3
-12/08/17,Crystal Palace,Huddersfield,0,3,0,2
-12/08/17,Everton,Stoke,1,0,1,0
-12/08/17,Southampton,Swansea,0,0,0,0
-12/08/17,Watford,Liverpool,3,3,2,1
-12/08/17,West Brom,Bournemouth,1,0,1,0
+,Arsenal,Leicester,4,3,2,2
+,Brighton,Man City,0,2,?,?
+12/08/17,Chelsea,Burnley,2,3,?,?
+-,Crystal Palace,Huddersfield,0,3,0,2
+-,Everton,Stoke,1,0,1,0
+12/08/17,Southampton,Swansea,0,0,,
+"",Watford,Liverpool,3,3,"",""
+"",West Brom,Bournemouth,1,0,1,0
 13/08/17,Man United,West Ham,4,0,1,0
 13/08/17,Newcastle,Tottenham,0,2,0,0
-19/08/17,Bournemouth,Watford,0,2,0,0
+19/08/17,,?,0,2,0,0
 19/08/17,Burnley,West Brom,0,1,0,0
 19/08/17,Leicester,Brighton,2,0,1,0
 19/08/17,Liverpool,Crystal Palace,1,0,0,0

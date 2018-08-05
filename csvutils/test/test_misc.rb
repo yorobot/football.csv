@@ -9,10 +9,14 @@ require 'helper'
 
 class TestMiscellaneous < MiniTest::Test
 
-  def test_test_eng
+  def test_eng
     path = "#{CsvUtils.test_data_dir}/eng-england/2017-18/E0.csv"
 
     CsvUtils.test( path )
+
+    CsvUtils.stat( path )
+    CsvUtils.stat( path, 'HomeTeam', 'AwayTeam' )
+
     assert true
   end
 
@@ -20,6 +24,10 @@ class TestMiscellaneous < MiniTest::Test
     path = "#{CsvUtils.test_data_dir}/de-deutschland/bundesliga.csv"
 
     CsvUtils.test( path, sep: ';' )
+
+    CsvUtils.stat( path, sep: ';' )
+    CsvUtils.stat( path, 'Spielzeit', 'Saison', 'Heim', 'Gast', sep: ';' )
+
     assert true
   end
 
@@ -27,6 +35,9 @@ class TestMiscellaneous < MiniTest::Test
     path = "#{CsvUtils.test_data_dir}/at-austria/AUT.csv"
 
     CsvUtils.test( path )
+
+    CsvUtils.stat( path )
+    CsvUtils.stat( path, 'Season', 'Home', 'Away' )
     assert true
   end
 

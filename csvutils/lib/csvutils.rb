@@ -13,6 +13,7 @@ require 'csvutils/utils'
 require 'csvutils/split'
 require 'csvutils/cut'
 require 'csvutils/test'
+require 'csvutils/stat'
 
 
 

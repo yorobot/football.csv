@@ -38,4 +38,13 @@ class TestHeaders < MiniTest::Test
     assert_equal ['Season','Date','Time','Home','Away','HG','AG'], headers
   end
 
+  def test_de
+    path = "#{CsvUtils.test_data_dir}/de-deutschland/bundesliga.csv"
+
+    headers =  CsvUtils.header( path, sep: ';' )
+    pp headers
+
+    assert_equal ['Spielzeit','Saison','Spieltag','Datum','Uhrzeit','Heim','Gast','Ergebnis','Halbzeit'], headers
+  end
+
 end # class TestHeaders
