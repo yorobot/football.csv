@@ -33,7 +33,7 @@ def self.write( path, matches, format: 'classic' )
       headers += 'Round,Date,Team 1,FT,HT,Team 2,∑FT,ET,P'.split(',')
     end
   else   ## default to classic headers
-    header += 'Round,Date,Team 1,FT,HT,Team 2'.split(',')
+    headers += 'Round,Date,Team 1,FT,HT,Team 2'.split(',')
   end
 
   if comments_count > 0
@@ -107,7 +107,12 @@ def self.write( path, matches, format: 'classic' )
     if match.date
       ## note: assumes string for now e.g. 2018-11-22
       date = Date.strptime( match.date, '%Y-%m-%d' )
-      values << date.strftime( '(%a) %-d %b %Y (W%-W)' )   ## print weekday e.g. Fri, Sat, etc.
+
+      date_buf = ''
+      date_buf << date.strftime( '(%a) %-d %b %Y' )
+      date_buf << " (W#{date.cweek})"  ## use week number (iso-standard week starting on monday)
+
+      values << date_buf   ## print weekday e.g. Fri, Sat, etc.
     else
       values << '?'
     end

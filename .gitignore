@@ -42,3 +42,7 @@ build/
 #######
 ## ignore all test databases .db
 *.db
+
+#####
+## ignore txt directory for imports
+/txt/
