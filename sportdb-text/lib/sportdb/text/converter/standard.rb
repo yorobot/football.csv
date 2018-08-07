@@ -6,7 +6,99 @@
 
 class StandardNews
 
+###
+# builtin team samples
+#
+#  use namespace/module
+#   lets you use:
+#     include StandardNews::Teams
 
+module Teams
+
+AT1_TEAMS_2018_19 = <<TXT
+ Rapid Wien
+ SCR Altach
+ SV Mattersburg
+ RB Salzburg
+ FC Wacker Innsbruck
+ Sturm Graz
+ TSV Hartberg
+ FC Admira Wacker
+ LASK
+ SKN St. Pölten
+ Wolfsberger AC
+ Austria Wien
+TXT
+
+
+AT2_TEAMS_2018_19 = <<TXT
+  Vorwärts Steyr
+  SV Ried
+  Kapfenberger SV 1919
+  Austria Wien (A)
+  SC Wiener Neustadt
+  FC Blau Weiß Linz
+  SK Austria Klagenfurt
+  Austria Lustenau
+  SV Horn
+  FC Liefering
+  WSG Wattens
+  SV Lafnitz
+  SKU Amstetten
+  Floridsdorfer AC
+  LASK (A)
+  FC Wacker Innsbruck (A)
+TXT
+
+
+DE1_TEAMS_2018_19 = <<TXT
+  Bayern München
+  1899 Hoffenheim
+  Hertha BSC
+  1. FC Nürnberg
+  Werder Bremen
+  Hannover 96
+  SC Freiburg
+  Eintracht Frankfurt
+  VfL Wolfsburg
+  FC Schalke 04
+  Fortuna Düsseldorf
+  FC Augsburg
+  Bor. Mönchengladbach
+  Bayer Leverkusen
+  1. FSV Mainz 05
+  VfB Stuttgart
+  Borussia Dortmund
+  RB Leipzig
+TXT
+
+
+DE2_TEAMS_2018_19 = <<TXT
+  Hamburger SV
+  Holstein Kiel
+  VfL Bochum
+  1. FC Köln
+  Jahn Regensburg
+  FC Ingolstadt 04
+  SpVgg Greuther Fürth
+  SV Sandhausen
+  1. FC Magdeburg
+  FC St. Pauli
+  1. FC Union Berlin
+  Erzgebirge Aue
+  SV Darmstadt 98
+  SC Paderborn 07
+  1. FC Heidenheim 1846
+  Arminia Bielefeld
+  Dynamo Dresden
+  MSV Duisburg
+TXT
+
+end # module Teams
+
+
+#######################
+# regex patterns
 
 SPIELTAG_REGEX = /
                     (?<=\s|^)     # use zero assertion lookbehind
@@ -170,5 +262,12 @@ def self.convert_to_csv( path, outpath, teams:, debug: false )
   CsvMatchWriter.write( outpath, matches )
 end # method self.convert_to_csv
 
+def self.convert_to_txt( path, outpath, teams:, title:, round:, debug: false)
 
-end # class Standard news
+  matches = read( path, teams: teams, debug: debug )
+
+  TxtMatchWriter.write( outpath, matches, title: title, round: round )
+end # method self.convert_to_txt
+
+
+end # class StandardNews

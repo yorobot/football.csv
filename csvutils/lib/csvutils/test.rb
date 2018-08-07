@@ -8,7 +8,7 @@ class CsvUtils
     i = 0
     csv_options = { headers: true,
                     col_sep: sep,
-                    ## todo/fix: always (auto-)add utf-8 external encoding!!!
+                    external_encoding: 'utf-8'  ## note:  always (auto-)add utf-8 external encoding!!!
                    }
 
     CSV.foreach( path, csv_options ) do |row|

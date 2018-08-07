@@ -3,19 +3,11 @@
 
 class CsvUtils
 
-  def self.stat( path, *columns, sep: ',' )
-
-    ## dump headers first (first row with names of columns)
-    headers = CsvUtils.header( path, sep: sep )
-    puts "#{headers.size} headers:"
-    headers.each_with_index do |header,i|
-      puts "  #{i+1}: #{header}"
-    end
-
+  def self.stat( path, *columns, sep: ',', debug: false )
 
     csv_options = { headers: true,
-                    col_sep: sep
-                    ## todo/fix: always (auto-)add utf-8 external encoding!!!
+                    col_sep: sep,
+                    external_encoding: 'utf-8'  ## note:  always (auto-)add utf-8 external encoding!!!
                   }
 
     values = {}
@@ -28,7 +20,7 @@ class CsvUtils
     CSV.foreach( path, csv_options ) do |row|
       i += 1
 
-      pp row    if i == 1
+      pp row    if i == 1 && debug
 
       print '.' if i % 100 == 0
 
@@ -68,8 +60,15 @@ class CsvUtils
     end
 
     puts " #{i} rows"
-    puts "nils/nulls :: empty strings :: na / n/a / undefined :: missing (?):"
-    pp nulls
+    puts
+    puts " nils/nulls :: empty strings :: na / n/a / undefined :: missing (?):"
+    puts "   #{nulls.inspect}"
+    puts
+
+    ## dump headers first (first row with names of columns)
+    headers = header( path, sep: sep, debug: debug )
+    pp_header( headers )  ## pretty print header columns
+    puts
 
     if values.any?
        ## pretty print (pp) / dump unique values for passed in columns
