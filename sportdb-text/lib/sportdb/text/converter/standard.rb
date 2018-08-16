@@ -94,6 +94,78 @@ DE2_TEAMS_2018_19 = <<TXT
   MSV Duisburg
 TXT
 
+
+ENG1_TEAMS_2018_19 = <<TXT
+  Manchester United
+  Leicester City
+  Newcastle United
+  Tottenham Hotspur
+  AFC Bournemouth
+  Cardiff City
+  Fulham FC
+  Crystal Palace
+  Huddersfield Town
+  Chelsea FC
+  Watford FC
+  Brighton & Hove Albion
+  Wolverhampton Wanderers
+  Everton FC
+  Southampton FC
+  Burnley FC
+  Liverpool FC
+  West Ham United
+  Arsenal FC
+  Manchester City
+TXT
+
+
+ES1_TEAMS_2018_19 = <<TXT
+  Girona FC
+  Real Valladolid
+  Betis Sevilla
+  Levante UD
+  Celta Vigo
+  Espanyol Barcelona
+  Villarreal CF
+  Real Sociedad San Sebastian
+  FC Barcelona
+  CD Alavés
+  SD Eibar
+  SD Huesca
+  Rayo Vallecano
+  Sevilla FC
+  Real Madrid
+  Getafe CF
+  Valencia CF
+  Atlético Madrid
+  Athletic Bilbao
+  CD Leganés
+TXT
+
+IT1_TEAMS_2018_19 = <<TXT
+  Chievo Verona
+  Juventus Turin
+  Lazio Rom
+  SSC Neapel
+  FC Turin
+  AS Rom
+  Bologna FC
+  SPAL 2013 Ferrara
+  Empoli FC
+  Cagliari Calcio
+  AC Mailand
+  FC Genua
+  Parma Calcio 1913
+  Udinese Calcio
+  Sampdoria
+  AC Florenz
+  Sassuolo Calcio
+  Inter Mailand
+  Atalanta
+  Frosinone Calcio
+TXT
+
+
 end # module Teams
 
 
@@ -262,11 +334,11 @@ def self.convert_to_csv( path, outpath, teams:, debug: false )
   CsvMatchWriter.write( outpath, matches )
 end # method self.convert_to_csv
 
-def self.convert_to_txt( path, outpath, teams:, title:, round:, debug: false)
+def self.convert_to_txt( path, outpath, teams:, title:, round:, lang: 'en', debug: false)
 
   matches = read( path, teams: teams, debug: debug )
 
-  TxtMatchWriter.write( outpath, matches, title: title, round: round )
+  TxtMatchWriter.write( outpath, matches, title: title, round: round, lang: lang )
 end # method self.convert_to_txt
 
 
