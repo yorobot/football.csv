@@ -42,6 +42,7 @@ FOOTBALLDATA_LEAGUES = {
 FOOTBALLDATA_SOURCES =
 {
   eng: [
+        [ '2018-19', %w(E0 E1 E2 E3 EC) ],
         [ '2017-18', %w(E0 E1 E2 E3 EC) ],
         [ '2016-17', %w(E0 E1 E2 E3 EC) ],
         [ '2015-16', %w(E0 E1 E2 E3 EC) ],
