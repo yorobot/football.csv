@@ -90,7 +90,8 @@ def convert_repo( repo, sources )
 
   in_root  = "./dl/#{repo}"
 
-  out_repo_path = "../../footballcsv"
+  out_repo_path = ".."
+  ## out_repo_path = "../../footballcsv"
   ## out_repo_path = "./o"    ## for debugging / testing
 
 
