@@ -27,6 +27,9 @@ FOOTBALLDATA_SOURCES.each do |k,v|
   end
 end
 
+task :getall => FOOTBALLDATA_SOURCES.keys.map {|key| "get#{key}".to_sym }  do |t|
+end
+
 
 
 def fetch_repo( repo, sources )
