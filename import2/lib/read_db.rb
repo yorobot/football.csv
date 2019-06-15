@@ -85,26 +85,45 @@ LEAGUES = {    ## rename to AUTO or BUILTIN_LEAGUES or QUICK_LEAGUES  - why? why
 }
 
 
-### add league
-def self.find( key )  ## e.g. key = 'en' or 'en.2' etc.
-  ##  en,    English Premier League
-  league = SportDb::Model::League.find_by( key: key )
-  if league.nil?
-     ### check quick built-tin auto-add league data
-     data = LEAGUES[ key.to_sym ]
-     if data.nil?
-       puts "** unknown league for key >#{key}<; sorry - add to LEAGUES table"
-       exit 1
-     end
-
-     name = data
-
-     league = SportDb::Model::League.create!(
+def self.find_or_create( key, name: )   ## use title and not name - why? why not?
+   rec = _find( key )
+   if rec.nil?
+     rec = SportDb::Model::League.create!(
         key:   key,
         title: name,  # e.g. 'English Premier League'
      )
+   end
+   rec
+end
+
+## todo/fix: use find and find!    find! throws exception find return nil!!!
+
+def self._find( key )  ## e.g. key = 'en' or 'en.2' etc.
+  ##  en,    English Premier League
+  league = SportDb::Model::League.find_by( key: key )
+  if league.nil?
+     ### check quick built-in auto-add league data
+     data = LEAGUES[ key.to_sym ]
+     if data
+       name = data
+       league = SportDb::Model::League.create!(
+                   key:   key,
+                   title: name,  # e.g. 'English Premier League'
+                )
+     end
   end
-  pp league
+  league
+end
+
+
+### add league
+def self.find( key )  ## e.g. key = 'en' or 'en.2' etc.
+  ##  en,    English Premier League
+  league = _find( key )
+  if league.nil?
+    puts "** unknown league for key >#{key}<; sorry - add to LEAGUES table"
+    exit 1
+  end
   league
 end
 end # class League

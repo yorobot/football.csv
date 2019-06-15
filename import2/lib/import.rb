@@ -11,6 +11,21 @@
 require_relative 'read_db'
 
 
+def import_matches_txt( path, season:, league:, country: )
+
+  matches_txt = CsvMatchReader.read( path )
+
+  ## note: allow keys (as string) or records
+  season  = SportDb::Importer::Season.find( season )    if season.is_a? String
+  league  = SportDb::Importer::League.find( league )    if league.is_a? String
+  country = SportDb::Importer::Country.find( country )  if country.is_a? String
+
+  update_matches_txt( matches_txt,
+                        season:  season,
+                        league:  league,
+                        country: country )
+end
+
 
 def update_matches_txt( matches_txt, season:, league:, country: )
 
