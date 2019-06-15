@@ -6,6 +6,9 @@
 #
 
 
+### patches - move to sportdb-text
+require_relative 'text'
+
 ###
 # our own code
 require_relative 'read_db'
@@ -82,3 +85,57 @@ def update_matches_txt( matches_txt, season:, league:, country: )
     ## pp match
   end
 end
+
+
+
+class CsvPackage
+
+def import_leagues( start: nil )   ## start - season e.g. 1993/94 to start (skip older seasons)
+  ## note: assume package holds country/national (club) league
+  #  use for importing german bundesliga, english premier league, etc.
+
+  country_key = CountryUtils.key( @name )
+  country = SportDb::Importer::Country.find( country_key )
+
+
+  entries = find_entries_by_season
+
+  entries.each_with_index do |entry,i|
+    puts "season [#{i+1}/#{entries.size}] >#{entry[0]}<:"
+
+    ## todo/fix: use File.basename alreay in find_entries_by_season!!!!!!
+    ##   do NOT return  1990s/1993-94  but just 1993-94 - why? why not?
+    season_basename = File.basename( entry[0] )
+
+    if start && SeasonUtils.start_year( season_basename ) < SeasonUtils.start_year( start )
+      puts "skip #{season_basename} before #{start}"
+      next
+    end
+
+    season_key = SeasonUtils.key( season_basename )
+    season     = SportDb::Importer::Season.find( season_key )
+
+    datafiles = entry[1]
+    datafiles.each_with_index do |datafile,j|
+      puts "league [#{j+1}/#{datafiles.size}] >#{datafile}<:"
+      basename = File.basename( datafile, '.csv' )
+      level = LevelUtils.level( basename )
+      league_key =  level == 1 ? country_key : "#{country_key}.#{level}"
+
+      path = expand_path( datafile )
+      pp [path, season_key, league_key, country_key]
+
+      ## todo/fix:  support divisions!! e.g. 3a,3b etc - more than one league per level - how?
+      ##   used in england
+      league_auto_name = "#{country.name} League Level #{level}"   ## "fallback" auto-generated league name
+      pp league_auto_name
+      league = SportDb::Importer::League.find_or_create( league_key, name: league_auto_name )
+
+      import_matches_txt( path,
+              season:  season,
+              league:  league,
+              country: country )
+    end
+  end
+end
+end  # class CsvPackage
