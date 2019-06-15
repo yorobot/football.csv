@@ -130,9 +130,9 @@ def convert_repo( repo, sources )
                                        country: league_country,
                                        season:  season )
 
-      ## note: for de-deutschland and eng-england
+      ## note: for de-deutschland, eng-england and es-espana
       ##   use long format e.g. 2010s/2011-12 etc
-      if ['de-deutschland', 'eng-england'].include?( repo )
+      if ['de-deutschland', 'eng-england', 'es-espana'].include?( repo )
         out_path = "#{out_root}/#{SeasonUtils.directory(dirname, format: 'long')}/#{league_basename}.csv"
       else
         out_path = "#{out_root}/#{SeasonUtils.directory(dirname)}/#{league_basename}.csv"

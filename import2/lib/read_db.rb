@@ -13,7 +13,8 @@ module SportDb
 
       fr:  ['France',      'FRA'],
       at:  ['Austria',     'AUT'],
-      de:  ['Deutschland', 'DEU'],   ## use fifa code or iso?
+      de:  ['Germany',     'GER'],   ## use fifa code or iso? - using fifa for now
+      es:  ['Spain',       'ESP'],
     }
 
 def self.find( key )   ## e.g. key = 'eng' or 'de' etc.
