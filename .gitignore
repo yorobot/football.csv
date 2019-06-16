@@ -46,3 +46,7 @@ build/
 #####
 ## ignore txt directory for imports
 /txt/
+
+###
+## ignore sportweb directories
+/log/

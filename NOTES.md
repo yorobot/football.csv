@@ -2,6 +2,15 @@
 
 ## Todos
 
+de-deutschland
+
+- [ ]  add a new csv (in-place) updater - double checks results and dates AND updates spieltag /rounds   or half-time results if missing (using ? for missing)
+
+
+all / general
+
+- [ ]  on import flag teams as clubs (!) and NOT the default as national teams
+
 - fix/todo: change all level keys to (always) numbers/integers !!! e.g. 1,2,3, etc.
   - do NOT use strings (anywhere/anymore) !!!
 
