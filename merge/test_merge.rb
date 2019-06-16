@@ -3,6 +3,29 @@
 
 require 'sportdb/text'     ## csv (text) support
 
+
+
+module SeasonHelper ## use Helpers why? why not?
+  def key( basename )
+    ## todo: add 1964-1965 format too!!!
+    if basename =~ /^(\d{4})[\-\/](\d{2})$/    ## season format is  1964-65
+      "#{$1}/#{$2}"
+    elsif  basename =~ /^(\d{4})[\-\/](\d{4})$/   ## e.g. 2011-2012 or 2011/2012 => 2011-12
+      "%4d/%02d" % [$1.to_i, $2.to_i % 100]
+    elsif basename =~ /^(\d{4})$/
+      $1
+    else
+      puts "*** !!!! wrong season format >>#{basename}<<; exit; sorry"
+      exit 1
+    end
+  end  # method key
+end
+
+
+
+
+
+
 ## all bundesliga seasons in a single .csv file e.g.
 ##    Bundesliga_1963_2014.csv
 ##  assumes the following fields/header
@@ -14,34 +37,63 @@ require 'sportdb/text'     ## csv (text) support
 #
 # note: separator is semi-colon (e.g. ;)
 
-in_path = './dl/Bundesliga_2014.csv'
-
-## try a dry test run
-  i = 0
-  CSV.foreach( in_path, headers: true, col_sep: ';' ) do |row|
-    i += 1
-    print '.' if i % 100 == 0
-  end
-  puts " #{i} rows"   #=> 15_548 rows
+in_path = './dl/Bundesliga_1963_2014.csv'
 
 
-## todo/add - start parameter for start with season (skip older seasons)
-def read( path, headers )
+## start parameter for start with season (skip older seasons)
+def read( path, headers, start: nil )
   i = 0
   CSV.foreach( path, headers: true, col_sep: ';' ) do |row|
     i += 1
+    print '.' if i % 100 == 0
     ## break if i == 10
 
     h={}
     headers.each do |k,v|
       h[k]=row[v]
     end
+
+    ## check if start season level present
+    next  if start && SeasonUtils.start_year( h[:season] ) < SeasonUtils.start_year( start )
+
     yield(h) if block_given?
   end
   puts " #{i} rows"   #=> 15_548 rows
 end
 
 
+
+class CsvMatchUpdates
+
+  def initialize( path, format: 'short' )  # short | long
+    @path    = path       ## root package path
+    @format  = format
+    @matches = {}   # cached match lists / datafiles
+  end
+
+  def find_by_season( season, basename )
+    ## todo/fix: use CsvPackage and lookup by season and Level
+    ##  check england  and find a way to deal with for more than one datafile per level!!!
+
+    season_key = SeasonUtils.key( season )   ## unify season key e.g. 2013-2014 => 2013/14
+    path = "#{@path}/#{SeasonUtils.directory( season_key, format: @format)}/#{basename}.csv"
+    matches = @matches[ basename ] ||= {}
+    matches[ season_key ] ||= CsvMatchReader.read( path )
+  end
+
+  def write
+    ## write back changes
+    @matches.each do |basename,seasons|
+      seasons.each do |season_key,matches|
+        path = "#{@path}/#{SeasonUtils.directory( season_key, format: @format)}/#{basename}.csv"
+        CsvMatchWriter.write( path, matches )
+      end
+    end
+  end
+
+
+
+##
 def build_match( h )
   ## todo/check:  warn if team not known/found - why? why not?
   team_mappings = SportDb::Import.config.team_mappings
@@ -116,19 +168,15 @@ def build_match( h )
 end
 
 
-##
-# 2013-2014
-de_2013_14_path = '../de-deutschland/2010s/2013-14/1-bundesliga.csv'
-MATCHES = {}
-MATCHES['2013-14'] = CsvMatchReader.read( de_2013_14_path )
-pp MATCHES
-
-
 def cmp_match( l, r )
    ## compare date and scores
     if l.date != r.date
-      puts "date mismatch!!"
-      return false
+      pp l
+      pp r
+      puts "date mismatch!!  #{l.date} != #{r.date}"
+      ## todo - fix - add to warn log!!!!
+      ## todo - fix date - why? why not?
+      ## return false
     end
     if l.score1 != r.score1 ||
        l.score2 != r.score2
@@ -137,8 +185,19 @@ def cmp_match( l, r )
     end
     if l.score1i != r.score1i ||
        l.score2i != r.score2i
-      puts "scorei mismatch!!"
-      return false
+
+       if r.score1i.nil? && r.score2i.nil?
+         puts "update half-time score (score1i/score2i)"
+          r.update( score1i: l.score1i,
+                    score2i: l.score2i )
+       else
+         pp l
+         pp r
+         puts "scorei mismatch!!  #{l.score1i}-#{l.score2i}  != #{r.score1i}-#{r.score2i}"
+         ## todo - fix - add to warn log!!!!
+         ## todo - fix halftime score - why? why not?
+         ## return false
+       end
     end
     return true
 end
@@ -153,19 +212,20 @@ end
 
 
 
-def update_match( h, season:, level: 1 )
+def update_match( matches, h )
 
   match = build_match( h )
-  pp match
+  ## pp match
 
-  res = find_match( MATCHES['2013-14'], match )
+  res = find_match( matches, match )
   if res.size == 0
     puts "!!! no matching match found"
     exit 1
   elsif res.size == 1
     if cmp_match( match, res.first )
       res.first.update( round: match.round )   ## auto-update round !!
-      pp res.first
+      ## pp res.first
+      puts "updating round #{match.round} - #{match.date} #{match.team1} vs #{match.team2}"
     else
       puts "warn: match mismatch!!! check diff"
       exit 1
@@ -175,9 +235,26 @@ def update_match( h, season:, level: 1 )
     pp res
     exit 1
   end
+end  # method update_matches
+
+
+
+def update_round( h )
+  season = h.delete( :season )
+  basename = h.delete( :basename )   ## e.g. '1-bundesliga'
+  matches = DE.find_by_season( season, basename )
+  update_match( matches, h )
 end
 
+end  # CsvMatchUpdates
 
+
+
+
+
+
+DE = CsvMatchUpdates.new( '../de-deutschland', format: 'long' )
+## pp DE.find_by_season( '2013-2014', '1-bundesliga' )
 
 
 headers = {
@@ -191,13 +268,11 @@ headers = {
     }
 
 
-read( in_path, headers ) do |h|
-  season = h.delete( :season )
-  update_match( h, season: season )
+## 1993-94
+read( in_path, headers, start: '1993-94' ) do |h|
+  h[:basename] = '1-bundesliga'   ## add (required/expected) basename in hash too
+  DE.update_round( h )
 end
 
 
-## __END__
-
-
-CsvMatchWriter.write( de_2013_14_path, MATCHES['2013-14'] )
+DE.write    ## write back all changes
