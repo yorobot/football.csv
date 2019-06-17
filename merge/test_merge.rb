@@ -37,13 +37,14 @@ end
 #
 # note: separator is semi-colon (e.g. ;)
 
-in_path = './dl/Bundesliga_1963_2014.csv'
 
 
 ## start parameter for start with season (skip older seasons)
-def read( path, headers, start: nil )
+def read( path, headers, start: nil, level: nil, col_sep: ',' )
   i = 0
-  CSV.foreach( path, headers: true, col_sep: ';' ) do |row|
+  level = [level]   if level && level.is_a?(Integer)  ## always us an array for levels
+
+  CSV.foreach( path, headers: true, col_sep: col_sep ) do |row|
     i += 1
     print '.' if i % 100 == 0
     ## break if i == 10
@@ -54,7 +55,12 @@ def read( path, headers, start: nil )
     end
 
     ## check if start season level present
-    next  if start && SeasonUtils.start_year( h[:season] ) < SeasonUtils.start_year( start )
+    ##   fix: make start_year work for single-year season too!!!
+    ##    crashes with undefined method `tr' for nil:NilClass (NoMethodError)
+    ## next  if start && SeasonUtils.start_year( h[:season] ) < SeasonUtils.start_year( start )
+    ##    check if start_year returns a string or integer?
+    next  if start && h[:season] < SeasonUtils.start_year( start )
+    next  if level && level.include?( h[:level].to_i ) == false
 
     yield(h) if block_given?
   end
@@ -65,11 +71,22 @@ end
 
 class CsvMatchUpdates
 
+  attr_reader :errors, :count
+
   def initialize( path, format: 'short' )  # short | long
     @path    = path       ## root package path
     @format  = format
     @matches = {}   # cached match lists / datafiles
+
+    @errors  = []
+    @count   = 0
   end
+
+  def reset
+    @errors = []
+    @count  = 0     ## checked matches
+  end
+
 
   def find_by_season( season, basename )
     ## todo/fix: use CsvPackage and lookup by season and Level
@@ -174,6 +191,7 @@ def cmp_match( l, r )
       pp l
       pp r
       puts "date mismatch!!  #{l.date} != #{r.date}"
+      @errors << "date mismatch - is >#{l.date}< expected >#{r.date}< | #{r.team1} vs #{r.team2}"
       ## todo - fix - add to warn log!!!!
       ## todo - fix date - why? why not?
       ## return false
@@ -186,14 +204,17 @@ def cmp_match( l, r )
     if l.score1i != r.score1i ||
        l.score2i != r.score2i
 
-       if r.score1i.nil? && r.score2i.nil?
-         puts "update half-time score (score1i/score2i)"
+       if l.score1i.nil? && l.score2i.nil?
+         ## skip - has no half time (ht) score
+       elsif r.score1i.nil? && r.score2i.nil?
+         puts "(auto-)update half-time score (score1i/score2i)"
           r.update( score1i: l.score1i,
                     score2i: l.score2i )
        else
          pp l
          pp r
-         puts "scorei mismatch!!  #{l.score1i}-#{l.score2i}  != #{r.score1i}-#{r.score2i}"
+         puts "scorei (ht) mismatch!!  #{l.score1i}-#{l.score2i}  != #{r.score1i}-#{r.score2i}"
+         @errors << "scorei (ht) mismatch - is >#{l.score1i}-#{l.score2i}< expected >#{r.score1i}-#{r.score2i}< | #{r.date} #{r.team1} vs #{r.team2}"
          ## todo - fix - add to warn log!!!!
          ## todo - fix halftime score - why? why not?
          ## return false
@@ -212,50 +233,102 @@ end
 
 
 
-def update_match( matches, h )
+
+def on_find_match( matches, h )
 
   match = build_match( h )
-  ## pp match
 
   res = find_match( matches, match )
   if res.size == 0
     puts "!!! no matching match found"
     exit 1
   elsif res.size == 1
-    if cmp_match( match, res.first )
-      res.first.update( round: match.round )   ## auto-update round !!
-      ## pp res.first
-      puts "updating round #{match.round} - #{match.date} #{match.team1} vs #{match.team2}"
-    else
-      puts "warn: match mismatch!!! check diff"
-      exit 1
-    end
+    yield( match, res.first )
   else
     puts "warn: more than one match found - #{res.size} - CANNOT auto-update"
     pp res
     exit 1
   end
-end  # method update_matches
+end  # method on_find_match
+
+
 
 
 
 def update_round( h )
   season = h.delete( :season )
   basename = h.delete( :basename )   ## e.g. '1-bundesliga'
-  matches = DE.find_by_season( season, basename )
-  update_match( matches, h )
+  matches = find_by_season( season, basename )
+  on_find_match( matches, h ) do |l,r|
+    if cmp_match( l, r )
+      r.update( round: l.round )   ## auto-update round !!
+      puts "updating round #{l.round} - #{r.date} #{r.team1} vs #{r.team2}"
+    else
+      puts "warn: match mismatch!!! check diff"
+      exit 1
+    end
+  end
+end
+
+def check( h )
+  season = h.delete( :season )
+  basename = h.delete( :basename )   ## e.g. '1-bundesliga'
+  matches = find_by_season( season, basename )
+  on_find_match( matches, h ) do |l,r|
+    ## note: l-left is the new record
+    ##       r-right is the original (base) record
+    @count += 1
+    if cmp_match( l, r )
+      ## do nothing
+    else
+      puts "warn: match mismatch!!! check diff"
+      exit 1
+    end
+  end
 end
 
 end  # CsvMatchUpdates
 
 
+## "","Date","Season","home","visitor","FT","hgoal","vgoal","division","tier","totgoal","goaldif","result"
+#{# }"1",1888-12-15,1888,"Accrington F.C.","Aston Villa","1-1",1,1,"1",1,2,0,"D"
+
+
+ENG = CsvMatchUpdates.new( '../eng-england', format: 'long' )
+## pp ENG.find_by_season( '2013-2014', '1-premierleague' )
+
+in_path = './dl/engsoccerdata/data-raw/england.csv'
+
+headers = {
+    team1:  'home',
+    team2:  'visitor',
+    date:   'Date',
+    score:  'FT',
+    season: 'Season',
+    level:  'tier'
+    }
+
+
+## 1993-94
+ENG.reset
+read( in_path, headers, start: '2004-05', level: 1 ) do |h|
+  h[:basename] = '1-premierleague'   ## add (required/expected) basename in hash too
+  h[:season]   = "%4d-%02d" % [h[:season].to_i, (h[:season].to_i+1) % 100]    ## fix season
+  ENG.check( h )
+end
+pp ENG.errors
+pp ENG.count
 
 
 
+
+__END__
 
 DE = CsvMatchUpdates.new( '../de-deutschland', format: 'long' )
 ## pp DE.find_by_season( '2013-2014', '1-bundesliga' )
 
+
+in_path = './dl/Bundesliga_1963_2014.csv'
 
 headers = {
     team1:  'Heim',
@@ -269,10 +342,13 @@ headers = {
 
 
 ## 1993-94
-read( in_path, headers, start: '1993-94' ) do |h|
+DE.reset
+read( in_path, headers, start: '1993-94', col_sep: ';' ) do |h|
   h[:basename] = '1-bundesliga'   ## add (required/expected) basename in hash too
-  DE.update_round( h )
+  ## DE.update_round( h )
+  DE.check( h )
 end
+pp DE.errors
+pp DE.count
 
-
-DE.write    ## write back all changes
+## DE.write    ## write back all changes
