@@ -13,6 +13,7 @@ all / general
 
 - fix/todo: change all level keys to (always) numbers/integers !!! e.g. 1,2,3, etc.
   - do NOT use strings (anywhere/anymore) !!!
+  - use division for a string version e.g. "1", "2", "3", "3a", "3b", etc.
 
 - matches.csv format
   - check auto-added week number - add plus one (+1!!!) Jan 2 is week 1 (not 0)
