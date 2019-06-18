@@ -28,7 +28,7 @@ country = SportDb::Importer::Country.find( 'es' )
 season  = SportDb::Importer::Season.find( '2017/18' )
 
 league = SportDb::Importer::League.find_or_create( 'es',
-                                                   name: "#{country.name} League Level 1" )
+                                                   name: "#{country.name} League 1" )
 
 import_matches_txt( '../es-espana/2017-18/1-liga.csv',
         season:  season,
@@ -37,7 +37,7 @@ import_matches_txt( '../es-espana/2017-18/1-liga.csv',
 
 
 league = SportDb::Importer::League.find_or_create( 'es',
-                                                   name: "#{country.name} League Level 2" )
+                                                   name: "#{country.name} League 2" )
 
 import_matches_txt( '../es-espana/2017-18/2-liga2.csv',
         season:  season,

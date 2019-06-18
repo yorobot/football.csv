@@ -22,5 +22,5 @@ SportDb.create_all
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 
-pack = CsvPackage.new( '../sco-scotland' )
+pack = CsvMatchImporter.new( '../sco-scotland' )
 pack.import_leagues

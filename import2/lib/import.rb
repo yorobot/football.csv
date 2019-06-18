@@ -5,10 +5,6 @@
 # todo:  rename importer to import  (use sportdb-import) for (new) gem name !!!
 #
 
-
-### patches - move to sportdb-text
-require_relative 'text'
-
 ###
 # our own code
 require_relative 'read_db'
@@ -88,46 +84,50 @@ end
 
 
 
-class CsvPackage
 
-def import_leagues( start: nil )   ## start - season e.g. 1993/94 to start (skip older seasons)
+class CsvMatchImporter
+
+def initialize( path )
+  @pack = CsvPackage.new( path )
+end
+
+
+def import_leagues( start: nil )
+  ## start - season e.g. 1993/94 to start (skip older seasons)
   ## note: assume package holds country/national (club) league
   #  use for importing german bundesliga, english premier league, etc.
 
-  country_key = CountryUtils.key( @name )
+  country_key = CountryUtils.key( @pack.name )
   country = SportDb::Importer::Country.find( country_key )
 
 
-  entries = find_entries_by_season
+  entries = @pack.find_entries_by_season_n_division
 
-  entries.each_with_index do |entry,i|
-    puts "season [#{i+1}/#{entries.size}] >#{entry[0]}<:"
+  entries.each_with_index do |(season_key, divisions),i|
+    puts "season [#{i+1}/#{entries.size}] >#{season_key}<:"
 
-    ## todo/fix: use File.basename alreay in find_entries_by_season!!!!!!
-    ##   do NOT return  1990s/1993-94  but just 1993-94 - why? why not?
-    season_basename = File.basename( entry[0] )
-
-    if start && SeasonUtils.start_year( season_basename ) < SeasonUtils.start_year( start )
-      puts "skip #{season_basename} before #{start}"
+    if start && SeasonUtils.start_year( season_key ) < SeasonUtils.start_year( start )
+      puts "skip #{season_key} before #{start}"
       next
     end
 
-    season_key = SeasonUtils.key( season_basename )
     season     = SportDb::Importer::Season.find( season_key )
 
-    datafiles = entry[1]
-    datafiles.each_with_index do |datafile,j|
-      puts "league [#{j+1}/#{datafiles.size}] >#{datafile}<:"
-      basename = File.basename( datafile, '.csv' )
-      level = LevelUtils.level( basename )
-      league_key =  level == 1 ? country_key : "#{country_key}.#{level}"
+    divisions.each_with_index do |(division_key, datafile),j|
+      puts "league [#{j+1}/#{divisions.size}] >#{datafile}<:"
+      ## todo/fix: check for divsion_key is unknown e.g. ? and report error and exit!!
+      ## todo/fix: check for eng special case (and convert to en for league key) why? why not?
+      level = division_key.to_i
+      league_key =  if level == 1
+                       country_key
+                    else
+                       "#{country_key}.#{division_key}"
+                    end
 
-      path = expand_path( datafile )
+      path = @pack.expand_path( datafile )
       pp [path, season_key, league_key, country_key]
 
-      ## todo/fix:  support divisions!! e.g. 3a,3b etc - more than one league per level - how?
-      ##   used in england
-      league_auto_name = "#{country.name} League Level #{level}"   ## "fallback" auto-generated league name
+      league_auto_name = "#{country.name} League #{division_key}"   ## "fallback" auto-generated league name
       pp league_auto_name
       league = SportDb::Importer::League.find_or_create( league_key, name: league_auto_name )
 
@@ -138,4 +138,4 @@ def import_leagues( start: nil )   ## start - season e.g. 1993/94 to start (skip
     end
   end
 end
-end  # class CsvPackage
+end  # class CsvMatchImporter
