@@ -30,7 +30,7 @@ season  = SportDb::Importer::Season.find( '2017/18' )
 league = SportDb::Importer::League.find_or_create( 'es',
                                                    name: "#{country.name} League 1" )
 
-import_matches_txt( '../es-espana/2017-18/1-liga.csv',
+import_matches_txt( '../espana/2010s/2017-18/es.1.csv',
         season:  season,
         league:  league,
         country: country )
@@ -39,7 +39,7 @@ import_matches_txt( '../es-espana/2017-18/1-liga.csv',
 league = SportDb::Importer::League.find_or_create( 'es',
                                                    name: "#{country.name} League 2" )
 
-import_matches_txt( '../es-espana/2017-18/2-liga2.csv',
+import_matches_txt( '../espana/2010s/2017-18/es.2.csv',
         season:  season,
         league:  league,
         country: country )
@@ -47,12 +47,12 @@ import_matches_txt( '../es-espana/2017-18/2-liga2.csv',
 
 __END__
 
-import_matches_txt( '../sco-scotland/2018-19/1-premiership.csv',
+import_matches_txt( '../scotland/2018-19/sco.1.csv',
         season:  '2018/19',
         league:  'sco',   ## use sco.1 - for ??
         country: 'sco' )
 
-import_matches_txt( '../sco-scotland/2017-18/1-premiership.csv',
+import_matches_txt( '../scotland/2017-18/sco.1.csv',
         season:  '2017/18',
         league:  'sco',   ## use sco.1 - for ??
         country: 'sco' )

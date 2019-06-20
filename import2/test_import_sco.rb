@@ -21,6 +21,9 @@ SportDb.create_all
 ## turn on logging to console
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+## pack = CsvPackage.new( '../scotland' )
+## pp pack.find_entries_by_season_n_division
 
-pack = CsvMatchImporter.new( '../sco-scotland' )
+
+pack = CsvMatchImporter.new( '../scotland' )
 pack.import_leagues

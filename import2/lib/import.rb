@@ -67,18 +67,22 @@ def update_matches_txt( matches_txt, season:, league:, country: )
     team1 = teams_mapping[match_txt.team1]
     team2 = teams_mapping[match_txt.team2]
 
-    match = SportDb::Model::Game.create!(
-      team1_id: team1.id,
-      team2_id: team2.id,
-      round_id: round.id,
-      pos:      999,    ## make optional why? why not? - change to num?
-      play_at:  Date.strptime( match_txt.date, '%Y-%m-%d' ),
-      score1:   match_txt.score1,
-      score2:   match_txt.score2,
-      score1i:  match_txt.score1i,
-      score2i:  match_txt.score2i,
-    )
-    ## pp match
+    if match_txt.date.nil?
+      puts "!!! skipping match - play date missing!!!!!"
+      pp match_txt
+    else
+      match = SportDb::Model::Game.create!(
+        team1_id: team1.id,
+        team2_id: team2.id,
+        round_id: round.id,
+        pos:      999,    ## make optional why? why not? - change to num?
+        play_at:  Date.strptime( match_txt.date, '%Y-%m-%d' ),
+        score1:   match_txt.score1,
+        score2:   match_txt.score2,
+        score1i:  match_txt.score1i,
+        score2i:  match_txt.score2i,
+      )
+    end
   end
 end
 
@@ -97,11 +101,8 @@ def import_leagues( start: nil )
   ## note: assume package holds country/national (club) league
   #  use for importing german bundesliga, english premier league, etc.
 
-  country_key = CountryUtils.key( @pack.name )
-  country = SportDb::Importer::Country.find( country_key )
-
-
   entries = @pack.find_entries_by_season_n_division
+  pp entries
 
   entries.each_with_index do |(season_key, divisions),i|
     puts "season [#{i+1}/#{entries.size}] >#{season_key}<:"
@@ -115,6 +116,18 @@ def import_leagues( start: nil )
 
     divisions.each_with_index do |(division_key, datafile),j|
       puts "league [#{j+1}/#{divisions.size}] >#{datafile}<:"
+
+      basename = File.basename( datafile, '.csv' )
+      ## get country code
+      m = /^([a-z]{2,3})\./.match( basename )   ## e.g. eng.1, de.1, etc.
+      if m
+        country_key = m[1]
+      else
+        puts "!! country key expected in datafile base e.g. eng.1, de.1, etc."
+        exit 1
+      end
+      country = SportDb::Importer::Country.find( country_key )
+
       ## todo/fix: check for divsion_key is unknown e.g. ? and report error and exit!!
       ## todo/fix: check for eng special case (and convert to en for league key) why? why not?
       level = division_key.to_i
@@ -123,6 +136,7 @@ def import_leagues( start: nil )
                     else
                        "#{country_key}.#{division_key}"
                     end
+
 
       path = @pack.expand_path( datafile )
       pp [path, season_key, league_key, country_key]

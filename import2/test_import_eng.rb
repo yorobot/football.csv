@@ -21,6 +21,11 @@ SportDb.create_all
 ## turn on logging to console
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+pack = CsvMatchImporter.new( '../england' )
+pack.import_leagues
+
+
+__END__
 
 =begin
 league [1/4] >1930s/1939-40/1-division1.csv<:
@@ -41,13 +46,7 @@ season  = SportDb::Importer::Season.find( '1939/40' )
 league = SportDb::Importer::League.find_or_create( 'eng',
                                                    name: "#{country.name} League 1" )
 
-import_matches_txt( '../eng-england/1930s/1939-40/1-division1.csv',
+import_matches_txt( '../england/1930s/1939-40/eng.1.csv',
         season:  season,
         league:  league,
         country: country )
-
-
-
-__END__
-pack = CsvMatchImporter.new( '../eng-england' )
-pack.import_leagues

@@ -2,7 +2,10 @@
 
 ## Todos
 
-de-deutschland
+- [ ] remove CountryUtils.key from sportdb-text - no longer used? - why? why not?
+
+
+deutschland
 
 - [ ]  add a new csv (in-place) updater - double checks results and dates AND updates spieltag /rounds   or half-time results if missing (using ? for missing)
 

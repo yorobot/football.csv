@@ -10,7 +10,7 @@ require_relative 'lib/import'     ## will become sportdb/import - why? why not?
 
 
 database = ':memory:'
-## database = './sco.db'
+## database = './es.db'
 ## database = './top.db'
 
 
@@ -24,5 +24,5 @@ SportDb.create_all
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 
-pack = CsvPackage.new( '../es-espana' )
+pack = CsvPackage.new( '../espana' )
 pack.import_leagues( start: '1993/94' )   ## skip seasons before 1993/94
