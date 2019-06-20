@@ -1,11 +1,7 @@
 # encoding: utf-8
 
+require 'sportdb/import'
 
-require 'sportdb/text'     ## csv (text) support
-require 'sportdb/models'   ## db (sql) support
-
-
-require_relative 'lib/import'     ## will become sportdb/import - why? why not?
 
 database = ':memory:'
 ## database = './eng.db'

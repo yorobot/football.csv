@@ -1,11 +1,6 @@
 # encoding: utf-8
 
-
-require 'sportdb/text'     ## csv (text) support
-require 'sportdb/models'   ## db (sql) support
-
-
-require_relative 'lib/import'     ## will become sportdb/import - why? why not?
+require 'sportdb/import'
 
 
 
@@ -24,5 +19,6 @@ SportDb.create_all
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 
-pack = CsvPackage.new( '../espana' )
+
+pack = CsvMatchImporter.new( '../espana' )
 pack.import_leagues( start: '1993/94' )   ## skip seasons before 1993/94

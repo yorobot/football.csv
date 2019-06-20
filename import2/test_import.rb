@@ -1,11 +1,6 @@
 # encoding: utf-8
 
-
-require 'sportdb/text'     ## csv (text) support
-require 'sportdb/models'   ## db (sql) support
-
-
-require_relative 'lib/import'     ## will become sportdb/import - why? why not?
+require 'sportdb/import'
 
 
 
@@ -24,7 +19,7 @@ SportDb.create_all
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 
-country = SportDb::Importer::Country.find( 'es' )
+country = SportDb::Importer::Country.find!( 'es' )
 season  = SportDb::Importer::Season.find( '2017/18' )
 
 league = SportDb::Importer::League.find_or_create( 'es',
