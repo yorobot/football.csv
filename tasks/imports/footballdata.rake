@@ -27,7 +27,26 @@ FOOTBALLDATA_SOURCES.each do |k,v|
   end
 end
 
+## note: define tasks for all countries
+FOOTBALLDATA_SOURCES_II.each do |k,basename|
+  country_code    = k
+
+  ## step 1: fetch (download) datasets
+  task "get#{country_code}".to_sym do |t|
+    fetch_repo_ii( basename )
+  end
+
+  ## step 2: convert datasets
+  task country_code do |t|
+    convert_repo_ii( basename )
+  end
+end
+
+
 task :getall => FOOTBALLDATA_SOURCES.keys.map {|key| "get#{key}".to_sym }  do |t|
+end
+
+task :getall_ii => FOOTBALLDATA_SOURCES_II.keys.map {|key| "get#{key}".to_sym }  do |t|
 end
 
 
@@ -81,6 +100,40 @@ def fetch_repo( repo, sources )
       end
 
     end
+  end
+end
+
+
+def fetch_repo_ii( basename )
+  in_base  = "http://www.football-data.co.uk/new"
+  out_root = "./dl"
+
+  in_url = "#{in_base}/#{basename}.csv"
+  out_path = "#{out_root}/#{basename}.csv"
+
+  puts " in_url: >>#{in_url}<<, out_path: >>#{out_path}<<"
+
+  ## make sure parent folders exist
+  FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
+
+  worker = Fetcher::Worker.new
+  response = worker.get( in_url )
+
+  if response.code == '200'
+    txt = response.body
+    txt = txt.force_encoding( 'ISO-8859-1' )
+    txt = txt.encode( 'UTF-8' )
+
+    ## fix: newlines - always use "unix" style"
+    txt = txt.gsub( "\r\n", "\n" )
+
+    ## todo/fix: for txt encoding to utf-8 - why? why not?
+    File.open( out_path, 'w:utf-8' ) do |out|
+          out.write txt
+    end
+  else
+    puts " *** !!!! HTTP error #{response.code} - #{resonse.message}"
+    exit 1
   end
 end
 

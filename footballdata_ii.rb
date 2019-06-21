@@ -34,20 +34,3 @@ FOOTBALLDATA_SOURCES_II =
    ch: 'SWZ',  # Switzerland Football Results - Super League
    us: 'USA',  # USA Football Results  - MLS
 }
-
-## todo: add (auto-) download script
-
-## note: define tasks for all countries
-FOOTBALLDATA_SOURCES_II.each do |k,basename|
-  country_code    = k
-
-  ## step 1: fetch (download) datasets
-  task "get#{country_code}".to_sym do |t|
-    fetch_repo_ii( country_path, basename )
-  end
-
-  ## step 2: convert datasets
-  task country_code do |t|
-    convert_repo_ii( country_path, basename )
-  end
-end

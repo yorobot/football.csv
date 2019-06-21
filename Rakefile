@@ -4,15 +4,16 @@
 require 'fetcher'
 
 
-require_relative 'import/lib/read'
-
+require 'sportdb/text'
+##  add sportdb/import too ?
 
 
 ### our own code
 
 require './repos'
-require './footballdata'
 
+require './footballdata'
+require './footballdata_ii'
 
 
 ############################################
