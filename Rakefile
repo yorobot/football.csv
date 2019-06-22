@@ -1,19 +1,18 @@
 # encoding: utf-8
 
-# 3rd party gems
-require 'fetcher'
 
+## note: use the local version of sportdb-source gem
+$LOAD_PATH.unshift( File.expand_path( './sportdb-source/lib') )
 
-require 'sportdb/text'
+require 'sportdb/source'
+
 ##  add sportdb/import too ?
 
 
 ### our own code
 
-require './repos'
 
-require './footballdata'
-require './footballdata_ii'
+require './repos'
 
 
 ############################################

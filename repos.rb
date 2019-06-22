@@ -1,15 +1,18 @@
 # encoding: utf-8
 
+
+### todo: move to sportdb-config - why? why not?
+
 COUNTRY_REPOS = {
-  eng:  'eng-england',   ## use en for key - why? why not?
-  es:   'es-espana',
-  de:   'de-deutschland',
-  fr:   'fr-france',
-  it:   'it-italy',
-  sco:  'sco-scotland',
-  nl:   'nl-netherlands',
-  be:   'be-belgium',
-  pt:   'pt-portugal',
-  tr:   'tr-turkey',
-  gr:   'gr-greece',
+  eng:  'england',   ## use en for key - why? why not?
+  es:   'espana',
+  de:   'deutschland',
+  fr:   'france',
+  it:   'italy',
+  sco:  'scotland',
+  nl:   'netherlands',
+  be:   'belgium',
+  pt:   'portugal',
+  tr:   'turkey',
+  gr:   'greece',
 }

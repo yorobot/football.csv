@@ -1,3 +1,4 @@
+# encoding: utf-8
 
 ## all seasons in-one-file datasets
 FOOTBALLDATA_SOURCES_II =
