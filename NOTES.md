@@ -26,3 +26,17 @@ all / general
 
 - add option for adjusting date (w/ hour) by timezone (offset)
   - see mx-mexico !!! (uses UTC by default e.g. 1:00am, 23:00, etc. ??)
+
+
+
+## Argentina
+
+has "mixed" seasons - switching between formats
+
+FIX: do NOT auto-convert single-year season EVER to double-year season!!!
+
+```
+2012–13 2013–14 2014 2015 2016 2016–17 2017–18 2018–19 2019–20
+```
+see https://en.wikipedia.org/wiki/Template:Argentine_Primera_Divisi%C3%B3n
+andd https://en.wikipedia.org/wiki/Argentine_Primera_Divisi%C3%B3n#History
