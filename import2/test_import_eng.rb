@@ -17,6 +17,9 @@ SportDb.create_all
 ## turn on logging to console
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+
+SportDb::Import.config.clubs_dir = '../../openfootball/clubs'
+
 pack = CsvMatchImporter.new( '../england' )
 pack.import_leagues
 
