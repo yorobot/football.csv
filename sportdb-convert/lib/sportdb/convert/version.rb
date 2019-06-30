@@ -2,7 +2,7 @@
 
 
 module SportDb
-module Source
+module Convert
 
   MAJOR = 0    ## todo: namespace inside version or something - why? why not??
   MINOR = 0
@@ -14,7 +14,7 @@ module Source
   end
 
   def self.banner
-    "sportdb-source/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "sportdb-convert/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
   def self.root

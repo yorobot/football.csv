@@ -1,7 +1,10 @@
 # encoding: utf-8
 
 
-require_relative 'lib/read'
+## note: use the local version of sportdb-convert gem
+$LOAD_PATH.unshift( File.expand_path( './sportdb-convert/lib') )
+
+require 'sportdb/convert'
 
 
 include StandardNews::Teams   ## add built-in team constants
