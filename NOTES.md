@@ -40,3 +40,43 @@ FIX: do NOT auto-convert single-year season EVER to double-year season!!!
 ```
 see https://en.wikipedia.org/wiki/Template:Argentine_Primera_Divisi%C3%B3n
 andd https://en.wikipedia.org/wiki/Argentine_Primera_Divisi%C3%B3n#History
+
+
+
+##  Kicker 
+
+Try double check / download match schedule
+
+```
+require 'nokogiri'
+
+html = File.open( './at.html', 'r:utf8' ) { |f| f.read }
+
+doc = Nokogiri::HTML( html )
+
+https://www.kicker.de/eredivisie/spieltag/2019-20/-1                 ## nl
+https://www.kicker.de/barclays-premier-league/spieltag/2019-20/-1    ## eng
+https://www.kicker.de/liga-bbva/spieltag/2019-20/-1                  ## es
+https://www.kicker.de/tipp3-bundesliga/spieltag/2019-20/-1           ## at
+https://www.kicker.de/1-bundesliga/spieltag/2019-20/-1               ## de
+
+
+##################################################################
+- search for div with class="kick__v100-gameList"
+   - h3 1. Spieltag
+   - div class="kick__v100-gameList__gameRow__gameCell"
+
+     <a class="kick__v100-gameCell__team
+      <div class="kick__v100-gameCell__team__name">Rapid Wien</div>
+      <div class="kick__v100-gameCell__team__shortname">Rapid Wien</div>
+
+     <div class="kick__dateboard">
+        <div class="kick__v100-scoreBoard__dateHolder">26.07.</div>
+        <div class="kick__v100-scoreBoard__dateHolder">20:45</div>
+     </div>
+
+     <a class="kick__v100-gameCell__team
+       <div class="kick__v100-gameCell__team__name">RB Salzburg</div>
+       <div class="kick__v100-gameCell__team__shortname">Salzburg</div>
+```
+
