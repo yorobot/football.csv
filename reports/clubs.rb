@@ -15,26 +15,25 @@ def build   ## todo/check: always use render as name - why? why not?
   buf = ''
   buf << "#{@teams.size} clubs"
   buf << "\n\n"
-  buf << "```\n"
 
   @teams.each do |team|
        alt_team_names =  team.alt_names
 
-       buf << ('%-26s  ' % team.name)
+       buf << "- **#{team.name}**"
        if alt_team_names.nil?
          ## do (print) nothing
        elsif alt_team_names.size == 1
-         buf << "=> #{alt_team_names[0]}"
+         buf << " : (1) #{alt_team_names[0]}"
        elsif alt_team_names.size > 1
          ## sort by length (smallest first)
          alt_team_names_sorted = alt_team_names.sort { |l,r| l.length <=> r.length }
-         buf << "=> (#{alt_team_names.size}) #{alt_team_names_sorted.join(' • ')}"
+         buf << " : (#{alt_team_names.size}) #{alt_team_names_sorted.join(' • ')}"
        else
          ## canonical name is mapping name - do not repeat/print for now
        end
     buf << "\n"
   end
-  buf << "```\n\n"
+  buf << "\n\n"
 
   buf
 end  # method build
@@ -120,11 +119,110 @@ alias_method :render, :build
 end  # class TeamsByCityPart
 
 
+class TeamsByYearPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+def build     ## todo/check: always use render as name - why? why not?
+  years = {}             ## by founding year
+  historic_years = {}    ## by shutdown / closing year  -- todo: rename historic to __ - why? why not?
+
+
+   ###
+   ## todo/fix: check if name includes (-2011) or (1889-1897) for historic date!!!
+   ##   todo/fix: move regex year match to team reader itself!!!
+
+  @teams.each do |team|
+    team_year = (team.year || '?').to_s       ## note: always use a string as key for now (thus, to_s) - convert nil to ?
+    team_year_end = nil
+
+    if     team.name =~ /\(([0-9]{4})-\)/            ## e.g. (2014-)
+      team_year     = $1
+    elsif  team.name =~ /\(-([0-9]{4})\)/            ## e.g. (-2014)
+      team_year_end = $1
+    elsif  team.name =~ /\(([0-9]{4})-([0-9]{4})\)/  ## e.g. (2011-2014)
+      team_year     = $1
+      team_year_end = $2
+    else
+      # do nothing
+    end
+
+    if team_year_end
+      historic_years[team_year_end] ||= []
+      historic_years[team_year_end] << team
+    end
+
+    years[team_year] ||= []
+    years[team_year] << team
+  end
+
+
+  buf = ''
+
+  ## sort years by oldest first (chronologicial)
+  ##   todo/fix: exlude special key x and ? - why? why not?
+  sorted_years = years.to_a.sort do |l,r|
+     res = l[0] <=> r[0]
+     res
+  end
+
+  buf << build_teams( sorted_years )
+  buf << "\n\n"
+
+  if historic_years.size > 0
+    sorted_years = historic_years.to_a.sort do |l,r|
+       res = l[0] <=> r[0]
+       res
+    end
+
+    buf << "Historic\n\n"
+    buf << build_teams( sorted_years )
+    buf << "\n\n"
+  end
+
+  buf
+end  # method build
+
+
+private
+def build_teams( sorted_years )
+  buf = ''
+  sorted_years.each do |year_rec|
+    year   = year_rec[0]  # year name/key
+    teams  = year_rec[1]  # teams for year
+
+      if year == '?'
+        buf << "- #{year}"
+      else
+        buf << "- **#{year}**"
+      end
+
+      buf << " (#{teams.size})"
+      buf << ": "
+
+      team_names = teams.map { |team| team.name }
+      buf << "  #{team_names.join(' • ')}"
+      buf << "\n"
+  end
+
+  buf << "\n\n"
+  buf
+end
+
+alias_method :render, :build
+
+end  # class TeamsByYearPart
+
+
 
 ##
 ##  todo/fix:  pass in path to cut-off root-path from datafile
 ##   e.g.  south-america/ar-argentina/clubs.txt
 ##            becomes   /ar-argentina/clubs.txt
+##       or pass in hierarchy (directory) walk(ing) level e.g. 1,2
+##                  and cut-off dirs if level greater than 1 (base/start level)
 class TeamDatafilePart
 
 def initialize( teams_list )
@@ -144,7 +242,7 @@ def build   ## todo/check: always use render as name - why? why not?
      teams          = teams_item[1]
 
      buf << "**#{teams_datafile}**"
-     buf << " _(#{teams.size})_"
+     buf << " _(#{teams.size})_:"
 
      team_names = teams.map { |team| team.name }
      buf << "  #{team_names.join(' • ')}"
@@ -175,6 +273,15 @@ def walk( path )
 end
 
 
+## e.g.  /clubs.txt   or
+##       /at.clubs.txt, /eng.clubs.txt, etc.
+
+CLUBS_REGEX =  /^(?:
+                  clubs\.txt
+                    |
+                  [a-z]{2,3}\.clubs\.txt
+                 )$/x
+
 def walk_dir( path, root_path:, level: )
 
    entries = Dir.entries( path )
@@ -194,7 +301,7 @@ def walk_dir( path, root_path:, level: )
        puts "   #{level} walking #{entry_path_rel}... "
        teams_list += walk_dir( entry_path, root_path: root_path, level: level+1 )
      else
-       if ['clubs.txt'].include?( name )
+       if CLUBS_REGEX =~ name
           files << entry_path_rel
        end
      end
@@ -216,7 +323,11 @@ def walk_dir( path, root_path:, level: )
 
        buf  = TeamIndexer::TeamMappingsPart.new( teams ).build
        buf << "\n\n"
+       buf << "By City\n\n"
        buf << TeamIndexer::TeamsByCityPart.new( teams ).build
+       buf << "\n\n"
+       buf << "By Year\n\n"
+       buf << TeamIndexer::TeamsByYearPart.new( teams ).build
 
 
        report_path = "#{root_path}/#{File.dirname(file)}/README.md"
