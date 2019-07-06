@@ -44,6 +44,83 @@ alias_method :render, :build
 end # class TeamMappingsPart
 
 
+class TeamAtozPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+def build   ## todo/check: always use render as name - why? why not?
+  names = {}   ## count name usage
+
+  @teams.each do |team|
+    names[ team.name ] ||= []
+    names[ team.name ] << team
+
+    if team.alt_names
+      team.alt_names.each do |team_alt_name|
+
+        if team_alt_name.strip == ""     ## use .empty? why? why not?
+          ## #<SportDb::Import::TeamReader::Team:0x31f1520
+          #  @alt_names=["Galatasaray", "", "Galatasaray Istanbul"],
+          # @city="\u0130stanbul",
+          # @name="Galatasaray \u0130stanbul A\u015E">
+          puts "empty alt name >#{team_alt_name}<; please fix - sorry:"
+          pp team
+          ## exit 1
+          next
+        end
+        names[ team_alt_name ] ||= []
+        names[ team_alt_name ] << team
+      end
+    end
+  end
+
+
+  alphas = {}
+  names.each do |name, teams|
+    ## todo - mark/check name if canoncial (print bold or something - why? why not?)
+    alphas[ name[0] ] ||= []
+    alphas[ name[0] ] <<  if teams.size > 1
+                              "#{name} (#{teams.size})"
+                          else
+                              name
+                          end
+  end
+
+
+  buf = ''
+
+  ## pp alphas
+  sorted_alphas = alphas.to_a.sort do |l,r|
+     res = l[0] <=> r[0]
+     res
+  end
+
+
+  sorted_alphas.each do |alpha_rec|
+    alpha = alpha_rec[0]
+    names = alpha_rec[1]
+
+    buf << "- **#{alpha}**"
+
+    buf << " (#{names.size})"
+    buf << ": "
+    ##  todo/fix:  sort names by a-z  - why? why not?
+    buf << "#{names.join(' • ')}"
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end # class TeamAtozPart
+
+
+
 class TeamsByCityPart
 
 def initialize( teams )
@@ -117,6 +194,61 @@ end  # method build
 alias_method :render, :build
 
 end  # class TeamsByCityPart
+
+
+class TeamsByGeoPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+def build     ## todo/check: always use render as name - why? why not?
+  geos = {}
+
+  @teams.each do |team|
+    if team.city
+      ## split into geo tree
+      values = team.city.split( /[<>‹›]/ )   ## note: allow > < or › ‹
+      values = values.map { |value| value.strip }   ## remove all whitespaces
+
+      if values.size > 1
+        team_geos = values[1..-1]
+
+        ## todo/fix: report all teams with missing geo tree? why? why not?
+        ##   report just number of missing teams or enumarate all teams with missing geo tree?
+        geos[ team_geos[0] ] ||= []
+        geos[ team_geos[0] ] << team
+      end
+    end
+  end
+
+
+  buf = ''
+
+  geos.each do |geo, teams|
+      if geo == '?'
+        buf << "- #{geo}"
+      else
+        buf << "- **#{geo}**"
+      end
+
+      buf << " (#{teams.size})"
+      buf << ": "
+
+      team_names = teams.map { |team| team.name }
+      buf << "  #{team_names.join(' • ')}"
+      buf << "\n"
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end  # class TeamsByGeoPart
+
+
 
 
 class TeamsByYearPart
@@ -326,13 +458,20 @@ def walk_dir( path, root_path:, level: )
        buf << "By City\n\n"
        buf << TeamIndexer::TeamsByCityPart.new( teams ).build
        buf << "\n\n"
+       buf << "By Region\n\n"
+       buf << TeamIndexer::TeamsByGeoPart.new( teams ).build
+       buf << "\n\n"
        buf << "By Year\n\n"
        buf << TeamIndexer::TeamsByYearPart.new( teams ).build
-
+       buf << "\n\n"
+       buf << "By A to Z\n\n"
+       buf << TeamIndexer::TeamAtozPart.new( teams ).build
+       buf << "\n\n"
 
        report_path = "#{root_path}/#{File.dirname(file)}/README.md"
        puts "   !! writing report (teams) to >#{report_path}<..."
        File.open( report_path, 'w:utf8' ) { |f| f.write buf }
+       ## fix: /reports/clubs.rb:460: warning: Unsupported encoding utf8 ignored
      end
    else
      puts "   process summary #{teams_list.size} datafiles in level #{level} >#{path}<:"
