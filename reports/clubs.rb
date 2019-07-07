@@ -139,7 +139,16 @@ def build     ## todo/check: always use render as name - why? why not?
   cities        = {}
 
   @teams.each do |team|
-    team_city = team.city || '?'    ## convert nil to ?
+    ##  note: add geo tree
+    team_city =  if team.city
+                    if team.geos
+                      "#{team.city}, #{team.geos.join(' › ')}"
+                    else
+                      team.city
+                    end
+                 else
+                   '?'    ## convert nil to '?'
+                 end
     cities[team_city] ||= []
     cities[team_city] << team
   end
@@ -162,8 +171,8 @@ def build     ## todo/check: always use render as name - why? why not?
 
 
   sorted_cities.each do |city_rec|
-    city = city_rec[0]  # city name/key
-    v    = city_rec[1]  # teams for city
+    city  = city_rec[0]  # city name/key
+    teams = city_rec[1]  # teams for city
 
       if city == '?'
         buf << "- #{city}"
@@ -171,11 +180,11 @@ def build     ## todo/check: always use render as name - why? why not?
         buf << "- **#{city}**"
       end
 
-      buf << " (#{v.size})"
+      buf << " (#{teams.size})"
       buf << ": "
 
-      if v.size == 1
-        t = v[0]
+      if teams.size == 1
+        t = teams[0]
         buf << "#{t.name} "
         if t.alt_names && t.alt_names.size > 0
             ##  todo/fix:
@@ -187,8 +196,11 @@ def build     ## todo/check: always use render as name - why? why not?
       else
         ## buf << v.map { |t| t.name }.join( ', ')  ## print all canonical team names
         buf << "\n"
-        v.each do |t|
-          buf << "  - #{t.name} "
+        teams.each do |t|
+          ## note: markdown needs to escape leading number with backslash!!
+          ##            e.g. 1. => 1\.   - escape list marker
+          buf << "  - #{escape_list_marker(t.name)} "
+
           if t.alt_names && t.alt_names.size > 0
             ##  todo/fix:
             ##    add check for matching city name !!!!
@@ -203,6 +215,16 @@ def build     ## todo/check: always use render as name - why? why not?
   buf << "\n\n"
   buf
 end  # method build
+
+private
+## private helper to escape list item text if starting with 1. or something
+def escape_list_marker( text )
+  ## escape numbered list marker
+  ##     e.g. 1. => 1\.
+  text.sub( /^([0-9]{1,})\./ ) do |_|
+    "#{$1}\\."
+  end
+end
 
 alias_method :render, :build
 
@@ -223,20 +245,18 @@ def build     ## todo/check: always use render as name - why? why not?
 
   @teams.each do |team|
     if team.city
-      ## split into geo tree
-      values = team.city.split( /[<>‹›]/ )   ## note: allow > < or › ‹
-      values = values.map { |value| value.strip }   ## remove all whitespaces
-
-      if values.size > 1
+      if team.geos
         ## cut-off city and keep the rest (of geo tree)
-        team_geos = values[1..-1].join( ' › ' )
+        team_geos = team.geos.join( ' › ' )
 
         geos[ team_geos ] ||= []
         geos[ team_geos ] << team
       else
         ## use city name / assume city is also admin e.g. Berlin == Berlin › Berlin
-        geos[ team.city ] ||= []
-        geos[ team.city ] << team
+        ##  note: mark cities with dagger symbol (†) for now
+        team_city = "#{team.city}†"
+        geos[ team_city ] ||= []
+        geos[ team_city ] << team
       end
     end
   end
@@ -281,25 +301,14 @@ def build     ## todo/check: always use render as name - why? why not?
    ##   todo/fix: move regex year match to team reader itself!!!
 
   @teams.each do |team|
-    team_year = (team.year || '?').to_s       ## note: always use a string as key for now (thus, to_s) - convert nil to ?
-    team_year_end = nil
-
-    if     team.name =~ /\(([0-9]{4})-\)/            ## e.g. (2014-)
-      team_year     = $1
-    elsif  team.name =~ /\(-([0-9]{4})\)/            ## e.g. (-2014)
-      team_year_end = $1
-    elsif  team.name =~ /\(([0-9]{4})-([0-9]{4})\)/  ## e.g. (2011-2014)
-      team_year     = $1
-      team_year_end = $2
-    else
-      # do nothing
-    end
-
-    if team_year_end
+    ## note: always use a string as key for now (thus, to_s) - convert nil to ?
+    if team.year_end
+      team_year_end = team.year_end.to_s
       historic_years[team_year_end] ||= []
       historic_years[team_year_end] << team
     end
 
+    team_year = (team.year || '?').to_s
     years[team_year] ||= []
     years[team_year] << team
   end
