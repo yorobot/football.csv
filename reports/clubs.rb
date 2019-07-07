@@ -61,14 +61,10 @@ def build   ## todo/check: always use render as name - why? why not?
       team.alt_names.each do |team_alt_name|
 
         if team_alt_name.strip == ""     ## use .empty? why? why not?
-          ## #<SportDb::Import::TeamReader::Team:0x31f1520
-          #  @alt_names=["Galatasaray", "", "Galatasaray Istanbul"],
-          # @city="\u0130stanbul",
-          # @name="Galatasaray \u0130stanbul A\u015E">
           puts "empty alt name >#{team_alt_name}<; please fix - sorry:"
           pp team
-          ## exit 1
-          next
+          exit 1
+          ## next
         end
         names[ team_alt_name ] ||= []
         names[ team_alt_name ] << team
@@ -81,11 +77,7 @@ def build   ## todo/check: always use render as name - why? why not?
   names.each do |name, teams|
     ## todo - mark/check name if canoncial (print bold or something - why? why not?)
     alphas[ name[0] ] ||= []
-    alphas[ name[0] ] <<  if teams.size > 1
-                              "#{name} (#{teams.size})"
-                          else
-                              name
-                          end
+    alphas[ name[0] ] <<  [name, teams]
   end
 
 
@@ -99,14 +91,30 @@ def build   ## todo/check: always use render as name - why? why not?
 
 
   sorted_alphas.each do |alpha_rec|
-    alpha = alpha_rec[0]
-    names = alpha_rec[1]
+    alpha     = alpha_rec[0]
+    name_recs = alpha_rec[1]
+
+    sorted_name_recs = name_recs.sort do |l,r|
+      res = l[0].length <=> r[0].length       ## sort by length (smallest first)
+      res = l[0] <=> r[0]       if res == 0   ## sort by a-z next
+      res
+    end
+
 
     buf << "- **#{alpha}**"
-
-    buf << " (#{names.size})"
+    buf << " (#{name_recs.size})"
     buf << ": "
-    ##  todo/fix:  sort names by a-z  - why? why not?
+
+    names = sorted_name_recs.map do |name_rec|
+      name  = name_rec[0]
+      teams = name_rec[1]
+      if teams.size > 1
+        "!! **#{name} (#{teams.size})** !!"
+      else
+        name
+      end
+    end
+
     buf << "#{names.join(' • ')}"
     buf << "\n"
   end
@@ -142,8 +150,13 @@ def build     ## todo/check: always use render as name - why? why not?
   ## sort cities by name
   ##   todo/fix: exlude special key x and ? - why? why not?
   sorted_cities = cities.to_a.sort do |l,r|
-     res = r[1].size <=> l[1].size       ## sort by team size/counter first
-     res = l[0] <=> r[0]    if res == 0   ## sort by city name next
+     ## note: let '?' always go last in sort order
+     res =  0
+     res =  1    if l[0] == '?'
+     res = -1    if r[0] == '?'  if res == 0
+
+     res = r[1].size <=> l[1].size  if res == 0   ## sort by team size/counter first
+     res = l[0] <=> r[0]            if res == 0   ## sort by city name next
      res
   end
 
@@ -205,6 +218,9 @@ end
 def build     ## todo/check: always use render as name - why? why not?
   geos = {}
 
+  ## todo/fix: report all teams with missing geo tree? why? why not?
+  ##   report just number of missing teams or enumarate all teams with missing geo tree?
+
   @teams.each do |team|
     if team.city
       ## split into geo tree
@@ -212,12 +228,15 @@ def build     ## todo/check: always use render as name - why? why not?
       values = values.map { |value| value.strip }   ## remove all whitespaces
 
       if values.size > 1
-        team_geos = values[1..-1]
+        ## cut-off city and keep the rest (of geo tree)
+        team_geos = values[1..-1].join( ' › ' )
 
-        ## todo/fix: report all teams with missing geo tree? why? why not?
-        ##   report just number of missing teams or enumarate all teams with missing geo tree?
-        geos[ team_geos[0] ] ||= []
-        geos[ team_geos[0] ] << team
+        geos[ team_geos ] ||= []
+        geos[ team_geos ] << team
+      else
+        ## use city name / assume city is also admin e.g. Berlin == Berlin › Berlin
+        geos[ team.city ] ||= []
+        geos[ team.city ] << team
       end
     end
   end
@@ -226,12 +245,7 @@ def build     ## todo/check: always use render as name - why? why not?
   buf = ''
 
   geos.each do |geo, teams|
-      if geo == '?'
-        buf << "- #{geo}"
-      else
-        buf << "- **#{geo}**"
-      end
-
+      buf << "- **#{geo}**"
       buf << " (#{teams.size})"
       buf << ": "
 
