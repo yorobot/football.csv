@@ -38,6 +38,7 @@ build/
 
 /dl/
 /o/
+/oo/
 
 #######
 ## ignore all test databases .db

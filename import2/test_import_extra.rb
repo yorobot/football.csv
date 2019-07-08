@@ -52,23 +52,33 @@ end
 end
 
 datafiles = [
-  ['jp', 'JPN', 'japan'],
-  ['cn', 'CHN', 'china'],
+  ['ar', 'ARG', 'argentina'],
+  ['at', 'AUT', 'austria'],
   ['br', 'BRA', 'brazil'],
-  ['mx', 'MEX', 'mexico'],
+  ['cn', 'CHN', 'china'],
+  ['dk', 'DNK', 'denmark'],
+  ['fi', 'FIN', 'finland'],
   ['ie', 'IRL', 'ireland'],
+  ['jp', 'JPN', 'japan'],
+  ['mx', 'MEX', 'mexico'],
+  ['no', 'NOR', 'norway'],
+  ['pl', 'POL', 'poland'],
+  ['ro', 'ROU', 'romania'],
   ['ru', 'RUS', 'russia'],
+  ['se', 'SWE', 'sweden'],
+  ['ch', 'SWZ', 'switzerland'],
+  ['us', 'USA', 'usa']
 ].each do |item|
   country = item[0]
   path    = "./dl/#{item[1]}.csv"
-  out_dir = "./o/#{item[2]}"
+  out_dir = "./oo/#{item[2]}"
 
-  ## split( path, out_dir, country )
+  split( path, out_dir, country )
 
   pack = CsvPackage.new( out_dir )
   report = CsvTeamsReport.new( pack )
   ## txt = report.build
   ## puts txt
-  report.save( "./o/TEAMS.#{country}.md" )
+  report.save( "./oo/TEAMS.#{country}.md" )
 
 end
