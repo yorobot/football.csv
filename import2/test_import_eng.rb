@@ -3,9 +3,19 @@
 require 'sportdb/import'
 
 
+
+path = '../../footballcsv/england'
+pack = CsvPackage.new( path )
+## pp pack.find_entries_by_season_n_division
+## pp pack.find_entries_by_season
+pp pack.find_entries_by_code_n_season_n_division
+
+
+
+__END__
+
 database = ':memory:'
 ## database = './eng.db'
-## database = './top.db'
 
 
 SportDb.connect( adapter:  'sqlite3',
@@ -20,32 +30,13 @@ ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 SportDb::Import.config.clubs_dir = '../../openfootball/clubs'
 
-pack = CsvMatchImporter.new( '../england' )
+pack = CsvMatchImporter.new( path )
 pack.import_leagues
 
 
 __END__
 
-=begin
-league [1/4] >1930s/1939-40/1-division1.csv<:
-["eng-england/1930s/1939-40/1-division1.csv",
- "1939/40",
- "eng",
- "eng"]
-
-football.csv/import2/lib/import.rb:75:in `strptime': no implicit conversion of nil into String (TypeError)
-        from football.csv/import2/lib/import.rb:75:in `block in update_matches_txt'
-
-!!! check dataset - match date is missing!!!!
-=end
-
-country = SportDb::Importer::Country.find( 'eng' )
-season  = SportDb::Importer::Season.find( '1939/40' )
-
-league = SportDb::Importer::League.find_or_create( 'eng',
-                                                   name: "#{country.name} League 1" )
-
-import_matches_txt( '../england/1930s/1939-40/eng.1.csv',
-        season:  season,
-        league:  league,
-        country: country )
+fix:  note datafiles is now an array of datafiles (no longer just datafile!!!)
+league [1/1] >["1880s/1888-89/eng.1.csv"]<:
+sportdb-text-0.2.3/lib/sportdb/text/csv/package.rb:22:in `expand_path':
+no implicit conversion of Array into String (TypeError)
