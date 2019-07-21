@@ -8,6 +8,7 @@ require 'sportdb/text'
 require 'sportdb/convert/version' # let version always go first
 
 require 'sportdb/convert/standard'
+require 'sportdb/convert/kicker'
 
 
 
