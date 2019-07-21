@@ -21,9 +21,5 @@ module Convert
     File.expand_path( File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) )
   end
 
-#  def self.test_data_dir
-#    "#{root}/test/data"
-#  end
-
-end # module Source
+end # module Convert
 end # modlue SportDb
