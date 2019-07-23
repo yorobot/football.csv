@@ -1,0 +1,507 @@
+#######################################################
+#
+#  uefa clubs 10-year ranking / coefficients
+#    see https://www.uefa.com/memberassociations/uefarankings/revenue/
+#
+
+Rank,  Name,     Country
+1, Real Madrid, ESP
+2, Barcelona, ESP
+3, Bayern, GER
+4, Atlético, ESP
+5, Chelsea, ENG
+6, Man. United, ENG
+7, Juventus, ITA
+8, Porto, POR
+9, Arsenal, ENG
+10, Benfica, POR
+11, Paris, FRA
+12, Liverpool, ENG
+13, Sevilla, ESP
+14, Man. City, ENG
+15, Dortmund, GER
+16, Shakhtar Donetsk, UKR
+17, Lyon, FRA
+18, Milan, ITA
+19, Ajax, NED
+20, Schalke, GER
+21, Tottenham, ENG
+22, Zenit, RUS
+23, Valencia, ESP
+24, Internazionale, ITA
+25, Napoli, ITA
+26, Basel, SUI
+27, Leverkusen, GER
+28, Dynamo Kyiv, UKR
+29, Roma, ITA
+30, CSKA Moskva, RUS
+31, Olympiacos, GRE
+32, Villarreal, ESP
+33, PSV, NED
+34, Marseille, FRA
+35, Sporting CP, POR
+36, Salzburg, AUT
+37, Anderlecht, BEL
+38, Beşiktaş, TUR
+39, Athletic, ESP
+40, Lazio, ITA
+41, Fiorentina, ITA
+42, Galatasaray, TUR
+43, København, DEN
+44, Braga, POR
+45, Celtic, SCO
+46, Plzeň, CZE
+47, Fenerbahçe, TUR
+48, Rubin, RUS
+49, Club Brugge, BEL
+50, Monaco, FRA
+51, FCSB, ROU
+52, APOEL, CYP
+53, Sparta Praha, CZE
+54, BATE, BLR
+55, AZ Alkmaar, NED
+56, Genk, BEL
+57, Wolfsburg, GER
+58, PAOK, GRE
+59, Bordeaux, FRA
+60, Dinamo Zagreb, CRO
+61, Standard Liège, BEL
+62, Dnipro, UKR
+63, Young Boys, SUI
+64, Twente, NED
+65, Spartak Moskva, RUS
+66, Ludogorets, BUL
+67, Betis, ESP
+68, Real Sociedad, ESP
+69, Celta, ESP
+70, Málaga, ESP
+71, Levante, ESP
+72, Getafe, ESP
+73, Lokomotiv Moskva, RUS
+74, Mönchengladbach, GER
+75, Metalist, UKR
+76, LOSC, FRA
+77, Stuttgart, GER
+78, Frankfurt, GER
+79, Rapid Wien, AUT
+80, Gent, BEL
+81, Legia, POL
+82, Krasnodar, RUS
+83, Burnley, ENG
+84, Everton, ENG
+85, Leicester, ENG
+86, Southampton, ENG
+87, West Ham, ENG
+88, Hull, ENG
+89, Swansea, ENG
+90, Wigan, ENG
+91, Newcastle, ENG
+92, Stoke, ENG
+93, Birmingham, ENG
+94, Fulham, ENG
+95, Aston Villa, ENG
+96, Feyenoord, NED
+97, Maribor, SVN
+98, Trabzonspor, TUR
+99, Hoffenheim, GER
+100, Leipzig, GER
+101, Hertha, GER
+102, Köln, GER
+103, Freiburg, GER
+104, Mainz, GER
+105, Augsburg, GER
+106, Hannover, GER
+107, Bremen, GER
+108, Hamburg, GER
+109, Panathinaikos, GRE
+110, Zürich, SUI
+111, Partizan, SRB
+112, M. Tel-Aviv, ISR
+113, Atalanta, ITA
+114, Sassuolo, ITA
+115, Sampdoria, ITA
+116, Torino, ITA
+117, Udinese, ITA
+118, Palermo, ITA
+119, Genoa, ITA
+120, Astana, KAZ
+121, Qarabağ, AZE
+122, Crvena zvezda, SRB
+123, Sheriff, MDA
+124, H. Tel-Aviv, ISR
+125, Rangers, SCO
+126, Austria Wien, AUT
+127, Slavia Praha, CZE
+128, St-Étienne, FRA
+129, AEK, GRE
+130, CFR Cluj, ROU
+131, Malmö, SWE
+132, Rennes, FRA
+133, Nice, FRA
+134, Guingamp, FRA
+135, Montpellier, FRA
+136, Sochaux, FRA
+137, Auxerre, FRA
+138, Toulouse, FRA
+139, Rio Ave, POR
+140, Vitória SC, POR
+141, Marítimo, POR
+142, Arouca, POR
+143, Belenenses, POR
+144, Estoril, POR
+145, Nacional, POR
+146, Paços Ferreira, POR
+147, Académica, POR
+148, Lech, POL
+149, Anji, RUS
+150, Rosenborg, NOR
+151, Molde, NOR
+152, Liberec, CZE
+153, Ufa, RUS
+154, Rostov, RUS
+155, Dinamo Moskva, RUS
+156, Kuban, RUS
+157, Alania, RUS
+158, Sibir, RUS
+159, Amkar, RUS
+160, Krylya Sovetov, RUS
+161, Rijeka, CRO
+162, Midtjylland, DEN
+163, Apollon, CYP
+164, Vorskla, UKR
+165, Zorya Luhansk, UKR
+166, Mariupol, UKR
+167, Olexandriya, UKR
+168, Olimpik Donetsk, UKR
+169, Chornomorets Odesa, UKR
+170, Metalurh Donetsk, UKR
+171, Arsenal Kyiv, UKR
+172, Karpaty, UKR
+173, Tavriya, UKR
+174, Vitesse, NED
+175, Utrecht, NED
+176, Heracles, NED
+177, Groningen, NED
+178, Go Ahead Eagles, NED
+179, Zwolle, NED
+180, Heerenveen, NED
+181, Den Haag, NED
+182, NAC, NED
+183, Zulte Waregem, BEL
+184, Oostende, BEL
+185, Charleroi, BEL
+186, Lokeren, BEL
+187, Westerlo, BEL
+188, Cercle Brugge, BEL
+189, HJK, FIN
+190, Fehérvár, HUN
+191, Hajduk Split, CRO
+192, Astra, ROU
+193, Akhisar, TUR
+194, İstanbul Başakşehir, TUR
+195, Konyaspor, TUR
+196, Osmanlıspor, TUR
+197, Karabükspor, TUR
+198, Bursaspor, TUR
+199, Eskişehirspor, TUR
+200, Gaziantepspor, TUR
+201, Sivasspor, TUR
+202, Slovan Bratislava, SVK
+203, M. Haifa, ISR
+204, Sturm, AUT
+205, LASK, AUT
+206, Admira, AUT
+207, Altach, AUT
+208, Wolfsberg, AUT
+209, St Pölten, AUT
+209, Grödig, AUT
+211, Pasching, AUT
+212, Ried, AUT
+213, Asteras, GRE
+214, Atromitos, GRE
+215, Panionios, GRE
+216, Giannina, GRE
+217, Xanthi, GRE
+218, Olympiacos Volou, GRE
+219, Aris, GRE
+220, Larissa, GRE
+221, Luzern, SUI
+222, St. Gallen, SUI
+223, Lugano, SUI
+224, Sion, SUI
+225, Grasshoppers, SUI
+226, Thun, SUI
+227, Servette, SUI
+228, Lausanne, SUI
+229, AEK Larnaca, CYP
+230, H. Beer-Sheva, ISR
+231, Dinamo Minsk, BLR
+232, Jablonec, CZE
+233, Sigma, CZE
+234, Zlín, CZE
+235, Mladá Boleslav, CZE
+236, Baník, CZE
+237, Teplice, CZE
+238, Spartak Trnava, SVK
+239, Brøndby, DEN
+240, Unirea Urziceni, ROU
+241, Nordsjælland, DEN
+242, Debrecen, HUN
+243, Ventspils, LVA
+244, Levski, BUL
+245, Skënderbeu, ALB
+246, Žilina, SVK
+247, Elfsborg, SWE
+248, Dudelange, LUX
+249, TNS, WAL
+250, FH, ISL
+251, AIK, SWE
+252, Östersund, SWE
+253, Esbjerg, DEN
+254, Wisła Kraków, POL
+255, Dinamo Tbilisi, GEO
+256, Lyngby, DEN
+257, SønderjyskE, DEN
+258, Randers, DEN
+259, AaB, DEN
+260, Horsens, DEN
+261, AGF, DEN
+262, OB, DEN
+263, Anorthosis, CYP
+264, AEL, CYP
+265, Omonia, CYP
+266, Ermis, CYP
+267, APOP, CYP
+268, Vaslui, ROU
+269, Osijek, CRO
+270, Lokomotiva Zagreb, CRO
+271, Split, CRO
+272, Slaven Koprivnica, CRO
+273, Varaždin, CRO
+274, Šibenik, CRO
+274, Cibalia, CRO
+276, H. Haifa, ISR
+277, Beitar Jerusalem, ISR
+278, Bnei Yehuda, ISR
+279, H. Kiryat Shmona, ISR
+280, H. Ramat Gan, ISR
+281, M. Netanya, ISR
+282, Dinamo Bucureşti, ROU
+283, Universitatea Craiova, ROU
+284, Viitorul, ROU
+285, Pandurii, ROU
+286, CSMS laşi, ROU
+287, Târgu Mureş, ROU
+288, Botoşani, ROU
+289, Petrolul, ROU
+290, Rapid Bucureşti, ROU
+291, Oţelul, ROU
+292, Gaz Metan, ROU
+293, Timişoara, ROU
+294, Aktobe, KAZ
+295, Sarajevo, BIH
+296, Neftçi, AZE
+297, Dinamo Brest, BLR
+298, Shakhtyor, BLR
+299, Torpedo Zhodino, BLR
+300, Neman, BLR
+301, Minsk, BLR
+302, Gomel, BLR
+303, Naftan, BLR
+304, Dnepr, BLR
+305, Partizan Minsk, BLR
+306, Žalgiris, LTU
+307, Göteborg, SWE
+308, Zrinjski, BIH
+309, Valletta, MLT
+310, Rabotnicki, MKD
+311, Vojvodina, SRB
+312, Hibernian, SCO
+313, Aberdeen, SCO
+314, St Johnstone, SCO
+315, Hearts, SCO
+316, Inverness, SCO
+317, Motherwell, SCO
+318, Dundee United, SCO
+319, Falkirk, SCO
+320, Jagiellonia, POL
+321, Górnik Zabrze, POL
+322, Arka, POL
+323, Zagłębie, POL
+324, Piast, POL
+325, Cracovia, POL
+326, Śląsk, POL
+327, Ruch, POL
+328, Zawisza, POL
+329, Polonia Warszawa, POL
+330, Trenčín, SVK
+331, Pyunik, ARM
+332, Dundalk, IRL
+333, Željezničar, BIH
+334, Häcken, SWE
+335, Djurgården, SWE
+336, Norrköping, SWE
+337, Brommapojkarna, SWE
+338, Gefle, SWE
+339, Helsingborg, SWE
+340, Kalmar, SWE
+341, Örebro, SWE
+342, Spartak Subotica, SRB
+343, Radnicki Niš, SRB
+344, Mladost Lučani, SRB
+345, Čukarički, SRB
+346, Jagodina, SRB
+347, Rad, SRB
+348, OFK Beograd, SRB
+349, Sloboda Užice, SRB
+350, Shkëndija, MKD
+351, Levadia, EST
+352, Vardar, MKD
+353, Sarpsborg, NOR
+354, Lillestrøm, NOR
+355, Odd, NOR
+356, Haugesund, NOR
+357, Brann, NOR
+358, Strømsgodset, NOR
+359, Stabæk, NOR
+360, Tromsø, NOR
+361, Hødd, NOR
+362, Aalesund, NOR
+363, Vålerenga, NOR
+364, Fredrikstad, NOR
+365, Vaduz, LIE
+366, CSKA-Sofia, BUL
+367, Slavia Sofia, BUL
+368, Botev Plovdiv, BUL
+369, Dunav, BUL
+370, Beroe, BUL
+371, Cherno More, BUL
+372, Litex, BUL
+373, CSKA Sofia, BUL
+374, Lokomotiv Plovdiv, BUL
+375, Lokomotiv Sofia, BUL
+376, Sūduva, LTU
+377, KR Reykjavik, ISL
+378, Kukës, ALB
+379, Gabala, AZE
+380, Shamrock Rovers, IRL
+381, Ekranas, LTU
+382, Olimpija Ljubljana, SVN
+383, FC Santa Coloma, AND
+384, Linfield, NIR
+385, Keşla, AZE
+386, Zirä FK, AZE
+387, Käpäz, AZE
+388, Xäzär Länkäran, AZE
+389, Bakı, AZE
+390, Olimpik-Şüvälan, AZE
+391, Simurq, AZE
+392, Crusaders, NIR
+393, Budućnost Podgorica, MNE
+394, Kalju, EST
+395, Kairat, KAZ
+396, Flora, EST
+397, Tobol, KAZ
+398, Irtysh, KAZ
+399, Ordabasy, KAZ
+400, St Patrick's, IRL
+401, Shakhter, KAZ
+402, Zhetysu, KAZ
+403, Atyrau, KAZ
+404, Okzhetpes, KAZ
+405, Dunajská Streda, SVK
+406, Ružomberok, SVK
+407, Spartak Myjava, SVK
+408, Košice, SVK
+409, Senica, SVK
+410, Banská Bystrica, SVK
+411, Nitra, SVK
+412, Fola, LUX
+413, Vikingur, FRO
+414, Differdange, LUX
+415, Domžale, SVN
+416, Rudar Velenje, SVN
+417, Gorica, SVN
+418, Koper, SVN
+419, Celje, SVN
+420, Mura, SVN
+421, IB Ljubljana, SVN
+422, Široki Brijeg, BIH
+423, Cliftonville, NIR
+424, Birkirkara, MLT
+425, Alashkert, ARM
+426, Honvéd, HUN
+427, Milsami, MDA
+428, Rudar Pljevlja, MNE
+429, Zestafoni, GEO
+430, Újpest, HUN
+431, Ferencváros, HUN
+432, Vasas, HUN
+433, MTK, HUN
+434, Diósgyőr, HUN
+435, Győr, HUN
+436, Paks, HUN
+437, Kecskemét, HUN
+438, Zalaegerszeg, HUN
+439, Haladás, HUN
+440, Lincoln Red Imps, GIB
+441, Stjarnan, ISL
+442, Sutjeska, MNE
+443, Dila, GEO
+444, HB, FRO
+445, Titograd, MNE
+446, Dacia, MDA
+447, Spartaks Jūrmala, LVA
+448, Cork, IRL
+449, B36, FRO
+450, Zaria Balti, MDA
+451, Petrocub, MDA
+452, Zimbru, MDA
+453, Saxan, MDA
+454, Tiraspol, MDA
+455, Veris, MDA
+456, Iskra-Stal, MDA
+457, Zaria, MDA
+458, Eschen/Mauren, LIE
+459, La Fiorita, SMR
+460, Chikhura, GEO
+461, Hibernians, MLT
+462, Torpedo Kutaisi, GEO
+463, Riteriai, LTU
+464, Derry, IRL
+465, Sant Julià, AND
+466, Bangor, WAL
+467, Skonto, LVA
+468, Sligo, IRL
+469, Partizani, ALB
+470, Shirak, ARM
+471, EB/Streymur, FRO
+472, Metalurgi Rustavi, GEO
+473, Samtredia, GEO
+474, Dinamo Batumi, GEO
+475, Tskhinvali, GEO
+475, Sloboda, BIH
+475, Olimpic Sarajevo, BIH
+475, Radnik Bijeljina, BIH
+479, Sioni, GEO
+480, Borac, BIH
+481, Gagra, GEO
+482, WIT Georgia, GEO
+483, Slavija, BIH
+484, Lahti, FIN
+485, KuPS, FIN
+486, Ilves, FIN
+487, Mariehamn, FIN
+488, VPS, FIN
+489, SJK, FIN
+490, RoPS, FIN
+491, MYPA, FIN
+492, Honka, FIN
+493, Inter Turku, FIN
+494, TPS, FIN
+495, JJK, FIN
+496, Valur, ISL
+497, ÍBV, ISL
+498, Breidablik, ISL
+499, Víkingur Reykjavík, ISL
+500, Fram, ISL
