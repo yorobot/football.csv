@@ -1,0 +1,66 @@
+#######################
+#  missing short names for clubs from uefa (10-yr) ranking page
+#    add (more) - why? why not?
+
+
+= France (fr)  FRA    #1 clubs:
+Paris
+
+= Germany (de)  GER    #2 clubs:
+Frankfurt
+Köln
+
+= Austria (at)  AUT    #1 clubs:
+Pasching       ## check - FC Pasching still exists?
+
+= Poland (pl)  POL    #1 clubs:
+Zagłębie
+
+= Croatia (hr)  CRO    #1 clubs:
+Split
+
+= Greece (gr)  GRE    #1 clubs:
+Asteras
+
+= Romania (ro)  ROU    #1 clubs:
+Unirea Urziceni
+
+= Bosnia and Herzegovina (ba)  BIH    #1 clubs:
+Sarajevo
+
+= Azerbaijan (az)  AZE    #8 clubs:
+Neftçi
+Gabala
+Keşla
+Käpäz
+Xäzär Länkäran
+Bakı
+Olimpik-Şüvälan
+Simurq
+
+= Armenia (am)  ARM    #3 clubs:
+Pyunik
+Alashkert
+Shirak
+
+= Kazakhstan (kz)  KAZ    #7 clubs:
+Kairat
+Tobol
+Irtysh
+Ordabasy
+Zhetysu
+Atyrau
+Okzhetpes
+
+= Georgia (ge)  GEO    #11 clubs:
+Zestafoni
+Dila
+Chikhura
+Torpedo Kutaisi
+Metalurgi Rustavi
+Samtredia
+Dinamo Batumi
+Tskhinvali
+Sioni
+Gagra
+WIT Georgia

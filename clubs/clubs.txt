@@ -38,7 +38,7 @@ Rank,  Name,     Country
 23, FC Dynamo Kyiv, UKR
 24, FC Schalke 04, GER
 25, Beşiktaş JK, TUR
-26, AS Monaco FC, FRA
+26, AS Monaco FC, MCO        # note: changed to MCO from  FRA !!!!
 27, Olympique Lyonnais, FRA
 28, Bayer 04 Leverkusen, GER
 29, FC Salzburg, AUT

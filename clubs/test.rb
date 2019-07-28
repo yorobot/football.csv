@@ -1,14 +1,12 @@
 # encoding: utf-8
 
+require 'sportdb/config'
 
-require 'csvreader'
-
-def read_csv( path )
-  CsvHash.read( path, :header_converters => :symbol )
-end
+SportDb::Import.config.clubs_dir = '../../openfootball/clubs'
 
 
-recs = read_csv( './clubs/clubs.txt' )
+
+recs = read_csv( './clubs/clubs2.txt' )
 pp recs
 pp recs.size
 
@@ -21,22 +19,47 @@ pp rec[:country]
 ###
 # check for matching club names
 
-require 'sportdb/config'
 
-SportDb::Import.config.clubs_dir = '../../openfootball/clubs'
+club_index    = SportDb::Import.config.clubs
+country_index = SportDb::Import.config.countries
 
 
-recs[0..10].each do |rec|
+missing = []
+
+
+recs.each do |rec|
   pp rec
 
-  name = rec[:name]
+  name    = rec[:name]
+  country = rec[:country]
   pp name
-  clubs = SportDb::Import.config.team_mappings[ name ]
+
+  clubs = club_index.match_by( name: name, country: country )
   pp clubs
   if clubs
+    if clubs.size > 1
+      puts "** !! ERROR !! too many matches, found #{clubs.size} clubs"
+      exit 1
+    end
   else
-    puts "** !! ERROR !! no matching club found >#{name}<, #{rec[:country]}"
+    puts "** !! ERROR !! no matching club found >#{name}<, #{country}"
+    missing << [name, country]
   end
 end
 
-pp SportDb::Import.config.team_mappings.class.name
+
+puts "#{missing.size} missing clubs:"
+pp missing
+
+missing_by_country = missing.group_by { |item| item[1] }
+
+puts missing_by_country.pretty_inspect
+
+missing_by_country.each do |k,v|
+  country = country_index[k]
+  puts "= #{country.name} (#{country.key})  #{country.fifa}    ##{v.size} clubs:"
+  v.each do |item|
+    puts item[0]
+  end
+  puts
+end

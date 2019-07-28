@@ -54,7 +54,7 @@ Rank,  Name,     Country
 47, Fenerbahçe, TUR
 48, Rubin, RUS
 49, Club Brugge, BEL
-50, Monaco, FRA
+50, Monaco,  MCO        # note: changed to MCO from  FRA !!!!
 51, FCSB, ROU
 52, APOEL, CYP
 53, Sparta Praha, CZE
@@ -93,7 +93,7 @@ Rank,  Name,     Country
 86, Southampton, ENG
 87, West Ham, ENG
 88, Hull, ENG
-89, Swansea, ENG
+89, Swansea,  WAL     # note: changed to WAL from ENG
 90, Wigan, ENG
 91, Newcastle, ENG
 92, Stoke, ENG
@@ -468,7 +468,7 @@ Rank,  Name,     Country
 461, Hibernians, MLT
 462, Torpedo Kutaisi, GEO
 463, Riteriai, LTU
-464, Derry, IRL
+464, Derry, NIR     # note: changed IRL to NIR
 465, Sant Julià, AND
 466, Bangor, WAL
 467, Skonto, LVA
