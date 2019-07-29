@@ -1,5 +1,13 @@
 # Build Scripts
 
+## Clubs
+
+Update `/clubs` summaries. Use:
+
+```
+ruby ./reports/clubs.rb
+```
+
 
 ## Football Data (`Football-Data.co.uk`)
 

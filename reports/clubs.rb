@@ -472,7 +472,7 @@ def walk_dir( path, root_path:, level: )
      pp files
 
      files.each do |file|
-       teams = SportDb::Import::TeamReader.read( "#{root_path}/#{file}" )
+       teams = SportDb::Import::ClubReader.read( "#{root_path}/#{file}" )
 
        teams_list << [file, teams]
 
