@@ -31,6 +31,20 @@ def build   ## todo/check: always use render as name - why? why not?
        else
          ## canonical name is mapping name - do not repeat/print for now
        end
+
+       alt_team_names_auto = team.alt_names_auto
+       if alt_team_names_auto.nil?
+         ## do (print) nothing
+       elsif alt_team_names_auto.size == 1
+         ## note: add auto-generated name marker e.g. 1† 2† etc.
+         buf << " (1†) #{alt_team_names_auto[0]}"
+       elsif alt_team_names_auto.size > 1
+         ## sort by length (smallest first)
+         alt_team_names_auto_sorted = alt_team_names_auto.sort { |l,r| l.length <=> r.length }
+         buf << " (#{alt_team_names_auto.size}†) #{alt_team_names_auto_sorted.join(' • ')}"
+       else
+         # print / do nothing
+       end
     buf << "\n"
   end
   buf << "\n\n"
