@@ -5,6 +5,170 @@ require 'sportdb/text'     ## csv (text) support
 
 
 module TeamIndexer
+
+
+class TeamAlphabetPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+
+def build   ## todo/check: always use render as name - why? why not?
+  freq = Hash.new(0)
+
+  @teams.each do |team|
+
+    names = [team.name]+team.alt_names
+    names.each do |name|
+      ## calculate the frequency table of letters, digits, etc.
+      name.each_char do |ch|
+         next if ch =~ /[A-Za-z0-9]/
+         next if ch =~ /[.&',º()\/\- ]/  ## skip dot(.), &, dash(-), etc.
+
+         freq[ch] += 1
+      end
+    end
+  end
+
+  pp freq
+
+  sorted_freq = freq.to_a.sort do |l,r|
+    res = l[0] <=> r[0]
+    res
+  end
+
+  pp sorted_freq
+
+
+  buf = String.new
+
+  buf << "- **Alphabet Specials**"
+  buf << " (#{sorted_freq.size})"
+  buf << ": "
+  sorted_freq.each do |rec|
+    ch = rec[0]
+    buf << " **#{ch}** (#{ch.ord})"
+  end
+  buf << "\n"
+
+  sorted_freq.each do |rec|
+    ch    = rec[0]   ## character
+    count = rec[1]   ## frequency count
+
+    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord}): #{count}×"
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end # class TeamAlphabetPart
+
+
+class TeamAlphabetByCountryPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+
+def build   ## todo/check: always use render as name - why? why not?
+  freq_by_country = {}
+
+  @teams.each do |team|
+    freq = freq_by_country[ team.country.key ] ||= Hash.new(0)
+
+    names = [team.name]+team.alt_names
+    names.each do |name|
+      ## calculate the frequency table of letters, digits, etc.
+      name.each_char do |ch|
+         next if ch =~ /[A-Za-z0-9]/
+         next if ch =~ /[.&',º()\/\- ]/  ## skip dot(.), &, dash(-), etc.
+
+         freq[ch] += 1
+      end
+    end
+  end
+
+  buf = String.new
+
+  freq_by_country.each do |country_key,freq|
+
+    country = SportDb::Import.config.countries[ country_key ]
+
+    sorted_freq = freq.to_a.sort do |l,r|
+      res = l[0] <=> r[0]
+      res
+    end
+
+    buf << "- **#{country.key} (#{country.name})**: "
+    buf << " (#{sorted_freq.size})"
+
+    sorted_freq.each do |rec|
+      ch    = rec[0]
+      count = rec[1]   ## frequency count
+      buf << " **#{ch}**×#{count} "
+    end
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+
+
+  ###################################################
+  # part 2) by characters / letters with country usage
+
+  buf << "Usage\n"
+  buf << "\n\n"
+
+  freq_by_ch = {}
+  freq_by_country.each do |country_key,freq|
+    freq.each do |ch,count|
+       rec = freq_by_ch[ ch ] ||= [0,[]]
+       rec[0] += count   ## first entry is total
+       rec[1] << [country_key,count]         ## second is country list w/ count
+    end
+  end
+
+  sorted_freq = freq_by_ch.to_a.sort do |l,r|
+    res = l[0] <=> r[0]
+    res
+  end
+
+  sorted_freq.each do |rec|
+    ch    = rec[0]
+    count = rec[1][0]
+    stats = rec[1][1]
+
+    buf << "- **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord}): "
+    buf << " #{count}× (#{stats.size}) "
+
+    stats.each do |stat|
+      country_key   = stat[0]
+      country_count = stat[1]
+      country = SportDb::Import.config.countries[ country_key ]
+      buf << " #{country_count}×**#{country.key} (#{country.name})**"
+    end
+
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end # class TeamAlphabetByCountryPart
+
+
+
+
+
 class TeamMappingsPart
 
 def initialize( teams )
@@ -492,6 +656,9 @@ def walk_dir( path, root_path:, level: )
 
        buf  = TeamIndexer::TeamMappingsPart.new( teams ).build
        buf << "\n\n"
+       buf << "Alphabet\n\n"
+       buf << TeamIndexer::TeamAlphabetPart.new( teams).build
+       buf << "\n\n"
        buf << "By City\n\n"
        buf << TeamIndexer::TeamsByCityPart.new( teams ).build
        buf << "\n\n"
@@ -507,7 +674,7 @@ def walk_dir( path, root_path:, level: )
 
        report_path = "#{root_path}/#{File.dirname(file)}/README.md"
        puts "   !! writing report (teams) to >#{report_path}<..."
-       File.open( report_path, 'w:utf8' ) { |f| f.write buf }
+       File.open( report_path, 'w:utf-8' ) { |f| f.write buf }
        ## fix: /reports/clubs.rb:460: warning: Unsupported encoding utf8 ignored
      end
    else
@@ -521,7 +688,26 @@ def walk_dir( path, root_path:, level: )
                       "#{path}/README.md"
                     end
      puts "   !! writing report (datafiles) to >#{report_path}<..."
-     File.open( report_path, 'w:utf8' ) { |f| f.write buf }
+     File.open( report_path, 'w:utf-8' ) { |f| f.write buf }
+
+     ## add more top-level special reports
+     if level == 1
+       ## get (join/collect) all teams from all datafiles in a single array
+       teams = teams_list.reduce([]) {|teams,item| teams += item[1]; teams }
+
+       buf = String.new
+       buf << "Alphabet\n\n"
+       buf << TeamIndexer::TeamAlphabetPart.new( teams ).build
+       buf << "\n\n"
+       buf << "By Country\n"
+       buf << "\n\n"
+       buf << TeamIndexer::TeamAlphabetByCountryPart.new( teams ).build
+       buf << "\n\n"
+
+       File.open( "#{path}/ALPHABETS.md", 'w:utf-8' ) do |f|
+         f.write buf
+       end
+     end
    end
 
    teams_list
