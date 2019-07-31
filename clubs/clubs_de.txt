@@ -1,0 +1,43 @@
+###############################################
+## 2019/20 clubs names from www.bundesliga.com
+##   try / check "official" names from website if all match
+
+Name
+FC Bayern München
+Borussia Dortmund
+RB Leipzig
+Bayer 04 Leverkusen
+Borussia Mönchengladbach
+VfL Wolfsburg
+Eintracht Frankfurt
+SV Werder Bremen
+TSG 1899 Hoffenheim
+Fortuna Düsseldorf
+Hertha Berlin
+1. FSV Mainz 05
+Sport-Club Freiburg
+FC Schalke 04
+FC Augsburg
+1. FC Köln
+SC Paderborn 07
+1. FC Union Berlin
+
+FC Erzgebirge Aue
+DSC Arminia Bielefeld
+VfL Bochum 1848
+SV Darmstadt 98
+SG Dynamo Dresden
+SpVgg Greuther Fürth
+Hamburger SV
+Hannover 96
+1. FC Heidenheim 1846
+Karlsruher SC
+Holstein Kiel
+1. FC Nürnberg
+VfL Osnabrück
+FC St. Pauli
+SSV Jahn Regensburg
+SV Sandhausen
+VfB Stuttgart
+SV Wehen Wiesbaden
+
