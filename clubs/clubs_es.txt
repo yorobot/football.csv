@@ -1,0 +1,48 @@
+###############################################
+## 2019/20 clubs names from www.laliga.es
+##   try / check "official" names from website if all match
+
+Name
+Athletic Club
+Atlético de Madrid
+C.A. Osasuna
+CD Leganés
+D. Alavés
+FC Barcelona
+Getafe CF
+Granada CF
+Levante UD
+R. Valladolid CF
+RC Celta
+RCD Espanyol
+RCD Mallorca
+Real Betis
+Real Madrid
+Real Sociedad
+SD Eibar
+Sevilla FC
+Valencia CF
+Villarreal CF
+
+AD Alcorcón
+Albacete BP
+Cádiz CF
+CD Lugo
+CD Mirandés
+CD Numancia
+CD Tenerife
+CF Fuenlabrada
+Elche C.F.
+Extremadura UD
+Girona FC
+Málaga CF
+R. Racing Club
+R. Zaragoza
+Rayo Vallecano
+RC Deportivo
+Real Oviedo
+Real Sporting
+SD Huesca
+SD Ponferradina
+UD Almería
+UD Las Palmas
