@@ -48,7 +48,7 @@ def build   ## todo/check: always use render as name - why? why not?
   buf << ": "
   sorted_freq.each do |rec|
     ch = rec[0]
-    buf << " **#{ch}** (#{ch.ord})"
+    buf << " **#{ch}** "
   end
   buf << "\n"
 
@@ -56,7 +56,16 @@ def build   ## todo/check: always use render as name - why? why not?
     ch    = rec[0]   ## character
     count = rec[1]   ## frequency count
 
-    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord}): #{count}×"
+    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
+
+    ## add char mappings
+    sub    = SportDb::Import::Variant::SUB_ALPHA_SPECIALS[ ch ]
+    sub_de = SportDb::Import::Variant::SUB_ALPHA_SPECIALS_DE[ ch ]
+    buf << " => #{ sub || '**?**' }"
+    if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
+      buf << "•#{sub_de}"
+    end
+
     buf << "\n"
   end
 
@@ -94,7 +103,67 @@ def build   ## todo/check: always use render as name - why? why not?
     end
   end
 
+  freq_by_ch = {}
+  freq_by_country.each do |country_key,freq|
+    freq.each do |ch,count|
+       rec = freq_by_ch[ ch ] ||= [0,[]]
+       rec[0] += count   ## first entry is total
+       rec[1] << [country_key,count]         ## second is country list w/ count
+    end
+  end
+
+
+  ###################################################
+  # part i) print by characters / letters with country usage first
   buf = String.new
+
+  sorted_freq = freq_by_ch.to_a.sort do |l,r|
+    res = l[0] <=> r[0]
+    res
+  end
+
+  buf << "- **Alphabet Specials**"
+  buf << " (#{sorted_freq.size})"
+  buf << ": "
+  sorted_freq.each do |rec|
+    ch = rec[0]
+    buf << " **#{ch}** "
+  end
+  buf << "\n"
+
+  sorted_freq.each do |rec|
+    ch    = rec[0]
+    count = rec[1][0]
+    stats = rec[1][1]
+
+    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
+    ## add char mappings
+    sub    = SportDb::Import::Variant::SUB_ALPHA_SPECIALS[ ch ]
+    sub_de = SportDb::Import::Variant::SUB_ALPHA_SPECIALS_DE[ ch ]
+    buf << " => #{ sub || '**?**' }"
+    if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
+      buf << "•#{sub_de}"
+    end
+
+    buf << " (#{stats.size}): "
+
+    stats.each do |stat|
+      country_key   = stat[0]
+      country_count = stat[1]
+      country = SportDb::Import.config.countries[ country_key ]
+      buf << " **#{country.key} (#{country.name})**×#{country_count}"
+    end
+
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+
+  #########################
+  #  print part ii
+
+  buf << "By Country\n"
+  buf << "\n\n"
 
   freq_by_country.each do |country_key,freq|
 
@@ -108,52 +177,20 @@ def build   ## todo/check: always use render as name - why? why not?
     buf << "- **#{country.key} (#{country.name})**: "
     buf << " (#{sorted_freq.size})"
 
-    sorted_freq.each do |rec|
-      ch    = rec[0]
-      count = rec[1]   ## frequency count
-      buf << " **#{ch}**×#{count} "
+    if sorted_freq.size > 0
+      sorted_freq.each do |rec|
+        ch    = rec[0]
+        buf << " **#{ch}**"
+      end
+
+      buf << ": "
+
+      sorted_freq.each do |rec|
+        ch    = rec[0]
+        count = rec[1]   ## frequency count
+        buf << " **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count} "
+      end
     end
-    buf << "\n"
-  end
-
-  buf << "\n\n"
-
-
-  ###################################################
-  # part 2) by characters / letters with country usage
-
-  buf << "Usage\n"
-  buf << "\n\n"
-
-  freq_by_ch = {}
-  freq_by_country.each do |country_key,freq|
-    freq.each do |ch,count|
-       rec = freq_by_ch[ ch ] ||= [0,[]]
-       rec[0] += count   ## first entry is total
-       rec[1] << [country_key,count]         ## second is country list w/ count
-    end
-  end
-
-  sorted_freq = freq_by_ch.to_a.sort do |l,r|
-    res = l[0] <=> r[0]
-    res
-  end
-
-  sorted_freq.each do |rec|
-    ch    = rec[0]
-    count = rec[1][0]
-    stats = rec[1][1]
-
-    buf << "- **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord}): "
-    buf << " #{count}× (#{stats.size}) "
-
-    stats.each do |stat|
-      country_key   = stat[0]
-      country_count = stat[1]
-      country = SportDb::Import.config.countries[ country_key ]
-      buf << " #{country_count}×**#{country.key} (#{country.name})**"
-    end
-
     buf << "\n"
   end
 
@@ -201,11 +238,12 @@ def build   ## todo/check: always use render as name - why? why not?
          ## do (print) nothing
        elsif alt_team_names_auto.size == 1
          ## note: add auto-generated name marker e.g. 1† 2† etc.
-         buf << " (1†) #{alt_team_names_auto[0]}"
+         buf << " => (1) #{alt_team_names_auto[0]}†"
        elsif alt_team_names_auto.size > 1
          ## sort by length (smallest first)
          alt_team_names_auto_sorted = alt_team_names_auto.sort { |l,r| l.length <=> r.length }
-         buf << " (#{alt_team_names_auto.size}†) #{alt_team_names_auto_sorted.join(' • ')}"
+         alt_team_names_auto_marked = alt_team_names_auto_sorted.map { |name| "#{name}†" }
+         buf << " => (#{alt_team_names_auto.size}) #{alt_team_names_auto_marked.join(' • ')}"
        else
          # print / do nothing
        end
@@ -697,10 +735,6 @@ def walk_dir( path, root_path:, level: )
 
        buf = String.new
        buf << "Alphabet\n\n"
-       buf << TeamIndexer::TeamAlphabetPart.new( teams ).build
-       buf << "\n\n"
-       buf << "By Country\n"
-       buf << "\n\n"
        buf << TeamIndexer::TeamAlphabetByCountryPart.new( teams ).build
        buf << "\n\n"
 
