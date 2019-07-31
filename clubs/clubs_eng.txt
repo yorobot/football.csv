@@ -1,0 +1,54 @@
+###############################################
+## all-time premiere league clubs names from www.premierleague.com/clubs
+##   try / check "official" names from website if all match
+
+Name
+Arsenal
+Aston Villa
+Barnsley
+Birmingham City
+Blackburn Rovers
+Blackpool
+Bolton Wanderers
+AFC Bournemouth
+Bradford City
+Brighton and Hove Albion
+Burnley
+Cardiff City
+Charlton Athletic
+Chelsea
+Coventry City
+Crystal Palace
+Derby County
+Everton
+Fulham
+Huddersfield Town
+Hull City
+Ipswich Town
+Leeds United
+Leicester City
+Liverpool
+Manchester City
+Manchester United
+Middlesbrough
+Newcastle United
+Norwich City
+Nottingham Forest
+Oldham Athletic
+Portsmouth
+Queens Park Rangers
+Reading
+Sheffield United
+Sheffield Wednesday
+Southampton
+Stoke City
+Sunderland
+Swansea City
+Swindon Town
+Tottenham Hotspur
+Watford
+West Bromwich Albion
+West Ham United
+Wigan Athletic
+Wimbledon
+Wolverhampton Wanderers
