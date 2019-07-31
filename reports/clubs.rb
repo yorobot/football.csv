@@ -6,6 +6,75 @@ require 'sportdb/text'     ## csv (text) support
 
 module TeamIndexer
 
+#
+class TeamDuplicateByCountryPart
+
+def initialize( teams )
+  @teams = teams
+end
+
+
+def build   ## todo/check: always use render as name - why? why not?
+
+  teams_by_country = @teams.group_by {|team| team.country.key }
+
+  buf = String.new
+
+  teams_by_country.each do |country_key, teams|
+    country = SportDb::Import.config.countries[ country_key ]
+    buf << "**#{country.name} (#{country.key})**"
+    buf << "\n\n"
+
+    buf << TeamDuplicatePart.new( teams ).build
+    buf << "\n\n"
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end # class TeamDuplicateByCountryPart
+
+
+class TeamDuplicatePart
+
+def initialize( teams )
+  @teams = teams
+end
+
+
+def build   ## todo/check: always use render as name - why? why not?
+
+  buf = String.new
+
+  @teams.each do |team|
+    if team.duplicates?
+      duplicates = team.duplicates
+
+      buf << "- **#{team.name}**, #{team.city} (#{duplicates.size}):\n"
+      duplicates.each do |norm,names|
+        buf << "  - #{norm} (#{names.size}):"
+        if names.uniq.size > 1
+           buf << " #{names.join( ' • ' )}"
+        else  ## assume same literal NOT just the norm(alized) names
+           names_marked = names.map {|name| "**#{name}**" }
+           buf << " #{names_marked.join( ' • ' )}"
+        end
+        buf << "\n"
+      end
+    end
+  end
+
+  buf << "\n\n"
+  buf
+end  # method build
+
+alias_method :render, :build
+
+end # class TeamDuplicatePart
+
 
 class TeamAlphabetPart
 
@@ -59,8 +128,8 @@ def build   ## todo/check: always use render as name - why? why not?
     buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
 
     ## add char mappings
-    sub    = SportDb::Import::Variant::SUB_ALPHA_SPECIALS[ ch ]
-    sub_de = SportDb::Import::Variant::SUB_ALPHA_SPECIALS_DE[ ch ]
+    sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
+    sub_de = SportDb::Import::Variant::ALPHA_SPECIALS_DE[ ch ]
     buf << " => #{ sub || '**?**' }"
     if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
       buf << "•#{sub_de}"
@@ -138,8 +207,8 @@ def build   ## todo/check: always use render as name - why? why not?
 
     buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
     ## add char mappings
-    sub    = SportDb::Import::Variant::SUB_ALPHA_SPECIALS[ ch ]
-    sub_de = SportDb::Import::Variant::SUB_ALPHA_SPECIALS_DE[ ch ]
+    sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
+    sub_de = SportDb::Import::Variant::ALPHA_SPECIALS_DE[ ch ]
     buf << " => #{ sub || '**?**' }"
     if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
       buf << "•#{sub_de}"
@@ -151,7 +220,8 @@ def build   ## todo/check: always use render as name - why? why not?
       country_key   = stat[0]
       country_count = stat[1]
       country = SportDb::Import.config.countries[ country_key ]
-      buf << " **#{country.key} (#{country.name})**×#{country_count}"
+      ## note: markdown hack - add <!-- --> comment to "break" between ** and count
+      buf << " **#{country.key} (#{country.name})**<!-- -->×#{country_count}"
     end
 
     buf << "\n"
@@ -697,6 +767,9 @@ def walk_dir( path, root_path:, level: )
        buf << "Alphabet\n\n"
        buf << TeamIndexer::TeamAlphabetPart.new( teams).build
        buf << "\n\n"
+       buf << "Duplicates\n\n"
+       buf << TeamIndexer::TeamDuplicatePart.new( teams ).build
+       buf << "\n\n"
        buf << "By City\n\n"
        buf << TeamIndexer::TeamsByCityPart.new( teams ).build
        buf << "\n\n"
@@ -739,6 +812,15 @@ def walk_dir( path, root_path:, level: )
        buf << "\n\n"
 
        File.open( "#{path}/ALPHABETS.md", 'w:utf-8' ) do |f|
+         f.write buf
+       end
+
+       buf = String.new
+       buf << "Duplicates\n\n"
+       buf << TeamIndexer::TeamDuplicateByCountryPart.new( teams ).build
+       buf << "\n\n"
+
+       File.open( "#{path}/DUPLICATES.md", 'w:utf-8' ) do |f|
          f.write buf
        end
      end
