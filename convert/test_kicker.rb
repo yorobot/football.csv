@@ -110,6 +110,17 @@ KickerZine.convert_to_txt( es2, es2_txt, teams: ES2_TEAMS_2019_20,
                                 debug: true )
 end
 
+def convert_it
+it1      = '../kicker/it.1.txt'
+it1_csv  = 'txt/o/it.1.csv'
+it1_txt  = 'txt/o/it/1-seriea.txt'
+
+KickerZine.convert_to_txt( it1, it1_txt, teams: IT1_TEAMS_2019_20,
+                                title: 'Serie A 2019/20',
+                                round: ->(round) { "%s^ Giornata" % round },
+                                lang: 'it',
+                                debug: true )
+end
 
 
 
@@ -117,4 +128,5 @@ end
 ## convert_eng
 ## convert_de
 ## convert_at
-convert_es
+## convert_es
+convert_it

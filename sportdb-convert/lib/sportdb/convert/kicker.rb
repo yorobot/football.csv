@@ -185,6 +185,29 @@ ES2_TEAMS_2019_20 = <<TXT
   Extremadura UD
 TXT
 
+IT1_TEAMS_2019_20 = <<TXT
+  Sampdoria Genua
+  Lazio Rom
+  Inter Mailand
+  US Lecce
+  AC Florenz
+  SSC Neapel
+  Parma Calcio
+  Juventus Turin
+  AS Rom
+  CFC Genua 1893
+  Udinese Calcio
+  AC Mailand
+  Cagliari Calcio
+  Brescia Calcio
+  Hellas Verona
+  FC Bologna
+  FC Turin
+  Sassuolo Calcio
+  SPAL Ferrara
+  Atalanta Bergamo
+TXT
+
 end # module Teams
 
 
