@@ -22,7 +22,7 @@ def build   ## todo/check: always use render as name - why? why not?
 
   index.mappings.each do |name, clubs|
     if clubs.size > 1
-      buf << "- **#{clubs.size}** matching clubs for **#{name}**:\n"
+      buf << "- **#{clubs.size}** matching clubs for **`#{name}`**:\n"
       clubs.each do |club|
         buf << "  - #{club.name}, #{club.city}, #{club.country.name} (#{club.country.key})\n"
       end
