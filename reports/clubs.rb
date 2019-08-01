@@ -6,7 +6,48 @@ require 'sportdb/text'     ## csv (text) support
 
 module TeamIndexer
 
-#
+
+class TeamIndexDuplicatePart
+
+def initialize( teams )
+  @teams = teams
+end
+
+def build   ## todo/check: always use render as name - why? why not?
+
+  index = SportDb::Import::ClubIndex.new
+  index.add( @teams )
+
+  buf = String.new
+
+  index.mappings.each do |name, clubs|
+    if clubs.size > 1
+      buf << "- **#{clubs.size}** matching clubs for **#{name}**:\n"
+      clubs.each do |club|
+        buf << "  - #{club.name}, #{club.city}, #{club.country.name} (#{club.country.key})\n"
+      end
+    end
+  end
+
+  ## dump / add recorded errors too
+  if index.errors?
+     buf << "\n\n"
+     buf << "**#{index.errors.size} error(s)**:\n"
+     index.errors.each do |error|
+       buf << "- #{error}\n"
+     end
+  end
+
+  buf << "\n\n"
+  buf
+end # method build
+
+alias_method :render, :build
+
+end # class TeamIndexDuplicatePart
+
+
+
 class TeamDuplicateByCountryPart
 
 def initialize( teams )
@@ -83,6 +124,11 @@ def initialize( teams )
 end
 
 
+## name (sanitize) helpers
+def strip_year( name ) SportDb::Import::Club.strip_year( name ); end
+def strip_lang( name ) SportDb::Import::Club.strip_lang( name ); end
+
+
 def build   ## todo/check: always use render as name - why? why not?
   freq = Hash.new(0)
 
@@ -91,6 +137,8 @@ def build   ## todo/check: always use render as name - why? why not?
     names = [team.name]+team.alt_names
     names.each do |name|
       ## calculate the frequency table of letters, digits, etc.
+      name = strip_year( name )   ## e.g. FC Linz (1946-2001) => FC Linz
+      name = strip_lang( name )   ## e.g. Bayern Munich [en] => Bayern Munich
       name.each_char do |ch|
          next if ch =~ /[A-Za-z0-9]/
          next if ch =~ /[.&',º()\/\- ]/  ## skip dot(.), &, dash(-), etc.
@@ -130,7 +178,7 @@ def build   ## todo/check: always use render as name - why? why not?
     ## add char mappings
     sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
     sub_de = SportDb::Import::Variant::ALPHA_SPECIALS_DE[ ch ]
-    buf << " => #{ sub || '**?**' }"
+    buf << " ⇒ #{ sub || '**?**' }"
     if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
       buf << "•#{sub_de}"
     end
@@ -153,6 +201,9 @@ def initialize( teams )
   @teams = teams
 end
 
+## name (sanitize) helpers
+def strip_year( name ) SportDb::Import::Club.strip_year( name ); end
+def strip_lang( name ) SportDb::Import::Club.strip_lang( name ); end
 
 def build   ## todo/check: always use render as name - why? why not?
   freq_by_country = {}
@@ -163,6 +214,8 @@ def build   ## todo/check: always use render as name - why? why not?
     names = [team.name]+team.alt_names
     names.each do |name|
       ## calculate the frequency table of letters, digits, etc.
+      name = strip_year( name )   ## e.g. FC Linz (1946-2001) => FC Linz
+      name = strip_lang( name )   ## e.g. Bayern Munich [en] => Bayern Munich
       name.each_char do |ch|
          next if ch =~ /[A-Za-z0-9]/
          next if ch =~ /[.&',º()\/\- ]/  ## skip dot(.), &, dash(-), etc.
@@ -209,7 +262,7 @@ def build   ## todo/check: always use render as name - why? why not?
     ## add char mappings
     sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
     sub_de = SportDb::Import::Variant::ALPHA_SPECIALS_DE[ ch ]
-    buf << " => #{ sub || '**?**' }"
+    buf << " ⇒ #{ sub || '**?**' }"
     if sub_de && sub_de != sub    ## e.g. ß is always ss (don't print duplicates)
       buf << "•#{sub_de}"
     end
@@ -308,12 +361,12 @@ def build   ## todo/check: always use render as name - why? why not?
          ## do (print) nothing
        elsif alt_team_names_auto.size == 1
          ## note: add auto-generated name marker e.g. 1† 2† etc.
-         buf << " => (1) #{alt_team_names_auto[0]}†"
+         buf << " ⇒ (1) #{alt_team_names_auto[0]}†"
        elsif alt_team_names_auto.size > 1
          ## sort by length (smallest first)
          alt_team_names_auto_sorted = alt_team_names_auto.sort { |l,r| l.length <=> r.length }
          alt_team_names_auto_marked = alt_team_names_auto_sorted.map { |name| "#{name}†" }
-         buf << " => (#{alt_team_names_auto.size}) #{alt_team_names_auto_marked.join(' • ')}"
+         buf << " ⇒ (#{alt_team_names_auto.size}) #{alt_team_names_auto_marked.join(' • ')}"
        else
          # print / do nothing
        end
@@ -817,6 +870,9 @@ def walk_dir( path, root_path:, level: )
 
        buf = String.new
        buf << "Duplicates\n\n"
+       buf << TeamIndexer::TeamIndexDuplicatePart.new( teams ).build
+       buf << "\n\n"
+       buf << "Club Name Duplicates\n\n"
        buf << TeamIndexer::TeamDuplicateByCountryPart.new( teams ).build
        buf << "\n\n"
 
