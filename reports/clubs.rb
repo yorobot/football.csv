@@ -55,7 +55,7 @@ def build   ## todo/check: always use render as name - why? why not?
 
       buf << "- **#{team.name}**, #{team.city} (#{duplicates.size}):\n"
       duplicates.each do |norm,names|
-        buf << "  - #{norm} (#{names.size}):"
+        buf << "  - `#{norm}` (#{names.size}):"
         if names.uniq.size > 1
            buf << " #{names.join( ' • ' )}"
         else  ## assume same literal NOT just the norm(alized) names
