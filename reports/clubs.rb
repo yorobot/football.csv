@@ -30,13 +30,13 @@ def build   ## todo/check: always use render as name - why? why not?
   end
 
   ## dump / add recorded errors too
-  if index.errors?
-     buf << "\n\n"
-     buf << "**#{index.errors.size} error(s)**:\n"
-     index.errors.each do |error|
-       buf << "- #{error}\n"
-     end
-  end
+  # if index.errors?
+  #   buf << "\n\n"
+  #   buf << "**#{index.errors.size} error(s)**:\n"
+  #   index.errors.each do |error|
+  #     buf << "- #{error}\n"
+  #   end
+  # end
 
   buf << "\n\n"
   buf
@@ -173,7 +173,7 @@ def build   ## todo/check: always use render as name - why? why not?
     ch    = rec[0]   ## character
     count = rec[1]   ## frequency count
 
-    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
+    buf << "  - **#{ch}** (#{'U+%04X' % ch.ord} / #{ch.ord})×#{count}"
 
     ## add char mappings
     sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
@@ -258,7 +258,7 @@ def build   ## todo/check: always use render as name - why? why not?
     count = rec[1][0]
     stats = rec[1][1]
 
-    buf << "  - **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count}"
+    buf << "  - **#{ch}** (#{'U+%04X' % ch.ord} / #{ch.ord})×#{count}"
     ## add char mappings
     sub    = SportDb::Import::Variant::ALPHA_SPECIALS[ ch ]
     sub_de = SportDb::Import::Variant::ALPHA_SPECIALS_DE[ ch ]
@@ -311,7 +311,7 @@ def build   ## todo/check: always use render as name - why? why not?
       sorted_freq.each do |rec|
         ch    = rec[0]
         count = rec[1]   ## frequency count
-        buf << " **#{ch}** (#{ch.ord} / #{'%04x' % ch.ord})×#{count} "
+        buf << " **#{ch}** (#{'U+%04X' % ch.ord} / #{ch.ord})×#{count} "
       end
     end
     buf << "\n"
@@ -361,12 +361,12 @@ def build   ## todo/check: always use render as name - why? why not?
          ## do (print) nothing
        elsif alt_team_names_auto.size == 1
          ## note: add auto-generated name marker e.g. 1† 2† etc.
-         buf << " ⇒ (1) #{alt_team_names_auto[0]}†"
+         buf << " ≈ (1) ≈#{alt_team_names_auto[0]}†"
        elsif alt_team_names_auto.size > 1
          ## sort by length (smallest first)
          alt_team_names_auto_sorted = alt_team_names_auto.sort { |l,r| l.length <=> r.length }
-         alt_team_names_auto_marked = alt_team_names_auto_sorted.map { |name| "#{name}†" }
-         buf << " ⇒ (#{alt_team_names_auto.size}) #{alt_team_names_auto_marked.join(' • ')}"
+         alt_team_names_auto_marked = alt_team_names_auto_sorted.map { |name| "≈#{name}†" }
+         buf << " ≈ (#{alt_team_names_auto.size}) #{alt_team_names_auto_marked.join(' • ')}"
        else
          # print / do nothing
        end
@@ -738,7 +738,14 @@ def build   ## todo/check: always use render as name - why? why not?
      buf << "**#{teams_datafile}**"
      buf << " _(#{teams.size})_:"
 
-     team_names = teams.map { |team| team.name }
+     team_names = teams.map do |team|
+       if team.wikipedia?
+         ## use wikipedia link
+         "[#{team.name}](#{team.wikipedia_url})"
+       else
+         team.name
+       end
+     end
      buf << "  #{team_names.join(' • ')}"
      buf << "\n\n"
   end
@@ -761,7 +768,10 @@ def walk( path )
    root_path = path
    pp root_path
 
-   teams = walk_dir( path, root_path: path, level: 1 )
+   ## pass 1) get all wiki(pedia) page / anchor links for lookup
+   wiki = WikiIndex.new( path )
+
+   teams = walk_dir( path, root_path: path, level: 1, wiki: wiki )
 
    ## puts "   process #{teams} datafiles in level 1 >#{path}"
 end
@@ -776,7 +786,7 @@ CLUBS_REGEX =  /^(?:
                   [a-z]{2,3}\.clubs\.txt
                  )$/x
 
-def walk_dir( path, root_path:, level: )
+def walk_dir( path, root_path:, level:, wiki: )
 
    entries = Dir.entries( path )
    ## todo/fix: sort - why? why not?  is already sorted?
@@ -793,7 +803,7 @@ def walk_dir( path, root_path:, level: )
        next  if ['.', '..', '.git'].include?( name )
 
        puts "   #{level} walking #{entry_path_rel}... "
-       teams_list += walk_dir( entry_path, root_path: root_path, level: level+1 )
+       teams_list += walk_dir( entry_path, root_path: root_path, level: level+1, wiki: wiki )
      else
        if CLUBS_REGEX =~ name
           files << entry_path_rel
@@ -812,6 +822,17 @@ def walk_dir( path, root_path:, level: )
 
      files.each do |file|
        teams = SportDb::Import::ClubReader.read( "#{root_path}/#{file}" )
+
+       ## update wiki links for clubs/ teams
+       teams.each do |team|
+        ## note: do NOT include alt_names_auto !!!
+        rec = wiki.find_by( names: [team.name]+team.alt_names, country: team.country )
+        if rec
+           ## add wikipedia page
+           team.wikipedia = rec.name
+         end
+       end
+
 
        teams_list << [file, teams]
 
@@ -885,6 +906,76 @@ def walk_dir( path, root_path:, level: )
    teams_list
 end
 
+
+
+
+##
+##  todo/fix: move "clean-up" WikiIndex into sportdb-config gem!!!!
+class WikiIndex
+  CLUBS_WIKI_REGEX = %r{  (?:^|/)               # beginning (^) or beginning of path (/)
+                           (?:[a-z]{1,3}\.)?   # optional country code/key e.g. eng.clubs.wiki.txt
+                          clubs\.wiki\.txt$
+                       }x
+
+  ##
+  def find_clubs_datafiles( path, pattern )
+     datafiles = []   ## note: [country, path] pairs for now
+
+     ## check all txt files as candidates  (MUST include country code for now)
+     candidates = Dir.glob( "#{path}/**/*.txt" )
+     pp candidates
+     candidates.each do |candidate|
+       datafiles << candidate    if pattern.match( candidate )
+     end
+
+     pp datafiles
+     datafiles
+  end
+
+  def walk( path )
+    recs = []
+    datafiles = find_clubs_datafiles( path, CLUBS_WIKI_REGEX )
+    datafiles.each do |datafile|
+        recs += SportDb::Import::WikiReader.read( datafile )
+    end
+    recs
+  end
+
+  def initialize( path )
+    @names_by_country = {}
+
+    recs = walk( path )
+    recs.each do |rec|
+      h = @names_by_country[ rec.country.key ] ||= {}
+      h[ normalize(rec.name) ] = rec
+    end
+  end
+
+  def normalize( name )
+    name = name.gsub( /[\-\.]/, '' )
+    name = name.gsub( ' ', '' )    ## remove spaces too
+    name = name.downcase
+    name
+  end
+
+  def find_by( names:, country: )  # note: uses names (with s / pluaral!!)
+    rec = nil
+
+    h = @names_by_country[ country.key ]
+    if h
+      ## todo/check: sort names ?
+      ##   sort by longest first (for best match)
+      names.each do |name|
+        ## todo/fix:  name - remove/string year and lang e.g. (1946-2001), [en]!!!!
+        rec = h[ normalize( name ) ]
+        break if rec   ## bingo!! found - break on first match
+      end
+    end
+
+    rec  ## note: return nil if nothing found
+  end
+
+end  # class WikiIndex
 
 
 
