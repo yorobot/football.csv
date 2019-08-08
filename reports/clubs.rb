@@ -346,9 +346,9 @@ def build   ## todo/check: always use render as name - why? why not?
        buf << "- "
        if team.wikipedia?
          ## use wikipedia link
-         "[**#{team.name}**](#{team.wikipedia_url})"
+         buf << "[**#{team.name}**](#{team.wikipedia_url})"
        else
-         "**#{team.name}**"
+         buf << "**#{team.name}**"
        end
 
        if alt_team_names.nil?
@@ -747,8 +747,8 @@ def build   ## todo/check: always use render as name - why? why not?
 
      team_names = teams.map do |team|
        if team.wikipedia?
-         ## use wikipedia link
-         "[#{team.name}](#{team.wikipedia_url})"
+         ## use wikipedia link and markup bold too
+         "**[#{team.name}](#{team.wikipedia_url})**"
        else
          team.name
        end
