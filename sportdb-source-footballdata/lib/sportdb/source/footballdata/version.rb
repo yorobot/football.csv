@@ -3,6 +3,7 @@
 
 module SportDb
 module Source
+module Footballdata
 
   MAJOR = 0    ## todo: namespace inside version or something - why? why not??
   MINOR = 0
@@ -14,16 +15,13 @@ module Source
   end
 
   def self.banner
-    "sportdb-source/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "sportdb-source-footballdata/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
   def self.root
-    File.expand_path( File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) )
+    File.expand_path( File.dirname(File.dirname(File.dirname(File.dirname(File.dirname(__FILE__))))) )
   end
 
-#  def self.test_data_dir
-#    "#{root}/test/data"
-#  end
-
+end # module Footballdata
 end # module Source
 end # modlue SportDb
