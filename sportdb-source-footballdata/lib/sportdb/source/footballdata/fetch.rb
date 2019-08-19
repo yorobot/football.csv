@@ -4,7 +4,7 @@
 module Footballdata
 
 
-def self.fetch( sources, out_dir: )
+def self.fetch_season_by_season( sources, out_dir: )   ## format i - one datafile per season
   download_base  = "http://www.football-data.co.uk/mmz4281"
   out_root = out_dir    # e.g."./dl/#{repo}"
 
@@ -20,6 +20,8 @@ def self.fetch( sources, out_dir: )
 
       puts " url: >>#{url}<<, out_path: >>#{out_path}<<"
 
+      ## note: be friendly sleep 500ms (0.5secs)
+      sleep( 0.5 )
       txt = get( url )
 
       ## make sure parent folders exist
@@ -32,7 +34,7 @@ def self.fetch( sources, out_dir: )
 end
 
 
-def self.fetch_ii( basename, out_dir: )
+def self.fetch_all_seasons( basename, out_dir: )   ## format ii - all-seasons-in-one-datafile
   download_base  = "http://www.football-data.co.uk/new"
   out_root = out_dir     # e.g. "./dl"
 
@@ -41,6 +43,7 @@ def self.fetch_ii( basename, out_dir: )
 
   puts " url: >>#{url}<<, out_path: >>#{out_path}<<"
 
+  sleep( 0.5 )
   txt = get( url )
 
   ## make sure parent folders exist

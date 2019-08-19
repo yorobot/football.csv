@@ -2,8 +2,7 @@
 
 FOOTBALLDATA_SOURCES =
 {
-  eng: [
-        [ '2019-20', %w(E0 E1 E2 E3 EC) ],
+  eng: [[ '2019-20', %w(E0 E1 E2 E3 EC) ],
         [ '2018-19', %w(E0 E1 E2 E3 EC) ],
         [ '2017-18', %w(E0 E1 E2 E3 EC) ],
         [ '2016-17', %w(E0 E1 E2 E3 EC) ],
@@ -84,7 +83,7 @@ FOOTBALLDATA_SOURCES =
         [ '1995-96', %w(D1 D2) ],
         [ '1994-95', %w(D1 D2) ],
         [ '1993-94', %w(D1 D2) ]],
-  it:  [  ## todo/fix: add 2019-20 season starting in august / still waiting for kick off...
+  it: [  ## todo/fix: add 2019-20 season starting in august / still waiting for kick off...
         [ '2018-19', %w(I1 I2) ],
         [ '2017-18', %w(I1 I2) ],
         [ '2016-17', %w(I1 I2) ],
