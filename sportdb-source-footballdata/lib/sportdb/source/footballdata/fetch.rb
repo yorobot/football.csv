@@ -4,29 +4,28 @@
 module Footballdata
 
 
-def self.fetch_season_by_season( sources, out_dir: )   ## format i - one datafile per season
+def self.fetch_season_by_season( sources, dir: )   ## format i - one datafile per season
   download_base  = "http://www.football-data.co.uk/mmz4281"
-  out_root = out_dir    # e.g."./dl/#{repo}"
 
   sources.each do |rec|
-    dirname   = rec[0]
-    basenames = rec[1]
+    season_key = rec[0]   ## note: dirname is season_key e.g. 2011-12 etc.
+    basenames  = rec[1]
 
     basenames.each do |basename|
-      season_path = dirname[2..3]+dirname[5..6]  # e.g. 2008-09 becomse 0809 etc
+      season_path = season_key[2..3]+season_key[5..6]  # e.g. 2008-09 becomse 0809 etc
       url = "#{download_base}/#{season_path}/#{basename}.csv"
 
-      out_path = "#{out_root}/#{dirname}/#{basename}.csv"
+      path = "#{dir}/#{season_key}/#{basename}.csv"
 
-      puts " url: >>#{url}<<, out_path: >>#{out_path}<<"
+      puts " url: >>#{url}<<, path: >>#{path}<<"
 
       ## note: be friendly sleep 500ms (0.5secs)
       sleep( 0.5 )
       txt = get( url )
 
       ## make sure parent folders exist
-      FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
-      File.open( out_path, 'w:utf-8' ) do |out|
+      FileUtils.mkdir_p( File.dirname(path) )   unless Dir.exists?( File.dirname( path ))
+      File.open( path, 'w:utf-8' ) do |out|
           out.write txt
       end
     end
@@ -34,21 +33,20 @@ def self.fetch_season_by_season( sources, out_dir: )   ## format i - one datafil
 end
 
 
-def self.fetch_all_seasons( basename, out_dir: )   ## format ii - all-seasons-in-one-datafile
+def self.fetch_all_seasons( basename, dir: )   ## format ii - all-seasons-in-one-datafile
   download_base  = "http://www.football-data.co.uk/new"
-  out_root = out_dir     # e.g. "./dl"
 
-  url = "#{download_base}/#{basename}.csv"
-  out_path = "#{out_root}/#{basename}.csv"
+  url  = "#{download_base}/#{basename}.csv"
+  path = "#{dir}/#{basename}.csv"
 
-  puts " url: >>#{url}<<, out_path: >>#{out_path}<<"
+  puts " url: >>#{url}<<, path: >>#{path}<<"
 
   sleep( 0.5 )
   txt = get( url )
 
   ## make sure parent folders exist
-  FileUtils.mkdir_p( File.dirname(out_path) )   unless Dir.exists?( File.dirname( out_path ))
-  File.open( out_path, 'w:utf-8' ) do |out|
+  FileUtils.mkdir_p( File.dirname(path) )   unless Dir.exists?( File.dirname( path ))
+  File.open( path, 'w:utf-8' ) do |out|
       out.write txt
   end
 end

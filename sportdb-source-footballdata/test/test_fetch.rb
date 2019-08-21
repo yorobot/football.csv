@@ -16,15 +16,15 @@ class TestFetch < MiniTest::Test
   end
 
   def xx_test_fetch_at
-    Footballdata.fetch( :at, out_dir: './dl'  )
+    Footballdata.fetch( :at, dir: './dl'  )
   end
 
   def xx_test_fetch_eng
-    Footballdata.fetch( :eng, out_dir: './dl')
+    Footballdata.fetch( :eng, dir: './dl')
   end
 
   def test_fetch_all
-     Footballdata.fetch( out_dir: './dl' )
+     Footballdata.fetch( dir: './dl' )
   end
 
 end # class TestFetch

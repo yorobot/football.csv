@@ -20,16 +20,16 @@ class TestImport < MiniTest::Test
   end
 
 
-  def test_import_at
-    Footballdata.import( :at, in_dir: './dl'  )
+  def xx_test_import_at
+    Footballdata.import( :at, dir: './dl'  )
   end
 
-  def test_import_eng
-    Footballdata.import( :eng, in_dir: './dl')
+  def xx_test_import_eng
+    Footballdata.import( :eng, dir: './dl')
   end
 
   def test_import_all
-     Footballdata.import( in_dir: './dl' )
+     Footballdata.import( :ar, dir: './dl' )
   end
 
 end # class TestImport
