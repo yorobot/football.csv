@@ -55,7 +55,7 @@ and get at least updated twice weekly
 
 ## Usage
 
-Let's download all datasets for offline usage into the `./dl` directory:
+Let's download all datasets (about 570+) for offline usage into the `./dl` directory:
 
 ``` ruby
 require 'sportdb/source/footballdata'
