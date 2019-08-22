@@ -108,14 +108,6 @@ end  # method import_season_by_season
 def self.import_all_seasons( country_key, basename, dir: )
 
   col  = 'Season'
-  headers = {
-    team1: 'Home',
-    team2: 'Away',
-    date:  'Date',
-    score1: 'HG',
-    score2: 'AG',
-  }
-
   path = "#{dir}/#{basename}.csv"
 
   season_keys = CsvMatchSplitter.find_seasons( path, col: col )
@@ -129,7 +121,7 @@ def self.import_all_seasons( country_key, basename, dir: )
     season = SportDb::Importer::Season.find_or_create_builtin( season_key )
 
 
-    matches = CsvMatchReader.read( path, headers: headers, filters: { col => season_key } )
+    matches = CsvMatchReader.read( path, filters: { col => season_key } )
 
     pp matches[0..2]
     pp matches.size

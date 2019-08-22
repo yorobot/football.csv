@@ -10,7 +10,7 @@ require 'helper'
 class TestImport < MiniTest::Test
 
   def setup
-    SportDb::Import.config.clubs_dir = '../../../openfootball/clubs'
+    ## SportDb::Import.config.clubs_dir = '../../../openfootball/clubs'
 
     SportDb.connect( adapter:  'sqlite3',
                      database: ':memory:' )
@@ -20,16 +20,16 @@ class TestImport < MiniTest::Test
   end
 
 
-  def xx_test_import_at
+  def test_import_at
     Footballdata.import( :at, dir: './dl'  )
   end
 
-  def xx_test_import_eng
+  def test_import_eng
     Footballdata.import( :eng, dir: './dl')
   end
 
   def test_import_all
-     Footballdata.import( :ar, dir: './dl' )
+     Footballdata.import( :at, dir: './dl' )
   end
 
 end # class TestImport

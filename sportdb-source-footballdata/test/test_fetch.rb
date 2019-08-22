@@ -15,11 +15,11 @@ class TestFetch < MiniTest::Test
     pp FOOTBALLDATA_SOURCES_II
   end
 
-  def xx_test_fetch_at
+  def test_fetch_at
     Footballdata.fetch( :at, dir: './dl'  )
   end
 
-  def xx_test_fetch_eng
+  def test_fetch_eng
     Footballdata.fetch( :eng, dir: './dl')
   end
 
