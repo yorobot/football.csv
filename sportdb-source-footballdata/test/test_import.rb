@@ -29,7 +29,7 @@ class TestImport < MiniTest::Test
   end
 
   def test_import_all
-     Footballdata.import( :at, dir: './dl' )
+     Footballdata.import( dir: './dl' )
   end
 
 end # class TestImport

@@ -3,10 +3,10 @@ Manifest.txt
 README.md
 Rakefile
 lib/sportdb/source/footballdata.rb
-lib/sportdb/source/footballdata/config_i.rb
-lib/sportdb/source/footballdata/config_ii.rb
+lib/sportdb/source/footballdata/config.rb
 lib/sportdb/source/footballdata/convert.rb
 lib/sportdb/source/footballdata/fetch.rb
 lib/sportdb/source/footballdata/version.rb
 test/helper.rb
 test/test_fetch.rb
+test/test_import.rb

@@ -83,7 +83,7 @@ FOOTBALLDATA_SOURCES =
         [ '1995-96', %w(D1 D2) ],
         [ '1994-95', %w(D1 D2) ],
         [ '1993-94', %w(D1 D2) ]],
-  it: [  ## todo/fix: add 2019-20 season starting in august / still waiting for kick off...
+  it:  [[ '2019-20', %w(I1 I2) ],
         [ '2018-19', %w(I1 I2) ],
         [ '2017-18', %w(I1 I2) ],
         [ '2016-17', %w(I1 I2) ],
@@ -268,7 +268,7 @@ FOOTBALLDATA_SOURCES =
         [ '1996-97', %w(T1) ],
         [ '1995-96', %w(T1) ],
         [ '1994-95', %w(T1) ]],
-  gr:  [## todo/fix: add 2019-20 season starting in august / still waiting for kick off...
+  gr:  [[ '2019-20', %w(G1) ],
         [ '2018-19', %w(G1) ],
         [ '2017-18', %w(G1) ],
         [ '2016-17', %w(G1) ],
@@ -296,10 +296,45 @@ FOOTBALLDATA_SOURCES =
         [ '1994-95', %w(G1) ]]
 }
 
+## all seasons in-one-file datasets
+FOOTBALLDATA_SOURCES_II =
+{
+    ## https://www.football-data.co.uk/new/<code>.csv
+    ##
+    ##  check - adjust time-zone/time-offset
+    ##
+    ## - austria
+    ## - major-league-soccer
+    ## - mexico
+    ## - brazil
+    ##
+    ##  if no "national" repo, use the "world" repo
+    ##
+    ##  check for seasons format
+    ##     is a full year e.g. 2016 (and NOT 2016/17)
+    ##       e.g. bra,arg, fin, and others!!!!
+
+   ar: 'ARG',  # Argentina Football Results - Primera Division
+   at: 'AUT',  # Austria Football Results   - Bundesliga
+   br: 'BRA',  # Brazil Football Results    - Serie A
+   cn: 'CHN',  # China Football Results     - Super League
+   dk: 'DNK',  # Denmark Football Results  - Superliga
+   fi: 'FIN',  # Finland Football Results  - Veikkausliiga
+   ie: 'IRL',  # Ireland Football Results  - Premier Division
+   jp: 'JPN',  # Japan Football Results    - J-League
+   mx: 'MEX',  # Mexico Football Results   - Liga MX
+   no: 'NOR',  # Norway Football Results  - Eliteserien
+   pl: 'POL',  # Poland Football Results  - Ekstraklasa
+   ro: 'ROU',  # Romania Football Results  - Liga 1
+   ru: 'RUS',  # Russia Football Results  - Premier League
+   se: 'SWE',  # Sweden Football Results  - Allsvenskan
+   ch: 'SWZ',  # Switzerland Football Results - Super League
+   us: 'USA',  # USA Football Results  - MLS
+}
+
 
 
 ## map football_data leagues to our own keys
-
 FOOTBALLDATA_LEAGUES = {
   'E0'  => 'eng.1',  # english premier league
   'E1'  => 'eng.2',  # english championship league
@@ -333,4 +368,41 @@ FOOTBALLDATA_LEAGUES = {
   'T1'  => 'tr.1',   # turkish Süper Lig
 
   'G1'  => 'gr.1',   # greek Superleague
+}
+
+
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+##  todo/fix: add support for dst (daylight saving time!!! )
+##   uses always "winter" time for now
+FOOTBALLDATA_TIMEZONES = {
+  mx:  -6,     ## America/Mexico_City - note: baja sur is -7, bajar norte (tijuana) is -8 !!!
+  us:  -5,     ## America/New_York
+  ar:  -3,     ## America/Argentina/Buenos_Aires
+  br:  -3,     ## America/Sao_Paulo
+
+  eng:  0,     ## Europe/London
+  sco:  0,     ## ?
+  ie:   0,     ## Europe/Dublin
+  pt:   0,     ## Europe/Lisbon
+  at:  +1,     ## Europe/Vienna
+  de:  +1,     ## Europe/Berlin
+  it:  +1,     ## Europe/Rome
+  es:  +1,     ## Europe/Madrid
+  fr:  +1,     ## Europe/Paris
+  nl:  +1,     ## Europe/Amsterdam
+  be:  +1,     ## Europe/Brussels
+  dk:  +1,     ## Europe/Copenhagen
+  no:  +1,     ## Europe/Oslo
+  se:  +1,     ## Europe/Stockholm
+  ch:  +1,     ## Europe/Zurich
+
+  fi:  +2,     ## Europe/Helsinki
+  gr:  +2,     ## Europe/Athens
+  pl:  +2,     ## Europe/Warsaw
+  ro:  +2,     ## Europe/Bucharest
+  tr:  +3,     ## Europe/Istanbul
+  ru:  +3,     ## Europe/Moscow
+
+  cn:  +8,     ## Asia/Shanghai
+  jp:  +9,     ## Asia/Tokyo
 }

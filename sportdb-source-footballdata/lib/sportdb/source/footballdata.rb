@@ -13,8 +13,7 @@ require 'sportdb/import'
 # our own code
 require 'sportdb/source/footballdata/version' # let version always go first
 
-require 'sportdb/source/footballdata/config_i'
-require 'sportdb/source/footballdata/config_ii'
+require 'sportdb/source/footballdata/config'
 require 'sportdb/source/footballdata/fetch'
 require 'sportdb/source/footballdata/convert'
 
@@ -74,6 +73,9 @@ def self.load( *args, dir: './dl' ) import( *args, dir: dir ); end  ## add alias
 
 def self.import_season_by_season( country_key, sources, dir: )
 
+  ## todo/check: make sure timezones entry for country_key exists!!! what results with nil/24.0 ??
+  fix_date_converter = ->(row) { fix_date( row, FOOTBALLDATA_TIMEZONES[country_key]/24.0 ) }
+
   sources.each do |rec|
     season_key  = rec[0]   ## note: dirname is season_key e.g. 2011-12 etc.
     basenames  = rec[1]   ## e.g. E1,E2,etc.
@@ -94,7 +96,7 @@ def self.import_season_by_season( country_key, sources, dir: )
 
       puts "path: #{path}"
 
-      matches = CsvMatchReader.read( path )
+      matches = CsvMatchReader.read( path, converters: fix_date_converter )
 
       update_matches_txt( matches,
                             league:  league,
@@ -117,11 +119,14 @@ def self.import_all_seasons( country_key, basename, dir: )
   league_key = "#{country_key}.1"
   country, league = find_or_create_country_and_league( league_key )
 
+  ## todo/check: make sure timezones entry for country_key exists!!! what results with nil/24.0 ??
+  fix_date_converter = ->(row) { fix_date( row, FOOTBALLDATA_TIMEZONES[country_key]/24.0 ) }
+
   season_keys.each do |season_key|
     season = SportDb::Importer::Season.find_or_create_builtin( season_key )
 
-
-    matches = CsvMatchReader.read( path, filters: { col => season_key } )
+    matches = CsvMatchReader.read( path, filters: { col => season_key },
+                                         converters: fix_date_converter )
 
     pp matches[0..2]
     pp matches.size
@@ -131,7 +136,6 @@ def self.import_all_seasons( country_key, basename, dir: )
                           season:  season )
   end
 end  # method import_all_seasons
-
 
 
 ###
@@ -148,6 +152,31 @@ def self.find_or_create_country_and_league( league_key )
 
   [country, league]
 end
+
+## helper to fix dates to use local timezone (and not utc/london time)
+def self.fix_date( row, offset )
+  return row    if row['Time'].nil?   ## note: time (column) required for fix
+
+  col = row['Date']
+  if col =~ /^\d{2}\/\d{2}\/\d{4}$/
+    date_fmt = '%d/%m/%Y'   # e.g. 17/08/2002
+  elsif col =~ /^\d{2}\/\d{2}\/\d{2}$/
+    date_fmt = '%d/%m/%y'   # e.g. 17/08/02
+  else
+    puts "*** !!! wrong (unknown) date format >>#{col}<<; cannot continue; fix it; sorry"
+    ## todo/fix: add to errors/warns list - why? why not?
+    exit 1
+  end
+
+  date = DateTime.strptime( "#{row['Date']} #{row['Time']}", "#{date_fmt} %H:%M" )
+  date = date + offset
+
+  row['Date'] = date.strftime( date_fmt )  ## overwrite "old"
+  row['Time'] = date.strftime( '%H:%M' )
+  row   ## return row for possible pipelining - why? why not?
+end
+
+
 
 end ## module Footballdata
 
