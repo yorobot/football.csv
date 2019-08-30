@@ -31,37 +31,7 @@ def self.convert_season_by_season( country_key, sources,
 
       matches = CsvMatchReader.read( in_path )
 
-      ## todo/fix: add a (lookup) cache for matched names
-      matches.each do |match|
-        names = [match.team1, match.team2]
-        clubs = []
-        names.each do |name|
-          m = SportDb::Import.config.clubs.match( name )
-          if m.nil?
-            ## todo/check: exit if no match - why? why not?
-            puts "!!! *** ERROR *** no matching club found for >#{name}< - add to clubs setup"
-            exit 1
-          else
-            if m.size == 1
-              clubs << m[0]
-            else   ## assume more than one (>1) match
-              ## resolve conflict - find best match - how?
-              ## try match / filter by country
-              m2 = m.select { |c| c.country.key == country_key }
-              if m2.size == 1
-                clubs << m2[0]
-              else
-                puts "!!! *** ERROR *** no clubs or too many matching clubs found for country >#{country_key}< and >#{name}< - cannot resolve conflict / find best match (automatic):"
-                pp m
-                exit 1
-              end
-            end
-          end
-        end # each name
-        ## update names to use canonical names
-        match.update( team1: clubs[0].name,
-                      team2: clubs[1].name )
-      end # each match
+      normalize_clubs( matches, country_key )
 
       CsvMatchWriter.write( out_path, matches )
     end
@@ -83,5 +53,56 @@ def self.convert_season_by_season( country_key, sources,
 
   ## standings_writer = CsvStandingsWriter.new( pack )
   ## standings_writer.write
-end
+end # method convert_season_by_season
+
+
+
+####
+#  helper for normalize clubs
+def self.normalize_clubs( matches, country_key )
+  country_key = country_key.to_s  ## note: club struct uses string (not symbols); make sure we (always) use strings (otherwise compare fails)
+  cache = {}   ## note: use a (lookup) cache for matched club names
+
+  matches.each do |match|
+    names = [match.team1, match.team2]
+    clubs = []     # holds the match club 1 and club 2 (that is, team 1 and team 2)
+    names.each do |name|
+      club = cache[name]
+      if club   ## bingo! found cached club match/entry
+        clubs << club
+      else
+        m = SportDb::Import.config.clubs.match( name )
+        if m.nil?
+          ## todo/check: exit if no match - why? why not?
+          puts "!!! *** ERROR *** no matching club found for >#{name}< - add to clubs setup"
+          exit 1
+        else
+          if m.size == 1
+            club = m[0]
+            cache[name] = club   ## cache club match
+            clubs << club
+          else   ## assume more than one (>1) match
+            ## resolve conflict - find best match - how?
+            ## try match / filter by country
+            m2 = m.select { |c| c.country.key == country_key }
+            if m2.size == 1
+              club = m2[0]
+              cache[name] = club   ## cache club match
+              clubs << club
+            else
+              puts "!!! *** ERROR *** no clubs or too many matching clubs found for country >#{country_key}< and >#{name}< - cannot resolve conflict / find best match (automatic):"
+              pp m
+              exit 1
+            end
+          end
+        end
+      end
+    end # each name
+    ## update names to use canonical names
+    match.update( team1: clubs[0].name,
+                  team2: clubs[1].name )
+  end # each match
+end  # method normalize_clubs
+
+
 end # module Footballdata
