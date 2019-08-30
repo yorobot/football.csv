@@ -2,15 +2,16 @@
 
 
 ## note: use the local version of sportdb-source gem
-$LOAD_PATH.unshift( File.expand_path( './sportdb-source/lib') )
+$LOAD_PATH.unshift( File.expand_path( './sportdb-source-footballdata/lib') )
 
-require 'sportdb/source'
+require 'sportdb/source/footballdata'
 
-##  add sportdb/import too ?
+
+##  add sportdb/import too - why? why not?
+
 
 
 ### our own code
-
 
 require './repos'
 

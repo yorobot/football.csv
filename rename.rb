@@ -31,7 +31,7 @@ def rename_repo( repo_path, key )
        new_path = "#{dirname}/#{key}.#{div}.csv"
        cmd = "git mv #{old_path} #{new_path}"
        puts "  #{cmd}"
-       ## system cmd
+       system cmd
      else
        puts "!! divsion missing in datafile basename - sorry"
        exit 1
@@ -40,7 +40,7 @@ def rename_repo( repo_path, key )
 end
 
 
-rename_repo( "../deutschland", "de" )
+rename_repo( "../../footballcsv/italy", "it" )
 
 __END__
   ### system "git add ."
