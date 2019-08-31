@@ -61,13 +61,15 @@ def self.get( url )
 
 ## [debug] GET=http://www.football-data.co.uk/mmz4281/0405/SC0.csv
 ##    Encoding::UndefinedConversionError: "\xA0" from ASCII-8BIT to UTF-8
+##     note:  0xA0 (160) is NBSP (non-breaking space) in Windows-1252
 
     ## note: assume windows encoding (for football-data.uk)
-    ##  convert to utf-8
-    ##   use "Windows-1252" for input - why? why not?
+    ##   use "Windows-1252" for input and convert to utf-8
+    ##
     ##    see https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
+    ##    see https://en.wikipedia.org/wiki/Windows-1252
 
-    txt = txt.force_encoding( 'ISO-8859-1' )
+    txt = txt.force_encoding( 'Windows-1252' )
     txt = txt.encode( 'UTF-8' )
 
     ## fix: newlines - always use "unix" style"

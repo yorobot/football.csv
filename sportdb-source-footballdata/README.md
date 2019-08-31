@@ -172,7 +172,7 @@ holds all seasons of the Argentinian Primera Division;
 
 
 Note: The datasets character encoding gets converted from
-ISO-8859-1 (Windows-1252) to UTF-8 (Unicode).
+[Windows-1252 (8-bit)](https://en.wikipedia.org/wiki/Windows-1252) to UTF-8 (Unicode multi-byte).
 
 
 Less is More?
@@ -225,4 +225,3 @@ Use it as you please with no restrictions whatsoever.
 Send them along to the
 [Open Sports & Friends Forum/Mailing List](http://groups.google.com/group/opensport).
 Thanks!
-
