@@ -1,0 +1,116 @@
+Num, Date, Liga, Team 1, Score, Team 2, Result, Liga Title
+001, 27.08. 13:30, AFC CL, SIPG Shanghai CHN, 2:2, Urawa RD JPN, X, Fussball - AFC Champions League
+002, 27.08. 17:30, FIN 1, Tampereen Ilves, 3:1, HIFK Helsinki, 1, Fussball - Finnland Veikkausliiga
+003, 27.08. 18:00, ROU 2, CS Mioveni, 2:0, FC Arges Pitesti, 1, Fussball - Rumänien, Liga 2
+004, 27.08. 18:45, FRA LC, AS Nancy, 1:0, AC Ajaccio, 1, Fussball - Frankreich Coupe de la Ligue
+005, 27.08. 19:00, AUT RLO, Rapid Wien Am., 2:1, Admira Amateure, 1, Fussball - Österreich Regionalliga Ost
+006, 27.08. 19:00, FRA 1, HSC Montpellier, 1:0, Olympique Lyon, 1, Fussball - Frankreich Ligue 1
+007, 27.08. 19:00, SWE 2, Halmstads BK, 1:2, Jönköpings Södra, 2, Fussball - Schweden Superettan
+009, 27.08. 19:45, AFC CL, Al-Ittihad KSA, 0:0, Al-Hilal Riyad KSA, X, Fussball - AFC Champions League
+010, 27.08. 20:00, FRA LC, FC Chamois Niort, 0:0, Grenoble Foot, X, Fussball - Frankreich Coupe de la Ligue
+011, 27.08. 20:00, FRA LC, Ajaccio GFCO, 1:1, Paris FC 98, X, Fussball - Frankreich Coupe de la Ligue
+012, 27.08. 20:00, FRA LC, FC Bourg Peronnas, 1:1, AS Beziers, X, Fussball - Frankreich Coupe de la Ligue
+013, 27.08. 20:00, FRA LC, Le Mans UC 72, 2:2, US Orleans 45, X, Fussball - Frankreich Coupe de la Ligue
+014, 27.08. 20:45, ENG LC, FC Crewe Alexandra, 1:6, Aston Villa, 2, Fussball - England Liga Cup
+015, 27.08. 20:45, ENG LC, Grimsby Town, abgesagt, Macclesfield Town,  , Fussball - England Liga Cup
+016, 27.08. 20:45, ENG LC, Sheffield United, 2:1, Blackburn Rovers, 1, Fussball - England Liga Cup
+017, 27.08. 20:45, ENG LC, Plymouth Argyle, 2:4, FC Reading, 2, Fussball - England Liga Cup
+018, 27.08. 20:45, ENG LC, Crystal Palace, 0:0, Colchester United, X, Fussball - England Liga Cup
+019, 27.08. 20:45, ENG LC, Oxford United, 2:2, FC Millwall, X, Fussball - England Liga Cup
+020, 27.08. 20:45, ENG LC, Southend United, 1:4, MK Dons, 2, Fussball - England Liga Cup
+021, 27.08. 20:45, ENG LC, Preston North End, 2:2, Hull City, X, Fussball - England Liga Cup
+022, 27.08. 20:45, ENG LC, Cardiff City, 0:3, Luton Town, 2, Fussball - England Liga Cup
+023, 27.08. 20:45, ENG LC, Crawley Town, 1:0, Norwich City, 1, Fussball - England Liga Cup
+024, 27.08. 20:45, ENG LC, FC Fulham, 0:1, FC Southampton, 2, Fussball - England Liga Cup
+025, 27.08. 20:45, ENG LC, Nottingham Forest, 3:0, Derby County, 1, Fussball - England Liga Cup
+026, 27.08. 20:45, ENG LC, FC Watford, 3:0, Coventry City, 1, Fussball - England Liga Cup
+027, 27.08. 20:45, ENG LC, Leeds United, 2:2, Stoke City, X, Fussball - England Liga Cup
+028, 27.08. 20:45, ENG LC, FC Rochdale, 2:1, Carlisle United, 1, Fussball - England Liga Cup
+029, 27.08. 20:45, ENG LC, Bristol Rovers, 1:2, Brighton & Hove, 2, Fussball - England Liga Cup
+030, 27.08. 20:45, ENG LC, Burton Albion, 4:0, FC Morecambe, 1, Fussball - England Liga Cup
+031, 27.08. 20:45, ENG LC, Newport County, 0:2, West Ham United, 2, Fussball - England Liga Cup
+008, 27.08. 20:50, TEN ATP, Fabbiano, Thomas, 3:1, Thiem, Dominic, 1, Tennis - Tennis ATP
+032, 27.08. 21:00, CL, Rosenborg BK NOR, 1:1, Dinamo Zagreb CRO, X, Fussball - UEFA Champions League
+033, 27.08. 21:00, CL, FC Krasnodar RUS, 1:2, Olympiakos P. GRE, 2, Fussball - UEFA Champions League
+034, 27.08. 21:00, CL, Roter Stern B. SRB, 1:1, YB Bern SUI, X, Fussball - UEFA Champions League
+035, 27.08. 21:00, CL, Roter Stern B., 1:2, Young Boys Bern+1, 2, Fussball - UEFA Champions League
+036, 27.08. 21:00, IRL 1, FC Shamrock Rovers, 2:1, Waterford United, 1, Fussball - Irland Premier Division
+037, 27.08. 21:05, FRA LC, RC Lens, 2:2, Clermont Foot, X, Fussball - Frankreich Coupe de la Ligue
+038, 27.08. 21:30, BRA 2, CRB AL, 0:3, RB Bragantino SP, 2, Fussball - Brasilien Brasilero Serie B
+039, 28.08. 00:15, BRA 2, Vila Nova GO, 0:0, Cuiaba MT, X, Fussball - Brasilien Brasilero Serie B
+040, 28.08. 00:15, BRA 2, Botafogo SP, 0:1, Parana Clube PR, 2, Fussball - Brasilien Brasilero Serie B
+041, 28.08. 00:15, BRA 2, Coritiba FC PR, 1:1, Vitoria BA, X, Fussball - Brasilien Brasilero Serie B
+042, 28.08. 00:15, BRA 2, Brasil de Pelotas, 1:0, AA Ponte Preta SP, 1, Fussball - Brasilien Brasilero Serie B
+043, 28.08. 01:30, BRA 2, Criciuma SC, 3:1, Oeste FC SP, 1, Fussball - Brasilien Brasilero Serie B
+044, 28.08. 01:30, BRA 2, Operario FEC PR, 1:0, Figueirense FC SC, 1, Fussball - Brasilien Brasilero Serie B
+045, 28.08. 02:00, USA CUP, Atlanta United FC, 2:1, FC Minnesota Utd., 1, Fussball - USA US Open Cup
+046, 28.08. 02:30, COPA L, SE Palmeiras S BRA, 1:2, Gremio RS BRA, 2, Fussball - Copa Libertadores
+047, 28.08. 02:30, COPA S, La Equidad COL, 1:3, Atletico MG BRA, 2, Fussball - Copa Sudamericana
+048, 28.08. 02:30, BRA 2, Sport Recife PE, 1:1, Atletico GO, X, Fussball - Brasilien Brasilero Serie B
+049, 28.08. 11:30, AUS CUP, Brisbane Roar, 2:2, Central Coast, X, Fussball - Australien, FFA Cup
+050, 28.08. 14:00, AFC CL, Guangzhou Ev. CHN, 0:0, Kashima A. JPN, X, Fussball - AFC Champions League
+051, 28.08. 18:00, NOR 2, Aalesunds FK, 5:2, Ham-Kam, 1, Fussball - Norwegen Adeccoligaen
+052, 28.08. 18:30, EST 1, FC Flora Tallinn, 1:1, JK Nomme Kalju, X, Fussball - Estland Meistriliiga
+053, 28.08. 19:00, FRA 1, Lille OSC, 3:0, AS Saint Etienne, 1, Fussball - Frankreich Ligue 1
+054, 28.08. 19:00, DEN CUP, Brönshöj BK, 1:1, Hvidovre IF, X, Fussball - Dänemark Landspokalturneringen
+055, 28.08. 20:00, BOS 1, NK Siroki Brijeg, 0:0, FK Sarajevo, X, Fussball - Bosnien Premier Liga
+056, 28.08. 20:45, ENG LC, Swansea City, 6:0, Cambridge United, 1, Fussball - England Liga Cup
+057, 28.08. 20:45, ENG LC, FC Burnley, 1:3, AFC Sunderland, 2, Fussball - England Liga Cup
+058, 28.08. 20:45, ENG LC, Lincoln City, 2:4, FC Everton, 2, Fussball - England Liga Cup
+059, 28.08. 20:45, ENG LC, Newcastle United, 1:1, Leicester City, X, Fussball - England Liga Cup
+060, 28.08. 20:45, ENG LC, Queens Park R., 0:2, FC Portsmouth, 2, Fussball - England Liga Cup
+061, 28.08. 20:45, ENG LC, AFC Bournemouth, 0:0, Forest Green, X, Fussball - England Liga Cup
+062, 28.08. 20:45, ENG LC, Rotherham United, 0:1, Sheffield Wednes., 2, Fussball - England Liga Cup
+063, 28.08. 21:00, CL, Club Brügge BEL, 2:1, LASK Linz AUT, 1, Fussball - UEFA Champions League
+064, 28.08. 21:00, CL, Club Brügge, 2:2, LASK Linz+1, X, Fussball - UEFA Champions League
+065, 28.08. 21:00, CL, Ajax Amsterd. NED, 2:0, APOEL Nikosia CYP, 1, Fussball - UEFA Champions League
+066, 28.08. 21:00, CL, Slavia Prag CZE, 1:0, FC CFR  Cluj ROU, 1, Fussball - UEFA Champions League
+067, 28.08. 21:00, FRA 1, OGC Nizza, 1:2, Olymp. Marseille, 2, Fussball - Frankreich Ligue 1
+068, 29.08. 00:15, COPA L, Boca Juniors ARG, 0:0, LDU Quito ECU, X, Fussball - Copa Libertadores
+069, 29.08. 02:00, USA MLS, Montreal Impact, 2:1, Vancouver W'caps, 1, Fussball - USA Major League Soccer
+070, 29.08. 02:30, COPA L, Internacional BRA, 1:1, Flamengo RJ BRA, X, Fussball - Copa Libertadores
+071, 29.08. 17:30, FIN 3, Pepo Lappeenranta, 1:3, Jippo, 2, Fussball - Finnland Kakkonen
+072, 29.08. 18:00, DEN 2, Vejle BK, 4:1, Viborg FF, 1, Fussball - Dänemark 1. Division
+073, 29.08. 18:00, EL, Qarabag FK AZE, 2:1, FC Linfield NIR, 1, Fussball - UEFA Europa League
+074, 29.08. 18:45, EL, FC Riga LAT, 1:0, FC Kopenhagen DEN, 1, Fussball - UEFA Europa League
+075, 29.08. 19:00, EL, BATE Borisov BLR, 2:0, FC Astana KAZ, 1, Fussball - UEFA Europa League
+076, 29.08. 19:00, EL, AIK Stockholm SWE, 1:4, Celtic Glasgow SCO, 2, Fussball - UEFA Europa League
+077, 29.08. 19:00, EL, PAOK Thessal. GRE, 3:2, Slov. Bratisl. SVK, 1, Fussball - UEFA Europa League
+078, 29.08. 19:00, EL, Apollon L. CYP, 0:4, PSV Eindhoven NED, 2, Fussball - UEFA Europa League
+079, 29.08. 19:00, EL, Bnei Yehuda ISR, 0:1, Malmö FF SWE, 2, Fussball - UEFA Europa League
+080, 29.08. 19:00, EL, Zorya Lugansk UKR, 2:2, Esp. Barcelona ESP, X, Fussball - UEFA Europa League
+081, 29.08. 19:00, EL, Molde FK NOR, 1:1, FK Partizan SRB, X, Fussball - UEFA Europa League
+082, 29.08. 19:00, HB GER, Flensburg-Hendew., 30:27, Rhein-Neckar L., 1, Handball - Deutsche Handball Bundesliga
+083, 29.08. 19:15, EL, Spartak Moskau RUS, 1:2, Sporting Braga POR, 2, Fussball - UEFA Europa League
+084, 29.08. 19:30, EL, Trabzonspor TUR, 0:2, AEK Athen GRE, 2, Fussball - UEFA Europa League
+085, 29.08. 19:30, EL, H. Beer Sheva ISR, 0:3, Feyenoord NED, 2, Fussball - UEFA Europa League
+086, 29.08. 19:30, EL, R. Antwerpen BEL, 1:1, AZ Alkmaar NED, X, Fussball - UEFA Europa League
+087, 29.08. 20:00, EL, F91 Dudelange LUX, 2:1, Ararat-Armenia ARM, 1, Fussball - UEFA Europa League
+088, 29.08. 20:00, EL, Ferencvaros HUN, 4:2, Suduva Marija. LTU, 1, Fussball - UEFA Europa League
+089, 29.08. 20:00, EL, HNK Rijeka CRO, 1:1, KAA Gent BEL, X, Fussball - UEFA Europa League
+090, 29.08. 20:15, EL, NK Maribor SLO, 2:2, Ludog. Razgrad BUL, X, Fussball - UEFA Europa League
+091, 29.08. 20:30, EL, E. Frankfurt GER, 3:0, Strasbourg FRA, 1, Fussball - UEFA Europa League
+092, 29.08. 20:30, EL, Eintr. Frankfurt, 3:1, Strasbourg+1, 1, Fussball - UEFA Europa League
+093, 29.08. 20:45, EL, Gl.Rangers SCO, 1:0, Legia Warschau POL, 1, Fussball - UEFA Europa League
+094, 29.08. 20:45, EL, Wolverhampton ENG, 2:1, FC Torino ITA, 1, Fussball - UEFA Europa League
+095, 29.08. 21:00, EL, Vit. Guimaraes POR, 1:0, FCS Bukarest ROU, 1, Fussball - UEFA Europa League
+096, 30.08. 00:15, COPA L, Cerro Porteno PAR, 1:1, CA River Plate ARG, X, Fussball - Copa Libertadores
+097, 30.08. 02:30, COPA S, Fluminense RJ BRA, 1:1, Corinthians SP BRA, X, Fussball - Copa Sudamericana
+098, 30.08. 19:10, AUT 2, FC Liefering, 2:1, Young Violets A.W., 1, Fussball - Österreich Zweite Liga
+099, 30.08. 19:10, AUT 2, Grazer AK, 2:1, FC Juniors OÖ, 1, Fussball - Österreich Zweite Liga
+100, 30.08. 19:10, AUT 2, SV Lafnitz, 0:3, Austria Klagenfurt, 2, Fussball - Österreich Zweite Liga
+101, 30.08. 19:10, AUT 2, SKU Amstetten, 2:4, SV Horn, 2, Fussball - Österreich Zweite Liga
+102, 30.08. 19:10, AUT 2, BW Linz, 1:0, Wacker Innsbruck, 1, Fussball - Österreich Zweite Liga
+103, 30.08. 19:10, AUT 2, Kapfenberger SV, 2:3, SV Ried, 2, Fussball - Österreich Zweite Liga
+112, 30.08. 20:30, GER BL, Mönchengladbach, 1:3, RB Leipzig, 2, Fussball - Deutschland Bundesliga
+104, 31.08. 14:30, AUT 2, SK Vorwärts Steyr, 3:2, FC Dornbirn, 1, Fussball - Österreich Zweite Liga
+113, 31.08. 15:30, GER BL, SC Freiburg, 1:2, 1. FC Köln, 2, Fussball - Deutschland Bundesliga
+114, 31.08. 15:30, GER BL, FC Schalke 04, 3:0, Hertha BSC, 1, Fussball - Deutschland Bundesliga
+115, 31.08. 15:30, GER BL, FC Bayern München, 6:1, FSV Mainz 05, 1, Fussball - Deutschland Bundesliga
+116, 31.08. 15:30, GER BL, Bayer Leverkusen, 0:0, TSG Hoffenheim, X, Fussball - Deutschland Bundesliga
+117, 31.08. 15:30, GER BL, VfL Wolfsburg, 1:1, SC Paderborn, X, Fussball - Deutschland Bundesliga
+106, 31.08. 17:00, AUT BL, LASK Linz, 0:1, Wolfsberger AC, 2, Fussball - Österreich Bundesliga
+107, 31.08. 17:00, AUT BL, Admira Wacker, 1:3, SV Mattersburg, 2, Fussball - Österreich Bundesliga
+111, 31.08. 17:00, AUT BL, WSG Swarovs. Tirol, 1:5, Red Bull Salzburg, 2, Fussball - Österreich Bundesliga
+118, 31.08. 18:30, GER BL, FC Union Berlin, 3:1, Bor. Dortmund, 1, Fussball - Deutschland Bundesliga
+105, 01.09. 10:30, AUT 2, Austria Lustenau, 0:0, Floridsdorfer AC, 4', Fussball - Österreich Zweite Liga

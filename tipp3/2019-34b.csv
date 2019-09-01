@@ -1,0 +1,121 @@
+Num, Date, Liga, Team 1, Score, Team 2, Result, Liga Title
+001, 23.08. 18:30, GER 2, SV Darmstadt 98, 0:0, Dynamo Dresden, X, Fussball - Deutschland 2. Bundesliga
+002, 23.08. 18:30, GER 2, Erzgebirge Aue, 0:0, VfB Stuttgart, X, Fussball - Deutschland 2. Bundesliga
+003, 23.08. 18:30, AUT RLO, FCM Traiskirchen, 3:2, ASV Draßburg, 1, Fussball - Österreich Regionalliga Ost
+004, 23.08. 19:00, AUT RLO, SC Neusiedl, 1:3, Mannsdorf-Großenz., 2, Fussball - Österreich Regionalliga Ost
+005, 23.08. 19:00, AUT RLO, SV Mattersburg Am., 1:2, SC Wiener Neustadt, 2, Fussball - Österreich Regionalliga Ost
+006, 23.08. 19:00, AUT RLO, Rapid Wien Am., 3:0, Wiener Viktoria, 1, Fussball - Österreich Regionalliga Ost
+007, 23.08. 19:00, AUT RLM, FC Gleisdorf, 3:2, Deutschlandsberg, 1, Fussball - Österreich Regionalliga Mitte
+008, 23.08. 19:00, AUT RLM, Bad Gleichenberg, 0:3, St Anna am Aigen, 2, Fussball - Österreich Regionalliga Mitte
+009, 23.08. 19:00, AUT RLM, SC Weiz, 4:1, WSC Hertha Wels, 1, Fussball - Österreich Regionalliga Mitte
+010, 23.08. 19:00, AUT RLM, FC Wels, 0:0, Sturm Graz Amat., X, Fussball - Österreich Regionalliga Mitte
+011, 23.08. 19:00, AUT RLM, Union Vöcklamarkt, 1:1, SV Allerheiligen, X, Fussball - Österreich Regionalliga Mitte
+012, 23.08. 19:00, GER 3, FC Ingolstadt, 2:2, Hansa Rostock, X, Fussball - Deutschland 3. Liga
+013, 23.08. 19:00, DEN 1, Hobro IK, 0:0, Odense BK, X, Fussball - Dänemark Superligaen
+014, 23.08. 19:10, AUT 2, SV Horn, 1:4, SK Vorwärts Steyr, 2, Fussball - Österreich Zweite Liga
+015, 23.08. 19:10, AUT 2, SV Ried, 1:2, Grazer AK, 2, Fussball - Österreich Zweite Liga
+016, 23.08. 19:10, AUT 2, Floridsdorfer AC, 0:0, FC Liefering, X, Fussball - Österreich Zweite Liga
+017, 23.08. 19:10, AUT 2, FC Juniors OÖ, 8:5, Austria Lustenau, 1, Fussball - Österreich Zweite Liga
+018, 23.08. 19:10, AUT 2, Wacker Innsbruck, 2:1, SKU Amstetten, 1, Fussball - Österreich Zweite Liga
+019, 23.08. 19:10, AUT 2, Young Violets A.W., 2:3, SV Lafnitz, 2, Fussball - Österreich Zweite Liga
+020, 23.08. 19:30, AUT RLO, Wiener Sportklub, 3:1, Bruck/Leitha, 1, Fussball - Österreich Regionalliga Ost
+021, 23.08. 19:30, AUT RLO, Admira Amateure, 2:1, FC Mauerwerk, 1, Fussball - Österreich Regionalliga Ost
+022, 23.08. 19:30, TUR 1, Besiktas Istanbul, 3:0, Göztepespor, 1, Fussball - Türkei Süper Lig
+023, 23.08. 20:00, ESP 1, Granada CF, 0:1, FC Sevilla, 2, Fussball - Spanien Primera Division
+024, 23.08. 20:00, RL TIR, SC Schwaz, 4:0, FC Kitzbühel, 1, Fussball - Regionalliga Tirol
+025, 23.08. 20:30, GER BL, 1. FC Köln, 1:3, Bor. Dortmund, 2, Fussball - Deutschland Bundesliga
+026, 23.08. 20:30, BEL 1, KRC Genk, 1:0, RSC Anderlecht, 1, Fussball - Belgien Jupiler Pro League
+027, 23.08. 20:30, POL 1, Jagiellonia Bial., 3:2, Wisla Krakau, 1, Fussball - Polen Orange Ekstraklasa
+028, 23.08. 21:00, ENG PL, Aston Villa, 2:0, FC Everton, 1, Fussball - England Premier League
+029, 23.08. 21:00, ITA B, SC Pisa, 0:0, Benevento Calcio, X, Fussball - Italien Serie B
+030, 23.08. 22:00, ESP 1, Levante UD, 2:1, Villarreal CF, 1, Fussball - Spanien Primera Division
+031, 24.08. 13:00, GER 2, Hannover 96, 1:1, Greuther Fürth, X, Fussball - Deutschland 2. Bundesliga
+032, 24.08. 13:00, GER 2, Jahn Regensburg, 1:3, Arminia Bielefeld, 2, Fussball - Deutschland 2. Bundesliga
+033, 24.08. 13:00, GER 2, VfL Bochum, 3:3, Wehen Wiesbaden, X, Fussball - Deutschland 2. Bundesliga
+034, 24.08. 13:30, ENG PL, Norwich City, 2:3, FC Chelsea, 2, Fussball - England Premier League
+035, 24.08. 13:30, ENG CS, Derby County, 1:1, West Bromwich, X, Fussball - England Championship
+036, 24.08. 15:30, GER BL, TSG Hoffenheim, 3:2, Werder Bremen, 1, Fussball - Deutschland Bundesliga
+037, 24.08. 15:30, GER BL, Fortuna Düsseldorf, 1:3, Bayer Leverkusen, 2, Fussball - Deutschland Bundesliga
+038, 24.08. 15:30, GER BL, FSV Mainz 05, 1:3, Mönchengladbach, 2, Fussball - Deutschland Bundesliga
+039, 24.08. 15:30, GER BL, FC Augsburg, 1:1, FC Union Berlin, X, Fussball - Deutschland Bundesliga
+040, 24.08. 15:30, GER BL, SC Paderborn, 1:3, SC Freiburg, 2, Fussball - Deutschland Bundesliga
+041, 24.08. 16:00, ENG PL, Brighton & Hove, 0:2, FC Southampton, 2, Fussball - England Premier League
+042, 24.08. 16:00, ENG PL, Manchester United, 1:2, Crystal Palace, 2, Fussball - England Premier League
+043, 24.08. 16:00, ENG PL, Sheffield United, 1:2, Leicester City, 2, Fussball - England Premier League
+044, 24.08. 16:00, ENG PL, FC Watford, 1:3, West Ham United, 2, Fussball - England Premier League
+045, 24.08. 16:00, ENG CS, Blackburn Rovers, 0:0, Cardiff City, X, Fussball - England Championship
+046, 24.08. 16:00, ENG CS, FC Fulham, 1:2, Nottingham Forest, 2, Fussball - England Championship
+047, 24.08. 16:00, ENG CS, FC Middlesbrough, 1:1, FC Millwall, X, Fussball - England Championship
+048, 24.08. 16:00, ENG CS, Queens Park R., 3:1, Wigan Athletic, 1, Fussball - England Championship
+049, 24.08. 16:00, ENG CS, Stoke City, 0:3, Leeds United, 2, Fussball - England Championship
+050, 24.08. 16:00, RL SBG, SV Grödig, 3:0, Austria Salzburg, 1, Fussball - Regionalliga Salzburg
+051, 24.08. 17:00, AUT BL, SK Rapid Wien, 1:2, LASK Linz, 2, Fussball - Österreich Bundesliga
+052, 24.08. 17:00, AUT BL, Wolfsberger AC, 5:2, SCR Altach, 1, Fussball - Österreich Bundesliga
+053, 24.08. 17:00, AUT BL, SV Mattersburg, 0:1, SKN St. Pölten, 2, Fussball - Österreich Bundesliga
+054, 24.08. 17:00, ESP 1, CA Osasuna, 0:0, SD Eibar, X, Fussball - Spanien Primera Division
+055, 24.08. 18:00, AUT 2, FC Dornbirn, 6:1, Kapfenberger SV, 1, Fussball - Österreich Zweite Liga
+056, 24.08. 18:00, ITA A, FC Parma, 0:1, Juventus Turin, 2, Fussball - Italien Serie A
+057, 24.08. 18:30, GER BL, FC Schalke 04, 0:3, FC Bayern München, 2, Fussball - Deutschland Bundesliga
+058, 24.08. 18:30, ENG PL, FC Liverpool, 3:1, FC Arsenal, 1, Fussball - England Premier League
+059, 24.08. 19:00, ESP 1, Real Madrid, 1:1, Real Valladolid, X, Fussball - Spanien Primera Division
+060, 24.08. 19:00, SUI SL, Young Boys Bern, 4:0, FC Zürich, 1, Fussball - Schweiz Axpo Super League
+061, 24.08. 20:00, FRA 1, Amiens SC, 1:2, FC Nantes, 2, Fussball - Frankreich Ligue 1
+062, 24.08. 20:00, FRA 1, Dijon Football, 0:2, Bordeaux, 2, Fussball - Frankreich Ligue 1
+063, 24.08. 20:00, FRA 1, SCO Angers, 3:0, FC Metz, 1, Fussball - Frankreich Ligue 1
+064, 24.08. 20:00, FRA 1, Stade Brest, 1:0, Stade de Reims, 1, Fussball - Frankreich Ligue 1
+065, 24.08. 20:00, POR 1, Benfica Lissabon, 0:2, FC Porto, 2, Fussball - Portugal Primeira Liga
+066, 24.08. 20:15, HBAUTSC, UHK Krems, 17:22, Alpla HC Hard, 2, Handball - Handball Supercup Österreich
+067, 24.08. 20:45, ITA A, AC Fiorentina, 3:4, SSC Napoli, 2, Fussball - Italien Serie A
+068, 24.08. 20:45, TUR 1, Istanb. Basaksehir, 1:2, Fenerbahce, 2, Fussball - Türkei Süper Lig
+069, 24.08. 21:00, ESP 1, Celta de Vigo, 1:0, FC Valencia, 1, Fussball - Spanien Primera Division
+070, 24.08. 21:00, ESP 1, Getafe CF, 1:1, Athletic Bilbao, X, Fussball - Spanien Primera Division
+071, 25.08. 10:30, AUT 2, Austria Klagenfurt, 3:1, BW Linz, 1, Fussball - Österreich Zweite Liga
+072, 25.08. 13:00, ENG CS, Swansea City, 3:0, Birmingham City, 1, Fussball - England Championship
+073, 25.08. 13:30, GER 2, 1. FC Nürnberg, 1:0, VfL Osnabrück, 1, Fussball - Deutschland 2. Bundesliga
+074, 25.08. 13:30, GER 2, FC Heidenheim, 0:2, SV Sandhausen, 2, Fussball - Deutschland 2. Bundesliga
+075, 25.08. 13:30, GER 2, Karlsruher SC, 2:4, Hamburger SV, 2, Fussball - Deutschland 2. Bundesliga
+076, 25.08. 15:00, ENG PL, AFC Bournemouth, 1:3, Manchester City, 2, Fussball - England Premier League
+077, 25.08. 15:00, FRA 1, AS Monaco, 2:2, Olympique Nimes, X, Fussball - Frankreich Ligue 1
+078, 25.08. 15:30, GER BL, RB Leipzig, 2:1, Eintr. Frankfurt, 1, Fussball - Deutschland Bundesliga
+079, 25.08. 17:00, AUT BL, SK Sturm Graz, 2:0, WSG Swarovs. Tirol, 1, Fussball - Österreich Bundesliga
+080, 25.08. 17:00, AUT BL, Red Bull Salzburg, 5:0, Admira Wacker, 1, Fussball - Österreich Bundesliga
+081, 25.08. 17:00, AUT BL, TSV Hartberg, 2:2, FK Austria Wien, X, Fussball - Österreich Bundesliga
+082, 25.08. 17:00, ESP 1, CD Alaves, 0:0, Espan. Barcelona, X, Fussball - Spanien Primera Division
+083, 25.08. 17:00, ESP 1, RCD Mallorca, 0:1, Real Sociedad, 2, Fussball - Spanien Primera Division
+084, 25.08. 17:00, FRA 1, Racing Strasbourg, 0:2, Stade Rennes, 2, Fussball - Frankreich Ligue 1
+085, 25.08. 17:30, ENG PL, Tottenham, 0:1, Newcastle United, 2, Fussball - England Premier League
+086, 25.08. 17:30, ENG PL, Wolverhampton, 1:1, FC Burnley, X, Fussball - England Premier League
+087, 25.08. 18:00, GER BL, Hertha BSC, 0:3, VfL Wolfsburg, 2, Fussball - Deutschland Bundesliga
+088, 25.08. 18:00, ITA A, Udinese Calcio, 1:0, AC Milan, 1, Fussball - Italien Serie A
+089, 25.08. 18:00, RUS PL, Kryliya Sovetov, 1:2, FC Spartak Moskau, 2, Fussball - Russland Premier League
+090, 25.08. 19:00, ESP 1, CD Leganes, 0:1, Atletico Madrid, 2, Fussball - Spanien Primera Division
+091, 25.08. 19:30, POR 1, Portimonense SC, 1:3, Sporting Lissabon, 2, Fussball - Portugal Primeira Liga
+092, 25.08. 20:45, ITA A, Sampdoria Genua, 0:3, Lazio Rom, 2, Fussball - Italien Serie A
+093, 25.08. 20:45, ITA A, Spal 2013, 2:3, Atalanta Bergamo, 2, Fussball - Italien Serie A
+094, 25.08. 20:45, ITA A, Hellas Verona, 1:1, Bologna FC, X, Fussball - Italien Serie A
+095, 25.08. 20:45, ITA A, AS Roma, 3:3, FC Genua, X, Fussball - Italien Serie A
+096, 25.08. 20:45, ITA A, Cagliari Calcio, 0:1, Brescia Calcio, 2, Fussball - Italien Serie A
+097, 25.08. 20:45, ITA A, FC Torino, 2:1, US Sassuolo, 1, Fussball - Italien Serie A
+098, 25.08. 20:45, TUR 1, Galatasaray, 1:1, Konyaspor, X, Fussball - Türkei Süper Lig
+099, 25.08. 21:00, ESP 1, FC Barcelona, 5:2, Betis Sevilla, 1, Fussball - Spanien Primera Division
+100, 25.08. 21:00, FRA 1, Paris SG, 4:0, FC Toulouse, 1, Fussball - Frankreich Ligue 1
+101, 26.08. 17:00, RUS PL, Ural Jekaterinburg, 3:1, FK Sochi, 1, Fussball - Russland Premier League
+102, 26.08. 17:30, FIN 1, FC Inter Turku, 2:1, KPV Kokkola, 1, Fussball - Finnland Veikkausliiga
+103, 26.08. 18:00, UKR 1, SC Dnipro-1, 2:3, FC Lviv, 2, Fussball - Ukraine Premier League
+104, 26.08. 18:00, POL 1, Pogon Szczecin, 1:2, Wisla Plock, 2, Fussball - Polen Orange Ekstraklasa
+105, 26.08. 19:00, GER 3, FSV Zwickau, 3:5, FC Kaiserslautern, 2, Fussball - Deutschland 3. Liga
+106, 26.08. 19:00, TUR 1, Gazis. Gaziantep, 4:1, Genclerbirligi, 1, Fussball - Türkei Süper Lig
+107, 26.08. 19:00, DEN 1, AC Horsens, 0:5, Aalborg BK, 2, Fussball - Dänemark Superligaen
+108, 26.08. 19:00, NOR 1, Bodö Glimt, 4:0, Valerenga IF, 1, Fussball - Norwegen Tippeligaen
+109, 26.08. 19:00, SWE 1, IFK Göteborg, 4:0, Kalmar FF, 1, Fussball - Schweden Allsvenskan
+110, 26.08. 19:00, SWE 1, GIF Sundsvall, 1:2, IF Elfsborg, 2, Fussball - Schweden Allsvenskan
+111, 26.08. 19:00, SWE 1, Falkenbergs FF, 0:2, Hammarby IF, 2, Fussball - Schweden Allsvenskan
+112, 26.08. 19:15, ISR 1, Hapoel Tel Aviv, 0:0, Maccabi Netanya, X, Fussball - Israel Winner League
+113, 26.08. 19:30, BUL 1, Botev Vratsa, 2:1, Et. Veliko Tarnovo, 1, Fussball - Bulgarien Premier League
+114, 26.08. 20:00, ROU 1, Dinamo Bukarest, 3:0, AFC Hermannstadt, 1, Fussball - Rumänien Liga 1
+115, 26.08. 20:30, GER 2, FC St. Pauli, 2:1, Holstein Kiel, 1, Fussball - Deutschland 2. Bundesliga
+116, 26.08. 20:45, FRA 2, EA Guingamp, 0:1, FC Valenciennes, 2, Fussball - Frankreich Ligue 2
+117, 26.08. 20:45, ITA A, Inter Mailand, 4:0, US Lecce, 1, Fussball - Italien Serie A
+118, 26.08. 21:00, ITA B, Pordenone Calcio, 3:0, Frosinone Calcio, 1, Fussball - Italien Serie B
+119, 26.08. 21:15, ISL 1, Fylkir Reykjavik, 3:2, HK Kopavogs, 1, Fussball - Island Urvalsdeild
+120, 26.08. 21:15, ISL 1, Valur Reykjavik, 2:2, Stjarnan Gardab., X, Fussball - Island Urvalsdeild
