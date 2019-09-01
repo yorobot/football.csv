@@ -30,14 +30,10 @@ def parse_tipp3( html )
 
   trs.each_with_index do |tr,i|
     tds = tr.css( 'td' )
-    row = tds.map { |td| td.text }.join( ' | ' )
-
+  
 #  <td class="first nr">
 #      <span>001</span>
 #  </td>
-
-  ## puts tr.classes
-
     el  = tds.css( '.nr' )[0]    ## first
     assert( el, "no td.nr found" )
 
