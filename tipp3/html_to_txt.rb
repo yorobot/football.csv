@@ -83,7 +83,14 @@ def parse_tipp3( html )
     assert( els && els.size==2, "no td.players found or td.players.size != 2" )
 
     els.each do |el|
-      players << el.text.strip
+      player = el.text.strip
+
+      # note: for now remove comma from names (used in tennis, for example):
+      #  Fabbiano, Thomas   => Fabbiano Thomas
+      #  Thiem, Dominic     => Thiem Dominic
+      player = player.gsub( ',', ' ' ).gsub( /[ ]+/, ' ' ).strip
+
+      players << player
     end
 
 
