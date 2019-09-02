@@ -5,11 +5,17 @@ module Footballdata
 
 def self.convert_season_by_season( country_key, sources,
                                    in_dir:,
-                                   out_dir: )
+                                   out_dir:,
+                                   start: nil )
 
   sources.each do |rec|
     season_key   = rec[0]   ## note: dirname is season e.g. 2011-12 etc.
     basenames    = rec[1]   ## e.g. E1,E2,etc.
+
+    if start && SeasonUtils.start_year( season_key ) < SeasonUtils.start_year( start )
+      puts "skip #{season_key} before #{start}"
+      next
+    end
 
     basenames.each do |basename|
 

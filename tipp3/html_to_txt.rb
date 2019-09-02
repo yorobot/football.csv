@@ -30,7 +30,7 @@ def parse_tipp3( html )
 
   trs.each_with_index do |tr,i|
     tds = tr.css( 'td' )
-  
+
 #  <td class="first nr">
 #      <span>001</span>
 #  </td>
@@ -61,6 +61,14 @@ def parse_tipp3( html )
 
     liga_title = el.attributes['title'].value.strip
     liga       = el.text.strip
+
+   ## note: remove possible commas in liga title
+   ##   step 1) replace with space
+   ##   step 2) replace all multi-spaces with a single space
+   ##  e.g. Fussball - Rumänien, Liga 2
+   ##                 =>
+   ##       Fussball - Rumänien Liga 2
+   liga_title = liga_title.gsub( ',', ' ' ).gsub( /[ ]+/, ' ' ).strip
 
 
 #  <td class="players" title="Fussball - AFC Champions League">

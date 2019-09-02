@@ -23,13 +23,13 @@ require 'sportdb/source/footballdata/convert'
 module Footballdata
 
 
-def self.fetch( *args, dir: './dl' )   ## fetch all datasets (all leagues, all seasons)
+def self.fetch( *args, dir: './dl', start: nil )   ## fetch all datasets (all leagues, all seasons)
 
   country_keys = args  ## countries to include / fetch - optinal
 
   FOOTBALLDATA_SOURCES.each do |country_key, country_sources|
     if country_keys.empty? || country_keys.include?( country_key )
-      Footballdata.fetch_season_by_season( country_sources, dir: dir )
+      Footballdata.fetch_season_by_season( country_sources, dir: dir, start: start )
     else
       ## skipping country
     end
@@ -43,7 +43,6 @@ def self.fetch( *args, dir: './dl' )   ## fetch all datasets (all leagues, all s
     end
   end
 end  ## method fetch
-def self.download( *args, dir: './dl' ) fetch( *args, dir: dir ); end  ## add alias for fetch
 
 
 
@@ -67,7 +66,11 @@ def self.import( *args, dir: './dl' )
     end
   end
 end # method import
-def self.load( *args, dir: './dl' ) import( *args, dir: dir ); end  ## add alias for import
+
+class << self
+  alias_method :download, :fetch   ## add alias for fetch   ## todo: check if default kwarg dir gets set too
+  alias_method :load,     :import
+end
 
 
 

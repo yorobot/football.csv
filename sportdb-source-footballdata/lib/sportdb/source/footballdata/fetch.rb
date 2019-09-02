@@ -4,12 +4,17 @@
 module Footballdata
 
 
-def self.fetch_season_by_season( sources, dir: )   ## format i - one datafile per season
+def self.fetch_season_by_season( sources, dir:, start: )   ## format i - one datafile per season
   download_base  = "http://www.football-data.co.uk/mmz4281"
 
   sources.each do |rec|
     season_key = rec[0]   ## note: dirname is season_key e.g. 2011-12 etc.
     basenames  = rec[1]
+
+    if start && SeasonUtils.start_year( season_key ) < SeasonUtils.start_year( start )
+      puts "skip #{season_key} before #{start}"
+      next
+    end
 
     basenames.each do |basename|
       season_path = season_key[2..3]+season_key[5..6]  # e.g. 2008-09 becomse 0809 etc
