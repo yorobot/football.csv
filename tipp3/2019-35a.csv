@@ -6,6 +6,7 @@ Num, Date, Liga, Team 1, Score, Team 2, Result, Liga Title
 005, 27.08. 19:00, AUT RLO, Rapid Wien Am., 2:1, Admira Amateure, 1, Fussball - Österreich Regionalliga Ost
 006, 27.08. 19:00, FRA 1, HSC Montpellier, 1:0, Olympique Lyon, 1, Fussball - Frankreich Ligue 1
 007, 27.08. 19:00, SWE 2, Halmstads BK, 1:2, Jönköpings Södra, 2, Fussball - Schweden Superettan
+008, 27.08. 20:50, TEN ATP, Fabbiano Thomas, 3:1, Thiem Dominic, 1, Tennis - Tennis ATP
 009, 27.08. 19:45, AFC CL, Al-Ittihad KSA, 0:0, Al-Hilal Riyad KSA, X, Fussball - AFC Champions League
 010, 27.08. 20:00, FRA LC, FC Chamois Niort, 0:0, Grenoble Foot, X, Fussball - Frankreich Coupe de la Ligue
 011, 27.08. 20:00, FRA LC, Ajaccio GFCO, 1:1, Paris FC 98, X, Fussball - Frankreich Coupe de la Ligue
@@ -29,7 +30,6 @@ Num, Date, Liga, Team 1, Score, Team 2, Result, Liga Title
 029, 27.08. 20:45, ENG LC, Bristol Rovers, 1:2, Brighton & Hove, 2, Fussball - England Liga Cup
 030, 27.08. 20:45, ENG LC, Burton Albion, 4:0, FC Morecambe, 1, Fussball - England Liga Cup
 031, 27.08. 20:45, ENG LC, Newport County, 0:2, West Ham United, 2, Fussball - England Liga Cup
-008, 27.08. 20:50, TEN ATP, Fabbiano Thomas, 3:1, Thiem Dominic, 1, Tennis - Tennis ATP
 032, 27.08. 21:00, CL, Rosenborg BK NOR, 1:1, Dinamo Zagreb CRO, X, Fussball - UEFA Champions League
 033, 27.08. 21:00, CL, FC Krasnodar RUS, 1:2, Olympiakos P. GRE, 2, Fussball - UEFA Champions League
 034, 27.08. 21:00, CL, Roter Stern B. SRB, 1:1, YB Bern SUI, X, Fussball - UEFA Champions League
@@ -102,20 +102,20 @@ Num, Date, Liga, Team 1, Score, Team 2, Result, Liga Title
 101, 30.08. 19:10, AUT 2, SKU Amstetten, 2:4, SV Horn, 2, Fussball - Österreich Zweite Liga
 102, 30.08. 19:10, AUT 2, BW Linz, 1:0, Wacker Innsbruck, 1, Fussball - Österreich Zweite Liga
 103, 30.08. 19:10, AUT 2, Kapfenberger SV, 2:3, SV Ried, 2, Fussball - Österreich Zweite Liga
-112, 30.08. 20:30, GER BL, Mönchengladbach, 1:3, RB Leipzig, 2, Fussball - Deutschland Bundesliga
 104, 31.08. 14:30, AUT 2, SK Vorwärts Steyr, 3:2, FC Dornbirn, 1, Fussball - Österreich Zweite Liga
+105, 01.09. 10:30, AUT 2, Austria Lustenau, 1:2, Floridsdorfer AC, 2, Fussball - Österreich Zweite Liga
+106, 31.08. 17:00, AUT BL, LASK Linz, 0:1, Wolfsberger AC, 2, Fussball - Österreich Bundesliga
+107, 31.08. 17:00, AUT BL, Admira Wacker, 1:3, SV Mattersburg, 2, Fussball - Österreich Bundesliga
+108, 01.09. 17:00, AUT BL, FK Austria Wien, 1:3, SK Rapid Wien, 2, Fussball - Österreich Bundesliga
+109, 01.09. 17:00, AUT BL, SKN St. Pölten, 1:3, TSV Hartberg, 2, Fussball - Österreich Bundesliga
+110, 01.09. 17:00, AUT BL, SCR Altach, 1:2, SK Sturm Graz, 2, Fussball - Österreich Bundesliga
+111, 31.08. 17:00, AUT BL, WSG Swarovs. Tirol, 1:5, Red Bull Salzburg, 2, Fussball - Österreich Bundesliga
+112, 30.08. 20:30, GER BL, Mönchengladbach, 1:3, RB Leipzig, 2, Fussball - Deutschland Bundesliga
 113, 31.08. 15:30, GER BL, SC Freiburg, 1:2, 1. FC Köln, 2, Fussball - Deutschland Bundesliga
 114, 31.08. 15:30, GER BL, FC Schalke 04, 3:0, Hertha BSC, 1, Fussball - Deutschland Bundesliga
 115, 31.08. 15:30, GER BL, FC Bayern München, 6:1, FSV Mainz 05, 1, Fussball - Deutschland Bundesliga
 116, 31.08. 15:30, GER BL, Bayer Leverkusen, 0:0, TSG Hoffenheim, X, Fussball - Deutschland Bundesliga
 117, 31.08. 15:30, GER BL, VfL Wolfsburg, 1:1, SC Paderborn, X, Fussball - Deutschland Bundesliga
-106, 31.08. 17:00, AUT BL, LASK Linz, 0:1, Wolfsberger AC, 2, Fussball - Österreich Bundesliga
-107, 31.08. 17:00, AUT BL, Admira Wacker, 1:3, SV Mattersburg, 2, Fussball - Österreich Bundesliga
-111, 31.08. 17:00, AUT BL, WSG Swarovs. Tirol, 1:5, Red Bull Salzburg, 2, Fussball - Österreich Bundesliga
 118, 31.08. 18:30, GER BL, FC Union Berlin, 3:1, Bor. Dortmund, 1, Fussball - Deutschland Bundesliga
-105, 01.09. 10:30, AUT 2, Austria Lustenau, 1:2, Floridsdorfer AC, 2, Fussball - Österreich Zweite Liga
 119, 01.09. 15:30, GER BL, Werder Bremen, 3:2, FC Augsburg, 1, Fussball - Deutschland Bundesliga
-108, 01.09. 17:00, AUT BL, FK Austria Wien, 1:3, SK Rapid Wien, 2, Fussball - Österreich Bundesliga
-109, 01.09. 17:00, AUT BL, SKN St. Pölten, 1:3, TSV Hartberg, 2, Fussball - Österreich Bundesliga
-110, 01.09. 17:00, AUT BL, SCR Altach, 1:2, SK Sturm Graz, 2, Fussball - Österreich Bundesliga
 120, 01.09. 18:00, GER BL, Eintr. Frankfurt, 2:1, Fortuna Düsseldorf, 1, Fussball - Deutschland Bundesliga

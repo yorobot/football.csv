@@ -3,6 +3,8 @@ require 'nokogiri'
 
 
 
+
+
 def assert( cond, msg )
   if cond
     # do nothing
@@ -133,6 +135,8 @@ programs.each do |program|
    html = File.open( "dl/2019-#{program}.html", 'r:utf-8' ).read
    ## pp html
    recs = parse_tipp3( html )
+   ##  sort by num (1st record filed e.g. 001, 002, 003, etc. - is sometimes out of order (and sorted by date))
+   recs = recs.sort_by {|rec| rec[0]}
    pp recs
    save_tipp3( "2019-#{program}.csv", recs )
 end
