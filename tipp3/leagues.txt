@@ -1,0 +1,66 @@
+45 EL       UEFA Europa League
+36 GER BL   Deutschland Bundesliga
+32 AUT 2    Österreich Zweite Liga
+26 AUT BL   Österreich Bundesliga
+25 ENG LC   England Liga Cup
+20 ENG CS   England Championship
+20 ENG PL   England Premier League
+20 ESP 1    Spanien Primera Division
+20 ITA A    Italien Serie A
+18 GER 2    Deutschland 2. Bundesliga
+17 CL       UEFA Champions League
+17 FRA 1    Frankreich Ligue 1
+16 BRA 2    Brasilien Brasilero Serie B
+12 AUT RLO  Österreich Regionalliga Ost
+10 AUT RLM  Österreich Regionalliga Mitte
+10 ENG 1    England League One
+ 8 COPA L   Copa Libertadores
+ 8 TUR 1    Türkei Süper Lig
+ 7 DEN 2    Dänemark 1. Division
+ 7 NOR 2    Norwegen Adeccoligaen
+ 6 FRA LC   Frankreich Coupe de la Ligue
+ 5 USA MLS  USA Major League Soccer
+ 4 BEL 1    Belgien Jupiler Pro League
+ 4 COPA S   Copa Sudamericana
+ 4 GER 3    Deutschland 3. Liga
+ 4 POR 1    Portugal Primeira Liga
+ 4 SWE CUP  Schweden Cup
+ 3 AFC CL   AFC Champions League
+ 3 FRA 2    Frankreich Ligue 2
+ 3 IRL 1    Irland Premier Division
+ 3 ITA B    Italien Serie B
+ 3 POL 2    Polen I Liga
+ 3 SUI SL   Schweiz Axpo Super League
+ 3 SWE 1    Schweden Allsvenskan
+ 2 BRA 1    Brasilien Brasilero Serie A
+ 2 DEN 1    Dänemark Superligaen
+ 2 FIN 1    Finnland Veikkausliiga
+ 2 ISL 1    Island Urvalsdeild
+ 2 ISR 1    Israel Winner League
+ 2 ISR 2    Israel National League
+ 2 POL 1    Polen Orange Ekstraklasa
+ 2 ROU 1    Rumänien Liga 1
+ 2 RUS CUP  Russland Russian Cup
+ 2 RUS PL   Russland Premier League
+ 2 USMXLC   US & Mexican Leagues Cup
+ 1 AUS CUP  Australien FFA Cup
+ 1 BOS 1    Bosnien Premier Liga
+ 1 BUL 1    Bulgarien Premier League
+ 1 CRO 1    Kroatien 1. HNL
+ 1 DEN CUP  Dänemark Landspokalturneringen
+ 1 ESP 2    Spanien Segunda Division
+ 1 EST 1    Estland Meistriliiga
+ 1 FIN 2    Finnland Ykkonen
+ 1 FIN 3    Finnland Kakkonen
+ 1 ITA C1B  Italien Lega Pro Prima Divisione Girone B
+ 1 NIRL 1   Nordirland JJB Sports Premiership
+ 1 NOR 1    Norwegen Tippeligaen
+ 1 PAR 1    Paraguay Primera Division
+ 1 PER 1    Peru Primera Division
+ 1 RL SBG   Regionalliga Salzburg
+ 1 RL TIR   Regionalliga Tirol
+ 1 ROU 2    Rumänien Liga 2
+ 1 SWE 2    Schweden Superettan
+ 1 UKR 1    Ukraine Premier League
+ 1 USA CUP  USA US Open Cup
+ 
