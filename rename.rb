@@ -40,7 +40,7 @@ def rename_repo( repo_path, key )
 end
 
 
-rename_repo( "../../footballcsv/italy", "it" )
+rename_repo( "../../footballcsv/greece", "gr" )
 
 __END__
   ### system "git add ."
