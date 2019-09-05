@@ -1,66 +1,188 @@
-45 EL       UEFA Europa League
-36 GER BL   Deutschland Bundesliga
-32 AUT 2    Österreich Zweite Liga
-26 AUT BL   Österreich Bundesliga
-25 ENG LC   England Liga Cup
-20 ENG CS   England Championship
-20 ENG PL   England Premier League
-20 ESP 1    Spanien Primera Division
-20 ITA A    Italien Serie A
-18 GER 2    Deutschland 2. Bundesliga
-17 CL       UEFA Champions League
-17 FRA 1    Frankreich Ligue 1
-16 BRA 2    Brasilien Brasilero Serie B
-12 AUT RLO  Österreich Regionalliga Ost
-10 AUT RLM  Österreich Regionalliga Mitte
-10 ENG 1    England League One
- 8 COPA L   Copa Libertadores
- 8 TUR 1    Türkei Süper Lig
- 7 DEN 2    Dänemark 1. Division
- 7 NOR 2    Norwegen Adeccoligaen
- 6 FRA LC   Frankreich Coupe de la Ligue
- 5 USA MLS  USA Major League Soccer
- 4 BEL 1    Belgien Jupiler Pro League
- 4 COPA S   Copa Sudamericana
- 4 GER 3    Deutschland 3. Liga
- 4 POR 1    Portugal Primeira Liga
- 4 SWE CUP  Schweden Cup
- 3 AFC CL   AFC Champions League
- 3 FRA 2    Frankreich Ligue 2
- 3 IRL 1    Irland Premier Division
- 3 ITA B    Italien Serie B
- 3 POL 2    Polen I Liga
- 3 SUI SL   Schweiz Axpo Super League
- 3 SWE 1    Schweden Allsvenskan
- 2 BRA 1    Brasilien Brasilero Serie A
- 2 DEN 1    Dänemark Superligaen
- 2 FIN 1    Finnland Veikkausliiga
- 2 ISL 1    Island Urvalsdeild
- 2 ISR 1    Israel Winner League
- 2 ISR 2    Israel National League
- 2 POL 1    Polen Orange Ekstraklasa
- 2 ROU 1    Rumänien Liga 1
- 2 RUS CUP  Russland Russian Cup
- 2 RUS PL   Russland Premier League
- 2 USMXLC   US & Mexican Leagues Cup
- 1 AUS CUP  Australien FFA Cup
- 1 BOS 1    Bosnien Premier Liga
- 1 BUL 1    Bulgarien Premier League
- 1 CRO 1    Kroatien 1. HNL
- 1 DEN CUP  Dänemark Landspokalturneringen
- 1 ESP 2    Spanien Segunda Division
- 1 EST 1    Estland Meistriliiga
- 1 FIN 2    Finnland Ykkonen
- 1 FIN 3    Finnland Kakkonen
- 1 ITA C1B  Italien Lega Pro Prima Divisione Girone B
- 1 NIRL 1   Nordirland JJB Sports Premiership
- 1 NOR 1    Norwegen Tippeligaen
- 1 PAR 1    Paraguay Primera Division
- 1 PER 1    Peru Primera Division
- 1 RL SBG   Regionalliga Salzburg
- 1 RL TIR   Regionalliga Tirol
- 1 ROU 2    Rumänien Liga 2
- 1 SWE 2    Schweden Superettan
- 1 UKR 1    Ukraine Premier League
- 1 USA CUP  USA US Open Cup
- 
+###
+## todo/fix:
+##  tipp3 - if comma in value use quotes (do NOT strip commas for now!!!!)
+
+
+
+= International =
+
+cl      UEFA Champions League
+         | CL
+el      UEFA Europa League
+         | EL
+
+copa.l  Copa Libertadores
+         | COPA L
+copa.s  Copa Sudamericana
+         | COPA S
+
+asia.cl  AFC Champions League     # afc = asian football confederation ?
+          | AFC CL
+
+
+usmx.cup   US & Mexican Leagues Cup    ## check if clubs include country code?
+          | USMXLC
+
+
+
+= Germany • Deutschland (de) =
+1       Bundesliga
+         | GER BL | Deutschland Bundesliga
+2       2. Bundesliga
+         | GER 2  | Deutschland 2. Bundesliga
+3       3. Liga
+         | GER 3  | Deutschland 3. Liga
+
+= Austria (at) =
+1       Bundesliga
+         | AUT BL | Österreich Bundesliga
+2       2. Liga
+         | AUT 2 | Österreich Zweite Liga
+
+3.o     Regionalliga Ost
+         | AUT RLO | Österreich Regionalliga Ost
+3.m     Regionalliga Mitte
+         | AUT RLM | Österreich Regionalliga Mitte
+3.sbg   Regionalliga Salzburg
+         | RL SBG
+3.t     Regionalliga Tirol
+         | RL TIR
+
+
+= England (eng) =    ## add incl. Wales   as country2 or something - why? why not?
+1       Premier League
+          | ENG PL | England Premier League
+2       Championship
+          | ENG CS | England Championship
+3       League One
+          | ENG 1  | England League One      ## note: uses "generic" ENG 1  - might get confused with Premier League
+
+cup      EFL Cup
+          | League Cup | Football League Cup
+          | ENG LC | England Liga Cup
+
+
+= Spain • España (es) =
+1        Primera División
+          | ESP 1 | Spanien Primera Division
+2        Segunda División
+          | ESP 2 | Spanien Segunda Division
+
+
+= Italy (it) =
+1       Serie A
+          | ITA A | Italien Serie A
+2       Serie B
+          | ITA B | Italien Serie B
+3.b     Serie C (North & Central East)   # Group B
+          | ITA C1B | Italien Lega Pro Prima Divisione Girone B
+
+
+= France (fr) =     ## add incl. Monaco - why? why not?
+1        Ligue 1
+          | FRA 1 | Frankreich Ligue 1
+2        Ligue 2
+          | FRA 2 | Frankreich Ligue 2
+
+cup      Coupe de la Ligue    ## French League Cup
+          | FRA LC | Frankreich Coupe de la Ligue
+
+
+= Brazil (br) =
+1        Brasileiro Série A
+           | BRA 1 | Brasilien Brasilero Serie A
+2        Brasileiro Série B
+           | BRA 2 | Brasilien Brasilero Serie B
+
+= Turkey (tr) =
+1        Süper Lig
+           | TUR 1 | Türkei Süper Lig
+
+= Denmark (dk) =
+1        Superligaen
+          | DEN 1 | Dänemark Superligaen
+2        1. Division
+          | DEN 2 | Dänemark 1. Division
+
+cup     Landspokalturneringen
+          | DEN CUP | Dänemark Landspokalturneringen
+
+
+= Norway (no) =
+1       Tippeligaen
+          | NOR 1 | Norwegen Tippeligaen
+2       1. Division
+          | NOR 2 |  Norwegen Adeccoligaen
+
+
+= Belgium (be) =
+1      Pro League
+          | BEL 1 | Belgien Jupiler Pro League
+
+= Portugal (pt) =
+1       Primeira Liga
+          | POR 1 | Portugal Primeira Liga
+
+= Sweden (se) =
+1       Allsvenskan
+         | SWE 1 | Schweden Allsvenskan
+2       Superettan
+         | SWE 2 | Schweden Superettan
+
+cup     Cup
+         | SWE CUP | Schweden Cup
+
+
+= United States (us) =        ## add incl. Canada - why? why not?
+1       Major League Soccer                   ### todo: use mls (and not us.1) as "primary" key - why? why not?
+         | USA MLS | USA Major League Soccer
+
+cup     US Open Cup
+         | USA CUP | USA US Open Cup
+
+
+
+
+__END__
+
+###################
+## more_leages.txt
+  IRL 1    Irland Premier Division
+
+  POL 1    Polen Orange Ekstraklasa
+  POL 2    Polen I Liga
+
+  SUI SL   Schweiz Axpo Super League
+
+  ISL 1    Island Urvalsdeild
+
+  ISR 1    Israel Winner League
+  ISR 2    Israel National League
+
+  ROU 1    Rumänien Liga 1
+  ROU 2    Rumänien Liga 2
+
+  RUS PL   Russland Premier League
+  RUS CUP  Russland Russian Cup
+
+  UKR 1    Ukraine Premier League
+
+  BOS 1    Bosnien Premier Liga
+
+  BUL 1    Bulgarien Premier League
+
+  CRO 1    Kroatien 1. HNL
+
+  EST 1    Estland Meistriliiga
+
+  FIN 1    Finnland Veikkausliiga
+  FIN 2    Finnland Ykkonen
+  FIN 3    Finnland Kakkonen
+
+  NIRL 1   Nordirland JJB Sports Premiership
+
+  PAR 1    Paraguay Primera Division
+
+  PER 1    Peru Primera Division
+
+  AUS CUP  Australien FFA Cup
