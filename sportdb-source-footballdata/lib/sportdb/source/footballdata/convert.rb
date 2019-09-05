@@ -3,6 +3,11 @@
 
 module Footballdata
 
+##
+## todo/fix: add fix_date converter to CsvReader !!!!!
+
+
+
 def self.convert_season_by_season( country_key, sources,
                                    in_dir:,
                                    out_dir:,
@@ -61,6 +66,46 @@ def self.convert_season_by_season( country_key, sources,
   ## standings_writer.write
 end # method convert_season_by_season
 
+
+
+def self.convert_all_seasons( country_key, basename,
+                                   in_dir:,
+                                   out_dir:,
+                                   start: nil )
+
+  col  = 'Season'
+  path = "#{in_dir}/#{basename}.csv"
+
+  ## fix/todo: move find_seasons to CsvReader !!!!!!
+  season_keys = CsvMatchSplitter.find_seasons( path, col: col )
+  pp season_keys
+
+  ## todo/check: make sure timezones entry for country_key exists!!! what results with nil/24.0 ??
+  fix_date_converter = ->(row) { fix_date( row, FOOTBALLDATA_TIMEZONES[country_key]/24.0 ) }
+
+  season_keys.each do |season_key|
+
+    if start && SeasonUtils.start_year( season_key ) < SeasonUtils.start_year( start )
+      puts "skip #{season_key} before #{start}"
+      next
+    end
+
+    matches = CsvMatchReader.read( path, filters: { col => season_key },
+                                         converters: fix_date_converter )
+
+    pp matches[0..2]
+    pp matches.size
+
+    ## note: assume (always) first level league for now
+    league_basename = "#{country_key}.1"    ## e.g.: ar.1, at.1, mx.1, us.1, etc.
+
+    out_path = "#{out_dir}/#{SeasonUtils.directory(season_key)}/#{league_basename}.csv"
+
+    normalize_clubs( matches, country_key )
+
+    CsvMatchWriter.write( out_path, matches )
+  end
+end
 
 
 ####

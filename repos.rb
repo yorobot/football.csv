@@ -15,4 +15,9 @@ COUNTRY_REPOS = {
   pt:   'portugal',
   tr:   'turkey',
   gr:   'greece',
+
+  ### extra leagues
+  at:   'austria',
+  mx:   'mexico',
+  ## note: if missing - use (fallback to) world!!!!!
 }
