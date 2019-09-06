@@ -117,7 +117,7 @@ cup     Landspokalturneringen
 
 = Belgium (be) =
 1      Pro League
-          | BEL 1 | Belgien Jupiler Pro League
+          | BEL 1 | Belgien Pro League
 
 = Portugal (pt) =
 1       Primeira Liga
@@ -141,48 +141,82 @@ cup     US Open Cup
          | USA CUP | USA US Open Cup
 
 
+= Ireland (ie) =
+1      Premier Division
+        | IRL 1 | Irland Premier Division
 
+= Poland (pl) =
+1      Ekstraklasa
+        | POL 1 | Polen Ekstraklasa
+2      I Liga
+        | POL 2  | Polen I Liga
 
-__END__
+= Switzerland • Confoederatio Helvetica (ch) =
+1      Super League
+        | SUI SL | Schweiz Super League
 
-###################
-## more_leages.txt
-  IRL 1    Irland Premier Division
+= Iceland (is) =
+1      Urvalsdeild
+        | ISL 1 | Island Urvalsdeild
 
-  POL 1    Polen Orange Ekstraklasa
-  POL 2    Polen I Liga
+= Israel (il) =
+1    Winner League
+      | ISR 1 |  Israel Winner League
+2    National League
+      | ISR 2 |  Israel National League
 
-  SUI SL   Schweiz Axpo Super League
+= Romania (ro) =
+1    Liga 1
+      | ROU 1 | Rumänien Liga 1
+2    Liga 2
+      | ROU 2 | Rumänien Liga 2
 
-  ISL 1    Island Urvalsdeild
+= Russia (ru) =
+1    Premier League
+      | RUS PL | Russland Premier League
+cup  Russian Cup
+      | RUS CUP | Russland Russian Cup
 
-  ISR 1    Israel Winner League
-  ISR 2    Israel National League
+= Ukraine (ua) =
+1     Premier League
+       | UKR 1 | Ukraine Premier League
 
-  ROU 1    Rumänien Liga 1
-  ROU 2    Rumänien Liga 2
+= Bosnia and Herzegovina (ba) =
+1     Premier Liga
+       | BOS 1 | Bosnien Premier Liga
 
-  RUS PL   Russland Premier League
-  RUS CUP  Russland Russian Cup
+= Bulgaria (bg) =
+1     Premier League
+       | BUL 1 | Bulgarien Premier League
 
-  UKR 1    Ukraine Premier League
+= Croatia • Hrvatska (hr) =
+1      1. HNL
+        | CRO 1 | Kroatien 1. HNL
 
-  BOS 1    Bosnien Premier Liga
+= Estonia (ee) =
+1      Meistriliiga
+         | EST 1 | Estland Meistriliiga
 
-  BUL 1    Bulgarien Premier League
+= Finland (fi) =
+1      Veikkausliiga
+        | FIN 1 |  Finnland Veikkausliiga
+2      Ykkonen
+        | FIN 2 | Finnland Ykkonen
+3      Kakkonen
+        | FIN 3 | Finnland Kakkonen
 
-  CRO 1    Kroatien 1. HNL
+= Northern Ireland (nir) =
+1     Premiership
+        | NIRL 1 | Nordirland Premiership
 
-  EST 1    Estland Meistriliiga
+= Paraguay (py) =
+1     Primera Division
+        | PAR 1 | Paraguay Primera Division
 
-  FIN 1    Finnland Veikkausliiga
-  FIN 2    Finnland Ykkonen
-  FIN 3    Finnland Kakkonen
+= Peru (pe) =
+1      Primera Division
+         | PER 1 | Peru Primera Division
 
-  NIRL 1   Nordirland JJB Sports Premiership
-
-  PAR 1    Paraguay Primera Division
-
-  PER 1    Peru Primera Division
-
-  AUS CUP  Australien FFA Cup
+= Australia (au) =
+cup     FFA Cup
+         | AUS CUP | Australien FFA Cup
