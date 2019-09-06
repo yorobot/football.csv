@@ -25,6 +25,7 @@ PROGRAMS.each do |program|
           rec[:team_2] =~ /\+[12]/
           puts "skip tip with handicap:"
           pp rec
+          next
        end
 
        league_title = league_title.sub('Fussball - ','')

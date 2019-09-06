@@ -134,7 +134,7 @@ end
 def save_tipp3( path, recs )
   headers = ['Num','Date', 'Liga', 'Team 1', 'Score', 'Team 2', 'Result', 'Liga Title']
   File.open( path, 'w:utf-8' ) do |f|
-    f.write headers.join( ', ' )
+    f.write headers.join( ',' )
     f.write "\n"
     recs.each do |rec|
       f.write csv_encode( rec )

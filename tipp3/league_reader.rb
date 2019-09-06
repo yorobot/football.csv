@@ -1,7 +1,5 @@
-require 'pp'
 
-require 'alphabets'
-
+require 'sportdb/config'
 
 
 
@@ -20,41 +18,30 @@ class League
 
 
 
+  ## todo/fix: (re)use helpers from clubs - how? why? why not?
   LANG_REGEX = /\[[a-z]{1,2}\]/   ## note also allow [a] or [d] or [e] - why? why not?
-     def self.strip_lang( name )
-       name.gsub( LANG_REGEX, '' ).strip
-     end
+  def self.strip_lang( name )
+    name.gsub( LANG_REGEX, '' ).strip
+  end
 
-     def self.has_lang?( name ) name =~ LANG_REGEX; end
+  NORM_REGEX =  /[.'º\-\/]/
+  ## note: remove all dots (.), dash (-), ', º, /, etc.
+  ##         for norm(alizing) names
+  def self.strip_norm( name )
+    name.gsub( NORM_REGEX, '' )
+  end
 
-    def self.sanitize( name )
-      ## check for year(s) e.g. (1887-1911), (-2013),
-      ##                        (1946-2001,2013-) etc.
-      name = strip_year( name )
-      ## check lang codes e.g. [en], [fr], etc.
-      name = strip_lang( name )
-      name
-    end
+  def self.normalize( name )
+    # note: do NOT call sanitize here (keep normalize "atomic" for reuse)
 
+    ## remove all dots (.), dash (-), º, /, etc.
+    name = strip_norm( name )
+    name = name.gsub( ' ', '' )  # note: also remove all spaces!!!
 
-    NORM_REGEX =  /[.'º\-\/]/
-    ## note: remove all dots (.), dash (-), ', º, /, etc.
-    ##         for norm(alizing) names
-    def self.strip_norm( name )
-      name.gsub( NORM_REGEX, '' )
-    end
-
-    def self.normalize( name )
-      # note: do NOT call sanitize here (keep normalize "atomic" for reuse)
-
-      ## remove all dots (.), dash (-), º, /, etc.
-      name = strip_norm( name )
-      name = name.gsub( ' ', '' )  # note: also remove all spaces!!!
-
-      ## todo/fix: use our own downcase - why? why not?
-      name = downcase_i18n( name )     ## do NOT care about upper and lowercase for now
-      name
-    end
+    ## todo/fix: use our own downcase - why? why not?
+    name = downcase_i18n( name )     ## do NOT care about upper and lowercase for now
+    name
+  end
 end
 
 
@@ -69,8 +56,8 @@ class LeagueReader
   def self.parse( txt )
     recs = []
     last_rec = nil
-    country_code = nil    # last country
-    intl = false          # is international (league/tournament/cup/competition)
+    country  = nil    # last country
+    intl     = false  # is international (league/tournament/cup/competition)
 
     txt.each_line do |line|
       line = line.strip
@@ -109,11 +96,18 @@ class LeagueReader
           last_heading = heading
           ## map to country or international / int'l
           if heading =~ /international|int'l/i
-            country_code = nil
-            intl = true
+            country = nil
+            intl    = true
           elsif heading =~ /\(([a-z]{2,3})\)/i
             country_code = $1
-            intl  = false
+            intl         = false
+
+            ## check country code - MUST exist for now!!!!
+            country = SportDb::Import.config.countries[ country_code ]
+            if country.nil?
+              puts "!!! error [league reader] - unknown country with code >#{country_code}< - sorry - add country to config to fix"
+              exit 1
+            end
           else
             puts "** !! ERROR !! no match found for heading (expected country code or internationa):"
             pp line
@@ -143,11 +137,11 @@ class LeagueReader
           ## prepend country key/code if country present
           ##   todo/fix: only auto-prepend country if key/code start with a number (level) or incl. cup
           ##    why? lets you "overwrite" key if desired - use it - why? why not?
-          league_key = "#{country_code}.#{league_key}"   if country_code
+          league_key = "#{country.key}.#{league_key}"   if country
 
           rec = League.new( key:     league_key,
                             name:    league_name,
-                            country: country_code,
+                            country: country,
                             intl:    intl)
           recs << rec
           last_rec = rec
@@ -226,11 +220,13 @@ class LeagueIndex
           ## check if include club rec already or is new club rec
           if alt_recs.include?( rec )
             ## note: do NOT include duplicate club record
-            msg = "** !!! WARN !!! - (norm) name conflict/duplicate for league - >#{name}< normalized to >#{norm}< already included >#{rec.name}, #{rec.country}<"
+            ## todo/fix: check country might be nil (if intl)
+            msg = "** !!! WARN !!! - (norm) name conflict/duplicate for league - >#{name}< normalized to >#{norm}< already included >#{rec.name}, #{rec.country.key}<"
             puts msg
             @errors << msg
           else
-            msg = "** !!! WARN !!! - name conflict/duplicate - >#{name}< will overwrite >#{alt_recs[0].name}, #{alt_recs[0].country}< with >#{rec.name}, #{rec.country}<"
+            ## todo/fix: check country might be nil (if intl)
+            msg = "** !!! WARN !!! - name conflict/duplicate - >#{name}< will overwrite >#{alt_recs[0].name}, #{alt_recs[0].country.key}< with >#{rec.name}, #{rec.country.key}<"
             puts msg
             @errors << msg
             alt_recs << rec
@@ -260,6 +256,11 @@ class LeagueIndex
 end # class LeagueIndex
 
 
+
+
+
+if __FILE__ == $0
+
 recs = LeagueReader.read( 'leagues.txt' )
 pp recs
 
@@ -279,3 +280,5 @@ pp index.match( 'ENG PL' )
 
 puts "** match ENG 1:"
 pp index.match( 'ENG 1' )
+
+end
