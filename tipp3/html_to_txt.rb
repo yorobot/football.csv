@@ -3,6 +3,8 @@ require 'nokogiri'
 
 
 
+require_relative 'programs'
+
 
 
 def assert( cond, msg )
@@ -70,7 +72,8 @@ def parse_tipp3( html )
    ##  e.g. Fussball - Rumänien, Liga 2
    ##                 =>
    ##       Fussball - Rumänien Liga 2
-   liga_title = liga_title.gsub( ',', ' ' ).gsub( /[ ]+/, ' ' ).strip
+   ## liga_title = liga_title.gsub( ',', ' ' )
+   liga_title = liga_title.gsub( /[ ]+/, ' ' ).strip
 
 
 #  <td class="players" title="Fussball - AFC Champions League">
@@ -90,7 +93,8 @@ def parse_tipp3( html )
       # note: for now remove comma from names (used in tennis, for example):
       #  Fabbiano, Thomas   => Fabbiano Thomas
       #  Thiem, Dominic     => Thiem Dominic
-      player = player.gsub( ',', ' ' ).gsub( /[ ]+/, ' ' ).strip
+      # player = player.gsub( ',', ' ' )
+      player = player.gsub( /[ ]+/, ' ' ).strip
 
       players << player
     end
@@ -112,13 +116,28 @@ def parse_tipp3( html )
   recs
 end # parse_tipp3
 
+
+
+def csv_encode( values )
+  ## quote values that incl. a comma
+  values.map do |value|
+    if value.index(',')
+      puts "** rec with field with comma:"
+      pp values
+      %Q{"#{value}"}
+    else
+      value
+    end
+  end.join( ',' )
+end
+
 def save_tipp3( path, recs )
   headers = ['Num','Date', 'Liga', 'Team 1', 'Score', 'Team 2', 'Result', 'Liga Title']
   File.open( path, 'w:utf-8' ) do |f|
     f.write headers.join( ', ' )
     f.write "\n"
     recs.each do |rec|
-      f.write rec.join( ', ' )
+      f.write csv_encode( rec )
       f.write "\n"
     end
   end
@@ -126,12 +145,7 @@ end
 
 
 
-programs = %w[
-  34a 34b
-  35a 35b
-]
-
-programs.each do |program|
+PROGRAMS.each do |program|
    html = File.open( "dl/2019-#{program}.html", 'r:utf-8' ).read
    ## pp html
    recs = parse_tipp3( html )

@@ -4,14 +4,13 @@ require 'csvreader'
 
 
 
-programs = %w[
-  34a 34b
-  35a 35b
-]
+require_relative 'programs'
+
+
 
 leagues = {}    ## track league usage & names
 
-programs.each do |program|
+PROGRAMS.each do |program|
    recs = CsvHash.read( "2019-#{program}.csv", :header_converters => :symbol )
    pp recs.size
    ## pp recs[0]
