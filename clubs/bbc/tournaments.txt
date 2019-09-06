@@ -1,0 +1,183 @@
+####################
+# club names 2019/20 season from bbc sports
+#   see https://www.bbc.com/sport/football/teams
+
+
+= English Premier League =
+
+AFC Bournemouth
+Arsenal
+Aston Villa
+Brighton & Hove Albion
+Burnley
+Chelsea
+Crystal Palace
+Everton
+Leicester City
+Liverpool
+Manchester City
+Manchester United
+Newcastle United
+Norwich City
+Sheffield United
+Southampton
+Tottenham Hotspur
+Watford
+West Ham United
+Wolverhampton Wanderers
+
+= English Championship =
+Barnsley
+Birmingham City
+Blackburn Rovers
+Brentford
+Bristol City
+Cardiff City
+Charlton Athletic
+Derby County
+Fulham
+Huddersfield Town
+Hull City
+Leeds United
+Luton Town
+Middlesbrough
+Millwall
+Nottingham Forest
+Preston North End
+Queens Park Rangers
+Reading
+Sheffield Wednesday
+Stoke City
+Swansea City
+West Bromwich Albion
+Wigan Athletic
+
+= English League One =
+AFC Wimbledon
+Accrington Stanley
+Blackpool
+Bolton Wanderers
+Bristol Rovers
+Burton Albion
+Bury
+Coventry City
+Doncaster Rovers
+Fleetwood Town
+Gillingham
+Ipswich Town
+Lincoln City
+Milton Keynes Dons
+Oxford United
+Peterborough United
+Portsmouth
+Rochdale
+Rotherham United
+Shrewsbury Town
+Southend United
+Sunderland
+Tranmere Rovers
+Wycombe Wanderers
+
+= English League Two =
+Bradford City
+Cambridge United
+Carlisle United
+Cheltenham Town
+Colchester United
+Crawley Town
+Crewe Alexandra
+Exeter City
+Forest Green Rovers
+Grimsby Town
+Leyton Orient
+Macclesfield Town
+Mansfield Town
+Morecambe
+Newport County
+Northampton Town
+Oldham Athletic
+Plymouth Argyle
+Port Vale
+Salford City
+Scunthorpe United
+Stevenage
+Swindon Town
+Walsall
+
+= English National League =
+AFC Fylde
+Aldershot Town
+Barnet
+Barrow
+Boreham Wood
+Bromley
+Chesterfield
+Chorley
+Dagenham & Redbridge
+Dover Athletic
+Eastleigh
+Ebbsfleet United
+FC Halifax Town
+Harrogate Town
+Hartlepool United
+Maidenhead United
+Notts County
+Solihull Moors
+Stockport County
+Sutton United
+Torquay United
+Woking
+Wrexham
+Yeovil Town
+
+
+
+= Scottish Premiership =
+Aberdeen
+Celtic
+Hamilton Academical
+Heart of Midlothian
+Hibernian
+Kilmarnock
+Livingston
+Motherwell
+Rangers
+Ross County
+St Johnstone
+St Mirren
+
+= Scottish Championship =
+Alloa Athletic
+Arbroath
+Ayr United
+Dundee
+Dundee United
+Dunfermline
+Greenock Morton
+Inverness Caledonian Thistle
+Partick Thistle
+Queen of the South
+
+= Scottish League One =
+Airdrieonians
+Clyde
+Dumbarton
+East Fife
+Falkirk
+Forfar Athletic
+Montrose
+Peterhead
+Raith Rovers
+Stranraer
+
+= Scottish League Two =
+Albion Rovers
+Annan Athletic
+Brechin City
+Cove Rangers
+Cowdenbeath
+Edinburgh City
+Elgin City
+Queen's Park
+Stenhousemuir
+Stirling Albion
