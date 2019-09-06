@@ -12,9 +12,17 @@ leagues.dump_duplicates
 
 clubs = SportDb::Import.config.clubs
 
+countries = SportDb::Import.config.countries
+
+## pp clubs.match( 'Juventus Turin' )
+## pp clubs.match_by( name: 'Juventus Turin', country: countries['it'] )
+
 
 
 require_relative 'programs'
+
+
+missing_clubs = {}   ## index by league code
 
 
 PROGRAMS.each do |program|
@@ -27,9 +35,10 @@ PROGRAMS.each do |program|
      league_title = rec[:liga_title]
 
      if rec[:liga_title] =~ /Fussball/
+       ## fix: add +3 to html_to_txt to - check if it is possible to share code?
        ## note: skip handicap tipps - team_1 or team_2 includes +1 or +2
-       if rec[:team_1] =~ /\+[12]/ ||
-          rec[:team_2] =~ /\+[12]/
+       if rec[:team_1] =~ /\+[123]/ ||
+          rec[:team_2] =~ /\+[123]/
           puts "skip tip with handicap:"
           pp rec
           next
@@ -38,24 +47,67 @@ PROGRAMS.each do |program|
        m = leagues.match( rec[:liga] )
        if m
          league = m[0]
-         ## try matching clubs
-         if league.country
-            m2 = clubs.match_by( name: rec[:team_1], country: league.country )
-         else
+       else
+         puts "** !!ERROR!! no match for league <#{rec[:liga]}>:"
+         pp rec
+         exit 1
+       end
+
+        ## try matching clubs
+        club_queries = []
+        if league.country
+           ## todo/fix: hack - use a quick hack for now - why? why not?
+           ##   todo/fix: allow more than one country in match_by !!!
+           ## for league country england     add wales
+           ##                       e.g. Cardiff City
+           ##                    france      add monaco
+           ##                    switzerland add lichtenstein
+           club_queries << [rec[:team_1], league.country]
+           club_queries << [rec[:team_2], league.country]
+        else
            ## intl
            ##  get country from club !!!
-         end
+        end
 
-         if m2.nil?
-           puts "** !!WARN!! no match for club <#{rec[:team_1]}>:"
-           pp rec
-         end
-         ## todo check for more than one match
+        club_queries.each do |q|
+          name    = q[0]
+          country = q[1]
 
-       else
-         puts "** !!WARN!! no match for league <#{rec[:liga]}>:"
-         pp rec
-       end
+          m = clubs.match_by( name: name, country: country )
+
+          if m.nil?
+             puts "** !!WARN!! no match for club <#{name}>:"
+             pp rec
+
+             missing_clubs[ rec[:liga] ] ||= []
+
+             full_name = "#{name}, #{country.name} (#{country.key})"
+
+             if missing_clubs[ rec[:liga] ].include?( full_name )
+               puts "  skip missing club #{full_name}; already included"
+             else
+               missing_clubs[ rec[:liga] ] << full_name
+             end
+          elsif m.size > 1
+            puts "** !!WARN!! too many matches (#{m.size}) for club <#{name}>:"
+            pp m
+            pp rec
+            exit 1
+          else
+            # bingo; match
+          end
+        end
      end
    end
+end
+
+puts "missing (unmatched) clubs:"
+pp missing_clubs
+
+puts "pretty print:"
+missing_clubs.each do |league, names|
+  puts "League #{league} (#{names.size}):"
+  names.each do |name|
+    puts "  #{name}"
+  end
 end
