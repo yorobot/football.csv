@@ -29,6 +29,13 @@ require_relative 'programs'
 missing_clubs = {}   ## index by league code
 
 
+## extra country three-letter code mappings (tipp3 to fifa code)
+EXTRA_COUNTRY_MAPPINGS = {
+  'SLO' => 'SVN',    ## check if internatial vehicle plates? if yes, auto-include1!!
+  'LAT' => 'LVA',
+}
+
+
 PROGRAMS.each do |program|
    recs = CsvHash.read( "2019-#{program}.csv", :header_converters => :symbol )
    pp recs.size
@@ -66,7 +73,7 @@ PROGRAMS.each do |program|
 
         ## try matching clubs
         club_queries = []
-        if league.country
+        if league.national?
            ## todo/fix: hack - use a quick hack for now - why? why not?
            ##   todo/fix: allow more than one country in match_by !!!
            ## for league country england     add wales
@@ -75,9 +82,27 @@ PROGRAMS.each do |program|
            ##                    switzerland add lichtenstein
            club_queries << [team1, league.country]
            club_queries << [team2, league.country]
-        else
-           ## intl
-           ##  get country from club !!!
+        else  ## assume int'l tournament
+           ##  split name into club name and country e.g.
+           ##    LASK Linz AUT    =>  LASK Linz,   AUT
+           ##    Club Brügge BEL  =>  Club Brügge, BEL
+           teams = [team1, team2]
+           teams.each do |team|
+             if team =~ /^(.+)[ ]+([A-Z]{3})$/
+               country_code = EXTRA_COUNTRY_MAPPINGS[$2] || $2   ## check for corrections / (re)mappings first
+               country = countries[ country_code ]
+               if country.nil?
+                 puts "** !!! ERROR !!! cannot map country code >#{country_code}<; sorry"
+                 pp rec
+                 exit 1
+               end
+               club_queries << [$1, country]
+             else
+               puts "** !!! ERROR !!! three-letter country code missing >#{team1}<; sorry"
+               pp rec
+               exit 1
+             end
+           end
         end
 
         club_queries.each do |q|

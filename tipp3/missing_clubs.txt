@@ -1,3 +1,5 @@
+League COPA S (1):
+  La Equidad, Colombia (co)
 League POL 2 (5):
   KS Warta Posen
   Podbeskidzie Biala
@@ -34,6 +36,16 @@ League DEN 2 (10):
   BK Fremad Amager
   Nyköbing FC
   Naestved BK
+League EL (9):
+  Ararat-Armenia, Armenia (am)
+  Suduva Marija., Lithuania (lt)
+  FC Riga, Latvia (lv)
+  FCS Bukarest, Romania (ro)
+  Apollon L., Cyprus (cy)
+  FC Linfield, Northern Ireland (nir)
+  AIK Stockholm, Sweden (se)
+  Slov. Bratisl., Slovakia (sk)
+  Zorya Lugansk, Ukraine (ua)
 League BUL 1 (2):
   Botev Vratsa
   Et. Veliko Tarnovo
@@ -41,6 +53,13 @@ League ISL 1 (3):
   Fylkir Reykjavik
   HK Kopavogs
   Stjarnan Gardab.
+League AFC CL (6):
+  SIPG Shanghai, China (cn)
+  Urawa RD, Japan (jp)
+  Al-Ittihad, Saudi Arabia (sa)
+  Al-Hilal Riyad, Saudi Arabia (sa)
+  Guangzhou Ev., China (cn)
+  Kashima A., Japan (jp)
 League ROU 2 (2):
   CS Mioveni
   FC Arges Pitesti
