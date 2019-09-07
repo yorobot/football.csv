@@ -35,24 +35,31 @@ PROGRAMS.each do |program|
 
 
    recs.each do |rec|
-     league       = rec[:liga]
+     league_code  = rec[:liga]
      league_title = rec[:liga_title]
 
-     if rec[:liga_title] =~ /Fussball/
+     if league_title =~ /Fussball/
+
+       team1 = rec[:team_1]
+       team2 = rec[:team_2]
+       ## remove possible (*) marker e.g. Atalanta Bergamo*
+       team1 = team1.gsub( '*', '' )
+       team2 = team2.gsub( '*', '' )
+
        ## fix: add +3 to html_to_txt to - check if it is possible to share code?
-       ## note: skip handicap tipps - team_1 or team_2 includes +1 or +2
-       if rec[:team_1] =~ /\+[123]/ ||
-          rec[:team_2] =~ /\+[123]/
+       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/-1/-2/-3
+       if team1 =~ /[+-][123]/ ||
+          team2 =~ /[+-][123]/          ## note: if - is placed last in character class no need to escape :-)
           puts "skip tip with handicap:"
           pp rec
           next
        end
 
-       m = leagues.match( rec[:liga] )
+       m = leagues.match( league_code )
        if m
          league = m[0]
        else
-         puts "** !!ERROR!! no match for league <#{rec[:liga]}>:"
+         puts "** !!ERROR!! no match for league <#{league_code}>:"
          pp rec
          exit 1
        end
@@ -66,8 +73,8 @@ PROGRAMS.each do |program|
            ##                       e.g. Cardiff City
            ##                    france      add monaco
            ##                    switzerland add lichtenstein
-           club_queries << [rec[:team_1], league.country]
-           club_queries << [rec[:team_2], league.country]
+           club_queries << [team1, league.country]
+           club_queries << [team2, league.country]
         else
            ## intl
            ##  get country from club !!!
@@ -91,14 +98,18 @@ PROGRAMS.each do |program|
              puts "** !!WARN!! no match for club <#{name}>:"
              pp rec
 
-             missing_clubs[ rec[:liga] ] ||= []
+             missing_clubs[ league_code ] ||= []
 
-             full_name = "#{name}, #{country.name} (#{country.key})"
+             if league.intl?
+               full_name = "#{name}, #{country.name} (#{country.key})"
+             else   ## just use name for national league
+               full_name = "#{name}"
+             end
 
-             if missing_clubs[ rec[:liga] ].include?( full_name )
+             if missing_clubs[ league_code ].include?( full_name )
                puts "  skip missing club #{full_name}; already included"
              else
-               missing_clubs[ rec[:liga] ] << full_name
+               missing_clubs[ league_code ] << full_name
              end
           elsif m.size > 1
             puts "** !!WARN!! too many matches (#{m.size}) for club <#{name}>:"

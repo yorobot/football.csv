@@ -1,141 +1,72 @@
 League POL 2 (5):
-  KS Warta Posen, Poland (pl)
-  Podbeskidzie Biala, Poland (pl)
-  OKS Odra Opole, Poland (pl)
-  GKS Tychy 71, Poland (pl)
-  Chrobry Glogow, Poland (pl)
-League RUS CUP (4):
-  Shinnik Yaroslavl, Russia (ru)
-  Tekstilshchik, Russia (ru)
-  FK Khimki, Russia (ru)
-  FC Avangard Kursk, Russia (ru)
+  KS Warta Posen
+  Podbeskidzie Biala
+  OKS Odra Opole
+  GKS Tychy 71
+  Chrobry Glogow
+League RUS CUP (2):
+  Tekstilshchik
+  FC Avangard Kursk
 League NOR 2 (10):
-  Tromsdalen UIL, Norway (no)
-  Sogndal IL, Norway (no)
-  Ullensaker/Kisa, Norway (no)
-  Kongsvinger IL Fot, Norway (no)
-  Strömmen IF, Norway (no)
-  Raufoss IL, Norway (no)
-  Kfum Oslo, Norway (no)
-  Notodden FK, Norway (no)
-  Nest-Sotra, Norway (no)
-  Ham-Kam, Norway (no)
+  Tromsdalen UIL
+  Sogndal IL
+  Ullensaker/Kisa
+  Kongsvinger IL Fot
+  Strömmen IF
+  Raufoss IL
+  Kfum Oslo
+  Notodden FK
+  Nest-Sotra
+  Ham-Kam
 League SWE CUP (4):
-  Qviding FIF, Sweden (se)
-  FC Trollhättan, Sweden (se)
-  Husqvarna FF, Sweden (se)
-  Nyköping BIS, Sweden (se)
+  Qviding FIF
+  FC Trollhättan
+  Husqvarna FF
+  Nyköping BIS
 League DEN 2 (10):
-  FC Fredericia, Denmark (dk)
-  Skive IK, Denmark (dk)
-  Kolding IF, Denmark (dk)
-  Vejle BK, Denmark (dk)
-  FC Roskilde, Denmark (dk)
-  HB Köge, Denmark (dk)
-  Hvidovre IF, Denmark (dk)
-  BK Fremad Amager, Denmark (dk)
-  Nyköbing FC, Denmark (dk)
-  Naestved BK, Denmark (dk)
-League BRA 2 (7):
-  Vitoria BA, Brazil (br)
-  America Mineiro MG, Brazil (br)
-  AA Ponte Preta SP, Brazil (br)
-  RB Bragantino SP, Brazil (br)
-  Coritiba FC PR, Brazil (br)
-  Criciuma SC, Brazil (br)
-  Oeste FC SP, Brazil (br)
-League AUT 2 (14):
-  Grazer AK, Austria (at)
-  SKU Amstetten, Austria (at)
-  Floridsdorfer AC, Austria (at)
-  FC Liefering, Austria (at)
-  FC Juniors OÖ, Austria (at)
-  Austria Lustenau, Austria (at)
-  SV Horn, Austria (at)
-  SK Vorwärts Steyr, Austria (at)
-  Young Violets A.W., Austria (at)
-  SV Lafnitz, Austria (at)
-  FC Dornbirn, Austria (at)
-  Kapfenberger SV, Austria (at)
-  Austria Klagenfurt, Austria (at)
-  BW Linz, Austria (at)
-League AUT RLO (14):
-  FCM Traiskirchen, Austria (at)
-  ASV Draßburg, Austria (at)
-  SC Neusiedl, Austria (at)
-  Mannsdorf-Großenz., Austria (at)
-  SV Mattersburg Am., Austria (at)
-  Rapid Wien Am., Austria (at)
-  Wiener Viktoria, Austria (at)
-  Wiener Sportklub, Austria (at)
-  Bruck/Leitha, Austria (at)
-  Admira Amateure, Austria (at)
-  FC Mauerwerk, Austria (at)
-  SV Leobendorf, Austria (at)
-  SV Stripfing, Austria (at)
-  ASK Ebreichsdorf, Austria (at)
-League AUT RLM (14):
-  FC Gleisdorf, Austria (at)
-  Deutschlandsberg, Austria (at)
-  Bad Gleichenberg, Austria (at)
-  St Anna am Aigen, Austria (at)
-  SC Weiz, Austria (at)
-  WSC Hertha Wels, Austria (at)
-  FC Wels, Austria (at)
-  Sturm Graz Amat., Austria (at)
-  Union Vöcklamarkt, Austria (at)
-  SV Allerheiligen, Austria (at)
-  SV Ried II, Austria (at)
-  WAC Amateure, Austria (at)
-  SC Kalsdorf, Austria (at)
-  ATSV Wolfsberg, Austria (at)
-League RL TIR (2):
-  SC Schwaz, Austria (at)
-  FC Kitzbühel, Austria (at)
-League RUS PL (4):
-  Kryliya Sovetov, Russia (ru)
-  FC Spartak Moskau, Russia (ru)
-  Ural Jekaterinburg, Russia (ru)
-  FK Sochi, Russia (ru)
-League UKR 1 (1):
-  SC Dnipro-1, Ukraine (ua)
+  FC Fredericia
+  Skive IK
+  Kolding IF
+  Vejle BK
+  FC Roskilde
+  HB Köge
+  Hvidovre IF
+  BK Fremad Amager
+  Nyköbing FC
+  Naestved BK
 League BUL 1 (2):
-  Botev Vratsa, Bulgaria (bg)
-  Et. Veliko Tarnovo, Bulgaria (bg)
+  Botev Vratsa
+  Et. Veliko Tarnovo
 League ISL 1 (3):
-  Fylkir Reykjavik, Iceland (is)
-  HK Kopavogs, Iceland (is)
-  Stjarnan Gardab., Iceland (is)
-League FIN 1 (1):
-  Tampereen Ilves, Finland (fi)
+  Fylkir Reykjavik
+  HK Kopavogs
+  Stjarnan Gardab.
 League ROU 2 (2):
-  CS Mioveni, Romania (ro)
-  FC Arges Pitesti, Romania (ro)
+  CS Mioveni
+  FC Arges Pitesti
 League SWE 2 (1):
-  Jönköpings Södra, Sweden (se)
+  Jönköpings Södra
 League IRL 1 (1):
-  Waterford United, Ireland (ie)
+  Waterford United
 League DEN CUP (2):
-  Brönshöj BK, Denmark (dk)
-  Hvidovre IF, Denmark (dk)
+  Brönshöj BK
+  Hvidovre IF
 League FIN 3 (2):
-  Pepo Lappeenranta, Finland (fi)
-  Jippo, Finland (fi)
-League ITA A (1):
-  Atalanta Bergamo*, Italy (it)
+  Pepo Lappeenranta
+  Jippo
 League FIN 2 (2):
-  FC KTP, Finland (fi)
-  Ekenäs IF, Finland (fi)
+  FC KTP
+  Ekenäs IF
 League ISR 2 (3):
-  Hap.Kat. Jerusalem, Israel (il)
-  H. Petach Tikva, Israel (il)
-  I. Ramat Hasharon, Israel (il)
+  Hap.Kat. Jerusalem
+  H. Petach Tikva
+  I. Ramat Hasharon
 League ISR 1 (2):
-  Ironi K. Shmona, Israel (il)
-  Hapoel Kfar Saba, Israel (il)
+  Ironi K. Shmona
+  Hapoel Kfar Saba
 League ITA C1B (1):
-  Vis Pesaro 1898, Italy (it)
+  Vis Pesaro 1898
 League PER 1 (1):
-  Ali.Univ. Huanuco, Peru (pe)
+  Ali.Univ. Huanuco
 League PAR 1 (1):
-  River Pl.Asuncion, Paraguay (py)
+  River Pl.Asuncion
