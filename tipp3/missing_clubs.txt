@@ -1,33 +1,3 @@
-League ENG CS (6):
-  FC Barnsley, England (eng)
-  FC Middlesbrough, England (eng)
-  Sheffield Wednes., England (eng)
-  FC Millwall, England (eng)
-  FC Brentford, England (eng)
-  Queens Park R., England (eng)
-League ENG 1 (6):
-  FC Gillingham, England (eng)
-  FC Blackpool, England (eng)
-  MK Dons, England (eng)
-  FC Portsmouth, England (eng)
-  FC Rochdale, England (eng)
-  Peterborough Utd., England (eng)
-League BRA 2 (15):
-  Operario FEC PR, Brazil (br)
-  Guarani FC SP, Brazil (br)
-  Londrina EC PR, Brazil (br)
-  Sao Bento SP, Brazil (br)
-  Parana Clube PR, Brazil (br)
-  Sport Recife PE, Brazil (br)
-  Cuiaba MT, Brazil (br)
-  Figueirense FC SC, Brazil (br)
-  Vitoria BA, Brazil (br)
-  America Mineiro MG, Brazil (br)
-  AA Ponte Preta SP, Brazil (br)
-  RB Bragantino SP, Brazil (br)
-  Coritiba FC PR, Brazil (br)
-  Criciuma SC, Brazil (br)
-  Oeste FC SP, Brazil (br)
 League POL 2 (5):
   KS Warta Posen, Poland (pl)
   Podbeskidzie Biala, Poland (pl)
@@ -66,14 +36,14 @@ League DEN 2 (10):
   BK Fremad Amager, Denmark (dk)
   Nyköbing FC, Denmark (dk)
   Naestved BK, Denmark (dk)
-League USA MLS (3):
-  Sp. Kansas City, United States (us)
-  FC Minnesota Utd., United States (us)
-  Vancouver W'caps, United States (us)
-League AUT BL (3):
-  Red Bull Salzburg, Austria (at)
-  Admira Wacker, Austria (at)
-  WSG Swarovs. Tirol, Austria (at)
+League BRA 2 (7):
+  Vitoria BA, Brazil (br)
+  America Mineiro MG, Brazil (br)
+  AA Ponte Preta SP, Brazil (br)
+  RB Bragantino SP, Brazil (br)
+  Coritiba FC PR, Brazil (br)
+  Criciuma SC, Brazil (br)
+  Oeste FC SP, Brazil (br)
 League AUT 2 (14):
   Grazer AK, Austria (at)
   SKU Amstetten, Austria (at)
@@ -89,11 +59,6 @@ League AUT 2 (14):
   Kapfenberger SV, Austria (at)
   Austria Klagenfurt, Austria (at)
   BW Linz, Austria (at)
-League GER BL (4):
-  TSG Hoffenheim, Germany (de)
-  FC Union Berlin, Germany (de)
-  SC Paderborn, Germany (de)
-  Eintr. Frankfurt, Germany (de)
 League AUT RLO (14):
   FCM Traiskirchen, Austria (at)
   ASV Draßburg, Austria (at)
@@ -124,89 +89,19 @@ League AUT RLM (14):
   WAC Amateure, Austria (at)
   SC Kalsdorf, Austria (at)
   ATSV Wolfsberg, Austria (at)
-League GER 3 (3):
-  FC Ingolstadt, Germany (de)
-  FC Kaiserslautern, Germany (de)
-  FC Magdeburg, Germany (de)
-League TUR 1 (4):
-  Besiktas Istanbul, Turkey (tr)
-  Göztepespor, Turkey (tr)
-  Istanb. Basaksehir, Turkey (tr)
-  Gazis. Gaziantep, Turkey (tr)
-League ESP 1 (3):
-  FC Sevilla, Spain (es)
-  Celta de Vigo, Spain (es)
-  Espan. Barcelona, Spain (es)
 League RL TIR (2):
   SC Schwaz, Austria (at)
   FC Kitzbühel, Austria (at)
-League POL 1 (2):
-  Jagiellonia Bial., Poland (pl)
-  Wisla Krakau, Poland (pl)
-League ITA B (2):
-  SC Pisa, Italy (it)
-  FC Empoli, Italy (it)
-League GER 2 (2):
-  Wehen Wiesbaden, Germany (de)
-  FC Heidenheim, Germany (de)
-League ENG PL (4):
-  Brighton & Hove, England (eng)
-  FC Watford, England (eng)
-  Wolverhampton, England (eng)
-  FC Burnley, England (eng)
-League RL SBG (1):
-  Austria Salzburg, Austria (at)
-League ITA A (11):
-  FC Parma, Italy (it)
-  Juventus Turin, Italy (it)
-  AC Fiorentina, Italy (it)
-  Sampdoria Genua, Italy (it)
-  Lazio Rom, Italy (it)
-  FC Genua, Italy (it)
-  Brescia Calcio, Italy (it)
-  FC Torino, Italy (it)
-  US Sassuolo, Italy (it)
-  Inter Mailand, Italy (it)
-  Atalanta Bergamo*, Italy (it)
-League FRA 1 (9):
-  Dijon Football, France (fr)
-  SCO Angers, France (fr)
-  Stade Brest, France (fr)
-  Olympique Nimes, France (fr)
-  Racing Strasbourg, France (fr)
-  Stade Rennes, France (fr)
-  FC Toulouse, France (fr)
-  OGC Nizza, France (fr)
-  Olymp. Marseille, France (fr)
 League RUS PL (4):
   Kryliya Sovetov, Russia (ru)
   FC Spartak Moskau, Russia (ru)
   Ural Jekaterinburg, Russia (ru)
   FK Sochi, Russia (ru)
-League POR 1 (2):
-  Sporting Lissabon, Portugal (pt)
-  Belenenses L., Portugal (pt)
-League UKR 1 (2):
+League UKR 1 (1):
   SC Dnipro-1, Ukraine (ua)
-  FC Lviv, Ukraine (ua)
-League NOR 1 (2):
-  Bodö Glimt, Norway (no)
-  Valerenga IF, Norway (no)
-League ISR 1 (4):
-  Hapoel Tel Aviv, Israel (il)
-  Maccabi Netanya, Israel (il)
-  Ironi K. Shmona, Israel (il)
-  Hapoel Kfar Saba, Israel (il)
 League BUL 1 (2):
   Botev Vratsa, Bulgaria (bg)
   Et. Veliko Tarnovo, Bulgaria (bg)
-League ROU 1 (2):
-  Dinamo Bukarest, Romania (ro)
-  AFC Hermannstadt, Romania (ro)
-League FRA 2 (3):
-  FC Valenciennes, France (fr)
-  Paris FC 98, France (fr)
-  Grenoble Foot, France (fr)
 League ISL 1 (3):
   Fylkir Reykjavik, Iceland (is)
   HK Kopavogs, Iceland (is)
@@ -216,51 +111,18 @@ League FIN 1 (1):
 League ROU 2 (2):
   CS Mioveni, Romania (ro)
   FC Arges Pitesti, Romania (ro)
-League FRA LC (7):
-  AS Nancy, France (fr)
-  FC Chamois Niort, France (fr)
-  Grenoble Foot, France (fr)
-  Paris FC 98, France (fr)
-  FC Bourg Peronnas, France (fr)
-  Le Mans UC 72, France (fr)
-  US Orleans 45, France (fr)
 League SWE 2 (1):
   Jönköpings Södra, Sweden (se)
-League ENG LC (12):
-  FC Crewe Alexandra, England (eng)
-  Macclesfield Town, England (eng)
-  FC Millwall, England (eng)
-  MK Dons, England (eng)
-  FC Watford, England (eng)
-  FC Rochdale, England (eng)
-  Brighton & Hove, England (eng)
-  FC Morecambe, England (eng)
-  FC Burnley, England (eng)
-  Queens Park R., England (eng)
-  FC Portsmouth, England (eng)
-  Sheffield Wednes., England (eng)
-League IRL 1 (4):
-  FC Shamrock Rovers, Ireland (ie)
+League IRL 1 (1):
   Waterford United, Ireland (ie)
-  FC Sligo Rovers, Ireland (ie)
-  FC Dundalk, Ireland (ie)
-League USA CUP (1):
-  FC Minnesota Utd., United States (us)
-League AUS CUP (1):
-  Central Coast, Australia (au)
 League DEN CUP (2):
   Brönshöj BK, Denmark (dk)
   Hvidovre IF, Denmark (dk)
 League FIN 3 (2):
   Pepo Lappeenranta, Finland (fi)
   Jippo, Finland (fi)
-League BEL 1 (4):
-  YR KV Mechelen, Belgium (be)
-  RE Mouscron, Belgium (be)
-  Club Brügge, Belgium (be)
-  Standard Lüttich, Belgium (be)
-League ESP 2 (1):
-  Real Saragossa, Spain (es)
+League ITA A (1):
+  Atalanta Bergamo*, Italy (it)
 League FIN 2 (2):
   FC KTP, Finland (fi)
   Ekenäs IF, Finland (fi)
@@ -268,14 +130,12 @@ League ISR 2 (3):
   Hap.Kat. Jerusalem, Israel (il)
   H. Petach Tikva, Israel (il)
   I. Ramat Hasharon, Israel (il)
+League ISR 1 (2):
+  Ironi K. Shmona, Israel (il)
+  Hapoel Kfar Saba, Israel (il)
 League ITA C1B (1):
   Vis Pesaro 1898, Italy (it)
-League NIRL 1 (2):
-  Glentoran Belfast, Northern Ireland (nir)
-  FC Institute, Northern Ireland (nir)
 League PER 1 (1):
   Ali.Univ. Huanuco, Peru (pe)
-League BRA 1 (1):
-  Avai FC SC, Brazil (br)
 League PAR 1 (1):
   River Pl.Asuncion, Paraguay (py)

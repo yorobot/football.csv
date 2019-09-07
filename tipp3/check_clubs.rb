@@ -2,6 +2,9 @@
 require_relative 'league_reader'
 
 
+## use (switch to) "external" clubs datasets
+SportDb::Import.config.clubs_dir = "../../../openfootball/clubs"
+
 
 recs = LeagueReader.read( 'leagues.txt' )
 pp recs
@@ -9,6 +12,7 @@ pp recs
 leagues = LeagueIndex.new
 leagues.add( recs )
 leagues.dump_duplicates
+
 
 clubs = SportDb::Import.config.clubs
 
