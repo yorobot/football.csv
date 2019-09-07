@@ -1,12 +1,10 @@
-League ENG CS (8):
+League ENG CS (6):
   FC Barnsley, England (eng)
   FC Middlesbrough, England (eng)
   Sheffield Wednes., England (eng)
   FC Millwall, England (eng)
-  Cardiff City, England (eng)
   FC Brentford, England (eng)
   Queens Park R., England (eng)
-  Swansea City, England (eng)
 League ENG 1 (6):
   FC Gillingham, England (eng)
   FC Blackpool, England (eng)
@@ -68,10 +66,9 @@ League DEN 2 (10):
   BK Fremad Amager, Denmark (dk)
   Nyköbing FC, Denmark (dk)
   Naestved BK, Denmark (dk)
-League USA MLS (4):
+League USA MLS (3):
   Sp. Kansas City, United States (us)
   FC Minnesota Utd., United States (us)
-  Montreal Impact, United States (us)
   Vancouver W'caps, United States (us)
 League AUT BL (3):
   Red Bull Salzburg, Austria (at)
@@ -146,9 +143,8 @@ League RL TIR (2):
 League POL 1 (2):
   Jagiellonia Bial., Poland (pl)
   Wisla Krakau, Poland (pl)
-League ITA B (3):
+League ITA B (2):
   SC Pisa, Italy (it)
-  Pordenone Calcio, Italy (it)
   FC Empoli, Italy (it)
 League GER 2 (2):
   Wehen Wiesbaden, Germany (de)
@@ -172,11 +168,10 @@ League ITA A (11):
   US Sassuolo, Italy (it)
   Inter Mailand, Italy (it)
   Atalanta Bergamo*, Italy (it)
-League FRA 1 (10):
+League FRA 1 (9):
   Dijon Football, France (fr)
   SCO Angers, France (fr)
   Stade Brest, France (fr)
-  AS Monaco, France (fr)
   Olympique Nimes, France (fr)
   Racing Strasbourg, France (fr)
   Stade Rennes, France (fr)
@@ -231,18 +226,15 @@ League FRA LC (7):
   US Orleans 45, France (fr)
 League SWE 2 (1):
   Jönköpings Södra, Sweden (se)
-League ENG LC (15):
+League ENG LC (12):
   FC Crewe Alexandra, England (eng)
   Macclesfield Town, England (eng)
   FC Millwall, England (eng)
   MK Dons, England (eng)
-  Cardiff City, England (eng)
   FC Watford, England (eng)
   FC Rochdale, England (eng)
   Brighton & Hove, England (eng)
   FC Morecambe, England (eng)
-  Newport County, England (eng)
-  Swansea City, England (eng)
   FC Burnley, England (eng)
   Queens Park R., England (eng)
   FC Portsmouth, England (eng)

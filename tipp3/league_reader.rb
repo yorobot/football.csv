@@ -14,7 +14,8 @@ class League
     @country   = country
     @intl      = intl
   end
-  def intl?() @intl == true; end
+  def intl?()      @intl == true; end
+  def national?()  @intl == false; end
 
 
 

@@ -75,6 +75,14 @@ PROGRAMS.each do |program|
 
           m = clubs.match_by( name: name, country: country )
 
+          if m.nil? && league.national?
+            ## (re)try with second country - quick hacks for known leagues
+            m = clubs.match_by( name: name, country: countries['wal'])  if country.key == 'eng'
+            m = clubs.match_by( name: name, country: countries['mc'])   if country.key == 'fr'
+            m = clubs.match_by( name: name, country: countries['li'])   if country.key == 'ch'
+            m = clubs.match_by( name: name, country: countries['ca'])   if country.key == 'us'
+          end
+
           if m.nil?
              puts "** !!WARN!! no match for club <#{name}>:"
              pp rec
