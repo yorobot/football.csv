@@ -16,23 +16,23 @@ PROGRAMS.each do |program|
    ## pp recs[0]
 
    recs.each do |rec|
-     league       = rec[:liga]
+     league_code  = rec[:liga]
      league_title = rec[:liga_title]
 
      if league_title =~ /Fussball/
-       ## note: skip handicap tipps - team_1 or team_2 includes +1 or +2
-       if rec[:team_1] =~ /\+[12]/ ||
-          rec[:team_2] =~ /\+[12]/
+       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/+4/+5/-1/-2/-3/..
+       if rec[:team_1] =~ /[+-][12345]/ ||
+          rec[:team_2] =~ /[+-][12345]/
           puts "skip tip with handicap:"
           pp rec
           next
        end
 
        league_title = league_title.sub('Fussball - ','')
-       puts "#{league} | #{league_title}"
+       puts "#{league_code} | #{league_title}"
 
-       leagues[ league ] ||= [0, league_title]
-       leagues[ league ][0] += 1
+       leagues[ league_code ] ||= [0, league_title]
+       leagues[ league_code ][0] += 1
      else
        ## skip Handball, Tennis, Hockey etc.
      end

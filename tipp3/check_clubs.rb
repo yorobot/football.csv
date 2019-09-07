@@ -54,9 +54,9 @@ PROGRAMS.each do |program|
        team2 = team2.gsub( '*', '' )
 
        ## fix: add +3 to html_to_txt to - check if it is possible to share code?
-       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/-1/-2/-3
-       if team1 =~ /[+-][123]/ ||
-          team2 =~ /[+-][123]/          ## note: if - is placed last in character class no need to escape :-)
+       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/+4/+5/-1/-2/-3/..
+       if team1 =~ /[+-][12345]/ ||
+          team2 =~ /[+-][12345]/          ## note: if - is placed last in character class no need to escape :-)
           puts "skip tip with handicap:"
           pp rec
           next
