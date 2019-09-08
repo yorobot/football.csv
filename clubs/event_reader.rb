@@ -1,7 +1,10 @@
 
 require 'sportdb/config'
+require 'sportdb/leagues'
 
-require_relative '../tipp3/league_reader'
+
+SportDb::Import::LeagueReader.config  =  SportDb::Import.config
+SportDb::Import::LeagueIndex.config   =  SportDb::Import.config
 
 
 
@@ -9,10 +12,10 @@ require_relative '../tipp3/league_reader'
 SportDb::Import.config.clubs_dir = "../../../openfootball/clubs"
 
 
-recs = LeagueReader.read( '../tipp3/leagues.txt' )
+recs = SportDb::Import::LeagueReader.read( '../tipp3/leagues.txt' )
 pp recs
 
-LEAGUES = LeagueIndex.new
+LEAGUES = SportDb::Import::LeagueIndex.new
 LEAGUES.add( recs )
 LEAGUES.dump_duplicates
 
