@@ -1,8 +1,3 @@
-###
-## todo/fix:
-##  tipp3 - if comma in value use quotes (do NOT strip commas for now!!!!)
-
-
 
 = International =
 
@@ -50,16 +45,25 @@ usmx.cup   US & Mexican Leagues Cup    ## check if clubs include country code?
 
 
 = England (eng) =    ## add incl. Wales   as country2 or something - why? why not?
-1       Premier League
-          | ENG PL | England Premier League
-2       Championship
-          | ENG CS | England Championship
-3       League One
-          | ENG 1  | England League One      ## note: uses "generic" ENG 1  - might get confused with Premier League
+1       English Premier League
+          | ENG PL | England Premier League | Premier League
+2       English Championship
+          | ENG CS | England Championship | Championship
+3       English League One
+          | ENG 1  | England League One | League One      ## note: uses "generic" ENG 1  - might get confused with Premier League
+4       English League Two
+5       English National League
 
 cup      EFL Cup
           | League Cup | Football League Cup
           | ENG LC | England Liga Cup
+
+= Scotland (sco) =
+1       Scottish Premiership
+2       Scottish Championship
+3       Scottish League One
+4       Scottish League Two
+
 
 
 = Spain • España (es) =
