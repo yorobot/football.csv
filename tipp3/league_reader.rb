@@ -1,18 +1,12 @@
 
 require 'sportdb/config'
-require 'sportdb/leagues'
+
+SportDb::Import.config.leagues_dir = '../../../openfootball/leagues'
 
 
-SportDb::Import::LeagueReader.config  =  SportDb::Import.config
-SportDb::Import::LeagueIndex.config   =  SportDb::Import.config
-
-
-recs = SportDb::Import::LeagueReader.read( 'leagues.txt' )
-pp recs
-
-leagues = SportDb::Import::LeagueIndex.new
-leagues.add( recs )
+leagues = SportDb::Import.config.leagues
 leagues.dump_duplicates
+
 
 puts "** match AUT BL:"
 pp leagues.match( 'AUT BL' )

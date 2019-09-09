@@ -1,21 +1,13 @@
 
-require_relative 'league_reader'
+require 'sportdb/config'
+
+## use (switch to) "external" datasets
+SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
+SportDb::Import.config.leagues_dir = '../../../openfootball/leagues'
 
 
-## use (switch to) "external" clubs datasets
-SportDb::Import.config.clubs_dir = "../../../openfootball/clubs"
-
-
-recs = LeagueReader.read( 'leagues.txt' )
-pp recs
-
-leagues = LeagueIndex.new
-leagues.add( recs )
-leagues.dump_duplicates
-
-
-clubs = SportDb::Import.config.clubs
-
+leagues   = SportDb::Import.config.leagues
+clubs     = SportDb::Import.config.clubs
 countries = SportDb::Import.config.countries
 
 ## pp clubs.match( 'Juventus Turin' )
