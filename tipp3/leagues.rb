@@ -46,7 +46,35 @@ sorted_leagues = leagues.to_a.sort do |l,r|
   res
 end
 
+
+
+require 'sportdb/config'
+
+## use (switch to) "external" datasets
+SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
+SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"
+
+LEAGUES = SportDb::Import.config.leagues
+
+
+NATIONAL_TEAM_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
+  'EM Q',       # Europameisterschaft Qualifikation
+  'U21 EMQ',    # U21 EM Qualifikation
+  'WM Q',       # WM Qualifikation
+  'INT FS',     # Internationale Freundschaftsspiele
+  'FS U21',     # U21 Freundschaftsspiele
+  'FS U20',     # U20 Freundschaftsspiele
+  'INT FSD',    # Internationale Freundschaftsspiele, Damen
+]
+
+## mark unknown season
 puts "sorted:"
 sorted_leagues.each do |l|
-  puts "#{'%3s'%l[1][0]} #{'%-8s'%l[0]} #{l[1][1]}"
+  m = LEAGUES.match( l[0] )
+  if m || NATIONAL_TEAM_LEAGUES.include?( l[0] )
+    print "   "
+  else
+    print "!! "
+  end
+  puts "   #{'%3s'%l[1][0]} #{'%-8s'%l[0]} #{l[1][1]}"
 end
