@@ -6,3 +6,14 @@ PROGRAMS = %w[
   35a 35b
   36a 36b
 ]
+
+NATIONAL_TEAM_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
+  'EM Q',       # Europameisterschaft Qualifikation
+  'U21 EMQ',    # U21 EM Qualifikation
+  'WM Q',       # WM Qualifikation
+  'INT FS',     # Internationale Freundschaftsspiele
+  'FS U21',     # U21 Freundschaftsspiele
+  'FS U20',     # U20 Freundschaftsspiele
+  'INT FSD',    # Internationale Freundschaftsspiele, Damen
+  'EMQDA',      # EM Qualifikation, Damen
+]

@@ -67,9 +67,11 @@ League SWE 2 (1):
   Jönköpings Södra
 League IRL 1 (1):
   Waterford United
-League DEN CUP (2):
+League DEN CUP (4):
   Brönshöj BK
   Hvidovre IF
+  Hilleröd Fodbold
+  Naestved BK
 League FIN 3 (2):
   Pepo Lappeenranta
   Jippo
@@ -83,9 +85,52 @@ League ISR 2 (3):
 League ISR 1 (2):
   Ironi K. Shmona
   Hapoel Kfar Saba
-League ITA C1B (1):
+League ITA C1B (3):
   Vis Pesaro 1898
+  FC Modena
+  Padua Calcio
 League PER 1 (1):
   Ali.Univ. Huanuco
 League PAR 1 (1):
   River Pl.Asuncion
+League RL VBG (5):
+  FC Wolfurt
+  FC Langenegg
+  Austria Lustenau A
+  SC Röthis
+  Altach Amateure
+League CP BIC (1):
+  Atletico Grau
+League ENG LTR (2):
+  FC Walsall
+  FC Stevenage
+League JPN LC (3):
+  Hokkaido Consadole
+  Sanfr. Hiroshima
+  Urawa RD
+League BRA CUP (1):
+  Cruzeiro EC MG
+League ESP 2 (9):
+  Racing Santander
+  Dep. La Coruna
+  UD Extremadura
+  Numancia CD
+  Ponferradina SD
+  Teneriffa CD
+  Las Palmas UD
+  FC Girona
+  Alcorcon AD
+League BRA 1 (7):
+  Ceara CE
+  Vasco Da Gama RJ
+  EC Bahia BA
+  Fortaleza EC CE
+  Goias EC GO
+  SE Palmeiras SP
+  Cruzeiro EC MG
+League AUT RLO (1):
+  SC Team Wr. Linien
+League USA MLS (1):
+  New England Rev.
+League POR 1 (1):
+  Vitoria Guimaraes

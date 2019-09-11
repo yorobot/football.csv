@@ -39,20 +39,23 @@ PROGRAMS.each do |program|
 
      if league_title =~ /Fussball/
 
+       ## skip national (selection) teams / matches e.g. wm, em, u21, u20, int fs, etc.
+       next if NATIONAL_TEAM_LEAGUES.include?( league_code )
+
+
        team1 = rec[:team_1]
        team2 = rec[:team_2]
        ## remove possible (*) marker e.g. Atalanta Bergamo*
        team1 = team1.gsub( '*', '' )
        team2 = team2.gsub( '*', '' )
 
-       ## fix: add +3 to html_to_txt to - check if it is possible to share code?
-       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/+4/+5/-1/-2/-3/..
+       ## skip matches with  possible +1/+2/+3/+4/+5/-1/-2/-3/.. handicap
        if team1 =~ /[+-][12345]/ ||
-          team2 =~ /[+-][12345]/          ## note: if - is placed last in character class no need to escape :-)
-          puts "skip tip with handicap:"
-          pp rec
+          team2 =~ /[+-][12345]/
+          puts "skip match with handicap"   # note: int'l matches with handicap miss three-letter country code
           next
        end
+
 
        m = leagues.match( league_code )
        if m
@@ -145,9 +148,17 @@ puts "missing (unmatched) clubs:"
 pp missing_clubs
 
 puts "pretty print:"
+buf = String.new
 missing_clubs.each do |league, names|
-  puts "League #{league} (#{names.size}):"
+  buf << "League #{league} (#{names.size}):\n"
   names.each do |name|
-    puts "  #{name}"
+    buf << "  #{name}\n"
   end
+end
+
+puts buf
+
+## save to missing_clubs.txt
+File.open( 'missing_clubs.txt', 'w:utf-8' ) do |f|
+  f.write buf
 end

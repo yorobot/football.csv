@@ -20,14 +20,6 @@ PROGRAMS.each do |program|
      league_title = rec[:liga_title]
 
      if league_title =~ /Fussball/
-       ## note: skip handicap tipps - team_1 or team_2 includes +1/+2/+3/+4/+5/-1/-2/-3/..
-       if rec[:team_1] =~ /[+-][12345]/ ||
-          rec[:team_2] =~ /[+-][12345]/
-          puts "skip tip with handicap:"
-          pp rec
-          next
-       end
-
        league_title = league_title.sub('Fussball - ','')
        puts "#{league_code} | #{league_title}"
 
@@ -57,24 +49,19 @@ SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"
 LEAGUES = SportDb::Import.config.leagues
 
 
-NATIONAL_TEAM_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
-  'EM Q',       # Europameisterschaft Qualifikation
-  'U21 EMQ',    # U21 EM Qualifikation
-  'WM Q',       # WM Qualifikation
-  'INT FS',     # Internationale Freundschaftsspiele
-  'FS U21',     # U21 Freundschaftsspiele
-  'FS U20',     # U20 Freundschaftsspiele
-  'INT FSD',    # Internationale Freundschaftsspiele, Damen
-]
 
 ## mark unknown season
-puts "sorted:"
+puts "sorted (#{sorted_leagues.size}) - #{PROGRAMS.join(' ')}:"
 sorted_leagues.each do |l|
   m = LEAGUES.match( l[0] )
-  if m || NATIONAL_TEAM_LEAGUES.include?( l[0] )
-    print "   "
+  if m
+    print "    "
+  elsif NATIONAL_TEAM_LEAGUES.include?( l[0] )
+    print "(*) "   ## skip nation (selection) team leagues
   else
-    print "!! "
+    print "!!! "
   end
   puts "   #{'%3s'%l[1][0]} #{'%-8s'%l[0]} #{l[1][1]}"
 end
+puts
+puts "(*): national team leagues - #{NATIONAL_TEAM_LEAGUES.sort.join(', ')}"
