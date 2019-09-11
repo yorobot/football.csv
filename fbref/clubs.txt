@@ -1,0 +1,69 @@
+sorted clubs (12):
+          22 Admira
+          22 Austria Wien
+          22 Hartberg
+          22 LASK Linz
+          22 Mattersburg
+!!        22 RB Salzburg
+          22 Rapid Wien
+          22 SCR Altach
+          22 St. Pölten
+          22 Sturm Graz
+          22 WSG Wattens
+          22 Wolfsberger AC
+
+    sorted clubs (20):
+              38 Arsenal
+              38 Aston Villa
+              38 Bournemouth
+              38 Brighton
+              38 Burnley
+              38 Chelsea
+              38 Crystal Palace
+              38 Everton
+              38 Leicester City
+              38 Liverpool
+              38 Manchester City
+    !!        38 Manchester Utd
+    !!        38 Newcastle Utd
+              38 Norwich City
+    !!        38 Sheffield Utd
+              38 Southampton
+              38 Tottenham
+              38 Watford
+              38 West Ham
+              38 Wolves
+
+    sorted clubs (32):
+               6 Ajax nl
+               6 Atalanta it
+               6 Atlético Madrid es
+               6 Barcelona es
+    !!         6 Bayer de
+               6 Bayern Munich de
+               6 Benfica pt
+               6 Chelsea eng
+               6 Club Brugge be
+               6 Dinamo Zagreb hr
+               6 Dortmund de
+               6 Galatasaray tr
+               6 Genk be
+               6 Inter it
+               6 Juventus it
+               6 Lille fr
+               6 Liverpool eng
+    !!         6 Loko Moscow ru
+               6 Lyon fr
+               6 Manchester City eng
+               6 Napoli it
+               6 Olympiacos gr
+               6 Paris S-G fr
+               6 RB Leipzig de
+    !!         6 RB Salzburg at
+               6 Real Madrid es
+    !!         6 Red Star rs
+    !!         6 Shakhtar ua
+               6 Slavia Prague cz
+               6 Tottenham eng
+               6 Valencia es
+               6 Zenit ru
