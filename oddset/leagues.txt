@@ -1,0 +1,64 @@
+##
+##  oddset
+
+Ligenkürzel:
+1.BL Bundesliga (Deutschland)
+2.BL 2. Bundesliga (Deutschland)
+3.LI 3. Liga (Deutschland)
+
+AUT1 Bundesliga (Österreich)
+AUT2 Erste Liga (Österreich)
+
+BEL1 Pro League (Belgien)
+
+BRA1 Brasileiro Serie A (Brasilien)
+BRA2 Brasileiro Serie B (Brasilien)
+
+CL UEFA Champions League (Europa)
+CLF UEFA Champions League Frauen (Europa)
+
+COLP Copa Colombia (Kolumbien)
+
+CZE1 1. Liga (Tschechien)
+DEN1 Superligaen (Dänemark)
+DEN2 1. Division (Dänemark)
+DENP DBU Pokalen (Dänemark)
+
+EL UEFA Europa League (Europa)
+ENG1 Premier League (England)
+ENG2 Championship (England)
+ENGL League Cup (England)
+ENGT Football League Trophy N. Gr.F (England)
+ESP1 La Liga (Spanien)
+
+FIN2 Ykkönen (Finnland)
+
+FRA1 Ligue 1 (Frankreich)
+FRA2 Ligue 2 (Frankreich)
+
+HUN1 NB I (Ungarn)
+IRL1 Premier Division (Irland)
+
+ITA1 Serie A (Italien)
+ITA2 Serie B (Italien)
+
+NED1 Eredivisie (Niederlande)
+NED2 Eerste Divisie (Niederlande)
+
+NOR1 Eliteserien (Norwegen)
+
+POL1 Ekstraklasa (Polen)
+POR1 Primeira Liga (Portugal)
+
+SCO1 Premiership (Schottland)
+SCO2 Championship (Schottland)
+
+SLO1 Prva Liga (Slowenien)
+SUIP Schweizer Cup (Schweiz)
+
+SWE1 Allsvenskan (Schweden)
+SWE2 Superettan (Schweden)
+
+TUR1 Süper Lig (Türkei)
+
+USA1 Major League Soccer (USA)
