@@ -1,0 +1,22 @@
+##  Niederlande - Eredivisie
+##    https://sport.orf.at/fussball/competitions/group/eu/comp/9
+
+
+1.   Vitesse Arnheim
+2.   Ajax Amsterdam
+3.   PSV Eindhoven
+4.   Twente Enschede
+5.   Willem II Tilburg
+6.   Sparta Rotterdam
+7.   AZ Alkmaar
+8.   FC Utrecht
+9.   Feyenoord
+10.  sc Heerenveen
+11.  ADO Den Haag
+12.  VVV-Venlo
+13.  Heracles Almelo
+14.  FC Groningen
+15.  PEC Zwolle
+16.  FC Emmen
+17.  Fortuna Sittard
+18.  RKC Waalwijk
