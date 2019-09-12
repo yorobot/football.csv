@@ -322,7 +322,9 @@ Sonntag, 08.09.2019
 250 21:00 Santos SP - Atletico Paranaense 1 : 1 (0 : 1)
 = Island - 1 Deild
 441 21:15 Grotta - Afturelding 0 : 5 (0 : 3)
+
 Montag, 09.09.2019
+
 = Brasilien - Brasileiro Serie A
 251 00:00 CSA AL - Chapecoense SC 2 : 0 (1 : 0)
 = Europa - U21 EM Qualifikation Gruppe 3
@@ -340,10 +342,6 @@ Montag, 09.09.2019
 151 20:45 Ungarn - Slowakei 1 : 2 (0 : 1)
 = Europa - EM Quali. Gr. G
 147 20:45 Polen - Österreich 0 : 0 (0 : 0)
-
-Montag, 09.09.2019
-
-= Europa - EM Quali. Gr. G
 332 20:45 Lettland - Nordmazedonien 0 : 2 (0 : 2)
 334 20:45 Slowenien - Israel 3 : 2 (1 : 0)
 = Europa - EM Quali. Gr. I
