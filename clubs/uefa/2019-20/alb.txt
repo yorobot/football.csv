@@ -1,0 +1,27 @@
+############################
+# see uefa.com/memberassociations/association=alb/domesticleague/clubs
+#     uefa.com/memberassociations/association=alb/domesticleague/standings
+
+
+# Albanian Super League 2019/20
+
+1   KF Tirana
+       Tirana
+2   FK Kukësi
+       Kukës
+3   KF Teuta
+       Teuta
+4   FK Partizani
+       Partizani
+5   KF Skënderbeu
+       Skënderbeu
+6   FK Bylis
+       Bylis
+7   KF Vllaznia
+       Vllaznia
+8   KF Laçi
+       Laç
+9   KS Flamurtari
+       Flamurtari
+10  KS Luftëtari
+       Luftëtari
