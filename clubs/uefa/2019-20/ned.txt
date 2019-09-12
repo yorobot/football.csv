@@ -1,41 +1,35 @@
+# Dutch First Division 2019/20
 
-# Italian Serie A 2019/20
 
-1   FC Internazionale Milano
-       Internazionale
-2   Juventus
-3   Torino FC
-    Torino
-4   SS Lazio
-       Lazio
-5   Genoa CFC
-    Genoa
-6   Bologna FC
-    Bologna
-7   Hellas Verona FC
-           Verona
-8   US Sassuolo Calcio
-      Sassuolo
-9   Parma FC
-    Parma
-10  SSC Napoli
-        Napoli
-11  Atalanta BC
-    Atalanta
-12  Brescia Calcio
-    Brescia
-13  AC Milan
-       Milan
-14  Udinese Calcio
-    Udinese
-15  AS Roma
-       Roma
-16  ACF Fiorentina
-        Fiorentina
-17  SPAL
-18  Cagliari Calcio
-    Cagliari
-19  US Lecce
-       Lecce
-20  UC Sampdoria
-       Sampdoria
+1   Vitesse
+2   AFC Ajax
+        Ajax
+3   PSV Eindhoven
+    PSV
+4   FC Twente
+       Twente
+5   Willem II
+6   Sparta Rotterdam
+    Sparta
+7   AZ Alkmaar
+8   FC Utrecht
+       Utrecht
+9   Feyenoord
+10  sc Heerenveen
+       Heerenveen
+11  ADO Den Haag
+        Den Haag
+12  VVV-Venlo
+    VVV
+13  Heracles Almelo
+    Heracles
+14  FC Groningen
+       Groningen
+15  PEC Zwolle
+        Zwolle
+16  Emmen
+17  SC Fortuna Sittard
+       Fortuna Sittard
+18  RKC Waalwijk
+    RKC
+
