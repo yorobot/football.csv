@@ -1,0 +1,42 @@
+## French Ligue 1 2019/20
+
+
+1   Paris Saint-Germain
+    Paris
+2   Stade Rennais FC
+          Rennes
+3   OGC Nice
+        Nice
+4   Angers SCO
+    Angers
+5   Olympique Lyonnais
+    Lyon
+6   Stade de Reims
+             Reims
+7   FC Nantes
+       Nantes
+8   Olympique de Marseille
+                 Marseille
+9   Toulouse FC
+    Toulouse
+10  LOSC Lille
+    LOSC
+11  FC Girondins de Bordeaux
+                    Bordeaux
+12  Stade Brestois 29
+          Brest
+13  Nîmes Olympique SC
+    Nîmes
+14  Montpellier Hérault SC
+    Montpellier
+15  FC Metz
+       Metz
+16  AS Saint-Étienne
+       St-Étienne
+17  Racing Club de Strasbourg Alsace
+                   Strasbourg
+18  Amiens
+19  AS Monaco FC
+       Monaco
+20  Dijon FCO
+    Dijon
