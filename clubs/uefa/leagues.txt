@@ -11,3 +11,42 @@ Dutch First Division 2019/20
 Portuguese First Division 2019/20
 Scottish Premiership 2019/20
 Turkish Super League 2019/20
+
+
+Andorran Premier Division
+Armenian Premier League
+Austrian Bundesliga
+Azerbaijani Premier League A
+Belarusian Premier League
+Bosnian-Herzegovinian Premier League
+Bulgarian A League
+Croatian First League
+Cypriot First Division
+Czech First League
+Danish Super League
+
+Hungarian First League
+Israeli Premier League
+
+Kosovan Superliga A
+Latvian First Division
+Lithuanian First Division
+Luxembourger First Division
+Maltese Premier League
+Moldovan First Division
+Montenegrin First League
+Macedonian First League
+Northern Irish Premiership
+Norwegian Premier Division A
+Polish First Division
+Irish Premier Division A
+Romanian First Division
+Russian Premier League
+San Marinese Championship
+Serbian Super League
+Slovak First League
+Slovene First League
+Swedish First Division
+Swiss Super League
+Ukrainian Premier League
+Welsh Premier League
