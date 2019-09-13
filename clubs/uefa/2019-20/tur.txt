@@ -1,5 +1,4 @@
-
-# Turkish Super League 2019/20
+= Turkish Super League =
 
 Alanyaspor
 Fenerbahçe SK
@@ -9,7 +8,6 @@ Denizlispor
 Rizespor
 Trabzonspor AŞ
 Trabzonspor
-
 
 MKE Ankaragücü
     Ankaragücü

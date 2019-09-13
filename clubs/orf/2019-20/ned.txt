@@ -1,6 +1,6 @@
-##  Niederlande - Eredivisie
-##    https://sport.orf.at/fussball/competitions/group/eu/comp/9
+= Niederlande - Eredivisie =
 
+# see https://sport.orf.at/fussball/competitions/group/eu/comp/9
 
 1   Vitesse Arnheim
 2   Ajax Amsterdam

@@ -1,21 +1,22 @@
-##  Türkei - SüperLig
-##    https://sport.orf.at/fussball/competitions/group/eu/comp/115
+= Türkei - SüperLig =
 
-1.   Alanyaspor
-2.   Fenerbahce Istanbul
-3.   Denizlispor
-4.   Caykur Rizespor
-5.   Trabzonspor
-6.   Ankaragücü
-7.   Sivasspor
-8.   Besiktas Istanbul
-9.   Galatasaray
-10.  Antalyaspor
-11.  Gazisehir Gaziantep
-12.  Yeni Malatyaspor
-13.  Konyaspor
-14.  Istanbul Basaksehir
-15.  Kayserispor
-16.  Kasimpasa SK
-17.  Göztepe SK
-18.  Genclerbirligi
+#  see  https://sport.orf.at/fussball/competitions/group/eu/comp/115
+
+1   Alanyaspor
+2   Fenerbahce Istanbul
+3   Denizlispor
+4   Caykur Rizespor
+5   Trabzonspor
+6   Ankaragücü
+7   Sivasspor
+8   Besiktas Istanbul
+9   Galatasaray
+10  Antalyaspor
+11  Gazisehir Gaziantep
+12  Yeni Malatyaspor
+13  Konyaspor
+14  Istanbul Basaksehir
+15  Kayserispor
+16  Kasimpasa SK
+17  Göztepe SK
+18  Genclerbirligi

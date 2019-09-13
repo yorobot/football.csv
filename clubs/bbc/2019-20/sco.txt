@@ -1,0 +1,54 @@
+####################
+# club names 2019/20 season from bbc sports
+#   see https://www.bbc.com/sport/football/teams
+
+
+= Scottish Premiership =
+Aberdeen
+Celtic
+Hamilton Academical
+Heart of Midlothian
+Hibernian
+Kilmarnock
+Livingston
+Motherwell
+Rangers
+Ross County
+St Johnstone
+St Mirren
+
+= Scottish Championship =
+Alloa Athletic
+Arbroath
+Ayr United
+Dundee
+Dundee United
+Dunfermline
+Greenock Morton
+Inverness Caledonian Thistle
+Partick Thistle
+Queen of the South
+
+= Scottish League One =
+Airdrieonians
+Clyde
+Dumbarton
+East Fife
+Falkirk
+Forfar Athletic
+Montrose
+Peterhead
+Raith Rovers
+Stranraer
+
+= Scottish League Two =
+Albion Rovers
+Annan Athletic
+Brechin City
+Cove Rangers
+Cowdenbeath
+Edinburgh City
+Elgin City
+Queen's Park
+Stenhousemuir
+Stirling Albion

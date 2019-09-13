@@ -1,5 +1,4 @@
-# Dutch First Division 2019/20
-
+= Dutch First Division =
 
 1   Vitesse
 2   AFC Ajax
@@ -32,4 +31,3 @@
        Fortuna Sittard
 18  RKC Waalwijk
     RKC
-

@@ -1,5 +1,4 @@
-
-# German Bundesliga 2019/20
+= German Bundesliga =
 
 1   RB Leipzig
        Leipzig

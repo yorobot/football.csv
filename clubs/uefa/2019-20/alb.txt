@@ -1,9 +1,7 @@
-############################
+= Albanian Super League =
+
 # see uefa.com/memberassociations/association=alb/domesticleague/clubs
 #     uefa.com/memberassociations/association=alb/domesticleague/standings
-
-
-# Albanian Super League 2019/20
 
 1   KF Tirana
        Tirana

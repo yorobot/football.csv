@@ -1,7 +1,6 @@
-##########
-#  https://www.uefa.com/memberassociations/association=gre/domesticleague/standings
+= Greek Super League =
 
-# Greek Super League 2019/20
+# see https://www.uefa.com/memberassociations/association=gre/domesticleague/standings
 
 PAOK FC
 PAOK

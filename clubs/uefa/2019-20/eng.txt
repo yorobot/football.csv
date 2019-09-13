@@ -1,5 +1,4 @@
-
-# English Premier League 2019/20
+= English Premier League =
 
 1   Liverpool FC
     Liverpool

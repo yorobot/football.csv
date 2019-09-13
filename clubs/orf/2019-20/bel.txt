@@ -1,5 +1,6 @@
-## Belgien - Eerste klasse
-##   https://sport.orf.at/fussball/competitions/group/eu/comp/112
+= Belgien - Eerste klasse =
+
+# see https://sport.orf.at/fussball/competitions/group/eu/comp/112
 
 1   Standard Lüttich
 2   Club Brügge

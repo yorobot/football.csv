@@ -1,5 +1,6 @@
-##   Italien - Serie A
-##     https://sport.orf.at/fussball/competitions/group/eutop/comp/21
+= Italien - Serie A =
+
+# see https://sport.orf.at/fussball/competitions/group/eutop/comp/21
 
 1   Inter Mailand
 2   Juventus Turin

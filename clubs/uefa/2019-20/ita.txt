@@ -1,5 +1,4 @@
-
-# Italian Serie A 2019/20
+= Italian Serie A =
 
 1   FC Internazionale Milano
        Internazionale
