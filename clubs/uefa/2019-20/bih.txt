@@ -1,0 +1,24 @@
+= Bosnian-Herzegovinian Premier League =
+
+1   FK Željezničar
+       Željezničar
+2   Sloga Simin Han
+3   FK Sarajevo
+       Sarajevo
+4   HŠK Zrinjski
+        Zrinjski
+5   FK Borac Banja Luka
+       Borac
+6   FK Radnik Bijeljina
+       Radnik Bijeljina
+7   FK Sloboda Tuzla
+       Sloboda
+8   NK Čelik Zenica
+       Čelik
+9   NK Široki Brijeg
+      Široki Brijeg
+10  FK Mladost Doboj Kakanj
+       Mladost Doboj Kakanj
+11  FK Velež
+       Velež
+12  Zvijezda 09

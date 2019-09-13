@@ -1,0 +1,18 @@
+= Latvian First Division =
+
+1  Riga FC
+   Riga
+2  FK Ventspils
+      Ventspils
+3  RFS
+4  FK Spartaks Jūrmala
+      Spartaks Jūrmala
+5  FK Valmiera
+6  FK Liepāja
+      Liepāja
+7  FK Jelgava
+      Jelgava
+8  BFC Daugavpils
+       Daugavpils
+9  FS METTA
+      METTA

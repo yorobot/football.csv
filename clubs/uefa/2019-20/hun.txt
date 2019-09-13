@@ -1,0 +1,25 @@
+= Hungarian First League =
+
+1   Fehérvár FC
+    Fehérvár
+2   Mezőkövesd Zsóry SE
+    Mezőkövesd
+3   Debreceni VSC
+    Debrecen
+4   Varda SE
+    Varda
+5   Puskás Akadémia FC
+6   Paksi FC
+    Paks
+7   Ferencvárosi TC
+    Ferencváros
+8   Zalaegerszegi TE
+    Zalaegerszeg
+9   Újpest FC
+    Újpest
+10  Budapest Honvéd FC
+             Honvéd
+11  Kaposvári Rákóczi FC
+              Rákóczi
+12  Diósgyőri VTK
+    Diósgyőr

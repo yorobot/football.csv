@@ -1,0 +1,22 @@
+= Swiss Super League =
+
+1   FC Basel 1893
+       Basel
+2   BSC Young Boys
+        Young Boys
+3   FC Sion
+       Sion
+4   Servette FC
+    Servette
+5   FC St. Gallen
+       St. Gallen
+6   FC Luzern
+       Luzern
+7   FC Thun
+       Thun
+8   FC Zürich
+       Zürich
+9   FC Lugano
+       Lugano
+10  Neuchâtel Xamax FC
+              Xamax

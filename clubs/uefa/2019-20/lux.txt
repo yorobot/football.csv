@@ -1,0 +1,30 @@
+= Luxembourger First Division =
+
+1   FC Progrès Niederkorn
+       Progrès
+2   FC Differdange 03
+       Differdange
+3   US Mondorf-les-Bains
+       Mondorf-les-Bains
+4   AS Jeunesse Esch
+       Jeunesse Esch
+5   CS Fola Esch
+       Fola
+6   FC Union Titus Pétange
+       Union Titus
+7   FC UNA Strassen
+       UNA Strassen
+8   FC Victoria Rosport
+                Rosport
+9   FC Muhlenbach Sandzak
+       Muhlenbach
+10  Racing FC Union Lëtzebuerg
+    Racing Union
+11  F91 Dudelange
+        Dudelange
+12  FC Etzella Ettelbruck
+       Etzella
+13  FC Rodange 91
+       Rodange
+14  US Hostert
+       Hostert

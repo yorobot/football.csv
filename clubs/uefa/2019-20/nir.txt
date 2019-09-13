@@ -1,0 +1,26 @@
+= Northern Irish Premiership =
+
+1   Crusaders FC
+    Crusaders
+2   Coleraine FC
+    Coleraine
+3   Glentoran FC
+    Glentoran
+4   Ballymena United FC
+    Ballymena
+5   Cliftonville FC
+    Cliftonville
+6   Dungannon Swifts FC
+    Dungannon
+7   Larne FC
+    Larne
+8   Linfield FC
+    Linfield
+9   Glenavon FC
+    Glenavon
+10  Carrick Rangers FC
+    Carrick
+11  Institute FC
+    Institute
+12  Warrenpoint Town FC
+    Warrenpoint

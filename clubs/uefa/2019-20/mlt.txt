@@ -1,0 +1,28 @@
+= Maltese Premier League =
+
+1   Floriana FC
+    Floriana
+2   Hamrun Spartans FC
+    Hamrun
+3   Hibernians FC
+    Hibernians
+4   FC Sirens
+       Sirens
+5   Santa Lucia
+6   Senglea Athletic FC
+    Senglea
+7   Mosta FC
+    Mosta
+8   Valletta FC
+    Valletta
+9   Balzan FC
+    Balzan
+10  Gudja United
+11  Gżira United FC
+    Gżira
+12  Birkirkara FC
+    Birkirkara
+13  Sliema Wanderers FC
+    Sliema
+14  Tarxien Rainbows FC
+    Tarxien

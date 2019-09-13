@@ -1,0 +1,21 @@
+= Montenegrin First League =
+
+1   FK Budućnost Podgorica
+       Budućnost Podgorica
+2   FK Sutjeska
+       Sutjeska
+3   FK Iskra
+       Iskra
+4   FK Zeta
+       Zeta
+5   OFK Titograd
+        Titograd
+6   Mladost Ljeskopolje
+7   FK Kom
+       Kom
+8   OFK Grbalj
+        Grbalj
+9   OFK Petrovac
+        Petrovac
+10  FK Rudar Pljevlja
+       Rudar Pljevlja

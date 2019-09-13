@@ -1,0 +1,34 @@
+= Czech First League =
+
+1   SK Slavia Praha
+       Slavia Praha
+2   FC Viktoria Plzeň
+                Plzeň
+3   FK Jablonec
+       Jablonec
+4   FK Mladá Boleslav
+       Mladá Boleslav
+5   1. FC Slovácko
+          Slovácko
+6   FC Baník Ostrava
+       Baník
+7   AC Sparta Praha
+       Sparta Praha
+8   SK Sigma Olomouc
+       Sigma
+9   1. FK Příbram
+          Příbram
+10  Bohemians Praha 1905
+    Bohemians 1905
+11  FC Slovan Liberec
+              Liberec
+12  FC Zlín
+       Zlín
+13  SK Dynamo České Budějovice
+              České Budějovice
+14  SFC Opava
+        Opava
+15  MFK Karviná
+        Karviná
+16  FK Teplice
+       Teplice

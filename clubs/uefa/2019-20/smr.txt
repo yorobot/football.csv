@@ -1,0 +1,31 @@
+= San Marinese Championship =
+
+1   SP Cailungo
+       Cailungo
+2   SS Cosmos
+       Cosmos
+3   FC Domagnano
+       Domagnano
+4   SC Faetano
+       Faetano
+5   FC Fiorentino
+       Fiorentino
+6   SS Folgore
+       Folgore
+7   AC Juvenes/Dogana
+       Juvenes/Dogana
+8   La Fiorita 1967
+    La Fiorita
+9   AC Libertas
+       Libertas
+10  SS Murata
+       Murata
+11  SS Pennarossa
+       Pennarossa
+12  SS San Giovanni
+       San Giovanni
+13  SP Tre Fiori
+       Tre Fiori
+14  SP Tre Penne
+15  Virtus FC
+    Virtus

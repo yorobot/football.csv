@@ -1,0 +1,31 @@
+= Polish First Division =
+
+1   Jagiellonia Białystok
+    Jagiellonia
+2   WKS Śląsk Wrocław
+        Śląsk
+3   Legia Warszawa
+    Legia
+4   MKS Pogoń Szczecin
+        Pogoń
+5   MKS Cracovia Kraków
+        Cracovia
+6   KKS Lech Poznań
+        Lech
+7   GKS Piast Gliwice
+        Piast
+8   Wisła Kraków
+9   Górnik Zabrze
+10  KS Lechia Gdańsk
+       Lechia
+11  Zagłębie Lubin
+    Zagłębie
+12  Wisła Płock
+13  Raków Czestochowa
+    Raków
+14  Arka Gdynia
+    Arka
+15  ŁKS Łódź
+    ŁKS
+16  Korona Kielce
+    Korona

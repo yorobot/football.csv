@@ -1,0 +1,32 @@
+= Serbian Super League =
+
+1   FK Vojvodina
+       Vojvodina
+2   Backa Topola
+3   FK Crvena zvezda
+       Crvena zvezda
+4   FK Čukarički
+       Čukarički
+5   FK Radnicki Niš
+       Radnicki Niš
+6   FK Partizan
+       Partizan
+7   FK Spartak Subotica
+       Spartak Subotica
+8   FK Napredak
+       Napredak
+9   FK Voždovac
+       Voždovac
+10  FK Indjija
+       Indjija
+11  FK Mladost Lučani
+       Mladost Lučani
+12  FK Rad
+       Rad
+13  FK Javor
+       Javor
+14  FK Proleter
+       Proleter
+15  FK Radnik Surdulica
+       Radnik Surdulica
+16  Macva Sabac

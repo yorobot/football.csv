@@ -1,0 +1,23 @@
+= Romanian First Division =
+
+1   CFR 1907 Cluj
+    CFR Cluj
+2   CS Gaz Metan Mediaş
+       Gaz Metan
+3   Universitatea Craiova
+4   FC Viitorul
+       Viitorul
+5   CSM Politehnica Iaşi
+        Politehnica Iaşi
+6   FC Astra Giurgiu
+       Astra
+7   FC Botoşani
+       Botoşani
+8   Sepsi Sfantu Gheorghe
+9   FC Dinamo Bucureşti
+       Dinamo Bucureşti
+10  Hermannstadt
+11  FCSB
+12  FC Academica Clinceni
+13  Chindia Targoviste
+14  FC Voluntari

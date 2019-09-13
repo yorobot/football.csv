@@ -1,0 +1,33 @@
+= Russian Premier League  =
+
+1   FC Zenit
+       Zenit
+2   FC Krasnodar
+       Krasnodar
+3   FC Rostov
+       Rostov
+4   PFC CSKA Moskva
+        CSKA Moskva
+5   FC Lokomotiv Moskva
+       Lokomotiv Moskva
+6   FC Spartak Moskva
+       Spartak Moskva
+7   FC Arsenal Tula
+       Arsenal Tula
+8   FC Ural Sverdlovsk Oblast
+       Ural
+9   FC Rubin
+       Rubin
+10  FC Ufa
+       Ufa
+11  FC Dinamo Moskva
+       Dinamo Moskva
+12  FC Akhmat Grozny
+       Akhmat
+13  PFC Krylya Sovetov Samara
+        Krylya Sovetov
+14  Dinamo St Petersburg
+    Dinamo St Petersburg
+15  FC Orenburg
+       Orenburg
+16  Tambov

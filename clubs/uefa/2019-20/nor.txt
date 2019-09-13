@@ -1,0 +1,33 @@
+= Norwegian Premier Division A =
+
+1   Molde FK
+    Molde
+2   FK Bodø/Glimt
+       Bodø/Glimt
+3   Odds BK
+    Odd
+4   Rosenborg BK
+    Rosenborg
+5   SK Brann
+       Brann
+6   Kristiansund BK
+    Kristiansund
+7   Vålerenga Fotball
+    Vålerenga
+8   Viking FK
+    Viking
+9   FK Haugesund
+       Haugesund
+10  Lillestrøm SK
+    Lillestrøm
+11  Stabæk Fotball
+    Stabæk
+12  Tromsø IL
+    Tromsø
+13  Mjøndalen IF
+    Mjøndalen
+14  Ranheim
+15  Sarpsborg 08 FF
+    Sarpsborg
+16  Strømsgodset IF
+    Strømsgodset

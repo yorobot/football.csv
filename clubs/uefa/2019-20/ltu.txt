@@ -1,0 +1,16 @@
+= Lithuanian First Division =
+
+1  FK Žalgiris Vilnius
+      Žalgiris
+2  FK Sūduva
+      Sūduva
+3  FK Kauno Žalgiris
+      Kauno Žalgiris
+4  FK Riteriai
+      Riteriai
+5  Panevezys
+6  FK Atlantas
+      Atlantas
+7  FC Stumbras
+      Stumbras
+8  FK Palanga
