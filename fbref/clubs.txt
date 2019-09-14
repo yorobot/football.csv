@@ -1,69 +1,154 @@
-sorted clubs (12):
-          22 Admira
-          22 Austria Wien
-          22 Hartberg
-          22 LASK Linz
-          22 Mattersburg
-!!        22 RB Salzburg
-          22 Rapid Wien
-          22 SCR Altach
-          22 St. Pölten
-          22 Sturm Graz
-          22 WSG Wattens
-          22 Wolfsberger AC
+# ar.1 - sorted clubs (24):
+          23 Aldosivi
+!!        23 Argentinos Jun
+          23 Arsenal
+          23 Banfield
+          23 Boca Juniors
+!!        23 CA Huracán
+!!        23 CA Unión
+!!        23 CC Córdoba
+          23 Colón
+!!        23 Defensa y Just
+          23 Estudiantes
+!!        23 Gimnasia ELP
+          23 Godoy Cruz
+          23 Independiente
+          23 Lanús
+!!        23 Newell's OB
+          23 Patronato
+          23 Racing Club
+          23 River Plate
+!!        23 Rosario Cent
+          23 San Lorenzo
+!!        23 Talleres
+!!        23 Tucumán
+!!        23 Vélez Sarsf
 
-    sorted clubs (20):
-              38 Arsenal
-              38 Aston Villa
-              38 Bournemouth
-              38 Brighton
-              38 Burnley
-              38 Chelsea
-              38 Crystal Palace
-              38 Everton
-              38 Leicester City
-              38 Liverpool
-              38 Manchester City
-    !!        38 Manchester Utd
-    !!        38 Newcastle Utd
-              38 Norwich City
-    !!        38 Sheffield Utd
-              38 Southampton
-              38 Tottenham
-              38 Watford
-              38 West Ham
-              38 Wolves
+# el - sorted clubs (48):
+           6 APOEL cy
+           6 AZ Alkmaar nl
+           6 Arsenal eng
+!!         6 Astana FK kz
+           6 Basel ch
+!!         6 Başakşehir tr
+           6 Beşiktaş tr
+           6 Braga pt
+           6 CFR Cluj ro
+           6 CSKA Moscow ru
+           6 Celtic sco
+           6 Dynamo Kyiv ua
+!!         6 Eint Frankfurt de
+           6 Espanyol es
+           6 F91 Dudelange lu
+           6 FC Copenhagen dk
+!!         6 FC Oleksandriya ua
+           6 Ferencváros hu
+           6 Feyenoord nl
+           6 Gent be
+           6 Getafe es
+           6 Krasnodar ru
+           6 LASK Linz at
+           6 Lazio it
+           6 Ludogorets bg
+           6 Lugano ch
+           6 M'gladbach de
+           6 Malmö se
+           6 Manchester Utd eng
+           6 PSV Eindhoven nl
+           6 Partizan rs
+           6 Porto pt
+!!         6 Qarabağ Ağdam az
+           6 Rangers sco
+           6 Rennes fr
+           6 Roma it
+           6 Rosenborg no
+!!         6 Saint-Étienne fr
+           6 Sevilla es
+!!         6 Sl. Bratislava sk
+           6 Sporting CP pt
+           6 Standard Liège be
+           6 Trabzonspor tr
+!!         6 Vitória pt
+           6 Wolfsberger AC at
+           6 Wolfsburg de
+           6 Wolves eng
+           6 Young Boys ch
 
-    sorted clubs (32):
-               6 Ajax nl
-               6 Atalanta it
-               6 Atlético Madrid es
-               6 Barcelona es
-    !!         6 Bayer de
-               6 Bayern Munich de
-               6 Benfica pt
-               6 Chelsea eng
-               6 Club Brugge be
-               6 Dinamo Zagreb hr
-               6 Dortmund de
-               6 Galatasaray tr
-               6 Genk be
-               6 Inter it
-               6 Juventus it
-               6 Lille fr
-               6 Liverpool eng
-    !!         6 Loko Moscow ru
-               6 Lyon fr
-               6 Manchester City eng
-               6 Napoli it
-               6 Olympiacos gr
-               6 Paris S-G fr
-               6 RB Leipzig de
-    !!         6 RB Salzburg at
-               6 Real Madrid es
-    !!         6 Red Star rs
-    !!         6 Shakhtar ua
-               6 Slavia Prague cz
-               6 Tottenham eng
-               6 Valencia es
-               6 Zenit ru
+# be.1 - sorted clubs (16):
+          30 Anderlecht
+          30 Antwerp
+          30 Cercle Brugge
+          30 Charleroi
+          30 Club Brugge
+          30 Eupen
+!!        30 Excel Mouscron
+          30 Genk
+          30 Gent
+          30 Kortrijk
+          30 Mechelen
+          30 Oostende
+          30 Sint-Truiden
+          30 Standard Liège
+!!        30 Waasland-Bev
+          30 Zulte Waregem
+
+# nl.1 - sorted clubs (18):
+          34 ADO Den Haag
+          34 AZ Alkmaar
+          34 Ajax
+          34 Emmen
+          34 Feyenoord
+          34 Fortuna Sittard
+          34 Groningen
+          34 Heerenveen
+          34 Heracles Almelo
+          34 PSV Eindhoven
+          34 RKC Waalwijk
+!!        34 Sparta R'dam
+          34 Twente
+          34 Utrecht
+          34 VVV-Venlo
+          34 Vitesse
+          34 Willem II
+          34 Zwolle
+
+# mx.1 - sorted clubs (19):
+!!        18 América
+          18 Atlas
+!!        18 Atlético
+          18 Cruz Azul
+          18 FC Juárez
+!!        18 Guadalajara
+!!        18 León
+          18 Monterrey
+!!        18 Morelia
+          18 Necaxa
+          18 Pachuca
+          18 Puebla
+          18 Querétaro
+!!        18 Santos
+!!        18 Tijuana
+          18 Toluca
+!!        18 UANL
+!!        18 UNAM
+          18 Veracruz
+
+# jp.1 - sorted clubs (18):
+          34 Cerezo Osaka
+!!        34 Consa Sapporo
+          34 FC Tokyo
+          34 Gamba Osaka
+!!        34 Grampus
+          34 Júbilo Iwata
+          34 Kashima Antlers
+!!        34 Kawa Frontale
+!!        34 Marinos
+          34 Oita Trinita
+!!        34 S-Pulse
+          34 Sagan Tosu
+!!        34 Sanfrecce
+          34 Shonan Bellmare
+!!        34 Urawa Reds
+          34 Vegalta Sendai
+          34 Vissel Kobe
+          34 Yamaga
