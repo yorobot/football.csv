@@ -7,10 +7,9 @@
        Feronikeli
 4   KF Gjilani
        Gjilani
-
-## todo/check Trepça in Serbia
-5   KF Trepça
+5   KF Trepça      ## note:  Not to be confused with FK Trepča or KF Trepça (in Serbia)!!!
        Trepça
+    KF Trepça'89
 6   KF Drenica
        Drenica
 7   KF Llapi
