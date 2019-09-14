@@ -99,6 +99,7 @@ def check_clubs( names, league )
     if m.nil?
       ## (re)try with second country - quick hacks for known leagues
       m = CLUBS.match_by( name: name, country: COUNTRIES['wal'])  if country.key == 'eng'
+      m = CLUBS.match_by( name: name, country: COUNTRIES['nir'])  if country.key == 'ie'
       m = CLUBS.match_by( name: name, country: COUNTRIES['mc'])   if country.key == 'fr'
       m = CLUBS.match_by( name: name, country: COUNTRIES['li'])   if country.key == 'ch'
       m = CLUBS.match_by( name: name, country: COUNTRIES['ca'])   if country.key == 'us'
@@ -142,15 +143,48 @@ def check_leagues( leagues )
 end
 
 
+UEFA_PATTERN = %r{/[a-z]{3}.txt$}
+
+def find_datafiles( path, pattern )
+  datafiles = []
+  candidates = Dir.glob( "#{path}/**/*.txt" ) ## check all txt files as candidates
+  pp candidates
+  candidates.each do |candidate|
+    datafiles << candidate    if pattern.match( candidate )
+  end
+
+  pp datafiles
+  datafiles
+end
+
 if __FILE__ == $0
 
+datafiles = find_datafiles( 'uefa/2019-20', UEFA_PATTERN )
+datafiles.each do |datafile|
+
+  leagues = ClubLintReader.read( datafile )
+  pp leagues
+
+  missing_clubs = check_leagues( leagues )
+  pp missing_clubs
+
+  if missing_clubs[0][1].empty?
+    puts "** OK"
+  else
+    puts "** !!! ERROR !!! club names missing"
+    exit 1
+  end
+end
+
+=begin
 ## path = 'orf/2019-20/ned.txt'
 ## path = 'bbc/2019-20/sco.txt'
-path = 'uefa/2019-20/eng.txt'
+path = 'uefa/2019-20/cze.txt'
 leagues = ClubLintReader.read( path )
 pp leagues
 
 missing_clubs = check_leagues( leagues )
 pp missing_clubs
+=end
 
 end

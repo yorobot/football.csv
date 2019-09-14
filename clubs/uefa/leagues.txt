@@ -1,16 +1,16 @@
 
-Albanian Super League 2019/20
-Belgian First League 2019/20
-English Premier League 2019/20
-Spanish Liga 2019/20
-French Ligue 1 2019/20
-German Bundesliga 2019/20
-Greek Super League 2019/20
-Italian Serie A 2019/20
-Dutch First Division 2019/20
-Portuguese First Division 2019/20
-Scottish Premiership 2019/20
-Turkish Super League 2019/20
+Albanian Super League
+Belgian First League 
+English Premier League
+Spanish Liga
+French Ligue 1
+German Bundesliga
+Greek Super League
+Italian Serie A
+Dutch First Division
+Portuguese First Division
+Scottish Premiership
+Turkish Super League
 
 
 Andorran Premier Division
