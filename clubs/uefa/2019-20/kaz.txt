@@ -1,0 +1,25 @@
+= Kazakh Premier League A =
+
+1   FC Aktobe
+       Aktobe
+2   FC Astana
+       Astana
+3   FC Atyrau
+       Atyrau
+4   FC Irtysh Pavlodar
+       Irtysh
+5   FC Kairat Almaty
+       Kairat
+6   FC Kaysar Kyzylorda
+       Kaysar
+7   FC Okzhetpes Kokshetau
+       Okzhetpes
+8   FC Ordabasy Shymkent
+       Ordabasy
+9   FC Shakhter Karagandy
+       Shakhter
+10  FC Taraz
+11  FC Tobol Kostanay
+       Tobol
+12  FC Zhetysu Taldykorgan
+       Zhetysu
