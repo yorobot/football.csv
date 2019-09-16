@@ -1,0 +1,129 @@
+## 
+
+{|class="wikitable sortable"
+|-
+!Club
+!City
+!Stadium
+!Capacity
+|-
+| [[Aldosivi]]
+| [[Mar del Plata]]
+| [[Estadio José María Minella|José María Minella]]
+| align="center" | 35,354
+|-
+| [[Argentinos Juniors]]
+| [[Buenos Aires]]
+| [[Estadio Diego Armando Maradona|Diego Armando Maradona]]
+| align="center" | 25,000
+|-
+| [[Arsenal de Sarandí|Arsenal]]
+| [[Sarandí, Buenos Aires|Sarandí]]
+| [[Estadio Julio Humberto Grondona|Julio Humberto Grondona]]
+| align="center" | 16,300
+|-
+| [[Atlético Tucumán]]
+| [[San Miguel de Tucumán|Tucumán]]
+| [[Estadio Monumental José Fierro|Monumental José Fierro]]
+| align="center" | 32,700
+|-
+| [[Club Atlético Banfield|Banfield]]
+| [[Banfield, Buenos Aires|Banfield]]
+| [[Estadio Florencio Sola|Florencio Sola]]
+| align="center" | 34,901 
+|-
+| [[Boca Juniors]]
+| [[Buenos Aires]]
+| [[La Bombonera|Alberto J. Armando]]
+| align="center" | 49,000
+|-
+| [[Central Córdoba de Santiago del Estero|Central Córdoba (SdE)]]
+| [[Santiago del Estero]]
+| [[:es:Estadio_Alfredo_Terrera|Alfredo Terrera]]
+| align="center" | 16,000
+|-
+| [[Club Atlético Colón|Colón]]
+| [[Santa Fe, Argentina|Santa Fe]]
+| [[Estadio Brigadier General Estanislao López|Brigadier General Estanislao López]]
+| align="center" | 40,000
+|-
+| [[Defensa y Justicia]] 
+| [[Florencio Varela, Buenos Aires|Florencio Varela]]
+| [[Estadio Norberto "Tito" Tomaghello|Norberto "Tito" Tomaghello]]
+| align="center" | 12,000
+|-
+| [[Estudiantes de La Plata|Estudiantes (LP)]]
+| [[La Plata]]
+| [[Estadio Ciudad de La Plata|Ciudad de La Plata]]
+| align="center" | 53,000
+|-
+| [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]]
+| [[La Plata]]
+| [[Estadio Juan Carmelo Zerillo|Juan Carmelo Zerillo]]
+| align="center" | 24,544
+|-
+| [[Godoy Cruz Antonio Tomba|Godoy Cruz]]
+| [[Godoy Cruz, Mendoza|Godoy Cruz]]
+| [[Estadio Malvinas Argentinas|Malvinas Argentinas]]
+| align="center" | 40,268
+|-
+| [[Club Atlético Huracán|Huracán]]
+| [[Buenos Aires]]
+| [[Estadio Tomás Adolfo Ducó|Tomás Adolfo Ducó]]
+| align="center" | 48,314
+|-
+| [[Club Atlético Independiente|Independiente]]
+| [[Avellaneda]]
+| [[Estadio Libertadores de América|Libertadores de América]]
+| align="center" | 52,853
+|-
+| [[Club Atlético Lanús|Lanús]]
+| [[Lanús]]
+| [[Estadio Ciudad de Lanús – Néstor Díaz Pérez|Ciudad de Lanús - Néstor Díaz Pérez]]
+| align="center" | 46,619
+|-
+| [[Newell's Old Boys]]
+| [[Rosario, Santa Fe|Rosario]]
+| [[Estadio Marcelo Bielsa|Marcelo Bielsa]]
+| align="center" | 38,095
+|-
+| [[Club Atlético Patronato|Patronato]] 
+| [[Paraná, Entre Ríos|Paraná]]
+| [[Estadio Presbítero Bartolomé Grella|Presbítero Bartolomé Grella]]
+| align="center" | 22,000
+|-
+| [[Racing Club de Avellaneda|Racing]]
+| [[Avellaneda]]
+| [[Estadio Presidente Juan Domingo Perón|Presidente Juan Domingo Perón]]
+| align="center" | 55,389
+|-
+| [[Club Atlético River Plate|River Plate]]
+| [[Buenos Aires]]
+| [[Estadio Monumental Antonio Vespucio Liberti|Monumental Antonio Vespucio Liberti]]
+| align="center" | 61,321
+|-
+| [[Rosario Central]]
+| [[Rosario, Santa Fe|Rosario]]
+| [[Estadio Gigante de Arroyito|Dr. Lisandro de la Torre]]
+| align="center" | 41,654
+|-
+| [[San Lorenzo de Almagro|San Lorenzo]]
+| [[Buenos Aires]]
+| [[El Nuevo Gasómetro|Pedro Bidegain]]
+| align="center" | 39,494
+|-
+| [[Talleres de Córdoba|Talleres (C)]]
+| [[Córdoba, Argentina|Córdoba]]
+| [[Estadio Mario Alberto Kempes|Mario Alberto Kempes]]
+| align="center" | 57,000
+|-
+| [[Unión de Santa Fe|Unión]]
+| [[Santa Fe, Argentina|Santa Fe]]
+| [[Estadio 15 de Abril|15 de Abril]]
+| align="center" | 22,852
+|-
+| [[Club Atlético Vélez Sarsfield|Vélez Sarsfield]]
+| [[Buenos Aires]]
+| [[Estadio José Amalfitani|José Amalfitani]]
+| align="center" | 45,540
+|}
