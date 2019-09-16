@@ -6,9 +6,6 @@ League POL 2 (5):
   OKS Odra Opole
   GKS Tychy 71
   Chrobry Glogow
-League RUS CUP (2):
-  Tekstilshchik
-  FC Avangard Kursk
 League NOR 2 (10):
   Tromsdalen UIL
   Sogndal IL
@@ -36,52 +33,49 @@ League DEN 2 (10):
   BK Fremad Amager
   Nyköbing FC
   Naestved BK
-League EL (9):
-  Ararat-Armenia, Armenia (am)
+League EL (6):
   Suduva Marija., Lithuania (lt)
   FC Riga, Latvia (lv)
   FCS Bukarest, Romania (ro)
   Apollon L., Cyprus (cy)
   FC Linfield, Northern Ireland (nir)
   AIK Stockholm, Sweden (se)
-  Slov. Bratisl., Slovakia (sk)
-  Zorya Lugansk, Ukraine (ua)
-League BUL 1 (2):
-  Botev Vratsa
-  Et. Veliko Tarnovo
-League ISL 1 (3):
+League ISL 1 (2):
   Fylkir Reykjavik
-  HK Kopavogs
   Stjarnan Gardab.
-League AFC CL (6):
-  SIPG Shanghai, China (cn)
-  Urawa RD, Japan (jp)
-  Al-Ittihad, Saudi Arabia (sa)
-  Al-Hilal Riyad, Saudi Arabia (sa)
-  Guangzhou Ev., China (cn)
-  Kashima A., Japan (jp)
 League ROU 2 (2):
   CS Mioveni
   FC Arges Pitesti
 League SWE 2 (1):
   Jönköpings Södra
-League IRL 1 (1):
-  Waterford United
-League DEN CUP (4):
+League DEN CUP (11):
   Brönshöj BK
   Hvidovre IF
   Hilleröd Fodbold
   Naestved BK
+  Middelfart BK
+  Skive IK
+  Varde IF
+  Thisted FC
+  B 1908 Amager
+  Vejle BK
+  BK Fremad Amager
 League FIN 3 (2):
   Pepo Lappeenranta
   Jippo
 League FIN 2 (2):
   FC KTP
   Ekenäs IF
-League ISR 2 (3):
+League ISR 2 (9):
   Hap.Kat. Jerusalem
   H. Petach Tikva
   I. Ramat Hasharon
+  Beitar Tel Aviv
+  Hapoel Afula FC
+  M. Ahi Nazareth
+  Hapoel Nof Hagalil
+  Hapoel Rishon Lezi
+  Hapoel Akko
 League ISR 1 (2):
   Ironi K. Shmona
   Hapoel Kfar Saba
@@ -93,44 +87,27 @@ League PER 1 (1):
   Ali.Univ. Huanuco
 League PAR 1 (1):
   River Pl.Asuncion
-League RL VBG (5):
-  FC Wolfurt
-  FC Langenegg
-  Austria Lustenau A
-  SC Röthis
-  Altach Amateure
 League CP BIC (1):
   Atletico Grau
-League ENG LTR (2):
-  FC Walsall
-  FC Stevenage
-League JPN LC (3):
-  Hokkaido Consadole
-  Sanfr. Hiroshima
-  Urawa RD
-League BRA CUP (1):
-  Cruzeiro EC MG
-League ESP 2 (9):
-  Racing Santander
-  Dep. La Coruna
-  UD Extremadura
-  Numancia CD
-  Ponferradina SD
-  Teneriffa CD
-  Las Palmas UD
-  FC Girona
-  Alcorcon AD
-League BRA 1 (7):
-  Ceara CE
-  Vasco Da Gama RJ
-  EC Bahia BA
-  Fortaleza EC CE
-  Goias EC GO
-  SE Palmeiras SP
-  Cruzeiro EC MG
-League AUT RLO (1):
-  SC Team Wr. Linien
+League WAL 1 (1):
+  Newi Cefn Druids
+League SLO CUP (1):
+  NK Radomlje
+League VEN 1 (7):
+  Monagas SC
+  Est. de Merida
+  Portuguesa FC
+  Mineros Guayana
+  FC Metropolitanos
+  Lala FC
+  Estud. de Caracas
+League CRC 1 (7):
+  ADR Jicaral
+  Municipal Grecia
+  Limon FC
+  Perez Zeledon
+  Deportivo Saprissa
+  AD SAN Carlos
+  Santos de Guapiles
 League USA MLS (1):
-  New England Rev.
-League POR 1 (1):
-  Vitoria Guimaraes
+  FC Toronto
