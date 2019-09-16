@@ -1,0 +1,55 @@
+= France (fr) =
+
+# Ligue 1
+
+ 1  Paris-Saint-Germain FC 
+ 2  Lille OSC              
+ 3  Olympique Lyonnais      
+ 4  AS Saint-Etienne        
+ 5  Olympique de Marseille  
+ 6  Montpellier-Hérault SC  
+ 7  OGC Nice               
+ 8  Stade de Reims          
+ 9  Nîmes Olympique      
+10  Stade Rennais FC         
+11  RC Strasbourg Alsace   
+12  FC Nantes                
+13  Angers SCO              
+14  FC Girondins Bordeaux    
+15  Amiens ACF              
+16  Toulouse FC               
+17  AS Monaco               
+ - - - - - - - - - - - - - - - - - - - - - - - - - -
+18  Dijon FCO                 
+----------------------------------------------------
+19  SM Caen                   
+20  En Avant Guingamp         
+
+
+# Ligue 2
+
+ 1  FC Metz                  
+ 2  Stade Brestois          
+----------------------------------------------------
+ 3  ES Troyes AC             
+ 4  Paris FC                 
+ 5  RC Lens                 
+ - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 6  FC Lorient               
+ 7  Le Havre AC             
+ 8  US Orléans Loiret       
+ 9  Grenoble Foot 38          
+10  Clermont Foot Auvergne 63 
+11  LB Châteauroux            
+12  Chamois Niortais        
+13  Valenciennes FC          
+14  AS Nancy Lorraine        
+15  AJ Auxerre               
+16  FC Sochaux-Montbéliard   
+17  AC Ajaccio               
+ - - - - - - - - - - - - - - - - - - - - - - - - - -
+18  Gazélec Ajaccio FCO      
+----------------------------------------------------
+19  AS Béziers             
+20  Red Star FC 93         
+
