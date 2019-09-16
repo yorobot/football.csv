@@ -24,5 +24,6 @@
     College
 12  Glacis United FC
     Glacis
-    FC Olympique
+
+13  FC Olympique
     Olympique

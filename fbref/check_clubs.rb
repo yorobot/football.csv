@@ -87,6 +87,7 @@ def dump_clubs( path, default_country_key=nil )
       m = CLUBS.match_by( name: name, country: COUNTRIES['mc'])   if country.key == 'fr'
       m = CLUBS.match_by( name: name, country: COUNTRIES['li'])   if country.key == 'ch'
       m = CLUBS.match_by( name: name, country: COUNTRIES['ca'])   if country.key == 'us'
+      m = CLUBS.match_by( name: name, country: COUNTRIES['nz'])   if country.key == 'au'
     end
 
     if m.nil?
@@ -106,4 +107,4 @@ end
 
 
 ## dump_clubs( "2019-20/eng.1.csv", :eng )
-dump_clubs( "2019-20/at.1.csv", :at )
+dump_clubs( "2019-20/el.csv" )
