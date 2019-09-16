@@ -1,0 +1,48 @@
+= Turkey (tr) =
+
+ 1  Galatasaray AŞ İstanbul  
+ 2  İstanbul Başakşehir FK     
+ 3  Beşiktaş AŞ İstanbul    
+ 4  Trabzonspor AŞ          
+ 5  Yeni Malatyaspor         
+ 6  Fenerbahçe AŞ İstanbul  
+ 7  Antalyaspor K         
+ 8  Konyaspor K            
+ 9  Alanyaspor K           
+10  Kayserispor K           
+11  Çaykur Rizespor AŞ      
+12  Sivasspor K           
+13  MKE Ankaragücü        
+14  Kasımpaşa AŞ           
+15  Göztepe AŞ (İzmir)      
+------------------------------------------------------
+16  Bursaspor K             
+17  BB Erzurumspor              
+18  Akhisarspor K          
+
+
+# 1. Lig
+
+ 1  Denizlispor                
+ 2  Gençlerbirliği SK Ankara    
+------------------------------------------------------
+ 3  Hatayspor                
+ 4  Osmanlıspor K (Ankara)      
+ 5  Gazişehir Gaziantep FK      
+ 6  Adana Demirspor             
+ - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 7  Altınordu AŞ (İzmir)      
+ 8  Ümraniyespor (İstanbul)  
+ 9  Boluspor                 
+10  Altay (İzmir)          
+11  İstanbulspor AŞ             
+12  Adanaspor AŞ             
+13  Giresunspor               
+14  Eskişehirspor              
+15  Balıkesirspor              
+------------------------------------------------------  
+16  Afyonspor                  
+17  Elazığspor                  
+18  Kardemir Karabükspor   
+
+
