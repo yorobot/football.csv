@@ -1,23 +1,13 @@
 = Armenian Premier League =
 
-1   FC Ararat
-       Ararat
-2   FC Shirak
-       Shirak
-3   FSC Lori
-        Lori
-4   Ararat-Armenia FC
-    Ararat-Armenia
+1   FC Ararat          |  Ararat
+2   FC Shirak          |  Shirak
+3   FSC Lori           |  Lori
+4   Ararat-Armenia FC  |  Ararat-Armenia
 5   Artsakh FC
-6   FC Pyunik
-       Pyunik
-7   Alashkert FC
-    Alashkert
-8   FC Gandzasar
-       Gandzasar
-9   FC Urartu
-       Urartu
-     FC Banants   ## note: The club was known as FC Banants until 1 August 2019
-     Banants
-10  FC Yerevan
-       Yerevan
+6   FC Pyunik          |  Pyunik
+7   Alashkert FC       |  Alashkert
+8   FC Gandzasar       |  Gandzasar
+9   FC Urartu          |  Urartu
+     | FC Banants      |  Banants   ## note: The club was known as FC Banants until 1 August 2019
+10  FC Yerevan         |  Yerevan

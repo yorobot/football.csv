@@ -1,0 +1,140 @@
+
+==========
+Argentina (ar)
+
+CA Independiente
+Club Atlético Tucumán
+CA Central Córdoba
+CA Aldosivi
+CA Banfield
+CSyD Defensa y Justicia
+CD Godoy Cruz Antonio Tomba
+Cd Gimnasia y Esgrima La Plata
+Club Atlético Boca Juniors Asociación Civil
+CA Boca Juniors
+CA Talleres
+CA Patronato Juventud Católica
+CA Rosario Central
+AA Argentinos Juniors
+Club Atlético River Plate Asoc. Civil
+Club Atlético Vélez Sarsfield Asociación Civil
+Racing Club Asociación Civil
+Club Atlético Tucumán Soc. Civil
+Club Atlético Central Córdoba Soc. Civil
+Club Atlético Banfield Sociedad Civil
+Asociación Civil Club Atlético Colón
+
+==========
+Austria (at)
+
+SKN Sankt Pölten
+FC Juniors Oberösterreich
+SK Union Amstetten
+Young Violets
+TSV St. Johann/Pongau
+SC Rheindorf Altach II
+SK Bischofshofen
+GAK 1902 Graz
+Hertha Wels
+VST Völkermarkt
+FC Lendorf
+FC Karabakh Wien
+FC Marchfeld Donauauen Mannsdorf
+SC Neusiedl/See
+SG Traiskirchen
+SV Mattersburg Amateure
+Admira Wacker Mödling II
+SC/ESV Parndorf
+SKN St. Pölten II
+FC Stadlau
+SV Schwechat
+
+==========
+Belgium (be)
+
+R. Antwerp FC
+K. Sint-Truiden VV
+KV Kortrĳk
+KV Red Star Waasland-SK Beveren
+K. Sint-Truiden VV
+FCO Beerschot Wilrĳk
+KV Kortrĳk
+Union Saint-Gilloise
+KV Red Star Waasland-SK Beveren
+Union Saint-Gilloise
+FCO Beerschot Wilrĳk
+Lommel SK
+
+==========
+Deutschland (de)
+
+FC Schalke 04 Gelsenkirchen
+Carl Zeiss Jena
+
+==========
+France (fr)
+
+FC Girondins Bordeaux
+Amiens ACF
+US Orléans Loiret
+Clermont Foot Auvergne 63
+Gazélec Ajaccio FCO
+Red Star FC 93
+
+==========
+Mexico (mx)
+
+Pumas
+Tigres
+Nexaca
+Mineros
+Mineros de Zacatecas
+Atlante (Cancún)
+Cimarrones
+Cimarrones de Sonora (Hermosillo)
+Atlético de San Luis
+Atlético de San Luis (San Luis Potosí)
+Alebrijes
+Alebrijes de Oaxaca
+Dorados Sinaloa (Culiacán)
+Leones Negros (Guadalajara)
+Universidad de Guadalajara
+Potros UAEM
+Potros UAEM (Toluca)
+Correcaminos UAT
+Correcaminos UAT (Ciudad Victoria)
+Atlético Zacatepec
+Cafetaleros
+Cafetaleros de Tapachula
+Tampico Madero
+TM FC
+Venados FC
+Venados FC (Mérida)
+Celaya FC
+
+==========
+Turkey (tr)
+
+Galatasaray AŞ İstanbul
+Beşiktaş AŞ İstanbul
+Fenerbahçe AŞ İstanbul
+Antalyaspor K
+Konyaspor K
+Alanyaspor K
+Kayserispor K
+Çaykur Rizespor AŞ
+Sivasspor K
+Kasımpaşa AŞ
+Göztepe AŞ (İzmir)
+Bursaspor K
+Akhisarspor K
+Gençlerbirliği SK Ankara
+Hatayspor
+Osmanlıspor K (Ankara)
+Altınordu AŞ (İzmir)
+Ümraniyespor (İstanbul)
+Boluspor
+Altay (İzmir)
+İstanbulspor AŞ
+Giresunspor
+Afyonspor

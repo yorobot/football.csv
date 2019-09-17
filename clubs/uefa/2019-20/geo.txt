@@ -1,22 +1,12 @@
 = Georgian Premier League A =
 
-1   FC Dinamo Batumi
-       Dinamo Batumi
-2   FC Dinamo Tbilisi
-       Dinamo Tbilisi
-3   FC Saburtalo
-       Saburtalo
-4   FC Torpedo Kutaisi
-       Torpedo Kutaisi
-5   FC Locomotive Tbilisi
-       Locomotive Tbilisi
-6   FC Chikhura Sachkhere
-       Chikhura
-7   FC Metalurgi Rustavi
-       Metalurgi Rustavi
-8   FC Dila Gori
-       Dila
-9   FC Sioni Bolnisi
-       Sioni
-10  FC WIT Georgia
-       WIT Georgia
+1   FC Dinamo Batumi         |  Dinamo Batumi
+2   FC Dinamo Tbilisi        |  Dinamo Tbilisi
+3   FC Saburtalo             |  Saburtalo
+4   FC Torpedo Kutaisi       |  Torpedo Kutaisi
+5   FC Locomotive Tbilisi    |  Locomotive Tbilisi
+6   FC Chikhura Sachkhere    |  Chikhura
+7   FC Metalurgi Rustavi     |  Metalurgi Rustavi
+8   FC Dila Gori             |  Dila
+9   FC Sioni Bolnisi         |  Sioni
+10  FC WIT Georgia           |  WIT Georgia

@@ -1,29 +1,16 @@
 = Israeli Premier League  =
 
-1   Hapoel Beer-Sheva FC
-    H. Beer-Sheva
-2   Maccabi Netanya FC
-    M. Netanya
-3   Maccabi Tel-Aviv FC
-    M. Tel-Aviv
-4   Maccabi Haifa FC
-    M. Haifa
-5   FC Ashdod
-       Ashdod
-6   Bnei Yehuda Tel-Aviv FC
-    Bnei Yehuda
-7   Hapoel Haifa FC
-    H. Haifa
-8   Hapoel Kfar-Saba FC
-    H. Kfar-Saba
-9   Hapoel Ra'anana FC
-    H. Ra'anana
-10  Beitar Jerusalem FC
-    Beitar Jerusalem
-11  Hapoel Tel-Aviv FC
-    H. Tel-Aviv
+1   Hapoel Beer-Sheva FC      |  H. Beer-Sheva
+2   Maccabi Netanya FC        |  M. Netanya
+3   Maccabi Tel-Aviv FC       |  M. Tel-Aviv
+4   Maccabi Haifa FC          |  M. Haifa
+5   FC Ashdod                 |  Ashdod
+6   Bnei Yehuda Tel-Aviv FC   |  Bnei Yehuda
+7   Hapoel Haifa FC           |  H. Haifa
+8   Hapoel Kfar-Saba FC       |  H. Kfar-Saba
+9   Hapoel Ra'anana FC        |  H. Ra'anana
+10  Beitar Jerusalem FC       |  Beitar Jerusalem
+11  Hapoel Tel-Aviv FC        |  H. Tel-Aviv
 12  Hapoel Hadera
-13  Hapoel Kiryat Shmona FC
-    H. Kiryat Shmona
-14  Sektzia Nes Tziona FC
-            Nes Tziona
+13  Hapoel Kiryat Shmona FC   |  H. Kiryat Shmona
+14  Sektzia Nes Tziona FC     |  Nes Tziona

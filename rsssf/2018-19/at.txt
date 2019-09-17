@@ -1,104 +1,101 @@
 = Austria (at) =
 
- 1  RB Salzburg                  
- 2  LASK Linz                   
- 3  SK Sturm Graz              
- 4  Wolfsberger AC              
- 5  FK Austria Wien            
- 6  SKN Sankt Pölten           
+ 1  RB Salzburg
+ 2  LASK Linz
+ 3  SK Sturm Graz
+ 4  Wolfsberger AC
+ 5  FK Austria Wien
+ 6  SKN Sankt Pölten
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 7  SV Mattersburg             
- 8  SK Rapid Wien               
- 9  TSV Hartberg                
-10  FC Admira Wacker Mödling     
-11  SC Rheindorf Altach         
-12  FC Wacker Innsbruck   
+ 7  SV Mattersburg
+ 8  SK Rapid Wien
+ 9  TSV Hartberg
+10  FC Admira Wacker Mödling
+11  SC Rheindorf Altach
+12  FC Wacker Innsbruck
 
 
 
 ## 1. Liga (Second Level)
 
- 1  WSG Wattens               
+ 1  WSG Wattens
 -------------------------------------------------------
- 2  SV Ried                     
- 3  SC Austria Lustenau       
- 4  Kapfenberger SV              
- 5  FC Blau-Weiss Linz       
- 6  SC Wiener Neustadt         
- 7  FC Juniors Oberösterreich    
- 8  SK Austria Klagenfurt       
- 9  FC Wacker Innsbruck II       
-10  Floridsdorfer AC        
-11  SK Union Amstetten        
-12  FC Liefering              
-13  Young Violets              
+ 2  SV Ried
+ 3  SC Austria Lustenau
+ 4  Kapfenberger SV
+ 5  FC Blau-Weiss Linz
+ 6  SC Wiener Neustadt
+ 7  FC Juniors Oberösterreich
+ 8  SK Austria Klagenfurt
+ 9  FC Wacker Innsbruck II
+10  Floridsdorfer AC
+11  SK Union Amstetten
+12  FC Liefering
+13  Young Violets
 -------------------------------------------------------
-14  SV Lafnitz                   
-15  SV Horn                    
-16  SK Vorwärts Steyr            
+14  SV Lafnitz
+15  SV Horn
+16  SK Vorwärts Steyr
 
 
 # Regionalliga West
 
- 1  FC Dornbirn                  
+ 1  FC Dornbirn
 -------------------------------------------------------
- 2  FC Kitzbühel              
- 3  USK Anif                    
- 4  FC Kufstein                   
- 5  SV Seekirchen                
- 6  TSV St. Johann/Pongau      
- 7  SC Schwaz                  
- 8  SV Wörgl                   
- 9  SVG Reichenau                
-10  SV Grödig                   
-11  VfB Hohenems              
-12  SV Wals-Grünau               
-13  SC Rheindorf Altach II     
-14  FC Pinzgau Saalfelden          
-15  FC Langenegg              
-16  SK Bischofshofen         
+ 2  FC Kitzbühel
+ 3  USK Anif
+ 4  FC Kufstein
+ 5  SV Seekirchen
+ 6  TSV St. Johann/Pongau
+ 7  SC Schwaz
+ 8  SV Wörgl
+ 9  SVG Reichenau
+10  SV Grödig
+11  VfB Hohenems
+12  SV Wals-Grünau
+13  SC Rheindorf Altach II
+14  FC Pinzgau Saalfelden
+15  FC Langenegg
+16  SK Bischofshofen
 
 # Regionalliga Mitte
 
- 1  GAK 1902 Graz               
+ 1  GAK 1902 Graz
 -------------------------------------------------------
- 2  FC Gleisdorf 09          
- 3  TuS Bad Gleichenberg        
- 4  Union Vöcklamarkt            
- 5  ATSV Stadl-Paura           
- 6  USV Allerheiligen          
- 7  SK Sturm Graz II            
- 8  Wolfsberger AC II         
- 9  SC Weiz                    
-10  Deutschlandsberger SC      
-11  Union Gurten             
-12  Hertha Wels               
-13  SC Kalsdorf               
-14  VST Völkermarkt             
+ 2  FC Gleisdorf 09
+ 3  TuS Bad Gleichenberg
+ 4  Union Vöcklamarkt
+ 5  ATSV Stadl-Paura
+ 6  USV Allerheiligen
+ 7  SK Sturm Graz II
+ 8  Wolfsberger AC II
+ 9  SC Weiz
+10  Deutschlandsberger SC
+11  Union Gurten
+12  Hertha Wels
+13  SC Kalsdorf
+14  VST Völkermarkt
 -------------------------------------------------------
-15  FC Lendorf                
-16  FC Wels                   
+15  FC Lendorf
+16  FC Wels
 
 # Regionalliga Ost
 
- 1  ASK Ebreichsdorf            
--------------------------------------------------------   
- 2  FC Karabakh Wien          
- 3  FC Marchfeld Donauauen Mannsdorf
- 4  Wiener Sportklub           
- 5  SV Leobendorf               
- 6  SK Rapid Wien II           
- 7  SC Neusiedl/See              
- 8  SG Traiskirchen             
- 9  ASK/BSC Bruck/Leitha            
-10  SV Mattersburg Amateure     
-11  SC Team Wiener Linien       
-12  Admira Wacker Mödling II    
-13  SC/ESV Parndorf            
-14  SKN St. Pölten II            
+ 1  ASK Ebreichsdorf
 -------------------------------------------------------
-15  FC Stadlau                 
-16  SV Schwechat               
-
-
-
+ 2  FC Karabakh Wien
+ 3  FC Marchfeld Donauauen Mannsdorf
+ 4  Wiener Sportklub
+ 5  SV Leobendorf
+ 6  SK Rapid Wien II
+ 7  SC Neusiedl/See
+ 8  SG Traiskirchen
+ 9  ASK/BSC Bruck/Leitha
+10  SV Mattersburg Amateure
+11  SC Team Wiener Linien
+12  Admira Wacker Mödling II
+13  SC/ESV Parndorf
+14  SKN St. Pölten II
+-------------------------------------------------------
+15  FC Stadlau
+16  SV Schwechat

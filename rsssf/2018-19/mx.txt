@@ -1,59 +1,42 @@
 = Mexico (mx) =
 
- 1  Cruz Azul                      
- 2  América                         
- 3  Pumas                           
- 4  Santos Laguna                   
- 5  Monterrey                         
- 6  Tigres                          
- 7  Toluca                           
- 8  Querétaro                        
+ 1  Cruz Azul
+ 2  América
+ 3  Pumas
+ 4  Santos Laguna
+ 5  Monterrey
+ 6  Tigres
+ 7  Toluca
+ 8  Querétaro
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 9  Morelia                        
-10  Pachuca                         
-11  Guadalajara                   
-12  Puebla                         
-13  Lobos BUAP                      
-14  León                        
-15  Tijuana                         
-16  Nexaca         
-17  Atlas   
-18  Veracruz  
+ 9  Morelia
+10  Pachuca
+11  Guadalajara
+12  Puebla
+13  Lobos BUAP
+14  León
+15  Tijuana
+16  Nexaca
+17  Atlas
+18  Veracruz
 
 
 # Ascenso MX
 
-Dorados Sinaloa (Culiacán)
-Atlético Zacatepec 
-Mineros de Zacatecas 
-Cafetaleros de Tapachula
-Leones Negros (Guadalajara)  | Universidad de Guadalajara
-Atlante (Cancún)
-Alebrijes de Oaxaca  
-Correcaminos UAT (Ciudad Victoria)
-Venados FC (Mérida)
-Atlético de San Luis (San Luis Potosí)  
-Celaya FC
-Cimarrones de Sonora (Hermosillo) 
-FC Juárez 
-Potros UAEM (Toluca)
-Tampico Madero  | TM FC
 
-
- 1  FC Juárez               
- 2  Mineros                          
- 3  Atlante                          
- 4  Cimarrones                       
- 5  Atlético de San Luis               
- 6  Alebrijes                     
- 7  Dorados Sinaloa                    
- 8  Leones Negros                   
+ 1  FC Juárez
+ 2  Mineros               |  Mineros de Zacatecas
+ 3  Atlante               |  Atlante (Cancún)
+ 4  Cimarrones            |  Cimarrones de Sonora (Hermosillo)
+ 5  Atlético de San Luis  |  Atlético de San Luis (San Luis Potosí)
+ 6  Alebrijes             |  Alebrijes de Oaxaca
+ 7  Dorados Sinaloa       |  Dorados Sinaloa (Culiacán)
+ 8  Leones Negros         |  Leones Negros (Guadalajara)  | Universidad de Guadalajara
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 9  Potros UAEM                 
-10  Correcaminos UAT                
-11  Atlético Zacatepec              
-12  Cafetaleros                     
-13  Tampico Madero                  
-14  Venados FC                      
-15  Celaya FC         
-
+ 9  Potros UAEM           |  Potros UAEM (Toluca)
+10  Correcaminos UAT      |  Correcaminos UAT (Ciudad Victoria)
+11  Atlético Zacatepec
+12  Cafetaleros           |  Cafetaleros de Tapachula
+13  Tampico Madero        |  TM FC
+14  Venados FC            |  Venados FC (Mérida)
+15  Celaya FC

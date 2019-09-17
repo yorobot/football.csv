@@ -2,72 +2,72 @@
 
 # http://www.rsssf.com/tablesd/duit2019.html
 
- 1  FC Bayern München            
- 2  Borussia Dortmund           
- 3  RB Leipzig                  
- 4  Bayer 04 Leverkusen          
- 5  Borussia Mönchengladbach     
- 6  VfL Wolfsburg                
- 7  Eintracht Frankfurt         
- 8  SV Werder Bremen             
- 9  TSG 1899 Hoffenheim         
-10  Fortuna Düsseldorf        
-11  Hertha BSC Berlin           
-12  1.FSV Mainz 05             
-13  SC Freiburg                
-14  FC Schalke 04 Gelsenkirchen  
-15  FC Augsburg                  
+ 1  FC Bayern München
+ 2  Borussia Dortmund
+ 3  RB Leipzig
+ 4  Bayer 04 Leverkusen
+ 5  Borussia Mönchengladbach
+ 6  VfL Wolfsburg
+ 7  Eintracht Frankfurt
+ 8  SV Werder Bremen
+ 9  TSG 1899 Hoffenheim
+10  Fortuna Düsseldorf
+11  Hertha BSC Berlin
+12  1.FSV Mainz 05
+13  SC Freiburg
+14  FC Schalke 04 Gelsenkirchen
+15  FC Augsburg
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-16  VfB Stuttgart               
+16  VfB Stuttgart
 -------------------------------------------------------
-17  Hannover 96                
-18  1.FC Nürnberg      
+17  Hannover 96
+18  1.FC Nürnberg
 
 
- 1  1.FC Köln                    
- 2  SC Paderborn 07             
+ 1  1.FC Köln
+ 2  SC Paderborn 07
 -------------------------------------------------------
- 3  1.FC Union Berlin          
+ 3  1.FC Union Berlin
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 4  Hamburger SV              
- 5  1.FC Heidenheim         
- 6  Holstein Kiel           
- 7  DSC Arminia Bielefeld    
- 8. Jahn Regensburg         
- 9  FC Sankt Pauli            
-10  SV Darmstadt 98           
-11  VfL Bochum             
-12  Dynamo Dresden           
-13  SpVgg Greuther Fürth        
-14  FC Erzgebirge Aue          
-15  SV Sandhausen             
+ 4  Hamburger SV
+ 5  1.FC Heidenheim
+ 6  Holstein Kiel
+ 7  DSC Arminia Bielefeld
+ 8  Jahn Regensburg
+ 9  FC Sankt Pauli
+10  SV Darmstadt 98
+11  VfL Bochum
+12  Dynamo Dresden
+13  SpVgg Greuther Fürth
+14  FC Erzgebirge Aue
+15  SV Sandhausen
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-16  FC Ingolstadt 04           
+16  FC Ingolstadt 04
 -------------------------------------------------------
-17  1.FC Magdeburg               
-18  MSV Duisburg  
+17  1.FC Magdeburg
+18  MSV Duisburg
 
 
- 1  VfL Osnabrück             
- 2  Karlsruher SC                
+ 1  VfL Osnabrück
+ 2  Karlsruher SC
 -------------------------------------------------------
- 3  SV Wehen Wiesbaden          
+ 3  SV Wehen Wiesbaden
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 4  Hallescher FC             
- 5  FC Würzburger Kickers     
- 6  FC Hansa Rostock          
- 7  FSV Zwickau                
- 8  SC Preußen Münster 
- 9  1.FC Kaiserslautern         
-10  SpVgg Unterhaching        
-11  KFC Uerdingen 05            
-12  TSV 1860 München            
-13  SV Meppen                   
-14  Carl Zeiss Jena            
-15  SG Sonnenhof Großaspach   
-16  Eintracht Braunschweig      
+ 4  Hallescher FC
+ 5  FC Würzburger Kickers
+ 6  FC Hansa Rostock
+ 7  FSV Zwickau
+ 8  SC Preußen Münster
+ 9  1.FC Kaiserslautern
+10  SpVgg Unterhaching
+11  KFC Uerdingen 05
+12  TSV 1860 München
+13  SV Meppen
+14  Carl Zeiss Jena
+15  SG Sonnenhof Großaspach
+16  Eintracht Braunschweig
 -------------------------------------------------------
-17  Energie Cottbus            
-18  Sportfreunde Lotte          
-19  Fortuna Köln             
-20  VfR Aalen                 
+17  Energie Cottbus
+18  Sportfreunde Lotte
+19  Fortuna Köln
+20  VfR Aalen

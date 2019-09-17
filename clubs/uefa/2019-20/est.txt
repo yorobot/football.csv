@@ -1,21 +1,12 @@
 = Estonian First League A =
 
-1   FC Flora Tallinn
-       Flora
-2   FC Levadia Tallinn
-       Levadia
-3   Paide Linnameeskond
-    Paide
-4   Nõmme Kalju FC
-          Kalju
-5   JK Tammeka Tartu
-       Tammeka
-6   JK Narva Trans
-             Trans
+1   FC Flora Tallinn      |  Flora
+2   FC Levadia Tallinn    |  Levadia
+3   Paide Linnameeskond   |  Paide
+4   Nõmme Kalju FC        |  Kalju
+5   JK Tammeka Tartu      |  Tammeka
+6   JK Narva Trans        |  Trans
 7   Tulevik
-8   JK Tallinna Kalev
-       Tallinna Kalev
-9   FC Kuressaare
-       Kuressaare
-10  Maardu Esteve
-    Maardu
+8   JK Tallinna Kalev     |  Tallinna Kalev
+9   FC Kuressaare         |  Kuressaare
+10  Maardu Esteve         |  Maardu

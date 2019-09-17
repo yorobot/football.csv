@@ -1,26 +1,14 @@
 = Cypriot First Division =
 
-1   AC Omonia
-       Omonia
-2   AEL Limassol FC
-    AEL
-3   AEK Larnaca FC
-    AEK Larnaca
-4   Ethnikos Achnas FC
-    Ethnikos Achnas
-5   Pafos FC
-    Pafos
-6   Doxa Katokopia FC
-    Doxa
-7   Olympiakos Nicosia FC
-    Olympiakos
-8   Anorthosis Famagusta FC
-    Anorthosis
-9   APOEL FC
-    APOEL
-10  Apollon Limassol FC
-    Apollon
-11  Enosis Neon Paralimni FC
-                Paralimni
-12  Nea Salamis Famagusta FC
-    Nea Salamis
+1   AC Omonia                 |  Omonia
+2   AEL Limassol FC           |  AEL
+3   AEK Larnaca FC            |  AEK Larnaca
+4   Ethnikos Achnas FC        |  Ethnikos Achnas
+5   Pafos FC                  |  Pafos
+6   Doxa Katokopia FC         |  Doxa
+7   Olympiakos Nicosia FC     |  Olympiakos
+8   Anorthosis Famagusta FC   |  Anorthosis
+9   APOEL FC                  |  APOEL
+10  Apollon Limassol FC       |  Apollon
+11  Enosis Neon Paralimni FC  |  Paralimni
+12  Nea Salamis Famagusta FC  |  Nea Salamis

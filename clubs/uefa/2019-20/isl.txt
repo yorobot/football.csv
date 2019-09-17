@@ -2,18 +2,13 @@
 
 1   KR Reykjavík
 2   Breidablik
-3   FH Hafnarfjördur
-    FH
+3   FH Hafnarfjördur      |  FH
 4   Stjarnan
 5   Valur
-6   HK Kópavogs
-    HK
+6   HK Kópavogs           |  HK
 7   Víkingur Reykjavík
-8   ÍA Akranes
-    ÍA
+8   ÍA Akranes            |  ÍA
 9   Fylkir
-10  KA Akureyri
-    KA
+10  KA Akureyri           |  KA
 11  Grindavík
-12  ÍBV Vestmannaeyjar
-    ÍBV
+12  ÍBV Vestmannaeyjar    |  ÍBV

@@ -2,26 +2,26 @@
 
 # Série A
 
- 1  Palmeiras    
- 2  Flamengo         
- 3  Internacional        
- 4  Grêmio               
- 5  São Paulo            
- 6  Atlético/MG          
- 7  Atlético/PR         
- 8  Cruzeiro             
- 9  Botafogo           
-10  Santos               
-11  Bahia              
-12  Fluminense         
-13  Corinthians          
-14  Chapecoense        
-15  Ceará              
-16  Vasco da Gama         
+ 1  Palmeiras
+ 2  Flamengo
+ 3  Internacional
+ 4  Grêmio
+ 5  São Paulo
+ 6  Atlético/MG
+ 7  Atlético/PR
+ 8  Cruzeiro
+ 9  Botafogo
+10  Santos
+11  Bahia
+12  Fluminense
+13  Corinthians
+14  Chapecoense
+15  Ceará
+16  Vasco da Gama
 ------------------------------------------------
-17  Sport Recife         
-18  América/MG           
-19  Vitória              
-20  Paraná               
+17  Sport Recife
+18  América/MG
+19  Vitória
+20  Paraná
 
 # note:after the season, Atlético Paranaense were renamed Athletico Paranaense

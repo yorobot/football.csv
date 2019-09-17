@@ -1,20 +1,12 @@
 = Faroese Premier Division =
 
-1   B36 Tórshavn
-    B36
-2   NSÍ Runavík
-    NSÍ
-3   KÍ Klaksvík
-    KÍ
-4   HB Tórshavn
-    HB
+1   B36 Tórshavn        | B36
+2   NSÍ Runavík         | NSÍ
+3   KÍ Klaksvík         | KÍ
+4   HB Tórshavn         | HB
 5   Víkingur
-6   Skála ÍF
-    Skála
-7   TB Tvøroyri
-    TB
-8   AB Argir
-    AB
+6   Skála ÍF            | Skála
+7   TB Tvøroyri         | TB
+8   AB Argir            | AB
 9   EB/Streymur
-10  ÍF Fuglafjørdur
-    ÍF
+10  ÍF Fuglafjørdur     | ÍF

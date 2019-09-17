@@ -1,33 +1,18 @@
 = Belarusian Premier League =
 
-1   FC Dinamo Brest
-       Dinamo Brest
-2   FC BATE Borisov
-       BATE
-3   FC Shakhtyor Soligorsk
-       Shakhtyor
-4   FC Dinamo Minsk
-       Dinamo Minsk
-5   FC Isloch
-       Isloch
-6   FC Torpedo Zhodino
-       Torpedo Zhodino
-7   FC Gorodeya
-       Gorodeya
-8   SFC Slutsk
-        Slutsk
-9   FC Neman Grodno
-       Neman
-10  FC Slavia-Mozyr
-       Slavia-Mozyr
-11  FC Vitebsk
-       Vitebsk
-12  FC Minsk
-       Minsk
-13  FC Gomel
-       Gomel
-14  FC Zvezda-BGU Minsk
-       Zvezda
+1   FC Dinamo Brest          |  Dinamo Brest
+2   FC BATE Borisov          |  BATE
+3   FC Shakhtyor Soligorsk   |  Shakhtyor
+4   FC Dinamo Minsk          |  Dinamo Minsk
+5   FC Isloch                |  Isloch
+6   FC Torpedo Zhodino       |  Torpedo Zhodino
+7   FC Gorodeya              |  Gorodeya
+8   SFC Slutsk               |  Slutsk
+9   FC Neman Grodno          |  Neman
+10  FC Slavia-Mozyr          |  Slavia-Mozyr
+11  FC Vitebsk               |  Vitebsk
+12  FC Minsk                 |  Minsk
+13  FC Gomel                 |  Gomel
+14  FC Zvezda-BGU Minsk      |  Zvezda
 15  FC Dnyapro Mogilev
-16  FC Torpedo-SKA Minsk
-       Torpedo-SKA
+16  FC Torpedo-SKA Minsk     |  Torpedo-SKA

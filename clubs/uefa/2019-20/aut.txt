@@ -1,25 +1,14 @@
 = Austrian Bundesliga =
 
-1   FC Salzburg
-       Salzburg
+1   FC Salzburg               |  Salzburg
 2   LASK
-3   Wolfsberger AC
-    Wolfsberg
-4   SK Sturm Graz
-       Sturm
-5   TSV Sparkasse Hartberg
-    TSV
-6   SK Rapid Wien
-       Rapid Wien
-7   SV Mattersburg
-       Mattersburg
-8   FK Austria Wien
-       Austria Wien
-9   WSG Wattens
-        Wattens
-10  SKN St Pölten
-        St Pölten
-11  SCR Altach
-        Altach
-12  FC Admira Wacker Mödling
-      Admira
+3   Wolfsberger AC            |  Wolfsberg
+4   SK Sturm Graz             |  Sturm
+5   TSV Sparkasse Hartberg    |  TSV
+6   SK Rapid Wien             |  Rapid Wien
+7   SV Mattersburg            |  Mattersburg
+8   FK Austria Wien           |  Austria Wien
+9   WSG Wattens               |  Wattens
+10  SKN St Pölten             |  St Pölten
+11  SCR Altach                |  Altach
+12  FC Admira Wacker Mödling  |  Admira

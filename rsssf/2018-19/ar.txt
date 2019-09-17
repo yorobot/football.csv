@@ -1,42 +1,47 @@
 = Argentina (ar) =
 
+## todo - cont. merge short & long names
+
 ## short names
- 1  CA San Lorenzo de Almagro        
- 2  CA Boca Juniors                    
- 3  CA Talleres                     
- 4  CA Lanús                        
- 5  CA Patronato Juventud Católica   
- 6  CA Newell's Old Boys              
- 7  Arsenal FC                        
- 8  CA Rosario Central               
- 9  AA Argentinos Juniors          
-10  CA River Plate                   
-11  CA Vélez Sarsfield               
-12  Club Estudiantes de La Plata      
-13  CA Independiente               
-14  Racing Club                      
-15  Club Atlético Tucumán           
-16  CA Huracán                      
-17  CA Central Córdoba                
-18  CA Aldosivi                    
-19  CA Banfield                       
-20  CA Unión                         
-21  CA Colón                         
-22  CSyD Defensa y Justicia         
-23  CD Godoy Cruz Antonio Tomba       
-24  Cd Gimnasia y Esgrima La Plata 
+11  CA Vélez Sarsfield
+12  Club Estudiantes de La Plata
+13  CA Independiente
+14  Racing Club
+15  Club Atlético Tucumán
+16  CA Huracán
+17  CA Central Córdoba
+18  CA Aldosivi
+19  CA Banfield
+20  CA Unión
+21  CA Colón
+22  CSyD Defensa y Justicia
+23  CD Godoy Cruz Antonio Tomba
+24  Cd Gimnasia y Esgrima La Plata
+
 
 ## long names
  1  Club Atlético San Lorenzo de Almagro               # Flores, C
+     | CA San Lorenzo de Almagro
  2  Club Atlético Boca Juniors Asociación Civil        # La Boca, C
+     | CA Boca Juniors
  3  Club Atlético Talleres                             # Córdoba, X
+     | CA Talleres
  4  Club Atlético Lanús                                # Lanús Este, B
+     | CA Lanús
  5  Club Atlético Patronato de la Juventud Católica    # Paraná, E
+     | CA Patronato Juventud Católica
  6  Club Atlético Newell's Old Boys                    # Rosario, S
+     | CA Newell's Old Boys
  7  Arsenal Fútbol Club                                # Sarandí, B
+     | Arsenal FC
  8  Club Atlético Rosario Central                      # Rosario, S
+     | CA Rosario Central
  9  Asociación Atlética Argentinos Juniors             # La Paternal, C
+     | AA Argentinos Juniors
 10  Club Atlético River Plate Asoc. Civil              # Belgrano, C
+     | CA River Plate
+
+
 11  Club Atlético Vélez Sarsfield Asociación Civil     # Liniers, C
 12  Club Estudiantes de La Plata                       # La Plata, B
 13  Club Atlético Independiente                        # Avellaneda, B

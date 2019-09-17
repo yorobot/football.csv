@@ -8,62 +8,62 @@
 ##    -- Europa League Playoff
 ##    -- Playoff II
 ##         --- Group A | Group B | Final
-##         --- Group B 
+##         --- Group B
 ##         --- Final
-##    
+##
 ## http://www.rsssf.com/tablesb/belg2019.html
 
 
- 1  KRC Genk                       
- 2  Club Brugge KV                  
- 3  R. Standard de Liège               
- 4  RSC Anderlecht                      
- 5  KAA Gent                          
- 6  R. Antwerp FC                  
+ 1  KRC Genk
+ 2  Club Brugge KV
+ 3  R. Standard de Liège
+ 4  RSC Anderlecht
+ 5  KAA Gent
+ 6  R. Antwerp FC
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 7  K. Sint-Truiden VV            
- 8  KV Kortrĳk                   
- 9  R. Charleroi SC                
-10  R. Excel Mouscron              
-11  SV Zulte-Waregem                
-12  K. AS Eupen                 
-13  Cercle Brugge KSV                
-14  KV Oostende                     
-15  KV Red Star Waasland-SK Beveren  
+ 7  K. Sint-Truiden VV
+ 8  KV Kortrĳk
+ 9  R. Charleroi SC
+10  R. Excel Mouscron
+11  SV Zulte-Waregem
+12  K. AS Eupen
+13  Cercle Brugge KSV
+14  KV Oostende
+15  KV Red Star Waasland-SK Beveren
 -----------------------------------------------------------
-16  KSC Lokeren OV    
+16  KSC Lokeren OV
 
 
 
 ## Playoff II - Group A
 
- 1  R. Charleroi SC           
+ 1  R. Charleroi SC
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 2  K. Sint-Truiden VV              
- 3  KVC Westerlo                  
- 4  KV Oostende                  
- 5  K. AS Eupen                   
+ 2  K. Sint-Truiden VV
+ 3  KVC Westerlo
+ 4  KV Oostende
+ 5  K. AS Eupen
  6  FCO Beerschot Wilrĳk
 
 ## Playoff II - Group B
 
- 1  KV Kortrĳk                    
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- 2  Union Saint-Gilloise             
- 3  KV Red Star Waasland-SK Beveren  
- 4  SV Zulte-Waregem                
- 5  R. Excel Mouscron                
- 6  Cercle Brugge KSV       
- 
-######################### 
-# First Division B 
+ 1  KV Kortrĳk
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 2  Union Saint-Gilloise
+ 3  KV Red Star Waasland-SK Beveren
+ 4  SV Zulte-Waregem
+ 5  R. Excel Mouscron
+ 6  Cercle Brugge KSV
 
- 1  KV Mechelen                      
+#########################
+# First Division B
+
+ 1  KV Mechelen
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- 2  Union Saint-Gilloise            
- 3  FCO Beerschot Wilrĳk           
- 4  Lommel SK                       
- 4  KVC Westerlo                   
- 6  Oud-Heverlee Leuven             
- 7  KSV Roeselare                  
- 8  AFC Tubize                   
+ 2  Union Saint-Gilloise
+ 3  FCO Beerschot Wilrĳk
+ 4  Lommel SK
+ 4  KVC Westerlo
+ 6  Oud-Heverlee Leuven
+ 7  KSV Roeselare
+ 8  AFC Tubize
