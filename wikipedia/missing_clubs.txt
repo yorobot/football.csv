@@ -1,0 +1,114 @@
+## !!! ERROR !!!  3 club names missing >Argentina (ar)<
+## !!! ERROR !!! 18 club names missing >Bolivia (bo)<
+## !!! ERROR !!!  1 club names missing >Brazil (br)<
+## !!! ERROR !!! 17 club names missing >Chile (cl)<
+## !!! ERROR !!! 24 club names missing >Ecuador (ec)<
+## !!! ERROR !!!  8 club names missing >Uruguay (uy)<
+
+## OK >Venezuela (ve)<
+## OK >Colombia (co)<
+## OK >Paraguay (py)<
+## OK >Peru (pe)<
+
+
+==========
+Argentina (ar)
+
+Estudiantes (LP)
+Gimnasia y Esgrima (LP)
+Talleres (C)
+
+==========
+Argentina (ar)
+
+Estudiantes (LP)
+Gimnasia (LP)
+Talleres (C)
+
+==========
+Bolivia (bo)
+
+Club Always Ready
+Always Ready
+Club Aurora
+Aurora
+Club Blooming
+Blooming
+Club Destroyers
+Destroyers
+Guabirá
+C.D. Jorge Wilstermann
+Jorge Wilstermann
+Nacional Potosí
+Club Real Potosí
+Royal Pari F.C.
+Royal Pari
+Club San José
+Sport Boys Warnes
+Sport Boys
+
+==========
+Brazil (br)
+
+Athletico Paranaense
+
+==========
+Chile (cl)
+
+Audax Italiano
+C.D. Cobresal
+Cobresal
+Colo-Colo
+Coquimbo Unido
+Curicó Unido
+C.D. Antofagasta
+Deportes Antofagasta
+Everton de Viña del Mar
+Everton
+O'Higgins F.C.
+O'Higgins
+Club Deportivo Palestino
+Palestino
+Unión La Calera
+C.D. Universidad de Concepción
+Universidad de Concepción
+
+==========
+Ecuador (ec)
+
+América de Quito
+S.D. Aucas
+Aucas
+Delfín S.C.
+Delfín
+C.D. Cuenca
+Deportivo Cuenca
+C.D. El Nacional
+Fuerza Amarilla S.C.
+Fuerza Amarilla
+Guayaquil City F.C.
+Guayaquil City
+C.S.D. Independiente del Valle
+Independiente del Valle
+C.S.D. Macará
+Macará
+Mushuc Runa S.C.
+Mushuc Runa
+C.D. Olmedo
+Olmedo
+C.D. Técnico Universitario
+Técnico Universitario
+C.D. Universidad Católica del Ecuador
+Universidad Católica
+
+==========
+Uruguay (uy)
+
+Boston River
+Liverpool F.C. (Montevideo)
+Club Plaza Colonia de Deportes
+Plaza Colonia
+C.A. Progreso
+Progreso
+Rampla Juniors
+Club Atlético River Plate (Uruguay)

@@ -2,12 +2,12 @@
 #  see https://en.wikipedia.org/wiki/List_of_top-division_football_clubs_in_CONMEBOL_countries
 
 
-== Argentina ==
+= Argentina (ar) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+!  Club
+!  City
 |-
 | [[Aldosivi]] || [[Mar del Plata]]
 |-
@@ -43,7 +43,7 @@
 |-
 | [[Club Atlético Patronato|Patronato]] || [[Paraná, Entre Ríos|Paraná]]
 |-
-| style="background:#ff4;" | ''[[Racing Club de Avellaneda|Racing]]'' || [[Avellaneda]]
+| [[Racing Club de Avellaneda|Racing]] || [[Avellaneda]]
 |-
 | [[Club Atlético River Plate|River Plate]] || [[Buenos Aires]]
 |-
@@ -59,12 +59,12 @@
 |}
 
 
-== Bolivia ==
+= Bolivia (bo) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 | [[Club Always Ready|Always Ready]] || [[La Paz]]
 |-
@@ -72,7 +72,7 @@
 |-
 | [[Club Blooming|Blooming]] || [[Santa Cruz de la Sierra|Santa Cruz]]
 |-
-| bgcolor=#fbceb1 | ''[[Club Bolívar|Bolívar]]'' || [[La Paz]]
+| [[Club Bolívar|Bolívar]] || [[La Paz]]
 |-
 | [[Club Destroyers|Destroyers]] || [[Santa Cruz de la Sierra|Santa Cruz]]
 |-
@@ -88,7 +88,7 @@
 |-
 | [[Royal Pari F.C.|Royal Pari]] || [[Santa Cruz de la Sierra|Santa Cruz]]
 |-
-| bgcolor=#cedff2 | ''[[Club San José|San José]]'' || [[Oruro, Bolivia|Oruro]]
+| [[Club San José|San José]] || [[Oruro, Bolivia|Oruro]]
 |-
 | [[Sport Boys Warnes|Sport Boys]] || [[Warnes, Bolivia|Warnes]]
 |-
@@ -96,12 +96,12 @@
 |}
 
 
-== Brazil ==
+= Brazil (br) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 | [[Club Athletico Paranaense|Athletico Paranaense]] || [[Curitiba]]
 |-
@@ -135,7 +135,7 @@
 |-
 | [[Sport Club Internacional|Internacional]] || [[Porto Alegre]]
 |-
-| style="background:#ff4;" | ''[[Sociedade Esportiva Palmeiras|Palmeiras]]'' || [[São Paulo]]
+| [[Sociedade Esportiva Palmeiras|Palmeiras]] || [[São Paulo]]
 |-
 | [[Santos FC|Santos]] || [[Santos (São Paulo)|Santos]]
 |-
@@ -145,12 +145,12 @@
 |}
 
 
-== Chile ==
+= Chile (cl) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City (Commune)
+{|
+|-
+! Club
+! City (Commune)
 |-
 | [[Audax Italiano]] || [[Santiago]] ([[La Florida, Chile|La Florida]])
 |-
@@ -178,7 +178,7 @@
 |-
 | [[Unión La Calera]] || [[La Calera, Chile|La Calera]]
 |-
-| style="background:#ff4;"| ''[[Club Deportivo Universidad Católica|Universidad Católica]]'' || [[Santiago]] ([[Las Condes]])
+| [[Club Deportivo Universidad Católica|Universidad Católica]] || [[Santiago]] ([[Las Condes]])
 |-
 | [[Club Universidad de Chile|Universidad de Chile]] || [[Santiago]] ([[Ñuñoa]])
 |-
@@ -186,12 +186,12 @@
 |}
 
 
-== Colombia ==
+= Colombia (co) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 | [[Alianza Petrolera F.C.|Alianza Petrolera]] || [[Barrancabermeja]]
 |-
@@ -217,7 +217,7 @@
 |-
 | [[Jaguares de Córdoba|Jaguares]] || [[Montería]]
 |-
-|style="background:#ccfebb;"|''[[Atlético Junior|Junior]]''|| [[Barranquilla]]
+| [[Atlético Junior|Junior]]  || [[Barranquilla]]
 |-
 | [[La Equidad]] || [[Bogotá]]
 |-
@@ -235,20 +235,20 @@
 |}
 
 
-== Ecuador ==
+= Ecuador (ec) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
 |-
-|[[América de Quito]]||[[Quito]] 
+! Club
+! City
 |-
-|[[S.D. Aucas|Aucas]]||[[Quito]] 
+|[[América de Quito]]||[[Quito]]
+|-
+|[[S.D. Aucas|Aucas]]||[[Quito]]
 |-
 |[[Barcelona S.C.|Barcelona]]||[[Guayaquil]]
 |-
-|[[Delfín S.C.|Delfín]]||[[Manta, Ecuador|Manta]] 
+|[[Delfín S.C.|Delfín]]||[[Manta, Ecuador|Manta]]
 |-
 |[[C.D. Cuenca|Deportivo Cuenca]]||[[Cuenca, Ecuador|Cuenca]]
 |-
@@ -258,36 +258,36 @@
 |-
 |[[Fuerza Amarilla S.C.|Fuerza Amarilla]]||[[Machala]]
 |-
-|[[Guayaquil City F.C.|Guayaquil City]]||[[Guayaquil]] 
+|[[Guayaquil City F.C.|Guayaquil City]]||[[Guayaquil]]
 |-
 |[[C.S.D. Independiente del Valle|Independiente del Valle]]||[[Sangolquí]]
 |-
-| style="background:#ff4;"|''[[L.D.U. Quito|LDU Quito]]''||[[Quito]]
+| [[L.D.U. Quito|LDU Quito]]||[[Quito]]
 |-
-|[[C.S.D. Macará|Macará]]||[[Ambato, Ecuador|Ambato]] 
+|[[C.S.D. Macará|Macará]]||[[Ambato, Ecuador|Ambato]]
 |-
-|[[Mushuc Runa S.C.|Mushuc Runa]]||[[Ambato, Ecuador|Ambato]] 
+|[[Mushuc Runa S.C.|Mushuc Runa]]||[[Ambato, Ecuador|Ambato]]
 |-
-|[[C.D. Olmedo|Olmedo]]||[[Riobamba]] 
+|[[C.D. Olmedo|Olmedo]]||[[Riobamba]]
 |-
-|[[C.D. Técnico Universitario|Técnico Universitario]]||[[Ambato, Ecuador|Ambato]] 
+|[[C.D. Técnico Universitario|Técnico Universitario]]||[[Ambato, Ecuador|Ambato]]
 |-
-|[[C.D. Universidad Católica del Ecuador|Universidad Católica]]||[[Quito]] 
+|[[C.D. Universidad Católica del Ecuador|Universidad Católica]]||[[Quito]]
 |}
 
-== Paraguay ==
+= Paraguay (py) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 |[[Cerro Porteño]]||[[Asunción]]
-|- 
+|-
 |[[Deportivo Capiatá]]||[[Capiatá]]
-|- 
+|-
 |[[Deportivo Santaní]]||[[San Estanislao]]
-|- 
+|-
 |[[Club General Díaz (Luque)|General Díaz]]||[[Luque]]
 |-
 |[[Club Guaraní|Guaraní]]||[[Asunción]]
@@ -296,7 +296,7 @@
 |-
 |[[Club Nacional|Nacional]]||[[Asunción]]
 |-
-|style="background:#ccfebb"|''[[Club Olimpia|Olimpia]]''||[[Asunción]]
+| [[Club Olimpia|Olimpia]]||[[Asunción]]
 |-
 |[[Club River Plate (Asunción)|River Plate]]||[[Asunción]]
 |-
@@ -308,12 +308,12 @@
 |}
 
 
-== Peru ==
+= Peru (pe) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 |[[Alianza Lima]]||[[Lima]]
 |-
@@ -339,7 +339,7 @@
 |-
 |[[Sport Huancayo]]||[[Huancayo]]
 |-
-| style="background:#ff4;"|''[[Sporting Cristal]]''||[[Lima]]
+| [[Sporting Cristal]]||[[Lima]]
 |-
 |[[Unión Comercio]]||[[Nueva Cajamarca District|Nueva Cajamarca]]
 |-
@@ -353,12 +353,12 @@
 |}
 
 
-== Uruguay ==
+= Uruguay (uy) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 |[[Boston River]]||[[Montevideo]]
 |-
@@ -380,7 +380,7 @@
 |-
 |[[Club Nacional de Football|Nacional]]||[[Montevideo]]
 |-
-| style="background:#ff4;"|''[[Peñarol]]''||[[Montevideo]]
+| [[Peñarol]]||[[Montevideo]]
 |-
 |[[Club Plaza Colonia de Deportes|Plaza Colonia]]||[[Colonia del Sacramento|Colonia]]
 |-
@@ -393,12 +393,12 @@
 |[[Club Atlético River Plate (Uruguay)|River Plate]]||[[Montevideo]]
 |}
 
-== Venezuela ==
+= Venezuela (ve) =
 
-{| class="wikitable sortable"
-|- 
-!  style="width:300px; text-align:center;"|Club
-!  style="width:150px; text-align:center;"|City
+{|
+|-
+! Club
+! City
 |-
 |[[Academia Puerto Cabello]]||[[Puerto Cabello]]
 |-
@@ -436,9 +436,7 @@
 |-
 |[[Trujillanos FC|Trujillanos]]||[[Valera]]
 |-
-| style="background:#ff4;"|''[[Zamora FC|Zamora]]''||[[Barinas, Barinas|Barinas]]
+| [[Zamora FC|Zamora]]||[[Barinas, Barinas|Barinas]]
 |-
 |[[Zulia FC|Zulia]]||[[Maracaibo]]
 |}
-
-

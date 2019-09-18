@@ -1,11 +1,9 @@
-## 
 
-{|class="wikitable sortable"
+= Argentina (ar) =
+
+{|
 |-
-!Club
-!City
-!Stadium
-!Capacity
+! Club !! City !! Stadium !! Capacity
 |-
 | [[Aldosivi]]
 | [[Mar del Plata]]
@@ -30,7 +28,7 @@
 | [[Club Atlético Banfield|Banfield]]
 | [[Banfield, Buenos Aires|Banfield]]
 | [[Estadio Florencio Sola|Florencio Sola]]
-| align="center" | 34,901 
+| align="center" | 34,901
 |-
 | [[Boca Juniors]]
 | [[Buenos Aires]]
@@ -47,7 +45,7 @@
 | [[Estadio Brigadier General Estanislao López|Brigadier General Estanislao López]]
 | align="center" | 40,000
 |-
-| [[Defensa y Justicia]] 
+| [[Defensa y Justicia]]
 | [[Florencio Varela, Buenos Aires|Florencio Varela]]
 | [[Estadio Norberto "Tito" Tomaghello|Norberto "Tito" Tomaghello]]
 | align="center" | 12,000
@@ -87,7 +85,7 @@
 | [[Estadio Marcelo Bielsa|Marcelo Bielsa]]
 | align="center" | 38,095
 |-
-| [[Club Atlético Patronato|Patronato]] 
+| [[Club Atlético Patronato|Patronato]]
 | [[Paraná, Entre Ríos|Paraná]]
 | [[Estadio Presbítero Bartolomé Grella|Presbítero Bartolomé Grella]]
 | align="center" | 22,000
