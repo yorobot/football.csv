@@ -2,7 +2,7 @@
 #  see https://en.wikipedia.org/wiki/List_of_top-division_football_clubs_in_CONMEBOL_countries
 
 
-= Argentina (ar) =
+==Argentina==
 
 {|
 |-
@@ -59,7 +59,7 @@
 |}
 
 
-= Bolivia (bo) =
+==Bolivia==
 
 {|
 |-
@@ -96,7 +96,7 @@
 |}
 
 
-= Brazil (br) =
+==Brazil==
 
 {|
 |-
@@ -145,7 +145,7 @@
 |}
 
 
-= Chile (cl) =
+==Chile==
 
 {|
 |-
@@ -186,7 +186,7 @@
 |}
 
 
-= Colombia (co) =
+==Colombia==
 
 {|
 |-
@@ -235,7 +235,7 @@
 |}
 
 
-= Ecuador (ec) =
+==Ecuador==
 
 {|
 |-
@@ -275,7 +275,7 @@
 |[[C.D. Universidad Católica del Ecuador|Universidad Católica]]||[[Quito]]
 |}
 
-= Paraguay (py) =
+==Paraguay==
 
 {|
 |-
@@ -308,7 +308,7 @@
 |}
 
 
-= Peru (pe) =
+==Peru==
 
 {|
 |-
@@ -353,7 +353,7 @@
 |}
 
 
-= Uruguay (uy) =
+==Uruguay==
 
 {|
 |-
@@ -393,7 +393,7 @@
 |[[Club Atlético River Plate (Uruguay)|River Plate]]||[[Montevideo]]
 |}
 
-= Venezuela (ve) =
+==Venezuela==
 
 {|
 |-
