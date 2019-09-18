@@ -1,0 +1,26 @@
+==New Zealand==
+
+{|
+|-
+! Team !! Location !! Stadium !! Capacity !! Manager !! Kit manufacturer !! Shirt sponsor
+|-
+|[[Auckland City FC|Auckland City]] ||[[Auckland]] ||[[Kiwitea Street]] ||align=center|3,250 ||{{flagicon|ESP}} [[Ramon Tribulietx]]<ref>{{cite web |title=Premiership Team Management |url=http://www.aucklandcityfc.com/players/team-management/ |website=Auckland City FC |accessdate=10 October 2018}}</ref> ||[[Kappa (company)|Kappa]] || Trillian Trust Inc (Front) Carters (Back)
+|-
+|[[Canterbury United FC|Canterbury United]] ||[[Christchurch]] ||[[English Park]] ||align=center|9,000 ||{{flagicon|NZL}} Willy Gerdsen<ref>{{cite web |title=Canterbury United |url=http://www.mainlandfootball.co.nz/CANTERBURY-UNITED/CANTERBURY-UNITED-1 |website=Canterbury United FC |accessdate=10 October 2018}}</ref> ||[[Nike, Inc.|Nike]] ||Robbie's Bar and Bistro
+|-
+|[[Eastern Suburbs AFC|Eastern Suburbs]] ||[[Auckland]] ||Riverhills Park ||align=center|5,000 ||{{flagicon|NZL}} [[Danny Hay]]<ref>{{cite web |title=Ole at Eastern |url=http://www.easternsuburbs.org.nz/ole.php |website=Eastern Suburbs |accessdate=10 October 2018}}</ref> ||Lilywhites ||Winger Motors
+|-
+|[[Hamilton Wanderers AFC|Hamilton Wanderers]] ||[[Hamilton, New Zealand|Hamilton]] ||Porritt Stadium ||align=center|5,000 ||{{flagicon|NZL}} [[Ricki Herbert]]<ref>{{cite web |title=Hamilton Wanderers National League |url=https://hamiltonwanderers.co.nz/national-league/ |website=Hamilton Wanderers |accessdate=10 October 2018}}</ref> ||[[Kelme (company)|Kelme]] ||The Soccer Shop
+|-
+|[[Hawke's Bay United FC|Hawke's Bay United]] ||[[Napier, New Zealand|Napier]] ||[[Park Island, Napier|Bluewater Stadium]] ||align=center|5,000 ||{{flagicon|ENG}} [[Brett Angell]]<ref>{{cite web |title=About Us |url=http://www.hbunited.co.nz/about-us |website=Hawkes Bay United Football |accessdate=10 October 2018}}</ref> ||[[Adidas]] ||Thirsty Whale
+|-
+|[[Southern United FC|Southern United]] ||[[Dunedin]] ||[[Sunnyvale Park]] ||align=center|1,000 ||{{flagicon|IRE}} Paul O'Reilly<ref>{{cite web |title=2017/18 Squad |url=https://www.sporty.co.nz/southernunitedmens/201718-Squad |website=Southern United |accessdate=10 October 2018}}</ref>||[[Lotto Sport Italia]] ||Freshwater Solutions
+|-
+|[[Tasman United]] ||[[Nelson, New Zealand|Nelson]] ||[[Trafalgar Park, Nelson|Trafalgar Park]] ||align=center|18,000 ||{{flagicon|ENG}} Andy Hedge<ref>{{cite web |title=2018 - 19 Tasman United Men's ISPS Handa Premiership Team |url=http://www.tasmanunited.nz/2018---19-mens-premiership.html |website=Tasman United |accessdate=10 October 2018}}</ref> ||[[Nike, Inc.|Nike]]||Nelson Pine LVL (Front) Sprig & Fern (Back)
+|-
+|[[Team Wellington]] ||[[Wellington]] ||[[David Farrington Park]] ||align=center|2,250 ||{{flagicon|ENG}} [[José Figueira]]<ref>{{cite web |title=First Team Staff |url=http://www.twfc.co.nz/201718-coaching-team/ |website=Team Wellington |accessdate=10 October 2018}}</ref>||[[Nike, Inc.|Nike]] ||Stonewood Homes
+|-
+|[[Waitakere United]] ||[[Auckland]] ||[[The Trusts Arena]] ||align=center|4,900 ||{{flagicon|NZL}} Chris Milicich || [[Lotto Sport Italia]] || Mitre 10 Mega - Henderson (Front) Heritage Hotels (Back)
+|-
+|[[Wellington Phoenix FC Reserves|Wellington Phoenix]] ||[[Wellington]] ||[[Jerry Collins Stadium|Porirua Park]] ||align=center|1,900 ||{{flagicon|ENG}} Paul Temple<ref>{{cite web |title=Academy Staff |url=https://www.wellingtonphoenix.com/academy-staff |website=Wellington Phoenix FC |accessdate=10 October 2018}}</ref> ||[[Adidas]] ||[[Huawei]]
+|}

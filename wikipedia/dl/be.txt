@@ -1,0 +1,169 @@
+==Belgium==
+
+##
+#  todo/check: how to deal with multiple tables in a section ???
+
+
+{|
+|-
+! Club
+! Location
+! Venue
+! Capacity
+|-
+|[[R.S.C. Anderlecht|Anderlecht]]
+| [[Anderlecht]]
+| [[Constant Vanden Stock Stadium]]
+|  21,500
+|-
+|[[Royal Antwerp F.C.|Antwerp]]
+| [[Antwerp]]
+| [[Bosuilstadion]]
+|  12,975
+|-
+|[[Cercle Brugge K.S.V.|Cercle Brugge]]
+| [[Bruges]]
+| [[Jan Breydel Stadium]]
+|  29,042
+|-
+|[[R. Charleroi S.C.|Charleroi]]
+| [[Charleroi]]
+| [[Stade du Pays de Charleroi]]
+|  14,000
+|-
+|[[Club Brugge KV|Club Brugge]]
+| [[Bruges]]
+| [[Jan Breydel Stadium]]
+|  29,042
+|-
+|[[K.A.S. Eupen|Eupen]]
+| [[Eupen]]
+| [[Kehrweg Stadion]]
+|  8,363
+|-
+|[[K.R.C. Genk|Genk]]
+| [[Genk]]
+| [[Fenix Stadion|Luminus Arena]]
+|  24,956
+|-
+|[[K.A.A. Gent|Gent]]
+| [[Ghent]]
+| [[Ghelamco Arena]]
+|  20,000
+|-
+|[[K.V. Kortrijk|Kortrijk]]
+| [[Kortrijk]]
+| [[Guldensporen Stadion]]
+|  9,399
+|-
+|[[K.S.C. Lokeren Oost-Vlaanderen|Lokeren]]
+| [[Lokeren]]
+| [[Daknamstadion]]
+|  12,000
+|-
+|[[Royal Excel Mouscron|Excel Mouscron]]
+| [[Mouscron]]
+| [[Stade Le Canonnier]]
+|  10,571
+|-
+|[[K.V. Oostende|Oostende]]
+| [[Ostend]]
+| [[Versluys Arena]]
+|  8,432
+|-
+|[[Sint-Truidense V.V.|Sint-Truiden]]
+| [[Sint-Truiden]]
+| [[Stayen]]
+|  14,600
+|-
+|[[Standard Liège]]
+| [[Liège]]
+| [[Stade Maurice Dufrasne]]
+|  30,023
+|-
+|[[Waasland-Beveren]]
+| [[Beveren]]
+| [[Freethiel Stadion]]
+|  8,190
+|-
+|[[S.V. Zulte Waregem|Zulte Waregem]]
+| [[Waregem]]
+| [[Regenboogstadion]]
+|  12,500
+|}
+
+
+{|
+|-
+! Club
+! City
+! First season of  current spell at second level
+! Coming from
+! 2017-18 result
+! Stadium
+! Capacity
+|-
+|[[FCO Beerschot Wilrijk]]
+|[[Antwerp]]
+|2017–18
+|Belgian First Amateur Division
+|{{Hs|203}}3rd ([[Belgian First Division B|D1B]])
+|[[Olympisch Stadion (Antwerp)|Olympic Stadium]]
+|12,771
+|-
+|[[Lommel SK]]
+|[[Lommel]]
+|2018–19
+|Belgian First Amateur Division
+|{{Hs|301}}1st ([[Belgian First Amateur Division|D1Am]]) [[Image:Arrow-up.gif]]
+|[[Soevereinstadion]]
+|8,000
+|-
+|[[KV Mechelen|Mechelen]]
+|[[Mechelen]]
+|2018–19
+|Belgian First Division A
+|{{Hs|116}}16th ([[Belgian First Division A|D1A]]) [[Image:Arrow-down.gif]]
+|[[AFAS-stadion Achter de Kazerne]]
+|16,672
+|-
+|[[Oud-Heverlee Leuven]]
+|[[Leuven]]
+|2016–17
+|Belgian Pro League
+|{{Hs|202}}2nd ([[Belgian First Division B|D1B]])
+|[[Den Dreef]]
+|10,000
+|-
+|[[K.S.V. Roeselare]]
+|[[Roeselare]]
+|2010–11
+|Belgian Pro League
+|{{Hs|205}}5th ([[Belgian First Division B|D1B]])
+|[[Schiervelde Stadion]]
+|9,075
+|-
+|[[A.F.C. Tubize]]
+|[[Tubize]]
+|2009–10
+|Belgian Pro League
+|{{Hs|208}}8th ([[Belgian First Division B|D1B]])
+|[[Stade Leburton]]
+|9,000
+|-
+|[[Royale Union Saint-Gilloise|R. Union Saint-Gilloise]]
+|[[Saint-Gilles, Belgium|Saint-Gilles, Brussels]]
+|2015–16
+|Belgian Third Division
+|{{Hs|206}}6th ([[Belgian First Division B|D1B]])
+|[[Stade Joseph Marien]]
+|5,500
+|-
+|[[K.V.C. Westerlo]]
+|[[Westerlo]]
+|2017–18
+|Belgian First Division A
+|{{Hs|207}}7th ([[Belgian First Division B|D1B]])
+|[[Het Kuipje]]
+|8,035
+|}

@@ -1,0 +1,2522 @@
+##
+##  https://en.wikipedia.org/wiki/List_of_top-division_football_clubs_in_CAF_countries
+
+
+==Algeria==
+
+{|
+|-
+! Club
+! City
+|-
+| [[CR Belouizdad]]
+| [[Belouizdad, Algiers|Belouizdad]]
+|-
+| [[CS Constantine]]
+| [[Constantine]]
+|-
+| [[DRB Tadjenanet]]
+| [[Tadjenanet]]
+|-
+| [[ES Sétif]]
+| [[Sétif]]
+|-
+| [[JS Kabylie]]
+| [[Tizi Ouzou]]
+|-
+| [[JS Saoura]]
+| [[Méridja]]
+|-
+| [[MC Alger]]
+| [[Algiers]]
+|-
+| [[MC Oran]]
+| [[Oran]]
+|-
+| [[NA Hussein Dey]]
+| Algiers ([[Hussein Dey District|Hussein Dey]])
+|-
+| [[Olympique de Médéa]]
+| [[Médéa]]
+|-
+| [[Paradou AC]]
+| [[Algiers]]
+|-
+| [[USM Alger]]
+| [[Algiers]]
+|-
+| [[USM Bel Abbès]]
+| [[Sidi Bel Abbès]]
+|-
+| [[USM El Harrach]]
+| Algiers ([[El Harrach]])
+|-
+| [[USM Blida]]
+| [[Blida]]
+|-
+| [[US Biskra]]
+| [[Biskra]]
+|}
+
+
+==Angola==
+
+{|
+! Club
+! Location
+|-
+| [[Atlético Sport Aviação|A.S. Aviação]] || [[Luanda]]
+|-
+| [[S.L. Benfica (Luanda)|Benfica de Luanda]] || [[Luanda]]
+|-
+| [[S.L. Benfica (Lubango)|Benfica do Lubango]] || [[Lubango]]
+|-
+| [[F.C. Bravos do Maquis]] || [[Luena, Moxico Province|Luena]]
+|-
+| [[C.R. Caála]] || [[Huambo]]
+|-
+| [[Sporting Clube de Cabinda|S.C. Cabinda]] || [[Cabinda (city)|Cabinda]]
+|-
+| [[C.D. Huíla]] || [[Lubango]]
+|-
+| [[G.D. Interclube]] || [[Luanda]]
+|-
+| [[Kabuscorp S.C.P.|Kabuscorp]] || [[Luanda]]
+|-
+| [[C.D. Primeiro de Agosto]] || [[Luanda]]
+|-
+| [[Atlético Petróleos de Luanda|Petro Atlético]] || [[Luanda]]
+|-
+| [[Estrela Clube Primeiro de Maio|E.C. Primeiro de Maio]] || [[Benguela]]
+|-
+| [[Progresso Associação do Sambizanga|P.A. Sambizanga]] || [[Luanda]]
+|-
+| [[C.R.D. Libolo|Recreativo do Libolo]] || [[Libolo]]
+|-
+| [[G.D. Sagrada Esperança]] || [[Dundo]]
+|-
+| [[União Sport Clube do Uíge|União SC do Uíge]] || [[Uíge]]
+|}
+
+
+
+==Benin==
+
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Tonnerre d'Abomey FC]] || [[Abomey]]
+|-
+| [[Adjobi FC]] || [[Sakété]]
+|-
+| [[ASPAC FC]] || [[Cotonou]]
+|-
+| [[Avrankou Omnisport FC]] || [[Avrankou]]
+|-
+| [[Ayema FC]] || [[Seme-Kpodji]]
+|-
+| [[Buffles du Borgou FC]] || [[Parakou]]
+|-
+| [[Energie FC]] || [[Seme-Kpodji]]
+|-
+| [[Union Sportive Seme Kraké|USS Kraké]] || [[Porto-Novo]]
+|-
+| [[Mogas 90 FC]] || [[Cotonou]]
+|-
+| [[AS Dragons FC de l'Ouémé]] || [[Porto-Novo]]
+|-
+| [[Association Sportive Oussou Saka|AS Oussou Saka]] || [[Porto-Novo]]
+|-
+| [[Panthères FC]] || [[Djougou]]
+|-
+| bgcolor=#ffff44|[[Jeunesse Athlétique du Plateau|JA Plateau]] || [[Pobè]]
+|-
+| [[AS Police (Benin)|AS Police]] || [[Porto-Novo]]
+|}
+
+
+__END__
+
+
+==Botswana==
+{{main|List of football clubs in Botswana}}
+* Country: {{flagu|Botswana}}
+* Football association: [[Botswana Football Association]]
+* Top-level league: [[Botswana Premier League]]
+
+''As of 2013–14 season:''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Botswana Defence Force XI]] || [[Gaborone]]
+|-
+| [[Botswana Meat Commission F.C.|Botswana Meat Commission FC]] || [[Lobatse]]
+|-
+| [[ECCO City Green]] || [[Francistown]]
+|-
+| [[Extension Gunners]] || [[Lobatse]]
+|-
+| [[F.C. Satmos|FC Satmos]] || [[Selebi Phikwe]]
+|-
+| [[Gaborone United]] || [[Gaborone]]
+|-
+| [[Miscellaneous SC Serowe]] || [[Serowe]]
+|-
+| bgcolor=#ffff44|[[Mochudi Centre Chiefs]] || [[Mochudi]]
+|-
+| [[Motlakase Power Dynamos]] || [[Palapye]]
+|-
+| [[Nico United]] || [[Selebi-Phikwe]]
+|-
+| [[Notwane F.C.]] || [[Gaborone]]
+|-
+| [[Orapa United FC]] || [[Orapa]]
+|-
+| [[TAFIC]] || [[Francistown]]
+|-
+| [[Township Rollers F.C.|Township Rollers FC]] || [[Gaborone]]
+|-
+| [[Uniao Flamengo Santos FC]] || [[Gabane]]
+|-
+| [[Wonder Sporting]] || [[Gaborone]]
+|}
+
+==Burkina Faso==
+{{main|List of football clubs in Burkina Faso}}
+* Country: {{flagu|Burkina Faso}}
+* Football association: [[Burkinabé Football Federation]]
+* Top-level league: [[Burkinabé Premier League]]
+
+''As of 2014 season:''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[ASF Bobo Dioulasso]] || [[Bobo Dioulasso]]
+|-
+| [[Bobo Sport]] || [[Bobo Dioulasso]]
+|-
+| [[RC Bobo Dioulasso]] || [[Bobo Dioulasso]]
+|-
+| [[Bouloumpoukou FC]] || [[Koudougou]]
+|-
+| [[US de la Comoé]] || [[Banfora]]
+|-
+| bgcolor=#ffff44|[[ASFA Yennenga|AS Faso-Yennenga]] || [[Ouagadougou]]
+|-
+| [[Union Sportive des Forces Armées|US Forces Armées]] || [[Ouagadougou]]
+|-
+| [[Rail Club du Kadiogo|RC Kadiogo]] || [[Kadiogo]]
+|-
+| [[KOZAF]] || [[Ouagadougou]]
+|-
+| [[Majestic FC]] || [[Pô]]
+|-
+| [[Étoile Filante de Ouagadougou]] || [[Ouagadougou]]
+|-
+| [[US Ouagadougou]] || [[Ouagadougou]]
+|-
+| [[Santos FC (Ouagadougou)|Santos FC]] || [[Ouagadougou]]
+|-
+| [[AS SONABEL]] || [[Ouagadougou]]
+|-
+| [[US FRAN]] || [[Bobo Dioulasso]]
+|-
+| [[US Yatenga]] || [[Ouahigouya]]
+|}
+
+==Burundi==
+{{main|List of football clubs in Burundi}}
+* Country: {{flagu|Burundi}}
+* Football association: [[Football Federation of Burundi]]
+* Top-level league: [[Burundi Premier League]]
+
+''As of 2013–14 season''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Guêpiers du Lac]] || [[Makamba, Burundi|Makamba]]
+|-
+| bgcolor=#ffff44|[[Flambeau de l’Est]] || [[Ruyigi]]
+|-
+| [[Atlético Olympic F.C.|Atlético Olympic FC]] || [[Bujumbura]]
+|-
+| [[Lydia Ludic Burundi Académic FC|LLBA FC]] || [[Bujumbura]]
+|-
+| [[Vital'O FC]] || [[Bujumbura]]
+|-
+| [[Le Messager FC de Ngozi|Le Messager FC]] || [[Rumonge]]
+|-
+| [[Muzinga FC]] || [[Bujumbura]]
+|-
+| [[AS Inter Star]] || [[Bujumbura]]
+|-
+| [[Royal FC de Muramvya]] || [[Muramvya]]
+|-
+| [[Académie Tchité FC]] || [[Bujumbura]]
+|-
+| [[Prince Louis F.C.|Prince Louis FC]] || [[Bujumbura]]
+|-
+| [[Flamengo de Ngagara]] || [[Bujumbura]]
+|-
+| [[Espoir FC de Mutimbuzi]] || [[Gatumba]]
+|-
+| [[Volontaires FC]] || Kanyosha
+|}
+
+==Cameroon==
+{{main|List of football clubs in Cameroon}}
+* Country: {{flagu|Cameroon}}
+* Football association: [[Cameroonian Football Federation]]
+* Top-level league: [[Elite One]]
+
+''As of 2013-14 season''
+{{location map+ |Cameroon
+ |float=right
+ |width=300
+ |alt=Locations of the 2013–14 Cameroon Premiere Division
+ |caption=Locations of the 2013–14 Premiere Division
+ |places=
+{{location map~ |Cameroon |lat=3.866667 |long=11.516667 |label= <div style="font-size:90%;position:relative;top:-2px;">[[Canon Sportif de Yaoundé|Canon]]</div>|position=right}}
+{{location map~ |Cameroon |lat=3.866667 |long=11.516667 |label= <div style="font-size:90%;position:relative;top:8px;left:0px;">[[Tonnerre Yaoundé|Tonnerre]]</div>|position=right}}
+{{location map~ |Cameroon |lat=9.3 |long=13.4 |label= <div style="font-size:90%;position:relative;top:11px;left:-3px;">[[Coton Sport FC de Garoua|Coton Sport]]</div>|position=right}}
+{{location map~ |Cameroon |lat=5.333333 |long=10.4 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[Fovu Baham|Fovu]]</div>|position=right}}
+{{location map~ |Cameroon |lat=4.016667 |long=9.216667 |label= <div style="font-size:90%;position:relative;top:13px;left:-5px;">[[Njala Quan Sports Academy|NQSA]]</div>|position=right}}
+{{location map~ |Cameroon |lat=5.25 |long=10.833333 |label= <div style="font-size:90%;position:relative;top:11px;left:-4px;">[[Panthère du Ndé|Panthère]]</div>|position=right}}
+{{location map~ |Cameroon |lat=4.2 |long=12.916667 |label= <div style="font-size:90%;position:relative;top:-3px;left:-2px;">[[Renaissance FC de Ngoumou|Renaissance]]</div>|position=right}}
+{{location map~ |Cameroon |lat=5.283333 |long=10.283333 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[Sable FC|Sable]]</div>|position=left}}
+{{location map~ |Cameroon |lat=5.15 |long=10.183333 |label= <div style="font-size:90%;position:relative;top:11px;left:4px;">[[Unisport de Bafang|Unisport]]</div>|position=left}}
+{{location map~ |Cameroon |lat=5.933333 |long=10.166667 |label=<div style="font-size:90%;position:relative;top:-7px;left:-5px;">[[Yong Sports Academy|YOSA]]</div>|position=right}}
+{{location map~ |Cameroon |lat=4.05 |long=9.7 |label=<div style="font-size:90%;position:relative;top:-5px;left:-3px;">'''Douala'''</div>|position=right}}
+
+<!--DISPLAY OF DOUALA TEAMS IN BOTTOM RIGHT CORNER-->
+{{Location map~ |Cameroon |mark=TransparentPlaceholder.png |marksize=1 |lat=12 |long=8.5 |label=<div style="font-size:80%;">'''Douala&nbsp;teams'''<br>
+[[Douala Athletic Club|Douala AC]]<br>
+[[Les Astres FC|Les Astres]]<br>
+[[New Star de Douala|New Star]]<br>
+[[Union Sportive de Douala|Union]]<br>
+</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Canon Sportif de Yaoundé|Canon Yaoundé]] || [[Yaoundé]]
+|-
+| bgcolor=#ffff44|[[Coton Sport FC de Garoua|Coton Sport FC]] || [[Garoua]]
+|-
+| [[Douala Athletic Club|Douala AC]] || [[Douala]]
+|-
+| [[Fovu Baham|Fovu Club]] || [[Baham, Cameroon|Baham]]
+|-
+| [[Les Astres FC]] || [[Douala]]
+|-
+| [[New Star de Douala|New Star FC]] || [[Douala]]
+|-
+| [[Njala Quan Sports Academy|Njala Quan SA]] || [[Limbe, Cameroon|Limbé]]
+|-
+| [[Panthère du Ndé]] || [[Bangangté]]
+|-
+| [[Renaissance FC de Ngoumou]] || [[Ngoumou]]
+|-
+| [[Sable FC]] || [[Batié, Cameroon|Batié]]
+|-
+| [[Tonnerre Yaoundé]] || [[Yaoundé]]
+|-
+| [[Union Sportive de Douala|US Douala]] || [[Douala]]
+|-
+| [[Unisport de Bafang|Unisport FC]] || [[Bafang]]
+|-
+| [[Yong Sports Academy|YOSA]] || [[Bamenda]]
+|}
+
+==Cape Verde==
+{{main|List of football clubs in Cape Verde}}
+* Country: {{flagu|Cape Verde}}
+* Football association: [[Cape Verdean Football Federation]]
+* Top-level league: [[Cape Verdean football Championships]]
+''As of 2013-2014 season''
+
+===Group A===
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Académico do Aeroporto]] || [[Espargos]]
+|-
+| bgcolor=#ffff44|[[CS Mindelense]] || [[Mindelo]]
+|-
+| [[Desportivo da Praia]] || [[Praia, Cape Verde|Praia]]
+|-
+| [[FC Ultramarina (Cape Verde)|FC Ultramarina]] || [[Tarrafal, Cape Verde|Tarrafal]]
+|-
+| [[Juventude da Furna]] || [[Vila Nova Sintra]]
+|-
+| [[Onze Estrelas Boa Vista|Onze Estrelas]] || [[Bofareira]]
+|}
+
+===Group B===
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Associação Académica do Porto Novo|Académica Porto Novo]] || [[Porto Novo, Cape Verde|Porto Novo]]
+|-
+| [[Académico 83]] || [[Vila do Maio|Vila do Maio (Porto Inglês)]]
+|-
+| [[Associação Académica do Fogo]] || [[São Filipe, Cape Verde|São Filipe]]
+|-
+| [[Scorpions (Santa Cruz)|Scorpions]] || [[Santa Cruz, Cape Verde|Santa Cruz]]
+|-
+| [[Solpontense Futebol Clube|Solpontense FC]] || [[Ponta do Sol, Cape Verde|Ponta do Sol]]
+|-
+| [[Sporting Clube da Praia|Sporting Praia]] || [[Praia, Cape Verde|Praia]]
+|}
+
+==Central African Republic==
+{{main|List of football clubs in the Central African Republic}}
+* Country: {{flagu|Central African Republic}}
+* Football association: [[Central African Football Federation]]
+* Top-level league: [[Central African Republic League]]
+
+''As of 2013 season''  (2013 season was to have started end of February but was cancelled due to military crisis):
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Anégrée Freese]] || [[Bangui]]
+|-
+| [[Anges de Fatima|ASDR Fatima]] || [[Bangui]]
+|-
+| [[Diplomates Football Club du 8ème Arrondissement|DFC 8ème Arrondissement]] || [[Bangui]]
+|-
+| [[Espérance FC du 5ème Arrondissement]] || [[Bangui]]
+|-
+| bgcolor=#ffff44|[[Olympic Real de Bangui]] || [[Bangui]]
+|-
+| [[Rèal Comboni]] || [[Bangui]]
+|-
+| [[Sica Sport]] || [[Bangui]]
+|-
+| [[SOS FC de Gbangouma]] || [[Bangui]]
+|-
+| [[Sporting Club de Bangui]] || [[Bangui]]
+|-
+| [[SCAF Tocages|Stade Centrafricaine Tocages]] || [[Bangui]]
+|-
+| [[AS Tempête Mocaf]] || [[Bangui]]
+|-
+| [[TP USCA Bangui]] || [[Bangui]]
+|}
+
+==Chad==
+{{main|List of football clubs in Chad}}
+* Country: {{flagu|Chad}}
+* Football association: [[Chadian Football Federation]]
+* Top-level league: [[Chad Premier League]]
+
+''As of 2013 season:''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[AS CotonTchad]] || [[N'Djamena]]
+|-
+| [[AS DGSSIE]] || [[N'Djamena]]
+|-
+| [[AS Farcha]] || [[N'Djamena]]
+|-
+| [[Elect-Sport FC]] || [[N'Djamena]]
+|-
+| bgcolor=#ffff44|[[Foullah Edifice FC]] || [[N'Djamena]]
+|-
+| [[Gazelle FC]] || [[N'Djamena]]
+|-
+| [[Postel 2000|Postel 2000 FC]] || [[N'Djamena]]
+|-
+| [[Renaissance FC]] || [[N'Djamena]]
+|-
+| [[Tourbillon FC]] || [[N'Djamena]]
+|-
+| [[US de Moursal]] || [[N'Djamena]]
+|}
+
+==Comoros==
+{{main|List of football clubs in the Comoros}}
+* Country: {{flagu|Comoros}}
+* Football association: [[Comoros Football Federation]]
+* Top-level league: [[Comoros Premier League]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[AJSM de Mutsamudu]] || [[Mutsamudu]]
+|-
+| [[Apache Club de Mitsamiouli]] || [[Mitsamiouli]]
+|-
+| [[Coin Nord de Mitsamiouli]] || [[Mitsamiouli]]
+|-
+| [[Djabal Club d'Iconi]] || [[Iconi]]
+|-
+| [[Élan Club de Mitsoudjé]] || [[Mitsoudjé]]
+|-
+| [[Etoile d'Or Mirontsy FC]] || Mirontsy
+|-
+| bgcolor=#ffff44|[[Komorozine de Domoni]] || [[Domoni]]
+|-
+| [[Steal Nouvel FC de Sima]] || [[Sima, Comoros|Sima]]
+|}
+
+==Congo==
+{{main|List of football clubs in the Republic of the Congo}}
+* Country: {{flagu|Congo}}
+* Football association: [[Congolese Football Federation]]
+* Top-level league: [[Congo Premier League]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| bgcolor=#ffff44|[[AC Léopards]] || [[Dolisie]]
+|-
+| [[AS Chéminots]] || [[Pointe-Noire]]
+|-
+| [[Association Sportive Ponténégrine|AS Ponténégrine]] || [[Pointe-Noire]]
+|-
+| [[CARA Brazzaville]] || [[Brazzaville]]
+|-
+| [[CS La Mancha]] || [[Pointe-Noire]]
+|-
+| [[CSM Diables Noirs]] || [[Brazzaville]]
+|-
+| [[Étoile du Congo]] || [[Brazzaville]]
+|-
+| [[FC Bilombé]] || [[Pointe-Noire]]
+|-
+| [[FC Cuvette d'Owando]] || [[Brazzaville]]
+|-
+| [[FC Kondzo]] || [[Brazzaville]]
+|-
+| [[Inter Club Brazzaville]] || [[Brazzaville]]
+|-
+| [[JS Talangaï]] || [[Brazzaville]]
+|-
+| [[Munisport de Pointe-Noire]] || [[Pointe-Noire]]
+|-
+| [[Nico-Nicoyé]] || [[Pointe-Noire]]
+|-
+| [[Patronage Sainte-Anne]] || [[Brazzaville]]
+|-
+| [[Saint Michel de Ouenzé]] || [[Brazzaville]]
+|-
+| [[Tongo FC Jambon]] || [[Brazzaville]]
+|-
+| [[US Saint Pierre]] || [[Pointe-Noire]]
+|}
+
+==Democratic Republic of the Congo==
+{{main|List of football clubs in the Democratic Republic of the Congo}}
+* Country: {{flagu|Democratic Republic of the Congo}}
+* Football association: [[Congolese Association Football Federation]]
+* Top-level league: [[Linafoot]]
+
+''As of 2013–2014 season''
+{{location map+ |Democratic Republic of the Congo
+ |float=right
+ |width=440
+ |alt=Locations of the 2013–14 Linafoot
+ |caption=Locations of the 2013–14 Linafoot
+ |places=
+{{location map~ |Democratic Republic of the Congo |lat=-1.683333 |long=29.233333 |label= <div style="font-size:90%;position:relative;top:-4px;left:-1px;">[[AS Dauphins Noirs|Dauphins&nbsp;Noirs]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-1.683333 |long=29.233333 |label= <div style="font-size:90%;position:relative;top:-16px;left:3px;">[[DC Virunga|Virunga]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=0.516667 |long=25.2 |label= <div style="font-size:90%;position:relative;top:-5px;left:1px;">[[AS Makiso|Makiso]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-2.5 |long=28.866667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[OC Muungano|Muungano]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-6.15 |long=23.6 |label= <div style="font-size:90%;position:relative;top:12px;left:-1px;">[[SM Sanga Balende|Sanga&nbsp;Balende]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=-5.816667 |long=13.483333 |label= <div style="font-size:90%;position:relative;top:-7px;left:-4px;">[[TC Elima|Elima]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=0.047778 |long=18.255833 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[TP Molunge|Molunge]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=-5.897 |long=22.448833 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[US Tshinkunku|Tshinkunku]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:1px;left:-1px;">[[AS Vita Club|Vita Club]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:-11px;left:-1px;">[[DC Motema Pembe|Motema&nbsp;Pembe]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:-23px;left:-1px;">[[AS Rojolu|Rojolu]]</div>|position=right}}
+{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-5px;left:1px;">[[TP Mazembe|Mazembe]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-17px;left:1px;">[[FC Saint Eloi Lupopo|Lupopo]]</div>|position=left}}
+{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-29px;left:1px;">[[CS Don Bosco|Don Bosco]]</div>|position=left}}
+}}
+
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[AS Dauphins Noirs]] || [[Goma]]
+|-
+| [[AS Makiso]] || [[Kisangani]]
+|-
+| [[AS Rojolu]] || [[Kinshasa]]
+|-
+| [[AS Vita Club]] || [[Kinshasa]]
+|-
+| [[CS Don Bosco]] || [[Lubumbashi]]
+|-
+| [[DC Motema Pembe]] || [[Kinshasa]]
+|-
+| [[DC Virunga]] || [[Goma]]
+|-
+| [[FC Saint Eloi Lupopo]] || [[Lubumbashi]]
+|-
+| [[OC Muungano]] || [[Bukavu]]
+|-
+| [[SM Sanga Balende]] || [[Mbuji-Mayi]]
+|-
+| [[TC Elima]] || [[Matadi]]
+|-
+| bgcolor=#ffff44|[[TP Mazembe]] || [[Lubumbashi]]
+|-
+| [[TP Molunge]] || [[Mbandaka]]
+|-
+| [[US Tshinkunku]] || [[Kananga]]
+|}
+
+==Djibouti==
+{{main|List of football clubs in Djibouti}}
+* Country: {{flagu|Djibouti}}
+* Football association: [[Djiboutian Football Federation]]
+* Top-level league: [[Djibouti Premier League]]
+
+''As of 2015-16 season''
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+
+|-
+| bgcolor=#ffff44|[[AS Ali Sabieh Djibouti Télécom]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[AS CDE-Colas]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[AS Port]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[AS Tadjourah]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[Bahache/Université de Djibouti]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[FC Dikhil]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[Garde Républicaine FC|Guelleh Batal]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[Gendarmerie Nationale FC]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[SDVK]] || [[Djibouti (city)|Djibouti]]
+|-
+| [[Hôpital Balbala]] || [[Djibouti (city)|Djibouti]]
+|}
+
+==Egypt==
+{{main|List of football clubs in Egypt}}
+* Country: {{flagu|Egypt}}
+* Football association: [[Egyptian Football Association]]
+* Top-level league: [[Egyptian Premier League]]
+
+''As of [[2017–18 Egyptian Premier League|2017–18]]''
+{{location map+ |Egypt
+|float=right
+|width=500
+|alt=Locations of the 2017–18 Egyptian Premier League teams
+|caption=Locations of the '''2017–18 Egyptian Premier League''' teams
+|places=
+{{Location map~ |Egypt |lat=27.29     |long=32.28     |label=<small>[[Alassiouty Sport|Al Assiouty]]</small>          |position=left}}
+{{location map~ |Egypt |lat=30.583333 |long=32.266667 |label=<small>[[Ismaily SC|Ismaily]]</small>                    |position=right}}
+{{location map~ |Egypt |lat=31        |long=29.8      |label=<small>[[Al Ittihad Alexandria Club|Al Ittihad]]</small> |position=left}}
+{{location map~ |Egypt |lat=31.26     |long=32.29     |label=<small>[[Al-Masry SC|Al Masry]]</small>                  |position=top}}
+{{location map~ |Egypt |lat=29.308374 |long=30.844105 |label=<small>[[Misr Lel-Makkasa SC|Makkasa]]</small>           |position=bottom}}
+{{location map~ |Egypt |lat=29.966667 |long=32.5765   |label=<small>[[Petrojet SC|Petrojet]]</small>                  |position=right}}
+{{Location map~ |Egypt |lat=31.018292 |long=28.412833 |label=<small>[[Raja CA|El Raja]]</small>                       |position=bottom}}
+{{location map~ |Egypt |lat=31.198    |long=29.9192   |label=<small>[[Smouha SC|Smouha]]</small>                      |position=top}}
+{{location map~ |Egypt |lat=30.6      |long=31.0798   |label=<small>[[Tanta SC|Tanta]]</small>                        |position=left}}
+{{location map~ |Egypt |lat=30.05     |long=31.233333 |label=</small>'''Cairo'''</small>                              |position=bottom}}
+
+<!--DISPLAY OF CAIRO TEAMS IN BOTTOM LEFT CORNER-->
+{{Location map~ |Egypt |mark=TransparentPlaceholder.png |marksize=1 |lat=24.89 |long=25 |label=<div style="font-size:80%;">'''Cairo&nbsp;teams'''<br>
+[[Al Ahly SC|Al Ahly]]<br />
+[[El Dakhleya SC|El Dakhleya]]<br />
+[[ENPPI SC|ENPPI]]<br />
+{{nowrap|[[El Entag El Harby SC|El Entag El Harby]]}}<br />
+[[El Mokawloon SC|Al Mokawloon]]<br />
+[[Al Nasr SC (Egypt)|Al Nasr]]<br />
+[[Tala'ea El Gaish SC|Tala'ea El Gaish]]<br />
+[[Wadi Degla SC|Wadi Degla]]<br />
+[[Zamalek SC|Zamalek]]
+</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+|-
+|bgcolor=#FFFF44| '''''[[Al Ahly SC|Al Ahly]]'''''
+| [[Cairo]]
+|-
+| [[Pyramids FC|Al Assiouty Sport]]
+| [[Asyut|Assiut]]
+|-
+| [[El Dakhleya SC|El Dakhleya]]
+| Cairo <small>([[Abbassia]])</small>
+|-
+| [[ENPPI SC|ENPPI]]
+| [[Cairo]]
+|-
+| [[El Entag El Harby SC|El Entag El Harby]]
+| [[Cairo]]
+|-
+| [[Ismaily SC|Ismaily]]
+| [[Ismailia]]
+|-
+| [[Al Ittihad Alexandria Club|Al Ittihad]]
+| [[Alexandria]]
+|-
+| [[Al Masry SC|Al Masry]]
+| [[Port Said]]
+|-
+| [[Misr Lel-Makkasa SC|Misr Lel Makkasa]]
+| [[Faiyum|Fayoum]]
+|-
+| [[El Mokawloon SC|Al Mokawloon]]
+| Cairo <small>([[Nasr City]])</small>
+|-
+| [[Al Nasr SC (Egypt)|Al Nasr]]
+| [[Cairo]]
+|-
+| [[Petrojet SC|Petrojet]]
+| [[Suez]]
+|-
+| [[Raja CA|El Raja]]
+| [[Mersa Matruh]]
+|-
+| [[Smouha SC|Smouha]]
+| Alexandria <small>([[Smouha]])</small>
+|-
+| [[Tala'ea El Gaish SC|Tala'ea El Gaish]]
+| [[Cairo]]
+|-
+| [[Tanta SC|Tanta]]
+| [[Tanta]]
+|-
+| [[Wadi Degla SC|Wadi Degla]]
+| [[Cairo]]
+|-
+| [[Zamalek SC|Zamalek]]
+| Cairo <small>([[Giza]])</small>
+|}
+
+==Equatorial Guinea==
+{{main|List of football clubs in Equatorial Guinea}}
+* Country: {{flagu|Equatorial Guinea}}
+* Football association: [[Equatoguinean Football Federation]]
+* Top-level league: [[Equatoguinean Premier League]]
+
+''As of 2014 season''
+
+===Región Continental===
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[AD Mongomo]] || [[Mongomo]]
+|-
+| [[Águilas Verdes de Guadalupe]] || [[Bata, Equatorial Guinea|Bata]]
+|-
+| bgcolor=#ffff44|[[Akonangui FC]] || [[Ebebiyín]]
+|-
+| [[Campo Amor FC]] || [[Alep]]
+|-
+| [[Deportivo Mongomo]] || [[Mongomo]]
+|-
+| [[Dragón FC]] || [[Bata, Equatorial Guinea|Bata]]
+|-
+| [[AD Mesi Nkulu]] || [[Ebebiyín]]
+|-
+| [[Atlético Nsok-Nsomo]] || [[Nsok]]
+|-
+| [[Quince de Agosto de Akonibe]] || [[Aconibe]]
+|-
+| [[Racing de Micomeseng]] || [[Micomeseng]]
+|-
+| [[Real Sanidad]] || [[Evinayong]]
+|-
+| [[Robella Inter]] || [[Mbini]]
+|}
+
+===Región Insular===
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Atlético Malabo]] || [[Malabo]]
+|-
+| [[Atlético Semu]] || [[Malabo]]
+|-
+| [[Deportivo Ebenezer]] || [[Luba, Equatorial Guinea|Luba]]
+|-
+| [[CD Unidad Malabo]] || [[Malabo]]
+|-
+| [[Inter Junior]] || [[Malabo]]
+|-
+| [[Vegetarianos FC|Leones Vegetarianos FC]] || [[Malabo]]
+|-
+| [[Real X Balompié]] || [[Malabo]]
+|-
+| [[San Pablo de Nsork]] || [[Nsork]]
+|-
+| [[FC Santa Rosa]] || [[Malabo]]
+|-
+| [[CD Elá Nguema]] || [[Malabo]]
+|-
+| [[The Panthers F.C.|The Panthers FC]] || [[Malabo]]
+|}
+
+==Eritrea==
+{{main|List of football clubs in Eritrea}}
+* Country: {{flagu|Eritrea}}
+* Football association: [[Eritrean National Football Federation]]
+* Top-level league: [[Eritrean Premier League]]
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Adulis Club]] || [[Asmara]]
+|-
+| [[FC Al Tahrir]] || [[Asmara]]
+|-
+| [[Asmara Brewery]] || [[Asmara]]
+|-
+| [[Denden F.C.|Denden FC]] || [[Asmara]]
+|-
+| [[FC Edaga Hamus]] || Edaga Hamus
+|-
+| [[Mdlaw Megbi]] || [[Asmara]]
+|-
+| bgcolor=#ffff44|[[Red Sea FC]] || [[Asmara]]
+|-
+| [[Tesfa FC]] || [[Asmara]]
+|}
+
+==Eswatini==
+{{main|List of football clubs in Eswatini}}
+* Country: {{flagu|Eswatini}}
+* Football association: [[Eswatini Football Association]]
+* Top-level league: [[Premier League of Eswatini]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Green Mamba FC]] || [[Simunye]]
+|-
+| [[Malanti Chiefs F.C.]] || [[Pigg's Peak]]
+|-
+| [[Manzini Sea Birds FC|Manzini Sea Birds F.C.]] || [[Manzini, Swaziland|Manzini]]
+|-
+| [[Manzini Sundowns F.C.]] || [[Manzini, Swaziland|Manzini]]
+|-
+| [[Manzini Wanderers F.C.]] || [[Manzini, Swaziland|Manzini]]
+|-
+| bgcolor=#ffff44|[[Mbabane Swallows F.C.]] || [[Mbabane]]
+|-
+| [[Midas Mbabane City F.C.]] || [[Mbabane]]
+|-
+| [[Moneni Pirates F.C.]] || [[Manzini, Swaziland|Manzini]]
+|-
+| [[Royal Leopards F.C.]] || [[Simunye]]
+|-
+| [[RSSC United FC]] || [[Mhlume]]
+|-
+| [[Umbelebele Jomo Cosmos FC|Umbelebele Jomo Cosmos]] || [[Mbabane]]
+|-
+| [[Young Buffaloes FC]] || [[Matsapha]]
+|}
+
+==Ethiopia==
+{{main|List of football clubs in Ethiopia}}
+* Country: {{flagu|Ethiopia}}
+* Football association: [[Ethiopian Football Federation]]
+* Top-level league: [[Ethiopian Premier League]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Arba Minch FC]] || [[Arba Minch]]
+|-
+| [[Awassa City FC]] || [[Awassa]]
+|-
+| [[CBE SA]] || [[Addis Abeba]]
+|-
+| [[Dashen Beer FC]] || [[Gondar]]
+|-
+| bgcolor=#ffff44|[[Dedebit F.C.|Dedebit FC]] || [[Addis Abeba]]
+|-
+| [[Defence Force SC]] || [[Addis Abeba]]
+|-
+| [[EEPCO F.C.|EEPCO SC]] || [[Addis Abeba]]
+|-
+| [[Ethiopian Coffee FC]] || [[Addis Abeba]]
+|-
+| [[Ethiopian Insurance F.C.|Ethiopian Insurance FC]] || [[Addis Abeba]]
+|-
+| [[Harar Beer Bottling F.C.|Harar Beer Bottling FC]] || [[Harar]]
+|-
+| [[Muger Cement|Muger Cement FC]] || [[Oromiya]]
+|-
+| [[Saint George SC]] || [[Addis Abeba]]
+|-
+| [[Sidama Coffee]] || [[Awassa]]
+|-
+| [[Welayta Dicha]] || [[Sodo]]
+|}
+
+==Gabon==
+{{main|List of football clubs in Gabon}}
+* Country: {{flagu|Gabon}}
+* Football association: [[Gabonese Football Federation]]
+* Top-level league: [[Gabon Championnat National D1]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Pélican]] || [[Lambaréné]]
+|-
+| [[Sapins FC]] || [[Libreville]]
+|-
+| [[Port-Gentil FC]] || [[Port-Gentil]]
+|-
+| [[AS Mangasport]] || [[Moanda]]
+|-
+| [[Missile FC]] || [[Libreville]]
+|-
+| [[US Oyem]] || [[Oyem]]
+|-
+| [[CF Mounana]] || [[Libreville]]
+|-
+| [[USM Libreville]] || [[Libreville]]
+|-
+| [[AC Bongoville]] || [[Bongoville]]
+|-
+| [[Cercle Mbéri Sportif]] || [[Libreville]]
+|-
+| [[Sogéa FC]] || [[Libreville]]
+|-
+| [[AS Solidarité]] || [[Port-Gentil]]
+|-
+| bgcolor=#ffff44|[[US Bitam]] || [[Bitam]]
+|-
+| [[Ocean Club]] || [[Tchibanga]]
+|}
+
+==Gambia==
+{{main|List of football clubs in the Gambia}}
+* Country: {{flagu|Gambia}}
+* Football association: [[Gambia Football Association]]
+* Top-level league: [[Gambian Championnat National D1]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Armed Forces Football Club|Armed Forces]] || [[Banjul]]
+|-
+| [[Bakau United FC]] || [[Bakau]]
+|-
+| [[Banjul United FC]] || [[Banjul]]
+|-
+| [[Brikama United FC]] || [[Brikama]]
+|-
+| [[Gambia Ports Authority F.C.]] || [[Banjul]]
+|-
+| [[Gamtel FC]] || [[Banjul]]
+|-
+| [[Banjul Hawks FC]] || [[Banjul]]
+|-
+| [[Interior FC]] || [[Serrekunda]]
+|-
+| [[Real de Banjul F.C.]] || [[Banjul]]
+|-
+| [[Samger FC]] || [[Kanifing]]
+|-
+| bgcolor=#ffff44|[[Steve Biko FC]] || [[Bakau]]
+|-
+| [[Wallidan F.C.]] || [[Banjul]]
+|}
+
+==Ghana==
+{{main|List of football clubs in Ghana}}
+* Country: {{flagu|Ghana}}
+* Football association: [[Ghana Football Association]]
+* Top-level league: [[Ghana Premier League]]
+
+''As of 2013-14 season''
+{{location map+ |Ghana
+ |float=right
+ |width=350
+ |alt=Locations of the 2013–14 Ghana Premier League
+ |caption=Locations of the 2013–14 Ghana Premier League
+ |places=
+{{location map~ |Ghana |lat=7.283333 |long=-2.883333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Aduana Stars|Aduana]]</div>|position=right}}
+{{location map~ |Ghana |lat=10.066667 |long=-2.5 |label= <div style="font-size:90%;position:relative;top:11px;left:-1px;">[[All Stars F.C.|All Stars]]</div>|position=right}}
+{{location map~ |Ghana |lat=5.666667 |long=0 |label= <div style="font-size:90%;position:relative;top:-7px;left:-3px;">[[Amidaus Professionals FC|Amidaus]]</div>|position=right}}
+{{location map~ |Ghana |lat=7.083333 |long=-2.016667 |label= <div style="font-size:90%;position:relative;top:-5px;left:-2px;">[[Bechem United FC|Bechem]]</div>|position=right}}
+{{location map~ |Ghana |lat=7.45 |long=-2.583333 |label= <div style="font-size:90%;position:relative;top:-5px;left:-2px;">[[Berekum Chelsea F.C.|Chelsea]]</div>|position=right}}
+{{location map~ |Ghana |lat=5.1 |long=-1.25 |label= <div style="font-size:90%;position:relative;top:11px;left:-2px;">[[Ebusua Dwarfs|E. Dwarfs]]</div>|position=right}}
+{{location map~ |Ghana |lat=7 |long=0.3 |label= <div style="font-size:90%;position:relative;top:-5px;left:5px;">[[Heart of Lions F.C.|H. Lions]]</div>|position=left}}
+{{location map~ |Ghana |lat=5.3 |long=-1.983333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[Medeama SC|Medeama]]</div>|position=left}}
+{{location map~ |Ghana |lat=6.066667 |long=-1.4 |label= <div style="font-size:90%;position:relative;top:12px;left:1px;">[[New Edubiase United FC|New&nbsp;Edubiase]]</div>|position=left}}
+{{location map~ |Ghana |lat=4.916667 |long=-1.766667 |label= <div style="font-size:90%;position:relative;top:-5px;left:2px;">[[Sekondi Hasaacas F.C.|Hasaacas]]</div>|position=left}}
+{{location map~ |Ghana |lat=6.2 |long=-1.683333 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Ashanti Gold SC|Ashanti Gold]]</div>|position=left}}
+{{location map~ |Ghana |lat=6.666667 |long=-1.616667 |label= <div style="font-size:90%;position:relative;top:7px;left:-1px;">[[Asante Kotoko SC|Asante&nbsp;Kotoko]]</div>|position=right}}
+{{location map~ |Ghana |lat=6.666667 |long=-1.616667 |label= <div style="font-size:90%;position:relative;top:-4px;left:2px;">[[King Faisal Babes FC|King Faisal]]</div>|position=left}}
+{{location map~ |Ghana |lat=5.55 |long=-0.2 |label=<div style="font-size:90%;position:relative;top:-5px;left:2px;">'''Accra'''</div>|position=left}}
+
+<!--DISPLAY OF ACCRA TEAMS IN BOTTOM RIGHT CORNER-->
+{{Location map~ |Ghana |mark=TransparentPlaceholder.png |marksize=1 |lat=5.2 |long=0.3 |label=<div style="font-size:80%;">'''Accra&nbsp;teams'''<br>
+[[Hearts of Oak SC|Hearts of Oak]]<br>
+[[International Allies F.C.|Int. Allies]]<br>
+[[Liberty Professionals F.C.|Liberty Prof.]]<br>
+</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Aduana Stars|Aduana FC]] || [[Dormaa Ahenkro]]
+|-
+| [[All Stars F.C.]] || [[Wa, Ghana|Wa]]
+|-
+| [[Amidaus Professionals FC]] || [[Tema]]
+|-
+| bgcolor=#ffff44|[[Asante Kotoko SC]] || [[Kumasi]]
+|-
+| [[Ashanti Gold SC]] || [[Obuasi]]
+|-
+| [[Bechem United FC]] || [[Bechem]]
+|-
+| [[Berekum Chelsea F.C.]] || [[Berekum]]
+|-
+| [[Ebusua Dwarfs]] || [[Cape Coast]]
+|-
+| [[Heart of Lions F.C.]] || [[Kpandu]]
+|-
+| [[Accra Hearts of Oak SC|Hearts of Oak SC]] || [[Accra]]
+|-
+| [[International Allies F.C.]] || [[Accra]]
+|-
+| [[King Faisal Babes FC]] || [[Kumasi]]
+|-
+| [[Liberty Professionals F.C.]] || [[Accra]]
+|-
+| [[Medeama SC]] || [[Tarkwa, Ghana|Tarkwa]]
+|-
+| [[New Edubiase United FC]] || [[New Edubiase]]
+|-
+| [[Sekondi Hasaacas F.C.]] || [[Sekondi-Takoradi]]
+|}
+
+==Guinea==
+{{main|List of football clubs in Guinea}}
+* Country: {{flagu|Guinea}}
+* Football association: [[Guinean Football Federation]]
+* Top-level league: [[Guinée Championnat National]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Ashanti Golden Boys]] || [[Siguiri]]
+|-
+| [[AS Batè Nafadji]] || [[Kindia]]
+|-
+| [[AS Kaloum Star]] || [[Siguiri]]
+|-
+| [[Athlético de Coléah]] || [[Conakry]]
+|-
+| [[Club Industriel de Kamsar|CI Kamsar]] || [[Kamsar]]
+|-
+| [[Espoir de Labé]] || [[Labé]]
+|-
+| [[FC Séquence de Dixinn|FC Séquence]] || [[Dixinn]]
+|-
+| [[Fello Star]] || [[Labé]]
+|-
+| bgcolor=#ffff44|[[Horoya AC]] || [[Conakry]]
+|-
+| [[Santoba FC]] || [[Conakry]]
+|-
+| [[Satellite FC]] || [[Conakry]]
+|-
+| [[Soumba FC]] || [[Soumba]]
+|}
+
+==Guinea-Bissau==
+{{main|List of football clubs in Guinea-Bissau}}
+* Country: {{flagu|Guinea-Bissau}}
+* Football association: [[Football Federation of Guinea-Bissau]]
+* Top-level league: [[Campeonato Nacional da Guiné-Bissau]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Sport Bissau e Benfica]] || [[Bissau]]
+|-
+| bgcolor=#ffff44|[[CF Os Balantas]] || [[Mansôa]]
+|-
+| [[Nuno Tristão FC]] || [[Bula (Guinea-Bissau)|Bula]]
+|-
+| [[Sporting Clube de Bissau]] || [[Bissau]]
+|-
+| [[Sporting Clube de Bafatá]] || [[Bafatá]]
+|-
+| [[Estrela Negra de Bissau]] || [[Bissau]]
+|-
+| [[Mavegro FC]] || [[Bissau]]
+|-
+| [[SC Portos de Bissau]] || [[Bissau]]
+|-
+| [[União Desportiva Internacional]] || União
+|-
+| [[Cuntum FC]] || Cuntum
+|}
+
+==Ivory Coast==
+{{main|List of football clubs in Ivory Coast}}
+* Country: {{flagu|Ivory Coast}}
+* Football association: [[Ivorian Football Federation]]
+* Top-level league: [[Ligue 1 (Ivory Coast)|Ligue 1]]
+
+''As of 2013 season''
+{{Location map+ |Ivory Coast |width=425 |float=above |caption=Locations of the 2012–13 Ligue 1 teams |places=
+{{Location map~ |Ivory Coast |lat=5.3364|long=-4.0266 |label=Abidjan |position=top }}
+{{Location map~ |Ivory Coast |lat=6.72972 |long=-3.49639 |label=[[AS Indenié Abengourou|AS Indenié]]| }}
+{{Location map~ |Ivory Coast |lat=7.8000|long=-3.1700 |label=[[AS Tanda]]|position=left }}
+{{Location map~ |Ivory Coast |lat=6.983333|long=-5.75 |label=[[CO Bouaflé]] |position=left }}
+{{Location map~ |Ivory Coast |lat=9.461254 |long=-5.638733 |label=[[CO Korhogo]] }}
+{{Location map~ |Ivory Coast |lat=9.501389 |long=-7.5625 |label=[[Denguelé Sports d'Odienné|Denguelé Sports]]| }}
+{{Location map~ |Ivory Coast |lat=6.81 |long=-5.2955 |label=[[Société Omnisports de l'Armée|S.O.A.]]| }}
+{{Location map~ |Ivory Coast |lat=5.2 |long=-06.3819 |label=[[Séwé Sports de San Pedro|Séwé Sports]] }}
+{{Location map~ |Ivory Coast |lat=6.13333|long=-5.93333 |label=[[Sporting Club de Gagnoa|SC Gagnoa]] |position=bottom }}
+{{Location map~ |Ivory Coast |lat=5.12|long=-3.733333 |label=[[USC Bassam]] |position=bottom }}
+<!--DISPLAY OF ABIDJAN TEAMS IN BOTTOM LEFT CORNER-->
+{{Location map~ |Ivory Coast |mark=TransparentPlaceholder.png |marksize=1 |lat=5 |long=-2.6 |label=<div style="font-size:80%;">'''Abidjan&nbsp;teams'''<br>
+[[Africa Sports National|Africa Sports]]<br>
+[[ASEC Mimosas]]<br>
+[[Academie de Foot Amadou Diallo|Djékanou]]<br>
+[[Jeunesse Club d'Abidjan|JCA]]<br>
+[[Stella Club d'Adjamé|Stella]]<br>
+</div>|position=top}}
+}}
+
+{| class="wikitable sortable"
+!width="300px" scope="col"|Club
+!width="150px" scope="col"|Location
+|-
+| [[Academie de Foot Amadou Diallo]] || [[Djékanou]]
+|-
+| [[Africa Sports National]] || [[Abidjan]]
+|-
+| [[AS Indenié Abengourou|AS Indenié]] || [[Abengourou]]
+|-
+| [[AS Tanda]] || [[Tanda Department|Tanda]]
+|-
+| [[ASEC Mimosas]] || [[Abidjan]]
+|-
+| [[Club Omnisport Bouaflé|CO Bouaflé]] || [[Bouaflé]]
+|-
+| [[Club Omnisport Korhogo|CO Korhogo]] || [[Korhogo]]
+|-
+| [[Denguelé Sports d'Odienné]] || [[Odienné]]
+|-
+| [[Jeunesse Club d'Abidjan|JC Abidjan]] || [[Abidjan]]
+|-
+| bgcolor=#ffff44|[[Séwé Sports de San Pedro]] || [[San Pédro, Côte d'Ivoire|San Pédro]]
+|-
+| [[Société Omnisports de l'Armée|S.O.A.]] || [[Yamoussoukro]]
+|-
+| [[Sporting Club de Gagnoa|SC Gagnoa]] || [[Gagnoa]]
+|-
+| [[Stella Club d'Adjamé]] || [[Abidjan]]
+|-
+| [[USC Bassam]] || [[Grand-Bassam]]
+|}
+
+==Kenya==
+{{main|List of football clubs in Kenya}}
+* Country: {{flagu|Kenya}}
+* Football association: [[Football Kenya Federation]]
+* Top-level league: [[Kenyan Premier League]]
+
+''As of [[2014 Kenyan Premier League|2014 season]]''
+{{location map+ |Kenya |float=right |width=380 |caption=Locations of the 2014 Kenyan Premier League teams.|places=
+{{location map~ |Kenya |lat=-4.045006 |long=39.666154 |label= <div style="font-size:80%;">[[Bandari F.C. (Kenya)|Bandari]]</div>|position=right}}
+{{location map~ |Kenya |lat=-0.077675 |long=35.130832 |label= <div style="font-size:80%;">[[Chemelil Sugar F.C.|Chemelil]]</div>|position=left}}
+{{location map~ |Kenya |lat=-0.148921 |long=35.196339 |label= <div style="font-size:80%;">[[Muhoroni Youth F.C.|Muhoroni]]</div>|position=right}}
+{{location map~ |Kenya |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">Nairobi</div>|position=left}}
+{{location map~ |Kenya |lat=-0.895049 |long=34.533800 |label= <div style="font-size:80%;">[[Sony Sugar F.C.|Sony]]</div>|position=right}}
+{{location map~ |Kenya |lat=-1.038757 |long=37.083375 |label= <div style="font-size:80%;">[[Thika United F.C.|Thika]]</div>|position=right}}
+{{location map~ |Kenya |lat=-0.295637 |long=36.074399 |label= <div style="font-size:80%;">[[Nakuru Top Fry AllStars|AllStars]]</div>|position=bottom}}
+{{location map~ |Kenya |lat=-0.295637 |long=36.074399 |label= <div style="font-size:80%;">[[Ulinzi Stars F.C.|Ulinzi]]</div>|position=right}}
+{{location map~ |Kenya |lat=0.2898210 |long=34.761281 |label= <div style="font-size:80%;">[[Western Stima F.C.|Stima]]</div>|position=right}}
+}}
+{{location map+ |Nairobi |float=right |width=380 |caption=Locations of the 2014 Kenyan Premier League teams within [[Nairobi]].|places=
+{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[A.F.C. Leopards|Leopards]]</div>|position=bottom}}
+{{location map~ |Nairobi |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">[[Gor Mahia F.C.|Gor Mahia]]</div>|position=right}}
+{{location map~ |Nairobi |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">[[Kenya Commercial Bank S.C.|KCB]]</div>|position=left}}
+{{location map~ |Nairobi |lat=-1.300700 |long=36.807000 |label= <div style="font-size:80%;">[[Kenya Revenue Authority F.C.|KRA]]</div>|position=left}}
+{{location map~ |Nairobi |lat=-1.228242 |long=36.890776 |label= <div style="font-size:80%;">[[Mathare United|Mathare]]</div>|position=right}}
+{{location map~ |Nairobi |lat=-1.285067 |long=36.757904 |label= <div style="font-size:80%;">[[Nairobi City Stars|City Stars]]</div>|position=left}}
+<!--{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[Rangers F.C. (Kenya)|Rangers]]</div>|position=bottom}}-->
+{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[Sofapaka]]</div>|position=right}}
+{{location map~ |Nairobi |lat=-1.228242 |long=36.890776 |label= <div style="font-size:80%;">[[Tusker F.C.|Tusker]]</div>|position=left}}
+}}
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[A.F.C. Leopards]] || [[Nairobi]]
+|-
+| [[Bandari F.C. (Kenya)|Bandari F.C.]] || [[Mombasa]]
+|-
+| [[Chemelil Sugar F.C.]] || [[Chemelil]]
+|-
+| bgcolor=#ffff44|[[Gor Mahia F.C.]] || [[Nairobi]]
+|-
+| [[Kenya Commercial Bank S.C.|K.C.B. S.C.]] || Nairobi
+|-
+| [[Kenya Revenue Authority F.C.|K.R.A. F.C.]] || [[Nairobi]]
+|-
+| [[Mathare United F.C.|Mathare United]] || Nairobi
+|-
+| [[Muhoroni Youth F.C.]] || [[Muhoroni]]
+|-
+| [[Nairobi City Stars]] || [[Nairobi]]
+|-
+| [[Sofapaka F.C.]] || [[Nairobi]]
+|-
+| [[Sony Sugar F.C.]] || Awendo
+|-
+| [[Thika United F.C.|Thika United]] || [[Thika]]
+|-
+| [[Nakuru Top Fry AllStars|Top Fry AllStars]] || [[Nakuru]]
+|-
+| [[Tusker F.C.]] || [[Nairobi]]
+|-
+| [[Ulinzi Stars F.C.]] || [[Nakuru]]
+|-
+| [[Western Stima F.C.]] || [[Kakamega]]
+|}
+
+==Lesotho==
+{{main|List of football clubs in Lesotho}}
+* Country: {{flagu|Lesotho}}
+* Football association: [[Lesotho Football Association]]
+* Top-level league: [[Lesotho Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Bantu FC]] || [[Mafeteng]]
+|-
+| [[Joy FC]] || [[Hlotse]]
+|-
+| [[Lesotho Correctional Services]] || [[Maseru]]
+|-
+| [[Lesotho Defence Force FC]] || [[Maseru]]
+|-
+| [[Likhopo FC]] || [[Maseru]]
+|-
+| [[Linare FC]] || [[Hlotse]]
+|-
+| bgcolor=#ffff44|[[Lioli FC]] || [[Teyateyaneng]]
+|-
+| [[LMPS|LMPS FC]] || [[Maseru]]
+|-
+| [[Matlama FC]] || [[Maseru]]
+|-
+| [[Melele FC]] || [[Qacha's Nek]]
+|-
+| [[Mpharane Celtics FC]] || Mpharane
+|-
+| [[Mphatlalatsane FC]] || [[Hlotse]]
+|-
+| [[Nyenye Rovers FC]] || [[Hlotse]]
+|-
+| [[Qoaling Highlanders]] || [[Maseru]]
+|}
+
+==Liberia==
+{{main|List of football clubs in Liberia}}
+* Country: {{flagu|Liberia}}
+* Football association: [[Liberia Football Association]]
+* Top-level league: [[Liberian Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[Barrack Young Controllers FC|Barrack Young Controllers]] || [[Monrovia]]
+|-
+| [[Red Lions FC (Monrovia)|Red Lions FC]] || [[Monrovia]]
+|-
+| [[Ganta Black Stars]] || [[Ganta]]
+|-
+| [[Invincible Eleven]] || [[Monrovia]]
+|-
+| [[Jubilee FC]] || [[Monrovia]]
+|-
+| [[Keitrace FC]] || [[Monrovia]]
+|-
+| [[Liberia Ship Corporate Registry Football Club|LISCR FC]] || [[Monrovia]]
+|-
+| [[Liberia Petroleum Refining Company Oilers|LPRC Oilers]] || [[Monrovia]]
+|-
+| [[Mighty Blue Angels FC]] || [[Monrovia]]
+|-
+| [[Monrovia Club Breweries]] || [[Monrovia]]
+|-
+| [[National Port Authority Anchors|NPA Anchors]] || [[Monrovia]]
+|-
+| [[Watanga FC]] || [[Monrovia]]
+|}
+
+==Libya==
+{{main|List of football clubs in Libya}}
+* Country: {{flagu|Libya}}
+* Football association: [[Libyan Football Federation]]
+* Top-level league: [[Libyan Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Al-Ahly SC (Benghazi)|Al-Ahly S.C.]] || [[Benghazi]]
+|-
+| [[Al-Ahli SC (Tripoli)|Al-Ahli S.C.]] || [[Tripoli]]
+|-
+| [[Al Akhdar S.C.]] || [[Bayda, Libya|Bayda]]
+|-
+| [[Al-Hilal SC (Benghazi)|Al-Hilal S.C.]] || [[Benghazi]]
+|-
+| bgcolor=#ffff44|[[Al-Ittihad Club (Tripoli)|Al-Ittihad S.C.]] || [[Tripoli]]
+|-
+| [[Al-Madina S.C.]] || [[Tripoli]]
+|-
+| [[Annajma S.C.]] || [[Benghazi]]
+|-
+| [[Al-Nasr SC (Benghazi)|Al-Nasr S.C.]] || [[Benghazi]]
+|-
+| [[Olympic Azzaweya S.C.]] || [[Zawiya, Libya|Zawiya]]
+|-
+| [[Al-Shat S.C.]] || [[Tripoli]]
+|-
+| [[Asswehly S.C.]] || [[Misrata]]
+|-
+| [[Al Tahaddy SC (Benghazi)|Al Tahaddy S.C.]] || [[Benghazi]]
+|-
+| [[Attersana S.C.]] || [[Tripoli]]
+|-
+| [[Al-Wahda SC (Tripoli)|Al-Wahda S.C.]] || [[Tripoli]]
+|-
+| [[Darnes Sports Club|Darnes S.C.]] || [[Derna, Libya|Derna]]
+|-
+| [[Khaleej Sirte S.C.]] || [[Sirte]]
+|}
+
+==Madagascar==
+{{main|List of football clubs in Madagascar}}
+* Country: {{flagu|Madagascar}}
+* Football association: [[Malagasy Football Federation]]
+* Top-level league: [[THB Champions League]]
+
+''As of 2013-14season, (LIGUE DES CHAMPIONS)''
+
+===Group A===
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Saint Michel]] || [[Antananarivo]]
+|-
+| [[Tana FC Formation]] || [[Analamanga]]
+|-
+| [[TCO Boeny]] || [[Boeny]]
+|-
+| [[FC Vakinankaratra]] || [[Vakinankaratra]]
+|-
+| [[Kohinoor SC]] || [[Diana, Madagascar|Diana]]
+|-
+| [[Ajesaia|Ajesaia Antananarivo]] || [[Antananarivo]]
+|}
+
+===Group B ===
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[CNaPS Sport]] || [[Miarinarivo]]
+|-
+| [[FCE Atsinanana]] || [[Atsinanana]]
+|-
+| [[Tiavo Tem]] || [[Manakara]]
+|-
+| [[ASJFC Capricorne]] || [[Atsimo-Andrefana]]
+|-
+| [[AS Espoir Ambovombe]] || [[Ambovombe-Androy]]
+|-
+| [[FC Grand Olympique de Menabe|FC Grand Olympique]] || [[Menabe]]
+|}
+
+==Malawi==
+{{main|List of football clubs in Malawi}}
+* Country: {{flagu|Malawi}}
+* Football association: [[Football Association of Malawi]]
+* Top-level league: [[Malawi Premiere Division]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Big Bullets F.C.]] || [[Blantyre, Malawi|Blantyre]]
+|-
+| [[Blue Eagles FC]] || [[Lilongwe]]
+|-
+| [[Blantyre United FC]] || [[Blantyre, Malawi|Blantyre]]
+|-
+| [[Blue Eagles FC]] || [[Lilongwe]]
+|-
+| [[CIVO United]] || [[Lilongwe]]
+|-
+| [[Envirom FC]] || [[Zomba, Malawi|Zomba]]
+|-
+| [[EPAC United]] || [[Lilongwe]]
+|-
+| [[Kamuzu Barracks FC]] || [[Blantyre, Malawi|Blantyre]]
+|-
+| [[Malawi Armed Forces College F.C.|MAFCO FC]] || [[Salima (township)|Salima]]
+|-
+| [[Mighty Wanderers F.C.|Mighty Wanderers FC]] || [[Blantyre, Malawi|Blantyre]]
+|-
+| [[Moyale Barracks FC]] || [[Mzuzu]]
+|-
+| [[Mponela United FC]] || [[Mponela]]
+|-
+| [[Red Lions FC (Malawi)|Red Lions FC]] || [[Zomba, Malawi|Zomba]]
+|-
+| bgcolor=#ffff44|[[Silver Strikers F.C.|Silver Strikers FC]] || [[Lilongwe]]
+|-
+| [[Super Eagles FC]] || [[Mzuzu]]
+|-
+| [[Tigers FC (Blantyre)|Tigers FC]] || [[Blantyre, Malawi|Blantyre]]
+|}
+
+==Mali==
+{{main|List of football clubs in Mali}}
+* Country: {{flagu|Mali}}
+* Football association: [[Malian Football Federation]]
+* Top-level league: [[Malien Premiere Division]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Bakaridjan]] || [[Ségou]]
+|-
+| [[Association Sportive de Bamako|AS Bamako]] || [[Bamako]]
+|-
+| [[AS Nianan]] || [[Koulikoro]]
+|-
+| [[AS Olympique de Messira]] || [[Bamako]]
+|-
+| [[AS Police (Bamako)|AS Police]] || [[Bamako]]
+|-
+| [[AS Real Bamako]] || [[Bamako]]
+|-
+| [[Cercle Olympique de Bamako]] || [[Bamako]]
+|-
+| [[CS Duguwolofila]] || [[Koulikoro]]
+|-
+| [[Débo Club de Mopti]] || [[Mopti]]
+|-
+| [[Djoliba AC]] || [[Bamako]]
+|-
+| [[AS Eliwidj FC]] || [[Aguelhok]]
+|-
+| [[JS Centre Salif Keita]] || [[Bamako]]
+|-
+| [[Office du Niger Sports]] || [[Ségou]]
+|-
+| [[Onze Créateurs de Niaréla]] || [[Bamako]]
+|-
+| bgcolor=#ffff44|[[Stade Malien]] || [[Bamako]]
+|-
+| [[USFAS Bamako]] || [[Bamako]]
+|}
+
+==Mauritania==
+{{main|List of football clubs in Mauritania}}
+* Country: {{flagu|Mauritania}}
+* Football association: [[Football Federation of the Islamic Republic of Mauritania]]
+* Top-level league: [[Ligue 1 Mauritania]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[ADK Moderne]] || [[Kaédi]]
+|-
+| [[ASAC Concorde]] || [[Nouakchott]]
+|-
+| [[ACS Ksar]] || [[Nouakchott]]
+|-
+| [[ASC Armée Nationale]] || [[Nouakchott]]
+|-
+| [[ASC Assaba]] || [[Assaba]]
+|-
+| [[AS Garde Nationale]] || [[Nouakchott]]
+|-
+| [[ASC Guemeul]] || [[Rosso]]
+|-
+| [[ASC Kédia]] || [[Zouérate]]
+|-
+| [[ASC Nasr de Sebkha]] || [[Sebkha, Mauritania|Sebkha]]
+|-
+| [[FC Tevragh-Zeina]] || [[Nouakchott]]
+|-
+| [[ASC Tidjikja]] || [[Nouakchott]]
+|-
+| [[ASC Snim]] || [[Nouadhibou]]
+|-
+| bgcolor=#ffff44|[[FC Nouadhibou]] || [[Nouadhibou]]
+|-
+| [[ASC Trarza Nadi Sporting|ASC Trarza NS]] || [[Rosso]]
+|}
+
+==Mauritius==
+{{main|List of football clubs in Mauritius}}
+* Country: {{flagu|Mauritius}}
+* Football association: [[Mauritius Football Association]]
+* Top-level league: [[Mauritian League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS de Vacoas-Phoenix]] || [[Vacoas-Phoenix]]
+|-
+| [[AS Port-Louis 2000]] || [[Port Louis]]
+|-
+| [[AS Rivière du Rempart]] || [[Mapou]]
+|-
+| [[Bolton City Youth Club]] || [[Central Flacq]]
+|-
+| [[Cercle de Joachim SC]] || [[Curepipe]]
+|-
+| [[Chamarel FC]] || [[Bambous, Mauritius|Bambous]]
+|-
+| bgcolor=#ffff44|[[Curepipe Starlight SC]] || [[Curepipe]]
+|-
+| [[Entente Boulet Rouge-Riche Mare Rovers]] || [[Central Flacq]]
+|-
+| [[Pamplemousses SC]] || Belle Vue Maurel
+|-
+| [[Petite Rivière Noire SC]] || [[Tamarin, Mauritius|Tamarin]]
+|}
+
+==Morocco==
+{{main|List of football clubs in Morocco}}
+* Country: {{flagu|Morocco}}
+* Football association: [[Royal Moroccan Football Federation]]
+* Top-level league: [[Botola|Botola 1]]
+
+''As of 2013 season''
+{{location map+ |Morocco
+ |float=right
+ |width=450
+ |alt=Locations of the 2013–14 Botola 1
+ |caption=Locations of the 2013–14 Botola 1
+ |places=
+{{location map~ |Morocco |lat=34.033333 |long=-6.8 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[AS Salé|Salé]]</div>|position=left}}
+{{location map~ |Morocco |lat=35.25 |long=-3.933333 |label= <div style="font-size:90%;position:relative;top:-6px;left:-3px;">[[Chabab Rif Al Hoceima|Al Hoceima]]</div>|position=right}}
+{{location map~ |Morocco |lat=33.233333 |long=-8.5 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Difaâ El Jadidi|El Jadidi]]</div>|position=left}}
+{{location map~ |Morocco |lat=30.433333 |long=-9.6 |label= <div style="font-size:90%;position:relative;top:8px;left:-2px;">[[Hassania Agadir|Hassania]]</div>|position=right}}
+{{location map~ |Morocco |lat=34.25 |long=-6.583333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[KAC Kénitra|Kénitra]]</div>|position=left}}
+{{location map~ |Morocco |lat=31.63 |long=-8.008889 |label= <div style="font-size:90%;position:relative;top:11px;left:-2px;">[[Kawkab Marrakech|Kawkab]]</div>|position=right}}
+{{location map~ |Morocco |lat=35.566667 |long=-5.366667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Moghreb Tétouan|Moghreb T.]]</div>|position=left}}
+{{location map~ |Morocco |lat=32.283333 |long=-9.233333 |label= <div style="font-size:90%;position:relative;top:8px;left:1px;">[[Olympic Safi|Safi]]</div>|position=left}}
+{{location map~ |Morocco |lat=32.883333 |long=-6.9 |label= <div style="font-size:90%;position:relative;top:12px;left:-1px;">[[OC Khouribga|Khouribga]]</div>|position=right}}
+{{location map~ |Morocco |lat=34.916667 |long=-2.316667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Nahdat Berkane|Nahdat]]</div>|position=left}}
+{{location map~ |Morocco |lat=34.033333 |long=-5 |label=<div style="font-size:90%;position:relative;top:8px;left:-1px;">[[MAS Fez|Maghreb F.]]</div>|position=right}}
+{{location map~ |Morocco |lat=34.033333 |long=-5 |label=<div style="font-size:90%;position:relative;top:18px;left:-1px;">[[Widad Fez|Widad F.]]</div>|position=right}}
+{{location map~ |Morocco |lat=33.533333 |long=-7.583333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Raja Casablanca|Raja]]</div>|position=right}}
+{{location map~ |Morocco |lat=33.533333 |long=-7.583333 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Wydad Casablanca|Wydad]]</div>|position=left}}
+{{location map~ |Morocco |lat=34.020882 |long=-6.84165 |label= <div style="font-size:90%;position:relative;top:8px;left:-1px;">[[FAR Rabat|FAR]]</div>|position=right}}
+{{location map~ |Morocco |lat=34.020882 |long=-6.84165 |label= <div style="font-size:90%;position:relative;top:18px;left:-1px;">[[Fath Union Sport|Fath]]</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Salé]] || [[Salé]]
+|-
+| [[Chabab Rif Al Hoceima|CR Al Hoceima]] || [[Al Hoceima]]
+|-
+| [[Difaâ El Jadidi|DH El Jadidi]] || [[El Jadida]]
+|-
+| [[FAR Rabat|AS FAR]] || [[Rabat]]
+|-
+| [[Fath Union Sport|Fath US]] || [[Rabat]]
+|-
+| [[Hassania Agadir|Hassania US Agadir]] || [[Agadir]]
+|-
+| [[KAC Kénitra|Kénitra AC]] || [[Kénitra]]
+|-
+| [[Kawkab Marrakech|Kawkab AC Marrakech]] || [[Marrakech]]
+|-
+| [[MAS Fez|Maghreb AS Fes]] || [[Fes]]
+|-
+| bgcolor=#ffff44|[[Moghreb Tétouan|MA Tétouan]] || [[Tétouan]]
+|-
+| [[Olympic Safi|OC Safi]] || [[Safi, Morocco|Safi]]
+|-
+| [[OC Khouribga]] || [[Khouribga]]
+|-
+| [[Raja Casablanca|Raja CA]] || [[Casablanca]]
+|-
+| [[Renaissance de Berkane|RS Berkane]] || [[Berkane]]
+|-
+| [[Wydad Casablanca|Wydad AC]] || [[Casablanca]]
+|-
+| [[Widad Fez|WA Fes]] || [[Fes]]
+|}
+
+==Mozambique==
+{{main|List of football clubs in Mozambique}}
+* Country: {{flagu|Mozambique}}
+* Football association: [[Mozambican Football Federation]]
+* Top-level league: [[Moçambola]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[Liga Muçulmana de Maputo|Liga Muçulmana]] || [[Maputo]]
+|-
+| [[Clube Ferroviário da Beira|Ferroviário Beira]] || [[Beira, Mozambique|Beira]]
+|-
+| [[GD HCB Songo]] || [[Songo, Mozambique|Songo]]
+|-
+| [[Clube Ferroviário de Maputo|Ferroviário Maputo]] || [[Maputo]]
+|-
+| [[CD Costa do Sol]] || [[Maputo]]
+|-
+| [[C.D. Maxaquene]] || [[Maputo]]
+|-
+| [[FC Chibuto]] || [[Chibuto]]
+|-
+| [[Clube Ferroviário de Nampula|Ferroviário Nampula]] || [[Nampula]]
+|-
+| [[Clube Desportivo de Nacala|CD Nacala]] || [[Nacala]]
+|-
+| [[GD Estrela Vermelha]] || [[Maputo]]
+|-
+| [[GD da Companhia Têxtil do Punguè]] || [[Beira, Mozambique|Beira]]
+|-
+| [[Clube Ferroviário de Pemba|Ferroviário Pemba]] || [[Pemba, Mozambique|Pemba]]
+|-
+| [[Grupo Desportivo de Maputo|Desportivo Maputo]] || [[Maputo]]
+|}
+
+==Namibia==
+{{main|List of football clubs in Namibia}}
+* Country: {{flagu|Namibia}}
+* Football association: [[Namibia Football Association]]
+* Top-level league: [[Namibia Premier League]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[African Stars F.C.]] || [[Windhoek]]
+|-
+| bgcolor=#ffff44|[[Black Africa F.C.]] || [[Windhoek]]
+|-
+| [[Blue Boys F.C.]] || [[Swakopmund]]
+|-
+| [[Blue Waters F.C.]] || [[Walvis Bay]]
+|-
+| [[Eleven Arrows F.C.]] || [[Walvis Bay]]
+|-
+| [[F.C. Civics Windhoek]] || [[Windhoek]]
+|-
+| [[Orlando Pirates S.C.]] || [[Windhoek]]
+|-
+| [[Ramblers F.C.]] || [[Windhoek]]
+|-
+| [[Rundu Chiefs FC|Rundu Chiefs F.C.]] || [[Rundu]]
+|-
+| [[Tura Magic F.C.]] || [[Windhoek]]
+|-
+| [[United Africa Tigers]] || [[Windhoek]]
+|-
+| [[United Stars F.C.]] || [[Rundu]]
+|}
+
+==Niger==
+{{main|List of football clubs in Niger}}
+* Country: {{flagu|Niger}}
+* Football association: [[Nigerien Football Federation]]
+* Top-level league: [[Niger Premier League]]
+
+''As of 2014 season:''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[AS Douanes (Niamey)|AS Douanes]] || [[Niamey]]
+|-
+| [[AS FAN Niamey|AS FAN]] || [[Niamey]]
+|-
+| [[Olympic FC de Niamey|Olympic FC]] || [[Niamey]]
+|-
+| [[Sahel SC]] || [[Niamey]]
+|-
+| [[Akokana FC d'Arlit|Akokana FC]] || [[Arlit]]
+|-
+| [[US GN|US Gendarmerie Nationale]] || [[Niamey]]
+|-
+| [[Urana FC d'Arlit|Urana FC]] || [[Arlit]]
+|-
+| [[ASN Nigelec]] || [[Niamey]]
+|-
+| [[AS GNN]] || [[Niamey]]
+|-
+| [[Kandadji Sport]] || [[Niamey]]
+|-
+| [[Zumunta AC]] || [[Niamey]]
+|-
+| [[Espoir FC (Niger)|Espoir FC]] || [[Zinder]]
+|-
+| [[Dan Kassawa FC]] || [[Maradi, Niger|Maradi]]
+|-
+| [[Alkali Nassara Club]] || [[Zinder]]
+|}
+
+==Nigeria==
+{{main|List of football clubs in Nigeria}}
+* Country: {{flagu|Nigeria}}
+* Football association: [[Nigeria Football Federation]]
+* Top-level league: [[Nigeria Premier League]]
+
+''As of 2014:''
+{{location map+ |Nigeria
+ |float=right
+ |width=500
+ |alt=Locations of the 2013–14 Nigeria Premier League
+ |caption=Locations of the 2013–14 Nigeria Premier League
+ |places=
+{{location map~ |Nigeria |lat=4.75 |long=7 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Dolphins F.C. (Port Harcourt)|Dolphins]]</div>|position=right}}
+{{location map~ |Nigeria |lat=4.75 |long=7 |label= <div style="font-size:80%;position:relative;top:22px;left:-3px;">[[Sharks F.C.|Sharks]]</div>|position=right}}
+{{location map~ |Nigeria |lat=5.533333 |long=7.483333 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Abia Warriors F.C.|Abia War.]]</div>|position=right}}
+{{location map~ |Nigeria |lat=5.05 |long=7.933333 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Akwa United F.C.|Akwa Utd]]</div>|position=right}}
+{{location map~ |Nigeria |lat=5.033333 |long=6.333333 |label= <div style="font-size:80%;position:relative;top:12px;left:5px;">[[Bayelsa United F.C.|Bayelsa Utd]]</div>|position=left}}
+{{location map~ |Nigeria |lat=8.133333 |long=4.25 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Crown F.C.|Crown]]</div>|position=right}}
+{{location map~ |Nigeria |lat=11.833333 |long=13.15 |label= <div style="font-size:80%;position:relative;top:-5px;left:3px;">[[El-Kanemi Warriors F.C.|El-Kanemi]]</div>|position=left}}
+{{location map~ |Nigeria |lat=6.452667 |long=7.510333 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Enugu Rangers|Rangers]]</div>|position=right}}
+{{location map~ |Nigeria |lat=5.116667 |long=7.366667 |label= <div style="font-size:80%;position:relative;top:-4px;left:-4px;">[[Enyimba International F.C.|Enyimba]]</div>|position=right}}
+{{location map~ |Nigeria |lat=9.933333 |long=8.883333 |label= <div style="font-size:80%;position:relative;top:8px;left:1px;">[[Giwa FC|Giwa]]</div>|position=left}}
+{{location map~ |Nigeria |lat=10.283333 |long=11.166667 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Gombe United F.C.|Gombe Utd]]</div>|position=right}}
+{{location map~ |Nigeria |lat=5.485 |long=7.035 |label= <div style="font-size:80%;position:relative;top:-5px;left:3px;">[[Heartland F.C.|Heartland]]</div>|position=left}}
+{{location map~ |Nigeria |lat=10.516667 |long=7.433333 |label= <div style="font-size:80%;position:relative;top:12px;left:3px;">[[Kaduna United F.C.|Kaduna Utd]]</div>|position=left}}
+{{location map~ |Nigeria |lat=12 |long=8.516667 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Kano Pillars F.C.|Pillars]]</div>|position=left}}
+{{location map~ |Nigeria |lat=7.730556 |long=8.536111 |label=<div style="font-size:80%;position:relative;top:-6px;left:3px;">[[Lobi Stars F.C.|Lobi Stars]]</div>|position=left}}
+{{location map~ |Nigeria |lat=8.491667 |long=8.516667 |label=<div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Nasarawa United F.C.|Nasarawa Utd]]</div>|position=right}}
+{{location map~ |Nigeria |lat=4.533333 |long=6.283333 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Nembe City F.C.|Nembe City]]</div>|position=left}}
+{{location map~ |Nigeria |lat=7.25 |long=5.195 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Sunshine Stars F.C.|Sunshine Stars]]</div>|position=left}}
+{{location map~ |Nigeria |lat=8.9 |long=11.366667 |label=<div style="font-size:80%;position:relative;top:-4px;left:2px;">[[Taraba F.C.|Taraba]]</div>|position=left}}
+{{location map~ |Nigeria |lat=5.516667 |long=5.75 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Warri Wolves F.C.|Warri Wolves]]</div>|position=left}}
+}}
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Abia Warriors F.C.]] || [[Umuahia]]
+|-
+| [[Akwa United F.C.]] || [[Uyo]]
+|-
+| [[Bayelsa United F.C.]] || [[Yenegoa]]
+|-
+| [[Crown F.C.]] || [[Ogbomosho]]
+|-
+| [[Dolphins F.C. (Port Harcourt)|Dolphins F.C.]] || [[Port Harcourt]]
+|-
+| [[El-Kanemi Warriors F.C.]] || [[Maiduguri]]
+|-
+| [[Enugu Rangers]] || [[Enugu]]
+|-
+| [[Enyimba International F.C.]] || [[Aba, Abia|Aba]]
+|-
+| [[Giwa FC|Giwa F.C.]] || [[Jos]]
+|-
+| [[Gombe United F.C.]] || [[Gombe, Nigeria|Gombe]]
+|-
+| [[Heartland F.C.]] || [[Owerri]]
+|-
+| [[Kaduna United F.C.]] || [[Kaduna]]
+|-
+| bgcolor=#ffff44|[[Kano Pillars F.C.]] || [[Kano]]
+|-
+| [[Lobi Stars F.C.]] || [[Makurdi]]
+|-
+| [[Nasarawa United F.C.]] || [[Lafia]]
+|-
+| [[Nembe City F.C.]] || [[Nembe]]
+|-
+| [[Sharks F.C.]] || [[Port Harcourt]]
+|-
+| [[Sunshine Stars F.C.]] || [[Akure]]
+|-
+| [[Taraba F.C.]] || [[Jalingo]]
+|-
+| [[Warri Wolves F.C.]] || [[Warri]]
+|}
+
+==Réunion==
+{{main|List of football clubs in Réunion}}
+* Country: {{flagu|Réunion}}
+* Football association: [[Réunionese Football League]]
+* Top-level league: [[Réunion Premier League]]
+
+''As of 2013 season:''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AJ Petite-Île]] || [[Saint-Joseph, Réunion|Saint-Joseph]]
+|-
+| [[AS Excelsior]] || [[Saint-Joseph, Réunion|Saint-Joseph]]
+|-
+| [[JS Saint-Pierroise]] || [[Saint-Pierre, Réunion|Saint-Pierre]]
+|-
+| [[Saint-Denis FC]] || [[Saint-Denis, Réunion|Saint-Denis]]
+|-
+| [[Saint-Pauloise FC]] || [[Saint-Paul, Réunion|Saint-Paul]]
+|-
+| [[SS Jeanne d'Arc]] || [[Le Port, Réunion|Le Port]]
+|-
+| [[SS Rivière Sport]] || [[La Rivière, Réunion|La Rivière]]
+|-
+| [[SS Saint-Louisienne]] || [[Saint-Louis, Réunion|Saint-Louis]]
+|-
+| [[US Bénédictine]] || [[Saint-Benoît, Réunion|Saint-Benoît]]
+|-
+| [[US Possession]] || [[La Possession]]
+|-
+| bgcolor=#ffff44|[[US Sainte-Marienne]] || [[Sainte-Marie, Réunion|Sainte-Marie]]
+|-
+| [[US Stade Tamponnaise]] || [[Le Tampon]]
+|}
+
+==Rwanda==
+{{main|List of football clubs in Rwanda}}
+* Country: {{flagu|Rwanda}}
+* Football association: [[Rwandese Association Football Federation]]
+* Top-level league: [[Rwandan Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Amagaju F.C.]] || [[Gikongoro]]
+|-
+| [[AS Kigali]] || [[Kigali]]
+|-
+| [[Armée Patriotique Rwandaise F.C.|A.P.R. F.C.]] || [[Kigali]]
+|-
+| [[Espoir FC (Rwanda)|Espoir F.C.]] || [[Cyangugu]]
+|-
+| [[Espérance F.C. (Kigali)|Espérance F.C.]] || [[Kigali]]
+|-
+| [[Etincelles F.C.]] || [[Gisenyi]]
+|-
+| [[Gicumbi F.C.]] || [[Byumba]]
+|-
+| [[S.C. Kiyovu Sports]] || [[Kigali]]
+|-
+| [[Marines F.C.]] || [[Gisenyi]]
+|-
+| [[A.S. Muhanga]] || [[Gitarama]]
+|-
+| [[Mukura Victory Sports F.C.]] || [[Butare]]
+|-
+| [[Musanze F.C.]] || [[Ruhengeri]]
+|-
+| [[Police F.C. (Rwanda)|Police F.C.]] || [[Kibungo]]
+|-
+| bgcolor=#ffff44|[[Rayon Sports F.C.]] || [[Butare]]
+|}
+
+==São Tomé and Príncipe==
+{{main|List of football clubs in São Tomé and Príncipe}}
+* Country: {{flagu|São Tomé and Príncipe}}
+* Football association: [[São Toméan Football Federation]]
+* Top-level league: [[São Tomé and Príncipe Championship]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Futebol Club Aliança Nacional|FC Aliança Nacional]] || [[Pantufo]]
+|-
+| [[Bairros Unidos FC]] || [[Caixão Grande]]
+|-
+| [[Clube Desportivo de Guadalupe|CD Guadalupe]] || [[Guadalupe, São Tomé and Príncipe|Guadalupe]]
+|-
+| [[Grupo Desportivo Cruz Vermelha|GD Cruz Vermelha]] || [[Almeirim]]
+|-
+| [[Juba Diogo Simão]] || Diogo Simão
+|-
+| [[Desportivo de Oque d'El Rei]] || Oque d'El Rei
+|-
+| bgcolor=#ffff44|[[Sporting Praia Cruz]] || [[São Tomé]]
+|-
+| [[Trindade (football club)|Trindade FC]] || [[Trindade, São Tomé and Príncipe|Trindade]]
+|-
+| [[UDRA|UD Rei Amador]] || [[São João dos Angolares]]
+|-
+| [[Vitória FC (Riboque)|Vitória FC]] || [[São Tomé]]
+|}
+
+==Senegal==
+{{main|List of football clubs in Senegal}}
+* Country: {{flagu|Senegal}}
+* Football association: [[Senegalese Football Federation]]
+* Top-level league: [[Senegal Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Pikine]] || [[Pikine]]
+|-
+| [[ASC Jaraaf]] || [[Dakar]]
+|-
+| [[ASC Port Autonome]] || [[Dakar]]
+|-
+| [[US Ouakam]] || [[Dakar]]
+|-
+| [[Touré Kunda Foot-Pro]] || [[Mbour]]
+|-
+| [[Dakar UC]] || [[Dakar]]
+|-
+| bgcolor=#ffff44|[[Diambars FC]] || [[Saly]]
+|-
+| [[Olympique de Ngor]] || [[Dakar]]
+|-
+| [[Stade de Mbour]] || [[Mbour]]
+|-
+| [[ASC SUNEOR]] || [[Diourbel]]
+|-
+| [[ASC Linguère]] || [[Saint-Louis, Senegal|Saint-Louis]]
+|-
+| [[Casa Sports]] || [[Ziguinchor]]
+|-
+| [[ASC Niarry Tally]] || [[Dakar]]
+|-
+| [[ASC Yeggo]] || [[Dakar]]
+|}
+
+==Seychelles==
+{{main|List of football clubs in Seychelles}}
+* Country: {{flagu|Seychelles}}
+* Football association: [[Seychelles Football Federation]]
+* Top-level league: [[Seychelles League]]
+
+''Season 2013''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Anse Réunion FC]] || Anse Réunion
+|-
+| bgcolor=#ffff44|[[Côte d'Or FC]] || [[Praslin]]
+|-
+| [[La Passe FC]] || La Passe
+|-
+| [[Light Stars FC]] || [[Grand'Anse Praslin|Grande Anse]]
+|-
+| [[Northern Dynamo]] || [[Glacis]]
+|-
+| [[St Francis FC (Seychelles)|St Francis FC]] || [[Baie Lazare]]
+|-
+| [[Saint Louis Suns United]] || [[Victoria, Seychelles|Victoria]]
+|-
+| [[St Michel United FC]] || [[Anse-aux-Pins]]
+|-
+| [[St Roch United FC]] || [[Bel Ombre, Seychelles|Bel Ombre]]
+|-
+| [[The Lions FC]] || [[Cascade, Seychelles|Cascade]]
+|}
+
+==Sierra Leone==
+{{main|List of football clubs in Sierra Leone}}
+* Country: {{flagu|Sierra Leone}}
+* Football association: [[Sierra Leone Football Association]]
+* Top-level league: [[Sierra Leone National Premier League]]
+
+''As 2013''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[Diamond Stars F.C.]] || [[Koidu|Koidu Town]]
+|-
+| [[East End Lions F.C.]] || [[Freetown]]
+|-
+| [[Mighty Blackpool]] || [[Freetown]]
+|-
+| [[Bo Rangers]] || [[Bo, Sierra Leone|Bo]]
+|-
+| [[Kallon F.C.]] || [[Freetown]]
+|-
+| [[Ports Authority F.C.]] || [[Freetown]]
+|-
+| [[Kamboi Eagles]] || [[Kenema]]
+|-
+| [[Gem Stars]] || [[Tongo, Sierra Leone|Tongo]]
+|-
+| [[Anti Drugs Strikers FC]] || [[Newton, Sierra Leone|Newton]]
+|-
+| [[FC Johansen]] || [[Freetown]]
+|-
+| [[Old Edwardians F.C.]] || [[Freetown]]
+|-
+| [[Republic of Sierra Leone Armed Forces FC]] || [[Makeni]]
+|-
+| [[Freetown City F.C.]] || [[Freetown]]
+|-
+| [[Central Parade]] || [[Freetown]]
+|-
+|}
+
+==Somalia==
+{{main|List of football clubs in Somalia}}
+* Country: {{flagu|Somalia}}
+* Football association: [[Somali Football Federation]]
+* Top-level league: [[Somalia League]]
+
+''As of 2013-14 season:''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Savana FC]] || [[Mogadishu]]
+|-
+| [[Banaadir Telecom FC]] || [[Mogadishu]]
+|-
+| bgcolor=#ffff44|[[Elman FC]] || [[Mogadishu]]
+|-
+| [[Somali Police FC|Heegan FC]] || [[Mogadishu]]
+|-
+| [[Horseed FC]] || [[Horseed]]
+|-
+| [[Jeenyo United F.C.|Jeenyo United FC]] || [[Mogadishu]]
+|-
+| [[Dekedda FC]] || [[Mogadishu]]
+|-
+| [[Gaadiidka FC]] || [[Mogadishu]]
+|}
+
+==South Africa==
+{{main|List of football clubs in South Africa}}
+* Country: {{flagu|South Africa}}
+* Football association: [[South African Football Association]]
+* Top-level league: [[Premier Soccer League]]
+
+''As of 2013''
+{{location map+ |South Africa
+ |float=right
+ |width=450
+ |alt=Locations of the 2013–14 Premier Soccer League
+ |caption=Locations of the 2013–14 Premier Soccer League
+ |places=
+{{location map~ |South Africa |lat=-33.925278 |long=18.423889 |label= <div style="font-size:90%;position:relative;top:-4px;left:1px;">[[Ajax Cape Town F.C.|Ajax]]</div>|position=left}}
+{{location map~ |South Africa |lat=-28.233333 |long=28.3 |label= <div style="font-size:90%;position:relative;top:-4px;left:1px;">[[Free State Stars F.C.|Free State]]</div>|position=left}}
+{{location map~ |South Africa |lat=-29.616667 |long=30.383333 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[Maritzburg United F.C.|Maritzburg]]</div>|position=right}}
+{{location map~ |South Africa |lat=-25.583333 |long=27.133333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[Platinum Stars F.C.|Platinum S.]]</div>|position=left}}
+{{location map~ |South Africa |lat=-23.9 |long=29.45 |label= <div style="font-size:90%;position:relative;top:-5px;left:5px;">[[Polokwane City F.C.|Polokwane C.]]</div>|position=left}}
+{{location map~ |South Africa |lat=-29.116667 |long=26.216667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Bloemfontein Celtic F.C.|B. Celtic]]</div>|position=left}}
+{{location map~ |South Africa |lat=-29.883333 |long=31.05 |label= <div style="font-size:90%;position:relative;top:9px;left:-4px;">[[AmaZulu F.C.|AmaZulu]]</div>|position=right}}
+{{location map~ |South Africa |lat=-29.883333 |long=31.05 |label= <div style="font-size:90%;position:relative;top:19px;left:-4px;">[[Lamontville Golden Arrows F.C.|G. Arrows]]</div>|position=right}}
+{{location map~ |South Africa |lat=-25.746111 |long=28.188056 |label= <div style="font-size:90%;position:relative;top:-2px;left:-2px;">'''Pretoria'''</div>|position=right}}
+{{location map~ |South Africa |lat=-26.204444 |long=28.045556 |label=<div style="font-size:90%;position:relative;top:9px;left:-7px;">'''Johannesburg'''</div>|position=left}}
+
+<!--DISPLAY OF JOHANNESBURG & PRETORIA TEAMS IN BOTTOM RIGHT CORNER-->
+{{Location map~ |South Africa |mark=TransparentPlaceholder.png |marksize=1 |lat=-22.7 |long=16 |label=<div style="font-size:80%;">'''Johannesburg&nbsp;teams'''<br>
+[[Orlando Pirates F.C.|Orlando Pirates]]<br>
+[[Kaizer Chiefs F.C.|Kaizer Chiefs]]<br>
+[[Moroka Swallows F.C.|Moroka Swallows]]<br>
+[[Mpumalanga Black Aces F.C.|Black Aces]]<br>
+[[Bidvest Wits F.C.|Bidvest Wits]]<br>
+</div>|position=right}}
+
+{{Location map~ |South Africa |mark=TransparentPlaceholder.png |marksize=1 |lat=-26.2 |long=16 |label=<div style="font-size:80%;">'''Pretoria&nbsp;teams'''<br>
+[[Mamelodi Sundowns F.C.|Mamelodi Sundowns]]<br>
+[[SuperSport United F.C.|SuperSport Utd]]<br>
+[[Bidvest Wits F.C.|Tuks F.C.]]<br>
+</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Ajax Cape Town F.C.|Ajax Cape Town]] || [[Cape Town]]
+|-
+| [[AmaZulu F.C.]] || [[Durban]]
+|-
+| [[Bidvest Wits F.C.|Bidvest Wits]] || [[Johannesburg]]
+|-
+| [[Bloemfontein Celtic F.C.|Bloemfontein Celtic]] || [[Bloemfontein]]
+|-
+| [[Free State Stars F.C.|Free State Stars]] || [[Bethlehem, Free State|Bethlehem]]
+|-
+| [[Lamontville Golden Arrows F.C.|Lamontville Golden Arrows]] || [[Durban]]
+|-
+| bgcolor=#ffff44|[[Kaizer Chiefs F.C.|Kaizer Chiefs]] || [[Johannesburg]]
+|-
+| [[Mamelodi Sundowns F.C.|Mamelodi Sundowns]] || [[Pretoria]]
+|-
+| [[Maritzburg United F.C.|Maritzburg United]] || [[Pietermaritzburg]]
+|-
+| [[Moroka Swallows F.C.|Moroka Swallows]] || [[Johannesburg]]
+|-
+| [[Mpumalanga Black Aces F.C.|Mpumalanga Black Aces]] || [[Johannesburg]]
+|-
+| [[Orlando Pirates F.C.|Orlando Pirates]] || [[Johannesburg]]
+|-
+| [[Platinum Stars F.C.|Platinum Stars]] || [[Phokeng]]
+|-
+| [[Polokwane City F.C.|Polokwane City]] || [[Polokwane]]
+|-
+| [[SuperSport United F.C.|SuperSport United]] || [[Pretoria]]
+|-
+| [[University of Pretoria F.C.|Tuks F.C.]] || [[Pretoria]]
+|}
+
+==South Sudan==
+{{main|List of football clubs in South Sudan}}
+* Country: {{flagu|South Sudan}}
+* Football association: [[South Sudan Football Association]]
+* Top-level league: [[South Sudan Football Championship]]
+
+''As of 2013''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Al-Hilal FC (Juba)|Al-Hilal FC]] || [[Juba]]
+|-
+| [[Al Merreikh FC (Juba)|Al Merreikh FC]] || [[Juba]]
+|-
+| bgcolor=#ffff44|[[Atlabara FC]] || [[Juba]]
+|-
+| [[El Nasir FC]] || [[Juba]]
+|-
+| [[Al-Malakia FC]] || [[Juba]]
+|-
+| [[Talanga FC]] || [[Juba]]
+|-
+| [[Wau Salaam F.C.]] || [[Wau, South Sudan|Wau]]
+|}
+
+==Sudan==
+{{main|List of football clubs in Sudan}}
+* Country: {{flagu|Sudan}}
+* Football association: [[Sudan Football Association]]
+* Top-level league: [[Sudan Premier League]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Al-Ahli Club (Atbara)|Al-Ahli Atbara]] || [[Atbara]]
+|-
+| [[Al Ahli SC (Khartoum)|Al Ahli Khartoum]] || [[Khartoum]]
+|-
+| [[Al-Ahly Shendi]] || [[Shendi]]
+|-
+| [[Al-Hilal ESC (Al-Fasher)|Hilal Al-Fasher]] || [[Al-Fashir]]
+|-
+| [[Al-Hilal SC (Kadougli)|Hilal Kadougli]] || [[Kadougli]]
+|-
+| [[Al-Hilal Club (Omdurman)|Al Hilal Omdurman]] || [[Omdurman]]
+|-
+| [[Al-Ittihad SC (Wad Madani)|Ittihad Wad Madani]] || [[Wad Madani]]
+|-
+| [[Al Khartoum SC]] || [[Khartoum]]
+|-
+| [[Al-Merreikh SC (Al-Fasher)|Merreikh Al-Fasher]] || [[Al-Fashir]]
+|-
+| bgcolor=#ffff44|[[Al-Merrikh SC]] || [[Omdurman]]
+|-
+| [[Al Neel SC (Al-Hasahisa)|Al Neel Al-Hasahisa]] || Al-Hasahisa
+|-
+| [[Al-Nesoor SC]] || [[Omdurman]]
+|-
+| [[Al Rabita Kosti]] || [[Kosti, Sudan|Kosti]]
+|-
+| [[Alamal SC Atbara]] || [[Atbara]]
+|}
+
+==Tanzania==
+{{main|List of football clubs in Tanzania}}
+* Country: {{flagu|Tanzania}}
+* Football association: [[Tanzania Football Federation]]
+* Top-level league: [[Tanzanian Premier League]]
+*''As of 2013/2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Ashanti United S.C.]] || [[Dar es Salaam]]
+|-
+| bgcolor=#ffff44|[[Azam F.C.]] || [[Dar es Salaam]]
+|-
+| [[Coastal Union F.C.]] || [[Tanga, Tanzania|Tanga]]
+|-
+| [[JKT Mgambo]] || [[Tanga, Tanzania|Tanga]]
+|-
+| [[JKT Oljoro FC|JKT Oljoro F.C.]] || [[Arusha]]
+|-
+| [[Ruvu Shooting]] || [[Dar es Salaam]]
+|-
+| [[JKT Ruvu Stars]] || [[Dar es Salaam]]
+|-
+| [[Kagera Sugar FC|Kagera Sugar F.C.]] || [[Bukoba]]
+|-
+| [[Mbeya City F.C.]] || [[Mbeya]]
+|-
+| [[Mtibwa Sugar F.C.]] || Turiani
+|-
+| [[Prisons FC|Prisons F.C.]] || [[Mbeya]]
+|-
+| [[Rhino Rangers F.C.]] || [[Tabora]]
+|-
+| [[Simba S.C.]] || [[Dar es Salaam]]
+|-
+| [[Young Africans S.C.]] || [[Dar es Salaam]]
+|}Ndanda Sports Club
+
+==Togo==
+{{main|List of football clubs in Togo}}
+* Country: {{flagu|Togo}}
+* Football association: [[Togolese Football Federation]]
+* Top-level league: [[Togolese Championnat National]]
+
+''As of 2014 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| bgcolor=#ffff44|[[Anges FC]] || [[Notsé]]
+|-
+| [[AS Douanes (Lomé)|AS Douanes]] || [[Lomé]]
+|-
+| [[Foadan FC]] || [[Dapaong]]
+|-
+| [[Dynamic Togolais]] || [[Lomé]]
+|-
+| [[AC Semassi F.C.|AC Semassi FC]] || [[Sokodé]]
+|-
+| [[Gomido FC]] || [[Kpalime]]
+|-
+| [[ASKO Kara]] || [[Kara, Togo|Kara]]
+|-
+| [[OC Agaza]] || [[Lomé]]
+|-
+| [[Unisport de Sokodé]] || [[Sokodé]]
+|-
+| [[AS Togo-Port]] || [[Lomé]]
+|-
+| [[Gbikinti FC de Bassar]] || [[Bassar]]
+|-
+| [[Maranatha FC]] || Fiokpo
+|}
+
+==Tunisia==
+{{main|List of football clubs in Tunisia}}
+* Country: {{flagu|Tunisia}}
+* Football association: [[Tunisian Football Federation]]
+* Top-level league: [[Tunisian Ligue Professionnelle 1]]
+
+''As of 2013-14 season''
+{{location map+ |Tunisia
+ |float=right
+ |width=260
+ |alt=Locations of the 2013–14 Tunisian Ligue Professionnelle 1
+ |caption=Locations of the 2013–14 Tunisian Ligue Professionnelle 1
+ |places=
+{{location map~ |Tunisia |lat=36.876389 |long=10.325278 |label= <div style="font-size:90%;position:relative;top:-4px;left:-5px;">[[AS Marsa|Marsa]]</div>|position=right}}
+{{location map~ |Tunisia |lat=37.266667 |long=9.866667 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[CA Bizertin|Bizerte]]</div>|position=left}}
+{{location map~ |Tunisia |lat=36.733333 |long=10.333333 |label= <div style="font-size:90%;position:relative;top:12px;left:3px;">[[CS Hammam-Lif|Hammam-Lif]]</div>|position=left}}
+{{location map~ |Tunisia |lat=34.733333 |long=10.766667 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[CS Sfaxien|Sfax]]</div>|position=right}}
+{{location map~ |Tunisia |lat=34.416667 |long=8.783333 |label= <div style="font-size:90%;position:relative;top:-4px;left:-2px;">[[EGS Gafsa|Gafsa]]</div>|position=right}}
+{{location map~ |Tunisia |lat=35.833333 |long=10.633333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[ES Sahel|Sousse]]</div>|position=left}}
+{{location map~ |Tunisia |lat=34.333333 |long=8.4 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[ES Métlaoui|Métlaoui]]</div>|position=right}}
+{{location map~ |Tunisia |lat=36.6 |long=10.5 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Grombalia Sports|Grombalia]]</div>|position=right}}
+{{location map~ |Tunisia |lat=35.666667 |long=10.1 |label= <div style="font-size:90%;position:relative;top:8px;left:1px;">[[JS Kairouan|Kairouan]]</div>|position=left}}
+{{location map~ |Tunisia |lat=33.916667 |long=8.133333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[LPS Tozeur|Tozeur]]</div>|position=right}}
+{{location map~ |Tunisia |lat=36.182222 |long=8.714722 |label= <div style="font-size:90%;position:relative;top:-3px;left:-1px;">[[Olympique du Kef|El Kef]]</div>|position=right}}
+{{location map~ |Tunisia |lat=33.883333 |long=10.116667 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[Stade Gabèsien|Gabès]]</div>|position=right}}
+{{location map~ |Tunisia |lat=35.783333 |long=10.833333 |label=<div style="font-size:90%;position:relative;top:12px;left:-5px;">[[US Monastir|Monastir]]</div>|position=right}}
+{{location map~ |Tunisia |lat=36.8 |long=10.183333 |label=<div style="font-size:90%;position:relative;top:-3px;left:3px;">'''Tunis'''</div>|position=left}}
+
+<!--DISPLAY OF TUNIS TEAMS IN BOTTOM RIGHT CORNER-->
+{{Location map~ |Tunisia |mark=TransparentPlaceholder.png |marksize=1 |lat=30.9 |long=7.3 |label=<div style="font-size:80%;">'''Tunis&nbsp;teams'''<br>
+[[ES Tunis]]<br>
+[[Club Africain]]<br>
+[[Stade Tunisien]]<br>
+</div>|position=right}}
+}}
+
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[AS Marsa]] || [[La Marsa]]
+|-
+| [[CA Bizertin]] || [[Bizerte]]
+|-
+| [[Club Africain]] || [[Tunis]]
+|-
+| [[CS Hammam-Lif]] || [[Hammam-Lif]]
+|-
+|[[CS Sfaxien]] || [[Sfax]]
+|-
+| [[EGS Gafsa]] || [[Gafsa]]
+|-
+| bgcolor=#ffff44| [[ES Tunis]] || [[Tunis]]
+|-
+| [[ES Sahel]] || [[Sousse]]
+|-
+| [[ES Métlaoui]] || [[Métlaoui]]
+|-
+| [[Grombalia Sports]] || [[Grombalia]]
+|-
+| [[JS Kairouan]] || [[Kairouan]]
+|-
+| [[LPS Tozeur]] || [[Tozeur]]
+|-
+| [[Olympique du Kef]] || [[El Kef]]
+|-
+| [[Stade Gabèsien]] || [[Gabès]]
+|-
+| [[Stade Tunisien]] || [[Tunis]]
+|-
+| [[US Monastir]] || [[Monastir, Tunisia|Monastir]]
+|}
+
+==Uganda==
+{{main|List of football clubs in Uganda}}
+* Country: {{flagu|Uganda}}
+* Football association: [[Federation of Uganda Football Associations]]
+* Top-level league: [[Ugandan Premier League]]
+
+''As of 2013-14 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Bright Stars FC]] || [[Kampala]]
+|-
+| [[Bul FC|BIDCO Bul FC]] || [[Jinja, Uganda|Jinja]]
+|-
+| [[CRO FC]] || [[Mbale]]
+|-
+| [[Entebbe Young FC]] || [[Kampala]]
+|-
+| [[Express FC]] || [[Kampala]]
+|-
+| bgcolor=#ffff44|[[Kampala City Council FC]] || [[Kampala]]
+|-
+| [[Kiira Young FC]] || [[Kampala]]
+|-
+| [[Masaka Local Council FC]] || [[Masaka]]
+|-
+| [[Police FC (Uganda)|Police FC]] || [[Kampala]]
+|-
+| [[Proline FC]] || [[Kampala]]
+|-
+| [[Victoria University SC]] || [[Kampala]]
+|-
+| [[Simba FC]] || [[Lugazi]]
+|-
+| [[Soana FC]] || [[Kampala]]
+|-
+| [[Uganda Revenue Authority SC]] || [[Kampala]]
+|-
+| [[SC Villa]] || [[Kampala]]
+|-
+| [[Vipers S.C.|Vipers SC]] || [[Wakiso Town]]
+|}
+
+==Zambia==
+{{main|List of football clubs in Zambia}}
+* Country: {{flagu|Zambia}}
+* Football association: [[Football Association of Zambia]]
+* Top-level league: [[Zambian Premier League]]
+
+''As of 2017 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Green Eagles]] || [[Kabwe]]
+|-
+| [[Green Buffaloes F.C.]] || [[Lusaka]]
+|-
+| [[Indeni FC|Indeni F.C.]] || [[Ndola]]
+|-
+| [[Kabwe Warriors F.C.]] || [[Kabwe]]
+|-
+| [[Konkola Blades F.C.]] || [[Chililabombwe]]
+|-
+| [[Konkola Mine Police F.C.]] || [[Chililabombwe]]
+|-
+| [[NAPSA Stars F.C.]] || [[Lusaka]]
+|-
+| [[Nakambala Leopards F.C.]] || [[Mazabuka]]
+|-
+| [[National Assembly F.C.]] || [[Lusaka]]
+|-
+| [[Nchanga Rangers F.C.]] || [[Chingola]]
+|-
+| [[Nkana F.C.]] || [[Kitwe]]
+|-
+| [[Power Dynamos F.C.]] || [[Kitwe]]
+|-
+| [[Red Arrows F.C.]] || [[Lusaka]]
+|-
+| [[Roan United F.C.]] || [[Luanshya]]
+|-
+| bgcolour=#ffff44|[[Zanaco F.C.]] || [[Lusaka]]
+|-
+| [[ZESCO United F.C.]] || [[Ndola]]
+|}
+
+==Zanzibar==
+{{main|List of football clubs in Zanzibar}}
+* Country: {{flagu|Zanzibar}}
+* Football association: [[Zanzibar Football Association]]
+* Top-level league: [[Zanzibar Premier League]]
+
+''As of 2013 season''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Bandari FC (Zanzibar)|Bandari FC]] ||
+|-
+| [[Chipukizi]] || [[Pemba Island|Pemba]]
+|-
+| [[Chuoni FC]] || [[Unguja]]
+|-
+| [[Duma FC]] || [[Pemba Island|Pemba]]
+|-
+| [[Jamhuri FC]] || Chakechake
+|-
+| bgcolor=#ffff44|[[KMKM FC]] || [[Zanzibar City]]
+|-
+| [[Mafunzo FC]] || [[Unguja]]
+|-
+| [[Malindi FC]] || [[Stone Town]]
+|-
+| [[Mtende Rangers]] ||
+|-
+| [[Mundu SC]] || [[Nungwi]]
+|-
+| [[Super Falcon]] ||
+|-
+| [[Zimamoto FC|Zimamoto]] ||
+|}
+
+==Zimbabwe==
+{{main|List of football clubs in Zimbabwe}}
+* Country: {{flagu|Zimbabwe}}
+* Football association: [[Zimbabwe Football Association]]
+* Top-level league: [[Zimbabwe Premier Soccer League]]
+
+''As of 2013 season:''
+{| class="wikitable sortable"
+!width="300px"|Club
+!width="150px"|City
+|-
+| [[Black Mambas F.C.]] || [[Harare]]
+|-
+| [[Black Rhinos F.C.]] || [[Harare]]
+|-
+| [[Buffaloes F.C.]] || [[Mutare]]
+|-
+| [[CAPS United F.C.]] || [[Harare]]
+|-
+| [[Chicken Inn F.C.]] || [[Bulawayo]]
+|-
+| bgcolor=#ffff44|[[Dynamos F.C. (Zimbabwe)|Dynamos F.C.]] || [[Harare]]
+|-
+| [[FC Platinum|F.C. Platinum]] || [[Zvishavane]]
+|-
+| [[Harare City F.C.]] || [[Harare]]
+|-
+| [[Highlanders F.C.]] || [[Bulawayo]]
+|-
+| [[How Mine FC|How Mine F.C.]] || [[Bulawayo]]
+|-
+| [[Hwange F.C.]] || [[Hwange]]
+|-
+| [[Monomotapa United F.C.]] || [[Harare]]
+|-
+| [[Motor Action F.C.]] || [[Harare]]
+|-
+| [[Shabanie Mine F.C.]] || [[Zvishavane]]
+|-
+| [[Triangle United F.C.]] || [[Chiredzi]]
+|-
+| [[Triple B FC|Triple B F.C.]] || [[Beitbridge]]
+|}
