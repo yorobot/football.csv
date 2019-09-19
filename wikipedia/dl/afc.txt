@@ -298,17 +298,9 @@
 |}
 
 
-__END__
+==East Timor==
 
-
-
-=={{flag|East Timor}}==
-{{main article|List of football clubs in East Timor}}
-*Football association: [[Federaçao Futebol Timor-Leste]]
-*Top-level league: [[Liga Futebol Amadora]]
-
-''As of [[2016 Liga Futebol Amadora|2016 season]]:''
-{| class="wikitable"
+{|
 |-
 ! style="width:200px;"|Club
 ! style="width:150px;"|City
@@ -329,15 +321,11 @@ __END__
 |-
 | bgcolor=#ffff44 | ''[[SLB Laulara]]''||[[Laulara Subdistrict|Laulara]]
 |}
-{{#lst:2016 Liga Futebol Amadora|map}}
 
-=={{flag|Guam}}==
-{{main article|List of football clubs in Guam}}
-*Football association: [[Guam Football Association]]
-*Top-level league: [[Guam Soccer League]]
 
-''As of [[2016–17 Guam Soccer League|2016–17 season]]:''
-{| class="wikitable"
+==Guam==
+
+{| 
 |-
 ! style="width:200px;"|Club
 |-
@@ -352,21 +340,16 @@ __END__
 | bgcolor=#ffff44 | ''[[Rovers FC (Guam)|Rovers]]''
 |}
 
-=={{flag|Hong Kong}}==
-{{#lst:2016–17 Hong Kong Premier League|map}}
-{{main article|List of football clubs in Hong Kong}}
-*Football association: [[The Hong Kong Football Association]]
-*Top-level league: [[Hong Kong Premier League]]
+==Hong Kong==
 
-''As of [[2016–17 Hong Kong Premier League|2016–17 season]]:''
-{| class="wikitable"
+{|
 |-
-! style="width:200px;"|Club
-! style="width:150px;"|City
+! Club
+! City
 |-
 |[[Biu Chun Rangers]]||[[Sham Shui Po]]
 |-
-|bgcolor=#ffff44 |''[[Eastern Sports Club|Eastern]]''||[[Mong Kok]]
+|[[Eastern Sports Club|Eastern]]||[[Mong Kok]]
 |-
 |[[HKFC Soccer Section]]||[[Happy Valley, Hong Kong|Happy Valley]]
 |-
@@ -387,38 +370,11 @@ __END__
 |[[Yuen Long FC]]||[[Yuen Long]]
 |}
 
-=={{flag|India}}==
+==India==
 
-{{main article|List of football clubs in India}}
+===I-League===
 
-*Football Association: [[All India Football Federation]]
-* Top-level league: [[I-League]] (Men's), [[Indian Super League]] (Men's), [[Indian Women's League]] (Women's)
-
-===[[I-League]]===
-*Confederation Cup: [[AFC Champions League]]
-<section begin=map />
-{{location map+ |India|width=350
- |float=right
- |caption=Locations of the 2018–19 I-League teams
- |alt=Locations of the 2018–19 I-League teams
- |places=
-{{location map~ |India |lat=23.727222 |long=92.717778 |label= <div style="font-size:80%;position:relative;top:4px;">{{nobreak|[[Aizawl F.C.|Aizawl]]}}</div>|position=right}}
-{{location map~ |India |lat=15.21 |long=74.07 |label= <div style="font-size:80%;position:relative;top:4px;">{{nobreak|[[Churchill Brothers S.C.|Churchill Brothers]]}}</div>|position=right}}
-{{location map~ |India |lat=24.82 |long=93.95 |label= <div style="font-size:80%;position:relative;top:4px;">{{nobreak|[[NEROCA F.C.|NEROCA]]}}</div>|position=right}}
-{{location map~ |India |lat=11.0168 |long=76.9558 |label= <div style="font-size:80%;position:relative;top:4px;">{{nobreak|[[Chennai City F.C.|Chennai City]]}}</div>|position=right}}
-{{location map~ |India |lat=11.2588 |long=75.7804 |label= <div style="font-size:80%;position:relative;top:4px;">{{nobreak|[[Gokulam Kerala FC|Gokulam Kerala]]}}</div>|position=left}}
-{{location map~ |India |lat=30.9010 |long=75.8573 |label= <div style="font-size:80%;">[[Minerva Punjab FC|Minerva Punjab]]</div>|position=bottom}}
-{{location map~ |India |lat=22.56972 |long=88.36972 |label= <div style="font-size:80%;position:relative;top:4px;left:-4px;">Kolkata</div>|position=left}}
-{{location map~ |India |lat=25.57 |long=91.98 |label= <div style="font-size:80%;position:relative;top:-4px;">[[Shillong Lajong F.C.|Shillong Lajong]]</div>|position=right}}
-{{location map~ |India |lat=28.3636|long=77.1348|label= <div style="font-size:80%;">{{nobreak|[[Indian Arrows]]}}</div>|position=right}}
-<!--DISPLAY OF KOLKATA TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |India |mark=TransparentPlaceholder.png |marksize=1 |lat=19.0 |long=86.0 |label=<div style="font-size:80%;">'''Kolkata teams'''<br>
-{{nobreak|[[East Bengal F.C.|East Bengal]]}}<br>
-{{nobreak|[[Mohun Bagan A.C.|Mohun Bagan]]}}<br>
-</div>|position=right}}
-}}<section end=map />
-
-{| class="wikitable sortable"
+{| 
 |-
 ! Team
 ! Location
@@ -481,29 +437,10 @@ __END__
 | 15,000
 |}
 
-{{clear}}
+===Indian Super League===
 
-===[[Indian Super League]]===
 
-*Confederation Cup: [[AFC Cup]]
-{{location map+ |India
-|float=right
-|width=350
-|alt=Locations of the ISL Teams
-|caption=Locations of the ISL Teams
-|places=
-{{location map~ |India |lat=22.56972 |long=88.36972 |label= <div style="font-size:100%;position:relative;top:4px;">{{nobreak|[[ATK (football club)|ATK]]}}</div>|position=bottom}}
-{{location map~ |India |lat=12.58 |long=77.34 |label= <div style="font-size:100%;position:relative;top:4px;">{{nobreak|[[Bengaluru FC|Bengaluru]]}}</div>|position=left}}
-{{location map~ |India |lat=13.08389 |long=80.27000 |label= <div style="font-size:100%;position:relative;top:4px;">{{nobreak|[[Chennaiyin FC|Chennaiyin]]}}</div>|position=right}}
-{{location map~ |India |lat=15.49300 |long=73.81800 |label= <div style="font-size:100%;">{{nobreak|[[FC Goa|Goa]]}}</div>|position=left}}
-{{location map~ |India |lat=22.47 |long=86.12 |label= <div style="font-size:100%;">{{nobreak|[[Jamshedpur FC|Jamshedpur]]}}</div>|position=left}}
-{{location map~ |India |lat=18.97500 |long=72.82583 |label= <div style="font-size:100%;">{{nobreak|[[Mumbai City FC|Mumbai City]]}}</div>|position=top}}
-{{location map~ |India |lat=18.47361 |long=73.79778 |label= <div style="font-size:100%;position:relative;top:4px;">{{nobreak|[[FC Pune City|Pune City]]}}</div>|position=right}}
-{{location map~ |India |lat=26.11|long=91.44|label= <div style="font-size:100%;">{{nobreak|[[NorthEast United FC|NorthEast United]]}}</div>|position=left}}
-{{location map~ |India |lat=28.3636|long=77.1348|label= <div style="font-size:100%;">{{nobreak|[[Delhi Dynamos FC|Delhi Dynamos]]}}</div>|position=right}}
-{{location map~ |India |lat=9.97|long=76.28|label= <div style="font-size:100%;">{{nobreak|[[Kerala Blasters FC|Kerala Blasters]]}}</div>|position=right}}
-}}
-{| class="wikitable sortable"
+{|
 |-
 ! Team
 ! City/State
@@ -561,17 +498,13 @@ __END__
 | style="text-align:center"| {{Nts|9,156}}<ref>{{cite web|url=http://www.indiansuperleague.com/fc-pune-city/venue|title=Shree Shiv Chhatrapati Sports Complex |publisher=ISL|access-date=31 May 2017}}</ref>
 |}
 
-=={{flag|Indonesia}}==
-{{main article|List of football clubs in Indonesia}}
-*Football association: [[Football Association of Indonesia]]
-*Top-level league: [[Liga 1 (Indonesia)|Liga 1]]
 
-''As of [[2019 Liga 1|2019 season]]:''
+==Indonesia==
 
-{| class="wikitable"
+{| 
 |-
-! style="width:200px;"|Club
-! style="width:150px;"|City
+! Club
+! City
 |-
 | [[Arema FC|Arema]]
 | [[Malang Regency|Malang]]
@@ -600,7 +533,7 @@ __END__
 | [[Persib Bandung]]
 | [[Bandung]]
 |-
-| bgcolor=#ffff44 |''[[Persija Jakarta]]''
+| [[Persija Jakarta]]
 | [[Jakarta]]
 |-
 | [[Persipura Jayapura]]
@@ -621,18 +554,13 @@ __END__
 | [[TIRA-Persikabo]]
 | [[Cibinong]]
 |}
-{{#lst:2019 Liga 1|map}}
-{{clear}}
 
-=={{flag|Iran}}==
-{{:2018–19 Persian Gulf Pro League|transcludesection=map}}
-{{main article|List of football clubs in Iran}}
-*Football association: [[Football Federation Islamic Republic of Iran]]
-*Top-level league: [[Persian Gulf Pro League]]
-''As of [[2018–19 Persian Gulf Pro League|2018–19 season]]:''
-{| class="wikitable sortable"
-!Team
-!Location
+
+==Iran==
+
+{|
+! Team
+! Location
 |-
 |[[Esteghlal F.C.|Esteghlal]]
 |[[Tehran]]
@@ -661,7 +589,7 @@ __END__
 |[[Paykan F.C.|Paykan]]
 |[[Shahr-e Qods]]
 |-
-|bgcolor=#ffff44 |[[Persepolis F.C.|Persepolis]]
+|[[Persepolis F.C.|Persepolis]]
 |[[Tehran]]
 |-
 |[[Saipa F.C.|Saipa]]
@@ -683,6 +611,10 @@ __END__
 |[[Fooladshahr]]
 |-
 |}
+
+
+__END__
+
 
 =={{flag|Iraq}}==
 {{main article|List of football clubs in Iraq}}
