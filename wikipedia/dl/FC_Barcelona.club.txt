@@ -1,0 +1,49 @@
+{{Infobox football club
+| clubname = Barcelona
+| image = FC Barcelona (crest).svg
+| fullname = Futbol Club Barcelona<!-- in Catalan, futbol does not have an accent over "u" -->
+| nickname = ''Barça'' or ''Blaugrana'' (team)<br />''Culés'' or ''Barcelonistas'' (supporters)<br />''Blaugranes'' or ''Azulgranas''<!-- in Catalan, it is always blaugrana (singular) or blaugranes (plural), while in Spanish the Catalan word "blaugrana" is often used as well as the Spanish word "azulgrana" --> (supporters)
+| short name = FCB
+| founded = {{Start date and years ago|df=yes|1899|11|29}}<br />as ''Foot-Ball Club Barcelona''
+| ground = [[Camp Nou]]
+| capacity = 99,354<ref name="stadium">[http://www.fcbarcelona.com/club/facilites-and-services/camp_nou Camp Nou] – FC Barcelona Official Page</ref>
+| chrtitle = President
+| chairman = [[Josep Maria Bartomeu]]
+| mgrtitle = Head coach
+| manager = [[Ernesto Valverde]]
+| league = [[La Liga]]
+| season = [[2018–19 La Liga|2018–19]]
+| position = La Liga, 1st
+| current = 2019–20 FC Barcelona season
+| website = http://www.fcbarcelona.com
+| pattern_la1 = _fcbarcelona1920h
+| pattern_b1 = _fcbarcelona1920h
+| pattern_ra1 = _fcbarcelona1920h
+| pattern_sh1 = 
+| pattern_so1 = _barcelona1920h
+| leftarm1 = 000080
+| body1 = 000080
+| rightarm1 = 000080
+| shorts1 = 000080
+| socks1 = 000080
+| pattern_la2= _fcbarcelona1920a
+| pattern_b2= _fcbarcelona1920a
+| pattern_ra2= _fcbarcelona1920a
+| pattern_sh2= 
+| pattern_so2= _fcbarcelona1920a
+| leftarm2= FFDD00
+| body2= FFDD00
+| rightarm2= FFDD00
+| shorts2= FFDD00
+| socks2= FFDD00
+|pattern_la3=_fcbarcelona1920t
+|pattern_b3=_fcbarcelona1920t
+|pattern_ra3=_fcbarcelona1920t
+|pattern_sh3=_fcbarcelona1920t
+|pattern_so3=_fcbarcelona1920t
+|leftarm3=00E8C5
+|body3=00E8C5
+|rightarm3=00E8C5
+|shorts3=00E8C5
+|socks3=00E8C5
+}}
