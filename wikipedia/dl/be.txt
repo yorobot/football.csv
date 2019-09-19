@@ -1,8 +1,5 @@
 ==Belgium==
 
-##
-#  todo/check: how to deal with multiple tables in a section ???
-
 
 {|
 |-

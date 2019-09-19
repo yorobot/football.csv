@@ -1,8 +1,4 @@
-
-
-= Argentina (ar) =
-
-
+= Argentina =
 
 Aldosivi                                             # Mar del Plata
 Argentinos Juniors                                   # Buenos Aires
@@ -30,9 +26,7 @@ Unión de Santa Fe | Unión                            # Santa Fe
 Club Atlético Vélez Sarsfield | Vélez Sarsfield      # Buenos Aires
 
 
-= Bolivia (bo) =
-
-
+= Bolivia =
 
 Club Always Ready | Always Ready                     # La Paz
 Club Aurora | Aurora                                 # Cochabamba
@@ -50,9 +44,7 @@ Sport Boys Warnes | Sport Boys                       # Warnes
 The Strongest                                        # La Paz
 
 
-= Brazil (br) =
-
-
+= Brazil =
 
 Club Athletico Paranaense | Athletico Paranaense     # Curitiba
 Clube Atlético Mineiro | Atlético Mineiro            # Belo Horizonte
@@ -76,9 +68,7 @@ São Paulo FC | São Paulo                             # São Paulo
 CR Vasco da Gama | Vasco da Gama                     # Rio de Janeiro
 
 
-= Chile (cl) =
-
-
+= Chile =
 
 Audax Italiano                                       # Santiago (La Florida)
 C.D. Cobresal | Cobresal                             # El Salvador
@@ -98,9 +88,7 @@ Club Universidad de Chile | Universidad de Chile     # Santiago (Ñuñoa)
 C.D. Universidad de Concepción | Universidad de Concepción   # Concepción
 
 
-= Colombia (co) =
-
-
+= Colombia =
 
 Alianza Petrolera F.C. | Alianza Petrolera           # Barrancabermeja
 América de Cali                                      # Cali
@@ -124,9 +112,7 @@ Independiente Santa Fe | Santa Fe                    # Bogotá
 Unión Magdalena                                      # Santa Marta
 
 
-= Ecuador (ec) =
-
-
+= Ecuador =
 
 América de Quito                                     # Quito
 S.D. Aucas | Aucas                                   # Quito
@@ -145,9 +131,8 @@ C.D. Olmedo | Olmedo                                 # Riobamba
 C.D. Técnico Universitario | Técnico Universitario   # Ambato
 C.D. Universidad Católica del Ecuador | Universidad Católica   # Quito
 
-= Paraguay (py) =
 
-
+= Paraguay =
 
 Cerro Porteño                                        # Asunción
 Deportivo Capiatá                                    # Capiatá
@@ -163,9 +148,7 @@ Club Sol de América | Sol de América                 # Villa Elisa
 Sportivo Luqueño                                     # Luque
 
 
-= Peru (pe) =
-
-
+= Peru =
 
 Alianza Lima                                         # Lima
 Alianza Universidad                                  # Huánuco
@@ -187,9 +170,7 @@ Club Universitario de Deportes | Universitario       # Lima
 Universidad Técnica de Cajamarca | UTC               # Cajamarca
 
 
-= Uruguay (uy) =
-
-
+= Uruguay =
 
 Boston River                                         # Montevideo
 C.A. Cerro | Cerro                                   # Montevideo
@@ -208,9 +189,8 @@ Racing Club de Montevideo | Racing                   # Montevideo
 Rampla Juniors                                       # Montevideo
 Club Atlético River Plate (Uruguay) | River Plate    # Montevideo
 
-= Venezuela (ve) =
 
-
+= Venezuela =
 
 Academia Puerto Cabello                              # Puerto Cabello
 Aragua F.C. | Aragua                                 # Maracay
@@ -232,3 +212,5 @@ Portuguesa F.C. | Portuguesa                         # Acarigua
 Trujillanos FC | Trujillanos                         # Valera
 Zamora FC | Zamora                                   # Barinas
 Zulia FC | Zulia                                     # Maracaibo
+
+

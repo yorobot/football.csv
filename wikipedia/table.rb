@@ -9,33 +9,48 @@ class WikiTableReader
   end
 
 
-  def self.parse( txt )
-    tables = []
+  def self.parse_table( txt )   ## only allow single table
+    tables = parse( txt )
 
-    header = String.new    ## header (intro) text (before table)
+    if tables.size == 0
+      puts "** !!! ERROR !!! no table found in text"
+      exit 1
+    elsif tables.size > 1
+      puts "** !!! ERROR !!! too many tables (#{tables.size}) found in text; only one expected/allowed; sorry"
+      exit 1
+    else
+      tables[0]    ## pass-along first table; everything ok
+    end
+  end
+
+  def self.parse( txt )
+    tables = []     ## todo/check: allow multiple tables? why? why not?
+
     rows   = nil   ## note: assume first row is the headers row!!
     row    = nil   ## current row  ## note: same as rows[-1]
 
     inside_table = false
-
 
     txt.each_line do |line|
       line = line.strip
 
       break if line == '__END__'
 
-      ## note: strip comments  (and inline end-of-line comments too)
+      ## note:  allow/add comments
+      ##   note: CANNOT allow inline (end-of-line) comments
+      ##     would strip/break css colors eg.  bgcolor=#ffff44
       next if line.start_with?( '#' )   ## skip comments too
-      line = line.sub( /#.*/, '' ).strip
+      next if line.empty?               ## skip empty lines for now
 
+
+      ## note:  for the table format
+      ##  see https://en.wikipedia.org/wiki/Help:Basic_table_markup
 
       if line.start_with?( '{|' )     ## start table
-        ## todo/fix: reset rows / headers
         inside_table = true
         rows = []
       elsif inside_table && line.start_with?( '|}' )  ## end table
-        tables << { text: header, rows: rows }
-        header = String.new    ## reset table variables
+        tables << rows
         rows   = nil
         row    = nil
         inside_table = false
@@ -44,125 +59,48 @@ class WikiTableReader
          rows << row
       elsif inside_table && line.start_with?( '!' )    ## header column
          values = line.sub( '!', '' ).strip.split( '!!' )
+         ## note: |-  row divider is optional before header columns
+         if rows.empty?
+           row = []
+           rows << row
+         end
+         ## add each value one-by-one for now (to keep (same) row reference)
+         ##   note: also strip leading (optional) attributes
          values.each do |value|
-           row << value.strip
+           row <<  strip_emphases( strip_attributes( value.strip ))
          end
       elsif inside_table && line.start_with?( '|' )   ## table data
          values = line.sub( '|', '' ).strip.split( '||' )
          ## add each value one-by-one for now (to keep (same) row reference)
          values.each do |value|
-           row << value.strip
+           row <<  strip_emphases( strip_attributes( value.strip ))
          end
       elsif inside_table
         puts "!! ERROR !! unknown line type inside table:"
         puts line
         exit 1
       else
-        header << line
-        header << "\n"
+        puts "!! ERROR !! unknown line type outside (before or after) table:"
+        puts line
+        exit 1
       end
     end
     tables
   end # method parse
-end # class WikiTableReader
 
-
-
-##
-  ## todo: fix? - strip spaces from link and title
-  ##   spaces possible? strip in ruby later e.g. use strip - why? why not?
-
-  WIKI_LINK_PATTERN = %r{
-    \[\[
-      (?<link>[^|\]]+)     # everything but pipe (|) or bracket (])
-      (?:
-        \|
-        (?<title>[^\]]+)
-      )?                   # optional wiki link title
-    \]\]
-  }x
-
-
-def convert_club( value )
-  if (m = WIKI_LINK_PATTERN.match( value ))
-    link  = m[:link]
-    title = m[:title]
-
-    buf = String.new
-    buf << link.strip
-    buf << " | #{title.strip}" if title
-    ## todo use WikiLink struct!!!! - why? why not?
-    buf
-  else
-    puts "** !!! ERROR !!! - wiki link expected in club cell:"
-    pp value
-    exit 1
-  end
-end
-
-def convert_wiki_club( value )
-  if (m = WIKI_LINK_PATTERN.match( value ))
-    link  = m[:link]
-    title = m[:title]
-
-    link.strip
-  else
-    puts "** !!! ERROR !!! - wiki link expected in club cell:"
-    pp value
-    exit 1
-  end
-end
-
-
-def convert_city( value )
-  ## replace ALL wiki links with title (or link)
-  ##  e.g. [[Santiago]] ([[La Florida, Chile|La Florida]])
-  ##   =>    Santiago (La Florida)
-  value = value.gsub( WIKI_LINK_PATTERN ) do |_|
-    link  = $~[:link]
-    title = $~[:title]
-
-    if title
-      title
+  ####
+  # helper
+  def self.strip_attributes( value )
+    if value =~ /^[a-z]+=/                      ## if starts with 'attribute='
+      value = value.sub( /[^|]+\|[ ]*/ , '' )   ## strip everything incl. pipe (|) and trailing spaces
     else
-      link
+      value   ## return as-is (pass-through)
     end
   end
 
-  value.strip
-end
+  def self.strip_emphases( value )   ## strip bold or emphasis; note: emphases plural of emphasis
+    value = value.gsub( /'{2,}/, '' ).strip   ## remove two or more quotes e.g. '' or ''' etc.
+    value
+  end
 
-
-def convert( rows )
-  ## assume club, city, ...
-   buf = String.new
-
-   headers = rows[0]
-   data    = rows[1..-1]
-   data.each do |row|
-     ## pp row
-
-     club = convert_club( row[0] )
-     city = convert_city( row[1] )
-     buf << "#{'%-50s'%club}   # #{city}"
-     buf << "\n"
-   end
-   buf
-end
-
-
-def convert_wiki( rows )
-  ## assume club, city, ...
-   buf = String.new
-
-   headers = rows[0]
-   data    = rows[1..-1]
-   data.each do |row|
-     ## pp row
-
-     club = convert_wiki_club( row[0] )
-     buf << club
-     buf << "\n"
-   end
-   buf
-end
+end # class WikiTableReader

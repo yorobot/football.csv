@@ -1,10 +1,4 @@
-####
-##  todo/fix:  remove all wiki names / links already known!!!!!
-
-
-= Argentina (ar) =
-
-
+= Argentina =
 
 Aldosivi
 Argentinos Juniors
@@ -32,9 +26,7 @@ Unión de Santa Fe
 Club Atlético Vélez Sarsfield
 
 
-= Bolivia (bo) =
-
-
+= Bolivia =
 
 Club Always Ready
 Club Aurora
@@ -52,9 +44,7 @@ Sport Boys Warnes
 The Strongest
 
 
-= Brazil (br) =
-
-
+= Brazil =
 
 Club Athletico Paranaense
 Clube Atlético Mineiro
@@ -78,9 +68,7 @@ São Paulo FC
 CR Vasco da Gama
 
 
-= Chile (cl) =
-
-
+= Chile =
 
 Audax Italiano
 C.D. Cobresal
@@ -100,9 +88,7 @@ Club Universidad de Chile
 C.D. Universidad de Concepción
 
 
-= Colombia (co) =
-
-
+= Colombia =
 
 Alianza Petrolera F.C.
 América de Cali
@@ -126,9 +112,7 @@ Independiente Santa Fe
 Unión Magdalena
 
 
-= Ecuador (ec) =
-
-
+= Ecuador =
 
 América de Quito
 S.D. Aucas
@@ -147,9 +131,8 @@ C.D. Olmedo
 C.D. Técnico Universitario
 C.D. Universidad Católica del Ecuador
 
-= Paraguay (py) =
 
-
+= Paraguay =
 
 Cerro Porteño
 Deportivo Capiatá
@@ -165,9 +148,7 @@ Club Sol de América
 Sportivo Luqueño
 
 
-= Peru (pe) =
-
-
+= Peru =
 
 Alianza Lima
 Alianza Universidad
@@ -189,9 +170,7 @@ Club Universitario de Deportes
 Universidad Técnica de Cajamarca
 
 
-= Uruguay (uy) =
-
-
+= Uruguay =
 
 Boston River
 C.A. Cerro
@@ -210,9 +189,8 @@ Racing Club de Montevideo
 Rampla Juniors
 Club Atlético River Plate (Uruguay)
 
-= Venezuela (ve) =
 
-
+= Venezuela =
 
 Academia Puerto Cabello
 Aragua F.C.
@@ -234,3 +212,5 @@ Portuguesa F.C.
 Trujillanos FC
 Zamora FC
 Zulia FC
+
+

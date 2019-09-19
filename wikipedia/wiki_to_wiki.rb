@@ -1,21 +1,30 @@
-require_relative 'table'
+require_relative 'convert'
 
 
-basename = 'conmebol'       # conmebol, ar, ...
+basename = 'at'       # conmebol, ar, at, ...
 
-tables = WikiTableReader.read( "dl/#{basename}.txt" )
-pp tables
+page = WikiPageReader.read( "dl/#{basename}.txt" )
+pp page
 
 buf = String.new
-tables.each do |table|
-  buf << table[:text]
-  buf << "\n\n"
-
-  ## todo/fix:  return array of records
-  ##  why? let's us mark missing clubs inline !!!!!!
-  ##   use !! or something - why? why not?
-  buf << convert_wiki( table[:rows] )
+page.each do |el|
+  if el[0] == :h2
+    buf << "= #{el[1]} ="   ## note: convert h2 to h1
+    buf << "\n\n"
+  elsif el[0] == :table
+    data = convert_club_table_wiki( el[1] )
+    data.each do |club|
+      buf << club
+      buf << "\n"
+    end
+    buf << "\n\n"
+  else
+    puts "** !!! ERROR !!! unsupported page element type:"
+    pp el
+    exit 1
+  end
 end
+
 
 puts buf
 
