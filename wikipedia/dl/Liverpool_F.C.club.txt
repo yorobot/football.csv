@@ -1,0 +1,50 @@
+{{Infobox football club
+| clubname    = Liverpool
+| nickname    = The Reds
+| ground      = [[Anfield]]
+| upright     = .8
+| capacity    = 53,394<ref>{{cite web|url=https://premierleague-static-files.s3.amazonaws.com/premierleague/document/2019/07/26/20686588-0211-4eb8-bc6f-676a85cfbe2c/2019-20-PL-Handbook-250719.pdf|title=Premier League Handbook 2019/20 |format=PDF |accessdate=29 July 2019 |work=[[Premier League]] |df=dmy }}</ref>
+| season      = {{English football updater|Liverpoo2}}
+| current     = 2019–20 Liverpool F.C. season
+| image       = Liverpool FC.svg
+| alt         = The words "Liverpool Football Club" are in the centre of a pennant, with flames either side. The words "You'll Never Walk Alone" adorn the top of the emblem in a green design, "EST 1892" is at the bottom
+| fullname    = Liverpool Football Club
+| short name  = LFC
+| founded     = {{start date and age|1892|6|3|df=yes}}<ref>{{cite web|url=http://www.liverpoolfc.com/news/latest-news/159072-happy-birthday-lfc-not-quite-yet|title=Happy birthday LFC? Not quite yet...|publisher=Liverpool F.C |accessdate=15 March 2014 |quote=Liverpool F.C. was born on 3 June 1892. It was at John Houlding's house in Anfield Road that he and his closest friends left from Everton FC, formed a new club.}}</ref>
+| owner       = [[Fenway Sports Group]]
+| chairman    = [[Tom Werner]]
+| manager     = [[Jürgen Klopp]]
+| league      = {{English football updater|Liverpoo}}
+| position    = {{English football updater|Liverpoo3}}
+| website     = http://www.liverpoolfc.com/
+| pattern_la1   = _lfc1920h
+| pattern_b1    = _liverpool1920h
+| pattern_ra1   = _lfc1920h
+| pattern_sh1   = 
+| pattern_so1   = _lfc1920h
+| leftarm1      = DD0000
+| body1         = DD0000
+| rightarm1     = DD0000
+| shorts1       = DD0000
+| socks1        = DD0000
+| pattern_la2   = _lfc1920a
+| pattern_b2    = _liverpool1920a
+| pattern_ra2   = _lfc1920a
+| pattern_sh2   = 
+| pattern_so2   = _lfc1920a
+| leftarm2      = FFFFFF
+| body2         = FFFFFF
+| rightarm2     = FFFFFF
+| shorts2       = 110050
+| socks2        = FFFFFF
+| pattern_la3 = _lfc1920t
+| pattern_b3  = _liverpool1920t
+| pattern_ra3 = _lfc1920t
+| pattern_sh3 = 
+| pattern_so3 = _lfc1920t
+| leftarm3      = 000000
+| body3         = 000000
+| rightarm3     = 000000
+| shorts3       = 000000
+| socks3        = 000000
+}}
