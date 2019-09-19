@@ -1,0 +1,50 @@
+{{Infobox football club
+| clubname    = Bayern Munich
+| fullname    = Fußball-Club Bayern München e.&nbsp;V.
+| image       = FC Bayern München logo (2017).svg
+| alt         = crest
+| current     = 2019–20 FC Bayern Munich season
+| founded     = {{Start date and years ago|df=yes|1900|2|27}}
+| nickname    = ''Der FCB'' (The FCB)<br>''Die Bayern'' (The Bavarians)<br>''Stern des Südens'' (Star of the South)<br>''Die Roten'' (The Reds)<ref>{{cite web|title=Never-say-die Reds overcome Ingolstadt at the death|url=https://fcbayern.com/en/news/matchreports/2017/02/match-report-bundesliga-fc-ingolstadt---fc-bayern-11.02.2017|publisher=FC Bayern Munich|accessdate=12 February 2017|url-status=live|archiveurl=https://web.archive.org/web/20170212164904/https://fcbayern.com/en/news/matchreports/2017/02/match-report-bundesliga-fc-ingolstadt---fc-bayern-11.02.2017|archivedate=12 February 2017}}</ref><br>FC Hollywood<ref>{{cite web |url=http://www.goal.com/en-us/news/174/uefa-champions-league/2010/04/08/1869197/cl-comment-van-gaals-bayern-give-new-meaning-to-fc-hollywood |title=CL Comment: Van Gaal's Bayern Give New Meaning to "FC Hollywood" |publisher=goal.com |date=8 April 2010 |accessdate=28 September 2014 |first=Clark |last=Whitney |url-status=live |archiveurl=https://web.archive.org/web/20140629015812/http://www.goal.com/en-us/news/174/uefa-champions-league/2010/04/08/1869197/cl-comment-van-gaals-bayern-give-new-meaning-to-fc-hollywood |archivedate=29 June 2014  }}</ref>
+| short name  = Bayern
+| ground      = [[Allianz Arena]]
+| capacity    = 75,000<ref>{{cite web |url=http://www.fcbayern.de/de/news/news/2015/ab-sofort-75-000-fans-bei-bundesliga-heimspielen-genehmigung-130115.php |title=Ab sofort 75.000 Fans bei Bundesliga-Heimspielen |trans-title=As of now 75,000 for Bundesliga home matches |publisher=FC Bayern Munich |date=13 January 2015 |accessdate=13 January 2015 |url-status=live |archiveurl=https://web.archive.org/web/20150113190119/http://www.fcbayern.de/de/news/news/2015/ab-sofort-75-000-fans-bei-bundesliga-heimspielen-genehmigung-130115.php |archivedate=13 January 2015  }}</ref>
+| owntitle    = President
+| owner       = [[Uli Hoeneß]]
+| chairman    = [[Karl-Heinz Rummenigge]]
+| manager     = [[Niko Kovač]]
+| league      = [[Bundesliga]]
+| season      = [[2018–19 Bundesliga|2018–19]]
+| position    = 1st
+| pattern_la1        = _bayern1920h
+| pattern_b1         = _bayern1920H
+| pattern_ra1        = _bayern1920h
+| pattern_sh1        = _bayern1920h
+| pattern_so1        = _3_stripes_red
+| leftarm1           = D50000
+| body1              = D50000
+| rightarm1          = D50000
+| shorts1            = D50000
+| socks1             = D50000
+| pattern_la2        = _bayern1920a
+| pattern_b2         = _fcbm1920a
+| pattern_ra2        = _bayern1920a
+| pattern_sh2        = _fcbm1920a
+| pattern_so2        = _bayern1920a
+| leftarm2           = FFFFFF
+| body2              = FFFFFF
+| rightarm2          = FFFFFF
+| shorts2            = CCCCCC
+| socks2             = FFFFFF
+| pattern_la3        = _bayern1920t
+| pattern_b3         = _fcbm1920t
+| pattern_ra3        = _bayern1920t
+| pattern_sh3        = _bayern1920t
+| pattern_so3        = _bayern1920t
+| leftarm3           = 000833
+| body3              = 000833
+| rightarm3          = 000833
+| shorts3            = 000833
+| socks3             = 000833
+| website     = http://www.fcbayern.de/en/
+}}
