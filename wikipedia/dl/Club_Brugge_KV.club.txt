@@ -1,0 +1,48 @@
+{{Infobox football club
+| clubname = Club Brugge KV
+| image    = [[File:Club Brugge KV logo.svg|205px|Logo]]
+| fullname = {{lang|nl|Club Brugge Koninklijke Voetbalvereniging|italic=no}} (''Club Bruges Royal Football association'')
+| nickname = {{lang|nl|Blauw-Zwart}} (Blue-Black), ''Club'', ''FCB''
+| founded  = {{Start date and age|df=yes|1891|11|13}}<br/>Stamnummer ([[Matricule|matricule number]]) 3
+| ground   = [[Jan Breydel Stadium]]
+| capacity = 29,062<ref>[https://www.clubbrugge.be/nl/stadion/ Jan Breydel Stadium] clubbrugge.be (last check 20/10/2017)</ref>
+| chairman = [[Bart Verhaeghe]]
+| chrtitle = President
+| manager  = [[Philippe Clement]]
+| mgrtitle = Head coach
+| league   = [[Belgian First Division A]]
+|  season   = [[2018–19 Belgian First Division A|2018–19]]
+|  position = Belgian First Division A, 2nd
+| website  = http://www.clubbrugge.be/
+| pattern_la1 = _brugge1920h
+| pattern_b1  = _brugge1920h
+| pattern_ra1 = _brugge1920h
+| pattern_sh1 = _brugge1920h
+| pattern_so1  = _brugge1920h
+| leftarm1    = 0071EE
+| body1       = 0071EE
+| rightarm1   = 000000
+| shorts1     = 000000
+| socks1      = 000000
+| pattern_b2  = _brugge1920a
+| pattern_la2 = _brugge1920a
+| pattern_ra2 = _brugge1920a
+| pattern_sh2 = _brugge1920a
+| pattern_so2 = _brugge1920a
+| leftarm2    = 800000
+| body2       = 800000
+| rightarm2   = 800000
+| shorts2     = 800000
+| socks2      = 800000
+|pattern_la3 = _brugge1920t
+ |pattern_b3  = _brugge1920t
+ |pattern_ra3 = _brugge1920t
+ |pattern_sh3 = _brugge1920t
+ |pattern_so3 = _brugge1920t
+ |leftarm3    = 57ffff
+ |body3       = 57ffff
+ |rightarm3   = 57ffff
+ |shorts3     = 000000
+ |socks3      = C6E2E1
+| current = 2019–20 Club Brugge KV season
+}}
