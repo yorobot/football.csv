@@ -1,0 +1,36 @@
+{{Infobox football club
+| clubname = Austria Wien
+| image = FK Austria Wien logo.svg
+| fullname = Fußballklub Austria Wien
+| nickname = ''Die Veilchen'' (The Violets)
+| current = 2018–19 FK Austria Wien season
+| founded = {{Start date and age|df=yes|1911|3|15}}
+| ground = [[Franz Horr Stadium]]
+| capacity = 17,565
+| chairman = Frank Hensel
+| manager = [[Christian Ilzer]]
+| league = [[Austrian Football Bundesliga|Austrian Bundesliga]]
+| season = [[2018–19 Austrian Football Bundesliga|2018–19]]
+| position = Austrian Bundesliga, 4th
+| website = http://www.fk-austria.at/
+| pattern_la1 = _austriawien1819h
+| pattern_b1 = _austriawien1819h
+| pattern_ra1 = _austriawien1819h
+| pattern_sh1 = 
+| pattern_so1 = 
+| leftarm1 = 400080
+| body1 = FFFFFF
+| rightarm1 = 40008
+| shorts1 = 400080
+| socks1 = 400080
+| pattern_la2 = _rioave1819t
+| pattern_b2 = _rioave1819t
+| pattern_ra2 = _rioave1819t
+| pattern_sh2 = 
+| pattern_so2 = 
+| leftarm2 = FFFFFF
+| body2 = FFFFFF
+| rightarm2 = FFFFFF
+| shorts2 = FFFFFF
+| socks2 = FFFFFF
+}}
