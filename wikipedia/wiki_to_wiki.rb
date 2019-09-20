@@ -3,7 +3,7 @@ require_relative 'convert'
 
 basename = 'at'       # conmebol, ar, at, ...
 
-page = WikiPageReader.read( "dl/#{basename}.txt" )
+page = Wikiscript::PageReader.read( "dl/#{basename}.txt" )
 pp page
 
 buf = String.new
