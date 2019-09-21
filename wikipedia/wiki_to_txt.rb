@@ -3,11 +3,12 @@ require_relative 'convert'
 
 basename = 'at'       # conmebol, ar, at ...
 
-page = Wikiscript::PageReader.read( "dl/#{basename}.txt" )
-pp page
+page = Wikiscript.read( "dl/#{basename}.txt" )
+elements = page.parse
+pp elements
 
 buf = String.new
-page.each do |el|
+elements.each do |el|
   if el[0] == :h2
     buf << "= #{el[1]} ="   ## note: convert h2 to h1
     buf << "\n\n"
