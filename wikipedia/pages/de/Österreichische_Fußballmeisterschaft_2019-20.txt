@@ -1,0 +1,2024 @@
+{{Infobox Fußballsaison
+| Name= Österreichische Fußballmeisterschaft 2019/20
+| Bild = [[Datei:Logo ÖFB.svg|100px|Logo des ÖFB]]
+| vorherige Saison = [[Österreichische Fußballmeisterschaft 2018/19|2018/19]]
+| nachfolgende Saison = [[Österreichische Fußballmeisterschaft 2020/21|2020/21]]
+}}
+Die '''österreichische Fußballmeisterschaft''' wird '''2019/20''' zum 108. Mal ausgetragen. Die höchste Spielklasse ist die österreichische [[Fußball-Bundesliga (Österreich)|Bundesliga]], die in dieser Saison zum 46. Mal durchgeführt und zum zweiten Mal seit der Saison 1992/93 wieder von zwölf Mannschaften bestritten wird. Diese ermitteln in zunächst zwei Durchgängen die Teilnehmer in der Meister- und der Qualifikationsgruppe; in der Meistergruppe werden daraufhin der österreichische Fußballmeister bestimmt sowie die ersten drei Vertreter Österreichs in den internationalen Bewerben der Saison 2019/20. Zudem wird in den Europa-League-Playoffs der vierte Teilnehmer Österreichs an der Europa-League-Qualifikation bestimmt. Der fünfte Teilnehmer ist der [[ÖFB-Cup]]-Sieger. Die zweithöchste Spielklasse ist die [[2. Liga (Österreich)|2. Liga]], die 2019/20 zum 45. Mal ausgetragen wird.
+
+== Erste Leistungsstufe – Bundesliga ==
+{{Infobox Fußballsaison
+| Name = Bundesliga 2019/20
+| Bild = [[Datei:Österreichische Fußball Bundesliga (ÖFBL) Logo.png|70px|Logo]]
+| Meister =
+| Herbstmeister =
+| UEFA Champions League Quali =
+| Europa League Quali =
+| Absteiger =
+| Mannschaften = 12
+| Spiele = 132
+| Play-off-Spiele = 63
+| gespielte Spiele = 42 <!-- 15.9. -->
+| geschossene Tore = 153 <!-- 15.9. -->
+| Zuschauer = 287.875 <!-- 15.9. -->
+| Torschützenkönig =
+| Gelbe Karten = 171 <!-- 15.9. -->
+| Gelb-rote Karten = 5 <!-- 15.9. -->
+| Rote Karten = 3 <!-- 15.9. -->
+}}
+
+{{Positionskarte+
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Bundesliga 2019/20
+ |float = right
+ |width = 400
+ |places =
+ {{Positionskarte~|Österreich|lat=47.8163 |long=12.9982 |region=AT |position = top   |wrap=manual |label=<small>[[FC Red Bull Salzburg|Red Bull Salzburg]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.1621 |long=16.3872 |region=AT |position = right |wrap=manual |label=<small>[[FK Austria Wien|Austria<br />Wien]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.0462 |long=15.4545 |region=AT |position = bottom   |wrap=manual |label=<small>[[SK Sturm Graz|Sturm Graz]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.2937 |long=14.2766 |region=AT |position = top|wrap=manual |label=<small>[[LASK]]</small>}}
+ {{Positionskarte~|Österreich|lat=46.8418 |long=14.8407 |region=AT |position = left  |wrap=manual |label=<small>[[Wolfsberger AC]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.1913 |long=15.6259 |region=AT |position = left|label=<small>[[SKN St. Pölten|SKN<br />St. Pölten]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.1981 |long=16.2653 |region=AT |position = top   |wrap=manual |label=<small>[[SK Rapid Wien|Rapid<br />Wien]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.7394 |long=16.4064 |region=AT |position = bottom|wrap=manual |label=<small>[[SV Mattersburg]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.2805 |long=15.97   |region=AT |position = left |wrap=manual |label=<small>[[TSV Hartberg]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.3539 |long= 9.6367 |region=AT |position = right |wrap=manual |label=<small>[[SCR Altach|SCR<br />Altach]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.0974 |long=16.3114 |region=AT |position = bottom  |wrap=manual |label=<small>[[FC Admira Wacker Mödling|Admira Wacker]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.2954 |long=11.5825 |region=AT |position = right|wrap=manual |label=<small>[[WSG Tirol]]</small>}}
+}}
+
+Die Bundesliga ist die höchste Spielklasse im österreichischen Fußball. Diese wird in der Saison 2019/20 zum 46.&nbsp;Mal ausgetragen und ermittelt den 108. österreichischen Fußballmeister. Als Hauptsponsor tritt, wie in den Vorjahren, der Sportwetten-Anbieter [[Tipico]] auf, weshalb die offizielle Liga-Bezeichnung ''Tipico-Bundesliga'' lautet.
+
+Niederösterreich, Wien und die Steiermark stellen je zwei Vereine, das Burgenland, Kärnten, Oberösterreich, Salzburg, Tirol und Vorarlberg je einen.
+
+Der [[Fernsehen|TV]]-Anbieter ''[[Sky Deutschland|Sky Deutschland GmbH]]'' hat die Rechte alle Bundesligaspiele in voller Länge zu zeigen, die auf dem Kanal ''sky sport austria'' im [[Pay-TV]] ausgestrahlt werden. Der Sender zeigt alle Spiele in Konferenzschaltung und als Einzelspiele. Zudem werden vier Spiele sowie eine Highlight-Sendung im Free-TV gesendet. Weiters werden die Play-off-Spiele zur Europa-League von Sky kostenlos im Livestream gezeigt. Hightlightsendungen gibt es auf Sky, im ORF sowie bei oe24.tv. Auch LAOLA1 bietet auf seiner Internetseite Highlights der Spiele an.
+
+=== Modus ===
+In der Saison 2019/20 treten zum zweiten Mal nach der Saison 2018/19 zwölf Klubs in zunächst 22 Runden gegeneinander an. Jede Mannschaft spielt somit jeweils einmal zu Hause und auswärts gegen jede andere Mannschaft. Danach kommen die besten sechs Mannschaften in die Meistergruppe und die restlichen sechs in die Qualifikationsgruppe. Die Punkte aus dem Grunddurchgang werden halbiert. Bei halben Punkten wird abgerundet. Sind zwei Klubs am Ende des Finaldurchgangs punktegleich und wurde bei einem dieser Klubs ein halber Punkt abgerundet, wird dieser Klub vorgereiht. Wurde bei keinem oder bei beiden Klubs abgerundet, wird als nächstes Entscheidungskriterium die Tordifferenz herangezogen. Sollte auch diese gleich sein, werden die weiteren vier bestehenden Entscheidungskriterien herangezogen.
+
+Danach folgt noch für die Plätze 4 und 5 der Meistergruppe und für den Sieger der Qualifikationsgruppe ein Europa-League-Playoff, in dem der letzte Europacup-Startplatz ausgespielt wird.
+
+Aufgrund der Europacup-Ergebnisse der österreichischen Mannschaften in der Saison 2018/19 belegt Österreich zum Ende der Saison den 12. Platz der [[UEFA-Fünfjahreswertung]]. Somit werden über die Bundesliga und den [[Österreichischer Fußball-Cup 2019/20|ÖFB-Cup]] in der Saison 2019/20 zwei Startplätze für die Champions League und drei Startplätze für die Europa League ausgespielt. Der Meister der Bundesliga steigt im Play-off ein, der Vize-Meister startet in der zweiten Qualifikationsrunde; der Cupsieger ist für die [[UEFA Europa League 2019/20|UEFA Europa League]] startberechtigt, der Dritte sowie der Sieger des Europa-League-Playoffs spielen in der Qualifikation zu dieser.
+
+Der Letztplatzierte der höchsten Spielklasse muss in die 2. Liga absteigen.
+
+Gelbe Karten sowie Sperren aus Gelben, Gelb-Roten und Roten Karten werden vom Grund- in den Finaldurchgang mitgenommen.
+Zwischen dem Finaldurchgang und den Play-off-Spielen bleiben nur Sperren nach Gelb-Roten bzw. Roten Karten aufrecht. Die Sperren durch Gelbe Karten bzw. die Anzahl der Gelben Karten werden nach dem Finaldurchgang gelöscht, das heißt in den Play-off-Spielen sind keine Gelb-Sperren möglich. Das soll sicherstellen, dass die Klubs in den Play-off-Spielen mit den bestmöglichen Mannschaften antreten können.
+
+Die drei Partien am Samstag beginnen jeweils um 17:00 Uhr. Am Sonntag folgen dann ab September noch zwei Spiele um 14:30 Uhr sowie ein Spiel um 17:00 Uhr. Im Juli und August werden alle Sonntagsspiele um 17:00 Uhr angepfiffen.
+
+=== Grunddurchgang ===
+==== Tabelle ====
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=1  |S=7|U=0|N=0|ET=34|GT= 6|Verein=[[FC Red Bull Salzburg]] (M, C)}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=2  |S=5|U=1|N=1|ET=11|GT= 3|Verein=[[LASK]]}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=3  |S=5|U=0|N=2|ET=19|GT= 8|Verein=[[Wolfsberger AC]]}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=4  |S=4|U=1|N=2|ET=14|GT= 8|Verein=[[SK Rapid Wien]]}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=5  |S=4|U=0|N=3|ET= 8|GT= 5|Verein=[[SK Sturm Graz]]}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=6  |S=3|U=2|N=2|ET=16|GT=16|Verein=[[TSV Hartberg]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=7  |S=2|U=2|N=3|ET=10|GT=13|Verein=[[WSG Tirol]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=8  |S=2|U=1|N=4|ET=16|GT=16|Verein=[[SCR Altach]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=9  |S=2|U=0|N=5|ET= 7|GT=19|Verein=[[SV Mattersburg]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=10 |S=1|U=2|N=4|ET=10|GT=16|Verein=[[FK Austria Wien]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=11 |S=1|U=2|N=4|ET= 5|GT=21|Verein=[[SKN St. Pölten]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=12 |S=0|U=1|N=6|ET= 3|GT=22|Verein=[[FC Admira Wacker Mödling]]}}
+{{Fußballtabelle/Ende|Spalten=9|Stand=15. September 2019 (7. Runde)}}
+{{Farblegende/Kopf|Name=Legende für die Bundesliga}}
+{{Farblegende|#ccffcc|Teilnahme an der Meistergruppe}}
+{{Farblegende|#ccccff|Teilnahme an der Qualifikationsgruppe}}
+{|
+| (M) || [[Fußball-Bundesliga (Österreich)|Österreichischer Meister]] [[Österreichische Fußballmeisterschaft 2018/19#Erste Leistungsstufe – Bundesliga|2018/19]]
+|-
+| (C) || [[ÖFB-Cup]]-Sieger [[Österreichischer Fußball-Cup 2018/19|2018/19]]
+|-
+| (N) || Aufsteiger aus der [[Österreichische Fußballmeisterschaft 2018/19#Zweite Leistungsstufe – 2. Liga|2. Liga 2018/19]]
+|}
+
+==== Tabellenverlauf ====
+{| class="wikitable sortable zebra" style="text-align:center"
+|- class="hintergrundfarbe5"
+! rowspan="2" class="unsortable"|
+! class="unsortable"| 1 !! class="unsortable"| 2 !! class="unsortable"| 3 !! class="unsortable"| 4 !! class="unsortable"| 5 !! class="unsortable"| 6 !! class="unsortable"| 7 !! class="unsortable"| 8 !! class="unsortable"| 9 !! class="unsortable"| 10 !! class="unsortable"| 11 !! class="unsortable"| 12 !! class="unsortable"| 13 !! class="unsortable"| 14 !! class="unsortable"| 15 !! class="unsortable"| 16 !! class="unsortable"| 17 !! class="unsortable"| 18 !! class="unsortable"| 19 !! class="unsortable"| 20 !! class="unsortable"| 21 !! class="unsortable"| 22
+|- class="hintergrundfarbe5"
+! style="height:20px"| !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !!
+|-
+| class="hintergrundfarbe5"| '''RBS'''
+| style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:LASK Linz.svg|19px|LASK]]
+| style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 2 || style="background-color:#ccffcc" | 2 || style="background-color:#ccffcc" | 2 || style="background-color:#ccffcc" | 2 || style="background-color:#ccffcc" | 2 || style="background-color:#ccffcc" | 2 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Logo Wolfsberger AC.jpg|23px|Wolfsberger AC]]
+| style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | 5 || style="background-color:#ccccff" | 8 || style="background-color:#ccffcc" | 5 || style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 3 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Austria Wien.svg|19px|FK Austria Wien]]
+| style="background-color:#ccccff" | 8 || style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 7 || style="background-color:#ccccff" | 8 || style="background-color:#ccccff" | 7 || style="background-color:#ccccff" | 8 || style="background-color:#ccccff" | 10 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SK Sturm Graz Logo.svg|23px|SK Sturm Graz]]
+| style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 6 || style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 5 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SKN logo4c.png|22px|SKN St. Pölten]]
+| style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 10 || style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 10 || style="background-color:#ccccff" | 11 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SK Rapid Wien Logo.svg|19px|SK Rapid Wien]]
+| style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 9 || style="background-color:#ccffcc" | 6 || style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 6 || style="background-color:#ccffcc" | 6 || style="background-color:#ccffcc" | 4 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SV Mattersburg.svg|23px|SV Mattersburg]]
+| style="background-color:#ccffcc" | 6 || style="background-color:#ccccff" | 8 || style="background-color:#ccccff" | 10 || style="background-color:#ccccff" | 10 || style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 7 || style="background-color:#ccccff" | 9 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SC Rheindorf Altach.svg|20px|SCR Altach]]
+| style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 7 || style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 10 || style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 8 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:FC Admira Wacker Mödling Logo.svg|18px|FC Admira Wacker Mödling]]
+| style="background-color:#ccccff" | 11 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || style="background-color:#ccccff" | 12 || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:TSV Hartberg 2010.png|23px|TSV Hartberg]]
+| style="background-color:#ccccff" | 7 || style="background-color:#ccffcc" | 4 || style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 5 || style="background-color:#ccffcc" | 5 || style="background-color:#ccffcc" | 6 || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:WSG Wattens (Logo Fußballsektion) 2009.svg|27px|WSG Tirol]]
+| style="background-color:#ccffcc" | 3 || style="background-color:#ccffcc" | 6 || style="background-color:#ccffcc" | 5 || style="background-color:#ccccff" | 7 || style="background-color:#ccccff" | 8 || style="background-color:#ccccff" | 9 || style="background-color:#ccccff" | 7 || || || || || || || || || || || || || || ||
+|}
+
+==== Tabellenführer/-letzter ====
+<!--FC Red Bull Salzburg: red; FK Austria Wien: purple; SK Sturm Graz: black; LASK Linz: tan1; Wolfsberger AC: tan2; SKN St. Pölten: yelloworange; SK Rapid Wien: green; SV Mattersburg: brightgreen; FC Admira Wacker: claret; SCR Altach: yellow; TSV Hartberg: oceanblue; WSG Tirol: kelleygreen.-->
+<div class="float-right">
+{{Center|'''Tabellenführer'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:22.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from: 0.5 till:1.0 shift:(25,0)  color:tan2
+  from: 1.0 till:1.5 shift:(25,0)  color:black
+  from: 1.5 till:8.5 shift:(25,0)  color:red
+
+
+</timeline>
+</div>
+<div class="float-right">
+{{Center|'''Tabellenletzter'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:22.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.0 shift:(25,0)   color:claret
+  from:1.0 till:1.5 shift:(25,0)   color:yelloworange
+  from:1.5 till:8.5 shift:(25,0)   color:claret
+</timeline>
+</div>
+
+{| class="wikitable"
+! Farblegende
+|-
+| {{Farblegende|#D2B48C|Wolfsberger AC}}
+{{Farblegende|#000000|SK Sturm Graz}}
+{{Farblegende|#ff0000|FC Red Bull Salzburg}}
+<br />
+{{Farblegende|#b24c4c|FC Admira Wacker Mödling}}
+{{Farblegende|#ffd800|SKN St. Pölten}}
+|}
+
+==== Spiele im Detail ====
+===== Hinrunde =====
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Datum !! Heim !! Gäste !! Ergebnis !! Tore  !! Schiedsrichter !! Karten !! Zuschauer
+|-
+|style="background:#DC143C"|'''Runde 1'''
+|-
+| 26. Juli 2019 || Rapid || Salzburg || '''0:2''' (0:1) || [[Takumi Minamino|Minamino]]&nbsp;(35.), [[Masaya Okugawa|Okugawa]]&nbsp;(82.) || [[Alexander Harkam|Harkam]] ||  || 24.200
+|-
+| 27. Juli 2019 || Admira || WAC || '''0:3''' (0:1) || [[Shon Weissman|Weissman]]&nbsp;(43.), [[Shon Weissman|Weissman]]&nbsp;(55.), [[Anderson Niangbo|Niangbo]]&nbsp;(76.) || [[Christian-Petru Ciochirca|Ciochirca]] || {{Gelb}}-Admira: [[Fabio Strauss|Strauss]]&nbsp;(33.), [[Roman Kerschbaum|Kerschbaum]]&nbsp;(47.), [[Daniel Toth|Toth]]&nbsp;(67.) <br>
+{{Gelb}}-WAC: [[Nemanja Rnić|Rnić]]&nbsp;(21.), [[Marcel Ritzmaier|Ritzmaier]]&nbsp;(45+1.), [[Romano Schmid|Schmid]]&nbsp;(82.)
+|| 1.900
+|-
+| 27. Juli 2019 || Tirol || Austria || '''3:1''' (1:0) || [[Tarkan Serbest|Serbest]]&nbsp;(33.,&nbsp;ET), [[Clemens Walch|Walch]]&nbsp;(59.), [[Florian Buchacher|Buchacher]]&nbsp;(64.); [[Alexander Grünwald|Grünwald]]&nbsp;(68.) ||[[Christopher Jäger|Jäger]] || {{Gelb}}-Austria: [[Florian Klein|Klein]]&nbsp;(49.), [[Bright Edomwonyi|Edomwonyi]]&nbsp;(80.)
+|| 4.600
+|-
+| 28. Juli 2019 || LASK || Altach || '''2:0''' (1:0) || [[Samuel Tetteh|Tetteh]]&nbsp;(7.), [[Klauss (Fußballspieler)|Klauss]]&nbsp;(79.) || [[Harald Lechner|Lechner]] || {{Gelb}}-LASK: [[Thomas Goiginger|Goiginger]]&nbsp;(90.)
+{{Gelb}}-Altach: [[Anderson dos Santos Gomes|Anderson]]&nbsp;(9.), [[Ousmane Diakité (Fußballspieler, 2000)|Diakité]]&nbsp;(90+2.)
+|| 5.333
+|-
+| 28. Juli 2019 || Sturm || St. Pölten || '''3:0''' (2:0) || [[Jakob Jantscher|Jantscher]]&nbsp;(2.), [[Jakob Jantscher|Jantscher]]&nbsp;(57.), [[Juan Domínguez Lamas|Domínguez]]&nbsp;(45.) || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Gelb}}-Sturm: [[Thomas Schrammel|Schrammel]]&nbsp;(8.), [[Anastasios Avlonitis|Avlonitis]]&nbsp;(69.)
+{{Rot}}-St. Pölten: [[René Gartler|Gartler]]&nbsp;(28.) {{Gelb}}: [[George Davies|Davies]]&nbsp;(54.), [[Luan Leite da Silva|Luan]]&nbsp;(65.)
+|| 7.194
+|-
+| 28. Juli 2019 || Mattersburg || Hartberg || '''2:1''' (1:0) || [[Stephan Schimandl|Schimandl]]&nbsp;(28.), [[Martin Pusic|Pusic]]&nbsp;(69., S); [[Andreas Lienhart|Lienhart]]&nbsp;(62.) || [[Manuel Schüttengruber|Schüttengruber]] || {{Gelb}}-Mattersburg: [[Philipp Erhardt|Erhardt]]&nbsp;(59.)
+{{Gelb}}-Hartberg: [[Jürgen Heil|Heil]]&nbsp;(10.), [[René Swete|Swete]]&nbsp;(68.), [[David Cancola|Cancola]]&nbsp;(90+1.)
+|| 2.850
+|-
+|style="background:#DC143C"|'''Runde 2'''
+|-
+| 3. August 2019 || Austria || LASK || '''0:3''' (0:1) || [[Christian Ramsebner|Ramsebner]]&nbsp;(42.), [[Gernot Trauner|Trauner]]&nbsp;(87.), [[Marko Raguž|Raguž]]&nbsp;(90+2.) || [[Sebastian Gishamer|Gishamer]] || {{Gelb}}-Austria: [[Michael Madl|Madl]]&nbsp;(61.) <br> {{Gelb}}-LASK: [[Peter Michorl|Michorl]]&nbsp;(51.), [[James Holland (Fußballspieler)|Holland]]&nbsp;(69.)
+|| 9.350
+|-
+| 3. August 2019 || Altach || Tirol || '''3:2''' (2:2) || [[Manfred Fischer (Fußballspieler, 1995)|Fischer]]&nbsp;(30.), [[Mërgim Berisha|Berisha]]&nbsp;(41.), [[Jan Zwischenbrugger|Zwischenbrugger]]&nbsp;(75.); [[Zlatko Dedič|Dedič]]&nbsp;(1.), [[Stefan Hager|Hager]]&nbsp;(32.) || [[Gerhard Grobelnik|Grobelnik]] || {{Gelb}}-Altach: [[Mergim Berisha|Berisha]]&nbsp;(58.), [[Anderson dos Santos Gomes|Anderson]]&nbsp;(70.) <br> {{Gelb}}-Tirol: [[Stefan Hager|Hager]]&nbsp;(24.), [[Ione Cabrera|Ione]]&nbsp;(57.), [[David Gugganig|Gugganig]]&nbsp;(62.)
+|| 4.038
+|-
+| 3. August 2019 || Hartberg || Admira || '''4:1''' (2:0) || [[Dario Tadić|Tadić]]&nbsp;(4.), [[Tobias Kainz|Kainz]]&nbsp;(17.), [[Dario Tadić|Tadić]]&nbsp;(63.), [[Rajko Rep|Rep]]&nbsp;(76.); [[Sinan Bakış|Bakış]]&nbsp;(77.) || [[Josef Spurny|Spurny]] || {{Gelb}}-Hartberg: [[Tobias Kainz|Kainz]]&nbsp;(8.), [[Jodel Dossou|Dossou]]&nbsp;(52.) <br> {{Gelb}}-Admira: [[Dominik Starkl|Starkl]]&nbsp;(48.), [[Emanuel Aiwu|Aiwu]]&nbsp;(61.), [[Fabian Menig|Menig]]&nbsp;(87.)
+|| 2.624
+|-
+| 4. August 2019 || Salzburg || Mattersburg || '''4:1''' (3:0) || [[Takumi Minamino|Minamino]]&nbsp;(8.), [[Masaya Okugawa|Okugawa]]&nbsp;(11.), [[Erling Haaland|Haaland]]&nbsp;(37.,&nbsp;S), [[Patson Daka|Daka]]&nbsp;(50.); [[Martin Pusic|Pusic]]&nbsp;(54.) || [[Andreas Heiß|Heiß]] || {{Gelb}}-Salzburg: [[Zlatko Junuzović|Junuzović]]&nbsp;(49.), [[Dominik Szoboszlai|Szoboszlai]]&nbsp;(65.), [[Erling Haaland|Haaland]]&nbsp;(77.), {{Gelb-Rot}}: [[Zlatko Junuzović|Junuzović]]&nbsp;(75.)<br />{{Gelb}}-Mattersburg: [[Thorsten Mahrer|Mahrer]]&nbsp;(36.), [[Alois Höller|Höller]]&nbsp;(83.) || 8.938
+|-
+| 4. August 2019 || WAC || Sturm || '''0:1''' (0:1) || [[Bekim Balaj|Balaj]]&nbsp;(5.) || [[Dieter Muckenhammer|Muckenhammer]] || {{Gelb}}-WAC: [[Michael Novak (Fußballspieler, 1990)|Novak]]&nbsp;(47.), [[Nemanja Rnić|Rnić]]&nbsp;(87.)<br />{{Gelb}}-Sturm: [[Philipp Huspek|Huspek]]&nbsp;(35.), [[Jörg Siebenhandl|Siebenhandl]]&nbsp;(74.), {{Gelb-Rot}}: [[Philipp Huspek|Huspek]]&nbsp;(69.) || 7.231
+|-
+| 4. August 2019 || St. Pölten || Rapid || '''2:2''' (1:1) || [[Robert Ljubičić|Ljubičić]]&nbsp;(42.), [[Luan Leite da Silva|Luan]]&nbsp;(68.); [[Taxiarchis Foundas|Foundas]]&nbsp;(38.), [[Mert Müldür|Müldür]]&nbsp;(46.) || [[Christopher Jäger|Jäger]] || {{Gelb}}-St. Pölten: [[Sandro Ingolitsch|Ingolitsch]]&nbsp;(40.), [[Martin Rasner|Rasner]]&nbsp;(46.), [[Manuel Haas|Haas]]&nbsp;(61.)<br />{{Gelb}}-Rapid: [[Maximilian Hofmann|Hofmann]]&nbsp;(62.), [[Srđan Grahovac|Grahovac]]&nbsp;(73.), [[Stefan Schwab (Fußballspieler)|Schwab]]&nbsp;(86.), [[Mert Müldür|Müldür]]&nbsp;(88.) || 7.582
+|-
+|style="background:#DC143C"|'''Runde 3'''
+|-
+| 10. August 2019 || Rapid || Altach || '''2:1''' (2:1) || [[Taxiarchis Foundas|Foundas]]&nbsp;(4.), [[Taxiarchis Foundas|Foundas]]&nbsp;(11.); [[Christian Gebauer (Fußballspieler, 1993)|Gebauer]]&nbsp;(27.) || [[Dieter Muckenhammer|Muckenhammer]] || {{Gelb}}-Rapid: [[Srđan Grahovac|Grahovac]]&nbsp;(64.)<br />{{Gelb}}-Altach: [[Matthias Maak|Maak]]&nbsp;(43.), [[Christian Gebauer (Fußballspieler, 1993)|Gebauer]]&nbsp;(44.), [[Mërgim Berisha|Berisha]]&nbsp;(47.) || 12.800
+|-
+| 10. August 2019 || Salzburg || WAC || '''5:2''' (2:1) || [[Erling Haaland|Haaland]]&nbsp;(22.), [[Michael Sollbauer|Sollbauer]]&nbsp;(39.,&nbsp;ET), [[Erling Haaland|Haaland]]&nbsp;(65.), [[Erling Haaland|Haaland]]&nbsp;(89.), [[André Ramalho|Ramalho]]&nbsp;(90+1.); [[Anderson Niangbo|Niangbo]]&nbsp;(7.), [[Shon Weissman|Weisman]]&nbsp;(78.) || [[Julian Weinberger|Weinberger]] || {{Gelb}}-Salzburg: [[Jérôme Onguéné|Onguéné]]&nbsp;(46.), [[Enock Mwepu|Mwepu]]&nbsp;(84.)<br />{{Gelb}}-WAC: [[Marcel Ritzmaier|Ritzmaier]]&nbsp;(30.), [[Mario Leitgeb|Leitgeb]]&nbsp;(88.) || 8.874
+|-
+| 10. August 2019 || Admira || LASK || '''0:1''' (0:1) || [[Valentino Müller|Müller]]&nbsp;(45+2.) || [[Robert Schörgenhofer|Schörgenhofer]] || {{Gelb}}-Admira: [[Daniel Toth|Toth]]&nbsp;(18.), [[Marcus Maier|Maier]]&nbsp;(73.), [[Roman Kerschbaum|Kerschbaum]]&nbsp;(90.)<br />{{Gelb}}-LASK: [[Philipp Wiesinger|Wiesinger]]&nbsp;(66.) || 2.037
+|-
+| 11. August 2019 || Hartberg || Sturm || '''1:0''' (0:0) || [[Dario Tadić|Tadić]]&nbsp;(65.,&nbsp;S) || [[Harald Lechner|Lechner]] || {{Gelb}}-Hartberg: [[David Cancola|Cancola]]&nbsp;(22.), [[Christian Klem|Klem]]&nbsp;(44.), [[Rajko Rep|Rep]]&nbsp;(85.), {{Gelb-Rot}}: [[David Cancola|Cancola]]&nbsp;(71.)<br />{{Gelb}}-Sturm: [[Bekim Balaj|Balaj]]&nbsp;(18.), [[Emanuel Sakic|Sakic]]&nbsp;(64.), [[Thomas Schrammel|Schrammel]]&nbsp;(77.), [[Juan Domínguez Lamas|Domínguez]]&nbsp;(85.) || 5.420
+|-
+| 11. August 2019 || Mattersburg || Austria || '''1:5''' (0:2) || [[Andreas Gruber (Fußballspieler)|Gruber]]&nbsp;(78.); [[Christoph Monschein|Monschein]]&nbsp;(3.), [[Christoph Monschein|Monschein]]&nbsp;(38.), [[Alexander Grünwald|Grünwald]]&nbsp;(56.), [[Dominik Fitz|Fitz]]&nbsp;(58.), [[Christoph Monschein|Monschein]]&nbsp;(83.) || [[Stefan Ebner|Ebner]] || {{Gelb}}-Mattersburg: [[Alois Höller|Höller]]&nbsp;(7.)<br />{{Gelb}}-Austria: [[Dominik Fitz|Fitz]]&nbsp;(45.) || 4.100
+|-
+| 11. August 2019 || Tirol || St. Pölten || '''1:1''' (1:0) || [[Zlatko Dedič|Dedič]]&nbsp;(6.,&nbsp;S); [[Michael Ambichl|Ambichl]]&nbsp;(72.) || [[Manuel Schüttengruber|Schüttengruber]] || {{Gelb}}-Tirol: [[Benjamin Pranter|Pranter]]&nbsp;(45+1.), [[Ione Cabrera|Ione]]&nbsp;(81.), [[David Gugganig|Gugganig]]&nbsp;(90+1.)<br />{{Gelb}}-St. Pölten: [[Roope Riski|Riski]]&nbsp;(33.), [[Martin Rasner|Rasner]]&nbsp;(47.) || 3.050
+|-
+|style="background:#DC143C"|'''Runde 4'''
+|-
+| 17. August 2019 || LASK || Tirol || '''1:1''' (0:1) || [[Philipp Wiesinger|Wiesinger]]&nbsp;(81.); [[Zlatko Dedič|Dedič]]&nbsp;(44.) || [[Felix Ouschan|Ouschan]] || {{Gelb}}-LASK: [[Nemanja Celic|Celic]]&nbsp;(50.)<br />{{Gelb}}-Tirol: [[Lukas Grgic|Grgic]]&nbsp;(60.), [[Florian Rieder|Rieder]]&nbsp;(68.), [[Kevin Nitzlnader|Nitzlnader]]&nbsp;(80.) || 5.338
+|-
+| 17. August 2019 || WAC || Mattersburg || '''5:0''' (2:0) || [[Mario Leitgeb|Leitgeb]]&nbsp;(2.), [[Shon Weissman|Weissman]]&nbsp;(41.), [[Shon Weissman|Weissman]]&nbsp;(48.), [[Shon Weissman|Weissman]]&nbsp;(62.), [[Shon Weissman|Weissman]]&nbsp;(76.) || [[Christian-Petru Ciochirca|Ciochirca]] || {{Gelb}}-Mattersburg: [[Patrick Salomon|Salomon]]&nbsp;(43.) || 3.389
+|-
+| 17. August 2019 || St. Pölten || Salzburg || '''0:6''' (0:2) || [[Erling Haaland|Haaland]]&nbsp;(30.), [[Hwang Hee-chan|Hee-Chan Hwang]]&nbsp;(38.), [[Erling Haaland|Haaland]]&nbsp;(50.), [[Takumi Minamino|Minamino]]&nbsp;(53.), [[Andreas Ulmer|Ulmer]]&nbsp;(55.), [[Sékou Koïta|Koïta]]&nbsp;(69.) || [[Dieter Muckenhammer|Muckenhammer]] || {{Rot}}-St. Pölten: [[Daniel Schütz (Fußballspieler)|Schütz]]&nbsp;(57.), {{Gelb}}: [[Sandro Ingolitsch|Ingolitsch]]&nbsp;(26.), [[Martin Rasner|Rasner]]&nbsp;(47.), [[René Gartler|Gartler]]&nbsp;(59.)<br />{{Gelb}}-Salzburg: [[Dominik Szoboszlai|Szoboszlai]]&nbsp;(6.), [[Antoine Bernede|Bernede]]&nbsp;(10.) || 4.200
+|-
+| 18. August 2019 || Austria || Admira || '''1:1''' (1:0) || [[Christoph Monschein|Monschein]]&nbsp;(44.); [[Boris Cmiljanić|Cmiljanić]]&nbsp;(62.) || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Gelb}}-Austria: [[Florian Klein|Klein]]&nbsp;(65.), [[Johannes Handl|Handl]]&nbsp;(71.), [[Maximilian Sax|Sax]]&nbsp;(75.), [[James Jeggo|Jeggo]]&nbsp;(76.)<br />{{Gelb}}-Admira: [[Morten Hjulmand|Hjulmand]]&nbsp;(6.), [[Fabian Menig|Menig]]&nbsp;(13.), [[Sebastian Bauer (Fußballspieler)|Bauer]]&nbsp;(15.), [[Leonardo Lukacevic|Lukacevic]]&nbsp;(89.) || 7.215
+|-
+| 18. August 2019 || Sturm || Rapid || '''0:1''' (0:1) || [[Stefan Schwab (Fußballspieler)|Schwab]]&nbsp;(23.) || [[Oliver Drachta|Drachta]] || {{Gelb}}-Sturm: [[Otar Kiteischwili|Kiteischwili]]&nbsp;(28.) || 14.532
+|-
+| 18. August 2019 || Altach || Hartberg || '''3:3''' (0:3) || [[Mërgim Berisha|Berisha]]&nbsp;(47.), [[Samuel Oum Gouet|Oum Gouet]]&nbsp;(50.), [[Christian Gebauer (Fußballspieler, 1993)|Gebauer]]&nbsp;(76.); [[Dario Tadić|Tadić]]&nbsp;(11.), [[Dario Tadić|Tadić]]&nbsp;(17.), [[Dario Tadić|Tadić]]&nbsp;(29.) || [[Andreas Heiß|Heiß]] || {{Gelb}}-Hartberg: [[Felix Luckeneder|Luckeneder]]&nbsp;(34.), [[Michael Huber (Fußballspieler)|Huber]]&nbsp;(82.) || 3.812
+|-
+|style="background:#DC143C"|'''Runde 5'''
+|-
+| 24. August 2019 || Rapid || LASK || '''1:2''' (0:1) || [[Philipp Schobesberger|Schobesberger]]&nbsp;(47.); [[Marko Raguž|Raguž]]&nbsp;(23.), [[Marko Raguž|Raguž]]&nbsp;(90+5.) || [[Christian-Petru Ciochirca|Ciochirca]] || {{Gelb}}-Rapid: [[Taxiarchis Foundas|Foundas]]&nbsp;(53.), [[Christopher Dibon|Dibon]]&nbsp;(64.)<br />{{Gelb}}-LASK: [[Markus Wostry|Wostry]]&nbsp;(78.) || 19.400
+|-
+| 24. August 2019 || WAC || Altach || '''5:2''' (3:1) || [[Emanuel Schreiner|Schreiner]]&nbsp;(6.,&nbsp;ET), [[Michael Liendl|Liendl]]&nbsp;(34.), [[Anderson Niangbo|Niangbo]]&nbsp;(43.), [[Lukas Schmitz|Schmitz]]&nbsp;(58.), [[Anderson Niangbo|Niangbo]]&nbsp;(74.); [[Manfred Fischer (Fußballspieler, 1995)|Fischer]]&nbsp;(21.), [[Jan Zwischenbrugger|Zwischenbrugger]]&nbsp;(70.) || [[Stefan Ebner|Ebner]] || {{Gelb}}-WAC: [[Nemanja Rnic|Rnic]]&nbsp;(13.), [[Marcel Ritzmaier|Ritzmaier]]&nbsp;(79.), [[Michael Sollbauer|Sollbauer]]&nbsp;(90+5.)<br />{{Gelb}}-Altach: [[Emir Karic|Karic]]&nbsp;(31.), [[Jan Zwischenbrugger|Zwischenbrugger]]&nbsp;(37.) || 3.345
+|-
+| 24. August 2019 || Mattersburg || St. Pölten || '''0:1''' (0:1) || [[René Gartler|Gartler]]&nbsp;(30.,&nbsp;S) || [[Robert Schörgenhofer|Schörgenhofer]] || {{Gelb}}-Mattersburg: [[Patrick Salomon|Salomon]]&nbsp;(26.), [[Andreas Gruber (Fußballspieler)|Gruber]]&nbsp;(40.), [[Nedeljko Malic|Malic]]&nbsp;(55.), [[Andreas Kuen|Kuen]]&nbsp;(61.), [[Fabian Miesenböck|Miesenböck]]&nbsp;(76.)<br />{{Gelb}}-St. Pölten: [[Luan Leite da Silva|Luan]]&nbsp;(18.), [[Daniel Luxbacher|Luxbacher]]&nbsp;(38.), [[Danijel Petrović|Petrović]]&nbsp;(86.), [[Husein Balić|Balić]]&nbsp;(90+3.), [[Roope Riski|Riski]]&nbsp;(90+4.) || 1.700
+|-
+| 25. August 2019 || Sturm || Tirol || '''2:0''' (1:0) || [[Stefan Hierländer|Hierländer]]&nbsp;(39.), [[Otar Kiteischwili|Kiteischwili]]&nbsp;(58.) || [[Julian Weinberger|Weinberger]] || {{Gelb}}-Sturm: [[Juan Domínguez Lamas|Domínguez]]&nbsp;(40.)<br />{{Gelb}}-Tirol: [[Zlatko Dedič|Dedič]]&nbsp;(4.), [[Florian Toplitsch|Toplitsch]]&nbsp;(41.), [[Stefan Hager|Hager]]&nbsp;(76.), [[Dino Kovačec|Kovačec]]&nbsp;(83.) || 7.512
+|-
+| 25. August 2019 || Salzburg || Admira || '''5:0''' (3:0) || [[Hwang Hee-chan|Hwang]]&nbsp;(22.,&nbsp;S), [[Hwang Hee-chan|Hwang]]&nbsp;(24.), [[Erling Haaland|Haaland]]&nbsp;(28.), [[Patson Daka|Daka]]&nbsp;(71.), [[Sékou Koïta|Koïta]]&nbsp;(80.,&nbsp;S) || [[Harald Lechner|Lechner]] || {{Gelb}}-Salzburg: [[André Ramalho|Ramalho]]&nbsp;(3.)<br />{{Gelb}}-Admira: [[Boris Cmiljanić|Cmiljanić]]&nbsp;(22.), [[Fabian Menig|Menig]]&nbsp;(84.) || 10.648
+|-
+| 25. August 2019 || Hartberg || Austria || '''2:2''' (1:0) || [[Rajko Rep|Rep]]&nbsp;(45.), [[Florian Klein|Klein]]&nbsp;(81.,&nbsp;ET); [[Christian Klem|Klem]]&nbsp;(51.,&nbsp;ET), [[Christoph Monschein|Monschein]]&nbsp;(67.) || [[Dieter Muckenhammer|Muckenhammer]] || {{Gelb}}-Hartberg: [[Rajko Rep|Rep]]&nbsp;(35.), [[Lukas Ried|Ried]]&nbsp;(85.)<br />{{Rot}}-Austria: [[Erik Palmer-Brown|Palmer-Brown]]&nbsp;(75.), {{Gelb}}: [[Thomas Ebner (Fußballspieler, 1992)|Ebner]]&nbsp;(6.), [[Maximilian Sax|Sax]]&nbsp;(90+2.), [[Bright Edomwonyi|Edomwonyi]]&nbsp;(90+3.) || 4.054
+|-
+|style="background:#DC143C"|'''Runde 6'''
+|-
+| 31. August 2019 || LASK || WAC || '''0:1''' (0:0) || [[Michael Liendl|Liendl]]&nbsp;(80.) || [[Sebastian Gishamer|Gishamer]] || {{Gelb}}-LASK: [[Markus Wostry|Wostry]]&nbsp;(75.), [[Philipp Wiesinger|Wiesinger]]&nbsp;(82.)<br />{{Gelb}}-WAC: [[Lukas Schmitz|Schmitz]]&nbsp;(76.) || 5.353
+|-
+| 31. August 2019 || Admira || Mattersburg || '''1:3''' (1:2) || [[Christoph Schösswendter|Schösswendter]]&nbsp;(35.); [[Fabian Miesenböck|Miesenböck]]&nbsp;(27.), [[Andreas Gruber (Fußballspieler)|Gruber]]&nbsp;(37.), [[Marko Kvasina|Kvasina]]&nbsp;(82.,&nbsp;S) || [[Christopher Jäger|Jäger]] || {{Gelb}}-Admira: [[Roman Kerschbaum|Kerschbaum]]&nbsp;(26.), [[Dominik Starkl|Starkl]]&nbsp;(49.), {{Gelb-Rot}}: [[Roman Kerschbaum|Kerschbaum]]&nbsp;(56.)<br />{{Gelb}}-Mattersburg: [[Fabian Miesenböck|Miesenböck]]&nbsp;(60.), [[Michael Lercher|Lercher]]&nbsp;(69.), [[Andreas Kuen|Kuen]]&nbsp;(75.) || 1.905
+|-
+| 31. August 2019 || Tirol || Salzburg || '''1:5''' (0:3) || [[Maximilian Wöber|Wöber]]&nbsp;(56.,&nbsp;ET); [[Majeed Ashimeru|Ashimeru]]&nbsp;(12.), [[André Ramalho|Ramalho]]&nbsp;(31.), [[Erling Haaland|Haaland]]&nbsp;(41.), [[Hwang Hee-chan|Hwang]]&nbsp;(58.), [[Dominik Szoboszlai|Szoboszlai]]&nbsp;(71.,&nbsp;S) || [[René Eisner|Eisner]] || {{Gelb}}-Tirol: [[Kelvin Yeboah|Yeboah]]&nbsp;(52.), [[Michael Svoboda|Svoboda]]&nbsp;(59.) || 5.400
+|-
+| 1. September 2019 || Austria || Rapid || '''1:3''' (1:1) || [[Christoph Monschein|Monschein]]&nbsp;(10.); [[Thomas Murg|Murg]]&nbsp;(7.), [[Taxiarchis Foundas|Foundas]]&nbsp;(51.), [[Aliou Badji|Badji]]&nbsp;(90+4.) || [[Harald Lechner|Lechner]] || {{Gelb}}-Austria: [[Maudo Jarjué|Jarjué]]&nbsp;(13.), [[Dominik Prokop (Fußballspieler)|Prokop]]&nbsp;(50.), [[Christoph Monschein|Monschein]]&nbsp;(57.)<br />{{Gelb}}-Rapid: [[Maximilian Ullmann|Ullmann]]&nbsp;(49.), [[Taxiarchis Foundas|Foundas]]&nbsp;(59.), [[Mateo Barać|Barać]]&nbsp;(61.), [[Stephan Auer|Auer]]&nbsp;(88.) || 14.615
+|-
+| 1. September 2019 || St. Pölten || Hartberg || '''1:3''' (0:2) || [[Daniel Luxbacher|Luxbacher]]&nbsp;(75.,&nbsp;S); [[Stefan Rakowitz|Rakowitz]]&nbsp;(2.), [[Stefan Rakowitz|Rakowitz]]&nbsp;(15.), [[Dario Tadić|Tadić]]&nbsp;(68.) || [[Julian Weinberger|Weinberger]] || {{Gelb}}-St. Pölten: [[René Gartler|Gartler]]&nbsp;(53.), [[Sandro Ingolitsch|Ingolitsch]]&nbsp;(71.)<br />{{Gelb}}-Hartberg: [[René Swete|Swete]]&nbsp;(74.), [[Andreas Lienhart|Lienhart]]&nbsp;(85.), [[Rajko Rep|Rep]]&nbsp;(87.), [[Jodel Dossou|Dossou]]&nbsp;(90.) || 3.402
+|-
+| 1. September 2019 || Altach || Sturm || '''1:2''' (0:1) || [[Frantz Pangop|Pangop]]&nbsp;(90.); [[Bekim Balaj|Balaj]]&nbsp;(30.), [[Bekim Balaj|Balaj]]&nbsp;(85.) || [[Markus Hameter|Hameter]] || {{Gelb}}-Altach: [[Ousmane Diakité (Fußballspieler, 2000)|Diakité]]&nbsp;(40.), [[Jan Zwischenbrugger|Zwischenbrugger]]&nbsp;(62.)<br />{{Gelb}}-Sturm: [[Ivan Ljubic|Ljubic]]&nbsp;(33.) || 5.042
+|-
+|style="background:#DC143C"|'''Runde 7'''
+|-
+| 14. September 2019 || Salzburg || Hartberg || '''7:2''' (2:1) || [[André Ramalho|Ramalho]]&nbsp;(23.), [[Masaya Okugawa|Okugawa]]&nbsp;(36.), [[Patson Daka|Daka]]&nbsp;(50.), [[Erling Haaland|Haaland]]&nbsp;(52.), [[Erling Haaland|Haaland]]&nbsp;(86.), [[Patson Daka|Daka]]&nbsp;(87.), [[Erling Haaland|Haaland]]&nbsp;(90.); [[Michael Huber (Fußballspieler)|Huber]]&nbsp;(44.), [[Jodel Dossou|Dossou]]&nbsp;(77.) || [[Oliver Drachta|Drachta]] || {{Gelb}}-Hartberg: [[Bakary Nimaga|Nimaga]]&nbsp;(8.), [[Christian Klem|Klem]]&nbsp;(19.), [[Stefan Rakowitz|Rakowitz]]&nbsp;(80.) || 8.933
+|-
+| 14. September 2019 || Sturm || LASK || '''0:2''' (0:0) || [[Thomas Goiginger|Goiginger]]&nbsp;(76.), [[Klauss (Fußballspieler)|Klauss]]&nbsp;(77.) || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Gelb}}-Sturm: [[Thomas Schrammel|Schrammel]]&nbsp;(55.), [[Lukas Spendlhofer|Spendlhofer]]&nbsp;(81.) || 10.303
+|-
+| 14. September 2019 || Mattersburg || Tirol || '''0:2''' (0:1) || [[Zlatko Dedič|Dedič]]&nbsp;(18.,&nbsp;S), [[Sebastian Santin|Santin]]&nbsp;(90+2.) || [[Alan Kijas|Kijas]] || {{Gelb}}-Mattersburg: [[Fabian Miesenböck|Miesenböck]]&nbsp;(13.)<br />{{Gelb}}-Tirol: [[Florian Mader|Mader]]&nbsp;(53.), [[Florian Buchacher|Buchacher]]&nbsp;(55.), [[Stefan Hager|Hager]]&nbsp;(64.) || 1.900
+|-
+| 15. September 2019 || Rapid || Admira || '''5:0''' (1:0) || [[Philipp Schobesberger|Schobesberger]]&nbsp;(45+2.), [[Mateo Barać|Barać]]&nbsp;(54.), [[Maximilian Ullmann|Ullmann]]&nbsp;(64.), [[Aliou Badji|Badji]]&nbsp;(65.), [[Dejan Ljubicic|Ljubicic]]&nbsp;(81.) || [[Andreas Heiß|Heiß]] || {{Gelb}}-Rapid: [[Taxiarchis Foundas|Foundas]]&nbsp;(45+1.), [[Maximilian Ullmann|Ullmann]]&nbsp;(57.)<br />{{Gelb}}-Admira: [[Sinan Bakış|Bakış]]&nbsp;(20.), [[Morten Hjulmand|Hjulmand]]&nbsp;(29.) || 15.100
+|-
+| 15. September 2019 || Altach || St. Pölten || '''3:0''' (3:0) || [[Mërgim Berisha|Berisha]]&nbsp;(28.), [[Luan Leite da Silva|Luan]]&nbsp;(30.,&nbsp;ET), [[Emanuel Schreiner|Schreiner]]&nbsp;(33.), [[Florian Jamnig|Jamnig]]&nbsp;(61.), [[Mergim Berisha|Berisha]]&nbsp;(76.,&nbsp;S), [[Emanuel Schreiner|Schreiner]]&nbsp;(90+2.) || [[Alexander Harkam|Harkam]] || {{Gelb}}-St. Pölten: [[Michael Ambichl|Ambichl]]&nbsp;(11.), [[Manuel Haas|Haas]]&nbsp;(50.), {{Gelb-Rot}}: [[Manuel Haas|Haas]]&nbsp;(75.) || 3.538
+|-
+| 15. September 2019 || WAC || Austria || '''3:0''' (0:0) || [[Marcel Ritzmaier|Ritzmaier]]&nbsp;(67.), [[Shon Weissman|Weissman]]&nbsp;(88.,&nbsp;S), [[Anderson Niangbo|Niangbo]]&nbsp;(90.) || [[Manuel Schüttengruber|Schüttengruber]] || {{Gelb}}-WAC: [[Romano Schmid|Schmid]]&nbsp;(45+2.)<br />{{Gelb}}-Austria: [[Maximilian Sax|Sax]]&nbsp;(39.), [[Tarkan Serbest|Serbest]]&nbsp;(45+2.), [[Ivan Lucic|Lucic]]&nbsp;(87.) || 4.935
+|}
+
+<!--===== Rückrunde =====
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Datum !! Heim !! Gäste !! Ergebnis !! Tore  !! Schiedsrichter !! Karten !! Zuschauer
+|-
+|style="background:#DC143C"|'''Runde 12'''
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|}-->
+
+==== Kreuztabelle ====
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe. Die Ergebnisse sind immer aus Sicht der Heimmannschaft angegeben.
+
+{| class="wikitable" style="text-align:center;"
+|-
+! 2019/20<br /><small>'''Stand: 14. September 2019 (7. Runde)'''</small>
+! width="25" | RBS
+! width="25" | [[Datei:LASK Linz.svg|19px|LASK]]
+! width="25" | [[Datei:Logo Wolfsberger AC.jpg|23px|Wolfsberger AC]]
+! width="25" | [[Datei:Austria Wien.svg|19px|FK Austria Wien]]
+! width="25" | [[Datei:SK Sturm Graz Logo.svg|23px|SK Sturm Graz]]
+! width="25" | [[Datei:SKN logo4c.png|22px|SKN St. Pölten]]
+! width="25" | [[Datei:SK Rapid Wien Logo.svg|19px|SK Rapid Wien]]
+! width="25" | [[Datei:SV Mattersburg.svg|23px|SV Mattersburg]]
+! width="25" | [[Datei:SC Rheindorf Altach.svg|20px|SCR Altach]]
+! width="25" | [[Datei:FC Admira Wacker Mödling Logo.svg|18px|FC Admira Wacker Mödling]]
+! width="25" | [[Datei:TSV Hartberg 2010.png|23px|TSV Hartberg]]
+! width="25" | [[Datei:WSG Wattens (Logo Fußballsektion) 2009.svg|27px|WSG Tirol]]
+|-
+| style="text-align: left;" | [[FC Red Bull Salzburg]]
+| class="hintergrundfarbe5" | '''•''' || || 5:2 || || || ||  || 4:1 || || 5:0 || 7:2 ||
+|-
+| style="text-align: left;" | [[LASK]] ||
+| class="hintergrundfarbe5" | '''B''' || 0:1 || || || || || || 2:0 ||  || || 1:1
+|-
+| style="text-align: left;" | [[Wolfsberger AC]] || ||
+| class="hintergrundfarbe5" | '''U''' || || 0:1 || || || 5:0 || 5:2 ||  || ||
+|-
+| style="text-align: left;" | [[FK Austria Wien]] || || 0:3 ||
+| class="hintergrundfarbe5" | '''N'''  || || || 1:3 || || || 1:1 || ||
+|-
+| style="text-align: left;" | [[SK Sturm Graz]] || || 0:2 || ||
+| class="hintergrundfarbe5" | '''D'''  || 3:0 || 0:1 || || || || || 2:0
+|-
+| style="text-align: left;" | [[SKN St. Pölten]]  || 0:6 || || || ||
+| class="hintergrundfarbe5" | '''E'''  || 2:2 || || || || 1:3 ||
+|-
+| style="text-align: left;" | [[SK Rapid Wien]] || 0:2 || 1:2 || || || ||
+| class="hintergrundfarbe5" | '''S'''  || || 2:1 || || ||
+|-
+| style="text-align: left;" | [[SV Mattersburg]] || || || || 1:5 || || 0:1 ||
+| class="hintergrundfarbe5" | '''L'''  || || || 2:1 || 0:2
+|-
+| style="text-align: left;" | [[SCR Altach]] || ||  || || || 1:2 || || ||
+| class="hintergrundfarbe5" | '''I'''  || || 3:3 || 3:2
+|-
+| style="text-align: left;" | [[FC Admira Wacker Mödling]] || || 0:1 || 0:3 ||  || || || || 1:3 ||
+| class="hintergrundfarbe5" | '''G'''  || ||
+|-
+| style="text-align: left;" | [[TSV Hartberg]] || || || || 2:2 || 1:0 || || ||  || || 4:1
+| class="hintergrundfarbe5" | '''A'''  ||
+|-
+| style="text-align: left;" | [[WSG Tirol]] || 1:5 || || || 3:1 ||  || 1:1 || || || || ||
+| class="hintergrundfarbe5" | '''•'''
+|}
+
+<!--=== Meistergruppe ===
+==== Tabelle ====
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=1 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=2 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang=3 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffff55 |Rang=4 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffff55 |Rang=5 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=6 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Ende|Spalten=9|Stand=}}
+{{Farblegende/Kopf|Name=Legende für die Bundesliga}}
+{{Farblegende|#ccffcc|[[Fußball-Bundesliga (Österreich)|Österreichischer Meister]] und Teilnahme an der Qualifikation zur [[UEFA Champions League 2019/20]]}}
+{{Farblegende|#ccccff|Teilnahme an der [[UEFA Champions League 2019/20|Qualifikation]] zur UEFA Champions League 2019/20}}
+{{Farblegende|#ffc7a3|Teilnahme an der Qualifikation zur [[UEFA Europa League 2019/20]]}}
+{{Farblegende|#ffff55|Teilnahme am Europa-League-Playoff}}
+{|
+| (M) || [[Österreichische Fußballmeisterschaft|Österreichischer Meister]] [[Österreichische Fußballmeisterschaft 2018/19#Erste Leistungsstufe – Bundesliga|2018/19]]
+|-
+| (C) || [[ÖFB-Cup]]-Sieger [[Österreichischer Fußball-Cup 2018/19|2018/19]]
+|-
+| (N) || Aufsteiger aus der [[Österreichische Fußballmeisterschaft 2018/19#Zweite Leistungsstufe – 2. Liga|2. Liga 2018/19]]
+|}
+
+==== Tabellenführer ====
+<div class="float-right">
+{{Center|'''Tabellenführer'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:10.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+</timeline>
+</div>
+
+{| class="wikitable"
+! Farblegende
+|-
+|
+|}
+
+==== Spiele im Detail ====
+===== Hinrunde =====
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Datum !! Heim !! Gäste !! Ergebnis !! Tore  !! Schiedsrichter !! Karten !! Zuschauer
+|-
+|style="background:#DC143C"|'''Runde 1'''
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|}
+
+==== Kreuztabelle ====
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der mittleren Spalte aufgelistet und die Gastmannschaft in der obersten Reihe. Die Ergebnisse sind immer aus Sicht der Heimmannschaft angegeben.
+
+{| class="wikitable" style="text-align:center;"
+|-
+! 2018/19<br /><small>'''Stand: '''</small>
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|}
+
+=== Qualifikationsgruppe ===
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ffff55 |Rang=7 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=8 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=9 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10|S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11|S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=12|S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Ende|Spalten=9|Stand=}}
+{{Farblegende/Kopf|Name=Legende für die Bundesliga}}
+{{Farblegende|#ffff55|Teilnahme am Europa-League-Playoff}}
+{{Farblegende|#ffcccc|Abstieg in die [[Österreichische Fußballmeisterschaft 2020/21#Zweite Leistungsstufe – 2. Liga|2. Liga 2020/21]]}}
+{|
+| (M) || [[Österreichische Fußballmeisterschaft|Österreichischer Meister]] [[Österreichische Fußballmeisterschaft 2018/19#Erste Leistungsstufe – Bundesliga|2018/19]]
+|-
+| (C) || [[ÖFB-Cup]]-Sieger [[Österreichischer Fußball-Cup 2018/19|2018/19]]
+|-
+| (N) || Aufsteiger aus der [[Österreichische Fußballmeisterschaft 2018/19#Zweite Leistungsstufe – 2. Liga|2. Liga 2018/19]]
+|}
+
+==== Tabellenführer/-letzter ====
+<div class="float-right">
+{{Center|'''Tabellenführer'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:10.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+</timeline>
+</div>
+<div class="float-right">
+{{Center|'''Tabellenletzter'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:10.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+</timeline>
+</div>
+
+{| class="wikitable"
+! Farblegende
+|-
+|
+|}
+
+==== Spiele im Detail ====
+===== Hinrunde =====
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Datum !! Heim !! Gäste !! Ergebnis !! Tore  !! Schiedsrichter !! Karten !! Zuschauer
+|-
+|style="background:#DC143C"|'''Runde 1'''
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|-
+|  || || ||  ||  ||  ||  ||
+|}
+
+==== Kreuztabelle ====
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der mittleren Spalte aufgelistet und die Gastmannschaft in der obersten Reihe. Die Ergebnisse sind immer aus Sicht der Heimmannschaft angegeben.
+
+{| class="wikitable" style="text-align:center;"
+|-
+! 2018/19<br /><small>'''Stand: '''</small>
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+! width="25px"|
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|-
+| style="text-align: left;" |
+| class="hintergrundfarbe5" | || : || : || : || : || :
+|}
+
+=== Europa-League-Playoffs ===
+In den Europa-League-Playoffs wird der letzte Europacup-Startplatz vergeben. Zunächst trifft der Sieger der Qualifikationsgruppe in einem Heimspiel auf den Fünftplatzierten der Meistergruppe. Daraufhin trifft der Sieger dieser Partie in einem Hin- und Rückspiel auf den Viertplatzierten der Meistergruppe.
+
+==== 1. Runde ====
+{| class="wikitable" style="text-align: center;"
+|- class="hintergrundfarbe5 small"
+! style="width:16em"|
+! style="width:5em"|Gesamt
+! style="width:16em"|
+! style="width:16em"|Tore
+|-
+|style="text-align: right;"| ''Sieger Qualifikationsgruppe'' || : || style="text-align: left;"| ''Fünfter Meistergruppe'' ||
+|}
+
+==== 2. Runde ====
+{| class="wikitable" style="text-align: center;"
+|- class="hintergrundfarbe5 small"
+! style="width:16em"|
+! style="width:5em"|Gesamt
+! style="width:16em"|
+! style="width:5em"|Hinspiel
+! style="width:16em"|Tore
+! style="width:5em"|Rückspiel
+! style="width:16em"|Tore
+|-
+|style="text-align: right;"| ''Sieger 1. Runde'' || : || style="text-align: left;"| ''Vierter Meistergruppe'' || : || || : ||
+|}
+-->
+
+=== Spielerstatistiken ===
+==== Torschützenliste ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200" | Name
+! width="200" | Team
+! Tore
+|-
+! {{0}}1.
+| {{NOR|Ziel=Erling Haaland}}
+| [[FC Red Bull Salzburg]]
+| style="text-align:center" | 11
+|-
+! {{0}}2.
+| {{ISR|Ziel=Shon Weissman}}
+| [[Wolfsberger AC]]
+| style="text-align:center" | 8
+|-
+! {{0}}3.
+| {{AUT|Ziel=Dario Tadić}}
+| [[TSV Hartberg]]
+| style="text-align:center" | 7
+|-
+! {{0}}4.
+| {{AUT|Ziel=Christoph Monschein}}
+| [[FK Austria Wien]]
+| style="text-align:center" | 6
+|-
+! {{0}}5.
+| {{CIV|Ziel=Anderson Niangbo}}
+| [[Wolfsberger AC]]
+| style="text-align:center" | 5
+|-
+! rowspan="5" | {{0}}6.
+| {{GRC|Ziel=Taxiarchis Foundas}}
+| [[SK Rapid Wien]]
+| rowspan="5" style="text-align:center" | 4
+|-
+| {{KOR|Hwang Hee-chan|Hee-Chan Hwang}}
+| [[FC Red Bull Salzburg]]
+|-
+| {{ZAM|Ziel=Patson Daka}}
+| [[FC Red Bull Salzburg]]
+|-
+| {{SLO|Ziel=Zlatko Dedič}}
+| [[WSG Tirol]]
+|-
+| {{KOS|Ziel=Mërgim Berisha}}
+| [[SCR Altach]]
+<!-- |-
+! rowspan="5" | 10.
+| {{AUT|Ziel=Marko Raguž}}
+| [[LASK]]
+| rowspan="5" style="text-align:center" | 3
+|-
+| {{ALB|Ziel=Bekim Balaj}}
+| [[SK Sturm Graz]] -->
+|-
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="4" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)
+|}
+
+==== Vorlagenliste ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200" | Name
+! width="200" | Team
+! Vorlagen
+|-
+! rowspan="2" | {{0}}1.
+| {{AUT|Ziel=Michael Liendl}}
+| [[Wolfsberger AC]]
+| rowspan="2" style="text-align:center" | 6
+|-
+| {{KOR|Hwang Hee-chan|Hee-Chan Hwang}}
+| [[FC Red Bull Salzburg]]
+|-
+! rowspan="4" | {{0}}3.
+| {{AUT|Ziel=Peter Michorl}}
+| [[LASK]]
+| rowspan="4" style="text-align:center" | 4
+|-
+| {{AUS|James Holland (Fußballspieler)|James Holland}}
+| [[LASK]]
+|-
+| {{NOR|Ziel=Erling Haaland}}
+| [[FC Red Bull Salzburg]]
+|-
+| {{AUT|Ziel=Stefan Rakowitz}}
+| [[TSV Hartberg]]
+|-
+! rowspan="4" | {{0}}7.
+| {{AUT|Ziel=Zlatko Junuzović}}
+| [[FC Red Bull Salzburg]]
+| rowspan="4" style="text-align:center" | 3
+|-
+| {{FRA|Ziel=Antoine Bernede}}
+| [[FC Red Bull Salzburg]]
+|-
+| {{AUT|Ziel=Christoph Knasmüllner}}
+| [[SK Rapid Wien]]
+|-
+| {{AUT|Ziel=Romano Schmid}}
+| [[Wolfsberger AC]]
+<!-- |-
+! rowspan="5" | {{0}}4.
+| {{AUT|Ziel=Dominik Fitz}}
+| [[FK Austria Wien]]
+| rowspan="5" style="text-align:center" | 2
+|-
+| {{BEN|Ziel=Jodel Dossou}}
+| [[TSV Hartberg]]
+|-
+| {{AUT|Ziel=Benjamin Pranter}}
+| [[WSG Tirol]]
+|-
+| {{AUT|Ziel=Patrick Farkas}}
+| [[FC Red Bull Salzburg]] -->
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="4" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)
+|}
+<!--
+==== Erhaltene Karten ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! {{Gelb}}
+! {{Gelb-Rot}}
+! {{Rot}}
+! Ges.
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="7" style="text-align:right; font-size:smaller;"| Stand:<ref>[https://www.bundesliga.at/de/statistik/aktuelle-saison/karten/aktuelle-sperren/ Kartenliste Bundesliga] bundesliga.at, abgerufen am</ref>
+|}-->
+
+==== Spiele ohne Gegentor ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! Spiele<br />gespielt
+! davon ohne<br />Gegentor
+|-
+! rowspan="4" | {{0}}1.
+| {{AUT|Ziel=Alexander Kofler}}
+| [[Wolfsberger AC]]
+|style="text-align:center"| 5
+|style="text-align:center"| 3
+|-
+| {{AUT|Ziel=Jörg Siebenhandl}}
+| [[SK Sturm Graz]]
+|style="text-align:center"| 6
+|style="text-align:center"| 3
+|-
+| {{AUT|Ziel=Alexander Schlager}}
+| [[LASK]]
+|style="text-align:center"| 6
+|style="text-align:center"| 3
+|-
+| {{AUT|Ziel=Cican Stankovic}}
+| [[FC Red Bull Salzburg]]
+|style="text-align:center"| 6
+|style="text-align:center"| 3
+|-
+! rowspan="3"| {{0}}5.
+| {{AUT|Ziel=Richard Strebinger}}
+| [[SK Rapid Wien]]
+|style="text-align:center"| 4
+|style="text-align:center"| 1
+|-
+| {{AUT|Ziel=Christoph Riegler}}
+| [[SKN St. Pölten]]
+|style="text-align:center"| 6
+|style="text-align:center"| 1
+|-
+| {{AUT|Ziel=René Swete}}
+| [[TSV Hartberg]]
+|style="text-align:center"| 6
+|style="text-align:center"| 1
+|-
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="7" style="text-align:right; font-size:smaller;"| Stand: 1. September 2019 (6. Runde)<ref>[https://www.transfermarkt.at/bundesliga/weisseweste/wettbewerb/A1 Ohne Gegentor Bundesliga] transfermarkt.at, abgerufen am 19. August 2019</ref>
+|}
+
+=== Spielstätten ===
+Die Spielstätten sind nach Kapazität der Stadien geordnet.
+
+[[Datei:FC Red Bull Salzburg g SK Sturm Graz 01.JPG|links|mini|Red Bull Arena in Wals-Siezenheim]]
+{| class="wikitable" style="width:60%"
+|- class="hintergrundfarbe5"
+! style="width:20%"| Verein
+! style="width:20%"| Stadion
+! style="width:15%"| Stadt/Ort
+! style="width:10%"| Eröffnung
+! style="width:10%"| Kapazität<ref name="ReferenceA">Daten von bundesliga.at (Stand 31. Mai 2015). Es handelt sich dabei um die offizielle Zahl von Besuchern, die für ein Bundesliga-Spiel pro Stadion zugelassen sind. Bei einigen Stadien finden sich mehr Plätze, die zurzeit allerdings nicht freigegeben sind.</ref>
+|-
+| FC Red Bull Salzburg || [[Red Bull Arena (Wals-Siezenheim)|Red Bull Arena]] || [[Wals-Siezenheim]] ||style="text-align:center"| 2003 ||style="text-align:center"| 30.188
+|-
+| SK Rapid Wien || [[Allianz Stadion]] || [[Wien]] ||style="text-align:center"| 2016 ||style="text-align:center"| 28.345
+|-
+| FK Austria Wien || [[Generali Arena (Wien)|Generali Arena]] || [[Wien]] ||style="text-align:center"| 1925 ||style="text-align:center"| 17.500
+|-
+| WSG Tirol || [[Tivoli Stadion Tirol]] || [[Innsbruck]] ||style="text-align:center"| 2000 ||style="text-align:center"| 16.008
+|-
+| SK Sturm Graz || [[Merkur Arena (Graz)|Merkur Arena]] || [[Graz]] ||style="text-align:center"| 1997 ||style="text-align:center"| 15.323
+|-
+| SV Mattersburg || [[Pappelstadion]] || [[Mattersburg]] ||style="text-align:center"| 1952 ||style="text-align:center"| 15.100
+|-
+| FC Admira Wacker Mödling || [[BSFZ-Arena]] || [[Maria Enzersdorf]] ||style="text-align:center"| 1967 ||style="text-align:center"| 10.800
+|-
+| SCR Altach || [[Cashpoint-Arena]] || [[Altach]] ||style="text-align:center"| 1990 ||style="text-align:center"| {{0}}8.500
+|-
+| SKN St. Pölten || [[NV Arena]] || [[St. Pölten]] ||style="text-align:center"| 2012 ||style="text-align:center"| {{0}}8.012
+|-
+| Wolfsberger AC || [[Lavanttal-Arena]] || [[Wolfsberg (Kärnten)|Wolfsberg]] ||style="text-align:center"| 1984 ||style="text-align:center"| {{0}}7.300
+|-
+| LASK || [[Waldstadion (Pasching)|Raiffeisen Arena]] || [[Pasching]] ||style="text-align:center"| 1990 ||style="text-align:center"| {{0}}6.009
+|-
+| TSV Hartberg || [[Profertil Arena Hartberg]] || [[Hartberg]] ||style="text-align:center"| 1964 ||style="text-align:center"| {{0}}4.500
+|-
+|}
+
+=== Mannschaftskader ===
+{{Hauptartikel|Mannschaftskader der österreichischen Fußball-Bundesliga 2019/20}}
+
+=== Trainerwechsel ===
+{| class="wikitable"
+|-
+! Datum
+! colspan="2" | Verein !! Tabellenplatz !! Trainer !! Grund !! Nachfolger !! Quelle
+|-
+| style="text-align:center" rowspan="7" | ''Sommerpause''
+| style="text-align:center" | '''RBS''' || [[FC Red Bull Salzburg]]
+| style="text-align:center" rowspan="7" | ''Sommerpause''
+| {{GER|Ziel=Marco Rose}}
+| Wechsel zu [[Borussia Mönchengladbach]]
+| {{USA|Ziel=Jesse Marsch}}
+| style="text-align:center" |<ref>[https://www.borussia.de/de/aktuelles-termine/news/borussia-news/news-detailansicht.html?tx_ttnews%5Btt_news%5D=42143&cHash=bdc3fcda5ff6698796ea685a3ffbed16 Marco Rose wird zur neuen Saison Borussias Cheftrainer], borussia.de, 10. April 2019, abgerufen am 10. April 2019.</ref><ref>[https://www.redbullsalzburg.at/de/fc-red-bull-salzburg/news/saison_2018_19/jesse-marsch-wird-neuer-trainer-unseres-klubs.html Jesse Marsch wird neuer Trainer unseres Klubs] redbullsalzburg.at, am 15. April 2019, abgerufen am 15. April 2019</ref>
+|-
+| style="text-align:center" | [[Datei:LASK Linz.svg|22px|LASK]] || [[LASK]]
+| {{AUT|Ziel=Oliver Glasner}}
+| Wechsel zum [[VfL Wolfsburg]]
+| {{FRA|Ziel=Valérien Ismaël}}
+| style="text-align:center" |<ref>[https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/oliver-glasner-uebernimmt/ Oliver Glasner übernimmt] vfl-wolfsburg.de, am 23. April 2019, abgerufen am 23. April 2019</ref><ref>[https://www.lask.at/herzlich-willkommen-beim-lask-valerien-ismael/ ''Herzlich willkommen beim LASK Valérien Ismaël''], lask.at, abgerufen am 27. Mai 2019</ref>
+|-
+| style="text-align:center" | [[Datei:Austria Wien.svg|22px|FK Austria Wien]] || [[FK Austria Wien]]
+| {{AUT|Ziel=Robert Ibertsberger}}
+| Ende der Interimszeit
+| {{AUT|Ziel=Christian Ilzer}}
+| style="text-align:center" |<ref name="Ilzer">[http://www.fk-austria.at/de/n/news/2019/05/christian-ilzer-wird-neuer-austria-trainer/ Christian Ilzer wird neuer Austria-Trainer] fk-austria.at, am 27. Mai 2019, abgerufen am 27. Mai 2019</ref>
+|-
+| style="text-align:center" | [[Datei:Logo Wolfsberger AC.jpg|22px|Wolfsberger AC]] || [[Wolfsberger AC]]
+| {{AUT|#}} Christian Ilzer
+| Wechsel zum FK Austria Wien
+| {{AUT|Ziel=Gerhard Struber}}
+| style="text-align:center" |<ref name="Ilzer" /><ref>[https://www.rzpelletswac.at/2019/05/28/struber-neuer-trainer/ Struber neuer Trainer] rzpelletswac.at, am 28. Mai 2019, abgerufen am 28. Mai 2019</ref>
+|-
+| style="text-align:center" | [[Datei:SK Sturm Graz Logo.svg|22px|SK Sturm Graz]] || [[SK Sturm Graz]]
+| {{AUT|Ziel=Roman Mählich}}
+| Trennung
+| {{SRB|Ziel=Nestor El Maestro}}
+| style="text-align:center" |<ref>[https://www.sksturm.at/de/news/kampfmannschaft/2019/roman-maehlich-nicht-mehr-sturmtrainer/ Roman Mählich nicht mehr Sturmtrainer] sksturm.at, am 5. Juni 2019, abgerufen am 5. Juni 2019</ref><ref>[https://www.sksturm.at/de/news/kampfmannschaft/2019/nestor-el-maestro-wird-neuer-trainer-des-sk-sturm/ Nestro El Maestro wird neuer Trainer des SK Sturm] sksturm.at, am 12. Juni 2019, abgerufen am 12. Juni 2019</ref>
+|-
+| style="text-align:center" | [[Datei:SKN logo4c.png|22px|SKN St. Pölten]] || [[SKN St. Pölten]]
+| {{SRB|Ziel=Ranko Popović}}
+| Beurlaubung
+| {{GER|Alexander Schmidt (Fußballtrainer)|Alexander Schmidt}}
+| style="text-align:center" |<ref>[https://www.skn-stpoelten.at/de/aktuelles/woelfe-beurlauben-trainer-ranko-popovic Wölfe beurlauben Trainer Ranko Popovic!] skn-stpoelten.at, am 13. Juni 2019, abgerufen am 13. Juni 2019</ref><ref>[https://www.skn-stpoelten.at/de/aktuelles/alexander-schmidt-ist-neuer-chefcoach-der-woelfe Alexander Schmidt ist neuer Chefcoach der Wölfe!] skn-stpoelten.at, am 15. Juni 2019, abgerufen am 15. Juni 2019</ref>
+|-
+| style="text-align:center" | [[Datei:SV Mattersburg.svg|22px|SV Mattersburg]] || [[SV Mattersburg]]
+| {{AUT|Klaus Schmidt (Fußballtrainer)|Klaus Schmidt}}
+| Rücktritt
+| {{AUT|Ziel=Franz Ponweiser}}
+| style="text-align:center" |<ref>[http://web.svm-fan.net/index.php?m=54&id=8359 OFFIZIELLE BESTÄTIGUNG: Einvernehmliche Vertragsauflösung mit Klaus Schmidt] svm.at, am 16. Juni 2019, abgerufen am 16. Juni 2019</ref>
+|-
+| style="text-align:center" | 2. September 2019
+| style="text-align:center" | [[Datei:FC Admira Wacker Mödling Logo.svg|22px|Admira]] || [[FC Admira Wacker Mödling]]
+| style="text-align:center"| 12.
+| {{GER|Ziel=Reiner Geyer}}
+| Freistellung
+| {{AUT|#}} Klaus Schmidt
+| style="text-align:center" |<ref>[https://flyeralarmadmira.at/admira-holt-klaus-schmidt-als-neuen-cheftrainer/ Admira holt Klaus Schmidt als neuen Cheftrainer] flyeralarmadmira.at, am 2. September 2019, abgerufen am 2. September 2019</ref>
+|}
+
+== Zweite Leistungsstufe – 2. Liga ==
+{{Infobox Fußballsaison
+| Name = 2. Liga 2019/20
+| Bild = [[Datei:2. Liga (Österreich) Logo.svg|70px|Logo]]
+| Meister =
+| Herbstmeister =
+| Aufsteiger =
+| Absteiger =
+| Mannschaften = 16
+| Spiele = 240
+| gespielte Spiele = 56 <!-- 15.9. -->
+| geschossene Tore = 187 <!-- 15.9. -->
+| Zuschauer = 72.469 <!-- 15.9. -->
+| Torschützenkönig =
+| Gelbe Karten = 275 <!-- 15.9. -->
+| Gelb-rote Karten = 9 <!-- 15.9. -->
+| Rote Karten = 9 <!-- 15.9. -->
+}}
+{{Positionskarte+
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der 2. Liga 2019/20
+ |float = right
+ |width = 400
+ |places =
+ {{Positionskarte~|Österreich|lat=48.2937 |long=14.2766 |region=AT |position = top|wrap=manual |label=<small>[[FC Blau-Weiß Linz|BW Linz]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.4439 |long=15.3003 |region=AT |position = left|wrap=manual |label=<small>[[Kapfenberger SV]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.2360 |long=14.2280 |region=AT |position = left|wrap=manual |label=<small>[[FC Juniors OÖ|Juniors<br />OÖ]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.1077 |long=15.4013 |region=AT |position = bottom|wrap=manual |label=<small>[[Grazer AK]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.4211 |long= 9.6529 |region=AT |position = top|label=<small>[[SC Austria Lustenau|Lustenau]]</small>}}
+ {{Positionskarte~|Österreich|lat=46.6088 |long=14.2782 |region=AT |position = top|label=<small>[[SK Austria Klagenfurt (2007)|Austria Klagenfurt]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.2698 |long=16.3937 |region=AT |position = top|label=<small>[[Floridsdorfer AC]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.4163 |long= 9.7241 |region=AT |position = right|wrap=manual |label=<small>[[FC Dornbirn 1913|Dornbirn]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.8163 |long=12.9982 |region=AT |position = top|wrap=manual |label=<small>[[FC Liefering]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.3733 |long=16.0116 |region=AT |position = right|wrap=manual |label=<small>[[SV Lafnitz]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.1621 |long=16.3872 |region=AT |position = right |wrap=manual |label=<small>[[FK Austria Wien|Young<br /> Violets]]</small>}}
+ {{Positionskarte~|Österreich|lat=47.2560 |long=11.4111 |region=AT |position = left|wrap=manual |label=<small>[[FC Wacker Innsbruck (2002)|Wacker<br />Innsbruck]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.1151 |long=14.8774 |region=AT |position = top|label=<small>[[SKU Amstetten|Amstetten]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.6638 |long=15.6572 |region=AT |position = top |wrap=manual |label=<small>[[SV Horn]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.0375 |long=14.4106 |region=AT |position = bottom|wrap=manual |label=<small>[[SK Vorwärts Steyr|Vorwärts<br />Steyr]]</small>}}
+ {{Positionskarte~|Österreich|lat=48.2078 |long=13.4783 |region=AT |position = left |wrap=manual |label=<small>[[SV Ried]]</small>}}
+}}
+
+Die 2. Liga ist die zweithöchste Spielklasse im österreichischen Profifußball und wird in der Saison 2019/20 zum 45. Mal ausgetragen.
+<!--Oberösterreich stellt vier Mannschaften, Niederösterreich drei. Die Steiermark, Wien und Tirol stellen je zwei Mannschaften. Salzburg, Kärnten und Vorarlberg sind mit je einer Mannschaft vertreten. Das Burgenland stellt keine Mannschaft in der 2. Liga 2018/19.-->
+
+=== Modus ===
+In der Saison 2019/20 16 Mannschaften an. Jede Mannschaft spielt jeweils einmal zu Hause und auswärts gegen jede andere Mannschaft.
+
+Der Meister der Liga steigt in die Bundesliga auf. Die Mannschaften auf den Rängen 14, 15 und 16 steigen in die jeweilige Regionalliga ab.
+
+=== Tabelle ===
+Der FC Liefering, der FC Juniors OÖ und die Young Violets Austria Wien sind als Zweitmannschaften bzw. [[Farmteam]]s von Bundesligisten auch bei einem Gewinn der Meisterschaft nicht aufstiegsberechtigt.
+
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc|Rang=1 |S=4|U=3|N=0|ET=18 |GT=10|Verein=[[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=2 |S=4|U=1|N=2|ET=13 |GT=9 |Verein=[[FC Blau-Weiß Linz]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=3 |S=4|U=1|N=2|ET= 8 |GT=6 |Verein=[[Grazer AK]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=4 |S=3|U=3|N=1|ET= 9 |GT=5 |Verein=[[Floridsdorfer AC]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=5 |S=4|U=0|N=3|ET=12 |GT=9 |Verein=[[SK Vorwärts Steyr]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=6 |S=4|U=0|N=3|ET= 7 |GT=7 |Verein=[[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]] (A)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=7 |S=3|U=2|N=2|ET=19 |GT=13|Verein=[[SV Horn]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=8 |S=3|U=2|N=2|ET=11 |GT=9 |Verein=[[SV Ried]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=9 |S=3|U=2|N=2|ET= 8 |GT=8 |Verein=[[SV Lafnitz]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=10|S=3|U=1|N=3|ET=14 |GT=15|Verein=[[FC Juniors OÖ]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=11|S=2|U=3|N=2|ET=13 |GT=14|Verein=[[FC Liefering]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=12|S=3|U=0|N=4|ET=12 |GT=17|Verein=[[SKU Amstetten]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=13|S=2|U=2|N=3|ET=13 |GT=10|Verein=[[FC Dornbirn 1913]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=14|S=2|U=2|N=3|ET=15 |GT=17|Verein=[[SC Austria Lustenau]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=15|S=0|U=1|N=6|ET= 9 |GT=19|Verein=[[Young Violets Austria Wien]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=16|S=0|U=1|N=6|ET= 7 |GT=20|Verein=[[Kapfenberger SV]]}}
+{{Fußballtabelle/Ende|Spalten=9|Stand=15. September 2019 (7. Runde)}}
+{{Farblegende/Kopf|Name=Legende für die 2. Liga}}
+{{Farblegende|#ccffcc|Aufstieg in die [[Österreichische Fußballmeisterschaft 2020/21#Erste Leistungsstufe – Bundesliga|Bundesliga 2020/21]]}}
+{{Farblegende|#ffcccc|Abstieg in die [[Österreichische Fußballmeisterschaft 2020/21#Dritte Leistungsstufe – Regionalliga|Regionalliga 2020/21]]}}
+{|
+| (A) || Absteiger aus der [[Österreichische Fußballmeisterschaft 2018/19#Erste Leistungsstufe – Bundesliga|Bundesliga 2018/19]]
+|-
+| (N) || Aufsteiger aus der [[Österreichische Fußballmeisterschaft 2018/19#Dritte Leistungsstufe – Regionalliga|Regionalliga 2018/19]]
+|}
+
+=== Tabellenverlauf ===
+{| class="wikitable sortable zebra" style="text-align:center"
+|- class="hintergrundfarbe5"
+! rowspan="2" class="unsortable"|
+! class="unsortable"| 1 !! class="unsortable"| 2 !! class="unsortable"| 3 !! class="unsortable"| 4 !! class="unsortable"| 5 !! class="unsortable"| 6 !! class="unsortable"| 7 !! class="unsortable"| 8 !! class="unsortable"| 9 !! class="unsortable"| 10 !! class="unsortable"| 11 !! class="unsortable"| 12 !! class="unsortable"| 13 !! class="unsortable"| 14 !! class="unsortable"| 15 !! class="unsortable"| 16 !! class="unsortable"| 17 !! class="unsortable"| 18 !! class="unsortable"| 19 !! class="unsortable"| 20 !! class="unsortable"| 21 !! class="unsortable"| 22 !! class="unsortable"| 23 !! class="unsortable"| 24 !! class="unsortable"| 25 !! class="unsortable"| 26 !! class="unsortable"| 27 !! class="unsortable"| 28 !! class="unsortable"| 29 !! class="unsortable"| 30
+|- class="hintergrundfarbe5"
+! style="height:20px"| !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !! !!
+|-
+| class="hintergrundfarbe5"| [[Datei:FC Wacker Innsbruck (altes Logo).svg|23px|FC Wacker Innsbruck]]
+| style="background-color:#ffcccc" | 14 || 10 || 12 || 10 || 6 || 9 || 6 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SV Ried.svg|18px|SV Ried]]
+| 12 || 13 || 8 || 3 || 9 || 6 || 8 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SC Austria Lustenau.svg|16px|SC Austria Lustenau]]
+| 2 || 4 || style="background-color:#ccffcc" | '''1''' || 4 || 10 || 13 || style="background-color:#ffcccc" | 14 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Kapfenberger SV logo.svg|22px|Kapfenberger SV]]
+| 7 || 12 || 13 || style="background-color:#ffcccc" | 15 || style="background-color:#ffcccc" | 15 || style="background-color:#ffcccc" | 15 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | || style="background-color:#ffcccc" | || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Blau Weiss.svg|22px|FC Blau-Weiß Linz]]
+| 7 || style="background-color:#ffcccc" | 14 || 10 || 8 || 11 || 8 || 2 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| '''JUN'''
+| 9 || 6 || 3 || 5 || 2 || 5 || 10 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SK Austria Klagenfurt Logo 2019.png|25px|SK Austria Klagenfurt]]
+| 2 || 3 || 7 || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || style="background-color:#ccffcc" | '''1''' || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:LOGO FAC 2018.png|23px|Floridsdorfer AC]]
+| 4 || 4 || style="background-color:#ccffcc" | '''1''' || 2 || 7 || 4 || 4 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SKU Amstetten Logo.png|27px|SKU Amstetten]]
+| 6 || style="background-color:#ccffcc" | '''1''' || 5 || 11 || 12 || style="background-color:#ffcccc" | 14 || 12 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:FC Liefering Logo.jpg|23px|FC Liefering]]
+| 11 || 11 || style="background-color:#ffcccc" | 14 || style="background-color:#ffcccc" | 14 || style="background-color:#ffcccc" | 14 || 11 || 11 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Austria Wien.svg|21px|Young Violets]]
+| style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 16 || style="background-color:#ffcccc" | 15 || style="background-color:#ffcccc" | || style="background-color:#ffcccc" | || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Logo SV Lafnitz.png|23px|SV Lafnitz]]
+| 9 || 7 || 3 || 6 || 3 || 7 || 9 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:SV Horn.svg|21px|SV Horn]]
+| style="background-color:#ccffcc" | '''1''' || 2 || 6 || 12 || 13 || 10 || 7 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:Vereinslogo SK Vorwärts Steyr.svg|25px|SK Vorwärts Steyr]]
+| 4 || 8 || 11 || 9 || 5 || 3 || 5 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:GAK 1902 Logo.svg|23px|Grazer AK]]
+| style="background-color:#ffcccc" | 14 || 9 || 9 || 6 || 4 || 2 || 3 || || || || || || || || || || || || || || || || || || || || || || ||
+|-
+| class="hintergrundfarbe5"| [[Datei:FC Dornbirn 1913.svg|23px|FC Dornbirn 1913]]
+| 12 || style="background-color:#ffcccc" | 15 || style="background-color:#ffcccc" | 15 || 13 || 8 || 12 || 13 || || || || || || || || || || || || || || || || || || || || || || ||
+|}
+
+=== Tabellenführer/-letzter ===
+<!--FC Blau-Weiß Linz: brightblue; FC Juniors OÖ: tan1; Kapfenberger SV: claret; Grazer AK:coral; Floridsdorer AC: darkblue; SC Austria Lustenau: brightgreen; SK Austria Klagenfurt: lightpurple; FC Dornbirn 1913: pink; FC Liefering: red; SV Lafnitz: yellow; FK Austria Wien II: purple; FC Wacker Innsbruck: teal; SK Vorwärts Steyr: magenta; SV Horn: oceanblue; SKU Amstetten: blue; SV Ried: green.-->
+<div class="float-right">
+{{Center|'''Tabellenführer'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:30.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+  from:start till:1.5 shift:(25,0)  color:oceanblue
+  from:1.5 till:2.5 shift:(25,0)    color:blue
+  from:2.5 till:3.0 shift:(25,0)    color:brightgreen
+  from:3.0 till:3.5 shift:(25,0)    color:darkblue
+  from:3.5 till:7.5 shift:(25,0)    color:lightpurple
+
+</timeline>
+</div>
+<div class="float-right">
+{{Center|'''Tabellenletzter'''}}
+<timeline>
+ImageSize = width:700 height:70
+PlotArea  = left:20 right:20 bottom:30 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:30.5
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+  from:start till:6.5 shift:(25,0)  color:purple
+  from:6.5   till:7.5 shift:(25,0)  color:claret
+
+</timeline>
+</div>
+
+{| class="wikitable"
+! Farblegende
+|-
+| {{Farblegende|#007fcc|SV Horn}} {{Farblegende|#0000FF|SKU Amstetten}} {{Farblegende|#00ff00|SC Austria Lustenau}} {{Farblegende|#00008B|Floridsdorfer AC}} {{Farblegende|#BA55D3|SK Austria Klagenfurt}}<br />{{Farblegende|#6A0DAD|Young Violets Austria Wien}} {{Farblegende|#A0522D|Kapfenberger SV}}
+|}
+
+=== Spiele im Detail ===
+==== Hinrunde ====
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Datum !! Heim !! Gäste !! Ergebnis !! Tore  !! Schiedsrichter !! Karten !! Zuschauer<ref name="FBOE">Laut [http://www.fussballoesterreich.at/foes/Home/ fussballoesterreich.at]</ref>
+|-
+|style="background:#DC143C"|'''Runde 1'''
+|-
+| 26. Juli 2019 || Steyr || Innsbruck || '''2:0''' (0:0) || [[Christopher Bibaku|Bibaku]]&nbsp;(72.), [[Josip Martinović|Martinović]]&nbsp;(76.) || [[Josef Spurny|Spurny]] || {{Gelb}}-Steyr: [[Kevin Brandstätter|Brandstätter]]&nbsp;(62.), [[Michael Halbartschlager|Halbartschlager]]&nbsp;(65.) <br> {{Gelb}}-Innsbruck: [[Alexander Gründler|Gründler]]&nbsp;(57.), [[Sefik Abali|Abali]]&nbsp;(71.), [[Sunday Faleye|Faleye]]&nbsp;(90+1.) || 2.100
+|-
+| 26. Juli 2019 || Ried || Klagenfurt || '''1:3''' (0:0) || [[Balakiyem Takougnadi|Takougnadi]]&nbsp;(90+4.); [[Oliver Markoutz|Markoutz]]&nbsp;(56.), [[Oliver Markoutz|Markoutz]]&nbsp;(58.), [[Darijo Pecirep|Pecirep]]&nbsp;(63.) || [[Gerhard Grobelnik|Grobelnik]] || || 2.667
+|-
+| 26. Juli 2019 || Lafnitz || Juniors OÖ || '''0:0''' || || [[Thomas Fröhlacher|Fröhlacher]] || {{Gelb}}-Lafnitz: [[Lukas Fadinger|Fadinger]]&nbsp;(6.), [[Daniel Rosenbichler|Rosenbichler]]&nbsp;(71.), [[Florian Prohart|Prohart]]&nbsp;(78.) <br> {{Gelb}}-Juniors OÖ: [[Nemanja Celic|Celic]]&nbsp;(15.), [[Dominik Reiter|Reiter]]&nbsp;(21.) || 500
+|-
+| 26. Juli 2019 || Young Violets || Horn || '''1:5''' (1:3) || [[Johannes Handl|Handl]]&nbsp;(9.); [[Ercan Kara|Kara]]&nbsp;(23.), [[Michael Cheukoua|Cheukoua]]&nbsp;(42.), [[Michael Cheukoua|Cheukoua]]&nbsp;(45+1.), [[Marcel Toth|Toth]]&nbsp;(60.), [[Ercan Kara|Kara]]&nbsp;(62., S)|| [[Stefan Ebner (Fußballschiedsrichter)|Ebner]] || {{Gelb}}-Young Violets: [[Aleksandar Jukic|Jukic]]&nbsp;(48.) <br> {{Gelb}}-Horn: [[Marcel Toth|Toth]]&nbsp;(69.) || 480
+|-
+| 26. Juli 2019 || Dornbirn || Lustenau || '''1:3''' (0:1) || [[Ygor Carvalho Vieira|Ygor]]&nbsp;(63.); [[Matthias Morys|Morys]]&nbsp;(17.), [[Ronivaldo]]&nbsp;(51.), [[Thomas Mayer (Fußballspieler, 1995)|Mayer]]&nbsp;(66.) || [[Felix Ouschan|Ouschan]] || {{Gelb}}-Dornbirn: [[Aaron Kircher|Kircher]]&nbsp;(9.), [[Ygor Carvalho Vieira|Ygor]]&nbsp;(50.), [[Marc Kühne (Fußballspieler)|Kühne]]&nbsp;(55.), [[Lukas Allgäuer|Allgäuer]]&nbsp;(59.) <br> {{Gelb}}-Lustenau: [[Matthias Morys|Morys]]&nbsp;(62.), [[Amoy Brown|Brown]]&nbsp;(82.), [[Daniel Tiefenbach|Tiefenbach]]&nbsp;(82.) || 4.250
+|-
+| 26. Juli 2019 || BW Linz || Kapfenberg || '''1:1''' (0:0) || [[Thomas Fröschl|Fröschl]]&nbsp;(87.); [[Samuel Oppong|Oppong]]&nbsp;(54.) || [[Alan Kijas|Kijas]] || {{Gelb}}-BW Linz: [[Turgay Gemicibaşi|Gemicibaşi]]&nbsp;(71.) <br> {{Gelb}}-Kapfenberg: [[Kristijan Makovec|Makovec]]&nbsp;(30.), [[Ivo Kralj|Kralj]]&nbsp;(60.), [[Michael Lang (Fußballspieler, 1998)|Lang]]&nbsp;(90+5.) || 1.029
+|-
+| 26. Juli 2019 || Liefering || Amstetten || '''2:3''' (0:1) || [[David Affengruber (Fußballspieler, 2001)|Affengruber]]&nbsp;(52.), [[Chukwubuike Adamu|Adamu]]&nbsp;(90+1.); [[Daniel Maderner|Maderner]]&nbsp;(29.), [[David Peham|Peham]]&nbsp;(73.), [[David Peham|Peham]]&nbsp;(83.) || [[Andreas Heiß|Heiß]] || {{Gelb}}-Liefering: [[Alexander Prass|Prass]]&nbsp;(33.) <br> {{Gelb}}-Amstetten: [[Patrick Puchegger|Puchegger]]&nbsp;(15.) || 300
+|-
+| 28. Juli 2019 || FAC || GAK || '''2:0''' (1:0)  || [[Elias Felber|Felber]]&nbsp;(23.), [[Marco Sahanek|Sahanek]]&nbsp;(90+3.) || [[Sebastian Gishammer|Gishammer]] || {{Gelb}}-FAC: [[Bernhard Fila|Fila]]&nbsp;(37.), [[Marco Sahanek|Sahanek]]&nbsp;(61.) <br>
+{{Gelb}}-GAK: [[Dominik Hackinger|Hackinger]]&nbsp;(72.), [[Alexander Kogler|Kogler]]&nbsp;(89.)
+|| 2.338
+|-
+|style="background:#DC143C"|'''Runde 2'''
+|-
+| 2. August 2019 || Amstetten || Young Violets || '''3:2''' (0:1) || [[Manuel Seidl|Seidl]]&nbsp;(49.), [[Manuel Seidl|Seidl]]&nbsp;(54.), [[David Peham|Peham]]&nbsp;(56.); [[Anouar El Moukhantir|El Moukhantir]]&nbsp;(12.), [[Niels Hahn|Hahn]]&nbsp;(90+1.) || [[Oliver Drachta|Drachta]] || {{Gelb}}-Amstetten: [[Manuel Seidl|Seidl]]&nbsp;(45.) <br> {{Gelb}}-Young Violets: [[Stefan Radulovic|Radulovic]]&nbsp;(59.) || 1.120
+|-
+| 2. August 2019 || Juniors OÖ || Steyr || '''3:1''' (1:1) || [[Andrés Andrade (Fußballspieler, 1998)|Andrade]]&nbsp;(10.), [[Christopher Cvetko|Cvetko]]&nbsp;(55., S), [[Pierre Nagler|Nagler]]&nbsp;(90+1.); [[Kevin Brandstätter|Brandstätter]]&nbsp;(13.) || [[Arnes Talic|Talic]] || {{Gelb}}-Juniors OÖ: [[Ishaku Konda|Konda]]&nbsp;(87.) <br> {{Gelb}}-Steyr: [[Bojan Mustecić|Mustecić]]&nbsp;(55.), [[Nicolas Wimmer|Wimmer]]&nbsp;(69.), [[Reinhard Großalber|Großalber]]&nbsp;(90+5.) || 1.000
+|-
+| 2. August 2019 || Kapfenberg || Lafnitz || '''1:2''' (0:1) || [[Paul Mensah|Mensah]]&nbsp;(86.); [[David Schloffer|Schloffer]]&nbsp;(21., S), [[Christian Lichtenberger|Lichtenberger]]&nbsp;(56.) || [[Gabriel Gmeiner|Gmeiner]] || {{Gelb}}-Kapfenberg: [[Paul Mensah|Mensah]]&nbsp;(29.), [[Michael Lang (Fußballspieler, 1998)|Lang]]&nbsp;(48.), [[Philipp Seidl|Seidl]]&nbsp;(76.), [[Matija Horvat (Fußballspieler)|Horvat]]&nbsp;(85.) <br> {{Gelb}}-Lafnitz: [[Christoph Gschiel|Gschiel]]&nbsp;(24.), [[Miloš Jovičić|Jovičić]]&nbsp;(65.), [[Bernd Kager|Kager]]&nbsp;(78.) || 496
+|-
+| 2. August 2019 || Lustenau || Ried || '''1:1''' (1:0) || [[Thomas Mayer (Fußballspieler, 1995)|Mayer]]&nbsp;(39.); [[Kennedy Boateng (Fußballspieler, 1996)|Boateng]]&nbsp;(49.) || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Gelb}}-Lustenau: [[Marco Krainz|Krainz]]&nbsp;(59.), [[Ronivaldo]]&nbsp;(63.) <br> {{Gelb}}-Ried: [[Julian Wießmeier|Wießmeier]]&nbsp;(55.), [[Thomas Reifeltshammer|Reifeltshammer]]&nbsp;(63.), [[Balakiyem Takougnadi|Takougnadi]]&nbsp;(90+3.) || 3.200
+|-
+| 2. August 2019 || Horn || FAC || '''2:2''' (1:1) || [[Ercan Kara|Kara]]&nbsp;(7.), [[Ercan Kara|Kara]]&nbsp;(59., S); [[Manuel Holzmann|Holzmann]]&nbsp;(4.), [[Albin Gashi|Gashi]]&nbsp;(87.) || [[Florian Jandl|Jandl]] || {{Gelb}}-Horn: [[Lukas Malicsek|Malicsek]]&nbsp;(26.), [[Marcel Toth|Toth]]&nbsp;(63.) <br> {{Gelb}}-FAC: [[Marco Sahanek|Sahanek]]&nbsp;(63.), [[Bernhard Fila|Fila]]&nbsp;(86.), [[Mirnes Becirovic|Becirovic]]&nbsp;(90+3.) || 1.030
+|-
+| 2. August 2019 || GAK || BW Linz || '''2:0''' (2:0) || [[Marco Perchtold|Perchtold]]&nbsp;(10.), [[Dominik Hackinger|Hackinger]]&nbsp;(42.) || [[Julian Weinberger|Weinberger]] || {{Gelb}}-GAK: [[Philipp Schellnegger|Schellnegger]]&nbsp;(55.), {{Gelb-Rot}}: [[Philipp Schellnegger|Schellnegger]]&nbsp;(63.), {{Gelb}}: [[Marco Perchtold|Perchtold]]&nbsp;(78.), [[Thomas Zündel|Zündel]]&nbsp;(84.) <br> {{Gelb}}-BW Linz: [[Martin Kreuzriegler|Kreuzriegler]]&nbsp;(50.) || 3.207
+|-
+| 4. August 2019 || Innsbruck || Dornbirn || '''1:0''' (1:0) || [[Elvin Ibrisimovic|Ibrisimovic]]&nbsp;(24.) || [[Manuel Schüttengruber|Schüttengruber]] || {{Gelb}}-Innsbruck: [[Alexander Gründler|Gründler]]&nbsp;(35.), [[Lukas Hupfauf|Hupfauf]]&nbsp;(69.), [[Raphael Gallé|Gallé]]&nbsp;(81.) <br> {{Gelb}}-Dornbirn: [[Franco Joppi|Joppi]]&nbsp;(31.), [[Anes Omerovic|Omerovic]]&nbsp;(65.), [[Deniz Mujić|Mujić]]&nbsp;(90+1.) || 2.045
+|-
+| 4. August 2019 || Klagenfurt || Liefering || '''4:4''' (1:2) || [[Okan Aydın|Aydın]]&nbsp;(5.), [[Daniel Steinwender|Steinwender]]&nbsp;(51.), [[Darijo Pecirep|Pecirep]]&nbsp;(73.), [[Oliver Markoutz|Markoutz]]&nbsp;(90+4., S); [[Tobias Anselm|Anselm]]&nbsp;(20.), [[Chukwubuike Adamu|Adamu]]&nbsp;(45+3.), [[Tobias Anselm|Anselm]]&nbsp;(49.), [[Chukwubuike Adamu|Adamu]]&nbsp;(75.) || [[Lukas Gnam|Gnam]] || {{Rot}}-Klagenfurt: [[Maximiliano Moreira|Moreira]]&nbsp;(90+6.), {{Gelb}}: [[Kosmas Gezos|Gezos]]&nbsp;(40.), [[Žan Pelko|Pelko]]&nbsp;(90+9.) <br> {{Rot}}-Liefering: [[Alexander Prass|Prass]]&nbsp;(81.), {{Gelb}}: [[Luis Phelipe|Phelipe]]&nbsp;(40.), [[Alexander Prass|Prass]]&nbsp;(44.), [[Alois Oroz|Oroz]]&nbsp;(90+9.) || 1.798
+|-
+|style="background:#DC143C"|'''Runde 3'''
+|-
+| 9. August 2019 || Young Violets || Lustenau || '''0:2''' (0:1) || [[Patrik Eler|Eler]]&nbsp;(11.), [[Ronivaldo]]&nbsp;(64., S) || [[Thomas Fröhlacher|Fröhlacher]] || {{Rot}}-Young Violets: [[Stefan Jonovic|Jonovic]]&nbsp;(53.), {{Gelb}}: [[Stefan Jonovic|Jonovic]]&nbsp;(36.), [[Patrick Wimmer|Wimmer]]&nbsp;(59.), [[Niels Hahn|Hahn]]&nbsp;(64.)<br />{{Gelb}}-Lustenau: [[Darijo Grujčić|Grujčić]]&nbsp;(10.), [[Sebastian Feyrer|Feyrer]]&nbsp;(27.), [[Marco Krainz|Krainz]]&nbsp;(55.), [[Daniel Tiefenbach|Tiefenbach]]&nbsp;(58.), {{Gelb-Rot}}: [[Sebastian Feyrer|Feyrer]]&nbsp;(85.) || 283
+|-
+| 9. August 2019 || GAK || Horn || '''0:0''' || || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Gelb}}-GAK: [[Alexander Bauer (Fußballspieler, 1995)|Bauer]]&nbsp;(57.), [[Thomas Zündel|Zündel]]&nbsp;(87.) <br> {{Gelb}}-Horn: [[Thomas Salamon|Salamon]]&nbsp;(64.), [[Lukas Malicsek|Malicsek]]&nbsp;(75.) || 3.041
+|-
+| 9. August 2019 || Lafnitz || Liefering || '''2:0''' (0:0) || [[Barnabás Varga|Varga]]&nbsp;(5.), [[David Otter|Otter]]&nbsp;(88.) || [[Florian Jandl|Jandl]] ||{{Gelb}}-Lafnitz: [[Miloš Jovičić|Jovičić]]&nbsp;(10.), [[Daniel Rosenbichler|Rosenbichler]]&nbsp;(46.) <br> {{Rot}}-Liefering: [[Wallison]]&nbsp;(34.), {{Gelb}}: [[Amar Dedić|Dedić]]&nbsp;(8.), [[Karim Adeyemi|Adeyemi]]&nbsp;(37.), [[Daniel Antosch|Antosch]]&nbsp;(45.), [[Bryan Okoh|Okoh]]&nbsp;(45+4.) || 620
+|-
+| 9. August 2019 || Steyr || BW Linz || '''0:1''' (0:0) || [[Lukas Tursch|Tursch]]&nbsp;(86.) || [[Alain Sadikovski|Sadikovski]] || {{Gelb}}-Steyr: [[Nicolas Wimmer|Wimmer]]&nbsp;(55.), [[Josip Martinović|Martinović]]&nbsp;(87.), [[Mirsad Sulejmanović|Sulejmanović]]&nbsp;(90+5.) <br> {{Gelb}}-BW Linz: [[Aleksandar Kostić (Fußballspieler)|Kostić]]&nbsp;(10.), [[Nosa Iyobosa Edokpolor|Iyobosa]]&nbsp;(17.) || 2.500
+|-
+| 9. August 2019 || Dornbirn || Klagenfurt || '''0:0''' || || [[Achim Untergasser|Untergasser]] || {{Gelb}}-Klagenfurt: [[Patrick Greil|Greil]]&nbsp;(46.), [[Okan Aydın|Aydın]]&nbsp;(81.) || 1.050
+|-
+| 9. August 2019 || FAC || Innsbruck || '''2:0''' (1:0) || [[Christian Bubalović|Bubalović]]&nbsp;(36.), [[Tolga Günes|Günes]]&nbsp;(90+1.) || [[Alan Kijas|Kijas]] || {{Gelb}}-FAC: [[Albin Gashi|Gashi]]&nbsp;(42.), [[Marco Sahanek|Sahanek]]&nbsp;(43.), [[Burak Yilmaz (Fußballspieler, 1995)|Yilmaz]]&nbsp;(53.) <br> {{Gelb}}-Innsbruck: [[Atsushi Zaizen|Zaizen]]&nbsp;(40.), [[Karim Conté|Conté]]&nbsp;(53.) || 912
+|-
+| 9. August 2019 || Juniors OÖ || Kapfenberg || '''1:0''' (0:0) || [[Fabian Benko|Benko]]&nbsp;(52.) || [[Andreas Heiß|Heiß]] || {{Gelb}}-Kapfenberg: [[Michael Lang (Fußballspieler, 1998)|Lang]]&nbsp;(33.), [[Kristijan Makovec|Makovec]]&nbsp;(63.), [[Dominik Kotzegger|Kotzegger]]&nbsp;(66.) || 200
+|-
+| 11. August 2019 || Ried || Amstetten || '''4:1''' (2:0) || [[Balakiyem Takougnadi|Takougnadi]]&nbsp;(4.), [[Marco Grüll|Grüll]]&nbsp;(12.), [[Jefté Betancor|Betancor]]&nbsp;(46.), [[Thomas Reifeltshammer|Reifeltshammer]]&nbsp;(90+3.); [[Patrick Schagerl|Schagerl]]&nbsp;(64.) || [[Alexander Harkam|Harkam]] || {{Gelb}}-Ried: [[Balakiyem Takougnadi|Takougnadi]]&nbsp;(28.), [[Bojan Lugonja|Lugonja]]&nbsp;(70.)<br />{{Gelb}}-Amstetten: [[Daniel Scharner|Scharner]]&nbsp;(14.), [[Manuel Seidl|Seidl]]&nbsp;(39.), {{Gelb-Rot}}: [[Daniel Scharner|Scharner]]&nbsp;(41.) || 2.915
+|-
+|style="background:#DC143C"|'''Runde 4'''
+|-
+| 16. August 2019 || Innsbruck || Juniors OÖ || '''2:1''' (0:1) || [[Alexander Gründler|Gründler]]&nbsp;(56.), [[Markus Wallner (Fußballspieler)|Wallner]]&nbsp;(59.); [[Andy Reyes|Reyes]]&nbsp;(26.) || [[Robert Schörgenhofer|Schörgenhofer]] || {{Gelb}}-Innsbruck: [[Alexander Joppich|Joppich]]&nbsp;(36.), [[Karim Conté|Conté]]&nbsp;(45+1.), [[Atsushi Zaizen|Zaizen]]&nbsp;(52.)<br />{{Gelb}}-Juniors OÖ: [[Jan Boller|Boller]]&nbsp;(11.), [[Ishaku Konda|Konda]]&nbsp;(14.), [[David Bumberger|Bumberger]]&nbsp;(44.), [[Hong Hyun-seok|Hong]]&nbsp;(54.), [[Christopher Cvetko|Cvetko]]&nbsp;(77.), [[Andriko Smolinski|Smolinski]]&nbsp;(85.), {{Gelb-Rot}}: [[Christopher Cvetko|Cvetko]]&nbsp;(90+5.) || 1.935
+|-
+| 16. August 2019 || Kapfenberg || Klagenfurt || '''1:2''' (0:2) || [[Lewan Eloschwili|Eloschwili]]&nbsp;(77.); [[Darijo Pecirep|Pecirep]]&nbsp;(20.), [[Ivan Šaravanja|Šaravanja]]&nbsp;(24.) || [[Alain Sadikovski|Sadikovski]] || {{Gelb}}-Kapfenberg: [[Matija Horvat (Fußballspieler)|Horvat]]&nbsp;(16.), [[Ibrahim Bingöl|Bingöl]]&nbsp;(25.), [[Kristijan Makovec|Makovec]]&nbsp;(66.), [[Ivo Kralj|Kralj]]&nbsp;(75.)<br />{{Gelb}}-Klagenfurt: [[Florian Freissegger|Freissegger]]&nbsp;(39.), [[Patrick Greil|Greil]]&nbsp;(73.), [[Barış Əkinçiər|Əkinçiər]]&nbsp;(75.) || 300
+|-
+| 16. August 2019 || BW Linz || Young Violets || '''4:3''' (1:1) || [[Fabian Schubert|Schubert]]&nbsp;(19.), [[Stefano Surdanović|Surdanović]]&nbsp;(56.), [[Thomas Fröschl|Fröschl]]&nbsp;(69.), [[Martin Kreuzriegler|Kreuzriegler]]&nbsp;(79.); [[Manprit Sarkaria|Sarkaria]]&nbsp;(12.), [[Manprit Sarkaria|Sarkaria]]&nbsp;(54.,&nbsp;S), [[Stefan Feiertag|Feiertag]]&nbsp;(78.) || [[Lukas Gnam|Gnam]] || {{Gelb}}-BW Linz: [[Lukas Tursch|Tursch]]&nbsp;(76.), [[Nosa Iyobosa Edokpolor|Iyobosa]]&nbsp;(88.), [[Nikola Jelisić|Jelisić]]&nbsp;(90.) || 902
+|-
+| 16. August 2019 || Amstetten || Dornbirn || '''0:2''' (0:2) || [[Lukas Fridrikas|Fridrikas]]&nbsp;(6.), [[Andreas Malin|Malin]]&nbsp;(21.) || [[Thomas Fröhlacher|Fröhlacher]] || {{Gelb}}-Amstetten: [[Philipp Offenthaler|Offenthaler]]&nbsp;(18.), [[Daniel Gremsl|Gremsl]]&nbsp;(70.), [[David Peham|Peham]]&nbsp;(71.), [[Lukas Deinhofer|Deinhofer]]&nbsp;(76.), [[Philipp Gallhuber|Gallhuber]]&nbsp;(88.), [[Daniel Maderner|Maderner]]&nbsp;(90+1.)<br />{{Gelb}}-Dornbirn: [[Christoph Domig|Domig]]&nbsp;(45.), [[Anes Omerovic|Omerovic]]&nbsp;(75.) || 1.282
+|-
+| 16. August 2019 || Liefering || Horn || '''3:2''' (1:1) || [[Csaba Bukta|Bukta]]&nbsp;(16.), [[Karim Adeyemi|Adeyemi]]&nbsp;(63.), [[Mohamed Camara (Fußballspieler, 2000)|Camara]]&nbsp;(67.); [[Michael Cheukoua|Cheukoua]]&nbsp;(35.), [[Ercan Kara|Kara]]&nbsp;(80.) || [[Achim Untergasser|Untergasser]] || {{Rot}}-Liefering: [[Benjamin Šeško|Šeško]]&nbsp;(86.), {{Gelb}}: [[Nikola Stošić|Stošić]]&nbsp;(74.), [[Youba Diarra|Diarra]]&nbsp;(79.), [[Mohamed Camara (Fußballspieler, 2000)|Camara]]&nbsp;(83.), {{Gelb-Rot}}: [[Youba Diarra|Diarra]]&nbsp;(88.)<br />{{Gelb}}-Horn: [[Thomas Salamon|Salamon]]&nbsp;(10.) || 423
+|-
+| 16. August 2019 || Lafnitz || Ried || '''0:1''' (0:1) || [[Jefté Betancor|Betancor]]&nbsp;(29.) || [[Arnes Talic|Talic]] || {{Gelb}}-Lafnitz: [[Florian Prohart|Prohart]]&nbsp;(81.), [[Miloš Jovičić|Jovičić]]&nbsp;(89.)<br />{{Gelb}}-Ried: [[Kelvin Arase|Arase]]&nbsp;(19.), [[Mario Vojkovic|Vojkovic]]&nbsp;(25.), [[Jefté Betancor|Betancor]]&nbsp;(44.), [[Marco Grüll|Grüll]]&nbsp;(68.) || 810
+|-
+| 16. August 2019 || Steyr || FAC || '''1:0''' (1:0) || [[Alberto Prada|Prada]]&nbsp;(38.) || [[Gabriel Gmeiner|Gmeiner]] || {{Gelb}}-Steyr: [[Okan Yilmaz|Yilmaz]]&nbsp;(34.), [[Dominik Kirschner|Kirschner]]&nbsp;(68.)<br />{{Gelb}}-FAC: [[Christian Bubalović|Bubalović]]&nbsp;(63.), [[Burak Yilmaz (Fußballspieler, 1995)|Yilmaz]]&nbsp;(90+2.) || 1.400
+|-
+| 18. August 2019 || Lustenau || GAK || '''0:2''' (0:1) || [[Philipp Schellnegger|Schellnegger]]&nbsp;(36.), [[Lucas Barbosa|Barbosa]]&nbsp;(49.) || [[Stefan Ebner (Fußballschiedsrichter)|Ebner]] || {{Gelb}}-Lustenau: [[Christoph Freitag|Freitag]]&nbsp;(58.), [[Pius Grabher|Grabher]]&nbsp;(68.), [[Marco Krainz|Krainz]]&nbsp;(84.)<br />{{Gelb}}-GAK: [[Thomas Zündel|Zündel]]&nbsp;(28.), [[Marco Perchtold|Perchtold]]&nbsp;(78.), [[Alexander Kogler|Kogler]]&nbsp;(90+1.) || 3.000
+|-
+|style="background:#DC143C"|'''Runde 5'''
+|-
+| 23. August 2019 || Innsbruck || Amstetten || '''2:1''' (2:0) || [[Raphael Gallé|Gallé]]&nbsp;(27.), [[Markus Wallner (Fußballspieler)|Wallner]]&nbsp;(33.); [[Marco Stark (Fußballspieler, 1993)|Stark]]&nbsp;(67.) || [[Achim Untergasser|Untergasser]] || {{Gelb}}-Innsbruck: [[Markus Wallner|Wallner]]&nbsp;(16.), [[Atsushi Zaizen|Zaizen]]&nbsp;(59.), [[Alexander Gründler|Gründler]]&nbsp;(66.), [[Lukas Hupfauf|Hupfauf]]&nbsp;(69.), [[Ertugrul Yildirim|Yildirim]]&nbsp;(80.), [[Clemens Hubmann|Hubmann]]&nbsp;(90+3.)<br />{{Gelb}}-Amstetten: [[Philipp Gallhuber|Gallhuber]]&nbsp;(29.), [[Daniel Maderner|Maderner]]&nbsp;(71.), [[Marco Stark (Fußballspieler, 1993)|Stark]]&nbsp;(86.), [[Lukas Deinhofer|Deinhofer]]&nbsp;(90+4.) || 2.103
+|-
+| 23. August 2019 || Ried || GAK || '''1:2''' (1:0) || [[Jefté Betancor|Betancor]]&nbsp;(12.); [[Philipp Schellnegger|Schellnegger]]&nbsp;(47.), [[Lucas Barbosa|Barbosa]]&nbsp;(83.,&nbsp;S) || [[Markus Hameter|Hameter]] || {{Gelb}}-Ried: [[Balakiyem Takougnadi|Takougnadi]]&nbsp;(51.), [[Ante Bajic|Bajic]]&nbsp;(90+2.)<br />{{Gelb}}-GAK: [[Dominik Hackinger|Hackinger]]&nbsp;(2.), [[Lukas Graf|Graf]]&nbsp;(36.), [[Lucas Barbosa|Barbosa]]&nbsp;(84.), [[Peter Kozissnik|Kozissnik]]&nbsp;(86.) || 4.006
+|-
+| 23. August 2019 || Juniors OÖ || Lustenau || '''8:5''' (2:2) || [[Nicolas Meister (Fußballspieler)|Meister]]&nbsp;(29.), [[Nicolas Meister (Fußballspieler)|Meister]]&nbsp;(44.,&nbsp;S), [[Florian Aigner (Fußballspieler)|Aigner]]&nbsp;(52.), [[Florian Aigner (Fußballspieler)|Aigner]]&nbsp;(55.), [[Nicolas Meister (Fußballspieler)|Meister]]&nbsp;(57.), [[Andy Reyes|Reyes]]&nbsp;(69.), [[Nicolas Meister (Fußballspieler)|Meister]]&nbsp;(84.), [[Andrés Andrade (Fußballspieler, 1998)|Andrade]]&nbsp;(89.); [[Pius Grabher|Grabher]]&nbsp;(14.), [[Matthias Morys|Morys]]&nbsp;(30.), [[Ronivaldo]]&nbsp;(76.), [[Christoph Freitag|Freitag]]&nbsp;(78.), [[Ronivaldo]]&nbsp;(83.) || [[Lukas Gnam|Gnam]] || {{Gelb}}-Juniors OÖ: [[Nicolas Meister (Fußballspieler)|Meister]]&nbsp;(66.), [[Nemanja Celic|Celic]]&nbsp;(87.), {{Gelb-Rot}}: [[Nemanja Celic|Celic]]&nbsp;(90+3.)<br />{{Rot}}-Lustenau: [[Sebastian Feyrer|Feyrer]]&nbsp;(26.), {{Gelb}}: [[Kevin Kunz|Kunz]]&nbsp;(29.), [[Marco Krainz|Krainz]]&nbsp;(33.), [[Christoph Freitag|Freitag]]&nbsp;(74.), [[Thomas Mayer (Fußballspieler, 1995)|Mayer]]&nbsp;(90+2.) || 235
+|-
+| 23. August 2019 || FAC || Liefering || '''0:0'''||  || [[Thomas Fröhlacher|Fröhlacher]] || {{Gelb}}-FAC: [[Christian Bubalović|Bubalović]]&nbsp;(22.), [[Bernhard Fila|Fila]]&nbsp;(73.), [[Burak Yilmaz (Fußballspieler, 1995)|Yilmaz]]&nbsp;(75.)<br />{{Gelb}}-Liefering: [[Alois Oroz|Oroz]]&nbsp;(11.), [[Nikola Stošić|Stošić]]&nbsp;(39.), [[Karim Adeyemi|Adeyemi]]&nbsp;(55.), [[Ogulcan Bekar|Bekar]]&nbsp;(75.), [[Mohamed Camara (Fußballspieler, 2000)|Camara]]&nbsp;(90+3.) || 658
+|-
+| 23. August 2019 || Young Violets || Lafnitz || '''2:3''' (1:0) || [[Patrick Wimmer|Wimmer]]&nbsp;(17.), [[Jan Gassmann (Fußballspieler)|Gassmann]]&nbsp;(81.); [[Barnabás Varga|Varga]]&nbsp;(69.), [[Barnabás Varga|Varga]]&nbsp;(71.), [[Maximilian Entrup|Entrup]]&nbsp;(76.) || [[Daniel Pfister (Fußballschiedsrichter) |Pfister]] || {{Gelb}}-Young Violets: [[Lukas Prokop|Prokop]]&nbsp;(26.), [[Stefan Jonovic|Jonovic]]&nbsp;(44.), [[Patrick Wimmer|Wimmer]]&nbsp;(45+1.), [[Jan Gassmann (Fußballspieler)|Gassmann]]&nbsp;(70.), {{Gelb-Rot}}: [[Jan Gassmann (Fußballspieler)|Gassmann]]&nbsp;(84.)<br />{{Gelb}}-Lafnitz: [[David Otter|Otter]]&nbsp;(33.), [[Barnabás Varga|Varga]]&nbsp;(74.) || 304
+|-
+| 23. August 2019 || Horn || Steyr || '''1:4''' (0:0) || [[Ercan Kara|Kara]]&nbsp;(62.); [[Kevin Brandstätter|Brandstätter]]&nbsp;(53.), [[Alin Roman|Roman]]&nbsp;(55.), [[Alin Roman|Roman]]&nbsp;(75.), [[Bojan Mustetić|Mustetić]]&nbsp;(88.) || [[Felix Ouschan|Ouschan]] || {{Gelb}}-Horn: [[Jürgen Bauer (Fußballspieler, 1998)|Bauer]]&nbsp;(38.), [[Florian Sittsam|Sittsam]]&nbsp;(67.)<br />{{Rot}}-Steyr: [[Christopher Bibaku|Bibaku]]&nbsp;(90.), {{Gelb}}: [[Alin Roman|Roman]]&nbsp;(1.), [[Kevin Brandstätter|Brandstätter]]&nbsp;(72.) || 886
+|-
+| 24. August 2019 || Dornbirn || Kapfenberg || '''6:1''' (3:0) || [[Andreas Malin|Malin]]&nbsp;(27.), [[Deniz Mujic|Mujic]]&nbsp;(35.,&nbsp;S), [[Deniz Mujic|Mujic]]&nbsp;(37.), [[Lukas Fridrikas|Fridrikas]]&nbsp;(66.), [[Christoph Domig|Domig]]&nbsp;(72.), [[	Florian Prirsch|Prirsch]]&nbsp;(90.); [[Kristijan Makovec|Makovec]]&nbsp;(75.) || [[Walter Altmann (Fußballschiedsrichter)|Altmann]] || {{Rot}}-Kapfenberg: [[Matija Horvat|Horvat]]&nbsp;(89.), {{Gelb}}: [[Matija Horvat|Horvat]]&nbsp;(26.) || 650
+|-
+| 25. August 2019 || Klagenfurt || BW Linz || '''3:1''' (1:0) || [[Kosmas Gezos|Gezos]]&nbsp;(30.), [[Oliver Markoutz|Markoutz]]&nbsp;(55.), [[Darijo Pecirep|Pecirep]]&nbsp;(59.); [[Fabian Schubert|Schubert]]&nbsp;(47.) || [[René Eisner|Eisner]] || {{Gelb}}-Klagenfurt: [[Markus Rusek|Rusek]]&nbsp;(24.), [[Ivan Šaravanja|Šaravanja]]&nbsp;(50.), [[Polydoros Gezos|Gezos]]&nbsp;(56.), [[Florian Jaritz|Jaritz]]&nbsp;(74.), [[Petar Zubak|Zubak]]&nbsp;(82.)<br />{{Gelb}}-BW Linz: [[Turgay Gemicibaşi|Gemicibaşi]]&nbsp;(15.), [[Lukas Tursch|Tursch]]&nbsp;(19.), [[Fabian Schubert|Schubert]]&nbsp;(90+4.) || 1.313
+|-
+|style="background:#DC143C"|'''Runde 6'''
+|-
+| 30. August 2019 || Kapfenberg || Ried || '''2:3''' (0:2) || [[Paul Mensah|Mensah]]&nbsp;(58.), [[Illja Subkow|Subkow]]&nbsp;(63.); [[Marco Grüll|Grüll]]&nbsp;(10.), [[Jefté Betancor|Betancor]]&nbsp;(35.), [[Canillas]]&nbsp;(76.) || [[Alan Kijas|Kijas]] || {{Gelb}}-Kapfenberg: [[Leo Mikić|Mikić]]&nbsp;(73.), [[David Sencar|Sencar]]&nbsp;(77.), [[Kristijan Makovec|Makovec]]&nbsp;(88.)<br />{{Gelb}}-Ried: [[Bojan Lugonja|Lugonja]]&nbsp;(25.) || 650
+|-
+| 30. August 2019 || BW Linz || Innsbruck || '''1:0''' (0:0) || [[Fabian Schubert|Schubert]]&nbsp;(63.) || [[Florian Jandl|Jandl]] || {{Gelb}}-BW Linz: [[Turgay Gemicibaşi|Gemicibaşi]]&nbsp;(26.), [[Philipp Pomer|Pomer]]&nbsp;(64.), [[Thomas Fröschl|Fröschl]]&nbsp;(70.), [[Simon Gasperlmair|Gasperlmair]]&nbsp;(87.)<br />{{Gelb}}-Innsbruck: [[Atsushi Zaizen|Zaizen]]&nbsp;(30.), [[Lukas Hupfauf|Hupfauf]]&nbsp;(70.) || 1.343
+|-
+| 30. August 2019 || Amstetten || Horn || '''2:4''' (1:2) || [[Daniel Maderner|Maderner]]&nbsp;(29.), [[Daniel Maderner|Maderner]]&nbsp;(79.,&nbsp;S); [[Marco Hausjell|Hausjell]]&nbsp;(6.), [[Christian Haselberger|Haselberger]]&nbsp;(17.), [[Lukas Malicsek|Malicsek]]&nbsp;(54.), [[Marco Hausjell|Hausjell]]&nbsp;(58.) || [[Stefan Ebner (Fußballschiedsrichter)|Ebner]] || {{Gelb}}-Amstetten: [[Marco Stark (Fußballspieler, 1993)|Stark]]&nbsp;(86.)<br />{{Gelb}}-Horn: [[Mario Stefel|Stefel]]&nbsp;(42.), [[Andree Neumayer|Neumayer]]&nbsp;(50.), [[Marcel Toth|Toth]]&nbsp;(60.), [[Christian Haselberger|Haselberger]]&nbsp;(79.), [[Florian Sittsam|Sittsam]]&nbsp;(83.) || 1.426
+|-
+| 30. August 2019 || Liefering || Young Violets || '''2:1''' (1:0) || [[Luis Phelipe|Phelipe]]&nbsp;(18.), [[Kim Jung-min|Kim]]&nbsp;(46.); [[Aleksandar Jukic|Jukic]]&nbsp;(78.) || [[Felix Ouschan|Ouschan]] || {{Gelb}}-Liefering: [[Amar Dedić|Dedić]]&nbsp;(18.), [[Mohamed Camara (Fußballspieler, 2000)|Camara]]&nbsp;(70.), [[Nicolas Seiwald|Seiwald]]&nbsp;(76.), [[Kilian Ludewig|Ludewig]]&nbsp;(90+1.), [[Daniel Antosch|Antosch]]&nbsp;(90+3.)<br />{{Gelb}}-Young Violets: [[Patrick Wimmer|Wimmer]]&nbsp;(34.), [[Stefan Jonovic|Jonovic]]&nbsp;(36.) || 445
+|-
+| 30. August 2019 || Lafnitz || Klagenfurt || '''0:3''' (0:0) || [[Darijo Pecirep|Pecirep]]&nbsp;(59.), [[Oliver Markoutz|Markoutz]]&nbsp;(84.), [[Daniel Steinwender|Steinwender]]&nbsp;(90+06.) || [[Gabriel Gmeiner|Gmeiner]] || {{Gelb}}-Klagenfurt: [[Markus Rusek|Rusek]]&nbsp;(71.), [[Kosmas Gezos|Gezos]]&nbsp;(76.) || 780
+|-
+| 30. August 2019 || GAK || Juniors OÖ || '''2:1''' (0:0) || [[Marco Perchtold|Perchtold]]&nbsp;(29.), [[Alexander Rother|Rother]]&nbsp;(90+5.); [[Florian Aigner (Fußballspieler)|Aigner]]&nbsp;(90.) || [[Alain Sadikovski|Sadikovski]] || {{Gelb}}-GAK: [[Marco Gantschnig|Gantschnig]]&nbsp;(84.)<br />{{Gelb}}-Juniors OÖ: [[Andrés Andrade (Fußballspieler, 1998)|Andrade]]&nbsp;(72.) || 3.546
+|-
+| 31. August 2019 || Steyr || Dornbirn || '''3:2''' (0:0) || [[Alin Roman|Roman]]&nbsp;(57.,&nbsp;S), [[Roman Alin|Alin]]&nbsp;(75.,&nbsp;S), [[Bojan Mustecić|Mustetić]]&nbsp;(78.); [[Sascha Fahrngruber|Fahrngruber]]&nbsp;(46.,&nbsp;ET), [[Lukas Fridrikas|Fridrikas]]&nbsp;(90+1.) || [[Daniel Pfister|Pfister]] || {{Gelb}}-Steyr: [[Kevin Brandstätter|Brandstätter]]&nbsp;(12.), [[Michael Halbartschlager|Halbartschlager]]&nbsp;(90+5.)<br />{{Gelb}}-Dornbirn: [[Andreas Malin|Malin]]&nbsp;(56.), [[Florian Prirsch|Prirsch]]&nbsp;(57.), [[Deniz Mujić|Mujić]]&nbsp;(78.), [[Christoph Domig|Domig]]&nbsp;(84.) || 1.600
+|-
+| 1. September 2019 || Lustenau || FAC || '''1:2''' (1:1) || [[Ronivaldo]]&nbsp;(33.); [[Adolphe Belem|Belem]]&nbsp;(15.), [[Adolphe Belem|Belem]]&nbsp;(53.) || [[Oliver Drachta|Drachta]] || {{Gelb}}-Lustenau: [[Matthias Morys|Morys]]&nbsp;(32.), [[Pius Grabher|Grabher]]&nbsp;(74.)<br />{{Gelb}}-FAC: [[Florian Hainka|Hainka]]&nbsp;(19.), [[Mirnes Becirovic]]&nbsp;(60.), [[Christian Bubalović|Bubalović]]&nbsp;(63.), [[Tin Plavotić|Plavotić]]&nbsp;(83.), [[Burak Yilmaz (Fußballspieler, 1995)|Yilmaz]]&nbsp;(87.) || 1.800
+|}
+
+=== Spielerstatistiken ===
+==== Torschützenliste ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! Tore
+|-
+! {{0}}1.
+| {{AUT|Ziel=Ercan Kara}}
+| [[SV Horn]]
+| style="text-align:center" | 10
+|-
+! {{0}}2.
+| {{BRA|Ziel=Ronivaldo}}
+| [[SC Austria Lustenau]]
+| style="text-align:center" | {{0}}6
+|-
+! rowspan="2" | {{0}}3.
+| {{AUT|Ziel=Oliver Markoutz}}
+| [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]
+| rowspan="2" style="text-align:center" | 5
+|-
+| {{HRV|Ziel=Darijo Pecirep}}
+| [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]
+|-
+! rowspan="5" | {{0}}5.
+| {{AUT|Nicolas Meister (Fußballspieler)|Nicolas Meister}}
+| [[FC Juniors OÖ]]
+| rowspan="5" style="text-align:center" | 4
+|-
+| {{ESP|Ziel=Jefté Betancor}}
+| [[SV Ried]]
+|-
+| {{ROU|Ziel=Alin Roman}}
+| [[SK Vorwärts Steyr]]
+|-
+| {{AUT|Ziel=David Peham}}
+| [[SKU Amstetten]]
+|-
+| {{AUT|Ziel=Daniel Maderner}}
+| [[SKU Amstetten]]
+<!-- |-
+! rowspan="8" | {{0}}8.
+| {{AUT|Ziel=Chukwubuike Adamu}}
+| [[FC Liefering]]
+| rowspan="8" style="text-align:center" | 3
+|-
+| {{CMR|Ziel=Michael Cheukoua}}
+| [[SV Horn]]
+|-
+| {{HUN|Ziel=Barnabás Varga}}
+| [[SV Lafnitz]]
+|-
+| {{AUT|Florian Aigner (Fußballspieler)|Florian Aigner}}
+| [[FC Juniors OÖ]]
+|-
+| {{AUT|Ziel=Fabian Schubert}}
+| [[FC Blau-Weiß Linz]]
+|-
+| {{AUT|Ziel=Lukas Fridrikas}}
+| [[FC Dornbirn 1913]]
+|-
+! rowspan="7" style="text-align:center" | {{0}}7.
+| {{AUT|Thomas Mayer (Fußballspieler, 1995)|Thomas Mayer}}
+| [[SC Austria Lustenau]]
+| rowspan="7" style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Manuel Seidl}}
+| [[SKU Amstetten]]
+|-
+| {{AUT|Ziel=Tobias Anselm}}
+| [[FC Liefering]]
+|-
+| {{AUT|Ziel=Balakiyem Takougnadi}}
+| [[SV Ried]] -->
+|-
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="4" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)<ref>[https://www.2liga.at/2liga/statistik/tore/torschuetzenliste/ Torschützenliste 2. Liga] 2liga.at, abgerufen am 14. August 2019</ref>
+|}
+
+==== Vorlagenliste ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! Vorlagen
+|-
+! rowspan="2" style="text-align:center" | {{0}}1.
+| {{AUT|Nicolas Meister (Fußballspieler)|Nicolas Meister}}
+| [[FC Juniors OÖ]]
+| rowspan="2" style="text-align:center" | 5
+|-
+| {{AUT|Ziel=Mario Stefel}}
+| [[SV Horn]]
+|-
+! rowspan="4" style="text-align:center" | {{0}}3.
+| {{AUT|Ziel=Philipp Hütter}}
+| [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]
+| rowspan="4" style="text-align:center" | 4
+|-
+| {{AUT|Ziel=Philipp Pomer}}
+| [[FC Blau-Weiß Linz]]
+|-
+| {{AUT|Ziel=Marco Sahanek}}
+| [[Floridsdorfer AC]]
+|-
+| {{DEU|Ziel=Karim Adeyemi}}
+| [[FC Liefering]]
+|-
+! rowspan="2" style="text-align:center" | {{0}}7.
+| {{BRA|Ziel=Ronivaldo}}
+| [[SC Austria Lustenau]]
+| rowspan="2" style="text-align:center" | 3
+|-
+| {{AUT|Ziel=Dominik Hackinger}}
+| [[Grazer AK]]
+<!--
+|-
+| {{TUR|Ziel=Okan Aydın}}
+| [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]
+|-
+| {{POL|Ziel=Martin Pajaczkowski}}
+| [[Floridsdorfer AC]]
+|-
+| {{AUT|Ziel=Lukas Skrivanek}}
+| [[Kapfenberger SV]]
+|-
+| {{AUT|Ziel=Thomas Salamon}}
+| [[SV Horn]] -->
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="4" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)<ref>[https://www.2liga.at/2liga/statistik/vorlagen/ Vorlagenliste 2. Liga] 2liga.at, abgerufen am 14. August 2019</ref>
+|}
+
+==== Erhaltene Karten ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! {{Gelb}}
+! {{Gelb-Rot}}
+! {{Rot}}
+! Ges.
+|-
+! style="text-align:center" | {{0}}1.
+| {{CRO|Ziel=Kristijan Makovec}}
+| [[Kapfenberger SV]]
+|style="text-align:center"|5
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|5
+|-
+! style="text-align:center" | {{0}}2.
+| {{HRV|Matija Horvat (Fußballspieler)|Matija Horvat}}
+| [[Kapfenberger SV]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|1
+|style="text-align:center"|4
+|-
+! rowspan="5" style="text-align:center" | {{0}}3.
+| {{AUT|Ziel=Marco Krainz}}
+| [[SC Austria Lustenau]]
+|style="text-align:center"|4
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|4
+|-
+| {{JPN|Ziel=Atsushi Zaizen}}
+| [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+|style="text-align:center"|4
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|4
+|-
+| {{AUT|Burak Yilmaz (Fußballspieler, 1995)|Burak Yilmaz}}
+| [[Floridsdorfer AC]]
+|style="text-align:center"|4
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|4
+|-
+| {{AUT|Michael Lang (Fußballspieler, 1998)|Michael Lang}}
+| [[Kapfenberger SV]]
+|style="text-align:center"|4
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|4
+|-
+| {{AUT|Ziel=Bernhard Fila}}
+| [[Floridsdorfer AC]]
+|style="text-align:center"|4
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|4
+|-
+! style="text-align:center" | {{0}}8.
+| {{AUT|Ziel=Stefan Jonovic}}
+| [[Young Violets Austria Wien|Young Violets]]
+|style="text-align:center"|2
+|style="text-align:center"|0
+|style="text-align:center"|1
+|style="text-align:center"|3
+<!-- |-
+! rowspan="14" style="text-align:center" | {{0}}9.
+| {{AUT|Ziel=Marco Sahanek}}
+| [[Floridsdorfer AC]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Thomas Zündel}}
+| [[Grazer AK]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{SRB|Ziel=Miloš Jovičić}}
+| [[SV Lafnitz]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Alexander Gründler}}
+| [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Balakiyem Takougnadi}}
+| [[SV Ried]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Lukas Hupfauf}}
+| [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Marcel Toth}}
+| [[SV Horn]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Patrick Wimmer}}
+| [[Young Violets Austria Wien|Young Violets]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{MLI|Mohamed Camara (Fußballspieler, 2000)|Mohamed Camara}}
+| [[FC Liefering]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{TUR|Ziel=Turgay Gemicibaşi}}
+| [[FC Blau-Weiß Linz]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Christian Bubalović}}
+| [[Floridsdorfer AC]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+| {{AUT|Ziel=Kevin Brandstätter}}
+| [[SK Vorwärts Steyr]]
+|style="text-align:center"|3
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|3
+|-
+|-
+! rowspan="11" style="text-align:center" | {{0}}4.
+| {{AUT|Ziel=Lukas Malicsek}}
+| [[SV Horn]]
+|style="text-align:center"|2
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|2
+|-
+!style="text-align:center" | {{0}}7.
+| {{AUT|Ziel=Alexander Prass}}
+| [[FC Liefering]]
+|style="text-align:center"|1
+|style="text-align:center"|0
+|style="text-align:center"|1
+|style="text-align:center"|2
+|-
+| {{AUT|Ziel=Daniel Rosenbichler}}
+| [[SV Lafnitz]]
+|style="text-align:center"|2
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|2
+|-
+| {{AUT|Ziel=Nicolas Wimmer}}
+| [[SK Vorwärts Steyr]]
+|style="text-align:center"|2
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|2
+|-
+| {{HUN|Ziel=Daniel Tiefenbach}}
+| [[SC Austria Lustenau]]
+|style="text-align:center"|2
+|style="text-align:center"|0
+|style="text-align:center"|0
+|style="text-align:center"|2 -->
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="7" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)<ref>[https://www.2liga.at/2liga/statistik/karten/aktuelle-sperren/ Kartenliste 2. Liga] 2liga.at, abgerufen am 14. August 2019</ref>
+|}
+
+==== Spiele ohne Gegentor ====
+{| class="wikitable"
+|-
+! Pl.
+! width="200px"| Name
+! width="200px"| Team
+! Spiele<br />gespielt
+! davon ohne<br />Gegentor
+|-
+! rowspan="2" | {{0}}1.
+| {{AUT|Ziel=Belmin Jenciragic}}
+| [[Floridsdorfer AC]]
+| style="text-align:center" | 6
+| style="text-align:center" | 3
+|-
+| {{AUT|Ziel=Patrick Haider}}
+| [[Grazer AK]]
+| style="text-align:center" | 7
+| style="text-align:center" | 3
+|-
+! rowspan="7" | {{0}}3.
+| {{AUT|Ziel=Tobias Lawal}}
+| [[FC Juniors OÖ]]
+| style="text-align:center" | 5
+| style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Lucas Bundschuh}}
+| [[FC Dornbirn 1913]]
+| style="text-align:center" | 6
+| style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Reinhard Großalber}}
+| [[SK Vorwärts Steyr]]
+| style="text-align:center" | 6
+| style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Ammar Helac}}
+| [[FC Blau-Weiß Linz]]
+| style="text-align:center" | 6
+| style="text-align:center" | 2
+|-
+| {{SLO|Ziel=Žan Pelko}}
+| [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]]
+| style="text-align:center" | 6
+| style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Andreas Zingl}}
+| [[SV Lafnitz]]
+| style="text-align:center" | 6
+| style="text-align:center" | 2
+|-
+| {{AUT|Ziel=Johannes Kreidl}}
+| [[SV Ried]]
+| style="text-align:center" | 7
+| style="text-align:center" | 2
+|-
+! rowspan="6" | 10.
+| {{AUT|Ziel=Alexander Eckmayr}}
+| [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+| style="text-align:center" | 1
+| style="text-align:center" | 1
+|-
+| {{AUT|Ziel=Daniel Antosch}}
+| [[FC Liefering]]
+| style="text-align:center" | 6
+| style="text-align:center" | 1
+|-
+| {{DEU|Ziel=Kevin Kunz}}
+| [[SC Austria Lustenau]]
+| style="text-align:center" | 6
+| style="text-align:center" | 1
+|-
+| {{AUT|Ziel=Lukas Wedl}}
+| [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+| style="text-align:center" | 6
+| style="text-align:center" | 1
+|-
+| {{AUT|Ziel=Sebastian Gessl}}
+| [[SV Horn]]
+| style="text-align:center" | 7
+| style="text-align:center" | 1
+|-
+| {{AUT|Ziel=Mirko Kos}}
+| [[Young Violets Austria Wien|Young Violets]]
+| style="text-align:center" | 7
+| style="text-align:center" | 1
+|-
+|- style="background:#FFFFFF;" class="unsortable"
+! colspan="7" style="text-align:right; font-size:smaller;"| Stand: 15. September 2019 (7. Runde)<ref>[https://www.transfermarkt.at/erste-liga/weisseweste/wettbewerb/A2 Ohne Gegentor 2. Liga] transfermarkt.at, abgerufen am 19. August 2019</ref>
+|}
+
+=== Kreuztabelle ===
+
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der mittleren Spalte aufgelistet und die Gastmannschaft in der obersten Reihe. Die Ergebnisse sind immer aus Sicht der Heimmannschaft angegeben.
+
+{| class="wikitable" style="text-align:center;"
+|-
+! 2019/20<br /><small>'''Stand: 15. September 2019 (7. Runde)'''</small>
+! width="25px"| [[Datei:FC Wacker Innsbruck (altes Logo).svg|23px|FC Wacker Innsbruck]]
+! width="25px"| [[Datei:SV Ried.svg|18px|SV Ried]]
+! width="25px"| [[Datei:Blau Weiss.svg|22px|FC Blau-Weiß Linz]]
+! width="25px"| '''JUN'''
+! width="25px"| [[Datei:Kapfenberger SV logo.svg|22px|Kapfenberger SV]]
+! width="25px"| [[Datei:SC Austria Lustenau.svg|16px|SC Austria Lustenau]]
+! width="25px"| [[Datei:LOGO FAC 2018.png|23px|Floridsdorfer AC]]
+! width="25px"| [[Datei:SK Austria Klagenfurt Logo 2019.png|25px|SK Austria Klagenfurt]]
+! width="25px"| [[Datei:FC Liefering Logo.jpg|23px|FC Liefering]]
+! width="25px"| [[Datei:Logo SV Lafnitz.png|23px|SV Lafnitz]]
+! width="25px"| [[Datei:Austria Wien.svg|21px|Young Violets]]
+! width="25px"| [[Datei:SKU Amstetten Logo.png|27px|SKU Amstetten]]
+! width="25px"| [[Datei:SV Horn.svg|21px|SV Horn]]
+! width="25px"| [[Datei:Vereinslogo SK Vorwärts Steyr.svg|25px|SK Vorwärts Steyr]]
+! width="25px"| [[Datei:GAK 1902 Logo.svg|23px|Grazer AK]]
+! width="25px"| [[Datei:FC Dornbirn 1913.svg|23px|FC Dornbirn 1913]]
+|-
+| style="text-align: left;" | [[FC Wacker Innsbruck (2002)|FC Wacker Innsbruck]]
+| class="hintergrundfarbe5" | '''•''' || : || : || 2:1 || : || : || : || : || : || : || : || 2:1 || : || : || 2:0 || 1:0
+|-
+| style="text-align: left;" | [[SV Ried]] || :
+| class="hintergrundfarbe5" | '''2.'''  || : || : || : || : || : || 1:3 || : || : || : || 4:1 || : || : || 1:2 || :
+|-
+| style="text-align: left;" | [[FC Blau-Weiß Linz]] || 1:0 || :
+| class="hintergrundfarbe5" | '''•'''  || : || 1:1 || : || : || : || : || : || 4:3 || : || : || : || : || :
+|-
+| style="text-align: left;" | [[FC Juniors OÖ]] || : || : || 0:5
+| class="hintergrundfarbe5" | '''L'''  || 1:0 || 8:5 || : || : || : || : || : || : || : || 3:1 || : || :
+|-
+| style="text-align: left;" | [[Kapfenberger SV]] || : || 2:3 || : || :
+| class="hintergrundfarbe5" | '''I'''  || : || : || 1:2 || : || 1:2 || : || : || : || : || : || :
+|-
+| style="text-align: left;" | [[SC Austria Lustenau]] || : || 1:1 || : || : || :
+| class="hintergrundfarbe5" | '''G'''  || 1:2 || : || : || : || : || : || : || : || 0:2 || :
+|-
+| style="text-align: left;" | [[Floridsdorfer AC]] || 2:0 || : || : || : || : || :
+| class="hintergrundfarbe5" | '''A'''  || : || 0:0 || 1:1 || : || : || : || : || 2:0 || :
+|-
+| style="text-align: left;" | [[SK Austria Klagenfurt (2007)|SK Austria Klagenfurt]] || : || : || 3:1 || : || : || 3:3 || :
+| class="hintergrundfarbe5" | '''•'''  || 4:4 || : || : || : || : || : || : || :
+|-
+| style="text-align: left;" | [[FC Liefering]] || : || : || : || : || : || : || : || :
+| class="hintergrundfarbe5" | '''2'''  || : || 2:1 || 2:3 || 3:2 || : || : || :
+|-
+| style="text-align: left;" | [[SV Lafnitz]] || : || 0:1 || : || 0:0 || : || : || : || 0:3 || 2:0
+| class="hintergrundfarbe5" | '''0'''  || : || : || : || : || : || :
+|-
+| style="text-align: left;" | [[Young Violets Austria Wien|Young Violets]] || : || 0:0 || : || : || : || 0:2 || : || : || : || 2:3
+| class="hintergrundfarbe5" | '''1''' || : || 1:5 || : || : || :
+|-
+| style="text-align: left;" | [[SKU Amstetten]] || : || : || : || : || : || : || : || : || : || : || 3:2
+| class="hintergrundfarbe5" | '''9'''  || 2:4 || 2:1 || : || 0:2
+|-
+| style="text-align: left;" | [[SV Horn]] || : || : || : || : || 5:1 || : || 2:2 || : || : || : || : || :
+| class="hintergrundfarbe5" | '''/'''  || 1:4 || : || :
+|-
+| style="text-align: left;" | [[SK Vorwärts Steyr]] || 2:0 || : || 0:1 || : || : || : || 1:0 || : || : || : || : || : || :
+| class="hintergrundfarbe5" | '''2'''  || : || 3:2
+|-
+| style="text-align: left;" | [[Grazer AK]] || : || : || 2:0 || 2:1 || : || : || : || : || : || : || : || : || 0:0 || :
+| class="hintergrundfarbe5" | '''0'''  || :
+|-
+| style="text-align: left;" | [[FC Dornbirn 1913]] || : || : || : || : || 6:1 || 1:3 || : || 0:0 || 2:2 || : || : || : || : || : || :
+| class="hintergrundfarbe5" | '''•'''
+|}
+
+=== Spielstätten ===
+Die Spielstätten sind nach Kapazität der Stadien geordnet.
+
+[[Datei:Franz Fekete Stadion Kapfenberg Birdseye.jpg|links|mini|Franz-Fekete-Stadion in Kapfenberg]]
+{| class="wikitable" style="width:60%"
+|- class="hintergrundfarbe5"
+! style="width:20%"| Verein
+! style="width:25%"| Stadion
+! style="width:15%"| Stadt/Ort
+! style="width:10%"| Eröffnung
+! style="width:10%"| Kapazität<ref name="ReferenceA" />
+|-
+| FC Liefering || [[Red Bull Arena (Wals-Siezenheim)|Red Bull Arena]] || [[Wals-Siezenheim]] ||style="text-align:center"| 2003 ||style="text-align:center"| 30.188
+|-
+| SK Austria Klagenfurt || [[Wörthersee Stadion]] || [[Klagenfurt am Wörthersee]] || style="text-align:center" | 2007 || style="text-align:center" | 30.000
+|-
+| FC Blau-Weiß Linz || [[Linzer Stadion]] || [[Linz]] ||style="text-align:center"| 1952 ||style="text-align:center"| 18.000
+|-
+| Young Violets Austria Wien || [[Generali Arena (Wien)|Generali Arena]] || [[Wien]] ||style="text-align:center"| 1925 ||style="text-align:center"| 17.500
+|-
+| FC Wacker Innsbruck || [[Tivoli Stadion Tirol]] || [[Innsbruck]] ||style="text-align:center"| 2000 ||style="text-align:center"| 16.008
+|-
+| Grazer AK || [[Merkur Arena (Graz)|Merkur Arena]] || [[Graz]] ||style="text-align:center"| 1997 ||style="text-align:center"| 15.323
+|-
+| FC Dornbirn 1913 || [[Stadion Birkenwiese]] || [[Dornbirn]] ||style="text-align:center"| 1935 ||style="text-align:center"| 12.000
+|-
+| Kapfenberger SV || [[Franz-Fekete-Stadion]] || [[Kapfenberg]] ||style="text-align:center"| 1950 ||style="text-align:center"| {{0}}9.640
+|-
+| SK Vorwärts Steyr || [[Vorwärts-Stadion]] || [[Steyr]] ||style="text-align:center"| 1986 ||style="text-align:center"| {{0}}9.000
+|-
+| SC Austria Lustenau || [[Planet Pure Stadion]] || [[Lustenau]] ||style="text-align:center"| 1953 ||style="text-align:center"| {{0}}8.800
+|-
+| SV Ried || [[Josko Arena]] || [[Ried im Innkreis]] ||style="text-align:center"| 2003 ||style="text-align:center"| {{0}}7.334
+|-
+| FC Juniors OÖ || [[Waldstadion (Pasching)|Raiffeisen Arena]] || [[Pasching]] ||style="text-align:center"| 1990 ||style="text-align:center"| {{0}}6.009
+|-
+| SV Horn || [[Waldviertler Volksbank Arena]] || [[Horn (Niederösterreich)|Horn]] || style="text-align:center" | 1958 || style="text-align:center" | {{0}}3.500
+|-
+| Floridsdorfer AC || [[FAC-Platz]] || [[Wien]] ||style="text-align:center"| 1933 ||style="text-align:center"| {{0}}3.000
+|-
+| SV Lafnitz || [[Fußballarena Lafnitz]] || [[Lafnitz (Steiermark)|Lafnitz]] ||style="text-align:center"| ||style="text-align:center"| {{0}}3.000
+|-
+| SKU Amstetten || [[Ertl Glas Stadion]] || [[Amstetten]] ||style="text-align:center"| ||style="text-align:center"| {{0}}3.000
+|}
+
+=== Mannschaftskader ===
+{{Hauptartikel|Mannschaftskader der österreichischen 2. Liga 2019/20}}
+
+=== Trainerwechsel ===
+{| class="wikitable"
+|-
+! Datum
+! colspan="2" | Verein !! Tabellenplatz !! Trainer !! Grund !! Nachfolger !! Quelle
+|-
+| style="text-align:center" rowspan="5" | ''Sommerpause''
+| style="text-align:center" | [[Datei:GAK 1902 Logo.svg|23px|Grazer AK]] || [[Grazer AK]]
+| style="text-align:center" rowspan="6" | ''Sommerpause''
+| {{AUT|Ziel=Enrico Kulovits}}
+| Rücktritt
+| {{AUT|Ziel=Alois Hödl}}
+| style="text-align:center" |<ref>[http://grazerak.at/index.php/aktuelles/822-danke-enrico-kulovits Danke, Enrico Kulovits!] grazerak.at, am 20. Mai 2019, abgerufen am 21. Mai 2019</ref><ref>[http://grazerak.at/index.php/aktuelles/824-herzlich-willkommen-alois-hoedl Herzlich willkommen, Alois Hödl!] grazerak.at, am 21. Mai 2019, abgerufen am 25. Mai 2019</ref>
+|-
+| style="text-align:center" | [[Datei:Austria Wien.svg|22px|FK Austria Wien]] || [[FK Austria Wien II|Young Violets]]
+| {{AUT|Ziel=Christoph Glatzer}}
+| Ende der Interimszeit
+| {{AUT|Ziel=Harald Suchard}}
+| style="text-align:center" |<ref>[http://www.fk-austria.at/de/n/news/2019/05/harald-suchard-wird-neuer-trainer-der-young-violets/ Harald Suchard wird neuer Trainer der Young Violets] fk-austria.at, am 31. Mai 2019, abgerufen am 31. Mai 2019</ref>
+|-
+| style="text-align:center" | '''JUN''' || [[FC Juniors OÖ]]
+| {{AUT|Ziel=Andreas Wieland}}
+| Wechsel zum [[LASK]]
+| {{AUT|Ziel=Gerald Scheiblehner}}
+| style="text-align:center" |<ref>[https://www.fcjuniors.at/neues-trainerduo-beim-fc-juniors-ooe/ Neues Trainerduo beim FC Juniors OÖ] fcjuniors.at, am 14. Juni 2019, abgerufen am 14. Juni 2019</ref>
+|-
+| style="text-align:center" | [[Datei:SV Horn.svg|22px|SV Horn]] || [[SV Horn]]
+| {{AUT|Ziel=Kurt Jusits}}
+| Trennung
+| {{AUT|Ziel=Markus Karner}}
+| style="text-align:center" |<ref>[http://www.svhorn.at/verein/news/ab-sofort-gehen-der-sv-horn-und-trainer-kurt-jusits-getrennte-wege Ab sofort gehen der SV Horn und Trainer Kurt Jusits getrennte Wege!] svhorn.at, am 17. Juni 2019, abgerufen am 17. Juni 2019</ref><ref>[http://www.svhorn.at/verein/news/markus-karner-–-neuer-cheftrainer-beim-sv-horn Markus Karner – neuer Cheftrainer beim SV HORN!] svhorn.at, am 18. Juni 2019, abgerufen am 18. Juni 2019</ref>
+|-
+| style="text-align:center" | [[Datei:FC Liefering Logo.jpg|22px|FC Liefering]] || [[FC Liefering]]
+| {{POL|Ziel=Janusz Góra}}
+| Ende der Interimszeit
+| {{GER|Ziel=Michael Feichtenbeiner}}
+| style="text-align:center" |<ref>[http://www.fc-liefering.at/de/fc-liefering/news/saison_2019_20/vorbereitungsstart-unserer-burschen.html Vorbereitungsstart unserer Burschen] fc-liefering.at, am 25. Juni 2019, abgerufen am 25. Juni 2019</ref>
+|-
+| style="text-align:center" | 12. Juli 2019
+| style="text-align:center" | [[Datei:FC Liefering Logo.jpg|22px|FC Liefering]] || FC Liefering
+| {{GER|#}} Michael Feichtenbeiner
+| Wechsel in den Co-Trainer-Posten
+| {{DEN|Ziel=Bo Svensson}}
+| style="text-align:center" |<ref>[http://www.fc-liefering.at/de/fc-liefering/news/saison_2019_20/mit-wunsch-trainerteam-in-die-neue-saison.html Mit Wunsch-Trainerteam in die neue Saison] fc-liefering.at, am 12. Juli 2019, abgerufen am 12. Juli 2019</ref>
+|-
+| style="text-align:center" | 4. September 2019
+| style="text-align:center" rowspan="2" | [[Datei:SC Austria Lustenau.svg|22px|Lustenau]] || style="text-align:center" rowspan="2" | [[SC Austria Lustenau]]
+| style="text-align:center"| 13.
+| {{AUT|Ziel=Gernot Plassnegger}}
+| Rücktritt
+| {{HUN|Ziel=Tamás Tiefenbach}} <small>(interim)</small>
+| style="text-align:center" |<ref>[http://www.austria-lustenau.at/teams/profis/berichte/item/912-einvernehmliche-lösung-mit-trainer-gernot-plassnegger.html Einvernehmliche Lösung mit Trainer Gernot Plassnegger] austria-lustenau.at, am 4. September 2019, abgerufen am 4. September 2019</ref>
+|-
+| 16. September 2019
+| style="text-align:center"| 14.
+| {{HUN|#}} Tamás Tiefenbach
+| Ende der Interimszeit
+| {{AUT|Ziel=Roman Mählich}}
+| style="text-align:center" |<ref>[http://www.austria-lustenau.at/teams/profis/berichte/item/915-roman-mählich-neuer-trainer-bei-der-austria.html Roman Mählich neuer Trainer bei der Austria] austria-lustenau.at, am 16. September 2019, abgerufen am 16. September 2019</ref>
+|}
+
+== Dritte Leistungsstufe – Regionalliga ==
+
+=== Modus ===
+{{Positionskarte+
+ |Österreich Wien
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Ost 2019/20 ([[Wien]])<br /><small>Der Wiener Verein FC Mauerwerk spielt im niederösterreichischen Schwechat</small>
+ |float = right
+ |width = 250
+ |places =
+ {{Positionskarte~|Österreich Wien|lat=48.1292966 |long=16.4687603 |region=AT |position = top|wrap=manual |label=<small>[[FC Mauerwerk|Mauerwerk]]</small>}}
+ {{Positionskarte~|Österreich Wien|lat=48.226033 |long=16.310867 |region=AT |position = top|wrap=manual |label=<small>[[Wiener Sport-Club|WSC]]</small>}}
+ {{Positionskarte~|Österreich Wien|lat=48.201667 |long=16.258056 |region=AT |position = right|wrap=manual |label=<small>[[SK Rapid Wien II|Rapid II]]</small>}}
+ {{Positionskarte~|Österreich Wien|lat=48.163654 |long=16.366132 |region=AT |position = right|wrap=manual |label=<small>[[SC Team Wiener Linien|Team Wiener Linien]]</small>}}
+ {{Positionskarte~|Österreich Wien|lat=48.167705 |long=16.324098 |region=AT |position = top|wrap=manual |label=<small>[[SC Wiener Viktoria|Viktoria]]</small>}}
+}}
+
+{{Positionskarte+
+ |Österreich Niederösterreich
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Ost 2019/20 ([[Niederösterreich]])<br /><small>Der ASK-BSC Bruck/Leitha ist zwar ein niederösterreichischer Verein, trägt seine Spiele aber in [[Bruckneudorf]] im Burgenland aus</small>
+ |float = right
+ |width = 250
+ |places =
+ {{Positionskarte~|Österreich Niederösterreich|lat=47.952635 |long=16.414844 |region=AT |position = left|wrap=manual |label=<small>[[ASK Ebreichsdorf|Ebreichsdorf]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.152222 |long=16.663333 |region=AT |position = top |label=<small>[[FC Marchfeld Donauauen|Marchfeld]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.379348 |long=16.312670 |region=AT |position = top |label=<small>[[SV Leobendorf|Leobendorf]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.342885 |long=16.797354 |region=AT |position = right|wrap=manual |label=<small>[[SV Stripfing|Stripfing]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=47.8217 |long=16.2560 |region=AT |position = bottom|wrap=manual |label=<small>[[SC Wiener Neustadt|Wiener Neustadt]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.021807  |long=16.793579 |region=AT |position = bottom |wrap=manual |label=<small>[[ASK-BSC Bruck/Leitha|Bruck]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.013611 |long=16.295278 |region=AT |position = left |label=<small>[[FCM Traiskirchen|Traiskirchen]]</small>}}
+ {{Positionskarte~|Österreich Niederösterreich|lat=48.0974 |long=16.3114 |region=AT |position = left |label=<small>[[FC Admira Wacker Mödling II|Admira II]]</small>}}
+}}
+
+{{Positionskarte+
+ |Österreich Burgenland
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Ost 2019/20 (Burgenland)
+ |float = right
+ |width = 180
+ |places =
+ {{Positionskarte~|Österreich Burgenland|lat=47.747612 |long=16.481252 |region=AT |position = right|wrap=manual |label=<small>[[ASV Draßburg|Draßburg]]</small>}}
+ {{Positionskarte~|Österreich Burgenland|lat=47.9412232 |long=16.8409931 |region=AT |position = bottom|wrap=manual |label=<small>[[SC Neusiedl am See|Neusiedl]]</small>}}
+ {{Positionskarte~|Österreich Burgenland|lat=47.7394 |long=16.4064 |region=AT |position = bottom|wrap=manual |label=<small>[[SV Mattersburg II|Mattersburg II]]</small>}}
+}}
+
+{{Positionskarte+
+ |Österreich Oberösterreich
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Mitte 2019/20 ([[Oberösterreich]])
+ |float = right
+ |width = 250
+ |places =
+ {{Positionskarte~|Österreich Oberösterreich|lat=48.003056 |long=13.485278 |region=AT |position = left|wrap=manual |label=<small>[[Union Vöcklamarkt|Vöcklamarkt]]</small>}}
+ {{Positionskarte~|Österreich Oberösterreich|lat=48.0885229 |long=13.8730869 |region=AT |position = bottom|wrap=manual |label=<small>[[ATSV Stadl-Paura|Stadl-Paura]]</small>}}
+ {{Positionskarte~|Österreich Oberösterreich|lat= 48.240619 |long=13.3415534 |region=AT |position = top|wrap=manual |label=<small>[[Union Gurten]]</small>}}
+ {{Positionskarte~|Österreich Oberösterreich|lat= 48.173136 |long=14.010250 |region=AT |position = right|wrap=manual |label=<small>[[WSC Hertha Wels|Hertha Wels]]</small>}}
+ {{Positionskarte~|Österreich Oberösterreich|lat=48.2078 |long=13.4783 |region=AT |position = bottom|wrap=manual |label=<small>[[SV Ried II|Ried II]]</small>}}
+ {{Positionskarte~|Österreich Oberösterreich|lat= 48.158748 |long=13.994517 |region=AT |position = left|wrap=manual |label=<small>[[FC Wels]]</small>}}
+}}
+
+{{Positionskarte+
+ |Österreich Steiermark
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Mitte 2019/20 ([[Steiermark]])
+ |float = right
+ |width = 250
+ |places =
+ {{Positionskarte~|Österreich Steiermark|lat=47.103889 |long=15.708333 |region=AT |position = right|wrap=manual |label=<small>[[FC Gleisdorf 09|Gleisdorf]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=46.914167 |long=15.553889 |region=AT |position = left|wrap=manual |label=<small>[[USV Allerheiligen|Allerheiligen]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=46.873007 |long=15.899386 |region=AT |position = top|wrap=manual |label=<small>[[TuS Bad Gleichenberg|Gleichenberg]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=46.966111 |long=15.481667 |region=AT |position = left|wrap=manual |label=<small>[[SC Kalsdorf|Kalsdorf]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=46.8217846 |long=15.2247096 |region=AT |position = left|wrap=manual |label=<small>[[Deutschlandsberger SC|Deutschlandsberg]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=47.2233703 |long=15.6256213 |region=AT |position = left|wrap=manual |label=<small>[[SC Weiz|Weiz]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=47.046125 |long=15.454567 |region=AT |position = left|wrap=manual |label=<small>[[SK Sturm Graz II|Sturm Graz II]]</small>}}
+ {{Positionskarte~|Österreich Steiermark|lat=46.828488 |long=15.977503 |region=AT |position = bottom|wrap=manual |label=<small>[[USV St. Anna|St. Anna]]</small>}}
+}}
+
+{{Positionskarte+
+ |Österreich Kärnten
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Regionalliga Mitte 2019/20 ([[Kärnten]])
+ |float = right
+ |width = 250
+ |places =
+ {{Positionskarte~|Österreich Kärnten|lat=46.8418 |long=14.8407 |region=AT |position = left |wrap=manual |label=<small>[[Wolfsberger AC II|WAC II]]</small>}}
+ {{Positionskarte~|Österreich Kärnten|lat=46.8328 |long=14.8418 |region=AT |position = bottom |wrap=manual |label=<small>[[ATSV Wolfsberg|Wolfsberg]]</small>}}
+
+}}
+<!--{{Positionskarte+
+ |Österreich Salzburg
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Eliteliga West 2019/20 ([[Salzburg]])
+ |float = right
+ |width = 250
+ |places =
+}}
+
+{{Positionskarte+
+ |Österreich Tirol
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Eliteliga West 2019/20 ([[Tirol]])
+ |float = right
+ |width = 250
+ |places =
+}}
+
+{{Positionskarte+
+ |Österreich Vorarlberg
+ |Österreich
+ |maptype = politic
+ |caption = Vereine der Eliteliga West 2019/20 ([[Vorarlberg]])
+ |float = right
+ |width = 180
+ |places =
+}}-->
+
+Die Regionalligen Ost und Mitte bilden im österreichischen Fußball die dritte Leistungsstufe. Die Regionalliga Ost wird von den Vereinen des [[Wiener Fußballverband|Wiener]], [[Niederösterreichischer Fußballverband|Niederösterreichischen]] und [[Burgenländischer Fußballverband|Burgenländischen Fußballverbands]] gebildet. Die Regionalliga Mitte setzt sich aus Vereinen des [[Oberösterreichischer Fußballverband|Oberösterreichischen]], [[Kärntner Fußballverband|Kärntner]] und [[Steirischer Fußballverband|Steirischen Fußballverbands]] zusammen. Nach der Saison 2018/19 wurde die Regionalliga West abgeschafft, ab der Saison 2019/20 bilden jeweils die beiden besten Vereine des [[Salzburger Fußballverband|Salzburger]], [[Tiroler Fußballverband|Tiroler]] und [[Vorarlberger Fußballverband]]s im Frühjahr eine ''Eliteliga'' und spielen dort um den Aufstieg in die 2. Liga.<ref>[https://www.salzburg24.at/sport/fussball/unteraus/rlw-reform-oefb-praesidium-fixiert-eliteliga-62562256 ÖFB-Präsidium fixiert Eliteliga] salzburg24.at, am 15. Dezember 2018, abgerufen am 15. April 2019</ref>
+
+=== Regionalliga Ost ===
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc|Rang=1 |S=5|U=0|N=0|ET=8|GT=2|Verein=[[FC Marchfeld Donauauen]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=2 |S=4|U=2|N=0|ET=12|GT=5|Verein=[[ASK Ebreichsdorf]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=3 |S=4|U=1|N=0|ET=11|GT=3|Verein=[[SK Rapid Wien II]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=4 |S=4|U=0|N=2|ET=18|GT=9|Verein=[[Wiener Sport-Club]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=5 |S=4|U=0|N=2|ET=12|GT=6|Verein=[[SC Neusiedl am See]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=6 |S=3|U=2|N=1|ET=13|GT=4|Verein=[[SV Stripfing]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=7 |S=3|U=1|N=2|ET=9|GT=11|Verein=[[SC Wiener Neustadt]] (A)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=8 |S=3|U=0|N=3|ET=7|GT=12|Verein=[[ASV Draßburg]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=9|S=2|U=1|N=3|ET=10|GT=13|Verein=[[FCM Traiskirchen]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=10|S=2|U=0|N=4|ET=9|GT=13|Verein=[[ASK-BSC Bruck/Leitha]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=11|S=2|U=0|N=4|ET=6|GT=12|Verein=[[SC Team Wiener Linien]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=12|S=2|U=0|N=4|ET=6|GT=16|Verein=[[SV Leobendorf]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=13|S=1|U=1|N=4|ET=9|GT=11|Verein=[[FC Mauerwerk]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=14|S=1|U=1|N=4|ET=6|GT=9|Verein=[[SV Mattersburg II]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=15|S=1|U=1|N=4|ET=6|GT=9|Verein=[[FC Admira Wacker Mödling II]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=16|S=1|U=0|N=5|ET=5|GT=12|Verein=[[SC Wiener Viktoria]] (N)}}
+{{Fußballtabelle/Ende|Spalten=15|Stand =8. September 2019<ref>[http://www.fussballoesterreich.at/foes/Datenservice/BFV-Regionalligen-RegionalligaOst/Tabelle Regionalliga Ost] fussballoesterreich.at, abgerufen am</ref>}}
+{{Farblegende/Kopf|Name=Legende für die Regionalliga Ost}}
+{{Farblegende|#ccffcc|Aufstieg in die [[2. Liga (Österreich)|2. Liga]]}}
+{{Farblegende|#ffcccc|Abstieg in die [[Fußball-Landesliga (Österreich)|Landesliga]]}}
+{|
+|-
+| (N) || Aufsteiger aus den Landesligen der Saison 2018/19
+|-
+| (A) || Absteiger aus der 2. Liga 2018/19
+|}
+
+=== Regionalliga Mitte ===
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc|Rang=1 |S=4|U=0|N=0|ET=12|GT=4 |Verein=[[SK Sturm Graz II]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=2 |S=4|U=0|N=0|ET=8 |GT=1 |Verein=[[USV St. Anna]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=3 |S=3|U=0|N=1|ET=12|GT=7 |Verein=[[Deutschlandsberger SC]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=4 |S=3|U=0|N=1|ET=7 |GT=6 |Verein=[[SC Weiz]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=5 |S=2|U=1|N=1|ET=9 |GT=4 |Verein=[[WSC Hertha Wels]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=6 |S=2|U=1|N=1|ET=5 |GT=3 |Verein=[[SC Kalsdorf]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=7 |S=2|U=0|N=2|ET=9 |GT=8 |Verein=[[TuS Bad Gleichenberg]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=8 |S=2|U=0|N=2|ET=5 |GT=7 |Verein=[[FC Gleisdorf 09]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=9 |S=2|U=0|N=2|ET=8 |GT=11|Verein=[[Union Vöcklamarkt]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=10|S=1|U=2|N=1|ET=6 |GT=6 |Verein=[[ATSV Wolfsberg]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=11|S=1|U=1|N=2|ET=7 |GT=7 |Verein=[[Union Gurten]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=12|S=1|U=0|N=3|ET=9 |GT=9 |Verein=[[Wolfsberger AC II]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=13|S=1|U=0|N=3|ET=5 |GT=8 |Verein=[[USV Allerheiligen]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=14|S=1|U=0|N=3|ET=6 |GT=12|Verein=[[FC Wels]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=15|S=0|U=1|N=3|ET=5 |GT=10|Verein=[[SV Ried II]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc|Rang=16|S=0|U=0|N=4|ET=2 |GT=12|Verein=[[ATSV Stadl-Paura]]}}
+{{Fußballtabelle/Ende|Spalten=15|Stand =17. August 2019<ref>[http://www.fussballoesterreich.at/foes/Datenservice/TFV-Regionalligen-RLM/Tabelle Regionalliga Mitte] fussballoesterreich.at</ref>}}
+{{Farblegende/Kopf|Name=Legende für die Regionalliga Mitte}}
+{{Farblegende|#ccffcc|Aufstieg in die [[2. Liga (Österreich)|2. Liga]]}}
+{{Farblegende|#ffcccc|Abstieg in die jeweilige [[Fußball-Landesliga (Österreich)|Landesliga]]}}
+{|
+| (N) || Aufsteiger aus den Landesligen der Saison 2018/19
+|}
+
+=== Eliteliga West ===
+In der Eliteliga werden im Herbst landesligaintern in Salzburg, Tirol und Vorarlberg jeweils drei Qualifikanten für ein Play-off ermittelt. Jener Landesverband, dessen Verein in der abgelaufenen Spielsaison den letzten Platz belegte, ist nur mit 2 Vereinen vertreten (Dieses Jahr der letzte Landesverband der Regionalliga West, danach der letzte Platz der Eliteliga West). Dieses Play-off wird im Frühjahr 2020 ausgespielt, der Erstplatzierte steigt in die 2. Liga 2020/21 auf. Die restlichen Vereine in den jeweiligen Bundesländern spielen in der jeweiligen Eliteliga um den Verbleib in der Eliteliga.<ref>{{Internetquelle |url=http://www.spox.com/at/sport/fussball/oesterreich/1812/Artikel/regionalliga-west-reform-beschlossen-oefb-fuehrt-eliteliga-ein.html |titel=Regionalliga West: Reform beschlossen - ÖFB führt Eliteliga ein |datum=2018-12-15 |zugriff=2019-03-16}}</ref><ref>{{Internetquelle |url=https://www.ligaportal.at/regionalliga-west/allgemein/12716-im-westen-viel-neues-regionalliga-west-reform-ist-wie-geplant-beschlossen |titel=Im Westen viel Neues: Regionalliga West Reform ist - wie geplant – beschlossen! |datum=2018-12-14 |zugriff=2019-03-16}}</ref>
+
+{{Fußballtabelle/Kopf}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc|Rang=1 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=2 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=3 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=4 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=5 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=6 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=7 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Zeile|Farbe=ffffff|Rang=8 |S=0|U=0|N=0|ET=0|GT=0|Verein=}}
+{{Fußballtabelle/Ende|Spalten=15|Stand =}}
+{{Farblegende/Kopf|Name=Legende für die Eliteliga West}}
+{{Farblegende|#ccffcc|Aufstieg in die [[2. Liga (Österreich)|2. Liga]]}}
+{{Farblegende|#ffffff|Teilnahme an der jeweiligen Eliteliga}}
+
+== Weblinks ==
+* Österreichische Bundesliga: [http://www.bundesliga.at/ ''Offizieller Internetauftritt'']
+* 2. Liga: [http://www.2liga.at/ ''Offizieller Internetauftritt'']
+* [http://www.fussballoesterreich.at/ fussballoesterreich.at]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Österreichische Fußballmeisterschaften
+|Navigationsleiste Europa-Fußball 2020
+}}
+
+[[Kategorie:Fußballsaison 2019/20|Osterreichische Fussballmeisterschaft 2019/20]]
+[[Kategorie:Österreichische Fußballmeisterschaft|#2019/20]]

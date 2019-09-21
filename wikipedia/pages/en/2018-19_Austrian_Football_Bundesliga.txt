@@ -1,0 +1,428 @@
+{{refimprove|date=September 2018}}
+
+{{Infobox football league season
+| competition                = [[Austrian Football Bundesliga|Austrian Bundesliga]]
+| season                     = 2018–19
+| dates                      =
+| winners                    = [[FC Red Bull Salzburg|Red Bull Salzburg]]<br>(13th title)
+| relegated                  =
+| continentalcup1            = [[2019–20 UEFA Champions League|Champions League]]
+| continentalcup1 qualifiers = [[FC Red Bull Salzburg|Red Bull Salzburg]]<!--<br>[[LASK Linz]]-->
+| continentalcup2            = [[2019–20 UEFA Europa League|Europa League]]
+| continentalcup2 qualifiers =
+| league topscorer           =
+| biggest home win           =
+| biggest away win           =
+| highest scoring            =
+| longest wins               =
+| longest unbeaten           =
+| longest winless            =
+| longest losses             =
+| matches                    =
+| total goals                =
+| prevseason                 = [[2017–18 Austrian Football Bundesliga|2017–18]]
+| nextseason                 = [[2019–20 Austrian Football Bundesliga|2019–20]]
+| updated                    =
+}}
+The '''2018–19 [[Austrian Football Bundesliga]]''' is the 107th season of top-tier [[Association football|football]] in [[Austria]]. [[FC Red Bull Salzburg|Red Bull Salzburg]] successfully defended last year's title.
+
+== Changes ==
+=== Structural changes ===
+The league expanded from 10 to 12 teams. A new format was introduced this season, under which the league is split into a championship round and a relegation round after 22 matches.
+
+=== Team changes ===
+[[FC Wacker Innsbruck (2002)|Wacker Innsbruck]] were promoted as champions of the [[2017–18 Austrian Football First League]] and [[TSV Hartberg]] were promoted as runners-up. No teams were relegated as [[SKN St. Pölten|St. Pölten]] won their relegation playoff match.
+
+== Teams ==
+=== Stadia and locations ===
+{{Location map+|Austria|width = 425|float = right|caption = Location of teams in the '''2018–19 Austrian Football Bundesliga'''
+|places =
+{{Location map~|Austria|lat=48.0975|long=16.310833|label=<div style="position:relative;top:10px;right:-20px;">{{nobreak|
+[[FC Admira Wacker Mödling|Admira]]}}</div>}}
+{{Location map~|Austria|lat=48.162306|long=16.386714|label=[[FK Austria Wien|Austria]]|position=right}}
+{{Location map~|Austria|lat=47.046111|long=15.454444|label=[[SK Sturm Graz|Sturm]]|position=left}}
+{{Location map~|Austria|lat=48.293333|long=14.276389|label=[[LASK]]|position=top}}
+{{Location map~|Austria|lat=48.19151|long=15.627257|label=[[SKN St. Pölten|St. Pölten]]}}
+{{Location map~|Austria|lat=47.280556|long=15.97|label=[[TSV Hartberg|Hartberg]]|position=left}}
+{{Location map~|Austria|lat=47.266667|long=11.383333|label=[[FC Wacker Innsbruck (2002)|Wacker]]|position=right}}
+{{Location map~|Austria|lat=48.197778|long=16.265278|label=[[SK Rapid Wien|Rapid]]|position=top}}
+{{Location map~|Austria|lat=47.816264|long=12.998228|label=[[FC Red Bull Salzburg|Salzburg]]|position=right}}
+{{Location map~|Austria|lat=47.739167|long=16.406389|label=[[SV Mattersburg|Mattersburg]]|position=left}}
+{{Location map~|Austria|lat=46.766667|long=14.816667|label=[[Wolfsberger AC|WAC]]|position=left}}
+{{Location map~|Austria|lat=47.353889|long=9.636667|label=[[SC Rheindorf Altach|Altach]]|position=right}}
+}}
+{| class="wikitable sortable"
+!
+Team
+!
+Location
+!
+Venue
+!
+Capacity
+|-
+|[[FC Admira Wacker Mödling|Admira Wacker Mödling]]
+|[[Maria Enzersdorf]]
+|[[Bundesstadion Südstadt|BSFZ-Arena]]
+|10,800
+|-
+|[[FK Austria Wien|Austria Wien]]
+|[[Vienna]]
+|[[Franz Horr Stadium|Generali Arena]]
+|17,500
+|-
+|[[LASK Linz|LASK]]
+|[[Pasching]]
+|[[Waldstadion (Austria)|Waldstadion Pasching]]
+|7,870
+|-
+|[[SK Rapid Wien|Rapid Wien]]
+|Vienna
+|[[Allianz Stadion]]
+|28,000
+|-
+|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|[[Wals-Siezenheim]]
+|[[Stadion Wals-Siezenheim|Red Bull Arena]]
+|30,188
+|-
+|[[SC Rheindorf Altach|Rheindorf Altach]]
+|[[Altach]]
+|[[Stadion Schnabelholz]]
+|8,500
+|-
+|[[SKN St. Pölten|St. Pölten]]
+|[[Sankt Pölten]]
+|[[NV Arena]]
+|8,000
+|-
+|[[SK Sturm Graz|Sturm Graz]]
+|[[Graz]]
+|[[Liebenauer Stadium|Merkur-Arena]]
+|15,323
+|-
+|[[SV Mattersburg]]
+|[[Mattersburg]]
+|[[Pappelstadion]]
+|17,100
+|-
+|[[TSV Hartberg]]
+|[[Hartberg]]
+|Profertil Arena Hartberg
+|4,500
+|-
+|[[FC Wacker Innsbruck (2002)|Wacker Innsbruck]]
+|[[Innsbruck]]
+|[[Tivoli-Neu]]
+|16,000
+|-
+|[[Wolfsberger AC]]
+|[[Wolfsberg, Carinthia|Wolfsberg]]
+|[[Lavanttal-Arena]]
+|7,300
+|}
+
+== Regular season ==
+=== League table ===
+{{2018–19 Austrian Football Bundesliga Regular Season table}}
+
+=== Results ===
+{{#invoke:sports results|main
+| source = [http://www.bundesliga.at/de/tipico-bundesliga/spielplan Austrian Football Bundesliga] {{de icon}}
+| update = complete
+| a_note = yes
+| matches_style = FBR
+| team1= ADM | team2= AWI | team3= LIN | team4= RWI | team5= RBS | team6= ALT | team7= StP |team8= STU | team9= MAT | team10= HAR | team11= INN |team12= WOL
+
+| name_ADM = {{nowrap|[[FC Admira Wacker Mödling|Admira Wacker Mödling]]}}
+| name_AWI = [[FK Austria Wien|Austria Wien]]
+| name_LIN = [[LASK Linz|LASK]]
+| name_RWI = [[SK Rapid Wien|Rapid Wien]]
+| name_RBS = [[FC Red Bull Salzburg|Red Bull Salzburg]]
+| name_ALT = [[SC Rheindorf Altach|Rheindorf Altach]]
+| name_StP = [[SKN St. Pölten|St. Pölten]]
+| name_STU = [[SK Sturm Graz|Sturm Graz]]
+| name_MAT = [[SV Mattersburg|Mattersburg]]
+| name_HAR = [[TSV Hartberg]]
+| name_INN = [[FC Wacker Innsbruck (2002)|Wacker Innsbruck]]
+| name_WOL = [[Wolfsberger AC|Wolfsberger]]
+
+| match_ADM_AWI = 1–2
+| match_ADM_LIN = 0–1
+| match_ADM_RWI = 0–3
+| match_ADM_RBS = 2–2
+| match_ADM_ALT = 2–4
+| match_ADM_StP = 3–2
+| match_ADM_STU = 2–3
+| match_ADM_MAT = 0–0
+| match_ADM_HAR = 2–3
+| match_ADM_INN = 3-0
+| match_ADM_WOL = 0–0
+
+| match_AWI_ADM = 4–0
+| match_AWI_LIN = 0–3
+| match_AWI_RWI = 6–1
+| match_AWI_RBS = 0–2
+| match_AWI_ALT = 1–3
+| match_AWI_StP = 2–0
+| match_AWI_STU = 1–1
+| match_AWI_MAT = 2–1
+| match_AWI_HAR = 4–2
+| match_AWI_INN = 2–1
+| match_AWI_WOL = 2–3
+
+| match_LIN_ADM = 5–1
+| match_LIN_AWI = 2–0
+| match_LIN_RWI = 2–1
+| match_LIN_RBS = 3–3
+| match_LIN_ALT = 1–1
+| match_LIN_StP = 0–0
+| match_LIN_STU = 0–0
+| match_LIN_MAT = 2–1
+| match_LIN_HAR = 3–3
+| match_LIN_INN = 2–0
+| match_LIN_WOL = 2–0
+
+| match_RWI_ADM = 2–0
+| match_RWI_AWI = 0–1
+| match_RWI_LIN = 0–1
+| match_RWI_RBS = 2–0
+| match_RWI_ALT = 1–1
+| match_RWI_StP = 0–2
+| match_RWI_STU = 0–0
+| match_RWI_MAT = 1–0
+| match_RWI_HAR = 2–2
+| match_RWI_INN = 2–1
+| match_RWI_WOL = 0–0
+
+| match_RBS_ADM = 3–1
+| match_RBS_AWI = 2–0
+| match_RBS_LIN = 3–1
+| match_RBS_RWI = 2–1
+| match_RBS_ALT = 1–0
+| match_RBS_StP = 5–1
+| match_RBS_STU = 0–0
+| match_RBS_MAT = 2–1
+| match_RBS_HAR = 2–0
+| match_RBS_INN = 1–1
+| match_RBS_WOL = 3–0
+
+| match_ALT_ADM = 0–1
+| match_ALT_AWI = 2–0
+| match_ALT_LIN = 1–2
+| match_ALT_RWI = 2–2
+| match_ALT_RBS = 2–3
+| match_ALT_StP = 1–2
+| match_ALT_STU = 0–2
+| match_ALT_MAT = 2–3
+| match_ALT_HAR = 6–1
+| match_ALT_INN = 1–2
+| match_ALT_WOL = 0–1
+
+| match_StP_ADM = 0–0
+| match_StP_AWI = 0–0
+| match_StP_LIN = 2–2
+| match_StP_RWI = 0–4
+| match_StP_RBS = 1–3
+| match_StP_ALT = 2–1
+| match_StP_STU = 2–0
+| match_StP_MAT = 0–1
+| match_StP_HAR = 3–0
+| match_StP_INN = 2–0
+| match_StP_WOL = 4–3
+
+| match_STU_ADM = 3–0
+| match_STU_AWI = 1–0
+| match_STU_LIN = 0–3
+| match_STU_RWI = 1–1
+| match_STU_RBS = 1–2
+| match_STU_ALT = 1–1
+| match_STU_StP = 0–0
+| match_STU_MAT = 1–2
+| match_STU_HAR = 3–2
+| match_STU_INN = 1–1
+| match_STU_WOL = 3–0
+
+| match_MAT_ADM = 2–2
+| match_MAT_AWI = 2–1
+| match_MAT_LIN = 1–3
+| match_MAT_RWI = 2–1
+| match_MAT_RBS = 0–2
+| match_MAT_ALT = 1–1
+| match_MAT_StP = 2–0
+| match_MAT_STU = 1–1
+| match_MAT_HAR = 1–2
+| match_MAT_INN = 2–1
+| match_MAT_WOL = 0–6
+
+| match_HAR_ADM = 0–1
+| match_HAR_AWI = 0–1
+| match_HAR_LIN = 0–1
+| match_HAR_RWI = 3–0
+| match_HAR_RBS = 0–4
+| match_HAR_ALT = 2–1
+| match_HAR_StP = 1–1
+| match_HAR_STU = 2–0
+| match_HAR_MAT = 4–2
+| match_HAR_INN = 2–2
+| match_HAR_WOL = 1–1
+
+| match_INN_ADM = 1–3
+| match_INN_AWI = 0–0
+| match_INN_LIN = 1–0
+| match_INN_RWI = 0–1
+| match_INN_RBS = 0–2
+| match_INN_ALT = 1–0
+| match_INN_StP = 0–2
+| match_INN_STU = 2–3
+| match_INN_MAT = 0–1
+| match_INN_HAR = 2–1
+| match_INN_WOL = 0–0
+
+| match_WOL_ADM = 2–2
+| match_WOL_AWI = 1–0
+| match_WOL_LIN = 1–1
+| match_WOL_RWI = 3–1
+| match_WOL_RBS = 1–4
+| match_WOL_ALT = 0-0
+| match_WOL_StP = 1–0
+| match_WOL_STU = 1–1
+| match_WOL_MAT = 2–2
+| match_WOL_HAR = 3–4
+| match_WOL_INN = 3–1
+}}
+
+== Championship round ==
+The points obtained during the regular season were halved (and rounded down) before the start of the playoff. As a result, the teams started with the following points before the playoff: Red Bull Salzburg 27 points, LASK 23, Sturm Graz 15, Wolfsberger AC 15, Austria Wien 15 and St. Pölten 15. The points of Red Bull Salzburg and Sturm Graz were rounded down – in the event of any ties on points at the end of the playoffs, a half point will be added for these teams.
+{{2018–19 Austrian Football Bundesliga Championship round table}}
+
+== Relegation round ==
+The points obtained during the regular season were halved (and rounded down) before the start of the playoff. As a result, the teams started with the following points before the playoff: Mattersburg 14 points, Rapid Wien 13, Hartberg 13, Admira Wacker Mödling 10, Rheindorf Altach 9 and Wacker Innsbruck 8. The points of Mattersburg, Rapid Wien, Admira Wacker Mödling and Wacker Innsbruck were rounded down – in the event of any ties on points at the end of the playoffs, a half point will be added for these teams.
+{{2018–19 Austrian Football Bundesliga Relegation round table}}
+
+== Europa League play-offs ==
+The winner and the runner-up of the relegation round will play a one-legged play-off semi-final match against each other. The winner will play a two-legged final against the fifth-placed team from the championship round to determine the third Europa League participant.
+
+=== Semi-final ===
+{{football box
+|date       = 28 May 2019
+|time       = 19:00
+|team1      = [[SK Rapid Wien|Rapid Wien]]
+|score      = 2–0
+|report     = [https://www.bundesliga.at/de/spielbericht/bl1/20182019/33/1-51689/info/ Report]
+|team2      = [[SV Mattersburg|Mattersburg]]
+|goals1     =
+*[[Christoph Knasmüllner|Knasmüllner]] {{goal|8}}
+*[[Aliou Badji|Badji]] {{goal|13}}
+|goals2     =
+|stadium    = [[Allianz Stadion]], [[Vienna]]
+|attendance = 10,600
+|referee    = Rene Eisner
+}}
+
+=== Final ===
+{{Football box
+|date       = 30 May 2019
+|time       = 17:00
+|team1      = [[SK Rapid Wien|Rapid Wien]]
+|score      = 1–2
+|report     = https://www.bundesliga.at/de/spielbericht/bl1/20182019/34/1-51690/info/
+|team2      = [[SK Sturm Graz|Sturm Graz]]
+|goals1     =
+*[[Stefan Schwab|Schwab]] {{goal|60}}
+|goals2     =
+*[[Jakob Jantscher|Jantscher]] {{goal|69|pen.}}
+*[[Leo Greiml|Greiml]] {{goal|78|o.g.}}
+|stadium    = [[Allianz Stadion]], [[Vienna]]
+|attendance = 15,800
+|referee    = Oliver Drachta
+}}
+{{Football box
+|date       = 2 June 2019
+|time       = 17:00
+|team1      = [[SK Sturm Graz|Sturm Graz]]
+|score      = 0–1
+|report     = https://www.bundesliga.at/de/spielbericht/bl1/20182019/34/1-51690/info/
+|team2      = [[SK Rapid Wien|Rapid Wien]]
+|goals1     =
+|goals2     = [[Lucas Spendelhofer|Spendelhofer]] {{goal|43|o.g.}}
+|stadium    = [[Liebenauer Stadium|Merkur-Arena]], [[Graz]]
+|attendance = 9,315
+|referee    = Robert Schorgenhofer
+}}
+
+== Statistics ==
+=== Top scorers ===
+{{updated|27 May 2019}}
+{| class="wikitable" style="text-align:center"
+|-
+!Rank
+!Player
+!Club
+!Goals
+|-
+|1
+|align="left"|{{flagicon|ISR}} [[Moanes Dabour]]
+|align="left"|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|20
+|-
+|2
+|align="left"|{{flagicon|BRA}} [[João Victor (footballer, born 1994)|João Victor Santos Sá]]
+|align="left"|[[LASK Linz|LASK]]
+|13
+|-
+|3
+|align="left"|{{flagicon|AUT}} [[Michael Liendl]]
+|align="left"|[[Wolfsberger AC]]
+|11
+|-
+|4
+|align="left"|{{flagicon|BIH}} [[Smail Prevljak]]
+|align="left"|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|10
+|-
+|5
+|align="left"|{{flagicon|AUT}} [[René Gartler]]
+|align="left"|[[SKN St. Pölten|St. Pölten]]
+|9
+|-
+|rowspan=2|6
+|align="left"|{{flagicon|AUT}} [[Alexander Grünwald]]
+|align="left"|[[FK Austria Wien]]
+|rowspan=2|8
+|-
+|align="left"|{{flagicon|AUT}} [[Hannes Wolf (footballer)|Hannes Wolf]]
+|align="left"|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|-
+|rowspan=3|8
+|align="left"|{{flagicon|NOR}} [[Fredrik Gulbrandsen]]
+|align="left"|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|rowspan=3|7
+|-
+|align="left"|{{flagicon|AUT}} [[Christoph Monschein]]
+|align="left"|[[FK Austria Wien]]
+|-
+|align="left"|{{flagicon|SVN}} [[Rajko Rep]]
+|align="left"|[[TSV Hartberg]]
+|-
+|}
+
+==See also==
+* [[2018–19 Austrian Football Second League]]
+* [[2018–19 Austrian Cup]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{Official website|1=http://www.bundesliga.at/index.php?id=433}} {{de icon}}
+
+{{Austrian Bundesliga seasons}}
+{{2018–19 in Austrian football}}
+{{2018–19 in European football (UEFA)}}
+
+{{DEFAULTSORT:2018-19 Austrian Football Bundesliga}}
+[[Category:Austrian Football Bundesliga seasons]]
+[[Category:2018–19 in European association football leagues|Aus]]
+[[Category:2018–19 in Austrian football|1]]
+[[Category:Current association football seasons|Austria]]

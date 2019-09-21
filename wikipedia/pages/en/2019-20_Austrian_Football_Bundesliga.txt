@@ -1,0 +1,304 @@
+{{short description|The 108th season of top-tier football in Austria}}
+{{unreferenced|date=June 2019}}
+
+{{Infobox football league season
+| competition                = [[Austrian Football Bundesliga|Austrian Bundesliga]]
+| season                     = 2019–20
+| dates                      = 
+| continentalcup1            = 
+| continentalcup1 qualifiers = 
+| continentalcup2            = 
+| continentalcup2 qualifiers = 
+| league topscorer           = 
+| biggest home win           = Red Bull Salzburg 5 - 2 Wolfsberger
+| biggest away win           = Mattersberg 1 - 5 Austria Wien
+| highest scoring            = Red Bull Salzburg 5 - 2 Wolfsberger
+| longest wins               = Red Bull Salzburg (3 games)
+| longest unbeaten           = Red Bull Salzburg (3 games) 
+| longest winless            =  
+| longest losses             = Admira (3 games) 
+| matches                    = 18
+| total goals                = 60
+| prevseason                 = [[2018–19 Austrian Football Bundesliga|2018–19]]
+| nextseason                 = ''2020–21'' <!--[[2020–21 Austrian Football Bundesliga|2020–21]]-->
+| updated                    = 
+}}
+The '''2019–20 [[Austrian Football Bundesliga]] ''', also known as '''Tipico Bundesliga''' for sponsorship reasons, will be the 108th season of top-tier [[association football|football]] in [[Austria]]. [[FC Red Bull Salzburg|Red Bull Salzburg]] are the defending champions.
+
+==Teams==
+===Changes===
+[[FC Wacker Innsbruck (2002)|Wacker Innsbruck]] were relegated after just one season. [[WSG Wattens|WSG Tirol]] was promoted as champions of the [[2018–19 Austrian Football Second League]] for the first time since [[1970–71 Austrian football championship|1970–71]] season.
+
+===Stadia and locations===
+{{Location map+|Austria|width = 425|float = right|caption = Location of teams in the '''2019–20 Austrian Football Bundesliga''' 
+|places = 
+{{Location map~|Austria|lat=48.0975|long=16.310833|label=<div style="position:relative;top:10px;right:-20px;">{{nobreak|
+[[FC Admira Wacker Mödling|Admira]]}}</div>}}
+{{Location map~|Austria|lat=48.162306|long=16.386714|label=[[FK Austria Wien|Austria]]|position=right}}
+{{Location map~|Austria|lat=47.046111|long=15.454444|label=[[SK Sturm Graz|Graz]]|position=left}}
+{{Location map~|Austria|lat=48.293333|long=14.276389|label=[[LASK]]|position=left}}
+{{Location map~|Austria|lat=48.19151|long=15.627257|label=[[SKN St. Pölten|St. Pölten]]}}
+{{Location map~|Austria|lat=47.280556|long=15.97|label=[[TSV Hartberg|Hartberg]]|position=left}}
+{{Location map~|Austria|lat=47.255833|long=11.410833|label=[[WSG Wattens|WSG Tirol]]|position=right}}
+{{Location map~|Austria|lat=48.197778|long=16.265278|label=[[SK Rapid Wien|Rapid]]|position=top}}
+{{Location map~|Austria|lat=47.816264|long=12.998228|label=[[FC Red Bull Salzburg|Salzburg]]|position=right}}
+{{Location map~|Austria|lat=47.739167|long=16.406389|label=[[SV Mattersburg|Mattersburg]]|position=bottom}}
+{{Location map~|Austria|lat=46.766667|long=14.816667|label=[[Wolfsberger AC|Wolfsberg]]|position=}}
+{{Location map~|Austria|lat=47.353889|long=9.636667|label=[[SC Rheindorf Altach|Altach]]|position=right}}
+}}
+{| class="wikitable sortable"
+!
+Team
+!
+Location
+!
+Venue
+!
+Capacity
+|-
+|[[FC Admira Wacker Mödling|Admira Wacker Mödling]]
+|[[Maria Enzersdorf]]
+|[[Bundesstadion Südstadt|BSFZ-Arena]]
+|10,800
+|-
+|[[FK Austria Wien|Austria Wien]]
+|[[Vienna]]
+|[[Franz Horr Stadium|Generali Arena]]
+|17,500
+|-
+|[[LASK]]
+|[[Linz]]
+|[[Waldstadion (Austria)|Waldstadion Pasching]]
+|7,870
+|-
+|[[SK Rapid Wien|Rapid Wien]]
+|Vienna
+|[[Allianz Stadion]]
+|28,000
+|-
+|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|[[Wals-Siezenheim]]
+|[[Red Bull Arena (Salzburg)|Red Bull Arena]]
+|30,188
+|-
+|[[SC Rheindorf Altach|Rheindorf Altach]]
+|[[Altach]]
+|[[Stadion Schnabelholz]]
+|8,500
+|-
+|[[SKN St. Pölten|St. Pölten]] 
+|[[Sankt Pölten]] 
+|[[NV Arena]] 
+|8,000
+|-
+|[[SK Sturm Graz|Sturm Graz]]
+|[[Graz]]
+|[[UPC-Arena|Merkur-Arena]]
+|15,323
+|-
+|[[SV Mattersburg]]
+|[[Mattersburg]]
+|[[Pappelstadion]]
+|17,100
+|-
+|[[TSV Hartberg]] 
+|[[Hartberg]] 
+|Stadion Hartberg 
+|4,500
+|-
+|[[Wolfsberger AC]]
+|[[Wolfsberg, Carinthia|Wolfsberg]]
+|[[Lavanttal-Arena]]
+|7,300
+|-
+|[[WSG Wattens|WSG Tirol]]
+|[[Innsbruck]]
+|[[Tivoli-Neu]] 
+|16,008
+|}
+
+== Regular season ==
+===League table===
+{{2019–20 Austrian Football Bundesliga Regular Season table}}
+
+===Results===
+{{#invoke:sports results|main
+| source = [https://int.soccerway.com/national/austria/bundesliga/20192020/regular-season/r54164/ soccerway.com]
+| update = 15 September 2019
+| a_note = yes
+| matches_style = FBR
+| team1= ADM | team2= AWI | team3= ALT | team4= HAR | team5= LIN | team6= MAT | team7= RWI |team8= RBS | team9= STP | team10= STU | team11= WAT |team12= WOL
+
+| name_ADM = [[FC Admira Wacker Mödling|Admira Wacker Mödling]]
+| name_AWI = [[FK Austria Wien|Austria Wien]]
+| name_ALT = [[SC Rheindorf Altach|Rheindorf Altach]]
+| name_HAR = [[TSV Hartberg|Hartberg]]
+| name_LIN = [[LASK]]
+| name_MAT = [[SV Mattersburg|Mattersburg]]
+| name_RWI = [[SK Rapid Wien|Rapid Wien]]
+| name_RBS = [[FC Red Bull Salzburg|Red Bull Salzburg]]
+| name_STP = [[SKN St. Pölten|St. Pölten]]
+| name_STU = [[SK Sturm Graz|Sturm Graz]]
+| name_WAT = [[WSG Wattens|Wattens]]
+| name_WOL = [[Wolfsberger AC]]
+
+| match_ADM_AWI = 
+| match_ADM_ALT = 
+| match_ADM_HAR = 
+| match_ADM_LIN = 0–1
+| match_ADM_MAT = 1–3
+| match_ADM_RWI = 
+| match_ADM_RBS = 
+| match_ADM_STP = 
+| match_ADM_STU = 
+| match_ADM_WAT = 
+| match_ADM_WOL = 0–3
+
+| match_AWI_ADM = 1–1
+| match_AWI_ALT = 
+| match_AWI_HAR = 
+| match_AWI_LIN = 0–3
+| match_AWI_MAT = 
+| match_AWI_RWI = 1–3
+| match_AWI_RBS = 
+| match_AWI_STP = 
+| match_AWI_STU = 
+| match_AWI_WAT = 
+| match_AWI_WOL = 
+
+| match_ALT_ADM = 
+| match_ALT_AWI = 
+| match_ALT_HAR = 3–3
+| match_ALT_LIN = 
+| match_ALT_MAT = 
+| match_ALT_RWI = 
+| match_ALT_RBS = 
+| match_ALT_STP = 6–0
+| match_ALT_STU = 1–2
+| match_ALT_WAT = 3–2
+| match_ALT_WOL = 
+
+| match_HAR_ADM = 4–1
+| match_HAR_AWI = 2–2
+| match_HAR_ALT = 
+| match_HAR_LIN = 
+| match_HAR_MAT = 
+| match_HAR_RWI = 
+| match_HAR_RBS = 
+| match_HAR_STP = 
+| match_HAR_STU = 1–0
+| match_HAR_WAT = 
+| match_HAR_WOL = 
+
+| match_LIN_ADM = 
+| match_LIN_AWI = 
+| match_LIN_ALT = 2–0
+| match_LIN_HAR = 
+| match_LIN_MAT = 
+| match_LIN_RWI = 
+| match_LIN_RBS = 
+| match_LIN_STP = 
+| match_LIN_STU = 
+| match_LIN_WAT = 1–1
+| match_LIN_WOL = 0–1
+
+| match_MAT_ADM = 
+| match_MAT_AWI = 1–5
+| match_MAT_ALT = 
+| match_MAT_HAR = 2–1
+| match_MAT_LIN = 
+| match_MAT_RWI = 
+| match_MAT_RBS = 
+| match_MAT_STP = 0–1
+| match_MAT_STU = 
+| match_MAT_WAT = 0–2
+| match_MAT_WOL = 
+
+| match_RWI_ADM = 5–0
+| match_RWI_AWI = 
+| match_RWI_ALT = 2–1
+| match_RWI_HAR = 
+| match_RWI_LIN = 1–2
+| match_RWI_MAT = 
+| match_RWI_RBS = 0–2
+| match_RWI_STP = 
+| match_RWI_STU = 
+| match_RWI_WAT = 
+| match_RWI_WOL = 
+
+| match_RBS_ADM = 5–0
+| match_RBS_AWI = 
+| match_RBS_ALT = 
+| match_RBS_HAR = 7–2
+| match_RBS_LIN = 
+| match_RBS_MAT = 4–1
+| match_RBS_RWI = 
+| match_RBS_STP = 
+| match_RBS_STU = 
+| match_RBS_WAT = 
+| match_RBS_WOL = 5–2
+
+| match_STP_ADM = 
+| match_STP_AWI = 
+| match_STP_ALT = 
+| match_STP_HAR = 1–3
+| match_STP_LIN = 
+| match_STP_MAT = 
+| match_STP_RWI = 2–2
+| match_STP_RBS = 0–6
+| match_STP_STU = 
+| match_STP_WAT = 
+| match_STP_WOL = 
+
+| match_STU_ADM = 
+| match_STU_AWI = 
+| match_STU_ALT = 
+| match_STU_HAR = 
+| match_STU_LIN = 0–2
+| match_STU_MAT = 
+| match_STU_RWI = 0–1
+| match_STU_RBS = 
+| match_STU_STP = 3–0
+| match_STU_WAT = 2–0
+| match_STU_WOL = 
+
+| match_WAT_ADM = 
+| match_WAT_AWI = 3–1
+| match_WAT_ALT = 
+| match_WAT_HAR = 
+| match_WAT_LIN = 
+| match_WAT_MAT = 
+| match_WAT_RWI = 
+| match_WAT_RBS = 1–5
+| match_WAT_STP = 1–1
+| match_WAT_STU = 
+| match_WAT_WOL = 
+
+| match_WOL_ADM = 
+| match_WOL_AWI = 3–0
+| match_WOL_ALT = 5–2
+| match_WOL_HAR = 
+| match_WOL_LIN = 
+| match_WOL_MAT = 5–0
+| match_WOL_RWI = 
+| match_WOL_RBS = 
+| match_WOL_STP = 
+| match_WOL_STU = 0–1
+| match_WOL_WAT = 
+}}
+
+==References==
+{{reflist}}
+
+==External links==
+* {{Official website|1=http://www.bundesliga.at/index.php?id=433}} {{de icon}}
+
+{{Austrian Bundesliga seasons}}
+{{2019–20 in Austrian football}}
+{{2019–20 in European football (UEFA)}}
+
+{{DEFAULTSORT:2019-20 Austrian Football Bundesliga}}
+[[Category:Austrian Football Bundesliga seasons]]
+[[Category:2019–20 in European association football leagues|Aus]]
+[[Category:2019–20 in Austrian football|1]]
+[[Category:Current association football seasons|Austria]]
