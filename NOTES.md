@@ -1,6 +1,49 @@
 # Notes
 
-## Todos
+##  Todos
+
+wikiscript table
+
+```
+fix:
+allow/strip  leading pipe | in column and value cell text
+ allowed "hangover" from "empty" attribute  (just leading pipe )
+ add to regex - why? why not?
+
+&nbsp;    convert to space in value !!!
+e.g.  Yokohama F.&nbsp;Marinos
+
+remove <small></small> tag
+e.g. Cairo <small>([[Abbassia]])</small>
+```
+
+fix empty cell text  - empty cell converted to / added as empty string
+```
+{| class="wikitable"
+|-
+! style="width:200px;"|Club
+! style="width:150px;"|City
+|-
+|[[Inter Godfather's]]||
+|-
+|[[Korean Juniors]]||
+|-
+|[[Wild Bill's]]||
+|-
+|[[Korean Seniors]]||
+|-
+|[[Marianas Pacific (MP) United]]||
+|-
+|[[Matansa Football Club]]||
+|-
+|[[Tan Holdings Football Club]]||
+|-
+|[[Independents (Young Guns) Football Club]]||
+|}
+```
+
+
+## More Todos
 
 - [ ] remove CountryUtils.key from sportdb-text - no longer used? - why? why not?
 
@@ -43,7 +86,7 @@ andd https://en.wikipedia.org/wiki/Argentine_Primera_Divisi%C3%B3n#History
 
 
 
-##  Kicker 
+##  Kicker
 
 Try double check / download match schedule
 
@@ -79,4 +122,3 @@ https://www.kicker.de/1-bundesliga/spieltag/2019-20/-1               ## de
        <div class="kick__v100-gameCell__team__name">RB Salzburg</div>
        <div class="kick__v100-gameCell__team__shortname">Salzburg</div>
 ```
-

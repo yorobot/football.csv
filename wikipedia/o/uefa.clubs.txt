@@ -1,0 +1,155 @@
+= Albania =
+
+# table rows: 11, headers: 5  ! Team !! Home city !! Stadium !! Capacity !! 2017–18 season
+
+Flamurtari Vlorë | Flamurtari                        # Vlorë
+FC Kamza | Kamza                                     # Kamëz
+KS Kastrioti | Kastrioti                             # Krujë
+FK Kukësi | Kukësi                                   # Kukës
+KF Laçi | Laçi                                       # Laç
+Luftëtari Gjirokastër FC | Luftëtari                 # Gjirokastër
+FK Partizani Tirana | Partizani                      # Tirana
+KF Skënderbeu Korçë | Skënderbeu                     # Korçë
+KF Teuta Durrës | Teuta                              # Durrës
+KF Tirana | Tirana                                   # Tirana
+
+
+= Andorra =
+
+# table rows: 8, headers: 2  ! Team !! Home town
+
+FC Encamp | Encamp                                   # Encamp
+UE Engordany | Engordany                             # Escaldes-Engordany
+FC Santa Coloma                                      # Santa Coloma
+Inter Club d'Escaldes                                # Escaldes-Engordany
+FC Lusitanos | Lusitanos                             # Andorra la Vella
+FC Ordino                                            # Ordino
+UE Sant Julià | Sant Julià                           # Sant Julià de Lòria
+UE Santa Coloma                                      # Santa Coloma
+
+
+= Armenia =
+
+# table rows: 9, headers: 4  ! Club !! Location !! Stadium !! Capacity
+
+FC Alashkert | Alashkert                             # Yerevan (Shengavit)
+FC Ararat Yerevan | Ararat                           # Yerevan (Shengavit)
+FC Ararat-Armenia | Ararat-Armenia                   # Yerevan (Kentron)
+Artsakh FC | Artsakh                                 # Yerevan (Shengavit)
+FC Banants | Banants                                 # Yerevan (Malatia-Sebastia)
+FC Gandzasar Kapan | Gandzasar                       # Yerevan (Avan)
+Lori FC | Lori                                       # Vanadzor
+FC Pyunik | Pyunik                                   # Yerevan (Kentron)
+Shirak SC | Shirak                                   # Gyumri
+
+
+= Azerbaijan =
+
+# table rows: 8, headers: 4  ! Team !! Location !! Venue !! Capacity
+
+Gabala FK | Gabala                                   # Qabala
+Keşla FK | Keşla                                     # Keshla
+Neftçi PFK | Neftchi Baku                            # Baku
+Qarabağ FK | Qarabağ                                 # Agdam
+Sabah FK | Sabah                                     # Baku
+Sabail FK | Sabail                                   # Səbail
+Sumgayit FK | Sumgayit                               # Sumqayit
+Zira FK | Zira                                       # Zira
+
+
+= Belarus =
+
+= Bosnia and Herzegovina =
+
+= Bulgaria =
+
+= Croatia =
+
+= Cyprus =
+
+= Czech Republic =
+
+= Denmark =
+
+= England =
+
+= Estonia =
+
+= Faroe Islands =
+
+= Finland =
+
+= France =
+
+= Georgia =
+
+= Germany =
+
+= Gibraltar =
+
+= Greece =
+
+= Hungary =
+
+= Iceland =
+
+= Israel =
+
+= Italy =
+
+= Kazakhstan =
+
+= Kosovo =
+
+= Latvia =
+
+= Lithuania =
+
+= Luxembourg =
+
+= Malta =
+
+= Moldova =
+
+= Montenegro =
+
+= Netherlands =
+
+= North Macedonia =
+
+= Northern Ireland =
+
+= Norway =
+
+= Poland =
+
+= Portugal =
+
+= Ireland =
+
+= Romania =
+
+= Russia =
+
+= San Marino =
+
+= Scotland =
+
+= Serbia =
+
+= Slovakia =
+
+= Slovenia =
+
+= Spain =
+
+= Sweden =
+
+= Switzerland =
+
+= Turkey =
+
+= Ukraine =
+
+= Wales =
+

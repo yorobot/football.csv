@@ -1,5 +1,7 @@
 = Austria =
 
+# rows: 12, headers: 4  ! Team !! Location !! Venue !! Capacity
+
 FC Admira Wacker Mödling | Admira Wacker Mödling     # Maria Enzersdorf
 FK Austria Wien | Austria Wien                       # Vienna
 LASK Linz | LASK                                     # Pasching
@@ -13,6 +15,8 @@ TSV Hartberg                                         # Hartberg
 FC Wacker Innsbruck (2002) | Wacker Innsbruck        # Innsbruck
 Wolfsberger AC                                       # Wolfsberg
 
+
+# rows: 16, headers: 4  ! Club Name !! City !! Stadium !! Capacity
 
 SC Austria Lustenau | Austria Lustenau               # Lustenau
 FC Blau-Weiß Linz                                    # Linz

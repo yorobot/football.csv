@@ -11,9 +11,13 @@ def convert_club( value )
     ## todo use WikiLink struct!!!! - why? why not?
     buf
   else
-    puts "** !!! ERROR !!! - wiki link expected in club cell:"
+    ## puts "** !!! ERROR !!! - wiki link expected in club cell:"
+    ## pp value
+    ## exit 1
+    puts "** !!! WARN !!! - wiki link expected in club cell:"
     pp value
-    exit 1
+
+    value
   end
 end
 
@@ -22,11 +26,16 @@ def convert_wiki_club( value )
   if link
     link
   else
-    puts "** !!! ERROR !!! - wiki link expected in club cell:"
+    ## puts "** !!! ERROR !!! - wiki link expected in club cell:"
+    ## pp value
+    ## exit 1
+    puts "** !!! WARN !!! - wiki link expected in club cell:"
     pp value
-    exit 1
+
+    value
   end
 end
+
 
 def convert_city( value )
   ## replace ALL wiki links with title (or link)
@@ -38,20 +47,82 @@ end
 
 
 
+
+def find_header_index( headers_by_index, *candidates )
+   index = nil
+   ## pp candidates
+   candidates.each do |candidate|
+     index = headers_by_index[ candidate.downcase ]  ## note: normalize name
+     break  if index
+   end
+   index   ## return nil if not found
+end
+
 def convert_club_table( rows )
-  ## assume club, city, ...
    out = []
 
    headers = rows[0]
    data    = rows[1..-1]
+
+   ### check headers if the match know club table columns
+   headers_by_index = {}
+   headers.each_with_index do |col,i|
+     headers_by_index[col.downcase] = i     ## note: normalize name
+   end
+   pp headers_by_index
+
+   club_index = find_header_index( headers_by_index, 'Club',
+                                                     'Club Name',
+                                                     'Team' )
+   city_index = find_header_index( headers_by_index, 'City',
+                                                     'City/State',
+                                                     'City (Commune)',
+                                                     'Location',
+                                                     'Governorate,  City',
+                                                     'Stadium Location',  # for us clubs/teams or use 'Region' ??
+                                                     'Home City',
+                                                     'Home Town' )
+
+
+   if club_index.nil?
+     puts "** !!! ERROR !!! - cannot find club column/index in table (header row):"
+     pp headers
+     pp data
+     exit 1
+   end
+
+   if city_index.nil?
+     puts "** !!! ERROR !!! - cannot find city/locaction column/index in table (header row):"
+     pp headers
+     pp data
+     exit 1
+   end
+
+
    data.each do |row|
+     next        if row.empty?   ## skip empty line
+
      ## pp row
-     club = convert_club( row[0] )
-     city = convert_city( row[1] )
+     club = row[ club_index ]
+     city = row[ city_index ]
+
+     city = ""    if city.nil?
+
+     if club.nil? || city.nil?
+       puts "** !!! ERORR !!! - nil value not allowed/expected for now; sorry"
+       pp row
+       pp data
+       exit 1
+     end
+
+     club = convert_club( club )
+     city = convert_city( city )
+
      out << [club, city]
    end
    out
 end
+
 
 
 def convert_club_table_wiki( rows )
@@ -59,10 +130,27 @@ def convert_club_table_wiki( rows )
    out = []  ##  note: returns array of page link names (NOT an array of rows)
 
    headers = rows[0]
+   ### check headers if the match know club table columns
+   headers_by_index = {}
+   headers.each_with_index do |col,i|
+     headers_by_index[i] = col.downcase    ## note: normalize name
+   end
+
+   club_index = find_header_index( headers_by_index, 'Club',
+                                                     'Club Name',
+                                                     'Team' )
+
+   if club_index.nil?
+     puts "** !!! ERROR !!! - cannot find club column/index in table (header row):"
+     pp headers
+     exit 1
+   end
+
+
    data    = rows[1..-1]
    data.each do |row|
      ## pp row
-     club = convert_wiki_club( row[0] )
+     club = convert_wiki_club( row[ club_index ] )
      out << club
    end
    out

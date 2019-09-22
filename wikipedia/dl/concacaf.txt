@@ -220,9 +220,6 @@
 
 
 
-__END__
-
-
 ==British Virgin Islands==
 
 {| class="wikitable"
@@ -1221,16 +1218,6 @@ As of 2017 season:
 
 ==Suriname==
 {{main|List of football clubs in Suriname}}
-{{location map+ | Suriname
-|width=261
-|caption=Location of the teams
-|places=
- {{location map~ | Suriname |lat=5.7833 |long=-55.1833 |label=[[Livorno, Suriname|Livorno]]|position=bottom}}
- {{location map~ | Suriname |lat=5.800 |long=-55.1500 |label=[[Meerzorg]]|position=right}}
- {{location map~ | Suriname |lat=5.6166 |long=-54.4000 |label=[[Moengo]]|position=bottom}}
- {{location map~ | Suriname |lat=5.8520 |long=-55.2038 |label=[[Paramaribo]]|position=left}}
- {{location map~ | Suriname |lat=4.2203 |long=-55.4499 |label=[[Botopasi]]|position=left}}
-}}
 *Country: {{flagicon|SUR}} [[Football in Suriname|Suriname]]
 *Football association: [[Surinaamse Voetbal Bond]]
 *Top-level league: [[SVB Topklasse|Topklasse]]

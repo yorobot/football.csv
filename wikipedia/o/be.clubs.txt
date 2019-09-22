@@ -1,5 +1,7 @@
 = Belgium =
 
+# rows: 16, headers: 4  ! Club !! Location !! Venue !! Capacity
+
 R.S.C. Anderlecht | Anderlecht                       # Anderlecht
 Royal Antwerp F.C. | Antwerp                         # Antwerp
 Cercle Brugge K.S.V. | Cercle Brugge                 # Bruges
@@ -17,6 +19,8 @@ Standard Liège                                       # Liège
 Waasland-Beveren                                     # Beveren
 S.V. Zulte Waregem | Zulte Waregem                   # Waregem
 
+
+# rows: 8, headers: 7  ! Club !! City !! First season of  current spell at second level !! Coming from !! 2017-18 result !! Stadium !! Capacity
 
 FCO Beerschot Wilrijk                                # Antwerp
 Lommel SK                                            # Lommel

@@ -1,0 +1,16 @@
+= New Zealand =
+
+# table rows: 10, headers: 7  ! Team !! Location !! Stadium !! Capacity !! Manager !! Kit manufacturer !! Shirt sponsor
+
+Auckland City FC | Auckland City                     # Auckland
+Canterbury United FC | Canterbury United             # Christchurch
+Eastern Suburbs AFC | Eastern Suburbs                # Auckland
+Hamilton Wanderers AFC | Hamilton Wanderers          # Hamilton
+Hawke's Bay United FC | Hawke's Bay United           # Napier
+Southern United FC | Southern United                 # Dunedin
+Tasman United                                        # Nelson
+Team Wellington                                      # Wellington
+Waitakere United                                     # Auckland
+Wellington Phoenix FC Reserves | Wellington Phoenix   # Wellington
+
+

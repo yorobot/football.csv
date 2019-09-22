@@ -1,5 +1,7 @@
 = Argentina =
 
+# table rows: 24, headers: 2  ! Club !! City
+
 Aldosivi                                             # Mar del Plata
 Argentinos Juniors                                   # Buenos Aires
 Arsenal de Sarandí | Arsenal                         # Sarandí
@@ -28,6 +30,8 @@ Club Atlético Vélez Sarsfield | Vélez Sarsfield      # Buenos Aires
 
 = Bolivia =
 
+# table rows: 14, headers: 2  ! Club !! City
+
 Club Always Ready | Always Ready                     # La Paz
 Club Aurora | Aurora                                 # Cochabamba
 Club Blooming | Blooming                             # Santa Cruz
@@ -45,6 +49,8 @@ The Strongest                                        # La Paz
 
 
 = Brazil =
+
+# table rows: 20, headers: 2  ! Club !! City
 
 Club Athletico Paranaense | Athletico Paranaense     # Curitiba
 Clube Atlético Mineiro | Atlético Mineiro            # Belo Horizonte
@@ -70,6 +76,8 @@ CR Vasco da Gama | Vasco da Gama                     # Rio de Janeiro
 
 = Chile =
 
+# table rows: 16, headers: 2  ! Club !! City (Commune)
+
 Audax Italiano                                       # Santiago (La Florida)
 C.D. Cobresal | Cobresal                             # El Salvador
 Colo-Colo                                            # Santiago (Macul)
@@ -89,6 +97,8 @@ C.D. Universidad de Concepción | Universidad de Concepción   # Concepción
 
 
 = Colombia =
+
+# table rows: 20, headers: 2  ! Club !! City
 
 Alianza Petrolera F.C. | Alianza Petrolera           # Barrancabermeja
 América de Cali                                      # Cali
@@ -114,6 +124,8 @@ Unión Magdalena                                      # Santa Marta
 
 = Ecuador =
 
+# table rows: 16, headers: 2  ! Club !! City
+
 América de Quito                                     # Quito
 S.D. Aucas | Aucas                                   # Quito
 Barcelona S.C. | Barcelona                           # Guayaquil
@@ -134,6 +146,8 @@ C.D. Universidad Católica del Ecuador | Universidad Católica   # Quito
 
 = Paraguay =
 
+# table rows: 12, headers: 2  ! Club !! City
+
 Cerro Porteño                                        # Asunción
 Deportivo Capiatá                                    # Capiatá
 Deportivo Santaní                                    # San Estanislao
@@ -149,6 +163,8 @@ Sportivo Luqueño                                     # Luque
 
 
 = Peru =
+
+# table rows: 18, headers: 2  ! Club !! City
 
 Alianza Lima                                         # Lima
 Alianza Universidad                                  # Huánuco
@@ -172,6 +188,8 @@ Universidad Técnica de Cajamarca | UTC               # Cajamarca
 
 = Uruguay =
 
+# table rows: 16, headers: 2  ! Club !! City
+
 Boston River                                         # Montevideo
 C.A. Cerro | Cerro                                   # Montevideo
 Cerro Largo F.C. | Cerro Largo                       # Melo
@@ -191,6 +209,8 @@ Club Atlético River Plate (Uruguay) | River Plate    # Montevideo
 
 
 = Venezuela =
+
+# table rows: 20, headers: 2  ! Club !! City
 
 Academia Puerto Cabello                              # Puerto Cabello
 Aragua F.C. | Aragua                                 # Maracay

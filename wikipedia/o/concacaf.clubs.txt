@@ -1,0 +1,726 @@
+= Anguilla =
+
+# table rows: 8, headers: 2  ! Club !! City
+
+ALHCS Spartan FC | ALHCS Spartan                     # The Valley, Anguilla
+Diamond FC | Diamond                                 # The Valley, Anguilla
+Docks United FC | Docks United                       # The Valley, Anguilla
+Enforcers FC | Enforcers                             # 
+Kicks United FC | Kicks United                       # The Valley, Anguilla
+Roaring Lions FC | Roaring Lions                     # Stoney Ground, Anguilla
+Salsa Ballers FC | Ballers                           # George Hill, Anguilla
+Up Rising FC | Up Rising                             # 
+
+
+= Antigua and Barbuda =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Villa Lions                                          # St. John's
+Five Islands F.C. | Five Islands                     # Five Islands
+Grenades F.C.                                        # St. John's
+Hoppers FC                                           # St. John's
+Liberta                                              # St. John's
+Old Road FC                                          # Old Road
+Parham FC                                            # Parham
+Sap FC                                               # St. John's
+Swetes                                               # Swetes
+Tryum                                                # St. John's
+
+
+= Aruba =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+SV Britannia                                         # Piedra Plat
+SV Bubali                                            # Noord
+SV Dakota                                            # Oranjestad/Dakota
+SV Deportivo Nacional                                # Palm Beach
+SV Estrella                                          # Santa Cruz
+SV Independiente Caravel                             # Angochi
+SC United                                            # Noord
+SV La Fama                                           # Savaneta
+SV Racing Club Aruba                                 # Oranjestad
+SV Brazil Juniors                                    # San Nicolas
+
+
+= Bahamas =
+
+# table rows: 11, headers: 2  ! Club !! City
+
+Baha Juniors FC                                      # Nassau, New Providence
+Bears FC                                             # Nassau, New Providence
+Breezes FC                                           # Nassau, New Providence
+Cavalier FC                                          # Nassau, New Providence
+Dynamos FC (Bahamas) | Dynamos FC                    # Coral Harbour, New Providence
+Future Stars FC                                      # Nassau, New Providence
+Kickers                                              # Nassau, New Providence
+Renegades FC                                         # Nassau, New Providence
+U.B.                                                 # Nassau, New Providence
+United FC (Bahamas) | United FC                      # Nassau, New Providence
+Western Warriors FC                                  # Nassau, New Providence
+
+
+= Barbados =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Weymouth Wales FC                                    # Carrington, Saint Philip
+U.W.I BlackBirds                                     # 
+Waterford Compton                                    # 
+Paradise FC (Barbados) | Paradise                    # Christ Church, Christ Church
+Belfield Soccer Club                                 # 
+Rendezvous FC                                        # 
+Brittons Hill United FC                              # Bridgetown, Saint Michael
+Ellerton Football Club                               # 
+Barbados Defense Force SC | BDFSP                    # Bridgetown, Saint Michael
+Notre Dame SC | Notre Dame                           # Bridgetown, Saint Michael
+
+
+= Belize =
+
+# table rows: 6, headers: 2  ! Club !! City
+
+Belize Defence Force FC | BDF FC                     # San Ignacio, Cayo
+Belmopan Bandits S.C.                                # Belmopan, Cayo
+Placencia Assassins FC                               # 
+Police United, Belize | Police Utd.                  # Belize City, Belize
+Wagiya FC                                            # 
+Verdes FC                                            # Benque, Cayo
+
+
+= Bermuda =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Boulevard Blazers                                    # Pembroke
+Dandy Town Hornets                                   # Pembroke
+Devonshire Colts                                     # Devonshire
+Devonshire Cougars                                   # Devonshire
+Flanagan's Onions                                    # Hamilton
+North Village Rams                                   # Hamilton
+PHC Zebras                                           # Southampton
+Robin Hood FC | RHFC                                 # Pembroke
+Somerset Trojans                                     # Sandys
+Somerset Eagles                                      # Somerset
+
+
+# table rows: 1, headers: 2  ! Club !! City
+
+Bermuda Hogges                                       # Hamilton
+
+
+= Bonaire =
+
+# table rows: 9, headers: 2  ! Club !! City
+
+Arriba Perú                                          # Kralendijk
+Atlétiko Flamingo                                    # Nikiboko
+Atlétiko Tera Corá                                   # Tera Corá
+SV Estrellas                                         # Noord Salina
+SV Juventus                                          # Antriol
+Real Rincon                                          # Rincon
+SV Uruguay                                           # Antriol
+Vespo | SV Vespo                                     # Rincon
+SV Vitesse                                           # Antriol
+
+
+= British Virgin Islands =
+
+# table rows: 9, headers: 2  ! Club !! City
+
+FC Sea Argo                                          # 
+Islanders FC                                         # Road Town, Tortola
+Old Madrid                                           # Spanish Town, Virgin Gorda
+One Love United FC | One Love United                 # Road Town, Tortola
+Panthers FC                                          # Road Town, Tortola
+Rebels FC                                            # Road Town, Tortola
+Sugar Boys                                           # Road Town, Tortola
+Virgin Gorda United | VGU                            # Spanish Town, Virgin Gorda
+Wolues FC                                            # Road Town, Tortola
+
+
+= Canada =
+
+# table rows: 7, headers: 2  ! Club !! City
+
+Cavalry FC                                           # Calgary, Alberta
+FC Edmonton                                          # Edmonton, Alberta
+Forge FC                                             # Hamilton, Ontario
+HFX Wanderers FC                                     # Halifax, Nova Scotia
+Valour FC                                            # Winnipeg, Manitoba
+Pacific FC                                           # Vancouver Island, British Columbia
+York 9 FC                                            # York Region, Ontario
+
+
+# table rows: 3, headers: 3  ! Club !! League !! City
+
+Montreal Impact                                      # Montreal, Quebec
+Toronto FC                                           # Toronto, Ontario
+Vancouver Whitecaps FC                               # Vancouver, British Columbia
+
+
+= Cayman Islands =
+
+# table rows: 8, headers: 2  ! Club !! City
+
+Academy SC                                           # George Town
+Bodden Town FC                                       # Bodden Town, Bodden Town
+Cayman Athletic SC                                   # George Town
+Elite SC                                             # West Bay
+Latinos GC                                           # George Town
+Roma United | Roma United SC                         # George Town
+Scholars International | Scholars International FC   # West Bay
+Sunset FC                                            # George Town
+
+
+= Costa Rica =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+LD Alajuelense | Alajuelense                         # Alajuela, Alajuela
+Asociación Deportiva Carmelita | Carmelita           # Santa Bárbara, Heredia
+CS Cartaginés | Cartaginés                           # Cartago, Cartago
+Municipal Grecia | Grecia                            # Grecia, Alajuela
+Guadalupe FC | Guadalupe                             # Guadalupe, San Jose
+Club Sport Herediano | Herediano                     # Heredia, Heredia
+A.D. Municipal Liberia | Liberia                     # Liberia, Guanacaste
+Limón F.C. | Limón                                   # Limón, Limón
+Municipal Pérez Zeledón | Pérez Zeledón              # San Isidro de El General, San José
+Santos de Guápiles | Santos                          # Guápiles, Limón
+Deportivo Saprissa                                   # San Juan de Tibás, San José
+Club de Futbol Universidad de Costa Rica | Universidad de Costa Rica   # Montes de Oca, San José
+
+
+= Cuba =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+FC Camagüey                                          # Camagüey, Camagüey
+FC Isla de La Juventud                               # , Nueva Gerona
+FC La Habana                                         # , Guanajay
+FC Ciego de Ávila                                    # Ciego de Ávila, Ciego de Ávila
+FC Cienfuegos                                        # Cienfuegos, Cienfuegos
+CF Granma                                            # Bayamo, Granma
+FC Guantánamo                                        # Guantánamo, Guantánamo
+FC Las Tunas                                         # Victoria de Las Tunas, Las Tunas
+FC Santiago de Cuba                                  # 
+FC Villa Clara                                       # Santa Clara, Villa Clara
+
+
+= Curaçao =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+CRKSV Jong Holland                                   # Willemstad
+CSD Barber                                           # Barber
+CVV Inter Willemstad                                 # Willemstad
+RKSV Centro Dominguito                               # Dominguito, Willemstad
+RKSV Scherpenheuvel                                  # Skerpene, Willemstad
+Hubentut Fortuna | SV Hubentut Fortuna               # Seru Fortuna
+S.V. S.U.B.T. | SV SUBT                              # Kintjan
+SV VESTA                                             # Willemstad
+SV Victory Boys                                      # Zapateer
+UNDEBA                                               # Bandabou
+
+
+= Dominica =
+
+# table rows: 9, headers: 2  ! Club !! City
+
+Wacky Rollers Sports Club | Wacky Rollers SC         # Roseau, Saint George
+Centre Bath Estate FC | Caribbean Cool Bath Estate   # Pointe Michel, Saint Luke
+4D Bath Estate FC | 4D Bath Estate                   # Roseau, Saint George
+Harlem United FC | Harris Paints Harlem United       # Newtown, Saint George
+RC Grand Bazaar Dublanc | Dublanc FC                 # Dublanc, Saint Peter
+Sagicor South East United | Sagicor SE Utd.          # La Plaine, Saint Patrick
+Kensboro United FC | RIC Kensboro United             # Roseau, Saint George
+Quick Zone Icons | Aicons FC                         # Delices, Saint Patrick
+Northern Concrete & Steel Bombers | Bombers FC       # Portsmouth, Saint John
+
+
+= Dominican Republic =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Atlantico FC                                         # Puerto Plata
+Atletico San Cristobal                               # San Critobal
+Atletico Vega Real                                   # La Vega, Dominican Republic
+Bauger FC                                            # Santo Domingo, Distrito Nacional
+Cibao FC                                             # Santiago de los Caballeros
+Club Atletico Pantoja                                # Santo Domingo, Distrito Nacional
+Club Barcelona Atlético | Barcelona FC               # Santo Domingo, Distrito Nacional
+Delfines del Este FC                                 # La Romana
+Moca FC                                              # Moca
+O&M FC                                               # Santo Domingo, Distrito Nacional
+
+
+= El Salvador =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+C.D. Águila | Águila                                 # San Miguel, San Miguel
+Alianza F.C. | Alianza                               # San Salvador, San Salvador
+Audaz                                                # 
+C.D. Chalatenango | Chalatenango                     # 
+C.D. Dragón | Dragón                                 # San Miguel, San Miguel
+C.D. FAS | FAS                                       # Santa Ana, Santa Ana
+C.D. Luis Ángel Firpo | Firpo                        # Usulután, Usulután
+A.D. Isidro Metapán | Isidro Metapán                 # Metapán, Santa Ana
+Municipal Limeno                                     # 
+Pasaquina                                            # 
+Santa Tecla F.C. | Santa Tecla                       # Santa Tecla, La Libertad
+Sonsonate                                            # 
+
+
+= French Guiana =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+ASC Agouado                                          # Apatou, Saint-Laurent-du-Maroni
+Cosma Foot                                           # Saint Laurent du Maroni
+Club Sportif et Culturel de Cayenne | CSCC           # Cayenne, Cayenne
+Etoile Matoury                                       # Matoury
+ASU Grand Santi                                      # Mana, Cayenne
+ASC Le Geldar                                        # Kourou, Cayenne
+US Macouria                                          # Macouria, Cayenne
+US Matoury                                           # Macouria, Cayenne
+Olympique Cayene                                     # Cayenne, Cayenne
+ASC Rémiré                                           # Rémiré-Montjoly, Cayenne
+Kourou FC                                            # Kourou
+SC Kouroucien                                        # Kourou
+
+
+= Grenada =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+ASOMS Paradise | Paradise                            # Grenville, Grenada, Saint Andrew
+Boca Juniors Saint Patrick FC | Boca Juniors         # Sauteurs, Saint Patrick
+Carib Hurricane FC | Carib Hurricane                 # Victoria, Saint Mark's
+Chantimelle FC | Chantimelle                         # Chantimelle, Saint Patrick
+Fontenoy United                                      # Saint George's, Saint George
+Gouyave FC                                           # Gouyave
+Mount Rich                                           # 
+St. John's Sports SC                                 # Gouyave,
+Hard Rock FC | Hard Rock                             # Plains, Saint Patrick
+Queens Park Rangers (Grenada football club) | Anchor Queens Park Rangers   # River Road, Saint George
+
+
+= Guadeloupe =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Association de la Jeunesse Sportive Saintoise | AJSS   # Terre-de-Haut, Basse-Terre
+Amical Club Marie Galante | Amical MG                # Capesterre-Belle-Eau, Basse-Terre
+Etolie de Carmel                                     # Basse-Terre, Basse-Terre
+L'Etoile de Morne-à-l'Eau | Etoile MAL               # Morne-à-l'Eau, Pointe-à-Pitre
+Evolucas (Lamentin) | Evolucas                       # Petit-Bourg, Basse-Terre
+Jeunesse Evolution                                   # Les Abymes, Pointe-à-Pitre
+ASG Juventus de Sainte-Anne | Juventus SA            # Saint-Anne, Pointe-à-Pitre
+CS Moulien                                           # Le Moule, Pointe-à-Pitre
+Phare du Petit-Canal | Phare                         # Petit Canal, Pointe-à-Pitre
+Racing Club de Basse-Terre | Racing Club             # Basse-Terre, Basse-Terre
+Siroco Les Abymes | Siroco                           # Le Gosier, Pointe-à-Pitre
+Stade Lamentinois                                    # Lamentin, Basse-Terre
+USR Sainte-Rose | USR                                # Sainte-Rose, Basse-Terre
+JS Vieux-Habitants | JSVH                            # Vieux-Habitants, Basse-Terre
+
+
+= Guatemala =
+
+# table rows: 13, headers: 2  ! Club !! City
+
+Antigua GFC                                          # Antigua, Guatemala Sacatepequez
+Coban Imperial                                       # Coban, Altaverapz
+C.S.D. Comunicaciones | Comunicaciones               # Guatemala City, Guatemala
+Deportivo Guastatoya                                 # Guastatoya, El Progreso
+Deportivo Malacateco | Malacateco                    # Malacatán, San Marcos
+Deportivo Marquense | Marquense                      # San Marcos, San Marcos
+C.S.D. Municipal | Municipal                         # Guatemala City, Guatemala
+Deportivo Petapa                                     # San Miguel Petapa, Guatemala
+Deportivo Sanarate FC                                # Sanarate, Guatemala
+Deportivo Siquinala                                  # Siquinala, Escuintla
+CD Suchitepéquez | Suchitepéquez                     # Mazatenango, Suchitepéquez
+Universidad de San Carlos (Guatemalan football club) | Universidad de San Carlos   # Guatemala City, Guatemala
+Club Xelajú MC | Xelajú                              # Quetzaltenango, Quetzaltenango
+
+
+= Guyana =
+
+# table rows: 11, headers: 2  ! Club !! City
+
+Alpha United FC                                      # Georgetown, Demerara-Mahaica
+Ann's Grove                                          # 
+Buxton United                                        # Enmore, Demerara-Mahaica
+Cougars                                              # 
+Den Amstel                                           # Bartica, Essequibo Islands-West Demerara
+Fruta Conquerors                                     # 
+Guyana Defence                                       # 
+Milerock FC                                          # Linden, Upper Demerara-Berbice
+NA United                                            # 
+Victoria Kings FC                                    # Enmore, Demerara-Mahaica
+Western Tigers FC                                    # Providence, Demerara-Mahaica
+
+
+= Haiti =
+
+# table rows: 16, headers: 3  ! Club !! City !! Stadium
+
+América des Cayes                                    # Les Cayes, Sud
+Baltimore SC                                         # Saint-Marc, Artibonite
+AS Capoise                                           # Cap-Haïtien, Nord
+Cavaly AS                                            # Léogâne, Ouest
+AS Mirebalais                                        # Mirebalais, Centre
+Don Bosco FC                                         # Pétion-Ville, Ouest
+Eclair AC                                            # Gonaives,
+Football Inter Club Association | FICA               # Cap-Haïtien, Nord
+FC Juventus des Cayes                                # Les Cayes
+Ouanaminthe FC                                       # Ouanaminthe, Nord-Est
+AS Petit-Goâve | Petit-Goâve FC                      # Petit-Goâve, Ouest
+Racing CH | Racing Club Haïtien                      # Port-au-Prince, Ouest
+Racing FC (Gonaïves) | Racing FC                     # Gonaïves, Artibonite
+Real Hope FA                                         # Cap-Haitien, Haiti
+AS Sud-Est                                           # Sud-Est,
+Tempête FC                                           # Saint-Marc, Artibonite
+
+
+= Honduras =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+C.D. Honduras Progreso | Honduras Progreso           # El Progreso, Yoro
+Juticalpa F.C. | Juticalpa                           # Juticalpa, Olancho
+C.D. Marathón | Marathón                             # San Pedro Sula, Cortés
+F.C. Motagua | Motagua                               # {{nowrap|Tegucigalpa, Francisco Morazán}}
+Club Deportivo Olimpia | Olimpia                     # Tegucigalpa, Francisco Morazán
+Platense F.C. | Platense                             # Puerto Cortés, Cortés
+Real C.D. España | Real España                       # San Pedro Sula, Cortés
+C.D. Real Sociedad | Real Sociedad                   # Tocoa, Colón
+Lobos UPNFM                                          # Tegucigalpa, Francisco Morazán
+C.D.S. Vida | Vida                                   # La Ceiba, Atlántida
+
+
+= Jamaica =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Arnett Gardens F.C. | Arnett Gardens                 # Kingston
+Boys' Town F.C. | Boys Town                          # Kingston
+Harbour View F.C. | Harbour View                     # Kingston
+Humble Lions F.C. | Humble Lions                     # May Pen, Clarendon
+Jamalco                                              # Clarendon
+Maverley Hughenden                                   # Kingston
+Montego Bay United F.C. | Montego Bay United         # Montego Bay, Saint James
+Portmore United F.C. | Portmore United               # Portmore, Saint Catherine
+Reno F.C.                                            # Savanna-la-Mar, Westmoreland
+Tivoli Gardens F.C. | Tivoli Gardens                 # Kingston
+UWI F.C.                                             # Kingston
+Waterhouse F.C. | Waterhouse                         # Kingston
+
+
+= Martinique =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Aiglon du Lamentin | Aiglon                          # Le Lamentin, Fort-de-France
+Club Colonial (Fort-de-France) | Colonial            # Fort-de-France, Fort-de-France
+Club Franciscain | Franciscain                       # Le François, Le Marin
+CS Case-Pilote                                       # Case-Pilote, Saint-Pierre
+Emulation (Schoelcher) | Emulation                   # Schœlcher, Fort-de-France
+Excelsior (Schoelcher) | Excelsior                   # Schœlcher, Fort-de-France
+Essor-Préchotain                                     # Le Prêcheur, Saint-Pierre
+Golden Star (Fort-de-France) | Golden Star           # Fort-de-France, Fort-de-France
+Golden Lion de Saint-Joseph | Golden Lion            # Saint-Joseph, Fort-de-France
+Good Luck (football club) | Good Luck                # Fort-de-France, Fort-de-France
+New Star de Ducos                                    # 
+RC Rivière-Pilote                                    # Rivière-Pilote, Le Marin
+US Marinoise                                         # Le Marin, Le Marin
+AS Samaritaine                                       # Ste.-Marie
+
+
+= Mexico =
+
+# table rows: 18, headers: 2  ! Club !! City
+
+Club América | América                               # Mexico City
+Club Atlas | Atlas                                   # Guadalajara, Jalisco
+Lobos BUAP | BUAP                                    # Puebla, Puebla
+Cruz Azul                                            # Mexico City
+C.D. Guadalajara | Guadalajara                       # Guadalajara, Jalisco
+Club León | León                                     # León, Guanajuato
+C.F. Monterrey | Monterrey                           # Monterrey, Nuevo León
+Monarcas Morelia | Morelia                           # Morelia, Michoacán
+Club Necaxa | Necaxa                                 # Aguascalientes, Aguascalientes
+C.F. Pachuca | Pachuca                               # Pachuca, Hidalgo
+Puebla F.C. | Puebla                                 # Puebla, Puebla
+Querétaro FC | Querétaro                             # Querétaro, Querétaro
+Santos Laguna                                        # Torreón, Coahuila
+Club Tijuana | Tijuana                               # Tijuana, Baja California
+Club Toluca | Toluca                                 # Toluca, State of Mexico
+Tigres UANL                                          # San Nicolás, Nuevo León
+Club Universidad Nacional | Pumas UNAM               # Mexico City
+Tiburones Rojos de Veracruz | Veracruz               # Veracruz, Veracruz
+
+
+= Montserrat =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Ideal SC                                             # Brades
+Montserrat Secondary School                          # Brades
+Montserrat Volcano Observatory Tremors               # Brades
+Royal Montserrat Police Force                        # Brades
+Salem FC                                             # Salem
+FC Elberton                                          # Davy Hill
+Jolly Rodger FC                                      # Saint John's
+FC Saint John's                                      # Saint John's
+Little Bay FC                                        # Little Bay
+Kinsale FC                                           # Kinsale
+PC United                                            # Plymouth
+Bata Falcons                                         # Plymouth
+
+
+= Nicaragua =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Chinandega FC | Chinandega                           # Chinandega
+Diriangén FC | Diriangén                             # Diriamba
+Deportivo Ocotal                                     # Ocotal
+Juventus Managua | Juventus                          # Managua
+Managua F.C. | Managua                               # Managua
+Real Estelí F.C. | Real Estelí                       # Estelí
+Real Madriz                                          # Somoto
+FC San Francisco Masachapa | San Francisco Masachapa   # Nandasmo
+UNAN Managua                                         # Managua
+C.D. Walter Ferretti | Walter Ferretti               # Managua
+
+
+= Panama =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Alianza F.C. (Panama) | Alianza                      # Chilibre, Coclé
+Club Deportivo Árabe Unido | Árabe Unido             # Colón, Colón
+SD Atletico nacional (Panama) | Atletico Nacional    # Panama City, Panama
+Atletico Veraguense (Panama) | Atletico Veraguense   # Santiago de Veraguas, veraguas
+Chorrillo F.C. | Chorrillo                           # Panama City, Panamá
+Club Deportivo Plaza Amador | Plaza Amador           # Panama City, Panamá
+San Francisco F.C. | San Francisco                   # La Chorrera, Panamá
+Santa Gema F.C. (Panama) | Santa Gema                # Arraijan
+Sporting San Miguelito                               # San Miguelito, Panamá
+Tauro F.C. | Tauro                                   # Panama City, Panamá
+
+
+= Puerto Rico =
+
+# table rows: 15, headers: 2  ! Club !! City
+
+Academia Quintana FC                                 # Hiram Bithorn Stadiium, San Juan, Puerto Rico
+Atleticos de Levittown FC                            # Francisco Montaner Stadium, Levittown
+Ballista FC                                          # Complejo Deportivo Jose Salaman Estrella, Luquillo
+Puerto Rico Bayamon                                  # Estadio Juan Ramon Loubriel, Bayamon
+Caguas Sporting FC                                   # Complejo Deportivo Angel O. Berrios de la Ciudad Criolla, Caguas
+CD Barbosa                                           # San Juan
+Don Bosco FC                                         # San Juan
+Fenix FC                                             # Complejo Deportivo Tortuguero, Vega Baja
+Mayaguez FC                                          # Mayaguez Athletics Stadium, Mayaguez
+Caguas Huracán                                       # Parque Yldefonso Solá Morales, Caguas
+Leal Arecibo FC                                      # Arecibo
+Metropolitan FA                                      # Estadio Metropolitano del Reparto, San Juan, Puerto Rico
+Puerto Rico Sol                                      # Fajardo Soccer Stadium, Fajardo, Puerto Rico
+SPDP Spartans                                        # San Juan
+Yabuco Isabela FC                                    # Yabucoa, Puerto Rico
+
+
+# table rows: 7, headers: 2  ! Club !! City
+
+Atléticos de Levittown FC | Atlético Levittown       # Levittown, Toa Baja
+Bayamón FC                                           # Bayamón
+Criollos de Caguas FC | Criollos                     # Caguas
+Gladiadores FC | EFBR                                # Caguas
+Club de Fútbol Fraigcomar | Fraigcomar               # San Juan
+Guayama FC                                           # Guayama
+Sevilla FC Puerto Rico | Sevilla                     # Juncos
+
+
+# table rows: 1, headers: 2  ! Club !! City
+
+Puerto Rico FC                                       # Juan Ramón Loubriel Stadium, Bayamón
+
+
+= Saint Kitts and Nevis =
+
+# table rows: 9, headers: 2  ! Club !! City
+
+Cayon Rockets                                        # Cayon, Saint Mary Cayon
+Conaree United                                       # Conaree, Saint Peter Basseterre
+Garden Hotspurs                                      # Basseterre, Saint George Basseterre
+Mantab United                                        # Tabernacle, Saint John Capisterre
+Newtown United FC | Newtown United                   # Basseterre, Saint George Basseterre
+St Paul's United                                     # Basseterre, Saint George Basseterre
+St. Peter's Strikers FC | St Peter's                 # St Peter's, Saint Peter Basseterre
+St Thomas Trinity Strikers                           # Old Road Town, Saint Thomas
+Village Superstars                                   # Basseterre, Saint George Basseterre
+
+
+= Saint Lucia =
+
+# table rows: 11, headers: 2  ! Club !! City
+
+Big Players FC                                       # Marchand, Castries
+Canaries Community Club                              # Canaries, Anse-la-Raye
+Challengers FC                                       # Soufrière, Soufrière
+Lancers FC                                           # Castries, Castries
+Northern United All Stars                            # Gros Islet, Gros Islet
+NYAH Youth Footballers                               # Central Castries, Castries
+Pakis FC                                             # Micoud, Micoud
+Roots Alley Ballers                                  # Vieux Fort, Vieux Fort
+Rovers United FC                                     # Castries, Castries
+Square United                                        # Vieux Fort, Vieux Fort
+Vempers Sports Athletic Dramatic Club | VSADC        # Castries, Castries
+
+
+= Saint-Martin =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+FC Concordia                                         # Concordia, Saint-Martin
+ST Martin Mixte stars                                # Cheuvrise, Saint-Martin
+Junior Stars (Saint-Martin football club) | Junior Stars   # Marigot, Saint-Martin
+Juventus de Saint-Martin                             # Marigot, Saint-Martin
+FC Marigot                                           # Marigot, Saint-Martin
+Orleans Attackers                                    # Orleans, Saint-Martin
+Sporting Club de Saint-Martin | Sporting Club        # Marigot, Saint-Martin
+ASC St-Louis Stars | St-Louis Stars                  # St Louis, Saint-Martin
+Tigers (Saint-Martin football club) | Tigers         # Marigot, Saint-Martin
+United Stars (Saint-Martin football club) | United Stars   # Marigot, Saint-Martin
+
+
+# table rows: 6, headers: 2  ! Club !! City
+
+FC ASPSB | ASPSB                                     # Lorient, Saint-Barthélemy
+FC ASSCO | ASSCO                                     # Lorient, Saint-Barthélemy
+FC Beach-Hôtel | Beach-Hôtel                         # Gustavia, Saint-Barthélemy
+Diables Rouges (Saint-Barthélemy football club) | Diables Rouges   # Gustavia, Saint-Barthélemy
+FC Gustavia                                          # Gustavia, Saint-Barthélemy
+FC Carcajou | Carcajou                               # Gustavia, Saint-Barthélemy
+
+
+= Saint Vincent and the Grenadines =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Arnos Vale FC | Arnos Vale                           # Arnos Vale, Saint George
+Barroullie FC | Barroullie                           # Barroullie, Saint Patrick
+Bequia FC | Bequia                                   # Port Elizabeth, The Grenadines
+Brighton FC (Saint Vincent and The Grenadines) | Brighton   # Brighton, Saint George
+Calliaqua FC | Calliaqua                             # Calliaqua, Saint George
+Kingstown FC (Saint Vincent and The Grenadines) | Kingstown   # Kingstown, Saint George
+Layou FC | Layou                                     # Layou, Saint Andrew
+Marriaqua FC | Marriaqua                             # Marriaqua, Saint George
+North East FC (Saint Vincent and The Grenadines) | North East   # 
+North Leeward FC | North Leeward                     # Chateaubelair, Saint David
+Saint Vincent and the Grenadines Under-20 | Saint Vincent and the Grenadines U20   # Kingstown, Saint George
+Sion Hill FC | Sion Hill                             # Sion Hill, Charlotte
+South Leeward FC | South Leeward                     # 
+Stubborn Youth SC | Stubborn Youth                   # Stubbs, Saint George
+
+
+= Sint Maarten =
+
+# table rows: 3, headers: 2  ! Club !! City
+
+C&D FC | C&D                                         # Philipsburg, Sint Maarten
+NAGICO FC | NAGICO                                   # Philipsburg, Sint Maarten
+FC Para Boys | Para Boys                             # Philipsburg, Sint Maarten
+
+
+= Suriname =
+
+# table rows: 10, headers: 2  ! Club !! Location
+
+SV Botopasi | Botopasi                               # Botopasi, Sipaliwini
+SV Excelsior | Excelsior                             # Meerzorg, Commewijne
+Inter Moengotapoe                                    # Moengo, Marowijne
+SV Leo Victor | Leo Victor                           # Paramaribo, Paramaribo
+SV Nishan 42 | Nishan 42                             # Meerzorg, Commewijne
+SV Notch | Notch                                     # Moengo, Marowijne
+S.V. Robinhood | Robinhood                           # Paramaribo, Paramaribo
+S.C.S.V. Takdier Boys | Takdier Boys                 # Livorno, Paramaribo
+S.V. Transvaal | Transvaal                           # Paramaribo, Paramaribo
+S.V. Walking Boyz Company | Walking Boyz Company     # Paramaribo, Paramaribo
+
+
+= Trinidad and Tobago =
+
+# table rows: 8, headers: 2  ! Club !! City
+
+Caledonia AIA                                        # Morvant/Laventille, Trinidad
+Central F.C. | Central FC                            # California, Trinidad
+Defence Force F.C. | Defence Force                   # Chaguaramas, Trinidad
+North East Stars                                     # Sangre Grande, Trinidad
+Police FC (Trinidad and Tobago) | Police             # Saint James, Trinidad
+St. Ann's Rangers                                    # San Juan, Trinidad
+T&TEC SC | T&TEC                                     # San Fernando, Trinidad
+W Connection                                         # Point Lisas, Trinidad
+
+
+= Turks and Caicos Islands =
+
+# table rows: 6, headers: 2  ! Club !! City
+
+Beaches FC | Beaches                                 # Providenciales, Caicos Islands
+Caribbean All Stars FC | Caribbean All Stars         # Providenciales, Caicos Islands
+Cost Right FC | Cost Right                           # Providenciales, Caicos Islands
+KPMG United FC | KPMG United                         # Providenciales, Caicos Islands
+Provopool Celtic FC | Provopool Celtic               # Providenciales, Caicos Islands
+SWA Sharks FC | SWA Sharks                           # Providenciales, Caicos Islands
+
+
+= United States =
+
+# table rows: 21, headers: 3  ! Club !! Region !! Stadium Location
+
+Atlanta United FC                                    # Atlanta, Georgia
+Chicago Fire Soccer Club | Chicago Fire              # Bridgeview, Illinois
+Colorado Rapids                                      # Commerce City, Colorado
+Columbus Crew SC                                     # Columbus, Ohio
+FC Cincinnati                                        # Cincinnati, Ohio
+FC Dallas                                            # Frisco, Texas
+D.C. United                                          # Washington, D.C.
+Houston Dynamo                                       # Houston, Texas
+LA Galaxy                                            # Carson, California
+Los Angeles FC                                       # Los Angeles, California
+Minnesota United FC                                  # Saint Paul, Minnesota
+New England Revolution                               # Foxborough, Massachusetts
+New York City FC                                     # Bronx, New York
+New York Red Bulls                                   # Harrison, New Jersey
+Orlando City SC                                      # Orlando, Florida
+Philadelphia Union                                   # Chester, Pennsylvania
+Portland Timbers                                     # Portland, Oregon
+Real Salt Lake                                       # Sandy, Utah
+San Jose Earthquakes                                 # San Jose, California
+Seattle Sounders FC                                  # Seattle, Washington
+Sporting Kansas City                                 # Kansas City, Kansas
+
+
+= United States Virgin Islands =
+
+# table rows: 3, headers: 2  ! Club !! City
+
+Helenites FC | Helenites                             # 
+Rovers (USVI football club) | Rovers                 # 
+Skills (USVI football club) | Skills                 # 
+
+
+# table rows: 5, headers: 2  ! Club !! City
+
+La Raza FC | La Raza                                 # 
+New Vibes FC | New Vibes                             # 
+Positive Vibes FC | Positive Vibes                   # 
+UWS Gunners                                          # 
+Waitikubuli FC | Waitikubuli                         # 
+
+

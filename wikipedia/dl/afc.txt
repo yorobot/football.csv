@@ -256,7 +256,7 @@
 |}
 
 
-==Taiwain==
+==Taiwan==
 
 {|
 |-
@@ -323,22 +323,6 @@
 |}
 
 
-==Guam==
-
-{| 
-|-
-! style="width:200px;"|Club
-|-
-|[[Bank of Guam Strykers FC|Bank of Guam Strykers]]
-|-
-|[[Guam Shipyard]]
-|-
-|[[Haya United FC|Haya United]]
-|-
-|[[Quality Distributors]]
-|-
-| bgcolor=#ffff44 | ''[[Rovers FC (Guam)|Rovers]]''
-|}
 
 ==Hong Kong==
 
@@ -374,7 +358,7 @@
 
 ===I-League===
 
-{| 
+{|
 |-
 ! Team
 ! Location
@@ -501,7 +485,7 @@
 
 ==Indonesia==
 
-{| 
+{|
 |-
 ! Club
 ! City
@@ -613,15 +597,8 @@
 |}
 
 
-__END__
 
-
-=={{flag|Iraq}}==
-{{main article|List of football clubs in Iraq}}
-*Football association: [[Iraq Football Association]]
-*Top-level league: [[Iraqi Premier League]]
-{{#lst:2016–17 Iraqi Premier League|map}}
-''As of [[2016–17 Iraqi Premier League|2016–17 season]]:''
+==Iraq==
 
 {| class="wikitable"
 |-
@@ -689,37 +666,11 @@ __END__
 |[[Zakho]]
 |}
 
-=={{flagu|Japan}}==
-
-{{main article|List of football clubs in Japan}}
-*Football association: [[Japan Football Association]]
-*Top-level league: [[J1 League]] (men), [[Japan Women's Football League|Nadeshiko League Division 1]] (women)
-
-''As of [[2019 J1 League|2019 season]]:''
-{{location map+ |Japan Greater Tokyo area|float=right |width=450 |caption=Locations of the 2019 J1 League teams |places=
-{{location map~ |Japan Greater Tokyo area|lat=34.810350 |long=135.542732 |label=<div class="nowrap" style="font-size:80%;position:relative;bottom:10px;right:-20px">[[Cerezo Osaka]]</div> |position=bottom |mark=Arrows 12x12 s.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=43.015100 |long=141.409816 |label=<div class="nowrap" style="font-size:80%;position:relative;right:2px;top:2px">[[Consadole Sapporo]]</div> |position=right |mark=Arrows 12x12 w.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=34.615385 |long=135.516684 |label=<div class="nowrap" style="font-size:80%;position:relative;top:10px;left:-10px">[[Gamba Osaka]]</div> |position=top |mark=Arrows 12x12 n.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=34.725327 |long=137.874906 |label=<div class="nowrap" style="font-size:80%;position:relative;bottom:14px;right:-12px">[[Júbilo Iwata]]</div> |position=bottom |mark=Arrows 12x12 n.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.084471 |long=137.170891 |label=<div class="nowrap" style="font-size:80%;position:relative;right:-25px;top:15px">[[Nagoya Grampus]]</div> |position=top |mark=Arrows 12x12 s.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=33.371683 |long=130.520236 |label=<div class="nowrap" style="font-size:80%;position:relative;left:-50px;bottom:7px">[[Sagan Tosu]]</div> |position=right |mark=Arrows 12x12 s.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=34.440781 |long=132.394287 |label=<div class="nowrap" style="font-size:80%;position:relative;left:-25px;bottom:17px">[[Sanfrecce Hiroshima]]</div> |position=bottom |mark=Arrows 12x12 n.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=34.984706 |long=138.481244 |label=<div class="nowrap" style="font-size:80%;position:relative;right:3px;bottom:-10px">[[Shimizu S-Pulse]]</div> |position=right |mark=Arrows 12x12 nw.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=38.319143 |long=140.881780 |label=<div class="nowrap" style="font-size:80%;position:relative;right:2px">[[Vegalta Sendai]]</div> |position=right |mark=Arrows 12x12 w.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=34.656689 |long=135.168978 |label=<div class="nowrap" style="font-size:80%;position:relative;left:2px">[[Vissel Kobe]]</div> |position=left |mark=Arrows 12x12 e.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.664257 |long=139.527137 |label=<div class="nowrap" style="font-size:80%;position:relative;right:-2px">[[F.C. Tokyo]]</div> |position=left |mark=Arrows 12x12 e.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.991990 |long=140.640429 |label=<div class="nowrap" style="font-size:80%;position:relative;right:2px">[[Kashima Antlers]]</div> |position=right |mark=Arrows 12x12 w.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.585808 |long=139.652689 |label=<div class="nowrap" style="font-size:80%;position:relative;right:1px;top:2px">[[Kawasaki Frontale]]</div> |position=right |mark=Arrows 12x12 w.svg}}
-{{location map~ |Japan Greater Tokyo area|lat=35.903009 |long=139.717597 |label=<div class="nowrap" style="font-size:80%;position:relative;left:-2x;top:1px">[[Urawa Red Diamonds]]</div> |position=left |mark=Arrows 12x12 e.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.509978 |long=139.606378 |label=<div class="nowrap" style="font-size:80%;position:relative;right:3px;bottom:-8px">[[Yokohama F. Marinos]]</div> |position=right |mark=Arrows 12x12 nw.svg}}
-{{location map~ |Japan Greater Tokyo area|lat=33.200783 |long=131.657435 |label=<div style="font-size:80%;position:relative;right:10px;bottom:-11px">[[Oita&nbsp;Trinita]]</div> |position=right |mark=Arrows 12x12 n.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=35.343532 |long=139.341226 |label=<div style="font-size:80%;position:relative;left:2px;top:8px">[[Shonan&nbsp;Bellmare]]</div> |position=left |mark=Arrows 12x12 ne.svg }}
-{{location map~ |Japan Greater Tokyo area|lat=36.179662 |long=137.917128 |label=<div style="font-size:80%;position:relative;right:1px;top:2px">[[Matsumoto&nbsp;Yamaga]]</div> |position=right |mark=Arrows 12x12 w.svg }}
-}}
+==Japan==
 
 {|class="wikitable"
 |-
-! style="width:200px;"|Club<ref>{{Cite web |url=https://www.jleague.jp/sp/en/club/ |title=CLUBS & PLAYERS : J.LEAGUE.JP |publisher=[[J.League]] |accessdate=2019-02-22}}</ref>
+! style="width:200px;"|Club
 ! style="width:150px;"|City
 |-
 | [[Cerezo Osaka]] || [[Osaka, Osaka|Osaka]]
@@ -760,12 +711,8 @@ __END__
 |}
 {{clear}}
 
-=={{flag|Jordan}}==
-{{main article|List of football clubs in Jordan}}
-*Football association: [[Jordan Football Association]]
-*Top-level league: [[Jordan Premier League]]
+==Jordan==
 
-''As of [[2016–17 Jordan League|2016–17 season]]:''
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -808,12 +755,9 @@ __END__
 | [[Al Karak]]
 |}
 
-=={{flag|Korea DPR}}==
-{{main article|List of football clubs in North Korea}}
-*Football association: [[DPR Korea Football Association]]
-*Top-level league: [[DPR Korea League]]
 
-''As of 2007 season:''
+==North Korea==
+
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -844,13 +788,9 @@ __END__
 |[[Sariwon United]]||[[Sariwon]]
 |}
 
-=={{flag|Korea Republic}}==
-{{K-League 2016 Map}}
-{{main article|List of football clubs in South Korea}}
-*Football association: [[Korea Football Association]]
-*Top-level league: [[K League 1]]
 
-''As of [[2017 K League Classic|2017 season]]:''
+==South Korea==
+
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -893,12 +833,8 @@ __END__
 |[[Ulsan]]
 |}
 
-=={{flag|Kuwait}}==
-{{main article|List of football clubs in Kuwait}}
-*Football association: [[Kuwait Football Association]]
-*Top-level league: [[Kuwait VIVA Premier League]]
+==Kuwait==
 
-''As of [[2016–17 Kuwaiti Premier League|2016–17 season]]:''
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -935,12 +871,8 @@ __END__
 |[[Khaitan SC|Khaitan]]||[[Kuwait City]]
 |}
 
-=={{flag|Kyrgyzstan}}==
-{{main article|List of football clubs in Kyrgyzstan}}
-*Football association: [[Football Federation of Kyrgyz Republic]]
-*Top-level league: [[Kyrgyzstan League]]
-{{#lst:2016 Kyrgyzstan League|map}}
-''As of [[2016 Kyrgyzstan League|2016 season]]:''
+==Kyrgyzstan==
+
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -968,11 +900,8 @@ __END__
 |[[Bishkek]]
 |}
 
-=={{flag|Laos}}==
-*Football association: [[Lao Football Federation]]
-*Top-level league: [[Lao Premier League]]
+==Laos==
 
-''As of [[2016 Lao Premier League|2016 season]]:''
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -1012,13 +941,8 @@ __END__
 |[[Vientiane]]
 |}
 
-=={{flag|Lebanon}}==
-{{#lst:2016–17 Lebanese Premier League|map}}
-{{main article|List of football clubs in Lebanon}}
-*Football association: [[Lebanon Football Association]]
-*Top-level league: [[Lebanese Premier League]]
+==Lebanon==
 
-''As of [[2016–17 Lebanese Premier League|2016–17 season]]:''
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -1061,44 +985,10 @@ __END__
 | [[Tripoli, Lebanon|Tripoli]]
 |}
 
-=={{flag|Macau}}==
-{{main article|List of football clubs in Macau}}
-*Football association: [[Macau Football Association]]
-*Top-level league: [[Liga de Elite]]
 
-''As of [[2016 Campeonato da 1ª Divisão do Futebol|2016 season]]:''
-{| class="wikitable"
-|-
-! style="width:200px;"|Club
-|-
-|bgcolor=#ffff44|''[[S.L. Benfica de Macau|Benfica de Macau]]''
-|-
-|[[Casa de Portugal em Macau|Casa de Portugal]]
-|-
-|[[C.D. Monte Carlo|CD Monte Carlo]]
-|-
-|[[Chao Pak Kei]]
-|-
-|[[Chuac Lun]]
-|-
-|[[Kei Lun]]
-|-
-|[[Lai Chi (football)|Lai Chi]]
-|-
-|[[Polícia de Segurança Pública (football)|Polícia de Segurança Pública]]
-|-
-|[[Sporting Clube de Macau]]
-|-
-|[[Windsor Arch Ka I|Tak Chun Ka I]]
-|}
 
-=={{flag|Malaysia}}==
-{{main article|List of football clubs in Malaysia}}
-*Football association: [[Football Association of Malaysia]]
-*Top-level league: [[Malaysian Super League]]
+==Malaysia==
 
-''As of [[2019 Malaysia Super League|2019 season]]:''
-{{#lst:2019 Malaysia Super League|map}}
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -1141,12 +1031,8 @@ __END__
 |[[Kuala Terengganu]]
 |}
 
-=={{flag|Maldives}}==
-{{main article|List of football clubs in Maldives}}
-*Football association: [[Football Association of Maldives]]
-*Top-level league: [[Dhivehi Premier League]]
+==Maldives==
 
-''As of [[2016 Dhivehi Premier League|2016 season]]:''
 {| class="wikitable"
 |-
 ! style="width:200px;"|Club
@@ -1169,7 +1055,8 @@ __END__
 |[[United Victory]]||[[Malé]]
 |}
 
-=={{flag|Mongolia}}==
+==Mongolia==
+
 {{main article|List of football clubs in Mongolia}}
 *Football association: [[Mongolian Football Federation]]
 *Top-level league: [[Mongolia Premier League]]
@@ -1203,7 +1090,7 @@ __END__
 |[[Ulaanbaatar City FC|Ulaanbaatar City]]||[[Ulaanbaatar]]
 |}
 
-=={{flag|Myanmar}}==
+==Myanma==
 {{main article|List of football clubs in Myanmar}}
 *Football association: [[Myanmar Football Federation]]
 *Top-level league: [[Myanmar National League]]
@@ -1251,7 +1138,7 @@ __END__
 | [[Hpa-An]]
 |}
 
-=={{flag|Nepal}}==
+==Nepal==
 {{main article|List of football clubs in Nepal}}
 *Football association: [[All Nepal Football Association]]
 *Top-level league: [[Martyr's Memorial A-Division League]]
@@ -1290,7 +1177,7 @@ __END__
 | [[Lalitpur District, Nepal|Lalitpur]]
 |}
 
-=={{flag|Northern Mariana Islands}}==
+==Northern Mariana Islands==
 {{main article|List of football clubs in the Northern Mariana Islands}}
 *Football association: [[Northern Mariana Islands Football Association]]
 *Top-level league: [[M*League]]
@@ -1318,7 +1205,7 @@ __END__
 |[[Independents (Young Guns) Football Club]]||
 |}
 
-=={{flag|Oman}}==
+==Oman==
 {{main article|List of football clubs in Oman}}
 *Football association: [[Oman Football Association]]
 *Top-level league: [[Oman Professional League]]
@@ -1372,33 +1259,12 @@ __END__
 | [[Sohar]]
 |}
 
-=={{flag|Pakistan}}==
+==Pakistan==
 {{main article|List of football clubs in Pakistan}}
 *Football association: [[Pakistan Football Federation]]
 *Top-level league: [[Pakistan Premier League]]
 
 ''As of [[2018-19 Pakistan Premier League|2018–19 season]]:''
-{{Location map+ |Pakistan |width=400 |float=right |caption=Location of teams in 2018–19 Pakistan Premier League |places=
-
-{{location map~ |Pakistan |lat=25.1921464 |long=66.5949683 |label= <small>[[District of Karachi]]</small>|mark=Blue pog.svg|position=bottom}}
-{{Location map~ |Pakistan |lat=30.8973676 |long=66.3967209 |label=<small>[[Afghan FC Chaman|Afghan Chaman]]</small> |position=left}}
-{{Location map~ |Pakistan |lat=29.5526048 |long=66.010807 |label=<small>{{nowrap|[[Baloch F.C.|Baloch Nushki]]}}</small> |position=left}}
-{{Location map~ |Pakistan |lat=33.6196945 |long=73.1034852 |label=<small>[[KRL F.C.|KRL]]</small> |position=top}}
-{{Location map~ |Pakistan |lat=30.1914277 |long=67.0175148 |label=<small>[[Muslim F.C.|Muslim]]</small> |position=right}}
-{{Location map~ |Pakistan |lat=33.716798 |long=73.0076577 |label=<small>[[PAF F.C.|Pakistan Airforce]]</small> |position=bottom}}
-{{Location map~ |Pakistan |lat=33.5902856 |long=73.0512521 |label=<small>[[Pakistan Army F.C.|Pakistan Army]]</small> |position=left}}
-{{Location map~ |Pakistan |lat=33.6858032 |long=72.9860916 |label=<small>[[Pakistan Navy F.C.|Pakistan Navy]]</small> |position=right}}
-{{Location map~ |Pakistan |lat=31.5650239 |long=74.3479954 |label=<small>[[WAPDA F.C.|WAPDA]]<br>Sui Northern Gas<br>Ashraf Sugar Mills</small> |position=right}}
-<!--DISPLAY OF KARACHI TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |Pakistan |mark=Pakistan Sindh location map2.svg |marksize=1 |lat=25.1 |long=66.5 |label=<div style="font-size:80%;">'''[[Karachi]]&nbsp;teams:'''<br>
-[[Pakistan Civil Aviation Authority F.C.|CAA]]<br>
-[[K-Electric F.C.|K-Electric]]<br>
-[[KPT F.C.|KPT]]<br>
-[[NBP F.C.|National Bank]]<br>
-[[PIA F.C.|Pakistan Airlines]]<br>
-[[SSGC F.C.|SSGC]]
-</div>|position=top}}
-}}
 
 {| class="wikitable sortable" style="text-align: left;"
 ! Team !! Location
@@ -1436,7 +1302,7 @@ __END__
 |[[WAPDA F.C.|WAPDA]] ||[[Lahore]]
 |}
 
-=={{flag|Palestine}}==
+==Palestine==
 {{main article|List of football clubs in Palestine}}
 *Football association: [[Palestinian Football Federation]]
 *Top-level league: [[Gaza Strip League]] and [[West Bank Premier League]]
@@ -1505,7 +1371,7 @@ __END__
 |[[Thaqafi Tulkarm]]||[[Tulkarm]]
 |}
 
-=={{flag|Philippines}}==
+==Philippines==
 {{main article|List of football clubs in the Philippines}}
 *Football association: [[Philippine Football Federation]]
 *Top-level league: [[Philippines Football League]] (men), [[PFF Women's League]] (women)
@@ -1532,60 +1398,9 @@ __END__
 |[[Stallion Laguna F.C.|Stallion Laguna]]||[[Laguna (province)|Laguna]]
 |-
 |}
-{| class="wikitable" style="text-align:left; font-size: 90%;" width=450px
-|-
-! colspan=5 width=500px|Home venues of PFL clubs
-|-
-|align=center rowspan=2|
-{{location map+|Philippines
-|width=300
-|float=middle
-|places=
-{{location map~ |Philippines |lat=14.790|long= 121.145|label={{small|'''[[Metro Manila]]''' (3 clubs)}}|position=right}}
-{{Location map~ |Philippines |position=bottom|lat=10.640739|long=122.968956|label=[[Ceres Negros F.C.|Ceres Negros]]}}
-{{Location map~ |Philippines |position=top|lat=10.7117|long=122.5625|label=[[Kaya FC|Kaya<br>Iloilo]]}}
-{{Location map~ |Philippines |position=left|lat=14.3036|long=121.0781|label=[[Stallion Laguna F.C.|Stallion Laguna]]}}
-}}
-! width=150px|{{small|Metro Manila}}
-|-
-|{{location map+|Metro Manila|width=150|float=right|caption=|places=
-{{Location map~ |Metro Manila |position=top|lat=14.5750|long=120.989|label=[[Mendiola F.C. 1991|Mendiola]]}}
-{{Location map~ |Metro Manila |position=left|lat=14.5660|long=120.989|label=[[Green Archers United F.C.|Green Archers United]]}}
-{{Location map~ |Metro Manila |position=bottom|lat=14.5636|long=121.0569|label=[[Global Makati F.C.|Global Makati]]}}
-}}
-|}
 
-{{reflist|group=note}}
 
-''As of the [[2019 PFF Women's League|2019 PFFWL season]]:''
-{| class="wikitable"
-|-
-! style="width:200px;"|Club
-! style="width:150px;"|City
-|-
-|bgcolor=#ffff44 |[[DLSU Lady Booters|De La Salle University]] ||[[Manila]]
-|-
-|[[FEU Lady Tamaraw Booters|Far Eastern University]] ||[[Manila]]
-|-
-|[[Green Archers United F.C. (women)|Green Archers United]] || [[Muntinlupa]]
-|-
-|[[Hiraya F.C.|Hiraya–Stallion]] || –
-|-
-|[[Maroons F.C.|Maroons]] || [[Quezon City]]
-|-
-|[[Manila Nomads Sports Club|Nomads]] || [[Parañaque]]
-|-
-|[[Tigers F.C.|Tigers]] || [[Manila]]
-|-
-|[[Tuloy F.C.|Tuloy]] || [[Manila]]
-|-
-|[[UST Lady Booters|University of Santo Tomas]] || [[Manila]]
-|-
-|[[UP Lady Booters|University of the Philippines]] || [[Quezon City]]
-|-
-|}
-
-=={{flag|Qatar}}==
+==Qatar==
 {{main article|List of football clubs in Qatar}}
 *Football association: [[Qatar Football Association]]
 *Top-level league: [[Qatar Stars League]]
@@ -1633,23 +1448,10 @@ __END__
 | [[Umm Salal]]
 |}
 
-=={{flag|Saudi Arabia}}==
+==Saudi Arabia==
 {{main article|List of football clubs in Saudi Arabia}}
 *Football association: [[Saudi Arabia Football Federation]]
 *Top-level league: [[Saudi Professional League]]
-
-{{Location map+|Saudi Arabia|places={{Location map~ |Saudi Arabia |lat=21.54333 |long=39.17278 |label=<small>[[Al-Ahli Saudi FC|Al-Ahli]]<br />[[Ittihad FC|Al-Ittihad]]</small> |position=left}}
-{{Location map~ |Saudi Arabia |lat=28.434167|long=45.963611|label=<small>[[Al-Batin F.C.|Al-Batin]]</small> |position=left}}
-{{Location map~ |Saudi Arabia |lat=26.283333|long=50.2     |label=<small>[[Ettifaq FC|Al-Ettifaq]]</small> |position=right}}
-{{Location map~ |Saudi Arabia |lat=25.995687|long=45.316519|label=<small>[[Al-Faisaly FC|Al-Faisaly]]</small> |position=right}}
-{{Location map~ |Saudi Arabia |lat=25.903889|long=45.345556|label=<small>[[Al-Feiha FC|Al-Fayha]]</small> |position=bottom}}
-{{Location map~ |Saudi Arabia |lat=25.39645 |long=49.60179 |label=<small>[[Al-Fateh SC|Al-Fateh]]</small> |position=right}}
-{{Location map~ |Saudi Arabia |lat=25.866667 |long=43.5 |label=<small>[[Al-Hazm F.C.|Al-Hazem]]</small>|position=left}}
-{{Location map~ |Saudi Arabia |lat=24.68800 |long=46.72243 |label=<small>[[Al-Hilal FC|Al-Hilal]]<br />[[Al-Nassr FC|Al-Nassr]]<br />[[Al-Shabab FC (Riyadh)|Al-Shabab]]</small> |position=right}}
-{{Location map~ |Saudi Arabia |lat=26.70150 |long=50.15000 |label=<small>[[Al-Qadisiyah FC|Al-Qadsiah]]</small> |position=top}}
-{{Location map~ |Saudi Arabia |lat=26.33333 |long=43.96667 |label=<small>[[Al-Raed FC|Al-Raed]]<br />[[Al-Taawoun FC|Al-Taawoun]]</small> |position=top}}
-{{Location map~ |Saudi Arabia |lat=21.41667 |long=39.81667 |label=<small>[[Al-Wehda Club (Mecca)|Al-Wehda]]</small>}}
-{{Location map~ |Saudi Arabia |lat=24.466667|long=39.6     |label=<small>[[Ohod Club|Ohod]]</small>}}|float=right|width=440|caption=Locations of teams in the 2018–19 Saudi Professional League}}
 
 ''As of [[2018–19 Saudi Professional League|2018–19 season]]:''
 {| class="wikitable"
@@ -1692,7 +1494,7 @@ __END__
 |[[Medina]]
 |}
 
-=={{flag|Singapore}}==
+==Singapore==
 {{main article|List of football clubs in Singapore}}
 *Football association: [[Football Association of Singapore]]
 *Top-level league: [[S.League]]
@@ -1722,7 +1524,7 @@ __END__
 |[[Young Lions (Singapore football team)|Young Lions]]||[[Jalan Besar]]
 |}
 
-=={{flag|Sri Lanka}}==
+==Sri Lanka==
 {{main article|List of football clubs in Sri Lanka}}
 *Football association: [[Football Federation of Sri Lanka]]
 *Top-level league: [[Sri Lanka Football Premier League]]
@@ -1770,7 +1572,7 @@ __END__
 |[[Up Country Lions SC|Up Country Lions]]||[[Nawalapitiya]]
 |}
 
-=={{flag|Syria}}==
+==Syria==
 {{#lst:2016–17 Syrian Premier League|map}}
 {{main article|List of football clubs in Syria}}
 *Football association: [[Syrian Arab Federation for Football]]
@@ -1831,7 +1633,7 @@ __END__
 | [[Latakia]]
 |}
 
-=={{flag|Tajikistan}}==
+==Tajikistan==
 {{#lst:2017 Tajik League|map}}
 {{main article|List of football clubs in Tajikistan}}
 *Football association: [[Tajikistan Football Federation]]
@@ -1868,7 +1670,7 @@ __END__
 | [[Tursunzoda]]
 |}
 
-=={{flag|Thailand}}==
+==Thailand==
 {{#lst:2017 Thai League|map}}
 {{main article|List of football clubs in Thailand}}
 *Football association: [[Football Association of Thailand]]
@@ -1935,9 +1737,8 @@ __END__
 |[[Ubon Ratchathani Province|Ubon Ratchathani]]
 |}
 
-{{clear}}
 
-=={{flag|Turkmenistan}}==
+==Turkmenistan==
 {{main article|List of football clubs in Turkmenistan}}
 *Football association: [[Football Federation of Turkmenistan]]
 *Top-level league: [[Ýokary Liga]]
@@ -1948,52 +1749,35 @@ __END__
 ! style="width:200px;"|Club
 ! style="width:150px;"|City
 |-
-|{{sort|Ahal|[[FC Ahal|Ahal]]}}
+|[[FC Ahal|Ahal]]
 |[[Ahal Province]]
 |-
-|bgcolor=#ffff44 |''{{sort|Altyn Asyr|[[FC Altyn Asyr|Altyn Asyr]]}}''
+|bgcolor=#ffff44 |''[[FC Altyn Asyr|Altyn Asyr]]''
 |[[Ashgabat]]
 |-
-|{{sort|Ashgabat|[[FC Aşgabat|Aşgabat]]}}
+|[[FC Aşgabat|Aşgabat]]
 |[[Ashgabat]]
 |-
-|{{sort|Balkan|[[FC Balkan|Balkan]]}}
+|[[FC Balkan|Balkan]]
 |[[Balkanabat]]
 |-
-|{{sort|Energetik Mary|[[FC Energetik Mary|Energetik Mary]]}}
+|[[FC Energetik Mary|Energetik Mary]]
 |[[Mary Region]]
 |-
-|{{sort|Köpetdag Aşgabat|[[Köpetdag Aşgabat]]}}
+|[[Köpetdag Aşgabat]]
 |[[Ashgabat]]
 |-
-|{{sort|Merw|[[Merw Mary|Merw]]}}
+|[[Merw Mary|Merw]]
 |[[Mary, Turkmenistan|Mary]]
 |-
-|{{sort|Şagadam|[[FC Şagadam|Şagadam]]}}
+|[[FC Şagadam|Şagadam]]
 |[[Türkmenbaşy, Turkmenistan|Türkmenbaşy]]
 |}
 
-=={{flag|United Arab Emirates}}==
+==United Arab Emirates==
 {{main article|List of football clubs in the United Arab Emirates}}
 *Football association: [[United Arab Emirates Football Association]]
 *Top-level league: [[UAE Pro-League]]
-
-<section begin=map />{{Location map+ |United Arab Emirates |width=500 |float=right |caption=Locations of teams in the 2019–20 UAE Pro League |places=
-{{Location map~ |United Arab Emirates |label=[[Ajman Club|Ajman]] |lat=25.392215 |long=55.450546 |position=top |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al Ain FC|Ain]] |lat=24.245594 |long=55.716583 |position=left |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al Dhafra FC|Dhafra]] |lat=23.666626 |long=53.696687 |position=right |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al Jazira Club|Jazira]] |lat=24.452764 |long=54.392019 |position=left |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al-Nasr Dubai SC|Nasr]] |lat=25.24 |long=55.313056 |position=left |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al Wahda FC|Wahda]] |lat=24.469397 |long=54.375254 |position=right |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al-Wasl F.C.|Wasl]] |lat=25.2189 |long=55.317149 |position=right|mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Baniyas Club|Baniyas]] |lat=24.34986 |long=54.68571 |position=right |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Hatta Club|Hatta]] |lat=24.804528 |long=56.112611 |position=right |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Fujairah FC|Fujairah]] |lat=25.13 |long=56.343611 |position=top |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Al-Ittihad Kalba SC|Kalba]] |lat=25.06 |long=56.348176 |position=bottom |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Khor Fakkan Club|Khor F.]] |lat=25.33 |long=56.343911 |position=top|mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Shabab Al-Ahli Dubai FC|Shabab Al-Ahli]] |lat=25.279655 |long=55.360606 |position=bottom |mark=Red pog.svg}}
-{{Location map~ |United Arab Emirates |label=[[Sharjah FC|Sharjah]] |lat=25.333205 |long=55.419572 |position=left |mark=Red pog.svg}}
-}}<section end=map />
 
 ''As of [[2019–20 UAE Pro-League|2019–20 season]]:''
 {| class="wikitable"
@@ -2044,7 +1828,7 @@ __END__
 | [[Sharjah]]
 |}
 
-=={{flag|Uzbekistan}}==
+==Uzbekistan==
 {{main article|List of football clubs in Uzbekistan}}
 *Football association: [[Uzbekistan Football Federation]]
 *Top-level league: [[Uzbek League]]
@@ -2106,7 +1890,7 @@ __END__
 | [[G'uzor|Ghuzor]]
 |}
 
-=={{flag|Vietnam}}==
+==Vietnam==
 {{#lst:2017 V.League 1|map}}
 {{main article|List of football clubs in Vietnam}}
 
@@ -2116,8 +1900,8 @@ __END__
 ''As of [[2017 V.League 1|2017 season]]:''
 {| class="wikitable"
 |-
-! |Club
-! |City
+! Club
+! City
 |-
 |[[Becamex Bình Dương F.C.|Becamex Bình Dương]]
 |[[Thủ Dầu Một]]
@@ -2161,9 +1945,9 @@ __END__
 |[[XSKT Cần Thơ F.C.|XSKT Cần Thơ]]
 |[[Cần Thơ]]
 |}
-{{clear}}
 
-=={{flag|Yemen}}==
+
+==Yemen==
 {{main article|List of football clubs in Yemen}}
 *Football association: [[Yemen Football Association]]
 *Top-level league: [[Yemeni League]]

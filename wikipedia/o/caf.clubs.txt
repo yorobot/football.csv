@@ -1,0 +1,1125 @@
+= Algeria =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+CR Belouizdad                                        # Belouizdad
+CS Constantine                                       # Constantine
+DRB Tadjenanet                                       # Tadjenanet
+ES Sétif                                             # Sétif
+JS Kabylie                                           # Tizi Ouzou
+JS Saoura                                            # Méridja
+MC Alger                                             # Algiers
+MC Oran                                              # Oran
+NA Hussein Dey                                       # Algiers (Hussein Dey)
+Olympique de Médéa                                   # Médéa
+Paradou AC                                           # Algiers
+USM Alger                                            # Algiers
+USM Bel Abbès                                        # Sidi Bel Abbès
+USM El Harrach                                       # Algiers (El Harrach)
+USM Blida                                            # Blida
+US Biskra                                            # Biskra
+
+
+= Angola =
+
+# table rows: 16, headers: 2  ! Club !! Location
+
+Atlético Sport Aviação | A.S. Aviação                # Luanda
+S.L. Benfica (Luanda) | Benfica de Luanda            # Luanda
+S.L. Benfica (Lubango) | Benfica do Lubango          # Lubango
+F.C. Bravos do Maquis                                # Luena
+C.R. Caála                                           # Huambo
+Sporting Clube de Cabinda | S.C. Cabinda             # Cabinda
+C.D. Huíla                                           # Lubango
+G.D. Interclube                                      # Luanda
+Kabuscorp S.C.P. | Kabuscorp                         # Luanda
+C.D. Primeiro de Agosto                              # Luanda
+Atlético Petróleos de Luanda | Petro Atlético        # Luanda
+Estrela Clube Primeiro de Maio | E.C. Primeiro de Maio   # Benguela
+Progresso Associação do Sambizanga | P.A. Sambizanga   # Luanda
+C.R.D. Libolo | Recreativo do Libolo                 # Libolo
+G.D. Sagrada Esperança                               # Dundo
+União Sport Clube do Uíge | União SC do Uíge         # Uíge
+
+
+= Benin =
+
+# table rows: 14, headers: 2  ! Club !! Location
+
+Tonnerre d'Abomey FC                                 # Abomey
+Adjobi FC                                            # Sakété
+ASPAC FC                                             # Cotonou
+Avrankou Omnisport FC                                # Avrankou
+Ayema FC                                             # Seme-Kpodji
+Buffles du Borgou FC                                 # Parakou
+Energie FC                                           # Seme-Kpodji
+Union Sportive Seme Kraké | USS Kraké                # Porto-Novo
+Mogas 90 FC                                          # Cotonou
+AS Dragons FC de l'Ouémé                             # Porto-Novo
+Association Sportive Oussou Saka | AS Oussou Saka    # Porto-Novo
+Panthères FC                                         # Djougou
+Jeunesse Athlétique du Plateau | JA Plateau          # Pobè
+AS Police (Benin) | AS Police                        # Porto-Novo
+
+
+= Botswana =
+
+# table rows: 16, headers: 2  ! Club !! Location
+
+Botswana Defence Force XI                            # Gaborone
+Botswana Meat Commission F.C. | Botswana Meat Commission FC   # Lobatse
+ECCO City Green                                      # Francistown
+Extension Gunners                                    # Lobatse
+F.C. Satmos | FC Satmos                              # Selebi Phikwe
+Gaborone United                                      # Gaborone
+Miscellaneous SC Serowe                              # Serowe
+Mochudi Centre Chiefs                                # Mochudi
+Motlakase Power Dynamos                              # Palapye
+Nico United                                          # Selebi-Phikwe
+Notwane F.C.                                         # Gaborone
+Orapa United FC                                      # Orapa
+TAFIC                                                # Francistown
+Township Rollers F.C. | Township Rollers FC          # Gaborone
+Uniao Flamengo Santos FC                             # Gabane
+Wonder Sporting                                      # Gaborone
+
+
+= Burkina Faso =
+
+# table rows: 16, headers: 2  ! Club !! Location
+
+ASF Bobo Dioulasso                                   # Bobo Dioulasso
+Bobo Sport                                           # Bobo Dioulasso
+RC Bobo Dioulasso                                    # Bobo Dioulasso
+Bouloumpoukou FC                                     # Koudougou
+US de la Comoé                                       # Banfora
+ASFA Yennenga | AS Faso-Yennenga                     # Ouagadougou
+Union Sportive des Forces Armées | US Forces Armées   # Ouagadougou
+Rail Club du Kadiogo | RC Kadiogo                    # Kadiogo
+KOZAF                                                # Ouagadougou
+Majestic FC                                          # Pô
+Étoile Filante de Ouagadougou                        # Ouagadougou
+US Ouagadougou                                       # Ouagadougou
+Santos FC (Ouagadougou) | Santos FC                  # Ouagadougou
+AS SONABEL                                           # Ouagadougou
+US FRAN                                              # Bobo Dioulasso
+US Yatenga                                           # Ouahigouya
+
+
+= Burundi =
+
+# table rows: 14, headers: 2  ! Club !! Location
+
+Guêpiers du Lac                                      # Makamba
+Flambeau de l’Est                                    # Ruyigi
+Atlético Olympic F.C. | Atlético Olympic FC          # Bujumbura
+Lydia Ludic Burundi Académic FC | LLBA FC            # Bujumbura
+Vital'O FC                                           # Bujumbura
+Le Messager FC de Ngozi | Le Messager FC             # Rumonge
+Muzinga FC                                           # Bujumbura
+AS Inter Star                                        # Bujumbura
+Royal FC de Muramvya                                 # Muramvya
+Académie Tchité FC                                   # Bujumbura
+Prince Louis F.C. | Prince Louis FC                  # Bujumbura
+Flamengo de Ngagara                                  # Bujumbura
+Espoir FC de Mutimbuzi                               # Gatumba
+Volontaires FC                                       # Kanyosha
+
+
+= Cameroon =
+
+# table rows: 14, headers: 2  ! Club !! Location
+
+Canon Sportif de Yaoundé | Canon Yaoundé             # Yaoundé
+Coton Sport FC de Garoua | Coton Sport FC            # Garoua
+Douala Athletic Club | Douala AC                     # Douala
+Fovu Baham | Fovu Club                               # Baham
+Les Astres FC                                        # Douala
+New Star de Douala | New Star FC                     # Douala
+Njala Quan Sports Academy | Njala Quan SA            # Limbé
+Panthère du Ndé                                      # Bangangté
+Renaissance FC de Ngoumou                            # Ngoumou
+Sable FC                                             # Batié
+Tonnerre Yaoundé                                     # Yaoundé
+Union Sportive de Douala | US Douala                 # Douala
+Unisport de Bafang | Unisport FC                     # Bafang
+Yong Sports Academy | YOSA                           # Bamenda
+
+
+= Cape Verde =
+
+# h3: Group A
+
+# table rows: 6, headers: 2  ! Club !! Location
+
+Académico do Aeroporto                               # Espargos
+CS Mindelense                                        # Mindelo
+Desportivo da Praia                                  # Praia
+FC Ultramarina (Cape Verde) | FC Ultramarina         # Tarrafal
+Juventude da Furna                                   # Vila Nova Sintra
+Onze Estrelas Boa Vista | Onze Estrelas              # Bofareira
+
+
+# h3: Group B
+
+# table rows: 6, headers: 2  ! Club !! Location
+
+Associação Académica do Porto Novo | Académica Porto Novo   # Porto Novo
+Académico 83                                         # Vila do Maio (Porto Inglês)
+Associação Académica do Fogo                         # São Filipe
+Scorpions (Santa Cruz) | Scorpions                   # Santa Cruz
+Solpontense Futebol Clube | Solpontense FC           # Ponta do Sol
+Sporting Clube da Praia | Sporting Praia             # Praia
+
+
+= Central African Republic =
+
+# table rows: 12, headers: 2  ! Club !! Location
+
+Anégrée Freese                                       # Bangui
+Anges de Fatima | ASDR Fatima                        # Bangui
+Diplomates Football Club du 8ème Arrondissement | DFC 8ème Arrondissement   # Bangui
+Espérance FC du 5ème Arrondissement                  # Bangui
+Olympic Real de Bangui                               # Bangui
+Rèal Comboni                                         # Bangui
+Sica Sport                                           # Bangui
+SOS FC de Gbangouma                                  # Bangui
+Sporting Club de Bangui                              # Bangui
+SCAF Tocages | Stade Centrafricaine Tocages          # Bangui
+AS Tempête Mocaf                                     # Bangui
+TP USCA Bangui                                       # Bangui
+
+
+= Chad =
+
+# table rows: 10, headers: 2  ! Club !! Location
+
+AS CotonTchad                                        # N'Djamena
+AS DGSSIE                                            # N'Djamena
+AS Farcha                                            # N'Djamena
+Elect-Sport FC                                       # N'Djamena
+Foullah Edifice FC                                   # N'Djamena
+Gazelle FC                                           # N'Djamena
+Postel 2000 | Postel 2000 FC                         # N'Djamena
+Renaissance FC                                       # N'Djamena
+Tourbillon FC                                        # N'Djamena
+US de Moursal                                        # N'Djamena
+
+
+= Comoros =
+
+# table rows: 8, headers: 2  ! Club !! Location
+
+AJSM de Mutsamudu                                    # Mutsamudu
+Apache Club de Mitsamiouli                           # Mitsamiouli
+Coin Nord de Mitsamiouli                             # Mitsamiouli
+Djabal Club d'Iconi                                  # Iconi
+Élan Club de Mitsoudjé                               # Mitsoudjé
+Etoile d'Or Mirontsy FC                              # Mirontsy
+Komorozine de Domoni                                 # Domoni
+Steal Nouvel FC de Sima                              # Sima
+
+
+= Congo =
+
+# table rows: 18, headers: 2  ! Club !! Location
+
+AC Léopards                                          # Dolisie
+AS Chéminots                                         # Pointe-Noire
+Association Sportive Ponténégrine | AS Ponténégrine   # Pointe-Noire
+CARA Brazzaville                                     # Brazzaville
+CS La Mancha                                         # Pointe-Noire
+CSM Diables Noirs                                    # Brazzaville
+Étoile du Congo                                      # Brazzaville
+FC Bilombé                                           # Pointe-Noire
+FC Cuvette d'Owando                                  # Brazzaville
+FC Kondzo                                            # Brazzaville
+Inter Club Brazzaville                               # Brazzaville
+JS Talangaï                                          # Brazzaville
+Munisport de Pointe-Noire                            # Pointe-Noire
+Nico-Nicoyé                                          # Pointe-Noire
+Patronage Sainte-Anne                                # Brazzaville
+Saint Michel de Ouenzé                               # Brazzaville
+Tongo FC Jambon                                      # Brazzaville
+US Saint Pierre                                      # Pointe-Noire
+
+
+= Democratic Republic of the Congo =
+
+# table rows: 14, headers: 2  ! Club !! Location
+
+AS Dauphins Noirs                                    # Goma
+AS Makiso                                            # Kisangani
+AS Rojolu                                            # Kinshasa
+AS Vita Club                                         # Kinshasa
+CS Don Bosco                                         # Lubumbashi
+DC Motema Pembe                                      # Kinshasa
+DC Virunga                                           # Goma
+FC Saint Eloi Lupopo                                 # Lubumbashi
+OC Muungano                                          # Bukavu
+SM Sanga Balende                                     # Mbuji-Mayi
+TC Elima                                             # Matadi
+TP Mazembe                                           # Lubumbashi
+TP Molunge                                           # Mbandaka
+US Tshinkunku                                        # Kananga
+
+
+= Djibouti =
+
+# table rows: 10, headers: 2  ! Club !! Location
+
+AS Ali Sabieh Djibouti Télécom                       # Djibouti
+AS CDE-Colas                                         # Djibouti
+AS Port                                              # Djibouti
+AS Tadjourah                                         # Djibouti
+Bahache/Université de Djibouti                       # Djibouti
+FC Dikhil                                            # Djibouti
+Garde Républicaine FC | Guelleh Batal                # Djibouti
+Gendarmerie Nationale FC                             # Djibouti
+SDVK                                                 # Djibouti
+Hôpital Balbala                                      # Djibouti
+
+
+= Egypt =
+
+# table rows: 19, headers: 2  ! Club !! Location
+
+Al Ahly SC | Al Ahly                                 # Cairo
+Pyramids FC | Al Assiouty Sport                      # Assiut
+El Dakhleya SC | El Dakhleya                         # Cairo <small>(Abbassia)</small>
+ENPPI SC | ENPPI                                     # Cairo
+El Entag El Harby SC | El Entag El Harby             # Cairo
+Ismaily SC | Ismaily                                 # Ismailia
+Al Ittihad Alexandria Club | Al Ittihad              # Alexandria
+Al Masry SC | Al Masry                               # Port Said
+Misr Lel-Makkasa SC | Misr Lel Makkasa               # Fayoum
+El Mokawloon SC | Al Mokawloon                       # Cairo <small>(Nasr City)</small>
+Al Nasr SC (Egypt) | Al Nasr                         # Cairo
+Petrojet SC | Petrojet                               # Suez
+Raja CA | El Raja                                    # Mersa Matruh
+Smouha SC | Smouha                                   # Alexandria <small>(Smouha)</small>
+Tala'ea El Gaish SC | Tala'ea El Gaish               # Cairo
+Tanta SC | Tanta                                     # Tanta
+Wadi Degla SC | Wadi Degla                           # Cairo
+Zamalek SC | Zamalek                                 # Cairo <small>(Giza)</small>
+
+
+= Equatorial Guinea =
+
+# h3: Región Continental
+
+# table rows: 12, headers: 2  ! Club !! Location
+
+AD Mongomo                                           # Mongomo
+Águilas Verdes de Guadalupe                          # Bata
+Akonangui FC                                         # Ebebiyín
+Campo Amor FC                                        # Alep
+Deportivo Mongomo                                    # Mongomo
+Dragón FC                                            # Bata
+AD Mesi Nkulu                                        # Ebebiyín
+Atlético Nsok-Nsomo                                  # Nsok
+Quince de Agosto de Akonibe                          # Aconibe
+Racing de Micomeseng                                 # Micomeseng
+Real Sanidad                                         # Evinayong
+Robella Inter                                        # Mbini
+
+
+# h3: Región Insular
+
+# table rows: 11, headers: 2  ! Club !! Location
+
+Atlético Malabo                                      # Malabo
+Atlético Semu                                        # Malabo
+Deportivo Ebenezer                                   # Luba
+CD Unidad Malabo                                     # Malabo
+Inter Junior                                         # Malabo
+Vegetarianos FC | Leones Vegetarianos FC             # Malabo
+Real X Balompié                                      # Malabo
+San Pablo de Nsork                                   # Nsork
+FC Santa Rosa                                        # Malabo
+CD Elá Nguema                                        # Malabo
+The Panthers F.C. | The Panthers FC                  # Malabo
+
+
+= Eritrea =
+
+# table rows: 8, headers: 2  ! Club !! City
+
+Adulis Club                                          # Asmara
+FC Al Tahrir                                         # Asmara
+Asmara Brewery                                       # Asmara
+Denden F.C. | Denden FC                              # Asmara
+FC Edaga Hamus                                       # Edaga Hamus
+Mdlaw Megbi                                          # Asmara
+Red Sea FC                                           # Asmara
+Tesfa FC                                             # Asmara
+
+
+= Eswatini =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Green Mamba FC                                       # Simunye
+Malanti Chiefs F.C.                                  # Pigg's Peak
+Manzini Sea Birds FC | Manzini Sea Birds F.C.        # Manzini
+Manzini Sundowns F.C.                                # Manzini
+Manzini Wanderers F.C.                               # Manzini
+Mbabane Swallows F.C.                                # Mbabane
+Midas Mbabane City F.C.                              # Mbabane
+Moneni Pirates F.C.                                  # Manzini
+Royal Leopards F.C.                                  # Simunye
+RSSC United FC                                       # Mhlume
+Umbelebele Jomo Cosmos FC | Umbelebele Jomo Cosmos   # Mbabane
+Young Buffaloes FC                                   # Matsapha
+
+
+= Ethiopia =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Arba Minch FC                                        # Arba Minch
+Awassa City FC                                       # Awassa
+CBE SA                                               # Addis Abeba
+Dashen Beer FC                                       # Gondar
+Dedebit F.C. | Dedebit FC                            # Addis Abeba
+Defence Force SC                                     # Addis Abeba
+EEPCO F.C. | EEPCO SC                                # Addis Abeba
+Ethiopian Coffee FC                                  # Addis Abeba
+Ethiopian Insurance F.C. | Ethiopian Insurance FC    # Addis Abeba
+Harar Beer Bottling F.C. | Harar Beer Bottling FC    # Harar
+Muger Cement | Muger Cement FC                       # Oromiya
+Saint George SC                                      # Addis Abeba
+Sidama Coffee                                        # Awassa
+Welayta Dicha                                        # Sodo
+
+
+= Gabon =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+AS Pélican                                           # Lambaréné
+Sapins FC                                            # Libreville
+Port-Gentil FC                                       # Port-Gentil
+AS Mangasport                                        # Moanda
+Missile FC                                           # Libreville
+US Oyem                                              # Oyem
+CF Mounana                                           # Libreville
+USM Libreville                                       # Libreville
+AC Bongoville                                        # Bongoville
+Cercle Mbéri Sportif                                 # Libreville
+Sogéa FC                                             # Libreville
+AS Solidarité                                        # Port-Gentil
+US Bitam                                             # Bitam
+Ocean Club                                           # Tchibanga
+
+
+= Gambia =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Armed Forces Football Club | Armed Forces            # Banjul
+Bakau United FC                                      # Bakau
+Banjul United FC                                     # Banjul
+Brikama United FC                                    # Brikama
+Gambia Ports Authority F.C.                          # Banjul
+Gamtel FC                                            # Banjul
+Banjul Hawks FC                                      # Banjul
+Interior FC                                          # Serrekunda
+Real de Banjul F.C.                                  # Banjul
+Samger FC                                            # Kanifing
+Steve Biko FC                                        # Bakau
+Wallidan F.C.                                        # Banjul
+
+
+= Ghana =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Aduana Stars | Aduana FC                             # Dormaa Ahenkro
+All Stars F.C.                                       # Wa
+Amidaus Professionals FC                             # Tema
+Asante Kotoko SC                                     # Kumasi
+Ashanti Gold SC                                      # Obuasi
+Bechem United FC                                     # Bechem
+Berekum Chelsea F.C.                                 # Berekum
+Ebusua Dwarfs                                        # Cape Coast
+Heart of Lions F.C.                                  # Kpandu
+Accra Hearts of Oak SC | Hearts of Oak SC            # Accra
+International Allies F.C.                            # Accra
+King Faisal Babes FC                                 # Kumasi
+Liberty Professionals F.C.                           # Accra
+Medeama SC                                           # Tarkwa
+New Edubiase United FC                               # New Edubiase
+Sekondi Hasaacas F.C.                                # Sekondi-Takoradi
+
+
+= Guinea =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+AS Ashanti Golden Boys                               # Siguiri
+AS Batè Nafadji                                      # Kindia
+AS Kaloum Star                                       # Siguiri
+Athlético de Coléah                                  # Conakry
+Club Industriel de Kamsar | CI Kamsar                # Kamsar
+Espoir de Labé                                       # Labé
+FC Séquence de Dixinn | FC Séquence                  # Dixinn
+Fello Star                                           # Labé
+Horoya AC                                            # Conakry
+Santoba FC                                           # Conakry
+Satellite FC                                         # Conakry
+Soumba FC                                            # Soumba
+
+
+= Guinea-Bissau =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Sport Bissau e Benfica                               # Bissau
+CF Os Balantas                                       # Mansôa
+Nuno Tristão FC                                      # Bula
+Sporting Clube de Bissau                             # Bissau
+Sporting Clube de Bafatá                             # Bafatá
+Estrela Negra de Bissau                              # Bissau
+Mavegro FC                                           # Bissau
+SC Portos de Bissau                                  # Bissau
+União Desportiva Internacional                       # União
+Cuntum FC                                            # Cuntum
+
+
+= Ivory Coast =
+
+# table rows: 14, headers: 2  ! Club !! Location
+
+Academie de Foot Amadou Diallo                       # Djékanou
+Africa Sports National                               # Abidjan
+AS Indenié Abengourou | AS Indenié                   # Abengourou
+AS Tanda                                             # Tanda
+ASEC Mimosas                                         # Abidjan
+Club Omnisport Bouaflé | CO Bouaflé                  # Bouaflé
+Club Omnisport Korhogo | CO Korhogo                  # Korhogo
+Denguelé Sports d'Odienné                            # Odienné
+Jeunesse Club d'Abidjan | JC Abidjan                 # Abidjan
+Séwé Sports de San Pedro                             # San Pédro
+Société Omnisports de l'Armée | S.O.A.               # Yamoussoukro
+Sporting Club de Gagnoa | SC Gagnoa                  # Gagnoa
+Stella Club d'Adjamé                                 # Abidjan
+USC Bassam                                           # Grand-Bassam
+
+
+= Kenya =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+A.F.C. Leopards                                      # Nairobi
+Bandari F.C. (Kenya) | Bandari F.C.                  # Mombasa
+Chemelil Sugar F.C.                                  # Chemelil
+Gor Mahia F.C.                                       # Nairobi
+Kenya Commercial Bank S.C. | K.C.B. S.C.             # Nairobi
+Kenya Revenue Authority F.C. | K.R.A. F.C.           # Nairobi
+Mathare United F.C. | Mathare United                 # Nairobi
+Muhoroni Youth F.C.                                  # Muhoroni
+Nairobi City Stars                                   # Nairobi
+Sofapaka F.C.                                        # Nairobi
+Sony Sugar F.C.                                      # Awendo
+Thika United F.C. | Thika United                     # Thika
+Nakuru Top Fry AllStars | Top Fry AllStars           # Nakuru
+Tusker F.C.                                          # Nairobi
+Ulinzi Stars F.C.                                    # Nakuru
+Western Stima F.C.                                   # Kakamega
+
+
+= Lesotho =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Bantu FC                                             # Mafeteng
+Joy FC                                               # Hlotse
+Lesotho Correctional Services                        # Maseru
+Lesotho Defence Force FC                             # Maseru
+Likhopo FC                                           # Maseru
+Linare FC                                            # Hlotse
+Lioli FC                                             # Teyateyaneng
+LMPS | LMPS FC                                       # Maseru
+Matlama FC                                           # Maseru
+Melele FC                                            # Qacha's Nek
+Mpharane Celtics FC                                  # Mpharane
+Mphatlalatsane FC                                    # Hlotse
+Nyenye Rovers FC                                     # Hlotse
+Qoaling Highlanders                                  # Maseru
+
+
+= Liberia =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Barrack Young Controllers FC | Barrack Young Controllers   # Monrovia
+Red Lions FC (Monrovia) | Red Lions FC               # Monrovia
+Ganta Black Stars                                    # Ganta
+Invincible Eleven                                    # Monrovia
+Jubilee FC                                           # Monrovia
+Keitrace FC                                          # Monrovia
+Liberia Ship Corporate Registry Football Club | LISCR FC   # Monrovia
+Liberia Petroleum Refining Company Oilers | LPRC Oilers   # Monrovia
+Mighty Blue Angels FC                                # Monrovia
+Monrovia Club Breweries                              # Monrovia
+National Port Authority Anchors | NPA Anchors        # Monrovia
+Watanga FC                                           # Monrovia
+
+
+= Libya =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Al-Ahly SC (Benghazi) | Al-Ahly S.C.                 # Benghazi
+Al-Ahli SC (Tripoli) | Al-Ahli S.C.                  # Tripoli
+Al Akhdar S.C.                                       # Bayda
+Al-Hilal SC (Benghazi) | Al-Hilal S.C.               # Benghazi
+Al-Ittihad Club (Tripoli) | Al-Ittihad S.C.          # Tripoli
+Al-Madina S.C.                                       # Tripoli
+Annajma S.C.                                         # Benghazi
+Al-Nasr SC (Benghazi) | Al-Nasr S.C.                 # Benghazi
+Olympic Azzaweya S.C.                                # Zawiya
+Al-Shat S.C.                                         # Tripoli
+Asswehly S.C.                                        # Misrata
+Al Tahaddy SC (Benghazi) | Al Tahaddy S.C.           # Benghazi
+Attersana S.C.                                       # Tripoli
+Al-Wahda SC (Tripoli) | Al-Wahda S.C.                # Tripoli
+Darnes Sports Club | Darnes S.C.                     # Derna
+Khaleej Sirte S.C.                                   # Sirte
+
+
+= Madagascar =
+
+# h3: Group A
+
+# table rows: 6, headers: 2  ! Club !! City
+
+AS Saint Michel                                      # Antananarivo
+Tana FC Formation                                    # Analamanga
+TCO Boeny                                            # Boeny
+FC Vakinankaratra                                    # Vakinankaratra
+Kohinoor SC                                          # Diana
+Ajesaia | Ajesaia Antananarivo                       # Antananarivo
+
+
+# h3: Group B
+
+# table rows: 6, headers: 2  ! Club !! City
+
+CNaPS Sport                                          # Miarinarivo
+FCE Atsinanana                                       # Atsinanana
+Tiavo Tem                                            # Manakara
+ASJFC Capricorne                                     # Atsimo-Andrefana
+AS Espoir Ambovombe                                  # Ambovombe-Androy
+FC Grand Olympique de Menabe | FC Grand Olympique    # Menabe
+
+
+= Malawi =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Big Bullets F.C.                                     # Blantyre
+Blue Eagles FC                                       # Lilongwe
+Blantyre United FC                                   # Blantyre
+Blue Eagles FC                                       # Lilongwe
+CIVO United                                          # Lilongwe
+Envirom FC                                           # Zomba
+EPAC United                                          # Lilongwe
+Kamuzu Barracks FC                                   # Blantyre
+Malawi Armed Forces College F.C. | MAFCO FC          # Salima
+Mighty Wanderers F.C. | Mighty Wanderers FC          # Blantyre
+Moyale Barracks FC                                   # Mzuzu
+Mponela United FC                                    # Mponela
+Red Lions FC (Malawi) | Red Lions FC                 # Zomba
+Silver Strikers F.C. | Silver Strikers FC            # Lilongwe
+Super Eagles FC                                      # Mzuzu
+Tigers FC (Blantyre) | Tigers FC                     # Blantyre
+
+
+= Mali =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+AS Bakaridjan                                        # Ségou
+Association Sportive de Bamako | AS Bamako           # Bamako
+AS Nianan                                            # Koulikoro
+AS Olympique de Messira                              # Bamako
+AS Police (Bamako) | AS Police                       # Bamako
+AS Real Bamako                                       # Bamako
+Cercle Olympique de Bamako                           # Bamako
+CS Duguwolofila                                      # Koulikoro
+Débo Club de Mopti                                   # Mopti
+Djoliba AC                                           # Bamako
+AS Eliwidj FC                                        # Aguelhok
+JS Centre Salif Keita                                # Bamako
+Office du Niger Sports                               # Ségou
+Onze Créateurs de Niaréla                            # Bamako
+Stade Malien                                         # Bamako
+USFAS Bamako                                         # Bamako
+
+
+= Mauritania =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+ADK Moderne                                          # Kaédi
+ASAC Concorde                                        # Nouakchott
+ACS Ksar                                             # Nouakchott
+ASC Armée Nationale                                  # Nouakchott
+ASC Assaba                                           # Assaba
+AS Garde Nationale                                   # Nouakchott
+ASC Guemeul                                          # Rosso
+ASC Kédia                                            # Zouérate
+ASC Nasr de Sebkha                                   # Sebkha
+FC Tevragh-Zeina                                     # Nouakchott
+ASC Tidjikja                                         # Nouakchott
+ASC Snim                                             # Nouadhibou
+FC Nouadhibou                                        # Nouadhibou
+ASC Trarza Nadi Sporting | ASC Trarza NS             # Rosso
+
+
+= Mauritius =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+AS de Vacoas-Phoenix                                 # Vacoas-Phoenix
+AS Port-Louis 2000                                   # Port Louis
+AS Rivière du Rempart                                # Mapou
+Bolton City Youth Club                               # Central Flacq
+Cercle de Joachim SC                                 # Curepipe
+Chamarel FC                                          # Bambous
+Curepipe Starlight SC                                # Curepipe
+Entente Boulet Rouge-Riche Mare Rovers               # Central Flacq
+Pamplemousses SC                                     # Belle Vue Maurel
+Petite Rivière Noire SC                              # Tamarin
+
+
+= Morocco =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+AS Salé                                              # Salé
+Chabab Rif Al Hoceima | CR Al Hoceima                # Al Hoceima
+Difaâ El Jadidi | DH El Jadidi                       # El Jadida
+FAR Rabat | AS FAR                                   # Rabat
+Fath Union Sport | Fath US                           # Rabat
+Hassania Agadir | Hassania US Agadir                 # Agadir
+KAC Kénitra | Kénitra AC                             # Kénitra
+Kawkab Marrakech | Kawkab AC Marrakech               # Marrakech
+MAS Fez | Maghreb AS Fes                             # Fes
+Moghreb Tétouan | MA Tétouan                         # Tétouan
+Olympic Safi | OC Safi                               # Safi
+OC Khouribga                                         # Khouribga
+Raja Casablanca | Raja CA                            # Casablanca
+Renaissance de Berkane | RS Berkane                  # Berkane
+Wydad Casablanca | Wydad AC                          # Casablanca
+Widad Fez | WA Fes                                   # Fes
+
+
+= Mozambique =
+
+# table rows: 13, headers: 2  ! Club !! City
+
+Liga Muçulmana de Maputo | Liga Muçulmana            # Maputo
+Clube Ferroviário da Beira | Ferroviário Beira       # Beira
+GD HCB Songo                                         # Songo
+Clube Ferroviário de Maputo | Ferroviário Maputo     # Maputo
+CD Costa do Sol                                      # Maputo
+C.D. Maxaquene                                       # Maputo
+FC Chibuto                                           # Chibuto
+Clube Ferroviário de Nampula | Ferroviário Nampula   # Nampula
+Clube Desportivo de Nacala | CD Nacala               # Nacala
+GD Estrela Vermelha                                  # Maputo
+GD da Companhia Têxtil do Punguè                     # Beira
+Clube Ferroviário de Pemba | Ferroviário Pemba       # Pemba
+Grupo Desportivo de Maputo | Desportivo Maputo       # Maputo
+
+
+= Namibia =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+African Stars F.C.                                   # Windhoek
+Black Africa F.C.                                    # Windhoek
+Blue Boys F.C.                                       # Swakopmund
+Blue Waters F.C.                                     # Walvis Bay
+Eleven Arrows F.C.                                   # Walvis Bay
+F.C. Civics Windhoek                                 # Windhoek
+Orlando Pirates S.C.                                 # Windhoek
+Ramblers F.C.                                        # Windhoek
+Rundu Chiefs FC | Rundu Chiefs F.C.                  # Rundu
+Tura Magic F.C.                                      # Windhoek
+United Africa Tigers                                 # Windhoek
+United Stars F.C.                                    # Rundu
+
+
+= Niger =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+AS Douanes (Niamey) | AS Douanes                     # Niamey
+AS FAN Niamey | AS FAN                               # Niamey
+Olympic FC de Niamey | Olympic FC                    # Niamey
+Sahel SC                                             # Niamey
+Akokana FC d'Arlit | Akokana FC                      # Arlit
+US GN | US Gendarmerie Nationale                     # Niamey
+Urana FC d'Arlit | Urana FC                          # Arlit
+ASN Nigelec                                          # Niamey
+AS GNN                                               # Niamey
+Kandadji Sport                                       # Niamey
+Zumunta AC                                           # Niamey
+Espoir FC (Niger) | Espoir FC                        # Zinder
+Dan Kassawa FC                                       # Maradi
+Alkali Nassara Club                                  # Zinder
+
+
+= Nigeria =
+
+# table rows: 20, headers: 2  ! Club !! City
+
+Abia Warriors F.C.                                   # Umuahia
+Akwa United F.C.                                     # Uyo
+Bayelsa United F.C.                                  # Yenegoa
+Crown F.C.                                           # Ogbomosho
+Dolphins F.C. (Port Harcourt) | Dolphins F.C.        # Port Harcourt
+El-Kanemi Warriors F.C.                              # Maiduguri
+Enugu Rangers                                        # Enugu
+Enyimba International F.C.                           # Aba
+Giwa FC | Giwa F.C.                                  # Jos
+Gombe United F.C.                                    # Gombe
+Heartland F.C.                                       # Owerri
+Kaduna United F.C.                                   # Kaduna
+Kano Pillars F.C.                                    # Kano
+Lobi Stars F.C.                                      # Makurdi
+Nasarawa United F.C.                                 # Lafia
+Nembe City F.C.                                      # Nembe
+Sharks F.C.                                          # Port Harcourt
+Sunshine Stars F.C.                                  # Akure
+Taraba F.C.                                          # Jalingo
+Warri Wolves F.C.                                    # Warri
+
+
+= Réunion =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+AJ Petite-Île                                        # Saint-Joseph
+AS Excelsior                                         # Saint-Joseph
+JS Saint-Pierroise                                   # Saint-Pierre
+Saint-Denis FC                                       # Saint-Denis
+Saint-Pauloise FC                                    # Saint-Paul
+SS Jeanne d'Arc                                      # Le Port
+SS Rivière Sport                                     # La Rivière
+SS Saint-Louisienne                                  # Saint-Louis
+US Bénédictine                                       # Saint-Benoît
+US Possession                                        # La Possession
+US Sainte-Marienne                                   # Sainte-Marie
+US Stade Tamponnaise                                 # Le Tampon
+
+
+= Rwanda =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Amagaju F.C.                                         # Gikongoro
+AS Kigali                                            # Kigali
+Armée Patriotique Rwandaise F.C. | A.P.R. F.C.       # Kigali
+Espoir FC (Rwanda) | Espoir F.C.                     # Cyangugu
+Espérance F.C. (Kigali) | Espérance F.C.             # Kigali
+Etincelles F.C.                                      # Gisenyi
+Gicumbi F.C.                                         # Byumba
+S.C. Kiyovu Sports                                   # Kigali
+Marines F.C.                                         # Gisenyi
+A.S. Muhanga                                         # Gitarama
+Mukura Victory Sports F.C.                           # Butare
+Musanze F.C.                                         # Ruhengeri
+Police F.C. (Rwanda) | Police F.C.                   # Kibungo
+Rayon Sports F.C.                                    # Butare
+
+
+= São Tomé and Príncipe =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Futebol Club Aliança Nacional | FC Aliança Nacional   # Pantufo
+Bairros Unidos FC                                    # Caixão Grande
+Clube Desportivo de Guadalupe | CD Guadalupe         # Guadalupe
+Grupo Desportivo Cruz Vermelha | GD Cruz Vermelha    # Almeirim
+Juba Diogo Simão                                     # Diogo Simão
+Desportivo de Oque d'El Rei                          # Oque d'El Rei
+Sporting Praia Cruz                                  # São Tomé
+Trindade (football club) | Trindade FC               # Trindade
+UDRA | UD Rei Amador                                 # São João dos Angolares
+Vitória FC (Riboque) | Vitória FC                    # São Tomé
+
+
+= Senegal =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+AS Pikine                                            # Pikine
+ASC Jaraaf                                           # Dakar
+ASC Port Autonome                                    # Dakar
+US Ouakam                                            # Dakar
+Touré Kunda Foot-Pro                                 # Mbour
+Dakar UC                                             # Dakar
+Diambars FC                                          # Saly
+Olympique de Ngor                                    # Dakar
+Stade de Mbour                                       # Mbour
+ASC SUNEOR                                           # Diourbel
+ASC Linguère                                         # Saint-Louis
+Casa Sports                                          # Ziguinchor
+ASC Niarry Tally                                     # Dakar
+ASC Yeggo                                            # Dakar
+
+
+= Seychelles =
+
+# table rows: 10, headers: 2  ! Club !! City
+
+Anse Réunion FC                                      # Anse Réunion
+Côte d'Or FC                                         # Praslin
+La Passe FC                                          # La Passe
+Light Stars FC                                       # Grande Anse
+Northern Dynamo                                      # Glacis
+St Francis FC (Seychelles) | St Francis FC           # Baie Lazare
+Saint Louis Suns United                              # Victoria
+St Michel United FC                                  # Anse-aux-Pins
+St Roch United FC                                    # Bel Ombre
+The Lions FC                                         # Cascade
+
+
+= Sierra Leone =
+
+# table rows: 15, headers: 2  ! Club !! City
+
+Diamond Stars F.C.                                   # Koidu Town
+East End Lions F.C.                                  # Freetown
+Mighty Blackpool                                     # Freetown
+Bo Rangers                                           # Bo
+Kallon F.C.                                          # Freetown
+Ports Authority F.C.                                 # Freetown
+Kamboi Eagles                                        # Kenema
+Gem Stars                                            # Tongo
+Anti Drugs Strikers FC                               # Newton
+FC Johansen                                          # Freetown
+Old Edwardians F.C.                                  # Freetown
+Republic of Sierra Leone Armed Forces FC             # Makeni
+Freetown City F.C.                                   # Freetown
+Central Parade                                       # Freetown
+
+
+= Somalia =
+
+# table rows: 8, headers: 2  ! Club !! City
+
+Savana FC                                            # Mogadishu
+Banaadir Telecom FC                                  # Mogadishu
+Elman FC                                             # Mogadishu
+Somali Police FC | Heegan FC                         # Mogadishu
+Horseed FC                                           # Horseed
+Jeenyo United F.C. | Jeenyo United FC                # Mogadishu
+Dekedda FC                                           # Mogadishu
+Gaadiidka FC                                         # Mogadishu
+
+
+= South Africa =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Ajax Cape Town F.C. | Ajax Cape Town                 # Cape Town
+AmaZulu F.C.                                         # Durban
+Bidvest Wits F.C. | Bidvest Wits                     # Johannesburg
+Bloemfontein Celtic F.C. | Bloemfontein Celtic       # Bloemfontein
+Free State Stars F.C. | Free State Stars             # Bethlehem
+Lamontville Golden Arrows F.C. | Lamontville Golden Arrows   # Durban
+Kaizer Chiefs F.C. | Kaizer Chiefs                   # Johannesburg
+Mamelodi Sundowns F.C. | Mamelodi Sundowns           # Pretoria
+Maritzburg United F.C. | Maritzburg United           # Pietermaritzburg
+Moroka Swallows F.C. | Moroka Swallows               # Johannesburg
+Mpumalanga Black Aces F.C. | Mpumalanga Black Aces   # Johannesburg
+Orlando Pirates F.C. | Orlando Pirates               # Johannesburg
+Platinum Stars F.C. | Platinum Stars                 # Phokeng
+Polokwane City F.C. | Polokwane City                 # Polokwane
+SuperSport United F.C. | SuperSport United           # Pretoria
+University of Pretoria F.C. | Tuks F.C.              # Pretoria
+
+
+= South Sudan =
+
+# table rows: 7, headers: 2  ! Club !! City
+
+Al-Hilal FC (Juba) | Al-Hilal FC                     # Juba
+Al Merreikh FC (Juba) | Al Merreikh FC               # Juba
+Atlabara FC                                          # Juba
+El Nasir FC                                          # Juba
+Al-Malakia FC                                        # Juba
+Talanga FC                                           # Juba
+Wau Salaam F.C.                                      # Wau
+
+
+= Sudan =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Al-Ahli Club (Atbara) | Al-Ahli Atbara               # Atbara
+Al Ahli SC (Khartoum) | Al Ahli Khartoum             # Khartoum
+Al-Ahly Shendi                                       # Shendi
+Al-Hilal ESC (Al-Fasher) | Hilal Al-Fasher           # Al-Fashir
+Al-Hilal SC (Kadougli) | Hilal Kadougli              # Kadougli
+Al-Hilal Club (Omdurman) | Al Hilal Omdurman         # Omdurman
+Al-Ittihad SC (Wad Madani) | Ittihad Wad Madani      # Wad Madani
+Al Khartoum SC                                       # Khartoum
+Al-Merreikh SC (Al-Fasher) | Merreikh Al-Fasher      # Al-Fashir
+Al-Merrikh SC                                        # Omdurman
+Al Neel SC (Al-Hasahisa) | Al Neel Al-Hasahisa       # Al-Hasahisa
+Al-Nesoor SC                                         # Omdurman
+Al Rabita Kosti                                      # Kosti
+Alamal SC Atbara                                     # Atbara
+
+
+= Tanzania =
+
+# table rows: 14, headers: 2  ! Club !! City
+
+Ashanti United S.C.                                  # Dar es Salaam
+Azam F.C.                                            # Dar es Salaam
+Coastal Union F.C.                                   # Tanga
+JKT Mgambo                                           # Tanga
+JKT Oljoro FC | JKT Oljoro F.C.                      # Arusha
+Ruvu Shooting                                        # Dar es Salaam
+JKT Ruvu Stars                                       # Dar es Salaam
+Kagera Sugar FC | Kagera Sugar F.C.                  # Bukoba
+Mbeya City F.C.                                      # Mbeya
+Mtibwa Sugar F.C.                                    # Turiani
+Prisons FC | Prisons F.C.                            # Mbeya
+Rhino Rangers F.C.                                   # Tabora
+Simba S.C.                                           # Dar es Salaam
+Young Africans S.C.                                  # Dar es Salaam
+
+
+= Togo =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Anges FC                                             # Notsé
+AS Douanes (Lomé) | AS Douanes                       # Lomé
+Foadan FC                                            # Dapaong
+Dynamic Togolais                                     # Lomé
+AC Semassi F.C. | AC Semassi FC                      # Sokodé
+Gomido FC                                            # Kpalime
+ASKO Kara                                            # Kara
+OC Agaza                                             # Lomé
+Unisport de Sokodé                                   # Sokodé
+AS Togo-Port                                         # Lomé
+Gbikinti FC de Bassar                                # Bassar
+Maranatha FC                                         # Fiokpo
+
+
+= Tunisia =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+AS Marsa                                             # La Marsa
+CA Bizertin                                          # Bizerte
+Club Africain                                        # Tunis
+CS Hammam-Lif                                        # Hammam-Lif
+CS Sfaxien                                           # Sfax
+EGS Gafsa                                            # Gafsa
+ES Tunis                                             # Tunis
+ES Sahel                                             # Sousse
+ES Métlaoui                                          # Métlaoui
+Grombalia Sports                                     # Grombalia
+JS Kairouan                                          # Kairouan
+LPS Tozeur                                           # Tozeur
+Olympique du Kef                                     # El Kef
+Stade Gabèsien                                       # Gabès
+Stade Tunisien                                       # Tunis
+US Monastir                                          # Monastir
+
+
+= Uganda =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Bright Stars FC                                      # Kampala
+Bul FC | BIDCO Bul FC                                # Jinja
+CRO FC                                               # Mbale
+Entebbe Young FC                                     # Kampala
+Express FC                                           # Kampala
+Kampala City Council FC                              # Kampala
+Kiira Young FC                                       # Kampala
+Masaka Local Council FC                              # Masaka
+Police FC (Uganda) | Police FC                       # Kampala
+Proline FC                                           # Kampala
+Victoria University SC                               # Kampala
+Simba FC                                             # Lugazi
+Soana FC                                             # Kampala
+Uganda Revenue Authority SC                          # Kampala
+SC Villa                                             # Kampala
+Vipers S.C. | Vipers SC                              # Wakiso Town
+
+
+= Zambia =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Green Eagles                                         # Kabwe
+Green Buffaloes F.C.                                 # Lusaka
+Indeni FC | Indeni F.C.                              # Ndola
+Kabwe Warriors F.C.                                  # Kabwe
+Konkola Blades F.C.                                  # Chililabombwe
+Konkola Mine Police F.C.                             # Chililabombwe
+NAPSA Stars F.C.                                     # Lusaka
+Nakambala Leopards F.C.                              # Mazabuka
+National Assembly F.C.                               # Lusaka
+Nchanga Rangers F.C.                                 # Chingola
+Nkana F.C.                                           # Kitwe
+Power Dynamos F.C.                                   # Kitwe
+Red Arrows F.C.                                      # Lusaka
+Roan United F.C.                                     # Luanshya
+Zanaco F.C.                                          # Lusaka
+ZESCO United F.C.                                    # Ndola
+
+
+= Zanzibar =
+
+# table rows: 12, headers: 2  ! Club !! City
+
+Bandari FC (Zanzibar) | Bandari FC                   # 
+Chipukizi                                            # Pemba
+Chuoni FC                                            # Unguja
+Duma FC                                              # Pemba
+Jamhuri FC                                           # Chakechake
+KMKM FC                                              # Zanzibar City
+Mafunzo FC                                           # Unguja
+Malindi FC                                           # Stone Town
+Mtende Rangers                                       # 
+Mundu SC                                             # Nungwi
+Super Falcon                                         # 
+Zimamoto FC | Zimamoto                               # 
+
+
+= Zimbabwe =
+
+# table rows: 16, headers: 2  ! Club !! City
+
+Black Mambas F.C.                                    # Harare
+Black Rhinos F.C.                                    # Harare
+Buffaloes F.C.                                       # Mutare
+CAPS United F.C.                                     # Harare
+Chicken Inn F.C.                                     # Bulawayo
+Dynamos F.C. (Zimbabwe) | Dynamos F.C.               # Harare
+FC Platinum | F.C. Platinum                          # Zvishavane
+Harare City F.C.                                     # Harare
+Highlanders F.C.                                     # Bulawayo
+How Mine FC | How Mine F.C.                          # Bulawayo
+Hwange F.C.                                          # Hwange
+Monomotapa United F.C.                               # Harare
+Motor Action F.C.                                    # Harare
+Shabanie Mine F.C.                                   # Zvishavane
+Triangle United F.C.                                 # Chiredzi
+Triple B FC | Triple B F.C.                          # Beitbridge
+
+

@@ -136,8 +136,6 @@
 |}
 
 
-__END__
-
 
 ==Botswana==
 {{main|List of football clubs in Botswana}}
@@ -274,32 +272,6 @@ __END__
 * Top-level league: [[Elite One]]
 
 ''As of 2013-14 season''
-{{location map+ |Cameroon
- |float=right
- |width=300
- |alt=Locations of the 2013–14 Cameroon Premiere Division
- |caption=Locations of the 2013–14 Premiere Division
- |places=
-{{location map~ |Cameroon |lat=3.866667 |long=11.516667 |label= <div style="font-size:90%;position:relative;top:-2px;">[[Canon Sportif de Yaoundé|Canon]]</div>|position=right}}
-{{location map~ |Cameroon |lat=3.866667 |long=11.516667 |label= <div style="font-size:90%;position:relative;top:8px;left:0px;">[[Tonnerre Yaoundé|Tonnerre]]</div>|position=right}}
-{{location map~ |Cameroon |lat=9.3 |long=13.4 |label= <div style="font-size:90%;position:relative;top:11px;left:-3px;">[[Coton Sport FC de Garoua|Coton Sport]]</div>|position=right}}
-{{location map~ |Cameroon |lat=5.333333 |long=10.4 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[Fovu Baham|Fovu]]</div>|position=right}}
-{{location map~ |Cameroon |lat=4.016667 |long=9.216667 |label= <div style="font-size:90%;position:relative;top:13px;left:-5px;">[[Njala Quan Sports Academy|NQSA]]</div>|position=right}}
-{{location map~ |Cameroon |lat=5.25 |long=10.833333 |label= <div style="font-size:90%;position:relative;top:11px;left:-4px;">[[Panthère du Ndé|Panthère]]</div>|position=right}}
-{{location map~ |Cameroon |lat=4.2 |long=12.916667 |label= <div style="font-size:90%;position:relative;top:-3px;left:-2px;">[[Renaissance FC de Ngoumou|Renaissance]]</div>|position=right}}
-{{location map~ |Cameroon |lat=5.283333 |long=10.283333 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[Sable FC|Sable]]</div>|position=left}}
-{{location map~ |Cameroon |lat=5.15 |long=10.183333 |label= <div style="font-size:90%;position:relative;top:11px;left:4px;">[[Unisport de Bafang|Unisport]]</div>|position=left}}
-{{location map~ |Cameroon |lat=5.933333 |long=10.166667 |label=<div style="font-size:90%;position:relative;top:-7px;left:-5px;">[[Yong Sports Academy|YOSA]]</div>|position=right}}
-{{location map~ |Cameroon |lat=4.05 |long=9.7 |label=<div style="font-size:90%;position:relative;top:-5px;left:-3px;">'''Douala'''</div>|position=right}}
-
-<!--DISPLAY OF DOUALA TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |Cameroon |mark=TransparentPlaceholder.png |marksize=1 |lat=12 |long=8.5 |label=<div style="font-size:80%;">'''Douala&nbsp;teams'''<br>
-[[Douala Athletic Club|Douala AC]]<br>
-[[Les Astres FC|Les Astres]]<br>
-[[New Star de Douala|New Star]]<br>
-[[Union Sportive de Douala|Union]]<br>
-</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px" scope="col"|Club
@@ -528,27 +500,6 @@ __END__
 * Top-level league: [[Linafoot]]
 
 ''As of 2013–2014 season''
-{{location map+ |Democratic Republic of the Congo
- |float=right
- |width=440
- |alt=Locations of the 2013–14 Linafoot
- |caption=Locations of the 2013–14 Linafoot
- |places=
-{{location map~ |Democratic Republic of the Congo |lat=-1.683333 |long=29.233333 |label= <div style="font-size:90%;position:relative;top:-4px;left:-1px;">[[AS Dauphins Noirs|Dauphins&nbsp;Noirs]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-1.683333 |long=29.233333 |label= <div style="font-size:90%;position:relative;top:-16px;left:3px;">[[DC Virunga|Virunga]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=0.516667 |long=25.2 |label= <div style="font-size:90%;position:relative;top:-5px;left:1px;">[[AS Makiso|Makiso]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-2.5 |long=28.866667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[OC Muungano|Muungano]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-6.15 |long=23.6 |label= <div style="font-size:90%;position:relative;top:12px;left:-1px;">[[SM Sanga Balende|Sanga&nbsp;Balende]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=-5.816667 |long=13.483333 |label= <div style="font-size:90%;position:relative;top:-7px;left:-4px;">[[TC Elima|Elima]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=0.047778 |long=18.255833 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[TP Molunge|Molunge]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=-5.897 |long=22.448833 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[US Tshinkunku|Tshinkunku]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:1px;left:-1px;">[[AS Vita Club|Vita Club]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:-11px;left:-1px;">[[DC Motema Pembe|Motema&nbsp;Pembe]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=-4.325 |long=15.322222 |label= <div style="font-size:90%;position:relative;top:-23px;left:-1px;">[[AS Rojolu|Rojolu]]</div>|position=right}}
-{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-5px;left:1px;">[[TP Mazembe|Mazembe]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-17px;left:1px;">[[FC Saint Eloi Lupopo|Lupopo]]</div>|position=left}}
-{{location map~ |Democratic Republic of the Congo |lat=-11.666667 |long=27.466667 |label=<div style="font-size:90%;position:relative;top:-29px;left:1px;">[[CS Don Bosco|Don Bosco]]</div>|position=left}}
-}}
 
 {| class="wikitable sortable"
 !width="300px" scope="col"|Club
@@ -593,7 +544,6 @@ __END__
 {| class="wikitable sortable"
 !width="300px" scope="col"|Club
 !width="150px" scope="col"|Location
-
 |-
 | bgcolor=#ffff44|[[AS Ali Sabieh Djibouti Télécom]] || [[Djibouti (city)|Djibouti]]
 |-
@@ -623,36 +573,6 @@ __END__
 * Top-level league: [[Egyptian Premier League]]
 
 ''As of [[2017–18 Egyptian Premier League|2017–18]]''
-{{location map+ |Egypt
-|float=right
-|width=500
-|alt=Locations of the 2017–18 Egyptian Premier League teams
-|caption=Locations of the '''2017–18 Egyptian Premier League''' teams
-|places=
-{{Location map~ |Egypt |lat=27.29     |long=32.28     |label=<small>[[Alassiouty Sport|Al Assiouty]]</small>          |position=left}}
-{{location map~ |Egypt |lat=30.583333 |long=32.266667 |label=<small>[[Ismaily SC|Ismaily]]</small>                    |position=right}}
-{{location map~ |Egypt |lat=31        |long=29.8      |label=<small>[[Al Ittihad Alexandria Club|Al Ittihad]]</small> |position=left}}
-{{location map~ |Egypt |lat=31.26     |long=32.29     |label=<small>[[Al-Masry SC|Al Masry]]</small>                  |position=top}}
-{{location map~ |Egypt |lat=29.308374 |long=30.844105 |label=<small>[[Misr Lel-Makkasa SC|Makkasa]]</small>           |position=bottom}}
-{{location map~ |Egypt |lat=29.966667 |long=32.5765   |label=<small>[[Petrojet SC|Petrojet]]</small>                  |position=right}}
-{{Location map~ |Egypt |lat=31.018292 |long=28.412833 |label=<small>[[Raja CA|El Raja]]</small>                       |position=bottom}}
-{{location map~ |Egypt |lat=31.198    |long=29.9192   |label=<small>[[Smouha SC|Smouha]]</small>                      |position=top}}
-{{location map~ |Egypt |lat=30.6      |long=31.0798   |label=<small>[[Tanta SC|Tanta]]</small>                        |position=left}}
-{{location map~ |Egypt |lat=30.05     |long=31.233333 |label=</small>'''Cairo'''</small>                              |position=bottom}}
-
-<!--DISPLAY OF CAIRO TEAMS IN BOTTOM LEFT CORNER-->
-{{Location map~ |Egypt |mark=TransparentPlaceholder.png |marksize=1 |lat=24.89 |long=25 |label=<div style="font-size:80%;">'''Cairo&nbsp;teams'''<br>
-[[Al Ahly SC|Al Ahly]]<br />
-[[El Dakhleya SC|El Dakhleya]]<br />
-[[ENPPI SC|ENPPI]]<br />
-{{nowrap|[[El Entag El Harby SC|El Entag El Harby]]}}<br />
-[[El Mokawloon SC|Al Mokawloon]]<br />
-[[Al Nasr SC (Egypt)|Al Nasr]]<br />
-[[Tala'ea El Gaish SC|Tala'ea El Gaish]]<br />
-[[Wadi Degla SC|Wadi Degla]]<br />
-[[Zamalek SC|Zamalek]]
-</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px" scope="col"|Club
@@ -966,34 +886,6 @@ __END__
 * Top-level league: [[Ghana Premier League]]
 
 ''As of 2013-14 season''
-{{location map+ |Ghana
- |float=right
- |width=350
- |alt=Locations of the 2013–14 Ghana Premier League
- |caption=Locations of the 2013–14 Ghana Premier League
- |places=
-{{location map~ |Ghana |lat=7.283333 |long=-2.883333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Aduana Stars|Aduana]]</div>|position=right}}
-{{location map~ |Ghana |lat=10.066667 |long=-2.5 |label= <div style="font-size:90%;position:relative;top:11px;left:-1px;">[[All Stars F.C.|All Stars]]</div>|position=right}}
-{{location map~ |Ghana |lat=5.666667 |long=0 |label= <div style="font-size:90%;position:relative;top:-7px;left:-3px;">[[Amidaus Professionals FC|Amidaus]]</div>|position=right}}
-{{location map~ |Ghana |lat=7.083333 |long=-2.016667 |label= <div style="font-size:90%;position:relative;top:-5px;left:-2px;">[[Bechem United FC|Bechem]]</div>|position=right}}
-{{location map~ |Ghana |lat=7.45 |long=-2.583333 |label= <div style="font-size:90%;position:relative;top:-5px;left:-2px;">[[Berekum Chelsea F.C.|Chelsea]]</div>|position=right}}
-{{location map~ |Ghana |lat=5.1 |long=-1.25 |label= <div style="font-size:90%;position:relative;top:11px;left:-2px;">[[Ebusua Dwarfs|E. Dwarfs]]</div>|position=right}}
-{{location map~ |Ghana |lat=7 |long=0.3 |label= <div style="font-size:90%;position:relative;top:-5px;left:5px;">[[Heart of Lions F.C.|H. Lions]]</div>|position=left}}
-{{location map~ |Ghana |lat=5.3 |long=-1.983333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[Medeama SC|Medeama]]</div>|position=left}}
-{{location map~ |Ghana |lat=6.066667 |long=-1.4 |label= <div style="font-size:90%;position:relative;top:12px;left:1px;">[[New Edubiase United FC|New&nbsp;Edubiase]]</div>|position=left}}
-{{location map~ |Ghana |lat=4.916667 |long=-1.766667 |label= <div style="font-size:90%;position:relative;top:-5px;left:2px;">[[Sekondi Hasaacas F.C.|Hasaacas]]</div>|position=left}}
-{{location map~ |Ghana |lat=6.2 |long=-1.683333 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Ashanti Gold SC|Ashanti Gold]]</div>|position=left}}
-{{location map~ |Ghana |lat=6.666667 |long=-1.616667 |label= <div style="font-size:90%;position:relative;top:7px;left:-1px;">[[Asante Kotoko SC|Asante&nbsp;Kotoko]]</div>|position=right}}
-{{location map~ |Ghana |lat=6.666667 |long=-1.616667 |label= <div style="font-size:90%;position:relative;top:-4px;left:2px;">[[King Faisal Babes FC|King Faisal]]</div>|position=left}}
-{{location map~ |Ghana |lat=5.55 |long=-0.2 |label=<div style="font-size:90%;position:relative;top:-5px;left:2px;">'''Accra'''</div>|position=left}}
-
-<!--DISPLAY OF ACCRA TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |Ghana |mark=TransparentPlaceholder.png |marksize=1 |lat=5.2 |long=0.3 |label=<div style="font-size:80%;">'''Accra&nbsp;teams'''<br>
-[[Hearts of Oak SC|Hearts of Oak]]<br>
-[[International Allies F.C.|Int. Allies]]<br>
-[[Liberty Professionals F.C.|Liberty Prof.]]<br>
-</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px"|Club
@@ -1107,26 +999,6 @@ __END__
 * Top-level league: [[Ligue 1 (Ivory Coast)|Ligue 1]]
 
 ''As of 2013 season''
-{{Location map+ |Ivory Coast |width=425 |float=above |caption=Locations of the 2012–13 Ligue 1 teams |places=
-{{Location map~ |Ivory Coast |lat=5.3364|long=-4.0266 |label=Abidjan |position=top }}
-{{Location map~ |Ivory Coast |lat=6.72972 |long=-3.49639 |label=[[AS Indenié Abengourou|AS Indenié]]| }}
-{{Location map~ |Ivory Coast |lat=7.8000|long=-3.1700 |label=[[AS Tanda]]|position=left }}
-{{Location map~ |Ivory Coast |lat=6.983333|long=-5.75 |label=[[CO Bouaflé]] |position=left }}
-{{Location map~ |Ivory Coast |lat=9.461254 |long=-5.638733 |label=[[CO Korhogo]] }}
-{{Location map~ |Ivory Coast |lat=9.501389 |long=-7.5625 |label=[[Denguelé Sports d'Odienné|Denguelé Sports]]| }}
-{{Location map~ |Ivory Coast |lat=6.81 |long=-5.2955 |label=[[Société Omnisports de l'Armée|S.O.A.]]| }}
-{{Location map~ |Ivory Coast |lat=5.2 |long=-06.3819 |label=[[Séwé Sports de San Pedro|Séwé Sports]] }}
-{{Location map~ |Ivory Coast |lat=6.13333|long=-5.93333 |label=[[Sporting Club de Gagnoa|SC Gagnoa]] |position=bottom }}
-{{Location map~ |Ivory Coast |lat=5.12|long=-3.733333 |label=[[USC Bassam]] |position=bottom }}
-<!--DISPLAY OF ABIDJAN TEAMS IN BOTTOM LEFT CORNER-->
-{{Location map~ |Ivory Coast |mark=TransparentPlaceholder.png |marksize=1 |lat=5 |long=-2.6 |label=<div style="font-size:80%;">'''Abidjan&nbsp;teams'''<br>
-[[Africa Sports National|Africa Sports]]<br>
-[[ASEC Mimosas]]<br>
-[[Academie de Foot Amadou Diallo|Djékanou]]<br>
-[[Jeunesse Club d'Abidjan|JCA]]<br>
-[[Stella Club d'Adjamé|Stella]]<br>
-</div>|position=top}}
-}}
 
 {| class="wikitable sortable"
 !width="300px" scope="col"|Club
@@ -1168,28 +1040,6 @@ __END__
 * Top-level league: [[Kenyan Premier League]]
 
 ''As of [[2014 Kenyan Premier League|2014 season]]''
-{{location map+ |Kenya |float=right |width=380 |caption=Locations of the 2014 Kenyan Premier League teams.|places=
-{{location map~ |Kenya |lat=-4.045006 |long=39.666154 |label= <div style="font-size:80%;">[[Bandari F.C. (Kenya)|Bandari]]</div>|position=right}}
-{{location map~ |Kenya |lat=-0.077675 |long=35.130832 |label= <div style="font-size:80%;">[[Chemelil Sugar F.C.|Chemelil]]</div>|position=left}}
-{{location map~ |Kenya |lat=-0.148921 |long=35.196339 |label= <div style="font-size:80%;">[[Muhoroni Youth F.C.|Muhoroni]]</div>|position=right}}
-{{location map~ |Kenya |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">Nairobi</div>|position=left}}
-{{location map~ |Kenya |lat=-0.895049 |long=34.533800 |label= <div style="font-size:80%;">[[Sony Sugar F.C.|Sony]]</div>|position=right}}
-{{location map~ |Kenya |lat=-1.038757 |long=37.083375 |label= <div style="font-size:80%;">[[Thika United F.C.|Thika]]</div>|position=right}}
-{{location map~ |Kenya |lat=-0.295637 |long=36.074399 |label= <div style="font-size:80%;">[[Nakuru Top Fry AllStars|AllStars]]</div>|position=bottom}}
-{{location map~ |Kenya |lat=-0.295637 |long=36.074399 |label= <div style="font-size:80%;">[[Ulinzi Stars F.C.|Ulinzi]]</div>|position=right}}
-{{location map~ |Kenya |lat=0.2898210 |long=34.761281 |label= <div style="font-size:80%;">[[Western Stima F.C.|Stima]]</div>|position=right}}
-}}
-{{location map+ |Nairobi |float=right |width=380 |caption=Locations of the 2014 Kenyan Premier League teams within [[Nairobi]].|places=
-{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[A.F.C. Leopards|Leopards]]</div>|position=bottom}}
-{{location map~ |Nairobi |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">[[Gor Mahia F.C.|Gor Mahia]]</div>|position=right}}
-{{location map~ |Nairobi |lat=-1.292377 |long=36.842439 |label= <div style="font-size:80%;">[[Kenya Commercial Bank S.C.|KCB]]</div>|position=left}}
-{{location map~ |Nairobi |lat=-1.300700 |long=36.807000 |label= <div style="font-size:80%;">[[Kenya Revenue Authority F.C.|KRA]]</div>|position=left}}
-{{location map~ |Nairobi |lat=-1.228242 |long=36.890776 |label= <div style="font-size:80%;">[[Mathare United|Mathare]]</div>|position=right}}
-{{location map~ |Nairobi |lat=-1.285067 |long=36.757904 |label= <div style="font-size:80%;">[[Nairobi City Stars|City Stars]]</div>|position=left}}
-<!--{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[Rangers F.C. (Kenya)|Rangers]]</div>|position=bottom}}-->
-{{location map~ |Nairobi |lat=-1.304194 |long=36.824472 |label= <div style="font-size:80%;">[[Sofapaka]]</div>|position=right}}
-{{location map~ |Nairobi |lat=-1.228242 |long=36.890776 |label= <div style="font-size:80%;">[[Tusker F.C.|Tusker]]</div>|position=left}}
-}}
 {| class="wikitable sortable"
 !width="300px"|Club
 !width="150px"|City
@@ -1558,29 +1408,6 @@ __END__
 * Top-level league: [[Botola|Botola 1]]
 
 ''As of 2013 season''
-{{location map+ |Morocco
- |float=right
- |width=450
- |alt=Locations of the 2013–14 Botola 1
- |caption=Locations of the 2013–14 Botola 1
- |places=
-{{location map~ |Morocco |lat=34.033333 |long=-6.8 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[AS Salé|Salé]]</div>|position=left}}
-{{location map~ |Morocco |lat=35.25 |long=-3.933333 |label= <div style="font-size:90%;position:relative;top:-6px;left:-3px;">[[Chabab Rif Al Hoceima|Al Hoceima]]</div>|position=right}}
-{{location map~ |Morocco |lat=33.233333 |long=-8.5 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Difaâ El Jadidi|El Jadidi]]</div>|position=left}}
-{{location map~ |Morocco |lat=30.433333 |long=-9.6 |label= <div style="font-size:90%;position:relative;top:8px;left:-2px;">[[Hassania Agadir|Hassania]]</div>|position=right}}
-{{location map~ |Morocco |lat=34.25 |long=-6.583333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[KAC Kénitra|Kénitra]]</div>|position=left}}
-{{location map~ |Morocco |lat=31.63 |long=-8.008889 |label= <div style="font-size:90%;position:relative;top:11px;left:-2px;">[[Kawkab Marrakech|Kawkab]]</div>|position=right}}
-{{location map~ |Morocco |lat=35.566667 |long=-5.366667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Moghreb Tétouan|Moghreb T.]]</div>|position=left}}
-{{location map~ |Morocco |lat=32.283333 |long=-9.233333 |label= <div style="font-size:90%;position:relative;top:8px;left:1px;">[[Olympic Safi|Safi]]</div>|position=left}}
-{{location map~ |Morocco |lat=32.883333 |long=-6.9 |label= <div style="font-size:90%;position:relative;top:12px;left:-1px;">[[OC Khouribga|Khouribga]]</div>|position=right}}
-{{location map~ |Morocco |lat=34.916667 |long=-2.316667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Nahdat Berkane|Nahdat]]</div>|position=left}}
-{{location map~ |Morocco |lat=34.033333 |long=-5 |label=<div style="font-size:90%;position:relative;top:8px;left:-1px;">[[MAS Fez|Maghreb F.]]</div>|position=right}}
-{{location map~ |Morocco |lat=34.033333 |long=-5 |label=<div style="font-size:90%;position:relative;top:18px;left:-1px;">[[Widad Fez|Widad F.]]</div>|position=right}}
-{{location map~ |Morocco |lat=33.533333 |long=-7.583333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Raja Casablanca|Raja]]</div>|position=right}}
-{{location map~ |Morocco |lat=33.533333 |long=-7.583333 |label= <div style="font-size:90%;position:relative;top:-3px;left:1px;">[[Wydad Casablanca|Wydad]]</div>|position=left}}
-{{location map~ |Morocco |lat=34.020882 |long=-6.84165 |label= <div style="font-size:90%;position:relative;top:8px;left:-1px;">[[FAR Rabat|FAR]]</div>|position=right}}
-{{location map~ |Morocco |lat=34.020882 |long=-6.84165 |label= <div style="font-size:90%;position:relative;top:18px;left:-1px;">[[Fath Union Sport|Fath]]</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px"|Club
@@ -1740,33 +1567,6 @@ __END__
 * Top-level league: [[Nigeria Premier League]]
 
 ''As of 2014:''
-{{location map+ |Nigeria
- |float=right
- |width=500
- |alt=Locations of the 2013–14 Nigeria Premier League
- |caption=Locations of the 2013–14 Nigeria Premier League
- |places=
-{{location map~ |Nigeria |lat=4.75 |long=7 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Dolphins F.C. (Port Harcourt)|Dolphins]]</div>|position=right}}
-{{location map~ |Nigeria |lat=4.75 |long=7 |label= <div style="font-size:80%;position:relative;top:22px;left:-3px;">[[Sharks F.C.|Sharks]]</div>|position=right}}
-{{location map~ |Nigeria |lat=5.533333 |long=7.483333 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Abia Warriors F.C.|Abia War.]]</div>|position=right}}
-{{location map~ |Nigeria |lat=5.05 |long=7.933333 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Akwa United F.C.|Akwa Utd]]</div>|position=right}}
-{{location map~ |Nigeria |lat=5.033333 |long=6.333333 |label= <div style="font-size:80%;position:relative;top:12px;left:5px;">[[Bayelsa United F.C.|Bayelsa Utd]]</div>|position=left}}
-{{location map~ |Nigeria |lat=8.133333 |long=4.25 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Crown F.C.|Crown]]</div>|position=right}}
-{{location map~ |Nigeria |lat=11.833333 |long=13.15 |label= <div style="font-size:80%;position:relative;top:-5px;left:3px;">[[El-Kanemi Warriors F.C.|El-Kanemi]]</div>|position=left}}
-{{location map~ |Nigeria |lat=6.452667 |long=7.510333 |label= <div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Enugu Rangers|Rangers]]</div>|position=right}}
-{{location map~ |Nigeria |lat=5.116667 |long=7.366667 |label= <div style="font-size:80%;position:relative;top:-4px;left:-4px;">[[Enyimba International F.C.|Enyimba]]</div>|position=right}}
-{{location map~ |Nigeria |lat=9.933333 |long=8.883333 |label= <div style="font-size:80%;position:relative;top:8px;left:1px;">[[Giwa FC|Giwa]]</div>|position=left}}
-{{location map~ |Nigeria |lat=10.283333 |long=11.166667 |label= <div style="font-size:80%;position:relative;top:12px;left:-3px;">[[Gombe United F.C.|Gombe Utd]]</div>|position=right}}
-{{location map~ |Nigeria |lat=5.485 |long=7.035 |label= <div style="font-size:80%;position:relative;top:-5px;left:3px;">[[Heartland F.C.|Heartland]]</div>|position=left}}
-{{location map~ |Nigeria |lat=10.516667 |long=7.433333 |label= <div style="font-size:80%;position:relative;top:12px;left:3px;">[[Kaduna United F.C.|Kaduna Utd]]</div>|position=left}}
-{{location map~ |Nigeria |lat=12 |long=8.516667 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Kano Pillars F.C.|Pillars]]</div>|position=left}}
-{{location map~ |Nigeria |lat=7.730556 |long=8.536111 |label=<div style="font-size:80%;position:relative;top:-6px;left:3px;">[[Lobi Stars F.C.|Lobi Stars]]</div>|position=left}}
-{{location map~ |Nigeria |lat=8.491667 |long=8.516667 |label=<div style="font-size:80%;position:relative;top:-6px;left:-3px;">[[Nasarawa United F.C.|Nasarawa Utd]]</div>|position=right}}
-{{location map~ |Nigeria |lat=4.533333 |long=6.283333 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Nembe City F.C.|Nembe City]]</div>|position=left}}
-{{location map~ |Nigeria |lat=7.25 |long=5.195 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Sunshine Stars F.C.|Sunshine Stars]]</div>|position=left}}
-{{location map~ |Nigeria |lat=8.9 |long=11.366667 |label=<div style="font-size:80%;position:relative;top:-4px;left:2px;">[[Taraba F.C.|Taraba]]</div>|position=left}}
-{{location map~ |Nigeria |lat=5.516667 |long=5.75 |label=<div style="font-size:80%;position:relative;top:9px;left:2px;">[[Warri Wolves F.C.|Warri Wolves]]</div>|position=left}}
-}}
 
 {| class="wikitable sortable"
 !width="300px"|Club
@@ -2069,38 +1869,6 @@ __END__
 * Top-level league: [[Premier Soccer League]]
 
 ''As of 2013''
-{{location map+ |South Africa
- |float=right
- |width=450
- |alt=Locations of the 2013–14 Premier Soccer League
- |caption=Locations of the 2013–14 Premier Soccer League
- |places=
-{{location map~ |South Africa |lat=-33.925278 |long=18.423889 |label= <div style="font-size:90%;position:relative;top:-4px;left:1px;">[[Ajax Cape Town F.C.|Ajax]]</div>|position=left}}
-{{location map~ |South Africa |lat=-28.233333 |long=28.3 |label= <div style="font-size:90%;position:relative;top:-4px;left:1px;">[[Free State Stars F.C.|Free State]]</div>|position=left}}
-{{location map~ |South Africa |lat=-29.616667 |long=30.383333 |label= <div style="font-size:90%;position:relative;top:-5px;left:-4px;">[[Maritzburg United F.C.|Maritzburg]]</div>|position=right}}
-{{location map~ |South Africa |lat=-25.583333 |long=27.133333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[Platinum Stars F.C.|Platinum S.]]</div>|position=left}}
-{{location map~ |South Africa |lat=-23.9 |long=29.45 |label= <div style="font-size:90%;position:relative;top:-5px;left:5px;">[[Polokwane City F.C.|Polokwane C.]]</div>|position=left}}
-{{location map~ |South Africa |lat=-29.116667 |long=26.216667 |label= <div style="font-size:90%;position:relative;top:11px;left:3px;">[[Bloemfontein Celtic F.C.|B. Celtic]]</div>|position=left}}
-{{location map~ |South Africa |lat=-29.883333 |long=31.05 |label= <div style="font-size:90%;position:relative;top:9px;left:-4px;">[[AmaZulu F.C.|AmaZulu]]</div>|position=right}}
-{{location map~ |South Africa |lat=-29.883333 |long=31.05 |label= <div style="font-size:90%;position:relative;top:19px;left:-4px;">[[Lamontville Golden Arrows F.C.|G. Arrows]]</div>|position=right}}
-{{location map~ |South Africa |lat=-25.746111 |long=28.188056 |label= <div style="font-size:90%;position:relative;top:-2px;left:-2px;">'''Pretoria'''</div>|position=right}}
-{{location map~ |South Africa |lat=-26.204444 |long=28.045556 |label=<div style="font-size:90%;position:relative;top:9px;left:-7px;">'''Johannesburg'''</div>|position=left}}
-
-<!--DISPLAY OF JOHANNESBURG & PRETORIA TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |South Africa |mark=TransparentPlaceholder.png |marksize=1 |lat=-22.7 |long=16 |label=<div style="font-size:80%;">'''Johannesburg&nbsp;teams'''<br>
-[[Orlando Pirates F.C.|Orlando Pirates]]<br>
-[[Kaizer Chiefs F.C.|Kaizer Chiefs]]<br>
-[[Moroka Swallows F.C.|Moroka Swallows]]<br>
-[[Mpumalanga Black Aces F.C.|Black Aces]]<br>
-[[Bidvest Wits F.C.|Bidvest Wits]]<br>
-</div>|position=right}}
-
-{{Location map~ |South Africa |mark=TransparentPlaceholder.png |marksize=1 |lat=-26.2 |long=16 |label=<div style="font-size:80%;">'''Pretoria&nbsp;teams'''<br>
-[[Mamelodi Sundowns F.C.|Mamelodi Sundowns]]<br>
-[[SuperSport United F.C.|SuperSport Utd]]<br>
-[[Bidvest Wits F.C.|Tuks F.C.]]<br>
-</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px"|Club
@@ -2287,34 +2055,6 @@ __END__
 * Top-level league: [[Tunisian Ligue Professionnelle 1]]
 
 ''As of 2013-14 season''
-{{location map+ |Tunisia
- |float=right
- |width=260
- |alt=Locations of the 2013–14 Tunisian Ligue Professionnelle 1
- |caption=Locations of the 2013–14 Tunisian Ligue Professionnelle 1
- |places=
-{{location map~ |Tunisia |lat=36.876389 |long=10.325278 |label= <div style="font-size:90%;position:relative;top:-4px;left:-5px;">[[AS Marsa|Marsa]]</div>|position=right}}
-{{location map~ |Tunisia |lat=37.266667 |long=9.866667 |label= <div style="font-size:90%;position:relative;top:-4px;left:3px;">[[CA Bizertin|Bizerte]]</div>|position=left}}
-{{location map~ |Tunisia |lat=36.733333 |long=10.333333 |label= <div style="font-size:90%;position:relative;top:12px;left:3px;">[[CS Hammam-Lif|Hammam-Lif]]</div>|position=left}}
-{{location map~ |Tunisia |lat=34.733333 |long=10.766667 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[CS Sfaxien|Sfax]]</div>|position=right}}
-{{location map~ |Tunisia |lat=34.416667 |long=8.783333 |label= <div style="font-size:90%;position:relative;top:-4px;left:-2px;">[[EGS Gafsa|Gafsa]]</div>|position=right}}
-{{location map~ |Tunisia |lat=35.833333 |long=10.633333 |label= <div style="font-size:90%;position:relative;top:-5px;left:3px;">[[ES Sahel|Sousse]]</div>|position=left}}
-{{location map~ |Tunisia |lat=34.333333 |long=8.4 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[ES Métlaoui|Métlaoui]]</div>|position=right}}
-{{location map~ |Tunisia |lat=36.6 |long=10.5 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[Grombalia Sports|Grombalia]]</div>|position=right}}
-{{location map~ |Tunisia |lat=35.666667 |long=10.1 |label= <div style="font-size:90%;position:relative;top:8px;left:1px;">[[JS Kairouan|Kairouan]]</div>|position=left}}
-{{location map~ |Tunisia |lat=33.916667 |long=8.133333 |label= <div style="font-size:90%;position:relative;top:12px;left:-3px;">[[LPS Tozeur|Tozeur]]</div>|position=right}}
-{{location map~ |Tunisia |lat=36.182222 |long=8.714722 |label= <div style="font-size:90%;position:relative;top:-3px;left:-1px;">[[Olympique du Kef|El Kef]]</div>|position=right}}
-{{location map~ |Tunisia |lat=33.883333 |long=10.116667 |label= <div style="font-size:90%;position:relative;top:12px;left:-5px;">[[Stade Gabèsien|Gabès]]</div>|position=right}}
-{{location map~ |Tunisia |lat=35.783333 |long=10.833333 |label=<div style="font-size:90%;position:relative;top:12px;left:-5px;">[[US Monastir|Monastir]]</div>|position=right}}
-{{location map~ |Tunisia |lat=36.8 |long=10.183333 |label=<div style="font-size:90%;position:relative;top:-3px;left:3px;">'''Tunis'''</div>|position=left}}
-
-<!--DISPLAY OF TUNIS TEAMS IN BOTTOM RIGHT CORNER-->
-{{Location map~ |Tunisia |mark=TransparentPlaceholder.png |marksize=1 |lat=30.9 |long=7.3 |label=<div style="font-size:80%;">'''Tunis&nbsp;teams'''<br>
-[[ES Tunis]]<br>
-[[Club Africain]]<br>
-[[Stade Tunisien]]<br>
-</div>|position=right}}
-}}
 
 {| class="wikitable sortable"
 !width="300px"|Club

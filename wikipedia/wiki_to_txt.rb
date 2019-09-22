@@ -1,19 +1,26 @@
 require_relative 'convert'
 
 
-basename = 'at'       # conmebol, ar, at ...
+basename = 'concacaf'       # conmebol, afc, ar, at ...
+
 
 page = Wikiscript.read( "dl/#{basename}.txt" )
-elements = page.parse
-pp elements
+pp page.parse
 
 buf = String.new
-elements.each do |el|
-  if el[0] == :h2
-    buf << "= #{el[1]} ="   ## note: convert h2 to h1
+page.each do |node|
+  if node[0] == :h2
+    buf << "= #{node[1]} ="   ## note: convert h2 to h1
     buf << "\n\n"
-  elsif el[0] == :table
-    data = convert_club_table( el[1] )
+  elsif node[0] == :h3
+    puts "** !!! WARN !!! skipping heading 3 >#{node[1]}<"
+    buf << "# h3: #{node[1]}\n\n"
+  elsif node[0] == :table
+    ## add table heading as comment
+    buf << "# table rows: #{node[1].size-1}, "
+    buf << "headers: #{node[1][0].size}  ! #{node[1][0].join( ' !! ' )}\n\n"
+
+    data = convert_club_table( node[1] )
     data.each do |row|
       club = row[0]
       city = row[1]
@@ -23,14 +30,14 @@ elements.each do |el|
     buf << "\n\n"
   else
     puts "** !!! ERROR !!! unsupported page element type:"
-    pp el
+    pp node
     exit 1
   end
 end
 
 
-puts buf
+## puts buf
 
-File.open( "#{basename}.clubs.txt", 'w:utf-8' ) do |f|
+File.open( "o/#{basename}.clubs.txt", 'w:utf-8' ) do |f|
   f.write buf
 end

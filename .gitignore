@@ -34,7 +34,7 @@ build/
 .rvmrc
 
 ###
-# ignore dl (download) and o (output) folder
+# ignore top level dl (download) and o (output) folder
 
 /dl/
 /o/

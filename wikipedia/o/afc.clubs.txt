@@ -1,0 +1,838 @@
+= Afghanistan =
+
+# rows: 8, headers: 2  ! Club !! City
+
+De Abasin Sape F.C. | De Abasin Sape                 # Khost
+De Maiwand Atalan F.C. | De Maiwand Atalan           # Kandahar
+De Spin Ghar Bazan F.C. | De Spin Ghar Bazan         # Jalalabad
+Mawjhai Amu F.C. | Mawjhai Amu                       # Kunduz
+Oqaban Hindukush F.C. | Oqaban Hindukush             # Ghazni
+Shaheen Asmayee F.C. | Shaheen Asmayee               # Kabul
+Simorgh Alborz F.C. | Simorgh Alborz                 # Mazar-i-Sharif
+Toofan Harirod F.C. | Toofan Harirod                 # Herat
+
+
+= Australia =
+
+= Bahrain =
+
+# rows: 10, headers: 2  ! Club !! City
+
+Al-Ahli Club (Manama) | Al-Ahli                      # Manama
+Al Hala SC | Al-Hala                                 # Muharraq
+Hidd SCC | Al-Hidd                                   # Al Hidd
+Al-Najma SC (Bahrain) | Al-Najma                     # Manama
+Al-Muharraq SC | Al-Muharraq                         # Muharraq
+Riffa SC | Al-Riffa                                  # Riffa
+Bahrain SC                                           # Muharraq
+East Riffa Club | East Riffa                         # Manama
+Malkiya Club | Malkiya                               # Malkiya
+Manama Club                                          # Manama
+
+
+= Bangladesh =
+
+# rows: 13, headers: 2  ! Club !! City
+
+Brothers Union                                       # Dhaka
+Abahani Limited (Chittagong) | Chittagong Abahani    # Chittagong
+Abahani Limited Dhaka | Dhaka Abahani                # Dhaka
+Mohammedan Sporting Club (Dhaka) | Dhaka Mohammedan   # Dhaka
+Bashundhara Kings                                    # Nilphamari
+NoFeL Sporting Club                                  # Noakhali, Feni, Laxmipur
+Muktijoddha Sangsad KC | Muktijoddha Sangsad         # Gopalganj
+Rahmatganj MFS                                       # Dhaka
+Sheikh Jamal Dhanmondi Club | Sheikh Jamal Dhanmondi   # Dhaka
+Arambagh Krira Sangha                                # Mymensingh
+Sheikh Russel KC | Sheikh Russel                     # Sylhet
+Team BJMC                                            # Dhaka
+Saif Sporting Club                                   # Mymensingh
+
+
+= Bhutan =
+
+# rows: 8, headers: 2  ! Club !! City
+
+Druk United F.C. | Druk United                       # Thimphu
+Druk Star FC | Druk Star                             # Thimphu
+High Quality United F.C. | High Quality United       # Thimphu
+Phuensum                                             # Thimphu
+Tensung F.C. | Tensung                               # Thimphu
+Thimphu F.C. | Thimphu                               # Thimphu
+Thimphu City F.C. | Thimphu City                     # Thimphu
+Transport United F.C. | Transport United             # Thimphu
+
+
+= Brunei =
+
+# rows: 10, headers: 2  ! Club !! City
+
+Indera SC | Indera                                   # Bandar Seri Begawan
+Jerudong F.C. | Jerudong                             # Bandar Seri Begawan
+Kasuka F.C. | Kasuka                                 # Bandar Seri Begawan
+Kota Ranger FC | Kota Ranger                         # Bandar Seri Begawan
+Lun Bawang F.C. | Lun Bawang                         # Batu Apoi
+Royal Brunei Armed Forces Sports Council | MS ABDB   # Tutong
+Royal Brunei Police Force Sports Council | MS PDB    # Bandar Seri Begawan
+Najip I-Team F.C. | Najip I-Team                     # Bandar Seri Begawan
+Brunei national under-21 football team | Tabuan Muda A (Brunei U21s)   # Berakas Town
+Wijaya FC | Wijaya                                   # Bandar Seri Begawan
+
+
+= Cambodia =
+
+# rows: 15, headers: 2  ! Club !! City
+
+Angkor Tiger FC                                      # Siem Reap Province
+2019-Asia Euro United | Asia Euro United             # Kandal Province
+Bati Youth Football Academy | Bati Youth             # Takeo Province
+Boeung Ket FC                                        # Phnom Penh
+2019-Electricite du Cambodge FC | EDC FC             # Phnom Penh
+Kampong Cham FC                                      # Kampong Cham Province
+Kirivong Sok Sen Chey FC                             # Takeo Province
+2019-Nagaworld FC | Nagaworld FC                     # Phnom Penh
+2019-National Defense Ministry FC | Army FC          # Phnom Penh
+2019-National Police Commissary FC | National Police Commissary FC   # Kandal Province
+2019-Phnom Penh Crown FC | Phnom Penh Crown FC       # Phnom Penh
+2019-Preah Khan Reach Svay Rieng FC | Preah Khan Reach Svay Rieng FC   # Svay Rieng Province
+Soltilo Angkor FC                                    # Siem Reap Province
+Visakha FC                                           # Phnom Penh
+
+
+= China =
+
+# rows: 16, headers: 2  ! Club !! City
+
+Beijing Renhe F.C. | Beijing Renhe                   # Beijing
+Beijing Sinobo Guoan                                 # Beijing
+Changchun Yatai                                      # Changchun
+Chongqing Dangdai Lifan F.C. | Chongqing Dangdai Lifan   # Chongqing
+Dalian Yifang F.C. | Dalian Yifang                   # Dalian
+Guangzhou Evergrande Taobao F.C. | Guangzhou Evergrande Taobao   # Guangzhou
+Guangzhou R&F                                        # Guangzhou
+Guizhou Hengfeng Zhicheng F.C. | Guizhou Hengfeng Zhicheng   # Guizhou
+Hebei China Fortune F.C. | Hebei China Fortune       # Qinhuangdao
+Henan Jianye                                         # Zhengzhou
+Jiangsu Suning F.C. | Jiangsu Suning                 # Nanjing
+Shandong Luneng Taishan                              # Jinan
+Shanghai Greenland Shenhua                           # Shanghai
+Shanghai SIPG F.C. | Shanghai SIPG                   # Shanghai
+Tianjin Quanjian                                     # Tianjin
+Tianjin Teda F.C. | Tianjin Teda                     # Tianjin
+
+
+= Taiwan =
+
+# rows: 11, headers: 2  ! Club !! City
+
+Air Source Development F.C. | Air Source Development   # Tainan
+Inter Taipei FC | Inter Taipei                       # Taipei
+Ming Chuan University F.C. | Ming Chuan University   # Taipei
+National Sports Training Center football team | NSTC   # Tainan
+National Taiwan University of Physical Education and Sport | NTUPES   # North District, Taichung
+Royal Blues F.C. | Royal Blues                       # New Taipei City
+Taichung City Dragon F.C. | Taichung City Dragon     # Taichung
+Tainan City F.C. | Tainan City                       # Tainan
+Tatung F.C. | Taipei City Tatung                     # Taipei
+Taipei FC                                            # Taipei
+Taiwan Power Company F.C. | Taiwan Power Company     # Kaohsiung
+
+
+= East Timor =
+
+# rows: 8, headers: 2  ! Club !! City
+
+AS Académica | Académica                             # Dili
+FC Aitana | Aitana                                   # Dili
+Carsae FC | Carsae                                   # Dili
+DIT F.C. | D.I.T.                                    # Dili
+Karketu Dili FC | Karketu Dili                       # Dili
+AS Ponta Leste | Ponta Leste                         # Dili
+FC Porto Taibesi | Porto Taibesi                     # Dili
+SLB Laulara                                          # Laulara
+
+
+= Hong Kong =
+
+# rows: 11, headers: 2  ! Club !! City
+
+Biu Chun Rangers                                     # Sham Shui Po
+Eastern Sports Club | Eastern                        # Mong Kok
+HKFC Soccer Section                                  # Happy Valley
+Hong Kong Pegasus FC | Hong Kong Pegasus             # So Kon Po
+Kitchee SC | Kitchee                                 # Mong Kok
+Southern District FC | Kwoon Chong Southern          # Aberdeen
+Hong Kong Rangers FC | Lee Man Rangers               # Tsing Yi
+R&F FC (Hong Kong) | R&F FC                          # Siu Sai Wan
+South China AA | South China                         # Tseung Kwan O
+Tai Po FC | Wofoo Tai Po                             # Tai Po
+Yuen Long FC                                         # Yuen Long
+
+
+= India =
+
+# rows: 11, headers: 4  ! Team !! Location !! Stadium !! Capacity
+
+Aizawl F.C. | Aizawl                                 # Aizawl, Mizoram
+Chennai City F.C. | Chennai City                     # Coimbatore, Tamil Nadu
+Churchill Brothers S.C. | Churchill Brothers         # Salcete, Goa
+East Bengal F.C. | East Bengal                       # Kolkata, West Bengal
+Indian Arrows                                        # New Delhi, Delhi
+Gokulam Kerala FC | Gokulam Kerala                   # Kozhikode, Kerala
+Minerva Punjab FC | Minerva Punjab                   # Ludhiana, Punjab
+Mohun Bagan A.C. | Mohun Bagan                       # Kolkata, West Bengal
+NEROCA F.C. | NEROCA                                 # Imphal, Manipur
+Shillong Lajong F.C. | Shillong Lajong               # Shillong, Meghalaya
+Real Kashmir F.C. | Real Kashmir                     # Srinagar, Jammu and Kashmir
+
+
+# rows: 10, headers: 4  ! Team !! City/State !! Stadium !! Capacity
+
+ATK (football club) | ATK                            # Kolkata, West Bengal
+Bengaluru FC | Bengaluru                             # Bangalore, Karnataka
+Chennaiyin FC | Chennaiyin                           # Chennai, Tamil Nadu
+Delhi Dynamos FC | Delhi Dynamos                     # Delhi
+FC Goa | Goa                                         # Margao, Goa
+Jamshedpur FC | Jamshedpur                           # Jamshedpur, Jharkhand
+Kerala Blasters FC | Kerala Blasters                 # Kochi, Kerala
+Mumbai City FC | Mumbai City                         # Mumbai, Maharashtra
+NorthEast United FC | NorthEast United               # Guwahati, Assam
+FC Pune City | Pune City                             # Pune, Maharashtra
+
+
+= Indonesia =
+
+# rows: 16, headers: 2  ! Club !! City
+
+Arema FC | Arema                                     # Malang
+Bali United F.C. | Bali United                       # Gianyar
+PS Barito Putera | Barito Putera                     # Banjarmasin
+Bhayangkara F.C. | Bhayangkara                       # Jakarta
+Madura United F.C. | Madura United                   # Pamekasan
+Kalteng Putra F.C. | Kalteng Putra                   # Palangkaraya
+Persela Lamongan                                     # Lamongan
+Perseru Badak Lampung F.C. | Perseru Badak Lampung   # Bandar Lampung
+Persib Bandung                                       # Bandung
+Persija Jakarta                                      # Jakarta
+Persipura Jayapura                                   # Jayapura
+PSM Makassar                                         # Makassar
+Pusamania Borneo F.C. | Borneo                       # Samarinda
+Semen Padang F.C. | Semen Padang                     # Padang
+PSS Sleman                                           # Sleman
+TIRA-Persikabo                                       # Cibinong
+
+
+= Iran =
+
+# rows: 17, headers: 2  ! Team !! Location
+
+Esteghlal F.C. | Esteghlal                           # Tehran
+Esteghlal Khuzestan F.C. | Esteghlal Khuzestan       # Ahvaz
+Foolad F.C. | Foolad                                 # Ahvaz
+Machine Sazi F.C. | Machine Sazi                     # Tabriz
+Naft Masjed Soleyman F.C. | Naft Masjed Soleyman     # Masjed Soleyman
+F.C. Nassaji Mazandaran | Nassaji Mazandaran         # Qaemshahr
+Padideh F.C. | Padideh                               # Mashhad
+F.C. Pars Jonoubi Jam | Pars Jonoubi Jam             # Jam
+Paykan F.C. | Paykan                                 # Shahr-e Qods
+Persepolis F.C. | Persepolis                         # Tehran
+Saipa F.C. | Saipa                                   # Tehran
+Sanat Naft Abadan F.C. | Sanat Naft                  # Abadan
+Sepahan S.C. | Sepahan                               # Isfahan
+Sepidrood Rasht S.C. | Sepidrood                     # Rasht
+Tractor Sazi F.C. | Tractor Sazi                     # Tabriz
+Zob Ahan Esfahan F.C. | Zob Ahan                     # Fooladshahr
+
+
+= Iraq =
+
+# rows: 20, headers: 2  ! Club !! City
+
+Al-Bahri SC | Al-Bahri                               # Basra
+Al-Hedood FC | Al-Hedood                             # Baghdad
+Al-Hussein SC (Baghdad) | Al-Hussein                 # Baghdad
+Al-Kahraba FC | Al-Kahraba                           # Baghdad
+Al-Karkh SC | Al-Karkh                               # Baghdad
+Al-Mina'a SC | Al-Minaa                              # Basra
+Al-Naft SC | Al-Naft                                 # Baghdad
+Najaf FC | Al-Najaf                                  # Najaf
+Al-Quwa Al-Jawiya                                    # Baghdad
+Samawa FC | Al-Samawah                               # Samawah
+Al-Shorta SC | Al-Shorta                             # Baghdad
+Al-Talaba SC | Al-Talaba                             # Baghdad
+Al-Zawra'a SC | Al-Zawraa                            # Baghdad
+Amanat Baghdad                                       # Baghdad
+Erbil SC | Erbil                                     # Erbil
+Karbalaa FC | Karbalaa                               # Karbalaa
+Naft Al-Janoob SC | Naft Al-Junoob                   # Basra
+Naft Al-Wasat SC | Naft Al-Wasat                     # Najaf
+Naft Maysan FC | Naft Maysan                         # Amarah
+Zakho FC | Zakho                                     # Zakho
+
+
+= Japan =
+
+# rows: 18, headers: 2  ! Club !! City
+
+Cerezo Osaka                                         # Osaka
+Consadole Sapporo                                    # Sapporo
+FC Tokyo                                             # Chōfu
+Gamba Osaka                                          # Suita
+Júbilo Iwata                                         # Iwata
+Kashima Antlers                                      # Kashima
+Kawasaki Frontale                                    # Kawasaki
+Matsumoto Yamaga                                     # Matsumoto
+Nagoya Grampus                                       # Nagoya
+Oita Trinita                                         # Oita
+Sagan Tosu                                           # Tosu
+Sanfrecce Hiroshima                                  # Hiroshima
+Shimizu S-Pulse                                      # Shizuoka
+Shonan Bellmare                                      # Hiratsuka
+Urawa Red Diamonds                                   # Saitama
+Vegalta Sendai                                       # Sendai
+Vissel Kobe                                          # Kobe
+Yokohama F.&nbsp;Marinos                             # Yokohama
+
+
+= Jordan =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Al-Ahli SC (Amman) | Al-Ahli                         # Amman
+Al-Baqa'a Club | Al-Baqa'a                           # Amman
+Al-Faisaly SC (Amman) | Al-Faisaly                   # Amman
+Al-Hussein SC (Irbid) | Al-Hussein                   # Irbid
+Al-Jazeera (Amman) | Al-Jazeera                      # Amman
+Al-Ramtha SC | Al-Ramtha                             # Ar Ramtha
+Al-Sareeh SC | Al-Sareeh                             # Irbid
+Al-Wehdat SC | Al-Wehdat                             # Amman
+Mansheyat Bani Hasan                                 # Zarqa
+Sahab SC                                             # Irbid
+Shabab Al-Ordon Club | Shabab Al-Ordon               # Amman
+That Ras Club | That Ras                             # Al Karak
+
+
+= North Korea =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Wonsan Shippers                                      # Wonsan
+Chandongja Sports Club                               # Chongjin
+Kimch'aek F.C.                                       # Kimchaek
+Humhŭng Mecanilary                                   # Hamhung
+Samp'o Cargo                                         # Samp'o
+Najin Industry                                       # Najin
+Pyongyang City Sports Club                           # Pyongyang
+April 25 Sports Club                                 # Pyongyang
+Kigwancha Sports Club                                # Pyongyang
+Kaesong Power                                        # Kaesong
+Haeju Army                                           # Haeju
+Sariwon United                                       # Sariwon
+
+
+= South Korea =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Daegu FC                                             # Daegu
+FC Seoul                                             # Seoul
+Gangwon FC                                           # Gangwon
+Gwangju FC                                           # Gwangju
+Incheon United                                       # Incheon
+Jeju United FC | Jeju United                         # Jeju
+Jeonbuk Hyundai Motors                               # Jeonbuk
+Jeonnam Dragons                                      # Jeonnam
+Pohang Steelers                                      # Pohang
+Sangju Sangmu FC | Sangju Sangmu                     # Sangju
+Suwon Samsung Bluewings                              # Suwon
+Ulsan Hyundai FC | Ulsan Hyundai                     # Ulsan
+
+
+= Kuwait =
+
+# rows: 15, headers: 2  ! Club !! Governorate,  City
+
+Al-Arabi SC (Kuwait) | Al-Arabi                      # Kuwait City
+Al-Fahaheel FC | Al-Fahaheel                         # Kuwait City
+Al-Jahra SC | Al-Jahra                               # Al Jahra
+Kuwait SC | Al-Kuwait                                # Kuwait City
+Al-Nasr SC (Kuwait) | Al-Nasr                        # Al Farwaniyah
+Qadsia SC | Al-Qadsia                                # Kuwait City
+Sahel SC (Kuwait) | Al-Sahel                         # Abu Halifa
+Al-Salmiya SC | Al-Salmiya                           # Salmiya
+Al-Shabab SC (Al Ahmadi) | Al-Shabab                 # Al Ahmadi
+Al-Sulaibikhat SC | Al-Sulaibikhat                   # Kuwait City
+Al Tadhamon SC | Al-Tadhamon                         # Farwaniya
+Al-Yarmouk SC | Al-Yarmouk                           # Mishref
+Burgan SC | Burgan                                   # Ahmadi
+Kazma SC | Kazma                                     # Kuwait City
+Khaitan SC | Khaitan                                 # Kuwait City
+
+
+= Kyrgyzstan =
+
+# rows: 7, headers: 2  ! Club !! City
+
+FC Abdish-Ata Kant | Abdish-Ata Kant                 # Kant
+FC Ala-Too Naryn | Ala Too Naryn                     # Naryn
+FC Alay | Alay Osh                                   # Osh
+FC Aldiyer Kurshab | Aldiyer Kurshab                 # Kurshab
+FC Alga Bishkek | Alga Bishkek                       # Bishkek
+FC Dordoi Bishkek | Dordoi Bishkek                   # Bishkek
+FC Manas | KG United Bishkek                         # Bishkek
+
+
+= Laos =
+
+# rows: 11, headers: 2  ! Club !! City
+
+Champasak United F.C. | Champasak United             # Pakse
+Eastern Star FC                                      # Vientiane
+Electricite du Laos F.C. | EDL FC                    # Vientiane
+Ezra F.C. | Ezra                                     # Vientiane
+Hoang Anh Attapeu F.C. | Hoàng Anh Attapeu           # Attapeu
+Lanexang United F.C. | Lanexang United               # Vientiane
+Lao Police Club                                      # Vientiane
+Lao Toyota F.C. | Lao Toyota FC                      # Vientiane
+Savannakhet F.C. | Savan                             # Savannakhet
+SHB Vientiane F.C. | SHB Vientiane                   # Vientiane
+Young Elephant                                       # Vientiane
+
+
+= Lebanon =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Al-Ahed SC | Al-Ahed                                 # Beirut
+Al-Akhaa Al-Ahli Aley | Al-Akhaa Al-Ahli             # Aley
+Al-Ansar SC | Al Ansar                               # Beirut
+Al Egtmaaey Tripoli                                  # Tripoli
+Nejmeh SC | Al-Nejmeh                                # Beirut
+Nabi Sheet                                           # Zahlé
+Racing Beirut                                        # Beirut
+Al-Safa' SC | Safa                                   # Beirut
+Salam Zgharta                                        # Zgharta
+Shabab Al-Sahel                                      # Beirut
+Tadamon Sour                                         # Tyre
+Tripoli SC                                           # Tripoli
+
+
+= Malaysia =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Felda United F.C. | FELDA United                     # Bandar Pusat Jengka
+Johor Darul Ta'zim F.C. | Johor Darul Ta'zim FC      # Johor Bahru
+Kedah FA | Kedah                                     # Alor Setar
+Kuala Lumpur FA | Kuala Lumpur                       # Kuala Lumpur
+Melaka United F.C. | Melaka United                   # Krubong
+Pahang FA | Pahang FC                                # Kuantan
+Perak FA | Perak                                     # Ipoh
+Petaling Jaya City FC | Petaling Jaya                # Petaling Jaya
+PKNP F.C. | PKNP                                     # Manjung
+PKNS F.C. | PKNS                                     # Shah Alam
+Selangor FA | Selangor                               # Selayang
+Terengganu F.C. I | Terengganu                       # Kuala Terengganu
+
+
+= Maldives =
+
+# rows: 8, headers: 2  ! Club !! City
+
+B.G. Sports Club | BG Sports Club                    # Malé
+Club Eagles | Eagles                                 # Malé
+Club Valencia | Valencia                             # |Malé
+Maziya S&RC | Maziya                                 # Malé
+New Radiant SC | New Radiant                         # Malé
+T.C. Sports Club | TC Sports Club                    # Malé
+Victory Sports Club | Victory                        # Malé
+United Victory                                       # Malé
+
+
+= Mongolia =
+
+# rows: 10, headers: 2  ! Club !! City
+
+Anduud City Club                                     # Ulaanbaatar
+Arvis FC | Arvis                                     # Ulaanbaatar
+Athletic 220 FC | Athletic 220                       # |Ulaanbaatar
+Deren FC | Deren                                     # Deren
+Erchim                                               # Ulaanbaatar
+FC Ulaanbaatar                                       # Ulaanbaatar
+Gepro FC | Gepro                                     # Ulaanbaatar
+Khangarid                                            # Erdenet
+Selenge Press FC | Selenge Press                     # Ulaanbaatar
+Ulaanbaatar City FC | Ulaanbaatar City               # Ulaanbaatar
+
+
+= Myanma =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Ayeyawady United F.C. | Ayeyawady United             # Pathein
+Chin United F.C. | Chin United                       # Hakha
+GFA F.C. | GFA                                       # Chin State
+Okktha United F.C. | Hantharwady United              # Bago
+Magwe F.C. | Magwe                                   # Magway
+Nay Pyi Taw F.C. | Nay Pyi Taw                       # Naypyidaw
+Rakhine United F.C. | Rakhine United                 # Sittwe
+Shan United F.C. | Shan United                       # Taunggyi
+Southern Myanmar United F.C. | Southern Myanmar      # Mawlamyaing
+Yadanarbon F.C. | Yadanarbon                         # Mandalay
+Yangon United F.C. | Yangon United                   # Yangon
+Zwegabin United FC | Zwegapin United                 # Hpa-An
+
+
+= Nepal =
+
+# rows: 9, headers: 2  ! Club !! City
+
+APF Club                                             # Kathmandu
+Far Western FC                                       # Kailali
+Jhapa XI                                             # Jhapa
+Lumbini FC                                           # Rupandehi
+Manang Marshyangdi Club                              # Kathmandu
+Morang FC                                            # Morang
+Nepal Army Club                                      # Kathmandu
+Nepal Police Club                                    # Kathmandu
+Three Star Club                                      # Lalitpur
+
+
+= Northern Mariana Islands =
+
+# rows: 8, headers: 2  ! Club !! City
+
+Inter Godfather's                                    # 
+Korean Juniors                                       # 
+Wild Bill's                                          # 
+Korean Seniors                                       # 
+Marianas Pacific (MP) United                         # 
+Matansa Football Club                                # 
+Tan Holdings Football Club                           # 
+Independents (Young Guns) Football Club              # 
+
+
+= Oman =
+
+# rows: 14, headers: 2  ! Club !! City
+
+Al-Khabourah SC | Al-Khabourah                       # Al-Khabourah
+Al-Nahda Club | Al-Nahda                             # Al-Buraimi
+Al-Nasr S.C.S.C. | Al-Nasr                           # Salalah
+Al-Oruba SC | Al-Oruba                               # Sur
+Al-Rustaq SC | Al-Rustaq                             # Rustaq
+Al-Shabab Club (Oman) | Al-Shabab                    # Barka
+Al-Suwaiq Club | Al-Suwaiq                           # Al-Suwaiq
+Dhofar S.C.S.C. | Dhofar                             # Salalah
+Fanja SC | Fanja                                     # Muscat
+Ja'lan SC                                            # Sur
+Muscat Club | Muscat                                 # Muscat
+Oman Club                                            # Muscat
+Saham SC | Saham                                     # Saham
+Sohar SC | Sohar                                     # Sohar
+
+
+= Pakistan =
+
+# rows: 16, headers: 2  ! Team !! Location
+
+Afghan FC Chaman | Afghan Chaman                     # Chaman
+Ashraf Group of Industries | Ashraf Sugar Mills      # Lahore
+Baloch F.C. | Baloch Nushki                          # Nushki
+Pakistan Civil Aviation Authority F.C. | Civil Aviation Authority   # Karachi
+K-Electric F.C. | K-Electric                         # Karachi
+KPT F.C. | Karachi Port Trust                        # Karachi
+KRL F.C. | Khan Research Laboratories                # Rawalpindi
+Muslim F.C. | Muslim                                 # Quetta
+NBP F.C. | National Bank                             # Karachi
+PAF F.C. | Pakistan Air Force                        # Peshawar
+Pakistan Army F.C. | Pakistan Army                   # Rawalpindi
+Pakistan Navy F.C. | Pakistan Navy                   # Islamabad
+PIA F.C. | Pakistan Airlines                         # Karachi
+SSGC F.C. | Sui Southern Gas                         # Karachi
+SNGPL | Sui Northern Gas                             # Lahore
+WAPDA F.C. | WAPDA                                   # Lahore
+
+
+= Palestine =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Al-Ahli Beit Hanoun                                  # Beit Hanoun
+Al-Hilal Gaza                                        # Gaza City
+Al-Ittehad Khan Younis                               # Khan Younis
+Al-Ittihad Shuja'iyya                                # Shuja'iyya
+Al-Sadaqah                                           # 
+Gaza Sports Club                                     # Gaza City
+Khidmat Al-Shatia                                    # Gaza City
+Khidmat Khan Younis                                  # Khan Younis
+Khidmat Rafah                                        # Rafah
+Shabab Jabalia                                       # Jabalia
+Shabab Khan Younis                                   # Khan Younis
+Shabab Rafah                                         # Rafah
+
+
+# rows: 12, headers: 2  ! Club !! City
+
+Ahli Al-Khalil                                       # Hebron
+Duwwara                                              # ad-Duwwara
+Hilal Al-Quds Club | Hilal Al-Quds                   # Al-Ram
+Jabal Al-Mukaber Club | Jabal Mukabar                # Al-Ram
+Markaz Balata                                        # Nablus
+Shabab Al-Bireh Institute | Shabab Al-Bireh          # Al-Bireh
+Shabab Al-Dhahiriya SC | Shabab Al-Dhahiriya         # ad-Dhahiriya
+Shabab Al-Khadr                                      # al-Khader
+Shabab Al-Khalil SC | Shabab Al-Khalil               # Hebron
+Shabab Alsamu                                        # Hebron
+Taraji Wadi Al-Nes                                   # Wadi Al-Nes
+Thaqafi Tulkarm                                      # Tulkarm
+
+
+= Philippines =
+
+# rows: 8, headers: 2  ! Club !! City
+
+Ceres–Negros F.C. | Ceres–Negros                     # Bacolod
+Global Makati F.C. | Global Makati                   # Makati
+Green Archers United F.C. | Green Archers United     # Manila
+Kaya F.C. | Kaya F.C.–Iloilo                         # Iloilo City
+Mendiola F.C. 1991 | Mendiola                        # Manila
+Philippine Air Force F.C. | Philippine Air Force     # TBA
+Stallion Laguna F.C. | Stallion Laguna               # Laguna
+
+
+= Qatar =
+
+# rows: 12, headers: 2  ! Club !! City
+
+Al Ahli SC (Doha) | Al-Ahli                          # Doha
+Al-Arabi SC (Qatar) | Al-Arabi                       # Doha
+Al-Duhail SC | Al-Duhail                             # Duhail
+Al-Gharafa Sports Club | Al-Gharafa                  # Al Rayyan
+Al Kharaitiyat SC | Al-Kharaitiyat                   # Al-Khor
+Al-Khor Sports Club | Al-Khor                        # Al-Khor
+Al Rayyan SC | Al-Rayyan                             # Al Rayyan
+Al Sadd SC | Al-Sadd                                 # Al Sadd
+Al-Sailiya SC | Al-Sailiya                           # Doha
+Al-Shahania Sports Club | Al-Shahania                # Al-Shahaniya
+Qatar SC | Qatar                                     # Doha
+Umm Salal SC | Umm Salal                             # Umm Salal
+
+
+= Saudi Arabia =
+
+# rows: 16, headers: 2  ! Club !! City
+
+Al-Nassr FC | Al-Nassr                               # Riyadh
+Al-Hilal FC | Al-Hilal                               # Riyadh
+Al-Taawoun FC | Al-Taawoun                           # Buraidah
+Al-Ahli Saudi FC | Al-Ahli                           # Jeddah
+Al Shabab FC (Riyadh) | Al-Shabab                    # Riyadh
+Al-Faisaly FC (Harmah) | Al-Faisaly                  # Harmah
+Al-Wehda Club (Mecca) | Al-Wehda                     # Makkah
+Al-Raed FC | Al-Raed                                 # Buraidah
+Al-Fateh SC | Al-Fateh                               # Al-Hasa
+Ittihad FC | Al-Ittihad                              # Jeddah
+Ettifaq FC | Al-Ettifaq                              # Dammam
+Al-Fayha FC | Al-Fayha                               # Al Majma'ah
+Al-Hazem F.C. | Al-Hazem                             # Ar Rass
+Al-Qadsiah FC | Al-Qadsiah                           # Khobar
+Al-Batin F.C. | Al-Batin                             # Hafar Al-Batin
+Ohod Club | Ohod                                     # Medina
+
+
+= Singapore =
+
+# rows: 9, headers: 2  ! Club !! Location
+
+Albirex Niigata Singapore FC | Albirex Niigata Singapore   # Jurong East
+Balestier Khalsa FC | Balestier Khalsa               # Toa Payoh
+Brunei DPMM FC | Brunei DPMM                         # Bandar Seri Begawan, {{flag|Brunei}}
+Home United FC | Home United                         # Bishan
+Hougang United                                       # Hougang
+Geylang International FC | Geylang International     # Bedok
+Warriors FC | Warriors                               # Choa Chu Kang
+Tampines Rovers FC | Tampines Rovers                 # Clementi
+Young Lions (Singapore football team) | Young Lions   # Jalan Besar
+
+
+= Sri Lanka =
+
+# rows: 18, headers: 2  ! Club !! City
+
+Air Force SC                                         # Colombo
+Blue Star SC                                         # Kalutara
+Colombo FC | Colombo                                 # Colombo
+Crystal Palace SC | Crystal Palace                   # Gampola
+Sri Lanka Army SC (football) | Defenders             # Ratnapura
+Java Lane SC | Java Lane                             # Colombo
+Matara SC | Matara                                   # Matara
+Sri Lanka Navy SC (football) | Navy Sea Hawks        # Welisara
+Negombo Youth SC | Negombo Youth                     # Colombo
+New Young's SC | New Youngs                          # Wennappuwa
+Pelicans SC | Pelicans                               # Kurunegala
+Ratnam SC | Ratnam                                   # Colombo
+Red Star SC | Red Star                               # –
+Renown SC | Renown                                   # Colombo
+Saunders SC | Saunders                               # Colombo
+Solid SC | Solid                                     # Anuradhapura
+Super Sun SC | Super Sun                             # Beruwala
+Up Country Lions SC | Up Country Lions               # Nawalapitiya
+
+
+= Syria =
+
+# rows: 16, headers: 2  ! Club !! City
+
+Al-Hurriya SC | Al-Hurriya                           # Aleppo
+Al-Jaish SC (Damascus) | Al-Jaish                    # Damascus
+Al-Jazeera SC Hasakah | Al-Jazeera                   # Hasakah
+Al-Karamah SC | Al-Karamah                           # Homs
+Al-Majd SC | Al-Majd                                 # Damascus
+Al-Muhafaza SC | Al-Muhafaza                         # Damascus
+Taliya SC | Al-Taliya                                # Hama
+Hutteen SC | Hutteen                                 # Latakia
+Jableh SC | Jableh                                   # Jableh-Latakia
+Al-Ittihad SC Aleppo | Al-Ittihad                    # Aleppo
+Al-Fotuwa SC | Al-Futowa                             # Deir ez-Zor
+Nawair SC | Al-Nawair                                # Hama
+Al Shorta SC (Damascus) | Al-Shorta                  # Damascus
+Al-Wahda SC Damascus | Al-Wahda                      # Damascus
+Al-Wathba SC | Al-Wathba                             # Homs
+Tishreen SC                                          # Latakia
+
+
+= Tajikistan =
+
+# rows: 8, headers: 2  ! Club !! City
+
+Barkchi | Barki Tajik                                # Dushanbe
+CSKA Pomir Dushanbe                                  # Dushanbe
+FC Istiklol | Istiklol                               # Dushanbe
+FC Khatlon | Khatlon                                 # Qurghonteppa
+FK Khujand | Khujand                                 # Khujand
+Kuktosh Rudaki                                       # Kuktosh
+FC Panjshir | Panjshir                               # Kolkhozobod
+Regar-TadAZ Tursunzoda | Regar-TadAZ                 # Tursunzoda
+
+
+= Thailand =
+
+# rows: 18, headers: 2  ! Club !! City
+
+Bangkok Glass F.C. | Bangkok Glass                   # Pathum Thani
+Bangkok United F.C. | Bangkok United                 # Pathum Thani
+Buriram United F.C. | Buriram United                 # Buriram
+Chiangrai United F.C. | Chiangrai United             # Chiangrai
+Chonburi F.C. | Chonburi                             # Chonburi
+Muangthong United F.C. | Muangthong United           # Nonthaburi
+Nakhon Ratchasima F.C. | Nakhon Ratchasima           # Nakhon Ratchasima
+Royal Thai Navy F.C. | Navy                          # Chonburi
+Pattaya United F.C. | Pattaya United                 # Chonburi
+Police Tero F.C. | Police Tero                       # Bangkok
+Port F.C. | Port                                     # Bangkok
+Ratchaburi Mitr Phol F.C. | Ratchaburi Mitr Phol     # Ratchaburi
+Sisaket F.C. | Sisaket                               # Sisaket
+Sukhothai F.C. | Sukhothai                           # Sukhothai
+Super Power Samut Prakan F.C. | Super Power Samut Prakan   # Samut Prakan
+Suphanburi F.C. | Suphanburi                         # Suphanburi
+Thai Honda Ladkrabang F.C. | Thai Honda Ladkrabang   # Bangkok
+Ubon UMT United F.C. | Ubon UMT United               # Ubon Ratchathani
+
+
+= Turkmenistan =
+
+# rows: 8, headers: 2  ! Club !! City
+
+FC Ahal | Ahal                                       # Ahal Province
+FC Altyn Asyr | Altyn Asyr                           # Ashgabat
+FC Aşgabat | Aşgabat                                 # Ashgabat
+FC Balkan | Balkan                                   # Balkanabat
+FC Energetik Mary | Energetik Mary                   # Mary Region
+Köpetdag Aşgabat                                     # Ashgabat
+Merw Mary | Merw                                     # Mary
+FC Şagadam | Şagadam                                 # Türkmenbaşy
+
+
+= United Arab Emirates =
+
+# rows: 14, headers: 2  ! Club !! City
+
+Ajman Club | Ajman                                   # Ajman
+Al Ain FC | Al Ain                                   # Al-Ain
+Al Dhafra FC | Al Dhafra                             # Madinat Zayed
+Al Jazira Club | Al Jazira                           # Abu Dhabi
+Al-Nasr Dubai SC | Al Nasr                           # Dubai
+Al Wahda FC | Al Wahda                               # Abu Dhabi
+Al-Wasl F.C. | Al Wasl                               # Dubai
+Baniyas Club | Baniyas                               # Abu Dhabi
+Fujairah FC | Fujairah                               # Fujairah
+Hatta Club | Hatta                                   # Hatta
+Al-Ittihad Kalba SC | Kalba                          # Kalba
+Khor Fakkan Club | Khor Fakkan                       # Khor Fakkan
+Shabab Al-Ahli Dubai FC | Shabab Al Ahli             # Dubai
+Sharjah FC | Sharjah                                 # Sharjah
+
+
+= Uzbekistan =
+
+# rows: 16, headers: 2  ! Club !! City
+
+Bunyodkor                                            # Tashkent
+FK Buxoro | Bukhoro                                  # Bukhoro
+FC Dinamo Samarqand | Dinamo                         # Samarkand
+Kokand 1912                                          # Kokand
+Lokomotiv Tashkent | Lokomotiv                       # Tashkent
+Mash'al Mubarek | Mash'al                            # Muborak
+Metallurg Bekabad | Metallurg                        # Bekabad
+Nasaf Qarshi                                         # Qarshi
+Navbahor Namangan | Navbahor                         # Namangan
+Neftchi Farg'ona | Neftchi                           # Farghona
+FC Obod | Obod                                       # Tashkent
+Olmaliq FK                                           # Olmaliq
+FC Pakhtakor | Pakhtakor                             # Tashkent
+Qizilqum Zarafshon | Qizilqum                        # Zarafshon
+Sogdiana Jizzakh | Sogdiana                          # Jizzakh
+FC Shurtan Guzar | Shurtan                           # Ghuzor
+
+
+= Vietnam =
+
+# rows: 14, headers: 2  ! Club !! City
+
+Becamex Bình Dương F.C. | Becamex Bình Dương         # Thủ Dầu Một
+FLC Thanh Hóa F.C. | FLC Thanh Hóa                   # Thanh Hóa
+Hà Nội T&T F.C. | Hà Nội                             # Hanoi
+Hải Phòng F.C. | Hải Phòng                           # Haiphong
+Hoàng Anh Gia Lai F.C. | Hoàng Anh Gia Lai           # Pleiku
+Hồ Chí Minh City F.C. | TP Hồ Chí Minh               # Ho Chi Minh City
+Long An F.C. | Long An                               # Tân An
+QNK Quảng Nam | Quảng Nam                            # Tam Kỳ
+Sài Gòn F.C. | Sài Gòn                               # Ho Chi Minh City
+Sanna Khánh Hòa BVN F.C. | Sanna Khánh Hòa BVN       # Nha Trang
+Sông Lam Nghệ An F.C. | Sông Lam Nghệ An             # Vinh
+SHB Đà Nẵng F.C. | SHB Đà Nẵng                       # Da Nang
+Than Quảng Ninh F.C. | Than Quảng Ninh               # Cẩm Phả
+XSKT Cần Thơ F.C. | XSKT Cần Thơ                     # Cần Thơ
+
+
+= Yemen =
+
+# rows: 14, headers: 2  ! Club !! City
+
+Al-Ahli (San'a') | Al-Ahli San'a                     # San'a
+Al-Ahli Taizz SC | Al-Ahli Ta'izz                    # Ta'izz
+Al-Hilal Al-Sahili                                   # Zinjibar, Al Hudaydah
+Al-Ittihad (Ibb) | Al-Ittihad Ibb                    # Ibb
+Al-Oruba (Zabid) | Al-Oruba Zabid                    # San'a
+Al-Rasheed Ta'izz                                    # Ta'izz
+Al-Saqr SC | Al-Saqr Ta'izz                          # Ta'izz
+Al-Sha'ab Hadramaut                                  # Mukalla
+Al-Sha'ab Ibb                                        # Ibb
+Al-Sha'ab Sana'a                                     # Sana'a
+Al-Tilal SC | Al-Tilal                               # Aden
+Al-Yarmuk Al-Rawda                                   # San'a
+May 22 San'a                                         # Sana'a
+Shabab al-Jeel                                       # Al Hudaydah
+
+

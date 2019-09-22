@@ -1,5 +1,7 @@
 = Argentina =
 
+# rows: 24, headers: 4  ! Club !! City !! Stadium !! Capacity
+
 Aldosivi                                             # Mar del Plata
 Argentinos Juniors                                   # Buenos Aires
 Arsenal de Sarandí | Arsenal                         # Sarandí
