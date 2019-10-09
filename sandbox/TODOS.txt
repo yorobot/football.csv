@@ -1,0 +1,39 @@
+todo: match normalize name remove () too !!! why?
+example in Argentina include:
+->  Estudiantes (LP)     same as / match =>  Estudiantes LP
+->  Talleres (C)         same as / match =>  Talleres C
+
+
+OK   >Aldosivi< (1) matching >Club Atlético Aldosivi<
+OK   >Argentinos Juniors< (1) matching >Argentinos Juniors<
+OK   >Arsenal de Sarandí | Arsenal< (2) matching >Arsenal de Sarandí<
+OK   >Atlético Tucumán< (1) matching >Atlético Tucumán<
+OK   >Club Atlético Banfield | Banfield< (2) matching >Club Atlético Banfield<
+OK   >Boca Juniors< (1) matching >Boca Juniors<
+OK   >Central Córdoba de Santiago del Estero | Central Córdoba (SdE)< (2) matching >Central Córdoba<
+OK   >Club Atlético Colón | Colón< (2) matching >Colón Santa Fe<
+OK   >Defensa y Justicia< (1) matching >Defensa y Justicia<
+** !!! WARN !!! no match for club >Estudiantes (LP)<
+!! 1 club (alternate) name(s) missing for >Estudiantes LP (Estudiantes | Estudiantes L.P. | Club Estudiantes de La Plata | Estudiantes de La Plata)< :
+    Estudiantes (LP)
+    Estudiantes de La Plata | Estudiantes (LP)
+** !!! WARN !!! no match for club >Gimnasia y Esgrima (LP)<
+!! 1 club (alternate) name(s) missing for >Gimnasia y Esgrima (Gimnasia L.P. | Gimnasia y Esgrima La Plata | GELP | Club de Gimnasia y Esgrima La Plata)< :
+    Gimnasia y Esgrima (LP)
+    Club de Gimnasia y Esgrima La Plata | Gimnasia y Esgrima (LP)
+OK   >Godoy Cruz Antonio Tomba | Godoy Cruz< (2) matching >Godoy Cruz<
+OK   >Club Atlético Huracán | Huracán< (2) matching >Huracán<
+OK   >Club Atlético Independiente | Independiente< (2) matching >CA Independiente de Avellaneda<
+OK   >Club Atlético Lanús | Lanús< (2) matching >CA Lanús<
+OK   >Newell's Old Boys< (1) matching >Newell's Old Boys<
+OK   >Club Atlético Patronato | Patronato< (2) matching >Patronato<
+OK   >Racing Club de Avellaneda | Racing< (2) matching >Racing Club<
+OK   >Club Atlético River Plate | River Plate< (2) matching >River Plate<
+OK   >Rosario Central< (1) matching >Rosario Central<
+OK   >San Lorenzo de Almagro | San Lorenzo< (2) matching >San Lorenzo<
+** !!! WARN !!! no match for club >Talleres (C)<
+!! 1 club (alternate) name(s) missing for >Talleres de Córdoba (Talleres Cordoba | Club Atlético Talleres)< :
+    Talleres (C)
+    Talleres de Córdoba | Talleres (C)
+OK   >Unión de Santa Fe | Unión< (2) matching >Unión Santa Fe<
+OK   >Club Atlético Vélez Sarsfield | Vélez Sarsfield< (2) matching >Vélez Sarsfield<
