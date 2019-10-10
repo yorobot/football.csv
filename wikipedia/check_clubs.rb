@@ -3,14 +3,80 @@ require_relative '../lint/check_clubs'
 
 
 
-WIKI_PATTERN = %r{
+
+def check_clubs( recs )
+  ## country = SportDb::Import::Country.new( 'at', 'Austria', fifa: 'AUT' )
+  country = SportDb::Import::Country.new( 'ar', 'Argentina', fifa: 'ARG' )
+  pp country
+
+  recs.each do |rec|
+    heading     = rec[0]
+    club_recs   = rec[1]
+    club_recs.each do |club_rec|
+      club_names  = club_rec[:names]
+
+      ## check for missing club or missing (alternate) name
+      ## check if all matches are the same club too!!!!
+      clubs = []
+      missing = []
+      club_names.each do |name|
+        club = find_club( name, country )
+        if club
+          clubs << club
+        else
+          missing << name
+        end
+      end
+
+      ## check if found
+      if clubs.empty?
+        puts "!! club missing / not found any name (#{club_names.size}):"
+        puts "    #{club_names.join(' | ')}"
+      else
+        ## check if clubs are the same (MUST be the same)
+        uniq_clubs = clubs.uniq
+        if uniq_clubs.size > 1
+          puts "!! club names ambigious - matching #{uniq_clubs.size} clubs:"
+          puts "    #{club_names.join(' | ')}"
+          puts "    #{clubs.inspect}"
+        end
+
+        if missing.size > 0
+          puts "!! #{missing.size} club (alternate) name(s) missing for >#{clubs[0].name} (#{clubs[0].alt_names.join(' | ')})< :"
+          puts "    #{missing.join(' | ')}"
+          puts "    #{club_names.join(' | ')}"
+        end
+
+        if missing.empty? && uniq_clubs.size == 1
+          puts "OK   >#{club_names.join(' | ')}< (#{club_names.size}) matching >#{clubs[0].name}<"
+        end
+      end
+
+    ## pp club_names
+    end
+  end
+end
+
+
+CLUBS_PATTERN = %r{
                   /[a-z]+\.clubs\.txt$
                  }x
 
 
+datafile = 'ar.clubs.txt'
+# datafile = 'at.clubs.txt'
+# datafile = 'aut.txt'
+recs = ClubLintReader.read( "./o/#{datafile}" )
+pp recs
+
+check_clubs( recs )
+
+
+__END__
+
 File.open( 'missing_clubs.txt', 'w:utf-8' ) do |out|
 
-datafiles = find_datafiles( '.', WIKI_PATTERN )
+datafiles = find_datafiles( '.', CLUBS_PATTERN )
 datafiles.each do |datafile|
 
   countries = ClubLintReader.read( datafile )
