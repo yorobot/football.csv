@@ -6,11 +6,20 @@ require_relative '../lint/check_clubs'
 
 def check_clubs( recs )
   ## country = SportDb::Import::Country.new( 'at', 'Austria', fifa: 'AUT' )
-  country = SportDb::Import::Country.new( 'ar', 'Argentina', fifa: 'ARG' )
-  pp country
+  ## country = SportDb::Import::Country.new( 'ar', 'Argentina', fifa: 'ARG' )
+  ## pp country
 
   recs.each do |rec|
     heading     = rec[0]
+
+    country = COUNTRIES[ heading ]
+    pp country
+    if country.nil?
+      puts "!!! error [club reader] - unknown country >#{heading}< in heading - sorry - add country to config to fix"
+      exit 1
+    end
+
+
     club_recs   = rec[1]
     club_recs.each do |club_rec|
       club_names  = club_rec[:names]
@@ -63,9 +72,13 @@ CLUBS_PATTERN = %r{
                  }x
 
 
-datafile = 'ar.clubs.txt'
+# datafile = 'ar.clubs.txt'
 # datafile = 'at.clubs.txt'
 # datafile = 'aut.txt'
+# datafile = 'conmebol.clubs.txt'
+# datafile = 'uefa.clubs.txt'
+# datafile = 'be.clubs.txt'
+datafile = 'nz.clubs.txt'
 recs = ClubLintReader.read( "./o/#{datafile}" )
 pp recs
 

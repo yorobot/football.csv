@@ -1,0 +1,934 @@
+--- at.clubs.txt
+#<SportDb::Import::Country:0x2fd7d40
+ @alt_names=["\u00D6sterreich [de]"],
+ @fifa="AUT",
+ @key="at",
+ @name="Austria",
+ @tags=["fifa", "uefa"]>
+** !!! WARN !!! no match for club >Admira Wacker Mödling<
+!! 1 club (alternate) name(s) missing for >FC Admira Wacker Mödling (Admira | Admira Wacker | Admira Wien)< :
+    Admira Wacker Mödling
+    FC Admira Wacker Mödling | Admira Wacker Mödling
+OK   >FK Austria Wien | Austria Wien< (2) matching >FK Austria Wien<
+OK   >LASK Linz | LASK< (2) matching >LASK Linz<
+OK   >SK Rapid Wien | Rapid Wien< (2) matching >SK Rapid Wien<
+OK   >FC Red Bull Salzburg | Red Bull Salzburg< (2) matching >FC RB Salzburg<
+** !!! WARN !!! no match for club >Rheindorf Altach<
+!! 1 club (alternate) name(s) missing for >SCR Altach (Altach | SC Rheindorf Altach)< :
+    Rheindorf Altach
+    SC Rheindorf Altach | Rheindorf Altach
+OK   >SKN St. Pölten | St. Pölten< (2) matching >SKN St. Pölten<
+OK   >SK Sturm Graz | Sturm Graz< (2) matching >SK Sturm Graz<
+OK   >SV Mattersburg< (1) matching >SV Mattersburg<
+OK   >TSV Hartberg< (1) matching >TSV Hartberg<
+** !!! WARN !!! no match for club >FC Wacker Innsbruck (2002)<
+!! 1 club (alternate) name(s) missing for >FC Wacker Innsbruck (Wacker Innsbruck | FC Tirol)< :
+    FC Wacker Innsbruck (2002)
+    FC Wacker Innsbruck (2002) | Wacker Innsbruck
+OK   >Wolfsberger AC< (1) matching >Wolfsberger AC<
+OK   >SC Austria Lustenau | Austria Lustenau< (2) matching >Austria Lustenau<
+OK   >FC Blau-Weiß Linz< (1) matching >FC Blau-Weiß Linz<
+OK   >Floridsdorfer AC< (1) matching >Floridsdorfer AC<
+** !!! WARN !!! no match for club >FK Austria Wien II<
+!! 1 club (alternate) name(s) missing for >FK Austria Wien (Austria Wien | Austria Vienna [en])< :
+    FK Austria Wien II
+    FK Austria Wien | FK Austria Wien II
+OK   >Kapfenberger SV< (1) matching >Kapfenberger SV<
+** !!! WARN !!! no match for club >Liefering<
+!! 1 club (alternate) name(s) missing for >FC Liefering ()< :
+    Liefering
+    FC Liefering | Liefering
+OK   >SV Ried< (1) matching >SV Ried<
+** !!! WARN !!! no match for club >FC Wacker Innsbruck (2002)<
+** !!! WARN !!! no match for club >Wacker Innsbruck II<
+!! club missing / not found any name (2):
+    FC Wacker Innsbruck (2002) | Wacker Innsbruck II
+** !!! WARN !!! no match for club >Wiener Neustadt<
+!! 1 club (alternate) name(s) missing for >SC Wiener Neustadt (Neustadt)< :
+    Wiener Neustadt
+    SC Wiener Neustadt | Wiener Neustadt
+OK   >WSG Wattens< (1) matching >WSG Tirol<
+OK   >FC Juniors OÖ< (1) matching >FC Juniors OÖ<
+OK   >SV Horn< (1) matching >SV Horn<
+OK   >SKU Amstetten< (1) matching >SKU Amstetten<
+OK   >SV Lafnitz< (1) matching >SV Lafnitz<
+OK   >SK Vorwärts Steyr< (1) matching >SK Vorwärts Steyr<
+** !!! WARN !!! no match for club >SK Austria Klagenfurt (2007)<
+!! 1 club (alternate) name(s) missing for >Austria Klagenfurt (SK Austria Klagenfurt)< :
+    SK Austria Klagenfurt (2007)
+    SK Austria Klagenfurt (2007) | SK Austria Klagenfurt
+
+--- ar.clubs.txt
+#<SportDb::Import::Country:0x30ada00
+ @alt_names=[],
+ @fifa="ARG",
+ @key="ar",
+ @name="Argentina",
+ @tags=["fifa", "conmebol"]>
+OK   >Aldosivi< (1) matching >Club Atlético Aldosivi<
+OK   >Argentinos Juniors< (1) matching >Argentinos Juniors<
+OK   >Arsenal de Sarandí | Arsenal< (2) matching >Arsenal de Sarandí<
+OK   >Atlético Tucumán< (1) matching >Atlético Tucumán<
+OK   >Club Atlético Banfield | Banfield< (2) matching >Club Atlético Banfield<
+OK   >Boca Juniors< (1) matching >Boca Juniors<
+OK   >Central Córdoba de Santiago del Estero | Central Córdoba (SdE)< (2) matching >Central Córdoba<
+OK   >Club Atlético Colón | Colón< (2) matching >Colón Santa Fe<
+OK   >Defensa y Justicia< (1) matching >Defensa y Justicia<
+** !!! WARN !!! no match for club >Estudiantes (LP)<
+!! 1 club (alternate) name(s) missing for >Estudiantes LP (Estudiantes | Club Estudiantes de La Plata | Estudiantes de La Plata)< :
+    Estudiantes (LP)
+    Estudiantes de La Plata | Estudiantes (LP)
+** !!! WARN !!! no match for club >Gimnasia y Esgrima (LP)<
+!! 1 club (alternate) name(s) missing for >Gimnasia y Esgrima (Gimnasia LP | Gimnasia ELP | Gimnasia y Esgrima La Plata | GELP | Club de Gimnasia y Esgrima La Plata)< :
+    Gimnasia y Esgrima (LP)
+    Club de Gimnasia y Esgrima La Plata | Gimnasia y Esgrima (LP)
+OK   >Godoy Cruz Antonio Tomba | Godoy Cruz< (2) matching >Godoy Cruz<
+OK   >Club Atlético Huracán | Huracán< (2) matching >Huracán<
+OK   >Club Atlético Independiente | Independiente< (2) matching >CA Independiente de Avellaneda<
+OK   >Club Atlético Lanús | Lanús< (2) matching >CA Lanús<
+OK   >Newell's Old Boys< (1) matching >Newell's Old Boys<
+OK   >Club Atlético Patronato | Patronato< (2) matching >Patronato<
+OK   >Racing Club de Avellaneda | Racing< (2) matching >Racing Club<
+OK   >Club Atlético River Plate | River Plate< (2) matching >River Plate<
+OK   >Rosario Central< (1) matching >Rosario Central<
+OK   >San Lorenzo de Almagro | San Lorenzo< (2) matching >San Lorenzo<
+** !!! WARN !!! no match for club >Talleres (C)<
+!! 1 club (alternate) name(s) missing for >Talleres de Córdoba (Talleres | Talleres Cordoba | Club Atlético Talleres)< :
+    Talleres (C)
+    Talleres de Córdoba | Talleres (C)
+OK   >Unión de Santa Fe | Unión< (2) matching >Unión Santa Fe<
+OK   >Club Atlético Vélez Sarsfield | Vélez Sarsfield< (2) matching >Vélez Sarsfield<
+
+--- conmebol.clubs.txt
+#<SportDb::Import::Country:0x304e348
+ @alt_names=[],
+ @fifa="ARG",
+ @key="ar",
+ @name="Argentina",
+ @tags=["fifa", "conmebol"]>
+OK   >Aldosivi< (1) matching >Club Atlético Aldosivi<
+OK   >Argentinos Juniors< (1) matching >Argentinos Juniors<
+OK   >Arsenal de Sarandí | Arsenal< (2) matching >Arsenal de Sarandí<
+OK   >Atlético Tucumán< (1) matching >Atlético Tucumán<
+OK   >Club Atlético Banfield | Banfield< (2) matching >Club Atlético Banfield<
+OK   >Boca Juniors< (1) matching >Boca Juniors<
+OK   >Central Córdoba de Santiago del Estero | Central Córdoba (SdE)< (2) matching >Central Córdoba<
+OK   >Club Atlético Colón | Colón< (2) matching >Colón Santa Fe<
+OK   >Defensa y Justicia< (1) matching >Defensa y Justicia<
+** !!! WARN !!! no match for club >Estudiantes (LP)<
+!! 1 club (alternate) name(s) missing for >Estudiantes LP (Estudiantes | Club Estudiantes de La Plata | Estudiantes de La Plata)< :
+    Estudiantes (LP)
+    Estudiantes de La Plata | Estudiantes (LP)
+** !!! WARN !!! no match for club >Gimnasia (LP)<
+!! 1 club (alternate) name(s) missing for >Gimnasia y Esgrima (Gimnasia LP | Gimnasia ELP | Gimnasia y Esgrima La Plata | GELP | Club de Gimnasia y Esgrima La Plata)< :
+    Gimnasia (LP)
+    Club de Gimnasia y Esgrima La Plata | Gimnasia (LP)
+OK   >Godoy Cruz Antonio Tomba | Godoy Cruz< (2) matching >Godoy Cruz<
+OK   >Club Atlético Huracán | Huracán< (2) matching >Huracán<
+OK   >Club Atlético Independiente | Independiente< (2) matching >CA Independiente de Avellaneda<
+OK   >Club Atlético Lanús | Lanús< (2) matching >CA Lanús<
+OK   >Newell's Old Boys< (1) matching >Newell's Old Boys<
+OK   >Club Atlético Patronato | Patronato< (2) matching >Patronato<
+OK   >Racing Club de Avellaneda | Racing< (2) matching >Racing Club<
+OK   >Club Atlético River Plate | River Plate< (2) matching >River Plate<
+OK   >Rosario Central< (1) matching >Rosario Central<
+OK   >San Lorenzo de Almagro | San Lorenzo< (2) matching >San Lorenzo<
+** !!! WARN !!! no match for club >Talleres (C)<
+!! 1 club (alternate) name(s) missing for >Talleres de Córdoba (Talleres | Talleres Cordoba | Club Atlético Talleres)< :
+    Talleres (C)
+    Talleres de Córdoba | Talleres (C)
+OK   >Unión de Santa Fe | Unión< (2) matching >Unión Santa Fe<
+OK   >Club Atlético Vélez Sarsfield | Vélez Sarsfield< (2) matching >Vélez Sarsfield<
+#<SportDb::Import::Country:0x304daa8
+ @alt_names=[],
+ @fifa="BOL",
+ @key="bo",
+ @name="Bolivia",
+ @tags=["fifa", "conmebol"]>
+** !!! WARN !!! no match for club >Club Always Ready<
+** !!! WARN !!! no match for club >Always Ready<
+!! club missing / not found any name (2):
+    Club Always Ready | Always Ready
+** !!! WARN !!! no match for club >Club Aurora<
+** !!! WARN !!! no match for club >Aurora<
+!! club missing / not found any name (2):
+    Club Aurora | Aurora
+** !!! WARN !!! no match for club >Club Blooming<
+** !!! WARN !!! no match for club >Blooming<
+!! club missing / not found any name (2):
+    Club Blooming | Blooming
+OK   >Club Bolívar | Bolívar< (2) matching >Club Bolívar<
+** !!! WARN !!! no match for club >Club Destroyers<
+** !!! WARN !!! no match for club >Destroyers<
+!! club missing / not found any name (2):
+    Club Destroyers | Destroyers
+** !!! WARN !!! no match for club >Guabirá<
+!! club missing / not found any name (1):
+    Guabirá
+** !!! WARN !!! no match for club >C.D. Jorge Wilstermann<
+** !!! WARN !!! no match for club >Jorge Wilstermann<
+!! club missing / not found any name (2):
+    C.D. Jorge Wilstermann | Jorge Wilstermann
+** !!! WARN !!! no match for club >Nacional Potosí<
+!! club missing / not found any name (1):
+    Nacional Potosí
+OK   >Oriente Petrolero< (1) matching >Club Deportivo Oriente Petrolero<
+** !!! WARN !!! no match for club >Club Real Potosí<
+!! 1 club (alternate) name(s) missing for >Real Potosí (Club Bamin Real Potosí)< :
+    Club Real Potosí
+    Club Real Potosí | Real Potosí
+** !!! WARN !!! no match for club >Royal Pari F.C.<
+** !!! WARN !!! no match for club >Royal Pari<
+!! club missing / not found any name (2):
+    Royal Pari F.C. | Royal Pari
+** !!! WARN !!! no match for club >Club San José<
+!! 1 club (alternate) name(s) missing for >Club Deportivo San José (San José)< :
+    Club San José
+    Club San José | San José
+** !!! WARN !!! no match for club >Sport Boys Warnes<
+** !!! WARN !!! no match for club >Sport Boys<
+!! club missing / not found any name (2):
+    Sport Boys Warnes | Sport Boys
+OK   >The Strongest< (1) matching >The Strongest<
+#<SportDb::Import::Country:0x304d1c0
+ @alt_names=[],
+ @fifa="BRA",
+ @key="br",
+ @name="Brazil",
+ @tags=["fifa", "conmebol"]>
+** !!! WARN !!! no match for club >Athletico Paranaense<
+!! 1 club (alternate) name(s) missing for >Atlético PR (Athl Paranaense | Atlético Paranaense | C Atlético Paranaense | Clube Atlético Paranaense | Atletico-PR | Atlético/PR | Athletico-PR [en] | Club Athletico Paranaense [en])< :
+    Athletico Paranaense
+    Club Athletico Paranaense | Athletico Paranaense
+OK   >Clube Atlético Mineiro | Atlético Mineiro< (2) matching >Atlético MG<
+OK   >Avaí FC | Avaí< (2) matching >Avaí FC<
+OK   >Esporte Clube Bahia | Bahia< (2) matching >EC Bahia<
+OK   >Botafogo de Futebol e Regatas | Botafogo< (2) matching >Botafogo RJ<
+OK   >Ceará Sporting Club | Ceará< (2) matching >Ceára SC<
+OK   >Associação Chapecoense de Futebol | Chapecoense< (2) matching >Chapecoense<
+OK   >Sport Club Corinthians Paulista | Corinthians< (2) matching >Corinthians SP<
+OK   >Cruzeiro Esporte Clube | Cruzeiro< (2) matching >Cruzeiro MG<
+OK   >Centro Sportivo Alagoano | CSA< (2) matching >CSA<
+OK   >Clube de Regatas do Flamengo | Flamengo< (2) matching >Flamengo RJ<
+OK   >Fluminense FC | Fluminense< (2) matching >Fluminense RJ<
+OK   >Fortaleza Esporte Clube | Fortaleza< (2) matching >Fortaleza<
+OK   >Goiás Esporte Clube | Goiás< (2) matching >Goiás EC<
+OK   >Grêmio Foot-Ball Porto Alegrense | Grêmio< (2) matching >Grêmio RS<
+OK   >Sport Club Internacional | Internacional< (2) matching >Internacional Porto Alegre<
+OK   >Sociedade Esportiva Palmeiras | Palmeiras< (2) matching >Palmeiras SP<
+OK   >Santos FC | Santos< (2) matching >Santos SP<
+OK   >São Paulo FC | São Paulo< (2) matching >São Paulo FC<
+OK   >CR Vasco da Gama | Vasco da Gama< (2) matching >CR Vasco da Gama<
+#<SportDb::Import::Country:0x304c998
+ @alt_names=[],
+ @fifa="CHI",
+ @key="cl",
+ @name="Chile",
+ @tags=["fifa", "conmebol"]>
+** !!! WARN !!! no match for club >Audax Italiano<
+!! club missing / not found any name (1):
+    Audax Italiano
+** !!! WARN !!! no match for club >C.D. Cobresal<
+** !!! WARN !!! no match for club >Cobresal<
+!! club missing / not found any name (2):
+    C.D. Cobresal | Cobresal
+** !!! WARN !!! no match for club >Colo-Colo<
+!! club missing / not found any name (1):
+    Colo-Colo
+** !!! WARN !!! no match for club >Coquimbo Unido<
+!! club missing / not found any name (1):
+    Coquimbo Unido
+** !!! WARN !!! no match for club >Curicó Unido<
+!! club missing / not found any name (1):
+    Curicó Unido
+** !!! WARN !!! no match for club >C.D. Antofagasta<
+** !!! WARN !!! no match for club >Deportes Antofagasta<
+!! club missing / not found any name (2):
+    C.D. Antofagasta | Deportes Antofagasta
+OK   >Deportes Iquique< (1) matching >Deportes Iquique<
+** !!! WARN !!! no match for club >Everton de Viña del Mar<
+** !!! WARN !!! no match for club >Everton<
+!! club missing / not found any name (2):
+    Everton de Viña del Mar | Everton
+OK   >Huachipato< (1) matching >CD Huachipato<
+** !!! WARN !!! no match for club >O'Higgins F.C.<
+** !!! WARN !!! no match for club >O'Higgins<
+!! club missing / not found any name (2):
+    O'Higgins F.C. | O'Higgins
+** !!! WARN !!! no match for club >Club Deportivo Palestino<
+** !!! WARN !!! no match for club >Palestino<
+!! club missing / not found any name (2):
+    Club Deportivo Palestino | Palestino
+OK   >Unión Española< (1) matching >Unión Española<
+** !!! WARN !!! no match for club >Unión La Calera<
+!! club missing / not found any name (1):
+    Unión La Calera
+OK   >Club Deportivo Universidad Católica | Universidad Católica< (2) matching >Universidad Católica<
+OK   >Club Universidad de Chile | Universidad de Chile< (2) matching >Universidad de Chile<
+** !!! WARN !!! no match for club >C.D. Universidad de Concepción<
+** !!! WARN !!! no match for club >Universidad de Concepción<
+!! club missing / not found any name (2):
+    C.D. Universidad de Concepción | Universidad de Concepción
+#<SportDb::Import::Country:0x304c1a0
+ @alt_names=[],
+ @fifa="COL",
+ @key="co",
+ @name="Colombia",
+ @tags=["fifa", "conmebol"]>
+OK   >Alianza Petrolera F.C. | Alianza Petrolera< (2) matching >Alianza Petrolera FC<
+OK   >América de Cali< (1) matching >América de Cali<
+OK   >Atlético Bucaramanga< (1) matching >Atlético Bucaramanga<
+OK   >Atlético Huila< (1) matching >Atlético Huila<
+OK   >Atlético Nacional< (1) matching >Atlético Nacional<
+OK   >Cúcuta Deportivo< (1) matching >Cúcuta Deportivo<
+OK   >Deportes Tolima< (1) matching >Deportes Tolima<
+OK   >Deportivo Cali< (1) matching >Deportivo Cali<
+OK   >Deportivo Pasto< (1) matching >Deportivo Pasto<
+OK   >Envigado F.C. | Envigado< (2) matching >Envigado FC<
+OK   >Independiente Medellín< (1) matching >Independiente Medellín<
+OK   >Jaguares de Córdoba | Jaguares< (2) matching >Jaguares de Córdoba<
+OK   >Atlético Junior | Junior< (2) matching >Junior de Barranquilla<
+OK   >La Equidad< (1) matching >La Equidad<
+OK   >Millonarios F.C. | Millonarios< (2) matching >Millonarios Bogotá<
+OK   >Once Caldas< (1) matching >Once Caldas<
+OK   >Patriotas Boyacá | Patriotas< (2) matching >Patriotas Boyacá<
+OK   >Rionegro Águilas< (1) matching >Rionegro Águilas<
+OK   >Independiente Santa Fe | Santa Fe< (2) matching >Independiente Santa Fe<
+OK   >Unión Magdalena< (1) matching >Unión Magdalena<
+#<SportDb::Import::Country:0x30479a0
+ @alt_names=[],
+ @fifa="ECU",
+ @key="ec",
+ @name="Ecuador",
+ @tags=["fifa", "conmebol"]>
+** !!! WARN !!! no match for club >América de Quito<
+!! club missing / not found any name (1):
+    América de Quito
+** !!! WARN !!! no match for club >S.D. Aucas<
+** !!! WARN !!! no match for club >Aucas<
+!! club missing / not found any name (2):
+    S.D. Aucas | Aucas
+OK   >Barcelona S.C. | Barcelona< (2) matching >Barcelona Guayaquil<
+** !!! WARN !!! no match for club >Delfín S.C.<
+** !!! WARN !!! no match for club >Delfín<
+!! club missing / not found any name (2):
+    Delfín S.C. | Delfín
+** !!! WARN !!! no match for club >C.D. Cuenca<
+** !!! WARN !!! no match for club >Deportivo Cuenca<
+!! club missing / not found any name (2):
+    C.D. Cuenca | Deportivo Cuenca
+** !!! WARN !!! no match for club >C.D. El Nacional<
+!! 1 club (alternate) name(s) missing for >El Nacional (Club Deportivo El Nacional)< :
+    C.D. El Nacional
+    C.D. El Nacional | El Nacional
+OK   >C.S. Emelec | Emelec< (2) matching >CS Emelec<
+** !!! WARN !!! no match for club >Fuerza Amarilla S.C.<
+** !!! WARN !!! no match for club >Fuerza Amarilla<
+!! club missing / not found any name (2):
+    Fuerza Amarilla S.C. | Fuerza Amarilla
+** !!! WARN !!! no match for club >Guayaquil City F.C.<
+** !!! WARN !!! no match for club >Guayaquil City<
+!! club missing / not found any name (2):
+    Guayaquil City F.C. | Guayaquil City
+** !!! WARN !!! no match for club >C.S.D. Independiente del Valle<
+** !!! WARN !!! no match for club >Independiente del Valle<
+!! club missing / not found any name (2):
+    C.S.D. Independiente del Valle | Independiente del Valle
+OK   >L.D.U. Quito | LDU Quito< (2) matching >LDU Quito<
+** !!! WARN !!! no match for club >C.S.D. Macará<
+** !!! WARN !!! no match for club >Macará<
+!! club missing / not found any name (2):
+    C.S.D. Macará | Macará
+** !!! WARN !!! no match for club >Mushuc Runa S.C.<
+** !!! WARN !!! no match for club >Mushuc Runa<
+!! club missing / not found any name (2):
+    Mushuc Runa S.C. | Mushuc Runa
+** !!! WARN !!! no match for club >C.D. Olmedo<
+** !!! WARN !!! no match for club >Olmedo<
+!! club missing / not found any name (2):
+    C.D. Olmedo | Olmedo
+** !!! WARN !!! no match for club >C.D. Técnico Universitario<
+** !!! WARN !!! no match for club >Técnico Universitario<
+!! club missing / not found any name (2):
+    C.D. Técnico Universitario | Técnico Universitario
+** !!! WARN !!! no match for club >C.D. Universidad Católica del Ecuador<
+** !!! WARN !!! no match for club >Universidad Católica<
+!! club missing / not found any name (2):
+    C.D. Universidad Católica del Ecuador | Universidad Católica
+#<SportDb::Import::Country:0x3046ff8
+ @alt_names=[],
+ @fifa="PAR",
+ @key="py",
+ @name="Paraguay",
+ @tags=["fifa", "conmebol"]>
+OK   >Cerro Porteño< (1) matching >Cerro Porteño<
+OK   >Deportivo Capiatá< (1) matching >Deportivo Capiatá<
+OK   >Deportivo Santaní< (1) matching >Deportivo Santaní<
+OK   >Club General Díaz (Luque) | General Díaz< (2) matching >Club General Díaz<
+OK   >Club Guaraní | Guaraní< (2) matching >Club Guaraní<
+OK   >Club Libertad | Libertad< (2) matching >Libertad Ascunción<
+OK   >Club Nacional | Nacional< (2) matching >Club Nacional<
+OK   >Club Olimpia | Olimpia< (2) matching >Club Olimpia<
+OK   >Club River Plate (Asunción) | River Plate< (2) matching >Club River Plate<
+OK   >Club Sportivo San Lorenzo | San Lorenzo< (2) matching >Club Sportivo San Lorenzo<
+OK   >Club Sol de América | Sol de América< (2) matching >Club Sol de América<
+OK   >Sportivo Luqueño< (1) matching >Sportivo Luqueño<
+#<SportDb::Import::Country:0x3046638
+ @alt_names=[],
+ @fifa="PER",
+ @key="pe",
+ @name="Peru",
+ @tags=["fifa", "conmebol"]>
+OK   >Alianza Lima< (1) matching >Alianza Lima<
+OK   >Alianza Universidad< (1) matching >Alianza Universidad<
+OK   >Ayacucho FC | Ayacucho< (2) matching >Ayacucho FC<
+OK   >Escuela Municipal Binacional | Binacional< (2) matching >Escuela Municipal Binacional<
+OK   >Academia Cantolao | Cantolao< (2) matching >Academia Cantolao<
+OK   >Carlos A. Mannucci< (1) matching >Carlos A. Mannucci<
+OK   >Deportivo Municipal< (1) matching >Deportivo Municipal<
+OK   >FBC Melgar | Melgar< (2) matching >FBC Melgar<
+OK   >Molinos El Pirata< (1) matching >Molinos El Pirata<
+OK   >Real Garcilaso< (1) matching >Real Garcilaso<
+OK   >Sport Boys< (1) matching >Sport Boys<
+OK   >Sport Huancayo< (1) matching >Sport Huancayo<
+OK   >Sporting Cristal< (1) matching >Sporting Cristal<
+OK   >Unión Comercio< (1) matching >Unión Comercio<
+OK   >Club Deportivo Universidad César Vallejo | Universidad César Vallejo< (2) matching >Universidad César Vallejo<
+OK   >Club Deportivo Universidad de San Martín de Porres | Universidad San Martín< (2) matching >Club Deportivo Universidad de San Martín de Porres<
+OK   >Club Universitario de Deportes | Universitario< (2) matching >Club Universitario de Deportes<
+OK   >Universidad Técnica de Cajamarca | UTC< (2) matching >Universidad Técnica de Cajamarca<
+#<SportDb::Import::Country:0x3045be8
+ @alt_names=[],
+ @fifa="URU",
+ @key="uy",
+ @name="Uruguay",
+ @tags=["fifa", "conmebol"]>
+** !!! WARN !!! no match for club >Boston River<
+!! club missing / not found any name (1):
+    Boston River
+OK   >C.A. Cerro | Cerro< (2) matching >CA Cerro<
+OK   >Cerro Largo F.C. | Cerro Largo< (2) matching >Cerro Largo<
+OK   >Danubio F.C. | Danubio< (2) matching >Danubio FC<
+OK   >Defensor Sporting< (1) matching >Defensor Sporting<
+OK   >Centro Atlético Fénix | Fénix< (2) matching >Centro Atlético Fénix<
+OK   >Juventud de Las Piedras | Juventud< (2) matching >Juventud de Las Piedras<
+** !!! WARN !!! no match for club >Liverpool F.C. (Montevideo)<
+!! 1 club (alternate) name(s) missing for >Liverpool Montevideo (Liverpool | Liverpool FC | Liverpool Fútbol Club | Liverpool FC Montevideo)< :
+    Liverpool F.C. (Montevideo)
+    Liverpool F.C. (Montevideo) | Liverpool
+OK   >Montevideo Wanderers F.C. | Montevideo Wanderers< (2) matching >Montevideo Wanderers<
+OK   >Club Nacional de Football | Nacional< (2) matching >Nacional de Montevideo<
+OK   >Peñarol< (1) matching >CA Peñarol<
+** !!! WARN !!! no match for club >Club Plaza Colonia de Deportes<
+** !!! WARN !!! no match for club >Plaza Colonia<
+!! club missing / not found any name (2):
+    Club Plaza Colonia de Deportes | Plaza Colonia
+** !!! WARN !!! no match for club >C.A. Progreso<
+** !!! WARN !!! no match for club >Progreso<
+!! club missing / not found any name (2):
+    C.A. Progreso | Progreso
+OK   >Racing Club de Montevideo | Racing< (2) matching >Racing CM<
+** !!! WARN !!! no match for club >Rampla Juniors<
+!! club missing / not found any name (1):
+    Rampla Juniors
+** !!! WARN !!! no match for club >Club Atlético River Plate (Uruguay)<
+!! 1 club (alternate) name(s) missing for >CA River Plate (River Plate | Club Atlético River Plate)< :
+    Club Atlético River Plate (Uruguay)
+    Club Atlético River Plate (Uruguay) | River Plate
+#<SportDb::Import::Country:0x3045018
+ @alt_names=[],
+ @fifa="VEN",
+ @key="ve",
+ @name="Venezuela",
+ @tags=["fifa", "conmebol"]>
+OK   >Academia Puerto Cabello< (1) matching >Academia Puerto Cabello<
+OK   >Aragua F.C. | Aragua< (2) matching >Aragua FC<
+OK   >Atlético Venezuela< (1) matching >Atlético Venezuela<
+OK   >Carabobo FC | Carabobo< (2) matching >Carabobo FC<
+OK   >Caracas FC | Caracas< (2) matching >Caracas FC<
+OK   >Deportivo Anzoátegui< (1) matching >Deportivo Anzoátegui<
+OK   >Deportivo La Guaira< (1) matching >Deportivo La Guaira<
+OK   >Asociación Civil Deportivo Lara | Deportivo Lara< (2) matching >Deportivo Lara<
+OK   >Deportivo Táchira< (1) matching >Deportivo Táchira<
+OK   >Estudiantes de Caracas< (1) matching >Estudiantes de Caracas<
+OK   >Estudiantes de Mérida< (1) matching >Estudiantes de Mérida<
+OK   >LALA FC | LALA< (2) matching >LALA FC<
+OK   >Llaneros Escuela de Fútbol | Llaneros< (2) matching >Llaneros FC<
+OK   >Metropolitanos FC | Metropolitanos< (2) matching >Metropolitanos FC<
+OK   >Mineros de Guayana< (1) matching >AC Mineros<
+OK   >Monagas Sport Club | Monagas< (2) matching >Monagas Sport Club<
+OK   >Portuguesa F.C. | Portuguesa< (2) matching >Portuguesa FC<
+OK   >Trujillanos FC | Trujillanos< (2) matching >Trujillanos FC<
+OK   >Zamora FC | Zamora< (2) matching >Zamora FC<
+OK   >Zulia FC | Zulia< (2) matching >Zulia FC<
+
+--- uefa.clubs.txt
+#<SportDb::Import::Country:0x3010e18
+ @alt_names=[],
+ @fifa="ALB",
+ @key="al",
+ @name="Albania",
+ @tags=["fifa", "uefa"]>
+OK   >Flamurtari Vlorë | Flamurtari< (2) matching >KS Flamurtari<
+OK   >FC Kamza | Kamza< (2) matching >FC Kamza<
+OK   >KS Kastrioti | Kastrioti< (2) matching >KS Kastrioti<
+OK   >FK Kukësi | Kukësi< (2) matching >FK Kukësi<
+OK   >KF Laçi | Laçi< (2) matching >KF Laçi<
+OK   >Luftëtari Gjirokastër FC | Luftëtari< (2) matching >KS Luftëtari<
+OK   >FK Partizani Tirana | Partizani< (2) matching >FK Partizani Tirana<
+OK   >KF Skënderbeu Korçë | Skënderbeu< (2) matching >KS Skënderbeu<
+OK   >KF Teuta Durrës | Teuta< (2) matching >KS Teuta<
+OK   >KF Tirana | Tirana< (2) matching >KF Tirana<
+#<SportDb::Import::Country:0x30105c0
+ @alt_names=[],
+ @fifa="AND",
+ @key="ad",
+ @name="Andorra",
+ @tags=["fifa", "uefa"]>
+** !!! WARN !!! no match for club >FC Encamp<
+** !!! WARN !!! no match for club >Encamp<
+!! club missing / not found any name (2):
+    FC Encamp | Encamp
+OK   >UE Engordany | Engordany< (2) matching >UE Engordany<
+OK   >FC Santa Coloma< (1) matching >FC Santa Coloma<
+OK   >Inter Club d'Escaldes< (1) matching >Inter Club d'Escaldes<
+** !!! WARN !!! no match for club >FC Lusitanos<
+** !!! WARN !!! no match for club >Lusitanos<
+!! club missing / not found any name (2):
+    FC Lusitanos | Lusitanos
+OK   >FC Ordino< (1) matching >FC Ordino<
+OK   >UE Sant Julià | Sant Julià< (2) matching >UE Sant Julià<
+OK   >UE Santa Coloma< (1) matching >UE Santa Coloma<
+#<SportDb::Import::Country:0x2e7dcd8
+ @alt_names=[],
+ @fifa="ARM",
+ @key="am",
+ @name="Armenia",
+ @tags=["fifa", "uefa"]>
+** !!! WARN !!! no match for club >FC Alashkert<
+!! 1 club (alternate) name(s) missing for >Alashkert FC (Alashkert)< :
+    FC Alashkert
+    FC Alashkert | Alashkert
+** !!! WARN !!! no match for club >FC Ararat Yerevan<
+!! 1 club (alternate) name(s) missing for >FC Ararat (Ararat)< :
+    FC Ararat Yerevan
+    FC Ararat Yerevan | Ararat
+** !!! WARN !!! no match for club >FC Ararat-Armenia<
+!! 1 club (alternate) name(s) missing for >Ararat-Armenia FC (Ararat-Armenia)< :
+    FC Ararat-Armenia
+    FC Ararat-Armenia | Ararat-Armenia
+** !!! WARN !!! no match for club >Artsakh<
+!! 1 club (alternate) name(s) missing for >Artsakh FC ()< :
+    Artsakh
+    Artsakh FC | Artsakh
+OK   >FC Banants | Banants< (2) matching >FC Urartu<
+** !!! WARN !!! no match for club >FC Gandzasar Kapan<
+!! 1 club (alternate) name(s) missing for >FC Gandzasar (Gandzasar)< :
+    FC Gandzasar Kapan
+    FC Gandzasar Kapan | Gandzasar
+** !!! WARN !!! no match for club >Lori FC<
+!! 1 club (alternate) name(s) missing for >FSC Lori (Lori)< :
+    Lori FC
+    Lori FC | Lori
+OK   >FC Pyunik | Pyunik< (2) matching >FC Pyunik<
+** !!! WARN !!! no match for club >Shirak SC<
+!! 1 club (alternate) name(s) missing for >FC Shirak (Shirak)< :
+    Shirak SC
+    Shirak SC | Shirak
+#<SportDb::Import::Country:0x2e7d258
+ @alt_names=[],
+ @fifa="AZE",
+ @key="az",
+ @name="Azerbaijan",
+ @tags=["fifa", "uefa"]>
+** !!! WARN !!! no match for club >Gabala FK<
+!! 1 club (alternate) name(s) missing for >Gabala SC (Gabala)< :
+    Gabala FK
+    Gabala FK | Gabala
+OK   >Keşla FK | Keşla< (2) matching >Keşla FK<
+** !!! WARN !!! no match for club >Neftchi Baku<
+!! 1 club (alternate) name(s) missing for >Neftçi PFK (Neftçi)< :
+    Neftchi Baku
+    Neftçi PFK | Neftchi Baku
+OK   >Qarabağ FK | Qarabağ< (2) matching >Qarabağ FK<
+** !!! WARN !!! no match for club >Sabah FK<
+!! 1 club (alternate) name(s) missing for >Sabah ()< :
+    Sabah FK
+    Sabah FK | Sabah
+** !!! WARN !!! no match for club >Sabail FK<
+!! 1 club (alternate) name(s) missing for >Sabail ()< :
+    Sabail FK
+    Sabail FK | Sabail
+** !!! WARN !!! no match for club >Sumgayit FK<
+** !!! WARN !!! no match for club >Sumgayit<
+!! club missing / not found any name (2):
+    Sumgayit FK | Sumgayit
+** !!! WARN !!! no match for club >Zira<
+!! 1 club (alternate) name(s) missing for >Zirä FK ()< :
+    Zira
+    Zira FK | Zira
+#<SportDb::Import::Country:0x3006ba0
+ @alt_names=[],
+ @fifa="BLR",
+ @key="by",
+ @name="Belarus",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x3005a48
+ @alt_names=["Bosnia-Herzegovina", "Bosnia", "Bosnia-Herz."],
+ @fifa="BIH",
+ @key="ba",
+ @name="Bosnia and Herzegovina",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x30043f8
+ @alt_names=[],
+ @fifa="BUL",
+ @key="bg",
+ @name="Bulgaria",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2fffb38
+ @alt_names=["Hrvatska [hr]"],
+ @fifa="CRO",
+ @key="hr",
+ @name="Croatia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ffee00
+ @alt_names=[],
+ @fifa="CYP",
+ @key="cy",
+ @name="Cyprus",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ffe590
+ @alt_names=[],
+ @fifa="CZE",
+ @key="cz",
+ @name="Czech Republic",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ffdd38
+ @alt_names=[],
+ @fifa="DEN",
+ @key="dk",
+ @name="Denmark",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e63c68
+ @alt_names=[],
+ @fifa="ENG",
+ @key="eng",
+ @name="England",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ffd330
+ @alt_names=[],
+ @fifa="EST",
+ @key="ee",
+ @name="Estonia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e77b70
+ @alt_names=[],
+ @fifa="FRO",
+ @key="fo",
+ @name="Faroe Islands",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff7bb8
+ @alt_names=[],
+ @fifa="FIN",
+ @key="fi",
+ @name="Finland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff7180
+ @alt_names=[],
+ @fifa="FRA",
+ @key="fr",
+ @name="France",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e7c748
+ @alt_names=[],
+ @fifa="GEO",
+ @key="ge",
+ @name="Georgia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff68c8
+ @alt_names=["Deutschland [de]"],
+ @fifa="GER",
+ @key="de",
+ @name="Germany",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e76fa0
+ @alt_names=[],
+ @fifa="GIB",
+ @key="gi",
+ @name="Gibraltar",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff5ae8
+ @alt_names=[],
+ @fifa="GRE",
+ @key="gr",
+ @name="Greece",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff5068
+ @alt_names=[],
+ @fifa="HUN",
+ @key="hu",
+ @name="Hungary",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ff4600
+ @alt_names=[],
+ @fifa="ISL",
+ @key="is",
+ @name="Iceland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x318d398
+ @alt_names=[],
+ @fifa="ISR",
+ @key="il",
+ @name="Israel",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ed72e8
+ @alt_names=[],
+ @fifa="ITA",
+ @key="it",
+ @name="Italy",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x3180d20
+ @alt_names=[],
+ @fifa="KAZ",
+ @key="kz",
+ @name="Kazakhstan",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e7fda8
+ @alt_names=["KOS"],
+ @fifa="KVX",
+ @key="xk",
+ @name="Kosovo",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ed5188
+ @alt_names=["Latvija"],
+ @fifa="LVA",
+ @key="lv",
+ @name="Latvia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ecf398
+ @alt_names=[],
+ @fifa="LTU",
+ @key="lt",
+ @name="Lithuania",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ecea80
+ @alt_names=[],
+ @fifa="LUX",
+ @key="lu",
+ @name="Luxembourg",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ebcfd8
+ @alt_names=[],
+ @fifa="MLT",
+ @key="mt",
+ @name="Malta",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eb3900
+ @alt_names=[],
+ @fifa="MDA",
+ @key="md",
+ @name="Moldova",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eb2850
+ @alt_names=[],
+ @fifa="MNE",
+ @key="me",
+ @name="Montenegro",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eb1878
+ @alt_names=[],
+ @fifa="NED",
+ @key="nl",
+ @name="Netherlands",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ebe880
+ @alt_names=["Macedonia"],
+ @fifa="MKD",
+ @key="mk",
+ @name="North Macedonia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e37f28
+ @alt_names=["N. Ireland"],
+ @fifa="NIR",
+ @key="nir",
+ @name="Northern Ireland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eb0ba0
+ @alt_names=[],
+ @fifa="NOR",
+ @key="no",
+ @name="Norway",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eb10f8
+ @alt_names=[],
+ @fifa="POL",
+ @key="pl",
+ @name="Poland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2eaab28
+ @alt_names=[],
+ @fifa="POR",
+ @key="pt",
+ @name="Portugal",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ed6628
+ @alt_names=["Republic of Ireland"],
+ @fifa="IRL",
+ @key="ie",
+ @name="Ireland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ea8e30
+ @alt_names=[],
+ @fifa="ROU",
+ @key="ro",
+ @name="Romania",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ea8110
+ @alt_names=[],
+ @fifa="RUS",
+ @key="ru",
+ @name="Russia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e97658
+ @alt_names=[],
+ @fifa="SMR",
+ @key="sm",
+ @name="San Marino",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e611a8
+ @alt_names=[],
+ @fifa="SCO",
+ @key="sco",
+ @name="Scotland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e96b18
+ @alt_names=[],
+ @fifa="SRB",
+ @key="rs",
+ @name="Serbia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e95798
+ @alt_names=[],
+ @fifa="SVK",
+ @key="sk",
+ @name="Slovakia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e94028
+ @alt_names=[],
+ @fifa="SVN",
+ @key="si",
+ @name="Slovenia",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2ffc898
+ @alt_names=["Espa\u00F1a [es]"],
+ @fifa="ESP",
+ @key="es",
+ @name="Spain",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e8b400
+ @alt_names=[],
+ @fifa="SWE",
+ @key="se",
+ @name="Sweden",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e8a7d0
+ @alt_names=[],
+ @fifa="SUI",
+ @key="ch",
+ @name="Switzerland",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e89af8
+ @alt_names=[],
+ @fifa="TUR",
+ @key="tr",
+ @name="Turkey",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e88d30
+ @alt_names=[],
+ @fifa="UKR",
+ @key="ua",
+ @name="Ukraine",
+ @tags=["fifa", "uefa"]>
+#<SportDb::Import::Country:0x2e62258
+ @alt_names=[],
+ @fifa="WAL",
+ @key="wal",
+ @name="Wales",
+ @tags=["fifa", "uefa"]>
+
+--- be.clubs.txt
+#<SportDb::Import::Country:0x30f61e0
+ @alt_names=[],
+ @fifa="BEL",
+ @key="be",
+ @name="Belgium",
+ @tags=["fifa", "uefa"]>
+OK   >R.S.C. Anderlecht | Anderlecht< (2) matching >RSC Anderlecht<
+OK   >Royal Antwerp F.C. | Antwerp< (2) matching >Royal Antwerp FC<
+OK   >Cercle Brugge K.S.V. | Cercle Brugge< (2) matching >Cercle Brugge<
+OK   >R. Charleroi S.C. | Charleroi< (2) matching >Sporting Charleroi<
+OK   >Club Brugge KV | Club Brugge< (2) matching >Club Brugge<
+OK   >K.A.S. Eupen | Eupen< (2) matching >KAS Eupen<
+OK   >K.R.C. Genk | Genk< (2) matching >KRC Genk<
+OK   >K.A.A. Gent | Gent< (2) matching >KAA Gent<
+OK   >K.V. Kortrijk | Kortrijk< (2) matching >KV Kortrijk<
+OK   >K.S.C. Lokeren Oost-Vlaanderen | Lokeren< (2) matching >KSC Lokeren OV<
+OK   >Royal Excel Mouscron | Excel Mouscron< (2) matching >Royal Excel Mouscron<
+OK   >K.V. Oostende | Oostende< (2) matching >KV Oostende<
+OK   >Sint-Truidense V.V. | Sint-Truiden< (2) matching >Sint-Truidense VV<
+OK   >Standard Liège< (1) matching >Standard Liège<
+OK   >Waasland-Beveren< (1) matching >Waasland-Beveren<
+OK   >S.V. Zulte Waregem | Zulte Waregem< (2) matching >SV Zulte Waregem<
+** !!! WARN !!! no match for club >FCO Beerschot Wilrijk<
+!! club missing / not found any name (1):
+    FCO Beerschot Wilrijk
+** !!! WARN !!! no match for club >Lommel SK<
+!! club missing / not found any name (1):
+    Lommel SK
+OK   >KV Mechelen | Mechelen< (2) matching >KV Mechelen<
+OK   >Oud-Heverlee Leuven< (1) matching >Oud-Heverlee Leuven<
+OK   >K.S.V. Roeselare< (1) matching >KSV Roeselare<
+OK   >A.F.C. Tubize< (1) matching >AFC Tubize<
+** !!! WARN !!! no match for club >Royale Union Saint-Gilloise<
+** !!! WARN !!! no match for club >R. Union Saint-Gilloise<
+!! club missing / not found any name (2):
+    Royale Union Saint-Gilloise | R. Union Saint-Gilloise
+OK   >K.V.C. Westerlo< (1) matching >KVC Westerlo<
+
+--- nz.clubs.txt
+#<SportDb::Import::Country:0x30ec658
+ @alt_names=[],
+ @fifa="NZL",
+ @key="nz",
+ @name="New Zealand",
+ @tags=["fifa", "ofc"]>
+OK   >Auckland City FC | Auckland City< (2) matching >Auckland City FC<
+** !!! WARN !!! no match for club >Canterbury United FC<
+!! 1 club (alternate) name(s) missing for >Canterbury United ()< :
+    Canterbury United FC
+    Canterbury United FC | Canterbury United
+** !!! WARN !!! no match for club >Eastern Suburbs AFC<
+** !!! WARN !!! no match for club >Eastern Suburbs<
+!! club missing / not found any name (2):
+    Eastern Suburbs AFC | Eastern Suburbs
+** !!! WARN !!! no match for club >Hamilton Wanderers AFC<
+** !!! WARN !!! no match for club >Hamilton Wanderers<
+!! club missing / not found any name (2):
+    Hamilton Wanderers AFC | Hamilton Wanderers
+** !!! WARN !!! no match for club >Hawke's Bay United FC<
+!! 1 club (alternate) name(s) missing for >Hawke's Bay United ()< :
+    Hawke's Bay United FC
+    Hawke's Bay United FC | Hawke's Bay United
+** !!! WARN !!! no match for club >Southern United FC<
+** !!! WARN !!! no match for club >Southern United<
+!! club missing / not found any name (2):
+    Southern United FC | Southern United
+** !!! WARN !!! no match for club >Tasman United<
+!! club missing / not found any name (1):
+    Tasman United
+OK   >Team Wellington< (1) matching >Team Wellington<
+OK   >Waitakere United< (1) matching >Waitakere United<
+** !!! WARN !!! no match for club >Wellington Phoenix FC Reserves<
+!! 1 club (alternate) name(s) missing for >Wellington Phoenix (Wellington)< :
+    Wellington Phoenix FC Reserves
+    Wellington Phoenix FC Reserves | Wellington Phoenix
