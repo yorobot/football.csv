@@ -134,7 +134,7 @@ def find_club( name, country )   ## todo/fix: add international or league flag?
   end
 
   if m.nil?
-    puts "** !!! WARN !!! no match for club >#{name}<"
+    ## puts "** !!! WARN !!! no match for club >#{name}<"
   elsif m.size > 1
     puts "** !!! ERROR !!! too many matches (#{m.size}) for club >#{name}<:"
     pp m

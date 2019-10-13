@@ -1,7 +1,7 @@
 require_relative 'convert'
 
 
-basename = 'concacaf'       # conmebol, afc, ar, at ...
+basename = 'ar'       # conmebol, afc, ar, at ...
 
 
 page = Wikiscript.read( "dl/#{basename}.txt" )

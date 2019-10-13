@@ -72,13 +72,13 @@ CLUBS_PATTERN = %r{
                  }x
 
 
-# datafile = 'ar.clubs.txt'
+datafile = 'ar.clubs.txt'
 # datafile = 'at.clubs.txt'
 # datafile = 'aut.txt'
 # datafile = 'conmebol.clubs.txt'
 # datafile = 'uefa.clubs.txt'
 # datafile = 'be.clubs.txt'
-datafile = 'nz.clubs.txt'
+# datafile = 'nz.clubs.txt'
 recs = ClubLintReader.read( "./o/#{datafile}" )
 pp recs
 

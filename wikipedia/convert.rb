@@ -1,12 +1,16 @@
 require 'wikiscript'
 
+require 'sportdb/clubs'   ## used for Club.strip_wiki
 
 
 def convert_club( value )
   link, title = Wikiscript.parse_link( value )
   if link
     buf = String.new
-    buf << link
+    ## note: (pre)process wiki link e.g.
+    ##   FC Wacker Innsbruck (2012) => FC Wacker Innsbruck
+    ##   Willem II (football club)  => Willem II   etc
+    buf << SportDb::Import::Club.strip_wiki( link )            
     buf << " | #{title}" if title
     ## todo use WikiLink struct!!!! - why? why not?
     buf

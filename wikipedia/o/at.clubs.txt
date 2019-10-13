@@ -1,6 +1,6 @@
 = Austria =
 
-# rows: 12, headers: 4  ! Team !! Location !! Venue !! Capacity
+# table rows: 12, headers: 4  ! Team !! Location !! Venue !! Capacity
 
 FC Admira Wacker Mödling | Admira Wacker Mödling     # Maria Enzersdorf
 FK Austria Wien | Austria Wien                       # Vienna
@@ -12,11 +12,11 @@ SKN St. Pölten | St. Pölten                          # Sankt Pölten
 SK Sturm Graz | Sturm Graz                           # Graz
 SV Mattersburg                                       # Mattersburg
 TSV Hartberg                                         # Hartberg
-FC Wacker Innsbruck (2002) | Wacker Innsbruck        # Innsbruck
+FC Wacker Innsbruck | Wacker Innsbruck               # Innsbruck
 Wolfsberger AC                                       # Wolfsberg
 
 
-# rows: 16, headers: 4  ! Club Name !! City !! Stadium !! Capacity
+# table rows: 16, headers: 4  ! Club Name !! City !! Stadium !! Capacity
 
 SC Austria Lustenau | Austria Lustenau               # Lustenau
 FC Blau-Weiß Linz                                    # Linz
@@ -25,7 +25,7 @@ FK Austria Wien | FK Austria Wien II                 # Vienna
 Kapfenberger SV                                      # Kapfenberg
 FC Liefering | Liefering                             # Salzburg
 SV Ried                                              # Ried im Innkreis
-FC Wacker Innsbruck (2002) | Wacker Innsbruck II     # Innsbruck
+FC Wacker Innsbruck | Wacker Innsbruck II            # Innsbruck
 SC Wiener Neustadt | Wiener Neustadt                 # Wiener Neustadt
 WSG Wattens                                          # Wattens
 FC Juniors OÖ                                        # Pasching
@@ -33,6 +33,6 @@ SV Horn                                              # Horn
 SKU Amstetten                                        # Amstetten
 SV Lafnitz                                           # Lafnitz
 SK Vorwärts Steyr                                    # Steyr
-SK Austria Klagenfurt (2007) | SK Austria Klagenfurt   # Klagenfurt
+SK Austria Klagenfurt | SK Austria Klagenfurt        # Klagenfurt
 
 
