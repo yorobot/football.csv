@@ -11,7 +11,7 @@ require_relative 'programs'
 leagues = {}    ## track league usage & names
 
 PROGRAMS.each do |program|
-   recs = CsvHash.read( "2019-#{program}.csv", :header_converters => :symbol )
+   recs = CsvHash.read( "o/2019-#{program}.csv", :header_converters => :symbol )
    pp recs.size
    ## pp recs[0]
 
@@ -56,12 +56,12 @@ sorted_leagues.each do |l|
   m = LEAGUES.match( l[0] )
   if m
     print "    "
-  elsif NATIONAL_TEAM_LEAGUES.include?( l[0] )
-    print "(*) "   ## skip nation (selection) team leagues
+  elsif EXCLUDE_LEAGUES.include?( l[0] )
+    print "(*) "   ## skip national (selection) team leagues and/or women leagues for now
   else
     print "!!! "
   end
   puts "   #{'%3s'%l[1][0]} #{'%-8s'%l[0]} #{l[1][1]}"
 end
 puts
-puts "(*): national team leagues - #{NATIONAL_TEAM_LEAGUES.sort.join(', ')}"
+puts "(*): national team and/or women leagues - #{EXCLUDE_LEAGUES.sort.join(', ')}"

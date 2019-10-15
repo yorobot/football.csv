@@ -29,7 +29,7 @@ EXTRA_COUNTRY_MAPPINGS = {
 
 
 PROGRAMS.each do |program|
-   recs = CsvHash.read( "2019-#{program}.csv", :header_converters => :symbol )
+   recs = CsvHash.read( "o/2019-#{program}.csv", :header_converters => :symbol )
    pp recs.size
 
 
@@ -40,7 +40,7 @@ PROGRAMS.each do |program|
      if league_title =~ /Fussball/
 
        ## skip national (selection) teams / matches e.g. wm, em, u21, u20, int fs, etc.
-       next if NATIONAL_TEAM_LEAGUES.include?( league_code )
+       next if EXCLUDE_LEAGUES.include?( league_code )
 
 
        team1 = rec[:team_1]
@@ -143,6 +143,7 @@ PROGRAMS.each do |program|
      end
    end
 end
+
 
 puts "missing (unmatched) clubs:"
 pp missing_clubs

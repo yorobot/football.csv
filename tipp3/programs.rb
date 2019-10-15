@@ -13,8 +13,8 @@ PROGRAMS = %w[
 ]
 
 
-## todo/fix: rename to EXCLUDE_LEAGUES - why? why not?
-NATIONAL_TEAM_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
+## national teams and/or women leagues
+EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
   'EM Q',       # Europameisterschaft Qualifikation
   'U21 EMQ',    # U21 EM Qualifikation
   'WM Q',       # WM Qualifikation
@@ -24,6 +24,7 @@ NATIONAL_TEAM_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments 
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
   'EMQDA',      # EM Qualifikation, Damen
+  'U19 DAQ',    # U19 EM Frauen, Qualifikation
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
 ]
