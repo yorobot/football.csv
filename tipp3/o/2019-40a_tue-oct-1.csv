@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,01.10. 16:00,U19 DAQ,Israel U19*,0:2,Österreich U19,2,"Fussball - U19 EM Frauen, Qualifikation"
+002,01.10. 16:00,DEN CUP,Viby IF,1:0,Vanlöse IF,1,Fussball - Dänemark Landspokalturneringen
+003,01.10. 16:45,ROU 2,Petrolul Ploiesti,0:0,CS Mioveni,X,"Fussball - Rumänien, Liga 2"
+004,01.10. 17:30,EH FIN,KalPa Kuopio,0:3,Ässät Pori,2,Eishockey - Finnland SM-Liiga
+005,01.10. 17:30,AFC CL,Al-Sadd SC QAT,1:4,Al-Hilal Riyad KSA,2,Fussball - AFC Champions League
+006,01.10. 18:30,KHL,HK Dinamo Minsk,1:1,HC Sochi,X,Eishockey - Kontinental Hockey League
+007,01.10. 18:30,KHL,Spartak Moskau,3:9,HK CSKA Moskau,2,Eishockey - Kontinental Hockey League
+008,01.10. 18:55,CL,Real Madrid ESP,2:2,Club Brügge BEL,X,Fussball - UEFA Champions League
+009,01.10. 18:55,CL,Atalanta BC ITA*,1:2,Shakhtar Don. UKR,2,Fussball - UEFA Champions League
+010,01.10. 19:00,AUT RLM,Sturm Graz Amat.,1:2,Union Gurten,2,Fussball - Österreich Regionalliga Mitte
+011,01.10. 19:00,ESP 2,Albacete Balompie,0:0,Racing Santander,X,Fussball - Spanien Segunda Division
+012,01.10. 19:00,ESP 2,UD Extremadura,2:0,Elche CF,1,Fussball - Spanien Segunda Division
+013,01.10. 19:00,ESP 2,Numancia CD,1:0,Fuenlabrada,1,Fussball - Spanien Segunda Division
+014,01.10. 19:00,SWE 2,Jönköpings Södra,0:0,Mjällby AIF,X,Fussball - Schweden Superettan
+015,01.10. 19:00,SWE 2,Norrby IF,0:1,GAIS Göteborg,2,Fussball - Schweden Superettan
+016,01.10. 19:00,EH SWE,Brynas IF,4:3,Djurgardens IF,1,Eishockey - Schweden Elitserien
+017,01.10. 19:00,EH SWE,HV 71,5:0,Linköpings HC,1,Eishockey - Schweden Elitserien
+018,01.10. 19:45,EH SUI,EV Zug,5:1,HC Servette Genf,1,Eishockey - Schweiz National League A
+019,01.10. 19:45,EH SUI,SCL Tigers Langnau,0:0,HC Davos,X,Eishockey - Schweiz National League A
+020,01.10. 19:45,EH SUI,HC Ambri Piotta,1:2,HC Lugano,2,Eishockey - Schweiz National League A
+021,01.10. 19:45,EH SUI,Zürcher SC Lions,5:2,EHC Biel Bienne,1,Eishockey - Schweiz National League A
+022,01.10. 19:45,EH SUI,Fribourg Gotteron,1:3,SC Bern,2,Eishockey - Schweiz National League A
+023,01.10. 20:45,ENG CS,Blackburn Rovers,1:1,Nottingham Forest,X,Fussball - England Championship
+024,01.10. 20:45,ENG CS,Hull City,1:0,Sheffield Wednes.,1,Fussball - England Championship
+025,01.10. 20:45,ENG CS,Leeds United,1:0,West Bromwich,1,Fussball - England Championship
+026,01.10. 20:45,ENG CS,FC Middlesbrough,1:1,Preston North End,X,Fussball - England Championship
+027,01.10. 20:45,ENG CS,Wigan Athletic,1:0,Birmingham City,1,Fussball - England Championship
+028,01.10. 21:00,ENG CS,FC Reading,1:4,FC Fulham,2,Fussball - England Championship
+029,01.10. 21:00,ENG CS,Stoke City,0:1,Huddersfield Town,2,Fussball - England Championship
+030,01.10. 21:00,ESP 2,Rayo Vallecano,1:1,Alcorcon AD,X,Fussball - Spanien Segunda Division
+031,01.10. 21:00,CL,Galatasaray TUR,0:1,Paris SG FRA,2,Fussball - UEFA Champions League
+032,01.10. 21:00,CL,Roter Stern B. SRB,3:1,Olympiakos P. GRE,1,Fussball - UEFA Champions League
+033,01.10. 21:00,CL,Lok Moskau RUS,0:2,Atl. Madrid ESP,2,Fussball - UEFA Champions League
+034,01.10. 21:00,CL,Tottenham ENG,2:7,Bayern München GER,2,Fussball - UEFA Champions League
+035,01.10. 21:00,CL,Tottenham,2:8,Bayern München+1,2,Fussball - UEFA Champions League
+036,01.10. 21:00,CL,Tottenham+1,3:7,FC Bayern München,2,Fussball - UEFA Champions League
+037,01.10. 21:00,CL,Man. City ENG,2:0,Dinamo Zagreb CRO,1,Fussball - UEFA Champions League
+038,01.10. 21:00,CL,Juventus Turin ITA,3:0,Leverkusen GER,1,Fussball - UEFA Champions League
+039,01.10. 21:00,CL,Juventus Turin,3:1,Bay. Leverkusen+1,1,Fussball - UEFA Champions League
+040,02.10. 02:30,COPA L,CA River Plate ARG,2:0,Boca Juniors ARG,1,Fussball - Copa Libertadores
+041,02.10. 11:30,AUS CUP,Central Coast,1:2,Adelaide United FC,2,"Fussball - Australien, FFA Cup"
+042,02.10. 12:30,AFC CL,Urawa RD JPN,2:0,Guangzhou Ev. CHN,1,Fussball - AFC Champions League
+043,02.10. 17:00,CYP 1,Anorthosis,3:1,Apollon Limassol,1,Fussball - Zypern 1. Division
+044,02.10. 17:30,EH FIN,Jukurit Mikkeli,2:1,HC TPS Turku,1,Eishockey - Finnland SM-Liiga
+045,02.10. 17:30,EH FIN,Kookoo Kouvola,1:1,SaiPa Lappeenr.,X,Eishockey - Finnland SM-Liiga
+046,02.10. 17:30,EH FIN,HPK Hämeenlinna,2:1,JYP Jyväskylä,1,Eishockey - Finnland SM-Liiga
+047,02.10. 17:30,EH FIN,Pelicans Lahti,2:7,Ilves Tampere,2,Eishockey - Finnland SM-Liiga
+048,02.10. 18:30,BOS CUP,NK Siroki Brijeg,3:2,FK Sarajevo,1,Fussball - Bosnien Cup
+049,02.10. 15:30,BOS CUP,Zrinjski Mostar,2:0,FK Sloboda Tuzla,1,Fussball - Bosnien Cup
+050,02.10. 18:30,DEN CUP,HIK Hellerup,0:1,Silkeborg IF,2,Fussball - Dänemark Landspokalturneringen
+051,02.10. 18:55,CL,KRC Genk BEL,0:0,SSC Napoli ITA,X,Fussball - UEFA Champions League
+052,02.10. 18:55,CL,Slavia Prag CZE,0:2,Bor. Dortmund GER,2,Fussball - UEFA Champions League
+053,02.10. 19:00,GER 3,MSV Duisburg,1:3,SV Meppen,2,Fussball - Deutschland 3. Liga
+054,02.10. 19:00,ESP 2,Cadiz CF,1:0,SD Huesca,1,Fussball - Spanien Segunda Division
+055,02.10. 19:00,ESP 2,CD Mirandes,1:1,CD Lugo,X,Fussball - Spanien Segunda Division
+056,02.10. 19:00,DEN 2,HB Köge,0:0,Vejle BK,X,Fussball - Dänemark 1. Division
+057,02.10. 19:45,EH SUI,HC Lausanne,4:1,Rapperswil Lakers,1,Eishockey - Schweiz National League A
+058,02.10. 20:45,ENG CS,FC Barnsley,2:2,Derby County,X,Fussball - England Championship
+059,02.10. 20:45,ENG CS,FC Brentford,1:1,Bristol City,X,Fussball - England Championship
+060,02.10. 20:45,ENG CS,Cardiff City,3:0,Queens Park R.,1,Fussball - England Championship
+061,02.10. 20:45,ENG CS,Charlton Athletic,1:2,Swansea City,2,Fussball - England Championship
+062,02.10. 20:45,ENG CS,Luton Town,1:1,FC Millwall,X,Fussball - England Championship
+063,02.10. 21:00,ESP 2,Teneriffa CD,0:1,Real Oviedo,2,Fussball - Spanien Segunda Division
+064,02.10. 21:00,ESP 2,Ponferradina SD,0:2,Las Palmas UD,2,Fussball - Spanien Segunda Division
+065,02.10. 21:00,CL,FC Liverpool ENG,4:3,RB Salzburg AUT,1,Fussball - UEFA Champions League
+066,02.10. 21:00,CL,FC Liverpool,4:4,RB Salzburg+1,X,Fussball - UEFA Champions League
+067,02.10. 21:00,CL,FC Liverpool,4:5,RB Salzburg+2,2,Fussball - UEFA Champions League
+068,02.10. 21:00,CL,Lille OSC FRA,1:2,FC Chelsea ENG,2,Fussball - UEFA Champions League
+069,02.10. 21:00,CL,FC Barcelona ESP,2:1,Inter Mailand ITA,1,Fussball - UEFA Champions League
+070,02.10. 21:00,CL,FC Barcelona,2:2,Inter Mailand+1,X,Fussball - UEFA Champions League
+071,02.10. 21:00,CL,Zenit Petersb. RUS,3:1,Benfica Lis. POR,1,Fussball - UEFA Champions League
+072,02.10. 21:00,CL,RB Leipzig GER,0:2,Ol. Lyon FRA,2,Fussball - UEFA Champions League
+073,02.10. 21:00,CL,FC Valencia ESP,0:3,Ajax Amsterd. NED,2,Fussball - UEFA Champions League
+074,03.10. 00:15,BRA 1,Atletico MG,1:2,Vasco Da Gama RJ,2,Fussball - Brasilien Brasilero Serie A
+075,03.10. 00:15,BRA 1,Chapecoense SC,0:1,Corinthians SP,2,Fussball - Brasilien Brasilero Serie A
+076,03.10. 02:30,COPA L,Gremio RS BRA,1:1,Flamengo RJ BRA,X,Fussball - Copa Libertadores
+077,03.10. 16:50,EL,FC Astana KAZ,1:2,FK Partizan SRB,2,Fussball - UEFA Europa League
+078,03.10. 18:30,DEN 2,Kolding IF,1:2,FC Fredericia,2,Fussball - Dänemark 1. Division
+079,03.10. 18:30,DEN CUP,Thisted FC,1:2,AC Horsens,2,Fussball - Dänemark Landspokalturneringen
+080,03.10. 18:55,EL,Besiktas Ist. TUR,0:1,Wolverhampton ENG,2,Fussball - UEFA Europa League
+081,03.10. 18:55,EL,Sporting Braga POR,2:2,Slov. Bratisl. SVK,X,Fussball - UEFA Europa League
+082,03.10. 18:55,EL,YB Bern SUI,2:1,Gl.Rangers SCO,1,Fussball - UEFA Europa League
+083,03.10. 18:55,EL,St. Etienne FRA,1:1,VfL Wolfsburg GER,X,Fussball - UEFA Europa League
+084,03.10. 18:55,EL,Oleksandria UKR*,1:1,KAA Gent BEL,X,Fussball - UEFA Europa League
+085,03.10. 18:55,EL,I. Basaksehir TUR,1:1,M'gladbach GER,X,Fussball - UEFA Europa League
+086,03.10. 18:55,EL,Wolfsberg AUT*,1:1,AS Roma ITA,X,Fussball - UEFA Europa League
+087,03.10. 18:55,EL,Wolfsberger AC+1,2:1,AS Roma,1,Fussball - UEFA Europa League
+088,03.10. 18:55,EL,AZ Alkmaar NED*,0:0,Manchester U. ENG,X,Fussball - UEFA Europa League
+089,03.10. 18:55,EL,Feyenoord NED,2:0,FC Porto POR,1,Fussball - UEFA Europa League
+090,03.10. 18:55,EL,ZSKA Moskau RUS,0:2,Esp. Barcelona ESP,2,Fussball - UEFA Europa League
+091,03.10. 18:55,EL,Ferencvaros HUN,0:3,Ludog. Razgrad BUL,2,Fussball - UEFA Europa League
+092,03.10. 19:00,ESP 2,Sporting Gijon,4:2,UD Almeria,1,Fussball - Spanien Segunda Division
+093,03.10. 19:00,ESP 2,Real Saragossa,2:2,Malaga CF,X,Fussball - Spanien Segunda Division
+094,03.10. 19:00,EH SWE,HC Örebro,6:1,Brynas IF,1,Eishockey - Schweden Elitserien
+095,03.10. 19:00,EH SWE,Skelleftea AIK,3:1,Linköpings HC,1,Eishockey - Schweden Elitserien
+096,03.10. 19:00,EH SWE,Djurgardens IF,5:5,Färjestads BK,X,Eishockey - Schweden Elitserien
+097,03.10. 19:00,EH SWE,Rögle BK,2:2,Lulea Hockey,X,Eishockey - Schweden Elitserien
+098,03.10. 19:00,EH SWE,Växjö Lakers,1:4,Malmö IF,2,Eishockey - Schweden Elitserien
+099,03.10. 19:00,EH SWE,IK Oskarshamn,2:2,HV 71,X,Eishockey - Schweden Elitserien
+100,03.10. 19:00,EH SWE,Leksands IF,2:4,Frölunda HC,2,Eishockey - Schweden Elitserien
+101,03.10. 19:00,BB EL,Khimki Moskau RUS,89:83,M.Tel Aviv ISR,1,Basketball - Euroleague
+102,03.10. 20:00,BB EL,Panathinaikos GRE,87:82,Roter Stern SRB,1,Basketball - Euroleague
+103,03.10. 20:00,HB AUT,Fivers Margareten,27:24,Bregenz Handball,1,Handball - Österreich HLA
+104,03.10. 20:30,BB EL,Bayern München GER,78:64,O.Milano ITA,1,Basketball - Euroleague
+105,03.10. 21:00,BB EL,Real Madrid BC ESP,81:77,Fenerbahce TUR,1,Basketball - Euroleague
+106,03.10. 21:00,ESP 2,FC Girona,3:1,Dep. La Coruna,1,Fussball - Spanien Segunda Division
+107,03.10. 21:00,EL,Vit. Guimaraes POR,0:1,E. Frankfurt GER,2,Fussball - UEFA Europa League
+108,03.10. 21:00,EL,Vit. Guimaraes+1,1:1,Eintr. Frankfurt,X,Fussball - UEFA Europa League
+109,03.10. 21:00,EL,F91 Dudelange LUX*,1:4,Qarabag FK AZE,2,Fussball - UEFA Europa League
+110,03.10. 21:00,EL,Malmö FF SWE,1:1,FC Kopenhagen DEN,X,Fussball - UEFA Europa League
+111,03.10. 21:00,EL,FC Lugano SUI*,0:0,Dynamo Kiev UKR,X,Fussball - UEFA Europa League
+112,03.10. 21:00,EL,FC Krasnodar RUS,1:2,Getafe CF ESP,2,Fussball - UEFA Europa League
+113,03.10. 21:00,EL,Rosenborg BK NOR,1:4,PSV Eindhoven NED,2,Fussball - UEFA Europa League
+114,03.10. 21:00,EL,Lazio Rom ITA,2:1,Stade Rennes FRA,1,Fussball - UEFA Europa League
+115,03.10. 21:00,EL,Celtic Glasgow SCO,2:0,FC CFR Cluj ROU,1,Fussball - UEFA Europa League
+116,03.10. 21:00,EL,FC Sevilla ESP,1:0,APOEL Nikosia CYP,1,Fussball - UEFA Europa League
+117,03.10. 21:00,EL,Trabzonspor TUR,2:2,FC Basel SUI,X,Fussball - UEFA Europa League
+118,03.10. 21:00,EL,Sporting Liss. POR,2:1,LASK Linz AUT,1,Fussball - UEFA Europa League
+119,03.10. 21:00,EL,Sporting Lissabon,2:2,LASK Linz+1,X,Fussball - UEFA Europa League
+120,03.10. 21:00,EL,FC Arsenal ENG,4:0,Stand. Lüttich BEL,1,Fussball - UEFA Europa League

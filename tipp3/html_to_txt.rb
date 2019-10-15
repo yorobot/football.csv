@@ -152,5 +152,5 @@ PROGRAMS.each do |program|
    ##  sort by num (1st record filed e.g. 001, 002, 003, etc. - is sometimes out of order (and sorted by date))
    recs = recs.sort_by {|rec| rec[0]}
    pp recs
-   save_tipp3( "2019-#{program}.csv", recs )
+   save_tipp3( "o/2019-#{program}.csv", recs )
 end

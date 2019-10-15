@@ -2,14 +2,14 @@
 ## shared list of tipp3 programs
 
 PROGRAMS = %w[
-  34a 34b       ## Tu-Th Aug/20-22 +++ Fr-Mo Aug/23-26
-  35a 35b       ## Tu-Th Aug/27-29 +++ Fr-Mo Aug/30-Sep/2
-  36a 36b       ## Tu-Th Sep/3-5   +++ Fr-Mo Sep/6-9
-  37a 37b       ## Tu-Th Sep/10-12 +++ Fr-Mo Sep/13-16
-  38a 38b       ## Tu-Th Sep/17-19 +++ Fr-Mo Sep/20-23
-  39a 39b       ## Tu-Th Sep/24-26 +++ Fr-Mo Sep/27-30
-  40a 40b       ## Tu-Th Oct/1-3   +++ Fr-Mo Oct/4-7
-  41a           ## Tu-Th Oct/8-10   
+  34a_tue-aug-20  34b_fri-aug-23
+  35a_tue-aug-27  35b_fri-aug-30
+  36a_tue-sep-3   36b_fri-sep-6
+  37a_tue-sep-10  37b_fri-sep-13
+  38a_tue-sep-17  38b_fri-sep-20
+  39a_tue-sep-24  39b_fri-sep-27
+  40a_tue-oct-1   40b_fri-oct-4
+  41a_tue-oct-8
 ]
 
 
