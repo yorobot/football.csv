@@ -1,3 +1,8 @@
+todos:
+heading 1 >Switzerland • Confoederatio Helvetica (ch)<
+- add Confoederatio Helvetica  to Switzerland as name alias inf fifa / countries!!!
+
+
 todo: match normalize name remove () too !!! why?
 example in Argentina include:
 ->  Estudiantes (LP)     same as / match =>  Estudiantes LP
