@@ -1,114 +1,1237 @@
-## !!! ERROR !!!  3 club names missing >Argentina (ar)<
-## !!! ERROR !!! 18 club names missing >Bolivia (bo)<
-## !!! ERROR !!!  1 club names missing >Brazil (br)<
-## !!! ERROR !!! 17 club names missing >Chile (cl)<
-## !!! ERROR !!! 24 club names missing >Ecuador (ec)<
-## !!! ERROR !!!  8 club names missing >Uruguay (uy)<
+--- uefa.clubs.txt
+#<SportDb::Import::Country:0x2fd6930
+ @alt_names=[],
+ @fifa="AND",
+ @key="ad",
+ @name="Andorra",
+ @tags=["fifa", "uefa"]>
+!! club missing / not found any name (2):
+    FC Encamp | Encamp
+OK   >UE Engordany | Engordany< (2) matching >UE Engordany<
+OK   >FC Santa Coloma< (1) matching >FC Santa Coloma<
+OK   >Inter Club d'Escaldes< (1) matching >Inter Club d'Escaldes<
+!! club missing / not found any name (2):
+    FC Lusitanos | Lusitanos
+OK   >FC Ordino< (1) matching >FC Ordino<
+OK   >UE Sant Julià | Sant Julià< (2) matching >UE Sant Julià<
+OK   >UE Santa Coloma< (1) matching >UE Santa Coloma<
 
-## OK >Venezuela (ve)<
-## OK >Colombia (co)<
-## OK >Paraguay (py)<
-## OK >Peru (pe)<
+#<SportDb::Import::Country:0x2e47d50
+ @alt_names=[],
+ @fifa="ARM",
+ @key="am",
+ @name="Armenia",
+ @tags=["fifa", "uefa"]>
+!! 1 club (alternate) name(s) missing for >Alashkert FC (Alashkert)< :
+    FC Alashkert
+    FC Alashkert | Alashkert
+!! 1 club (alternate) name(s) missing for >FC Ararat (Ararat)< :
+    FC Ararat Yerevan
+    FC Ararat Yerevan | Ararat
+!! 1 club (alternate) name(s) missing for >Ararat-Armenia FC (Ararat-Armenia)< :
+    FC Ararat-Armenia
+    FC Ararat-Armenia | Ararat-Armenia
+!! 1 club (alternate) name(s) missing for >Artsakh FC ()< :
+    Artsakh
+    Artsakh FC | Artsakh
+OK   >FC Banants | Banants< (2) matching >FC Urartu<
+!! 1 club (alternate) name(s) missing for >FC Gandzasar (Gandzasar)< :
+    FC Gandzasar Kapan
+    FC Gandzasar Kapan | Gandzasar
+!! 1 club (alternate) name(s) missing for >FSC Lori (Lori)< :
+    Lori FC
+    Lori FC | Lori
+OK   >FC Pyunik | Pyunik< (2) matching >FC Pyunik<
+!! 1 club (alternate) name(s) missing for >FC Shirak (Shirak)< :
+    Shirak SC
+    Shirak SC | Shirak
+
+#<SportDb::Import::Country:0x2e47288
+ @alt_names=[],
+ @fifa="AZE",
+ @key="az",
+ @name="Azerbaijan",
+ @tags=["fifa", "uefa"]>
+!! 1 club (alternate) name(s) missing for >Gabala SC (Gabala)< :
+    Gabala FK
+    Gabala FK | Gabala
+OK   >Keşla FK | Keşla< (2) matching >Keşla FK<
+!! 1 club (alternate) name(s) missing for >Neftçi PFK (Neftçi)< :
+    Neftchi Baku
+    Neftçi PFK | Neftchi Baku
+OK   >Qarabağ FK | Qarabağ< (2) matching >Qarabağ FK<
+!! 1 club (alternate) name(s) missing for >Sabah ()< :
+    Sabah FK
+    Sabah FK | Sabah
+!! 1 club (alternate) name(s) missing for >Sabail ()< :
+    Sabail FK
+    Sabail FK | Sabail
+!! club missing / not found any name (2):
+    Sumgayit FK | Sumgayit
+!! 1 club (alternate) name(s) missing for >Zirä FK ()< :
+    Zira
+    Zira FK | Zira
+
+--- be.clubs.txt
+#<SportDb::Import::Country:0x2fb09c8
+ @alt_names=[],
+ @fifa="BEL",
+ @key="be",
+ @name="Belgium",
+ @tags=["fifa", "uefa"]>
+OK   >R.S.C. Anderlecht | Anderlecht< (2) matching >RSC Anderlecht<
+OK   >Royal Antwerp F.C. | Antwerp< (2) matching >Royal Antwerp FC<
+OK   >Cercle Brugge K.S.V. | Cercle Brugge< (2) matching >Cercle Brugge<
+OK   >R. Charleroi S.C. | Charleroi< (2) matching >Sporting Charleroi<
+OK   >Club Brugge KV | Club Brugge< (2) matching >Club Brugge<
+OK   >K.A.S. Eupen | Eupen< (2) matching >KAS Eupen<
+OK   >K.R.C. Genk | Genk< (2) matching >KRC Genk<
+OK   >K.A.A. Gent | Gent< (2) matching >KAA Gent<
+OK   >K.V. Kortrijk | Kortrijk< (2) matching >KV Kortrijk<
+OK   >K.S.C. Lokeren Oost-Vlaanderen | Lokeren< (2) matching >KSC Lokeren OV<
+OK   >Royal Excel Mouscron | Excel Mouscron< (2) matching >Royal Excel Mouscron<
+OK   >K.V. Oostende | Oostende< (2) matching >KV Oostende<
+OK   >Sint-Truidense V.V. | Sint-Truiden< (2) matching >Sint-Truidense VV<
+OK   >Standard Liège< (1) matching >Standard Liège<
+OK   >Waasland-Beveren< (1) matching >Waasland-Beveren<
+OK   >S.V. Zulte Waregem | Zulte Waregem< (2) matching >SV Zulte Waregem<
+!! club missing / not found any name (1):
+    FCO Beerschot Wilrijk
+!! club missing / not found any name (1):
+    Lommel SK
+OK   >KV Mechelen | Mechelen< (2) matching >KV Mechelen<
+OK   >Oud-Heverlee Leuven< (1) matching >Oud-Heverlee Leuven<
+OK   >K.S.V. Roeselare< (1) matching >KSV Roeselare<
+OK   >A.F.C. Tubize< (1) matching >AFC Tubize<
+!! club missing / not found any name (2):
+    Royale Union Saint-Gilloise | R. Union Saint-Gilloise
+OK   >K.V.C. Westerlo< (1) matching >KVC Westerlo<
 
 
-==========
-Argentina (ar)
+--- nz.clubs.txt
+#<SportDb::Import::Country:0x30dbf18
+ @alt_names=[],
+ @fifa="NZL",
+ @key="nz",
+ @name="New Zealand",
+ @tags=["fifa", "ofc"]>
+OK   >Auckland City FC | Auckland City< (2) matching >Auckland City FC<
+!! 1 club (alternate) name(s) missing for >Canterbury United ()< :
+    Canterbury United FC
+    Canterbury United FC | Canterbury United
+!! club missing / not found any name (2):
+    Eastern Suburbs AFC | Eastern Suburbs
+!! club missing / not found any name (2):
+    Hamilton Wanderers AFC | Hamilton Wanderers
+!! 1 club (alternate) name(s) missing for >Hawke's Bay United ()< :
+    Hawke's Bay United FC
+    Hawke's Bay United FC | Hawke's Bay United
+!! club missing / not found any name (2):
+    Southern United FC | Southern United
+!! club missing / not found any name (1):
+    Tasman United
+OK   >Team Wellington< (1) matching >Team Wellington<
+OK   >Waitakere United< (1) matching >Waitakere United<
+!! 1 club (alternate) name(s) missing for >Wellington Phoenix (Wellington)< :
+    Wellington Phoenix FC Reserves
+    Wellington Phoenix FC Reserves | Wellington Phoenix
 
-Estudiantes (LP)
-Gimnasia y Esgrima (LP)
-Talleres (C)
-
-==========
-Argentina (ar)
-
-Estudiantes (LP)
-Gimnasia (LP)
-Talleres (C)
-
-==========
-Bolivia (bo)
-
-Club Always Ready
-Always Ready
-Club Aurora
-Aurora
-Club Blooming
-Blooming
-Club Destroyers
-Destroyers
-Guabirá
-C.D. Jorge Wilstermann
-Jorge Wilstermann
-Nacional Potosí
-Club Real Potosí
-Royal Pari F.C.
-Royal Pari
-Club San José
-Sport Boys Warnes
-Sport Boys
-
-==========
-Brazil (br)
-
-Athletico Paranaense
-
-==========
-Chile (cl)
-
-Audax Italiano
-C.D. Cobresal
-Cobresal
-Colo-Colo
-Coquimbo Unido
-Curicó Unido
-C.D. Antofagasta
-Deportes Antofagasta
-Everton de Viña del Mar
-Everton
-O'Higgins F.C.
-O'Higgins
-Club Deportivo Palestino
-Palestino
-Unión La Calera
-C.D. Universidad de Concepción
-Universidad de Concepción
-
-==========
-Ecuador (ec)
-
-América de Quito
-S.D. Aucas
-Aucas
-Delfín S.C.
-Delfín
-C.D. Cuenca
-Deportivo Cuenca
-C.D. El Nacional
-Fuerza Amarilla S.C.
-Fuerza Amarilla
-Guayaquil City F.C.
-Guayaquil City
-C.S.D. Independiente del Valle
-Independiente del Valle
-C.S.D. Macará
-Macará
-Mushuc Runa S.C.
-Mushuc Runa
-C.D. Olmedo
-Olmedo
-C.D. Técnico Universitario
-Técnico Universitario
-C.D. Universidad Católica del Ecuador
-Universidad Católica
-
-==========
-Uruguay (uy)
-
-Boston River
-Liverpool F.C. (Montevideo)
-Club Plaza Colonia de Deportes
-Plaza Colonia
-C.A. Progreso
-Progreso
-Rampla Juniors
-Club Atlético River Plate (Uruguay)
+--- concacaf.clubs.txt
+#<SportDb::Import::Country:0x3055638
+ @alt_names=[],
+ @fifa="AIA",
+ @key="ai",
+ @name="Anguilla",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    ALHCS Spartan FC | ALHCS Spartan
+!! club missing / not found any name (2):
+    Diamond FC | Diamond
+!! club missing / not found any name (2):
+    Docks United FC | Docks United
+!! club missing / not found any name (2):
+    Enforcers FC | Enforcers
+!! club missing / not found any name (2):
+    Kicks United FC | Kicks United
+!! club missing / not found any name (2):
+    Roaring Lions FC | Roaring Lions
+!! club missing / not found any name (2):
+    Salsa Ballers FC | Ballers
+!! club missing / not found any name (2):
+    Up Rising FC | Up Rising
+#<SportDb::Import::Country:0x30702d8
+ @alt_names=["Antigua/Barb."],
+ @fifa="ATG",
+ @key="ag",
+ @name="Antigua and Barbuda",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Villa Lions
+!! club missing / not found any name (2):
+    Five Islands F.C. | Five Islands
+!! club missing / not found any name (1):
+    Grenades F.C.
+!! club missing / not found any name (1):
+    Hoppers FC
+!! club missing / not found any name (1):
+    Liberta
+!! club missing / not found any name (1):
+    Old Road FC
+!! club missing / not found any name (1):
+    Parham FC
+!! club missing / not found any name (1):
+    Sap FC
+!! club missing / not found any name (1):
+    Swetes
+!! club missing / not found any name (1):
+    Tryum
+#<SportDb::Import::Country:0x3057720
+ @alt_names=[],
+ @fifa="ARU",
+ @key="aw",
+ @name="Aruba",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    SV Britannia
+!! club missing / not found any name (1):
+    SV Bubali
+!! club missing / not found any name (1):
+    SV Dakota
+!! club missing / not found any name (1):
+    SV Deportivo Nacional
+!! club missing / not found any name (1):
+    SV Estrella
+!! club missing / not found any name (1):
+    SV Independiente Caravel
+!! club missing / not found any name (1):
+    SC United
+!! club missing / not found any name (1):
+    SV La Fama
+!! club missing / not found any name (1):
+    SV Racing Club Aruba
+!! club missing / not found any name (1):
+    SV Brazil Juniors
+#<SportDb::Import::Country:0x306b598
+ @alt_names=[],
+ @fifa="BAH",
+ @key="bs",
+ @name="Bahamas",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Baha Juniors FC
+!! club missing / not found any name (1):
+    Bears FC
+!! club missing / not found any name (1):
+    Breezes FC
+!! club missing / not found any name (1):
+    Cavalier FC
+!! club missing / not found any name (2):
+    Dynamos FC (Bahamas) | Dynamos FC
+!! club missing / not found any name (1):
+    Future Stars FC
+!! club missing / not found any name (1):
+    Kickers
+!! club missing / not found any name (1):
+    Renegades FC
+!! club missing / not found any name (1):
+    U.B.
+!! club missing / not found any name (2):
+    United FC (Bahamas) | United FC
+!! club missing / not found any name (1):
+    Western Warriors FC
+#<SportDb::Import::Country:0x306ac50
+ @alt_names=[],
+ @fifa="BRB",
+ @key="bb",
+ @name="Barbados",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Weymouth Wales FC
+!! club missing / not found any name (1):
+    U.W.I BlackBirds
+!! club missing / not found any name (1):
+    Waterford Compton
+!! club missing / not found any name (2):
+    Paradise FC (Barbados) | Paradise
+!! club missing / not found any name (1):
+    Belfield Soccer Club
+!! club missing / not found any name (1):
+    Rendezvous FC
+!! club missing / not found any name (1):
+    Brittons Hill United FC
+!! club missing / not found any name (1):
+    Ellerton Football Club
+!! club missing / not found any name (2):
+    Barbados Defense Force SC | BDFSP
+!! club missing / not found any name (2):
+    Notre Dame SC | Notre Dame
+#<SportDb::Import::Country:0x3095628
+ @alt_names=[],
+ @fifa="BLZ",
+ @key="bz",
+ @name="Belize",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! club missing / not found any name (2):
+    Belize Defence Force FC | BDF FC
+!! club missing / not found any name (1):
+    Belmopan Bandits S.C.
+!! club missing / not found any name (1):
+    Placencia Assassins FC
+!! club missing / not found any name (2):
+    Police United, Belize | Police Utd.
+!! club missing / not found any name (1):
+    Wagiya FC
+!! club missing / not found any name (1):
+    Verdes FC
+#<SportDb::Import::Country:0x3096fc0
+ @alt_names=[],
+ @fifa="BER",
+ @key="bm",
+ @name="Bermuda",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Boulevard Blazers
+!! club missing / not found any name (1):
+    Dandy Town Hornets
+!! club missing / not found any name (1):
+    Devonshire Colts
+!! club missing / not found any name (1):
+    Devonshire Cougars
+!! club missing / not found any name (1):
+    Flanagan's Onions
+!! club missing / not found any name (1):
+    North Village Rams
+!! club missing / not found any name (1):
+    PHC Zebras
+!! club missing / not found any name (2):
+    Robin Hood FC | RHFC
+!! club missing / not found any name (1):
+    Somerset Trojans
+!! club missing / not found any name (1):
+    Somerset Eagles
+!! club missing / not found any name (1):
+    Bermuda Hogges
+#<SportDb::Import::Country:0x303e298
+ @alt_names=[],
+ @fifa="BOE",
+ @key="bq",
+ @name="Bonaire",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Arriba Perú
+!! club missing / not found any name (1):
+    Atlétiko Flamingo
+!! club missing / not found any name (1):
+    Atlétiko Tera Corá
+!! club missing / not found any name (1):
+    SV Estrellas
+!! club missing / not found any name (1):
+    SV Juventus
+!! club missing / not found any name (1):
+    Real Rincon
+!! club missing / not found any name (1):
+    SV Uruguay
+!! club missing / not found any name (2):
+    Vespo | SV Vespo
+!! club missing / not found any name (1):
+    SV Vitesse
+#<SportDb::Import::Country:0x304ebb8
+ @alt_names=[],
+ @fifa="VGB",
+ @key="vg",
+ @name="British Virgin Islands",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    FC Sea Argo
+!! club missing / not found any name (1):
+    Islanders FC
+!! club missing / not found any name (1):
+    Old Madrid
+!! club missing / not found any name (2):
+    One Love United FC | One Love United
+!! club missing / not found any name (1):
+    Panthers FC
+!! club missing / not found any name (1):
+    Rebels FC
+!! club missing / not found any name (1):
+    Sugar Boys
+!! club missing / not found any name (2):
+    Virgin Gorda United | VGU
+!! club missing / not found any name (1):
+    Wolues FC
+#<SportDb::Import::Country:0x309da40
+ @alt_names=[],
+ @fifa="CAN",
+ @key="ca",
+ @name="Canada",
+ @tags=["fifa", "concacaf", "nafu"]>
+!! club missing / not found any name (1):
+    Cavalry FC
+!! club missing / not found any name (1):
+    FC Edmonton
+!! club missing / not found any name (1):
+    Forge FC
+!! club missing / not found any name (1):
+    HFX Wanderers FC
+!! club missing / not found any name (1):
+    Valour FC
+!! club missing / not found any name (1):
+    Pacific FC
+!! club missing / not found any name (1):
+    York 9 FC
+OK   >Montreal Impact< (1) matching >Montreal Impact<
+OK   >Toronto FC< (1) matching >Toronto FC<
+OK   >Vancouver Whitecaps FC< (1) matching >Vancouver Whitecaps FC<
+#<SportDb::Import::Country:0x3054ba0
+ @alt_names=["Cayman Isl."],
+ @fifa="CAY",
+ @key="ky",
+ @name="Cayman Islands",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Academy SC
+!! club missing / not found any name (1):
+    Bodden Town FC
+!! club missing / not found any name (1):
+    Cayman Athletic SC
+!! club missing / not found any name (1):
+    Elite SC
+!! club missing / not found any name (1):
+    Latinos GC
+!! club missing / not found any name (2):
+    Roma United | Roma United SC
+!! club missing / not found any name (2):
+    Scholars International | Scholars International FC
+!! club missing / not found any name (1):
+    Sunset FC
+#<SportDb::Import::Country:0x30940f8
+ @alt_names=[],
+ @fifa="CRC",
+ @key="cr",
+ @name="Costa Rica",
+ @tags=["fifa", "concacaf", "uncaf"]>
+OK   >LD Alajuelense | Alajuelense< (2) matching >LD Alajuelense<
+OK   >Asociación Deportiva Carmelita | Carmelita< (2) matching >Carmelita<
+OK   >CS Cartaginés | Cartaginés< (2) matching >CS Cartaginés<
+OK   >Municipal Grecia | Grecia< (2) matching >Municipal Grecia<
+OK   >Guadalupe FC | Guadalupe< (2) matching >Guadalupe FC<
+OK   >Club Sport Herediano | Herediano< (2) matching >CS Herediano<
+OK   >A.D. Municipal Liberia | Liberia< (2) matching >AD Municipal Liberia<
+OK   >Limón F.C. | Limón< (2) matching >Limón FC<
+OK   >Municipal Pérez Zeledón | Pérez Zeledón< (2) matching >Municipal Pérez Zeledón<
+OK   >Santos de Guápiles | Santos< (2) matching >Santos de Guápiles<
+OK   >Deportivo Saprissa< (1) matching >Deportivo Saprissa<
+OK   >Club de Futbol Universidad de Costa Rica | Universidad de Costa Rica< (2) matching >Universidad de Costa Rica<
+#<SportDb::Import::Country:0x3073ab8
+ @alt_names=[],
+ @fifa="CUB",
+ @key="cu",
+ @name="Cuba",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    FC Camagüey
+!! club missing / not found any name (1):
+    FC Isla de La Juventud
+!! club missing / not found any name (1):
+    FC La Habana
+!! club missing / not found any name (1):
+    FC Ciego de Ávila
+!! club missing / not found any name (1):
+    FC Cienfuegos
+!! club missing / not found any name (1):
+    CF Granma
+!! club missing / not found any name (1):
+    FC Guantánamo
+!! club missing / not found any name (1):
+    FC Las Tunas
+!! club missing / not found any name (1):
+    FC Santiago de Cuba
+!! club missing / not found any name (1):
+    FC Villa Clara
+#<SportDb::Import::Country:0x3056a60
+ @alt_names=[],
+ @fifa="CUW",
+ @key="cw",
+ @name="Cura\u00E7ao",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    CRKSV Jong Holland
+!! club missing / not found any name (1):
+    CSD Barber
+!! club missing / not found any name (1):
+    CVV Inter Willemstad
+!! club missing / not found any name (1):
+    RKSV Centro Dominguito
+!! club missing / not found any name (1):
+    RKSV Scherpenheuvel
+!! club missing / not found any name (2):
+    Hubentut Fortuna | SV Hubentut Fortuna
+!! club missing / not found any name (2):
+    S.V. S.U.B.T. | SV SUBT
+!! club missing / not found any name (1):
+    SV VESTA
+!! club missing / not found any name (1):
+    SV Victory Boys
+!! club missing / not found any name (1):
+    UNDEBA
+#<SportDb::Import::Country:0x3069ed0
+ @alt_names=[],
+ @fifa="DMA",
+ @key="dm",
+ @name="Dominica",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Wacky Rollers Sports Club | Wacky Rollers SC
+!! club missing / not found any name (2):
+    Centre Bath Estate FC | Caribbean Cool Bath Estate
+!! club missing / not found any name (2):
+    4D Bath Estate FC | 4D Bath Estate
+!! club missing / not found any name (2):
+    Harlem United FC | Harris Paints Harlem United
+!! club missing / not found any name (2):
+    RC Grand Bazaar Dublanc | Dublanc FC
+!! club missing / not found any name (2):
+    Sagicor South East United | Sagicor SE Utd.
+!! club missing / not found any name (2):
+    Kensboro United FC | RIC Kensboro United
+!! club missing / not found any name (2):
+    Quick Zone Icons | Aicons FC
+!! club missing / not found any name (2):
+    Northern Concrete & Steel Bombers | Bombers FC
+#<SportDb::Import::Country:0x3071ee0
+ @alt_names=[],
+ @fifa="DOM",
+ @key="do",
+ @name="Dominican Republic",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Atlantico FC
+!! club missing / not found any name (1):
+    Atletico San Cristobal
+!! club missing / not found any name (1):
+    Atletico Vega Real
+!! club missing / not found any name (1):
+    Bauger FC
+!! club missing / not found any name (1):
+    Cibao FC
+!! club missing / not found any name (1):
+    Club Atletico Pantoja
+!! club missing / not found any name (2):
+    Club Barcelona Atlético | Barcelona FC
+!! club missing / not found any name (1):
+    Delfines del Este FC
+!! club missing / not found any name (1):
+    Moca FC
+!! club missing / not found any name (1):
+    O&M FC
+#<SportDb::Import::Country:0x308ab88
+ @alt_names=[],
+ @fifa="SLV",
+ @key="sv",
+ @name="El Salvador",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! 1 club (alternate) name(s) missing for >Club Deportivo Águila (Águila)< :
+    C.D. Águila
+    C.D. Águila | Águila
+OK   >Alianza F.C. | Alianza< (2) matching >Alianza FC<
+!! club missing / not found any name (1):
+    Audaz
+!! club missing / not found any name (2):
+    C.D. Chalatenango | Chalatenango
+!! club missing / not found any name (2):
+    C.D. Dragón | Dragón
+!! 1 club (alternate) name(s) missing for >Club Deportivo FAS (CD FAS | Futbolistas Asociados Santanecos)< :
+    FAS
+    C.D. FAS | FAS
+!! 1 club (alternate) name(s) missing for >Luis Ángel Firpo (L.A. Firpo | CD Luis Ángel Firpo)< :
+    Firpo
+    C.D. Luis Ángel Firpo | Firpo
+!! 1 club (alternate) name(s) missing for >I. Metapán (Metapán | Isidro Metapán | Asociación Deportiva Isidro Metapán)< :
+    A.D. Isidro Metapán
+    A.D. Isidro Metapán | Isidro Metapán
+!! club missing / not found any name (1):
+    Municipal Limeno
+!! club missing / not found any name (1):
+    Pasaquina
+!! club missing / not found any name (2):
+    Santa Tecla F.C. | Santa Tecla
+!! club missing / not found any name (1):
+    Sonsonate
+#<SportDb::Import::Country:0x30290e8
+ @alt_names=[],
+ @fifa="GUF",
+ @key="gf",
+ @name="French Guiana",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    ASC Agouado
+!! club missing / not found any name (1):
+    Cosma Foot
+!! club missing / not found any name (2):
+    Club Sportif et Culturel de Cayenne | CSCC
+!! club missing / not found any name (1):
+    Etoile Matoury
+!! club missing / not found any name (1):
+    ASU Grand Santi
+!! club missing / not found any name (1):
+    ASC Le Geldar
+!! club missing / not found any name (1):
+    US Macouria
+!! club missing / not found any name (1):
+    US Matoury
+!! club missing / not found any name (1):
+    Olympique Cayene
+!! club missing / not found any name (1):
+    ASC Rémiré
+!! club missing / not found any name (1):
+    Kourou FC
+!! club missing / not found any name (1):
+    SC Kouroucien
+#<SportDb::Import::Country:0x30695b8
+ @alt_names=[],
+ @fifa="GRN",
+ @key="gd",
+ @name="Grenada",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    ASOMS Paradise | Paradise
+!! club missing / not found any name (2):
+    Boca Juniors Saint Patrick FC | Boca Juniors
+!! club missing / not found any name (2):
+    Carib Hurricane FC | Carib Hurricane
+!! club missing / not found any name (2):
+    Chantimelle FC | Chantimelle
+!! club missing / not found any name (1):
+    Fontenoy United
+!! club missing / not found any name (1):
+    Gouyave FC
+!! club missing / not found any name (1):
+    Mount Rich
+!! club missing / not found any name (1):
+    St. John's Sports SC
+!! club missing / not found any name (2):
+    Hard Rock FC | Hard Rock
+!! club missing / not found any name (2):
+    Queens Park Rangers (Grenada football club) | Anchor Queens Park Rangers
+#<SportDb::Import::Country:0x304e258
+ @alt_names=[],
+ @fifa="GLP",
+ @key="gp",
+ @name="Guadeloupe",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Association de la Jeunesse Sportive Saintoise | AJSS
+!! club missing / not found any name (2):
+    Amical Club Marie Galante | Amical MG
+!! club missing / not found any name (1):
+    Etolie de Carmel
+!! club missing / not found any name (2):
+    L'Etoile de Morne-à-l'Eau | Etoile MAL
+!! club missing / not found any name (2):
+    Evolucas (Lamentin) | Evolucas
+!! club missing / not found any name (1):
+    Jeunesse Evolution
+!! club missing / not found any name (2):
+    ASG Juventus de Sainte-Anne | Juventus SA
+!! club missing / not found any name (1):
+    CS Moulien
+!! club missing / not found any name (2):
+    Phare du Petit-Canal | Phare
+!! club missing / not found any name (2):
+    Racing Club de Basse-Terre | Racing Club
+!! club missing / not found any name (2):
+    Siroco Les Abymes | Siroco
+!! club missing / not found any name (1):
+    Stade Lamentinois
+!! club missing / not found any name (2):
+    USR Sainte-Rose | USR
+!! club missing / not found any name (2):
+    JS Vieux-Habitants | JSVH
+#<SportDb::Import::Country:0x30949c8
+ @alt_names=[],
+ @fifa="GUA",
+ @key="gt",
+ @name="Guatemala",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! club missing / not found any name (1):
+    Antigua GFC
+!! club missing / not found any name (1):
+    Coban Imperial
+!! 1 club (alternate) name(s) missing for >Comunicaciones FC (Comunicaciones | CSD Comuni.)< :
+    C.S.D. Comunicaciones
+    C.S.D. Comunicaciones | Comunicaciones
+!! club missing / not found any name (1):
+    Deportivo Guastatoya
+!! club missing / not found any name (2):
+    Deportivo Malacateco | Malacateco
+!! club missing / not found any name (2):
+    Deportivo Marquense | Marquense
+OK   >C.S.D. Municipal | Municipal< (2) matching >CSD Municipal<
+!! club missing / not found any name (1):
+    Deportivo Petapa
+!! club missing / not found any name (1):
+    Deportivo Sanarate FC
+!! club missing / not found any name (1):
+    Deportivo Siquinala
+!! club missing / not found any name (2):
+    CD Suchitepéquez | Suchitepéquez
+!! club missing / not found any name (2):
+    Universidad de San Carlos (Guatemalan football club) | Universidad de San Carlos
+OK   >Club Xelajú MC | Xelajú< (2) matching >Club Xelajú MC<
+#<SportDb::Import::Country:0x302b008
+ @alt_names=[],
+ @fifa="GUY",
+ @key="gy",
+ @name="Guyana",
+ @tags=["fifa", "concacaf", "cfu"]>
+OK   >Alpha United FC< (1) matching >Alpha United FC<
+!! club missing / not found any name (1):
+    Ann's Grove
+!! club missing / not found any name (1):
+    Buxton United
+!! club missing / not found any name (1):
+    Cougars
+!! club missing / not found any name (1):
+    Den Amstel
+!! club missing / not found any name (1):
+    Fruta Conquerors
+!! club missing / not found any name (1):
+    Guyana Defence
+!! club missing / not found any name (1):
+    Milerock FC
+!! club missing / not found any name (1):
+    NA United
+!! club missing / not found any name (1):
+    Victoria Kings FC
+!! club missing / not found any name (1):
+    Western Tigers FC
+#<SportDb::Import::Country:0x3070ce0
+ @alt_names=[],
+ @fifa="HAI",
+ @key="ht",
+ @name="Haiti",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    América des Cayes
+!! club missing / not found any name (1):
+    Baltimore SC
+!! club missing / not found any name (1):
+    AS Capoise
+!! club missing / not found any name (1):
+    Cavaly AS
+!! club missing / not found any name (1):
+    AS Mirebalais
+!! club missing / not found any name (1):
+    Don Bosco FC
+!! club missing / not found any name (1):
+    Eclair AC
+!! club missing / not found any name (2):
+    Football Inter Club Association | FICA
+!! club missing / not found any name (1):
+    FC Juventus des Cayes
+!! club missing / not found any name (1):
+    Ouanaminthe FC
+!! club missing / not found any name (2):
+    AS Petit-Goâve | Petit-Goâve FC
+!! club missing / not found any name (2):
+    Racing CH | Racing Club Haïtien
+!! club missing / not found any name (2):
+    Racing FC (Gonaïves) | Racing FC
+!! club missing / not found any name (1):
+    Real Hope FA
+!! club missing / not found any name (1):
+    AS Sud-Est
+OK   >Tempête FC< (1) matching >Tempête FC<
+#<SportDb::Import::Country:0x308b818
+ @alt_names=[],
+ @fifa="HON",
+ @key="hn",
+ @name="Honduras",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! club missing / not found any name (2):
+    C.D. Honduras Progreso | Honduras Progreso
+!! club missing / not found any name (2):
+    Juticalpa F.C. | Juticalpa
+OK   >C.D. Marathón | Marathón< (2) matching >CD Marathón<
+!! 1 club (alternate) name(s) missing for >CD Motagua (Motagua)< :
+    F.C. Motagua
+    F.C. Motagua | Motagua
+!! 1 club (alternate) name(s) missing for >CD Olimpia (Olimpia)< :
+    Club Deportivo Olimpia
+    Club Deportivo Olimpia | Olimpia
+!! club missing / not found any name (2):
+    Platense F.C. | Platense
+OK   >Real C.D. España | Real España< (2) matching >Real CD España<
+!! club missing / not found any name (2):
+    C.D. Real Sociedad | Real Sociedad
+!! club missing / not found any name (1):
+    Lobos UPNFM
+!! club missing / not found any name (2):
+    C.D.S. Vida | Vida
+#<SportDb::Import::Country:0x3072af8
+ @alt_names=[],
+ @fifa="JAM",
+ @key="jm",
+ @name="Jamaica",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Arnett Gardens F.C. | Arnett Gardens
+!! club missing / not found any name (2):
+    Boys' Town F.C. | Boys Town
+!! club missing / not found any name (2):
+    Harbour View F.C. | Harbour View
+!! club missing / not found any name (2):
+    Humble Lions F.C. | Humble Lions
+!! club missing / not found any name (1):
+    Jamalco
+!! club missing / not found any name (1):
+    Maverley Hughenden
+!! club missing / not found any name (2):
+    Montego Bay United F.C. | Montego Bay United
+!! club missing / not found any name (2):
+    Portmore United F.C. | Portmore United
+!! club missing / not found any name (1):
+    Reno F.C.
+!! club missing / not found any name (2):
+    Tivoli Gardens F.C. | Tivoli Gardens
+!! club missing / not found any name (1):
+    UWI F.C.
+!! club missing / not found any name (2):
+    Waterhouse F.C. | Waterhouse
+#<SportDb::Import::Country:0x304d820
+ @alt_names=[],
+ @fifa="MTQ",
+ @key="mq",
+ @name="Martinique",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Aiglon du Lamentin | Aiglon
+!! club missing / not found any name (2):
+    Club Colonial (Fort-de-France) | Colonial
+!! club missing / not found any name (2):
+    Club Franciscain | Franciscain
+!! club missing / not found any name (1):
+    CS Case-Pilote
+!! club missing / not found any name (2):
+    Emulation (Schoelcher) | Emulation
+!! club missing / not found any name (2):
+    Excelsior (Schoelcher) | Excelsior
+!! club missing / not found any name (1):
+    Essor-Préchotain
+!! club missing / not found any name (2):
+    Golden Star (Fort-de-France) | Golden Star
+!! club missing / not found any name (2):
+    Golden Lion de Saint-Joseph | Golden Lion
+!! club missing / not found any name (2):
+    Good Luck (football club) | Good Luck
+!! club missing / not found any name (1):
+    New Star de Ducos
+!! club missing / not found any name (1):
+    RC Rivière-Pilote
+!! club missing / not found any name (1):
+    US Marinoise
+!! club missing / not found any name (1):
+    AS Samaritaine
+#<SportDb::Import::Country:0x309c6a8
+ @alt_names=["M\u00E9xico [es]"],
+ @fifa="MEX",
+ @key="mx",
+ @name="Mexico",
+ @tags=["fifa", "concacaf", "nafu"]>
+OK   >Club América | América< (2) matching >Club América<
+OK   >Club Atlas | Atlas< (2) matching >Club Atlas<
+!! 1 club (alternate) name(s) missing for >Lobos BUAP ()< :
+    BUAP
+    Lobos BUAP | BUAP
+OK   >Cruz Azul< (1) matching >Cruz Azul<
+OK   >C.D. Guadalajara | Guadalajara< (2) matching >CD Guadalajara Chivas<
+OK   >Club León | León< (2) matching >Club León<
+OK   >C.F. Monterrey | Monterrey< (2) matching >CF Monterrey<
+OK   >Monarcas Morelia | Morelia< (2) matching >Monarcas Morelia<
+OK   >Club Necaxa | Necaxa< (2) matching >Club Necaxa<
+OK   >C.F. Pachuca | Pachuca< (2) matching >CF Pachuca<
+OK   >Puebla F.C. | Puebla< (2) matching >Club Puebla<
+OK   >Querétaro FC | Querétaro< (2) matching >Querétaro FC<
+OK   >Santos Laguna< (1) matching >Santos Laguna<
+OK   >Club Tijuana | Tijuana< (2) matching >Club Tijuana<
+OK   >Club Toluca | Toluca< (2) matching >Deportivo Toluca FC<
+OK   >Tigres UANL< (1) matching >Tigres UANL<
+OK   >Club Universidad Nacional | Pumas UNAM< (2) matching >Pumas UNAM<
+OK   >Tiburones Rojos de Veracruz | Veracruz< (2) matching >Tiburones Rojos Veracruz<
+#<SportDb::Import::Country:0x304fd28
+ @alt_names=[],
+ @fifa="MSR",
+ @key="ms",
+ @name="Montserrat",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Ideal SC
+!! club missing / not found any name (1):
+    Montserrat Secondary School
+!! club missing / not found any name (1):
+    Montserrat Volcano Observatory Tremors
+!! club missing / not found any name (1):
+    Royal Montserrat Police Force
+!! club missing / not found any name (1):
+    Salem FC
+!! club missing / not found any name (1):
+    FC Elberton
+!! club missing / not found any name (1):
+    Jolly Rodger FC
+!! club missing / not found any name (1):
+    FC Saint John's
+!! club missing / not found any name (1):
+    Little Bay FC
+!! club missing / not found any name (1):
+    Kinsale FC
+!! club missing / not found any name (1):
+    PC United
+!! club missing / not found any name (1):
+    Bata Falcons
+#<SportDb::Import::Country:0x3089f70
+ @alt_names=[],
+ @fifa="NCA",
+ @key="ni",
+ @name="Nicaragua",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! club missing / not found any name (2):
+    Chinandega FC | Chinandega
+!! club missing / not found any name (2):
+    Diriangén FC | Diriangén
+!! club missing / not found any name (1):
+    Deportivo Ocotal
+!! club missing / not found any name (2):
+    Juventus Managua | Juventus
+!! club missing / not found any name (2):
+    Managua F.C. | Managua
+OK   >Real Estelí F.C. | Real Estelí< (2) matching >Real Estelí<
+!! club missing / not found any name (1):
+    Real Madriz
+!! club missing / not found any name (2):
+    FC San Francisco Masachapa | San Francisco Masachapa
+!! club missing / not found any name (1):
+    UNAN Managua
+!! club missing / not found any name (2):
+    C.D. Walter Ferretti | Walter Ferretti
+#<SportDb::Import::Country:0x3089118
+ @alt_names=["Panam\u00E1 [es]"],
+ @fifa="PAN",
+ @key="pa",
+ @name="Panama",
+ @tags=["fifa", "concacaf", "uncaf"]>
+!! club missing / not found any name (2):
+    Alianza F.C. (Panama) | Alianza
+OK   >Club Deportivo Árabe Unido | Árabe Unido< (2) matching >Club Deportivo Árabe Unido<
+!! club missing / not found any name (2):
+    SD Atletico nacional (Panama) | Atletico Nacional
+!! club missing / not found any name (2):
+    Atletico Veraguense (Panama) | Atletico Veraguense
+OK   >Chorrillo F.C. | Chorrillo< (2) matching >Chorrillo FC<
+!! club missing / not found any name (2):
+    Club Deportivo Plaza Amador | Plaza Amador
+OK   >San Francisco F.C. | San Francisco< (2) matching >San Francisco FC<
+!! club missing / not found any name (2):
+    Santa Gema F.C. (Panama) | Santa Gema
+OK   >Sporting San Miguelito< (1) matching >Sporting San Miguelito<
+OK   >Tauro F.C. | Tauro< (2) matching >Tauro FC<
+#<SportDb::Import::Country:0x3061068
+ @alt_names=[],
+ @fifa="PUR",
+ @key="pr",
+ @name="Puerto Rico",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Academia Quintana FC
+!! club missing / not found any name (1):
+    Atleticos de Levittown FC
+!! club missing / not found any name (1):
+    Ballista FC
+!! club missing / not found any name (1):
+    Puerto Rico Bayamon
+!! club missing / not found any name (1):
+    Caguas Sporting FC
+!! club missing / not found any name (1):
+    CD Barbosa
+!! club missing / not found any name (1):
+    Don Bosco FC
+!! club missing / not found any name (1):
+    Fenix FC
+!! club missing / not found any name (1):
+    Mayaguez FC
+!! club missing / not found any name (1):
+    Caguas Huracán
+!! club missing / not found any name (1):
+    Leal Arecibo FC
+!! club missing / not found any name (1):
+    Metropolitan FA
+!! club missing / not found any name (1):
+    Puerto Rico Sol
+!! club missing / not found any name (1):
+    SPDP Spartans
+!! club missing / not found any name (1):
+    Yabuco Isabela FC
+!! club missing / not found any name (2):
+    Atléticos de Levittown FC | Atlético Levittown
+!! club missing / not found any name (1):
+    Bayamón FC
+!! club missing / not found any name (2):
+    Criollos de Caguas FC | Criollos
+!! club missing / not found any name (2):
+    Gladiadores FC | EFBR
+!! club missing / not found any name (2):
+    Club de Fútbol Fraigcomar | Fraigcomar
+!! club missing / not found any name (1):
+    Guayama FC
+!! club missing / not found any name (2):
+    Sevilla FC Puerto Rico | Sevilla
+!! club missing / not found any name (1):
+    Puerto Rico FC
+#<SportDb::Import::Country:0x3068a48
+ @alt_names=["St. Kitts/N."],
+ @fifa="SKN",
+ @key="kn",
+ @name="Saint Kitts and Nevis",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Cayon Rockets
+!! club missing / not found any name (1):
+    Conaree United
+!! club missing / not found any name (1):
+    Garden Hotspurs
+!! club missing / not found any name (1):
+    Mantab United
+!! club missing / not found any name (2):
+    Newtown United FC | Newtown United
+!! club missing / not found any name (1):
+    St Paul's United
+!! club missing / not found any name (2):
+    St. Peter's Strikers FC | St Peter's
+!! club missing / not found any name (1):
+    St Thomas Trinity Strikers
+!! club missing / not found any name (1):
+    Village Superstars
+#<SportDb::Import::Country:0x30639f0
+ @alt_names=[],
+ @fifa="LCA",
+ @key="lc",
+ @name="Saint Lucia",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    Big Players FC
+!! club missing / not found any name (1):
+    Canaries Community Club
+!! club missing / not found any name (1):
+    Challengers FC
+!! club missing / not found any name (1):
+    Lancers FC
+!! club missing / not found any name (1):
+    Northern United All Stars
+!! club missing / not found any name (1):
+    NYAH Youth Footballers
+!! club missing / not found any name (1):
+    Pakis FC
+!! club missing / not found any name (1):
+    Roots Alley Ballers
+!! club missing / not found any name (1):
+    Rovers United FC
+!! club missing / not found any name (1):
+    Square United
+!! club missing / not found any name (2):
+    Vempers Sports Athletic Dramatic Club | VSADC
+#<SportDb::Import::Country:0x304c938
+ @alt_names=["Saint Martin (French part)"],
+ @fifa="SMN",
+ @key="mf",
+ @name="Saint Martin",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (1):
+    FC Concordia
+!! club missing / not found any name (1):
+    ST Martin Mixte stars
+!! club missing / not found any name (2):
+    Junior Stars (Saint-Martin football club) | Junior Stars
+!! club missing / not found any name (1):
+    Juventus de Saint-Martin
+!! club missing / not found any name (1):
+    FC Marigot
+!! club missing / not found any name (1):
+    Orleans Attackers
+!! club missing / not found any name (2):
+    Sporting Club de Saint-Martin | Sporting Club
+!! club missing / not found any name (2):
+    ASC St-Louis Stars | St-Louis Stars
+!! club missing / not found any name (2):
+    Tigers (Saint-Martin football club) | Tigers
+!! club missing / not found any name (2):
+    United Stars (Saint-Martin football club) | United Stars
+!! club missing / not found any name (2):
+    FC ASPSB | ASPSB
+!! club missing / not found any name (2):
+    FC ASSCO | ASSCO
+!! club missing / not found any name (2):
+    FC Beach-Hôtel | Beach-Hôtel
+!! club missing / not found any name (2):
+    Diables Rouges (Saint-Barthélemy football club) | Diables Rouges
+!! club missing / not found any name (1):
+    FC Gustavia
+!! club missing / not found any name (2):
+    FC Carcajou | Carcajou
+#<SportDb::Import::Country:0x3063090
+ @alt_names=["St. Vincent/G."],
+ @fifa="VIN",
+ @key="vc",
+ @name="Saint Vincent and the Grenadines",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Arnos Vale FC | Arnos Vale
+!! club missing / not found any name (2):
+    Barroullie FC | Barroullie
+!! club missing / not found any name (2):
+    Bequia FC | Bequia
+!! club missing / not found any name (2):
+    Brighton FC (Saint Vincent and The Grenadines) | Brighton
+!! club missing / not found any name (2):
+    Calliaqua FC | Calliaqua
+!! club missing / not found any name (2):
+    Kingstown FC (Saint Vincent and The Grenadines) | Kingstown
+!! club missing / not found any name (2):
+    Layou FC | Layou
+!! club missing / not found any name (2):
+    Marriaqua FC | Marriaqua
+!! club missing / not found any name (2):
+    North East FC (Saint Vincent and The Grenadines) | North East
+!! club missing / not found any name (2):
+    North Leeward FC | North Leeward
+!! club missing / not found any name (2):
+    Saint Vincent and the Grenadines Under-20 | Saint Vincent and the Grenadines U20
+!! club missing / not found any name (2):
+    Sion Hill FC | Sion Hill
+!! club missing / not found any name (2):
+    South Leeward FC | South Leeward
+!! club missing / not found any name (2):
+    Stubborn Youth SC | Stubborn Youth
+#<SportDb::Import::Country:0x303f390
+ @alt_names=["Sint Maarten (Dutch part)"],
+ @fifa="SMA",
+ @key="sx",
+ @name="Sint Maarten",
+ @tags=["concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    C&D FC | C&D
+!! club missing / not found any name (2):
+    NAGICO FC | NAGICO
+!! club missing / not found any name (2):
+    FC Para Boys | Para Boys
+#<SportDb::Import::Country:0x302a600
+ @alt_names=[],
+ @fifa="SUR",
+ @key="sr",
+ @name="Suriname",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    SV Botopasi | Botopasi
+!! club missing / not found any name (2):
+    SV Excelsior | Excelsior
+!! club missing / not found any name (1):
+    Inter Moengotapoe
+!! club missing / not found any name (2):
+    SV Leo Victor | Leo Victor
+!! club missing / not found any name (2):
+    SV Nishan 42 | Nishan 42
+!! club missing / not found any name (2):
+    SV Notch | Notch
+!! club missing / not found any name (2):
+    S.V. Robinhood | Robinhood
+!! club missing / not found any name (2):
+    S.C.S.V. Takdier Boys | Takdier Boys
+!! club missing / not found any name (2):
+    S.V. Transvaal | Transvaal
+!! club missing / not found any name (2):
+    S.V. Walking Boyz Company | Walking Boyz Company
+#<SportDb::Import::Country:0x30621c0
+ @alt_names=["Trinidad/Tob."],
+ @fifa="TRI",
+ @key="tt",
+ @name="Trinidad and Tobago",
+ @tags=["fifa", "concacaf", "cfu"]>
+OK   >Caledonia AIA< (1) matching >Caledonia AIA<
+!! club missing / not found any name (2):
+    Central F.C. | Central FC
+!! club missing / not found any name (2):
+    Defence Force F.C. | Defence Force
+!! club missing / not found any name (1):
+    North East Stars
+!! club missing / not found any name (2):
+    Police FC (Trinidad and Tobago) | Police
+!! club missing / not found any name (1):
+    St. Ann's Rangers
+!! club missing / not found any name (2):
+    T&TEC SC | T&TEC
+OK   >W Connection< (1) matching >W Connection<
+#<SportDb::Import::Country:0x304f470
+ @alt_names=[],
+ @fifa="TCA",
+ @key="tc",
+ @name="Turks and Caicos Islands",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Beaches FC | Beaches
+!! club missing / not found any name (2):
+    Caribbean All Stars FC | Caribbean All Stars
+!! club missing / not found any name (2):
+    Cost Right FC | Cost Right
+!! club missing / not found any name (2):
+    KPMG United FC | KPMG United
+!! club missing / not found any name (2):
+    Provopool Celtic FC | Provopool Celtic
+!! club missing / not found any name (2):
+    SWA Sharks FC | SWA Sharks
+#<SportDb::Import::Country:0x309d050
+ @alt_names=[],
+ @fifa="USA",
+ @key="us",
+ @name="United States",
+ @tags=["fifa", "concacaf", "nafu"]>
+OK   >Atlanta United FC< (1) matching >Atlanta United FC<
+OK   >Chicago Fire Soccer Club | Chicago Fire< (2) matching >Chicago Fire<
+OK   >Colorado Rapids< (1) matching >Colorado Rapids<
+OK   >Columbus Crew SC< (1) matching >Columbus Crew SC<
+OK   >FC Cincinnati< (1) matching >FC Cincinnati<
+OK   >FC Dallas< (1) matching >FC Dallas<
+OK   >D.C. United< (1) matching >D.C. United<
+OK   >Houston Dynamo< (1) matching >Houston Dynamo<
+OK   >LA Galaxy< (1) matching >LA Galaxy<
+OK   >Los Angeles FC< (1) matching >Los Angeles FC<
+OK   >Minnesota United FC< (1) matching >Minnesota United FC<
+OK   >New England Revolution< (1) matching >New England Revolution<
+OK   >New York City FC< (1) matching >New York City FC<
+OK   >New York Red Bulls< (1) matching >New York Red Bulls<
+OK   >Orlando City SC< (1) matching >Orlando City SC<
+OK   >Philadelphia Union< (1) matching >Philadelphia Union<
+OK   >Portland Timbers< (1) matching >Portland Timbers<
+OK   >Real Salt Lake< (1) matching >Real Salt Lake<
+OK   >San Jose Earthquakes< (1) matching >San Jose Earthquakes<
+OK   >Seattle Sounders FC< (1) matching >Seattle Sounders FC<
+OK   >Sporting Kansas City< (1) matching >Sporting Kansas City<
+#<SportDb::Import::Country:0x3060720
+ @alt_names=["United States Virgin Islands", "US Virgin I."],
+ @fifa="VIR",
+ @key="vi",
+ @name="US Virgin Islands",
+ @tags=["fifa", "concacaf", "cfu"]>
+!! club missing / not found any name (2):
+    Helenites FC | Helenites
+!! club missing / not found any name (2):
+    Rovers (USVI football club) | Rovers
+!! club missing / not found any name (2):
+    Skills (USVI football club) | Skills
+!! club missing / not found any name (2):
+    La Raza FC | La Raza
+!! club missing / not found any name (2):
+    New Vibes FC | New Vibes
+!! club missing / not found any name (2):
+    Positive Vibes FC | Positive Vibes
+!! club missing / not found any name (1):
+    UWS Gunners
+!! club missing / not found any name (2):
+    Waitikubuli FC | Waitikubuli

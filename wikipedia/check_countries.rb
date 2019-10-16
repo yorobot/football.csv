@@ -19,12 +19,12 @@ end
 
 
 
-WIKI_PATTERN = %r{
+CLUBS_PATTERN = %r{
                   /[a-z]+\.txt$
                  }x
 
 
-datafiles = find_datafiles( './dl', WIKI_PATTERN )
+datafiles = find_datafiles( './dl', CLUBS_PATTERN )
 datafiles.each do |datafile|
   page = Wikiscript.read( datafile )
   ## pp page.parse
