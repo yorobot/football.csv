@@ -1,4 +1,3 @@
-require 'pp'
 
 ##
 #  check for tabs (\t) and warn
@@ -22,12 +21,12 @@ class CharLinter
   end
 
 
-  
+
   def self.warn_replace( line, lineno, what )
     puts "** !!!WARN!!! line #{lineno}: replacing #{what} in:"
     puts "              >>#{line}"
   end
-  
+
   def self.parse( txt )
     txt_fixed = String.new
     lineno = 0
@@ -53,7 +52,3 @@ class CharLinter
     txt_fixed
   end
 end   # class CharLinter
-
-
-
-##  CharLinter.fix( "2012-13.conf.txt" )

@@ -1,5 +1,6 @@
 
 require_relative '../lint/check_clubs'
+require_relative '../lint/check_chars'
 
 
 
@@ -69,6 +70,11 @@ datafiles = find_datafiles( '../../../openfootball/austria', CONF_PATTERN )
 pp datafiles
 
 datafiles.each do |datafile|
+
+   ## CharLinter.read( datafile )    ## check for non-ascii chars, tabs, etc.
+   ## CharLinter.fix( datafile )
+
+
   events = ConfClubLintReader.read( datafile )
   pp events
 
