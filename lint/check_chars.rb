@@ -4,6 +4,8 @@ require 'pp'
 #  check for tabs (\t) and warn
 #  check for unicode spaces (e.g. \u2002) and warn
 #  check for unicode minus sign (e.g. \u2212)) and warn
+#    todo/fix - add more
+
 
 class CharLinter
 
@@ -20,6 +22,12 @@ class CharLinter
   end
 
 
+  
+  def self.warn_replace( line, lineno, what )
+    puts "** !!!WARN!!! line #{lineno}: replacing #{what} in:"
+    puts "              >>#{line}"
+  end
+  
   def self.parse( txt )
     txt_fixed = String.new
     lineno = 0
@@ -27,18 +35,15 @@ class CharLinter
       lineno += 1
 
       line_fixed = line.gsub( "\u{2002}" ) do |_|
-        puts "** !!!WARN!!! line #{lineno}: replacing unicode space (U+2002) >\u{2002}< in:"
-        puts "              >>#{line}"
+        warn_replace( line, lineno, "unicode space (U+2002) >\u{2002}<" )
         " "  ## use regular ascii space
       end
       line_fixed = line_fixed.gsub( "\u{2212}" ) do |_|
-        puts "** !!!WARN!!! line #{lineno}: replacing unicode minus sign (U+2212) >\u{2212}< in:"
-        puts "              >>#{line}"
+        warn_replace( line, lineno, "unicode minus sign (U+2212) >\u{2212}<" )
         "-"  ## use regular ascii minus ("dash")
       end
       line_fixed = line_fixed.gsub( "\t" ) do |_|
-        puts "** !!!WARN!!! line #{lineno}: replacing tab (\\t) >\t< in:"
-        puts "              >>#{line}"
+        warn_replace( line, lineno, "tab (\\t) >\t<" )
         " "  ## use regular ascii space
       end
 
