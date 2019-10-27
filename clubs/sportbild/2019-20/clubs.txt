@@ -1,0 +1,185 @@
+####
+#  sportbild.de  top leagues
+
+= Germany 1   ## Bundesliga  @ https://sportdaten.sportbild.bild.de/fussball/bundesliga
+
+ 1  Bor. Mönchengladbach
+ 2  Bayern München
+ 3  SC Freiburg
+ 4  VfL Wolfsburg
+ 5  Borussia Dortmund
+ 6  RB Leipzig
+ 7  FC Schalke 04
+ 8  Bayer Leverkusen
+ 9  Eintracht Frankfurt
+10  1899 Hoffenheim
+11  Hertha BSC
+12  Werder Bremen
+13  1. FSV Mainz 05
+14  Fortuna Düsseldorf
+15  1. FC Union Berlin
+16  1. FC Köln
+17  FC Augsburg
+18  SC Paderborn 07
+
+= Germany 2   ## 2. Liga    @ https://sportdaten.sportbild.bild.de/fussball/2-bundesliga
+
+ 1  Hamburger SV
+ 2  Arminia Bielefeld
+ 3  VfB Stuttgart
+ 4  Erzgebirge Aue
+ 5  1. FC Heidenheim 1846
+ 6  Jahn Regensburg
+ 7  SpVgg Greuther Fürth
+ 8  1. FC Nürnberg
+ 9  Karlsruher SC
+10  Holstein Kiel
+11  SV Darmstadt 98
+12  FC St. Pauli
+13  Hannover 96
+14  VfL Osnabrück
+15  SV Sandhausen
+16  VfL Bochum
+17  Dynamo Dresden
+18  SV Wehen Wiesbaden
+
+= Germany 3   ## 3. Liga  @ https://sportdaten.sportbild.bild.de/fussball/3-liga
+
+ 1  Hallescher FC
+ 2  MSV Duisburg
+ 3  Eintracht Braunschweig
+ 4  SpVgg Unterhaching
+ 5  FC Ingolstadt 04
+ 6  Hansa Rostock
+ 7  Viktoria Köln
+ 8  FSV Zwickau
+ 9  KFC Uerdingen 05
+10  Waldhof Mannheim
+11  1. FC Magdeburg
+12  Bayern München II
+13  SV Meppen
+14  Würzburger Kickers
+15  TSV 1860 München
+16  Chemnitzer FC
+17  1. FC Kaiserslautern
+18  SG Sonnenhof Großaspach
+19  Preußen Münster
+20  FC Carl Zeiss Jena
+
+
+= England 1   ## Premier League  @ https://sportdaten.sportbild.bild.de/fussball/premier-league
+
+ 1  Liverpool FC           | FC Liverpool
+ 2  Manchester City
+ 3  Leicester City
+ 4  Chelsea FC             | FC Chelsea
+ 5  Arsenal FC             | FC Arsenal
+ 6  Crystal Palace
+ 7  Manchester United
+ 8  Sheffield United        |  Sheffield Utd.
+ 9  AFC Bournemouth
+10  West Ham United
+11  Tottenham Hotspur
+12  Wolverhampton Wanderers  | Wolverhampton Wand.
+13  Burnley FC
+14  Brighton & Hove Albion
+15  Aston Villa
+16  Everton FC          | FC Everton
+17  Newcastle United
+18  Southampton FC      | FC Southampton
+19  Norwich City
+20  Watford FC          | FC Watford
+
+
+= Spain 1    ## La Liga   @ https://sportdaten.sportbild.bild.de/fussball/la-liga
+
+ 1  Granada CF        | FC Granada
+ 2  FC Barcelona
+ 3  Real Sociedad San Sebastian  | R. S. San Sebastian
+ 4  Atlético Madrid
+ 5  Real Madrid
+ 6  Villarreal CF      | FC Villarreal
+ 7  Sevilla FC         | FC Sevilla
+ 8  Getafe CF          | FC Getafe
+ 9  Real Valladolid
+10  Athletic Bilbao
+11  Valencia CF        | FC Valencia
+12  CA Osasuna
+13  Levante UD         | UD Levante
+14  CD Alavés          | Deportivo Alavés
+15  RCD Mallorca
+16  SD Eibar
+17  Celta Vigo
+18  Betis Sevilla
+19  Espanyol Barcelona
+20  CD Leganés
+
+
+= France 1   ## Ligue 1   @ https://sportdaten.sportbild.bild.de/fussball/ligue-1
+
+ 1  Paris Saint-Germain
+ 2  FC Nantes
+ 3  Lille OSC       | OSC Lille
+ 4  Stade Reims
+ 5  Angers SCO
+ 6  Stade Brest
+ 7  Olympique Marseille
+ 8  Girondins Bordeaux
+ 9  Stade Rennes
+10  Montpellier HSC  | HSC Montpellier
+11  AS Monaco
+12  AS Saint-Étienne
+13  Olympique Lyon
+14  Amiens SC
+15  OGC Nizza
+16  RC Strasbourg     | Racing Straßburg
+17  Toulouse FC       | FC Toulouse
+18  Nîmes Olympique   | Olympique Nîmes
+19  FC Metz
+20  Dijon FCO         | FCO Dijon
+
+
+= Italy 1    ## Serie A   @ https://sportdaten.sportbild.bild.de/fussball/serie-a
+
+ 1  Juventus Turin
+ 2  Inter Mailand
+ 3  Atalanta          | Atalanta Bergamo
+ 4  SSC Neapel
+ 5  AS Rom
+ 6  Cagliari Calcio
+ 7  Parma Calcio 1913 | Parma Calcio
+ 8  Lazio Rom
+ 9  AC Florenz
+10  Bologna FC        | FC Bologna
+11  FC Turin
+12  AC Mailand
+13  Udinese Calcio
+14  Sassuolo Calcio   | US Sassuolo
+15  Hellas Verona
+16  US Lecce
+17  FC Genua          | CFC Genua 1893
+18  Brescia Calcio
+19  SPAL 2013 Ferrara | SPAL Ferrara
+20  Sampdoria         |  Sampdoria Genua
+
+
+= Turkey 1    ## Süper Lig   @ https://sportdaten.sportbild.bild.de/fussball/sueper-lig
+
+ 1  Alanyaspor
+ 2  Fenerbahçe           | Fenerbahçe İstanbul
+ 3  Yeni Malatyaspor     | Malatyaspor
+ 4  Trabzonspor
+ 5  Sivasspor
+ 6  İstanbul Başakşehir FK | İstanbul Başakşehir
+ 7  Galatasaray            | Galatasar. İstanbul
+ 8  Beşiktaş               | Beşiktaş İstanbul
+ 9  Atiker Konyaspor       | Konyaspor
+10  Gazişehir Gaziantep FK       ##  !!! Gaziantepspor - not to be confused with Gazişehir Gaziantep FK
+11  Kasımpaşa SK           | Kasımpaşa İstanbul
+12  Denizlispor
+13  Çaykur Rizespor
+14  Antalyaspor
+15  Göztepe                | Göztepe İzmir
+16  MKE Ankaragücü         | Ankaragücü
+17  Gençlerbirliği         | Gençlerbirliği Ankara
+18  Kayserispor

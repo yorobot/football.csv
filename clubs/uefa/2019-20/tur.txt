@@ -1,37 +1,28 @@
 = Turkish Super League =
 
-Alanyaspor
-Fenerbahçe SK
-Fenerbahçe
-
-Denizlispor
-Rizespor
-Trabzonspor AŞ
-Trabzonspor
-
-MKE Ankaragücü
-    Ankaragücü
-
-Sivasspor
-
-Beşiktaş JK
-Beşiktaş
-
-Galatasaray AŞ
-Galatasaray
-
-Antalyaspor
-Gazişehir Gaziantep FK
-Gazişehir Gaziantep
-
-Yeni Malatyaspor
-Konyaspor
-İstanbul Başakşehir
-Kayserispor
-Kasımpaşa SK
-Kasımpaşa
-
-Göztepe Izmir
-
-Gençlerbirliği SK
-Gençlerbirliği
+ 1  Alanyaspor
+ 2  Fenerbahçe SK
+  | Fenerbahçe
+ 3  Denizlispor
+ 4  Rizespor
+ 5  Trabzonspor AŞ
+  | Trabzonspor
+ 6  MKE Ankaragücü
+  |     Ankaragücü
+ 7  Sivasspor
+ 8  Beşiktaş JK
+  | Beşiktaş
+ 9  Galatasaray AŞ
+  | Galatasaray
+10  Antalyaspor
+11  Gazişehir Gaziantep FK
+  | Gazişehir Gaziantep
+12  Yeni Malatyaspor
+13  Konyaspor
+14  İstanbul Başakşehir
+15  Kayserispor
+16  Kasımpaşa SK
+  | Kasımpaşa
+17  Göztepe Izmir
+18  Gençlerbirliği SK
+  | Gençlerbirliği

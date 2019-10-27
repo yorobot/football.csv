@@ -1,32 +1,32 @@
 = Swedish First Division =
 
-1   Djurgårdens IF
-    Djurgården
-2   AIK
-3   Malmö FF
-    Malmö
-4   BK Häcken
-       Häcken
-5   Hammarby Fotboll
-    Hammarby
-6   IFK Göteborg
-        Göteborg
-7   IFK Norrköping FK
-        Norrköping
-8   Örebro SK
-    Örebro
-9   IF Elfsborg
-       Elfsborg
+ 1  Djurgårdens IF
+  | Djurgården
+ 2  AIK
+ 3  Malmö FF
+  | Malmö
+ 4  BK Häcken
+  |    Häcken
+ 5  Hammarby Fotboll
+  | Hammarby
+ 6  IFK Göteborg
+  |     Göteborg
+ 7  IFK Norrköping FK
+  |     Norrköping
+ 8  Örebro SK
+  | Örebro
+ 9  IF Elfsborg
+  |    Elfsborg
 10  IK Sirius
-       Sirius
+  |    Sirius
 11  Helsingborgs IF
-    Helsingborg
+  | Helsingborg
 12  Östersunds FK
-    Östersund
+  | Östersund
 13  Kalmar FF
-    Kalmar
+  | Kalmar
 14  Falkenbergs FF
 15  AFC Eskilstuna
-        Eskilstuna
+  |     Eskilstuna
 16  GIF Sundsvall
-        Sundsvall
+  |     Sundsvall

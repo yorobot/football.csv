@@ -66,9 +66,9 @@ CONF_PATTERN = %r{
                   /\.conf\.txt$
                  }x
 
-# datafiles = find_datafiles( '../../../openfootball/austria', CONF_PATTERN )
+datafiles = find_datafiles( '../../../openfootball/austria', CONF_PATTERN )
 # datafiles = find_datafiles( '../../../openfootball/deutschland', CONF_PATTERN )
-datafiles = find_datafiles( '../../../openfootball/england', CONF_PATTERN )
+# datafiles = find_datafiles( '../../../openfootball/england', CONF_PATTERN )
 pp datafiles
 
 datafiles.each do |datafile|
