@@ -1,3 +1,4 @@
+require 'sportdb/formats'
 
 ##
 #  check for tabs (\t) and warn

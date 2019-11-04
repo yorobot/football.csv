@@ -237,16 +237,3 @@ def find_club( name, country )   ## todo/fix: add international or league flag?
 
   club
 end
-
-
-def find_datafiles( path, pattern )
-  datafiles = []
-  candidates = Dir.glob( "#{path}/**/{*,.*}.txt" )   ## check all txt files (incl. starting with dot (.)) as candidates
-  pp candidates
-  candidates.each do |candidate|
-    datafiles << candidate    if pattern.match( candidate )
-  end
-
-  pp datafiles
-  datafiles
-end
