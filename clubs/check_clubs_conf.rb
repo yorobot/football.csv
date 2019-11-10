@@ -93,7 +93,7 @@ pp datafiles
 
 datafiles.each do |datafile|
 
-  events = ConfClubLintReader.read( datafile )
+  events = SportDb::Import::ConfLinter.read( datafile )
   pp events
 
   check_clubs_by_events( events )

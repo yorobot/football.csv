@@ -1,3 +1,9 @@
+###
+##  todo/fix: update check_clubs_by_leagues( leagues ) for new (shared) linter!!!
+##    see wikipedia/check_clubs !!!!!
+##
+##  todo/check: check sportbild/2019-20/clubs.txt !!!
+
 
 require_relative '../lint/check_clubs'
 
@@ -8,10 +14,11 @@ UEFA_PATTERN = %r{
                   /[a-z]{3}.txt$
                  }x
 
-datafiles = find_datafiles( 'uefa/2019-20', UEFA_PATTERN )
+datafiles = Datafile.find( 'uefa/2019-20', UEFA_PATTERN )
+pp datafiles
 datafiles.each do |datafile|
 
-  leagues = ClubLintReader.read( datafile )
+  leagues = SportDb::Import::ClubLinter.read( datafile )
   pp leagues
 
   missing_clubs = check_clubs_by_leagues( leagues )
