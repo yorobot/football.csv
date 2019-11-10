@@ -15,6 +15,8 @@ require_relative '../lint/check_clubs'
             $/x
 
 def check_clubs_by_events( events )
+  count = 0
+
   events.each do |rec|
     heading   = rec[0]
     club_recs = rec[1]
@@ -39,11 +41,14 @@ def check_clubs_by_events( events )
       exit 1
     end
 
+    missing = []
+
     club_recs.each do |h|    ## note: club records are hash tables
       name = h[:name]
       club = find_club( name, league.country )   ## todo/fix: add international or league flag?
       if club.nil?
         print "!!! >"
+        missing << name
       else
         print "OK   "
       end
@@ -55,14 +60,35 @@ def check_clubs_by_events( events )
       end
       puts
     end
+
+    if missing.empty?
+      ## everything ok
+    else
+      puts "!!! #{missing.size} missing clubs in >#{heading}<:"
+      pp missing
+      count += missing.size
+      ## append to missing clubs to errors file
+      File.open( './errors.txt', 'a:utf-8' ) do |f|
+        f.puts "!!! #{missing.size} missing clubs in >#{heading}<:"
+        missing.each do |name|
+          f.puts "   #{name}"
+        end
+      end
+    end
+  end
+
+  if count == 0
+    puts "OK - all clubs match"
+  else
+    puts "!!! found #{count} missing clubs, see error.txt for more"
   end
 end
 
 
 
-datafiles = Datafile.find_conf( '../../../openfootball/austria' )
-# datafiles = find_datafiles( '../../../openfootball/deutschland', CONF_PATTERN )
-# datafiles = find_datafiles( '../../../openfootball/england', CONF_PATTERN )
+# datafiles = Datafile.find_conf( '../../../openfootball/austria' )
+# datafiles = Datafile.find_conf( '../../../openfootball/deutschland' )
+datafiles = Datafile.find_conf( '../../../openfootball/england' )
 pp datafiles
 
 datafiles.each do |datafile|
