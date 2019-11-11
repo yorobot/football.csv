@@ -10,27 +10,36 @@ require_relative '../lint/check_clubs'
 
 
 
-UEFA_PATTERN = %r{
-                  /[a-z]{3}.txt$
-                 }x
+UEFA_RE = %r{
+              /[a-z]{3}\.txt$
+            }x
 
-datafiles = Datafile.find( 'uefa/2019-20', UEFA_PATTERN )
+CLUB_RE = %r{
+               /clubs\.txt$
+            }x
+
+
+datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
+# datafiles = Datafile.find( 'sportbild/2019-20', CLUB_RE )
 pp datafiles
+
+
 datafiles.each do |datafile|
 
-  leagues = SportDb::Import::ClubLinter.read( datafile )
-  pp leagues
+  nodes = SportDb::Import::ClubLinter.read( datafile )
+  pp nodes
 
-  missing_clubs = check_clubs_by_leagues( leagues )
-  pp missing_clubs
+  count = check_clubs_by_leagues( nodes )
+  pp count
 
-  if missing_clubs[0][1].empty?
+  if count == 0
     puts "** OK"
   else
-    puts "** !!! ERROR !!! club names missing"
+    puts "** !!! ERROR !!! #{count} club name(s) missing"
     exit 1
   end
 end
+
 
 
 __END__

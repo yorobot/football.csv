@@ -14,12 +14,12 @@ require_relative '../lint/check_clubs'
          )
             $/x
 
-def check_clubs_by_events( events )
+def check_clubs_by_events( nodes )
   count = 0
 
-  events.each do |rec|
-    heading   = rec[0]
-    club_recs = rec[1]
+  nodes.each do |node|
+    heading   = node[0]
+    club_recs = node[1]
 
     values = heading.split( ',' )  ## note: allow rückrunde, clausura, etc.
     values = values.map { |value| value.strip }
@@ -86,15 +86,15 @@ end
 
 
 
-# datafiles = Datafile.find_conf( '../../../openfootball/austria' )
+datafiles = Datafile.find_conf( '../../../openfootball/austria' )
 # datafiles = Datafile.find_conf( '../../../openfootball/deutschland' )
-datafiles = Datafile.find_conf( '../../../openfootball/england' )
+# datafiles = Datafile.find_conf( '../../../openfootball/england' )
 pp datafiles
 
 datafiles.each do |datafile|
 
-  events = SportDb::Import::ConfLinter.read( datafile )
-  pp events
+  nodes = SportDb::Import::ConfLinter.read( datafile )
+  pp nodes
 
-  check_clubs_by_events( events )
+  check_clubs_by_events( nodes )
 end
