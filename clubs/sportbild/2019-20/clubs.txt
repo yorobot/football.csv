@@ -167,7 +167,7 @@
 
  1  Alanyaspor
  2  Fenerbahçe           | Fenerbahçe İstanbul
- 3  Yeni Malatyaspor     | Malatyaspor
+ 3  Yeni Malatyaspor     | Y. Malatyaspor      ## !!!  not to be confused with Malatyaspor 
  4  Trabzonspor
  5  Sivasspor
  6  İstanbul Başakşehir FK | İstanbul Başakşehir
