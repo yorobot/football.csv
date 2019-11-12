@@ -1,93 +1,195 @@
-!!! 1 missing clubs in >ÖFB Cup 2011/12<:
-   FC Red Bull Salzburg II
-!!! 2 missing clubs in >Österr. Erste Liga 2012/13<:
-   First Vienna FC 1894
-   FC Lustenau 07
-!!! 29 missing clubs in >ÖFB Cup 2012/13<:
-   First Vienna FC 1894
-   FC Lustenau 07
-   SC-ESV Parndorf 1919
-   SV Stegersbach
-   SAK Klagenfurt
-   Villacher SV
-   1. SC Sollenau
-   FC Pasching
-   Union St. Florian
-   TSV St. Johann im Pongau
-   DSV Leoben
-   FC Gratkorn
-   FC Hard
-   SC Bregenz
-   FAC Team für Wien
-   SV Schwechat
-   SV Oberwart
-   ASK Bad Vöslau
-   SC Retz
-   SCU Ardagger
-   SV Gaflenz
-   SV Wallern
-   Salzburger AK 1914
-   SV Reutte
-   SC Ostbahn XI
-   SV Heiligenkreuz
-   SV Spittal/Drau
-   FC Rohrendorf/Gedersdorf
-   SV Grün-Weiß Micheldorf
-!!! 2 missing clubs in >Österr. Erste Liga 2013/14<:
-   SC-ESV Parndorf 1919
-   First Vienna FC 1894
-!!! 27 missing clubs in >ÖFB Cup 2013/14<:
-   SC-ESV Parndorf 1919
-   First Vienna FC 1894
-   Villacher SV
-   SC Leopoldsdorf
-   Dornbirner Sportverein
-   Team Wiener Linien
-   SV Oberwart
-   SV Stegersbach
-   SAK Klagenfurt
-   ATSV Ober-Grafendorf
-   SC Retz
-   1. SC Sollenau
-   FC Pasching
-   Union St. Florian
-   TSV Neumarkt am Wallersee
-   TSV St. Johann im Pongau
-   SV Seekirchen 1945
-   DSV Leoben
-   FC Gratkorn
-   FC Hard
-   FAC Team für Wien
-   SV Schwechat
-   SC Pinkafeld
-   FC St. Veit
-   ASK Bad Vöslau
-   SC Mannsdorf
-   FC Lankowitz
-!!! 26 missing clubs in >ÖFB Cup 2014/15<:
-   KSV 1919
-   SC/ESV Parndorf 1919
-   SV Wimpassing
-   SC Ritzing
-   SC Neusiedl am See 1919
-   SV Schwechat
-   First Vienna FC 1894
-   Technopool Admira
-   SR Donaufeld
-   1. SC Sollenau
-   ASK Kottingsbrunn
-   SC Retz
-   ATSV Ober-Grafendorf
-   ASV Spratzern
-   SV Wallern
-   Union St. Florian
-   SV Grün-Weiß Micheldorf
-   SV Seekirchen 1945
-   TSV Neumarkt
-   TSV St. Johann Pongau
-   USC Eugendorf
-   FC Piberstein Lankowitz
-   SAK Klagenfurt
-   FC Lendorf
-   FC Hard
-   FC Höchst
+OK   >Bor. Mönchengladbach< (1) matching >Bor. Mönchengladbach<
+OK   >Bayern München< (1) matching >Bayern München<
+OK   >SC Freiburg< (1) matching >SC Freiburg<
+OK   >VfL Wolfsburg< (1) matching >VfL Wolfsburg<
+OK   >Borussia Dortmund< (1) matching >Borussia Dortmund<
+OK   >RB Leipzig< (1) matching >RB Leipzig<
+OK   >FC Schalke 04< (1) matching >FC Schalke 04<
+OK   >Bayer Leverkusen< (1) matching >Bayer 04 Leverkusen<
+OK   >Eintracht Frankfurt< (1) matching >Eintracht Frankfurt<
+OK   >1899 Hoffenheim< (1) matching >TSG 1899 Hoffenheim<
+OK   >Hertha BSC< (1) matching >Hertha BSC<
+OK   >Werder Bremen< (1) matching >Werder Bremen<
+OK   >1. FSV Mainz 05< (1) matching >1. FSV Mainz 05<
+OK   >Fortuna Düsseldorf< (1) matching >Fortuna Düsseldorf<
+OK   >1. FC Union Berlin< (1) matching >1. FC Union Berlin<
+OK   >1. FC Köln< (1) matching >1. FC Köln<
+OK   >FC Augsburg< (1) matching >FC Augsburg<
+OK   >SC Paderborn 07< (1) matching >SC Paderborn 07<
+OK   >Hamburger SV< (1) matching >Hamburger SV<
+OK   >Arminia Bielefeld< (1) matching >Arminia Bielefeld<
+OK   >VfB Stuttgart< (1) matching >VfB Stuttgart<
+OK   >Erzgebirge Aue< (1) matching >FC Erzgebirge Aue<
+OK   >1. FC Heidenheim 1846< (1) matching >1. FC Heidenheim<
+OK   >Jahn Regensburg< (1) matching >SSV Jahn Regensburg<
+OK   >SpVgg Greuther Fürth< (1) matching >SpVgg Greuther Fürth<
+OK   >1. FC Nürnberg< (1) matching >1. FC Nürnberg<
+OK   >Karlsruher SC< (1) matching >Karlsruher SC<
+OK   >Holstein Kiel< (1) matching >Holstein Kiel<
+OK   >SV Darmstadt 98< (1) matching >SV Darmstadt 98<
+OK   >FC St. Pauli< (1) matching >FC St. Pauli<
+OK   >Hannover 96< (1) matching >Hannover 96<
+OK   >VfL Osnabrück< (1) matching >VfL Osnabrück<
+OK   >SV Sandhausen< (1) matching >SV Sandhausen<
+OK   >VfL Bochum< (1) matching >VfL Bochum<
+OK   >Dynamo Dresden< (1) matching >Dynamo Dresden<
+OK   >SV Wehen Wiesbaden< (1) matching >SV Wehen Wiesbaden<
+OK   >Hallescher FC< (1) matching >Hallescher FC<
+OK   >MSV Duisburg< (1) matching >MSV Duisburg<
+OK   >Eintracht Braunschweig< (1) matching >Eintracht Braunschweig<
+OK   >SpVgg Unterhaching< (1) matching >SpVgg Unterhaching<
+OK   >FC Ingolstadt 04< (1) matching >FC Ingolstadt 04<
+OK   >Hansa Rostock< (1) matching >Hansa Rostock<
+!! club missing / not found any name (1):
+    Viktoria Köln
+OK   >FSV Zwickau< (1) matching >FSV Zwickau<
+OK   >KFC Uerdingen 05< (1) matching >KFC Uerdingen<
+OK   >Waldhof Mannheim< (1) matching >SV Waldhof Mannheim<
+OK   >1. FC Magdeburg< (1) matching >1. FC Magdeburg<
+!! club missing / not found any name (1):
+    Bayern München II
+OK   >SV Meppen< (1) matching >SV Meppen<
+OK   >Würzburger Kickers< (1) matching >Würzburger Kickers<
+OK   >TSV 1860 München< (1) matching >TSV 1860 München<
+OK   >Chemnitzer FC< (1) matching >Chemnitzer FC<
+OK   >1. FC Kaiserslautern< (1) matching >1. FC Kaiserslautern<
+OK   >SG Sonnenhof Großaspach< (1) matching >SG Großaspach<
+OK   >Preußen Münster< (1) matching >Preußen Münster<
+OK   >FC Carl Zeiss Jena< (1) matching >FC Carl Zeiss Jena<
+OK   >Liverpool FC | FC Liverpool< (2) matching >Liverpool FC<
+OK   >Manchester City< (1) matching >Manchester City FC<
+OK   >Leicester City< (1) matching >Leicester City FC<
+OK   >Chelsea FC | FC Chelsea< (2) matching >Chelsea FC<
+OK   >Arsenal FC | FC Arsenal< (2) matching >Arsenal FC<
+OK   >Crystal Palace< (1) matching >Crystal Palace FC<
+OK   >Manchester United< (1) matching >Manchester United FC<
+OK   >Sheffield United | Sheffield Utd.< (2) matching >Sheffield United FC<
+OK   >AFC Bournemouth< (1) matching >AFC Bournemouth<
+OK   >West Ham United< (1) matching >West Ham United FC<
+OK   >Tottenham Hotspur< (1) matching >Tottenham Hotspur FC<
+!! 1 club (alternate) name(s) missing for >Wolverhampton Wanderers FC (Wolves | Wolverhampton | Wolverhampton Wanderers)< :
+    Wolverhampton Wand.
+    Wolverhampton Wanderers | Wolverhampton Wand.
+OK   >Burnley FC< (1) matching >Burnley FC<
+OK   >Brighton & Hove Albion< (1) matching >Brighton & Hove Albion FC<
+OK   >Aston Villa< (1) matching >Aston Villa FC<
+OK   >Everton FC | FC Everton< (2) matching >Everton FC<
+OK   >Newcastle United< (1) matching >Newcastle United FC<
+OK   >Southampton FC | FC Southampton< (2) matching >Southampton FC<
+OK   >Norwich City< (1) matching >Norwich City FC<
+OK   >Watford FC | FC Watford< (2) matching >Watford FC<
+!! 1 club (alternate) name(s) missing for >Granada CF (Granada | Granada Club de Fútbol)< :
+    FC Granada
+    Granada CF | FC Granada
+OK   >FC Barcelona< (1) matching >FC Barcelona<
+!! 1 club (alternate) name(s) missing for >Real Sociedad (Sociedad | R. Sociedad | Real Sociedad San Sebastián | Real Sociedad de Fútbol)< :
+    R. S. San Sebastian
+    Real Sociedad San Sebastian | R. S. San Sebastian
+OK   >Atlético Madrid< (1) matching >Atlético Madrid<
+OK   >Real Madrid< (1) matching >Real Madrid<
+!! 1 club (alternate) name(s) missing for >Villarreal CF (Villarreal | Villareal)< :
+    FC Villarreal
+    Villarreal CF | FC Villarreal
+OK   >Sevilla FC | FC Sevilla< (2) matching >Sevilla FC<
+!! 1 club (alternate) name(s) missing for >Getafe CF (Getafe | Getafe Club de Fútbol)< :
+    FC Getafe
+    Getafe CF | FC Getafe
+OK   >Real Valladolid< (1) matching >Real Valladolid CF<
+OK   >Athletic Bilbao< (1) matching >Athletic Club Bilbao<
+OK   >Valencia CF | FC Valencia< (2) matching >Valencia CF<
+OK   >CA Osasuna< (1) matching >CA Osasuna<
+!! 1 club (alternate) name(s) missing for >Levante UD (Levante | Levante Unión Deportiva)< :
+    UD Levante
+    Levante UD | UD Levante
+OK   >CD Alavés | Deportivo Alavés< (2) matching >Deportivo Alavés<
+OK   >RCD Mallorca< (1) matching >RCD Mallorca<
+OK   >SD Eibar< (1) matching >SD Eibar<
+OK   >Celta Vigo< (1) matching >RC Celta Vigo<
+OK   >Betis Sevilla< (1) matching >Real Betis<
+OK   >Espanyol Barcelona< (1) matching >RCD Espanyol<
+OK   >CD Leganés< (1) matching >CD Leganés<
+OK   >Paris Saint-Germain< (1) matching >Paris Saint-Germain<
+OK   >FC Nantes< (1) matching >FC Nantes<
+OK   >Lille OSC | OSC Lille< (2) matching >Lille OSC<
+OK   >Stade Reims< (1) matching >Stade de Reims<
+OK   >Angers SCO< (1) matching >Angers SCO<
+OK   >Stade Brest< (1) matching >Stade Brestois 29<
+OK   >Olympique Marseille< (1) matching >Olympique de Marseille<
+!! club missing / not found any name (1):
+    Girondins Bordeaux
+OK   >Stade Rennes< (1) matching >Stade Rennais FC<
+OK   >Montpellier HSC | HSC Montpellier< (2) matching >Montpellier HSC<
+OK   >AS Monaco< (1) matching >AS Monaco<
+OK   >AS Saint-Étienne< (1) matching >AS Saint-Étienne<
+OK   >Olympique Lyon< (1) matching >Olympique Lyonnais<
+OK   >Amiens SC< (1) matching >Amiens SC<
+OK   >OGC Nizza< (1) matching >OGC Nice<
+!! 1 club (alternate) name(s) missing for >RC Strasbourg (Strasbourg | Racing Strasbourg | RC Strasbourg Alsace | Racing Club de Strasbourg Alsace)< :
+    Racing Straßburg
+    RC Strasbourg | Racing Straßburg
+OK   >Toulouse FC | FC Toulouse< (2) matching >Toulouse FC<
+OK   >Nîmes Olympique | Olympique Nîmes< (2) matching >Nîmes Olympique<
+OK   >FC Metz< (1) matching >FC Metz<
+!! 1 club (alternate) name(s) missing for >Dijon FCO (Dijon | Dijon Football | Dijon Football Côte-d'Or)< :
+    FCO Dijon
+    Dijon FCO | FCO Dijon
+OK   >Juventus Turin< (1) matching >Juventus<
+OK   >Inter Mailand< (1) matching >FC Internazionale Milano<
+OK   >Atalanta | Atalanta Bergamo< (2) matching >Atalanta BC<
+!! club missing / not found any name (1):
+    SSC Neapel
+!! club missing / not found any name (1):
+    AS Rom
+OK   >Cagliari Calcio< (1) matching >Cagliari Calcio<
+!! 1 club (alternate) name(s) missing for >Parma (Parma FC | Parma Football Club | FC Parma | Parma Calcio 1913)< :
+    Parma Calcio
+    Parma Calcio 1913 | Parma Calcio
+OK   >Lazio Rom< (1) matching >SS Lazio<
+!! club missing / not found any name (1):
+    AC Florenz
+OK   >Bologna FC | FC Bologna< (2) matching >Bologna FC<
+!! club missing / not found any name (1):
+    FC Turin
+!! club missing / not found any name (1):
+    AC Mailand
+OK   >Udinese Calcio< (1) matching >Udinese Calcio<
+!! 1 club (alternate) name(s) missing for >US Sassuolo Calcio (Sassuolo | US Sassuolo | Unione Sportiva Sassuolo Calcio)< :
+    Sassuolo Calcio
+    Sassuolo Calcio | US Sassuolo
+OK   >Hellas Verona< (1) matching >Hellas Verona FC<
+OK   >US Lecce< (1) matching >US Lecce<
+!! 1 club (alternate) name(s) missing for >Genoa CFC (Genoa | Genoa Cricket and Football Club | FC Genua [de])< :
+    CFC Genua 1893
+    FC Genua | CFC Genua 1893
+OK   >Brescia Calcio< (1) matching >Brescia<
+OK   >SPAL 2013 Ferrara | SPAL Ferrara< (2) matching >SPAL<
+OK   >Sampdoria | Sampdoria Genua< (2) matching >UC Sampdoria<
+OK   >Alanyaspor< (1) matching >Alanyaspor<
+OK   >Fenerbahçe | Fenerbahçe İstanbul< (2) matching >Fenerbahçe İstanbul SK<
+!! club names ambigious - matching 2 clubs:
+    Yeni Malatyaspor | Malatyaspor
+    [#<SportDb::Import::Club:0x2cf88d8 @alt_names=["Y. Malatyaspor", "Yeni Malatya Spor Kul\u00FCb\u00FC"], @alt_names_auto=["Yeni Malatya Spor Kulubu", "Yeni Malatya Spor Kuluebue"], @name="Yeni Malatyaspor", @city="Malatya", @country=#<SportDb::Import::Country:0x308b5c0 @fifa="TUR", @name="Turkey", @key="tr", @alt_names=[], @tags=["fifa", "uefa"]>, @year=1986, @wikipedia="Yeni Malatyaspor">, #<SportDb::Import::Club:0x2d0bec8 @alt_names=["Malatya SK", "Malatya Spor Kul\u00FCb\u00FC"], @alt_names_auto=["Malatya Spor Kulubu", "Malatya Spor Kuluebue"], @name="Malatyaspor", @city="Malatya", @country=#<SportDb::Import::Country:0x308b5c0 @fifa="TUR", @name="Turkey", @key="tr", @alt_names=[], @tags=["fifa", "uefa"]>, @year=1966>]
+OK   >Trabzonspor< (1) matching >Trabzonspor AŞ<
+OK   >Sivasspor< (1) matching >Sivasspor<
+OK   >İstanbul Başakşehir FK | İstanbul Başakşehir< (2) matching >İstanbul Başakşehir<
+!! 1 club (alternate) name(s) missing for >Galatasaray İstanbul AŞ (Galatasaray | Galatasaray İstanbul | Galatasaray AŞ | Galatasaray SK)< :
+    Galatasar. İstanbul
+    Galatasaray | Galatasar. İstanbul
+OK   >Beşiktaş | Beşiktaş İstanbul< (2) matching >Beşiktaş İstanbul JK<
+!! 1 club (alternate) name(s) missing for >Konyaspor ()< :
+    Atiker Konyaspor
+    Atiker Konyaspor | Konyaspor
+OK   >Gazişehir Gaziantep FK< (1) matching >Gazişehir Gaziantep FK<
+!! 1 club (alternate) name(s) missing for >Kasımpaşa İstanbul SK (Kasımpaşa SK | Kasımpaşa)< :
+    Kasımpaşa İstanbul
+    Kasımpaşa SK | Kasımpaşa İstanbul
+OK   >Denizlispor< (1) matching >Denizlispor<
+OK   >Çaykur Rizespor< (1) matching >Çaykur Rizespor<
+OK   >Antalyaspor< (1) matching >Antalyaspor<
+OK   >Göztepe | Göztepe İzmir< (2) matching >Göztepe İzmir<
+OK   >MKE Ankaragücü | Ankaragücü< (2) matching >MKE Ankaragücü<
+!! 1 club (alternate) name(s) missing for >Gençlerbirliği Ankara SK (Gençlerbirliği | Gençlerbirliği SK | Gençlerbirliği Spor Kulübü)< :
+    Gençlerbirliği Ankara
+    Gençlerbirliği | Gençlerbirliği Ankara
+OK   >Kayserispor< (1) matching >Kayserispor<
+** !!! ERROR !!! 23 club name(s) missing
