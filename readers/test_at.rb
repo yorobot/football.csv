@@ -12,6 +12,11 @@ datafiles = Datafile.find_conf( "#{SOURCE_DIR}/austria" )
 puts "#{datafiles.size} conf datafiles:"
 pp datafiles
 
+## lint first (dry run - no database reads/updates/etc.)
+SportDb.read( "#{SOURCE_DIR}/austria", sync: false )
+
+
+__END__
 # 5 conf datafiles:
 # ["../../../openfootball/austria/2011-12/.conf.txt",
 # "../../../openfootball/austria/2012-13/.conf.txt",
