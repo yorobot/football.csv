@@ -9,7 +9,11 @@ PROGRAMS = %w[
   38a_tue-sep-17  38b_fri-sep-20
   39a_tue-sep-24  39b_fri-sep-27
   40a_tue-oct-1   40b_fri-oct-4
-  41a_tue-oct-8
+  41a_tue-oct-8   41b_fri-oct-11
+  42a_tue-oct-15  42b_fri-oct-18
+  43a_tue-oct-22  43b_fri-oct-25
+  44a_tue-oct-29  44b_sat-nov-2    # note: saturday!
+  45a_tue-nov-5   45b_fri-nov-8
 ]
 
 
