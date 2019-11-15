@@ -11,6 +11,11 @@ leagues.dump_duplicates
 puts "** match AUT BL:"
 pp leagues.match( 'AUT BL' )
 pp leagues.match( 'aut bl' )
+pp leagues.match( 'AUT' )
+pp leagues.match( 'AUT 1' )
+pp leagues.match( 'AT' )
+pp leagues.match( 'AT 1' )
+pp leagues.match( 'Austria 1' )
 
 puts "** match CL:"
 pp leagues.match( 'CL' )

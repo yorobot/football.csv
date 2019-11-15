@@ -19,8 +19,8 @@ CLUB_RE = %r{
             }x
 
 
-# datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
-datafiles = Datafile.find( 'sportbild/2019-20', CLUB_RE )
+datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
+# datafiles = Datafile.find( 'sportbild/2019-20', CLUB_RE )
 pp datafiles
 
 

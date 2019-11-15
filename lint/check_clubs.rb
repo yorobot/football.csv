@@ -66,9 +66,20 @@ def check_clubs( recs, country )
       clubs   = []
       missing = []
       names.each do |name|
-        club = find_club( name, country )
-        if club
-          clubs << club
+        ## note: use match to allow "ambigous" matches (more than one club too!!!!)
+        m = CLUBS.match_by( name: name, country: country )
+        if m.nil?
+          ## (re)try with second country - quick hacks for known leagues
+          ##  todo/fix: add league flag to activate!!!
+          m = CLUBS.match_by( name: name, country: COUNTRIES['wal'])  if country.key == 'eng'
+          m = CLUBS.match_by( name: name, country: COUNTRIES['nir'])  if country.key == 'ie'
+          m = CLUBS.match_by( name: name, country: COUNTRIES['mc'])   if country.key == 'fr'
+          m = CLUBS.match_by( name: name, country: COUNTRIES['li'])   if country.key == 'ch'
+          m = CLUBS.match_by( name: name, country: COUNTRIES['ca'])   if country.key == 'us'
+        end
+
+        if m
+          clubs += m
         else
           missing << name
           count += 1
@@ -101,37 +112,3 @@ def check_clubs( recs, country )
     end
   count
 end   # method check_clubs
-
-
-
-
-
-
-
-
-def find_club( name, country )   ## todo/fix: add international or league flag?
-  club = nil
-  m = CLUBS.match_by( name: name, country: country )
-
-  if m.nil?
-    ## (re)try with second country - quick hacks for known leagues
-    ##  todo/fix: add league flag to activate!!!
-    m = CLUBS.match_by( name: name, country: COUNTRIES['wal'])  if country.key == 'eng'
-    m = CLUBS.match_by( name: name, country: COUNTRIES['nir'])  if country.key == 'ie'
-    m = CLUBS.match_by( name: name, country: COUNTRIES['mc'])   if country.key == 'fr'
-    m = CLUBS.match_by( name: name, country: COUNTRIES['li'])   if country.key == 'ch'
-    m = CLUBS.match_by( name: name, country: COUNTRIES['ca'])   if country.key == 'us'
-  end
-
-  if m.nil?
-    ## puts "** !!! WARN !!! no match for club >#{name}<"
-  elsif m.size > 1
-    puts "** !!! ERROR !!! too many matches (#{m.size}) for club >#{name}<:"
-    pp m
-    exit 1
-  else   # bingo; match - assume size == 1
-    club = m[0]
-  end
-
-  club
-end
