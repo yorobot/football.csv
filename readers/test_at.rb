@@ -12,8 +12,12 @@ datafiles = Datafile.find_conf( "#{SOURCE_DIR}/austria" )
 puts "#{datafiles.size} conf datafiles:"
 pp datafiles
 
+pack = Datafile::DirPackage.new( "#{SOURCE_DIR}/austria" )
 ## lint first (dry run - no database reads/updates/etc.)
-SportDb.read( "#{SOURCE_DIR}/austria", sync: false )
+pack.read( season: '2019/20', sync: false )
+pack.read( '2011-12/.conf.txt', sync: false )
+pack.read( '2011-12/1-bundesliga-i.txt', sync: false )
+pack.read( '2011-12/1-bundesliga-ii.txt', sync: false )
 
 
 __END__
