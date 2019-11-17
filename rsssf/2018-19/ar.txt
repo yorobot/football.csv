@@ -1,25 +1,5 @@
-= Argentina (ar) =
+= Argentina =
 
-## todo - cont. merge short & long names
-
-## short names
-11  CA Vélez Sarsfield
-12  Club Estudiantes de La Plata
-13  CA Independiente
-14  Racing Club
-15  Club Atlético Tucumán
-16  CA Huracán
-17  CA Central Córdoba
-18  CA Aldosivi
-19  CA Banfield
-20  CA Unión
-21  CA Colón
-22  CSyD Defensa y Justicia
-23  CD Godoy Cruz Antonio Tomba
-24  Cd Gimnasia y Esgrima La Plata
-
-
-## long names
  1  Club Atlético San Lorenzo de Almagro               # Flores, C
      | CA San Lorenzo de Almagro
  2  Club Atlético Boca Juniors Asociación Civil        # La Boca, C
@@ -40,19 +20,30 @@
      | AA Argentinos Juniors
 10  Club Atlético River Plate Asoc. Civil              # Belgrano, C
      | CA River Plate
-
-
 11  Club Atlético Vélez Sarsfield Asociación Civil     # Liniers, C
+     | CA Vélez Sarsfield
 12  Club Estudiantes de La Plata                       # La Plata, B
 13  Club Atlético Independiente                        # Avellaneda, B
+     | CA Independiente
 14  Racing Club Asociación Civil                       # Avellaneda, B
+     | Racing Club
 15  Club Atlético Tucumán Soc. Civil                   # San Miguel de Tucumán, T
+     | Club Atlético Tucumán
 16  Club Atlético Huracán                              # Parque de los Patricios, C
+     | CA Huracán
 17  Club Atlético Central Córdoba Soc. Civil           # Santiago del Estero, G
+     | CA Central Córdoba
 18  Club Atlético Aldosivi                             # Mar del Plata, B
+     | CA Aldosivi
 19  Club Atlético Banfield Sociedad Civil              # Banfield, B
+     | CA Banfield
 20  Club Atlético Unión                                # Santa Fe, S
+     | CA Unión
 21  Asociación Civil Club Atlético Colón               # Santa Fe, S
+     | CA Colón
 22  Club Social y Deportivo Defensa y Justicia         # Florencio Varela, B
+     | CSyD Defensa y Justicia
 23  Club Deportivo Godoy Cruz Antonio Tomba            # Godoy Cruz, M
+     | CD Godoy Cruz Antonio Tomba
 24  Club de Gimnasia y Esgrima La Plata                # La Plata, B
+     | Cd Gimnasia y Esgrima La Plata

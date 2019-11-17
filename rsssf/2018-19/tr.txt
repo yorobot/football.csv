@@ -1,11 +1,11 @@
-= Turkey (tr) =
+= Turkey =
 
  1  Galatasaray AŞ İstanbul
  2  İstanbul Başakşehir FK
  3  Beşiktaş AŞ İstanbul
  4  Trabzonspor AŞ
  5  Yeni Malatyaspor
- 6  Fenerbahçe AŞ İstanbul  
+ 6  Fenerbahçe AŞ İstanbul
  7  Antalyaspor K
  8  Konyaspor K
  9  Alanyaspor K
