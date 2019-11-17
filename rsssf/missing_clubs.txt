@@ -1,12 +1,6 @@
-fix/check - remove by reader !!!
-remove dump debug lines!!!
-"- - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-"-------------------------------------------------------"
-"-------------------------------------------------------"
-"-------------------------------------------------------"
 
 
-= Argentina
+= Argentina (ar) =
 
 OK   >Club Atlético San Lorenzo de Almagro | CA San Lorenzo de Almagro< (2) matching >San Lorenzo<
 !! club missing / not found any name (2):
@@ -63,10 +57,8 @@ OK   >Club Atlético Unión | CA Unión< (2) matching >Unión Santa Fe<
     Cd Gimnasia y Esgrima La Plata
     Club de Gimnasia y Esgrima La Plata | Cd Gimnasia y Esgrima La Plata
 
-** !!! ERROR !!! 21 club names missing
 
-
-= Austria =
+= Austria (at) =
 
 OK   >RB Salzburg< (1) matching >FC RB Salzburg<
 OK   >LASK Linz< (1) matching >LASK Linz<
@@ -161,9 +153,8 @@ OK   >SC/ESV Parndorf< (1) matching >SC-ESV Parndorf<
     FC Stadlau
 OK   >SV Schwechat< (1) matching >SV Schwechat<
 
-** !!! ERROR !!! 16 club names missing
 
-= Belgium =
+= Belgium (be) =
 
 OK   >KRC Genk< (1) matching >KRC Genk<
 OK   >Club Brugge KV< (1) matching >Club Brugge<
@@ -214,9 +205,8 @@ OK   >Oud-Heverlee Leuven< (1) matching >Oud-Heverlee Leuven<
 OK   >KSV Roeselare< (1) matching >KSV Roeselare<
 OK   >AFC Tubize< (1) matching >AFC Tubize<
 
-** !!! ERROR !!! 12 club names missing
 
-= Brazil =
+= Brazil (br) =
 
 OK   >Palmeiras< (1) matching >Palmeiras SP<
 OK   >Flamengo< (1) matching >Flamengo RJ<
@@ -239,9 +229,8 @@ OK   >América/MG< (1) matching >América MG<
 OK   >Vitória< (1) matching >EC Vitória<
 OK   >Paraná< (1) matching >Paraná Clube<
 
-** OK
 
-= Deutschland =
+= Germany (de) =
 
 OK   >FC Bayern München< (1) matching >Bayern München<
 OK   >Borussia Dortmund< (1) matching >Borussia Dortmund<
@@ -301,9 +290,8 @@ OK   >Sportfreunde Lotte< (1) matching >SF Lotte<
 OK   >Fortuna Köln< (1) matching >Fortuna Köln<
 OK   >VfR Aalen< (1) matching >VfR Aalen<
 
-** !!! ERROR !!! 1 club names missing
 
-= France =
+= France (fr) =
 
 OK   >Paris-Saint-Germain FC< (1) matching >Paris Saint-Germain<
 OK   >Lille OSC< (1) matching >Lille OSC<
@@ -352,10 +340,8 @@ OK   >AS Béziers< (1) matching >AS Béziers<
 !! club missing / not found any name (1):
     Red Star FC 93
 
-** !!! ERROR !!! 6 club names missing
 
-
-= Mexico =
+= Mexico (mx) =
 
 OK   >Cruz Azul< (1) matching >Cruz Azul<
 OK   >América< (1) matching >Club América<
@@ -411,10 +397,8 @@ OK   >FC Juárez< (1) matching >FC Juárez<
 !! club missing / not found any name (1):
     Celaya FC
 
-** !!! ERROR !!! 27 club names missing
 
-
-= Turkey =
+= Turkey (tr) =
 
 !! club missing / not found any name (1):
     Galatasaray AŞ İstanbul
@@ -475,6 +459,3 @@ OK   >Balıkesirspor< (1) matching >Balıkesirspor<
     Afyonspor
 OK   >Elazığspor< (1) matching >Elazığspor<
 OK   >Kardemir Karabükspor< (1) matching >Kardemir Karabükspor<
-
-
-** !!! ERROR !!! 23 club names missing
