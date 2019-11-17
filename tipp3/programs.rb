@@ -1,6 +1,7 @@
 
 ## shared list of tipp3 programs
 
+# note: 44b_sat-nov-2 starts on a saturday!
 PROGRAMS = %w[
   34a_tue-aug-20  34b_fri-aug-23
   35a_tue-aug-27  35b_fri-aug-30
@@ -12,7 +13,7 @@ PROGRAMS = %w[
   41a_tue-oct-8   41b_fri-oct-11
   42a_tue-oct-15  42b_fri-oct-18
   43a_tue-oct-22  43b_fri-oct-25
-  44a_tue-oct-29  44b_sat-nov-2    # note: saturday!
+  44a_tue-oct-29  44b_sat-nov-2
   45a_tue-nov-5   45b_fri-nov-8
 ]
 

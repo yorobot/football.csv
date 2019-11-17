@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,05.11. 14:00,BUL 1,PFC Slavia Sofia,1:1,Lokomotiv Plovdiv,X,Fussball - Bulgarien Premier League
+002,05.11. 16:30,BUL 1,Cherno More,0:2,ZSKA Sofia,2,Fussball - Bulgarien Premier League
+003,05.11. 18:55,CL,FC Barcelona ESP,0:0,Slavia Prag CZE,X,Fussball - UEFA Champions League
+004,05.11. 18:55,CL,Zenit St.Peter RUS,0:2,RB Leipzig GER,2,Fussball - UEFA Champions League
+005,05.11. 19:45,EH SUI,HC Lausanne,3:3,HC Davos,X,Eishockey - Schweiz National League A
+006,05.11. 20:45,ENG 1,FC Rochdale,0:1,Ipswich Town,2,Fussball - England League One
+007,05.11. 20:45,ENG 1,FC Portsmouth,4:1,Southend United,1,Fussball - England League One
+008,05.11. 20:45,ENG 1,Shrewsbury Town,1:0,Peterborough Utd.,1,Fussball - England League One
+009,05.11. 21:00,CL,SSC Napoli ITA,1:1,RB Salzburg AUT,X,Fussball - UEFA Champions League
+010,05.11. 21:00,CL,SSC Napoli,1:2,RB Salzburg+1,2,Fussball - UEFA Champions League
+011,05.11. 21:00,CL,SSC Napoli,1:3,RB Salzburg+2,2,Fussball - UEFA Champions League
+012,05.11. 21:00,CL,FC Liverpool ENG,2:1,KRC Genk BEL,1,Fussball - UEFA Champions League
+013,05.11. 21:00,CL,FC Liverpool,2:3,KRC Genk+2,2,Fussball - UEFA Champions League
+014,05.11. 21:00,CL,Bor. Dortmund GER,3:2,Inter Mailand ITA,1,Fussball - UEFA Champions League
+015,05.11. 21:00,CL,Bor. Dortmund,3:3,Inter Mailand+1,X,Fussball - UEFA Champions League
+016,05.11. 21:00,CL,FC Chelsea ENG,4:4,Ajax Amsterd. NED,X,Fussball - UEFA Champions League
+017,05.11. 21:00,CL,FC Chelsea,4:5,Ajax Amsterdam+1,2,Fussball - UEFA Champions League
+018,05.11. 21:00,CL,Ol. Lyon FRA,3:1,Benfica Lissab POR,1,Fussball - UEFA Champions League
+019,05.11. 21:00,CL,FC Valencia ESP,4:1,Lille OSC FRA,1,Fussball - UEFA Champions League
+020,05.11. 23:15,BRA 2,Oeste FC SP,0:2,Botafogo FC SP,2,Fussball - Brasilien Brasilero Serie B
+021,05.11. 23:15,BRA 2,Atletico GO,2:1,Londrina EC PR,1,Fussball - Brasilien Brasilero Serie B
+022,06.11. 00:30,BRA 2,Operario FEC PR,1:0,Criciuma EC SC,1,Fussball - Brasilien Brasilero Serie B
+023,06.11. 01:30,BRA 2,AA Ponte Preta SP,1:1,Sao Bento SP,X,Fussball - Brasilien Brasilero Serie B
+024,06.11. 00:30,BRA 2,America Mineiro MG,0:2,Parana Clube PR,2,Fussball - Brasilien Brasilero Serie B
+025,06.11. 01:30,BRA 2,Cuiaba MT,5:1,CRB AL,1,Fussball - Brasilien Brasilero Serie B
+026,06.11. 01:30,BRA 2,RB Bragantino SP,3:1,Guarani FC SP,1,Fussball - Brasilien Brasilero Serie B
+027,06.11. 00:30,BRA 2,Figueirense FC SC,0:0,Vila Nova GO,X,Fussball - Brasilien Brasilero Serie B
+028,06.11. 00:30,BRA 2,EC Vitoria BA,3:0,Brasil de Pelotas,1,Fussball - Brasilien Brasilero Serie B
+029,06.11. 01:00,NHL,Philadelphia Fl.,4:1,Carolina Hurric.,1,Eishockey - USA NHL
+030,06.11. 01:30,NHL,Montreal Canad.,5:4,Boston Bruins,1,Eishockey - USA NHL
+031,06.11. 01:00,NHL,Columbus Blue J.,1:2,Vegas Gold.Knights,2,Eishockey - USA NHL
+032,06.11. 01:00,NHL,NY Islanders,4:1,Ottawa Senators,1,Eishockey - USA NHL
+033,06.11. 01:30,NHL,Toronto Maple L.,3:1,Los Angeles Kings,1,Eishockey - USA NHL
+034,06.11. 02:00,NHL,Winnipeg Jets,1:1,New Jersey Devils,X,Eishockey - USA NHL
+035,06.11. 02:30,NHL,Dallas Stars,4:1,Colorado Avalan.,1,Eishockey - USA NHL
+036,06.11. 03:00,NHL,Calgary Flames,3:3,Arizona Coyotes,X,Eishockey - USA NHL
+037,06.11. 04:00,NHL,Vancouver Can.,1:1,St. Louis Blues,X,Eishockey - USA NHL
+038,06.11. 04:00,NHL,Anaheim Ducks,2:4,Minnesota Wild,2,Eishockey - USA NHL
+039,06.11. 04:00,NHL,San Jose Sharks,4:2,Chicago Blackhawks,1,Eishockey - USA NHL
+040,06.11. 14:30,BUL 1,Levski Sofia,3:0,Et. Veliko Tarnovo,1,Fussball - Bulgarien Premier League
+041,06.11. 16:50,EL,Vit. Guimaraes POR,1:1,FC Arsenal ENG,X,Fussball - UEFA Europa League
+042,06.11. 17:00,CZE CUP,1. FC Slovacko,1:1,FK Viktoria Zizkov,X,Fussball - Tschechien Cup
+043,06.11. 18:00,DEN CUP,AB Gladsaxe,1:2,Esbjerg FB,2,Fussball - Dänemark Landspokalturneringen
+044,06.11. 18:00,DEN CUP,BK Fremad Amager,0:3,AC Horsens,2,Fussball - Dänemark Landspokalturneringen
+045,06.11. 18:00,BB EU C,Keravnos Strovolou,76:70,Kapfenberg B. AUT,1,Basketball - Europe Cup
+046,06.11. 18:30,RSA PL,Baroka FC,0:0,Mamelodi FC,X,"Fussball - Südafrika, Premier League"
+047,06.11. 18:30,RSA PL,Cape Town City FC,5:3,Polokwane City,1,"Fussball - Südafrika, Premier League"
+048,06.11. 18:55,CL,Bayern München GER,2:0,Olympiakos P. GRE,1,Fussball - UEFA Champions League
+049,06.11. 18:55,CL,FC Bayern München,2:1,Olympiakos Pir.+1,1,Fussball - UEFA Champions League
+050,06.11. 18:55,CL,FC Bayern München,2:2,Olympiakos Pir.+2,X,Fussball - UEFA Champions League
+051,06.11. 18:55,CL,Lok Moskau RUS,1:2,Juventus Turin ITA,2,Fussball - UEFA Champions League
+052,06.11. 19:00,HB CL,Flensburg-H. GER,29:30,Paris Handball FRA,2,"Handball - Champions League, Herren"
+053,06.11. 20:00,URU 1,Plaza Colonia CD,4:1,Defensor Sporting,1,Fussball - Uruguay Primera Division
+054,06.11. 20:00,URU 1,CA Boston River,2:1,Juventud Piedras,1,Fussball - Uruguay Primera Division
+055,06.11. 20:00,URU 1,CA Cerro,1:3,CA Penarol,2,Fussball - Uruguay Primera Division
+056,06.11. 20:00,URU 1,Danubio FC,1:1,Rampla Juniors FC,X,Fussball - Uruguay Primera Division
+057,06.11. 20:00,URU 1,CA River Plate,1:2,CA Progreso,2,Fussball - Uruguay Primera Division
+058,06.11. 20:30,BB EC,Bologna ITA,92:91,Ratiopharm Ulm GER,1,Basketball - Eurocup
+059,06.11. 21:00,CL,Paris SG FRA,1:0,Club Brügge BEL,1,Fussball - UEFA Champions League
+060,06.11. 21:00,CL,Paris SG,1:2,Club Brügge+2,2,Fussball - UEFA Champions League
+061,06.11. 21:00,CL,Dinamo Zagreb CRO,3:3,Shakhtar Don. UKR,X,Fussball - UEFA Champions League
+062,06.11. 21:00,CL,Leverkusen GER,2:1,Atl. Madrid ESP,1,Fussball - UEFA Champions League
+063,06.11. 21:00,CL,Bayer Leverkusen,2:2,Atletico Madrid+1,X,Fussball - UEFA Champions League
+064,06.11. 21:00,CL,Bay. Leverkusen+1,3:1,Atletico Madrid,1,Fussball - UEFA Champions League
+065,06.11. 21:00,CL,Real Madrid ESP,6:0,Galatasaray TUR,1,Fussball - UEFA Champions League
+066,06.11. 21:00,CL,Roter Stern B. SRB,0:4,Tottenham ENG,2,Fussball - UEFA Champions League
+067,06.11. 21:00,CL,Atalanta BC ITA,1:1,Man. City ENG,X,Fussball - UEFA Champions League
+068,06.11. 23:30,BRA 1,Corinthians SP,3:2,Fortaleza EC CE,1,Fussball - Brasilien Brasilero Serie A
+069,07.11. 01:00,BRA 1,Avai FC SC,1:2,Santos SP,2,Fussball - Brasilien Brasilero Serie A
+070,07.11. 01:30,BRA 1,Vasco Da Gama RJ,1:2,SE Palmeiras SP,2,Fussball - Brasilien Brasilero Serie A
+071,07.11. 01:30,BRA 1,EC Bahia BA,1:1,Chapecoense SC,X,Fussball - Brasilien Brasilero Serie A
+072,07.11. 01:30,BRA 1,Atletico PR,0:0,Cruzeiro EC MG,X,Fussball - Brasilien Brasilero Serie A
+073,07.11. 00:00,BRA 1,Atletico MG,2:0,Goias EC GO,1,Fussball - Brasilien Brasilero Serie A
+074,07.11. 01:30,COL COP,Indep. Medellin,2:1,AD Cali,1,Fussball - Copa Colombia
+075,07.11. 16:15,INTGERC,Slowakei*,2:5,Schweiz,2,Eishockey - Germany Cup
+076,07.11. 16:50,EL,FC Astana KAZ,0:5,AZ Alkmaar NED,2,Fussball - UEFA Europa League
+077,07.11. 17:30,EH TOUR,Russland*,3:4,Finnland,2,Eishockey - Euro Hockey Tour
+078,07.11. 18:30,EH TOUR,Tschechien*,3:1,Schweden,1,Eishockey - Euro Hockey Tour
+079,07.11. 18:55,EL,LASK Linz AUT,4:1,PSV Eindhoven NED,1,Fussball - UEFA Europa League
+080,07.11. 18:55,EL,LASK Linz,4:2,PSV Eindhoven+1,1,Fussball - UEFA Europa League
+081,07.11. 18:55,EL,LASK Linz+1,5:1,PSV Eindhoven,1,Fussball - UEFA Europa League
+082,07.11. 18:55,EL,Rosenborg BK NOR,0:2,Sporting Liss. POR,2,Fussball - UEFA Europa League
+083,07.11. 18:55,EL,Stand. Lüttich BEL,2:1,E. Frankfurt GER,1,Fussball - UEFA Europa League
+084,07.11. 18:55,EL,Standard Lüttich+1,3:1,Eintr. Frankfurt,1,Fussball - UEFA Europa League
+085,07.11. 18:55,EL,Lazio Rom ITA,1:2,Celtic Glasgow SCO,2,Fussball - UEFA Europa League
+086,07.11. 18:55,EL,FC Basel SUI,2:1,Getafe CF ESP,1,Fussball - UEFA Europa League
+087,07.11. 18:55,EL,FC Krasnodar RUS,3:1,Trabzonspor TUR,1,Fussball - UEFA Europa League
+088,07.11. 18:55,EL,F91 Dudelange LUX,2:5,FC Sevilla ESP,2,Fussball - UEFA Europa League
+089,07.11. 18:55,EL,APOEL Nikosia CYP,2:1,Qarabag FK AZE,1,Fussball - UEFA Europa League
+090,07.11. 18:55,EL,FC Lugano SUI,0:0,Malmö FF SWE,X,Fussball - UEFA Europa League
+091,07.11. 18:55,EL,FC Kopenhagen DEN,1:1,Dynamo Kiev UKR,X,Fussball - UEFA Europa League
+092,07.11. 18:55,EL,FC CFR Cluj ROU,1:0,Stade Rennes FRA,1,Fussball - UEFA Europa League
+093,07.11. 19:00,HB GER,Rhein-Neckar L.,26:25,THW Kiel,1,Handball - Deutsche Handball Bundesliga
+094,07.11. 19:00,HB GER,Bergischer HC,25:24,HC Erlangen,1,Handball - Deutsche Handball Bundesliga
+095,07.11. 19:00,HB GER,Balingen/Weilst.,25:25,TVB Stuttgart,X,Handball - Deutsche Handball Bundesliga
+096,07.11. 19:00,BB EL,Roter Stern SRB,60:75,Real Madrid BC ESP,2,Basketball - Euroleague
+097,07.11. 19:30,BB AUT,UBSC Graz,67:87,WBC Wels,2,Basketball - Österreich Basketball Superliga
+098,07.11. 20:00,BB EL,Olympiakos P. GRE,67:86,Efes Istanbul TUR,2,Basketball - Euroleague
+099,07.11. 20:05,BB EL,M.Tel Aviv ISR,104:78,Alba Berlin GER,1,Basketball - Euroleague
+100,07.11. 20:45,BB EL,O.Milano ITA,81:74,Baskonia G. ESP,1,Basketball - Euroleague
+101,07.11. 21:00,EL,Wolfsberg AUT*,0:3,Ist.Basaks TUR,2,Fussball - UEFA Europa League
+102,07.11. 21:00,EL,Wolfsberger AC,0:4,Istanb.Basakse+1,2,Fussball - UEFA Europa League
+103,07.11. 21:00,EL,M'gladbach GER,2:1,AS Roma ITA,1,Fussball - UEFA Europa League
+104,07.11. 21:00,EL,Mönchengladbach,2:2,AS Roma+1,X,Fussball - UEFA Europa League
+105,07.11. 21:00,EL,VfL Wolfsburg GER,1:3,KAA Gent BEL,2,Fussball - UEFA Europa League
+106,07.11. 21:00,EL,VfL Wolfsburg,1:4,KAA Gent+1,2,Fussball - UEFA Europa League
+107,07.11. 21:00,EL,Wolverhampton ENG,1:0,Slov. Bratisl. SVK,1,Fussball - UEFA Europa League
+108,07.11. 21:00,EL,Sporting Braga POR,3:1,Besiktas Ist. TUR,1,Fussball - UEFA Europa League
+109,07.11. 21:00,EL,Manchester U. ENG,3:0,FK Partizan SRB,1,Fussball - UEFA Europa League
+110,07.11. 21:00,EL,Gl.Rangers SCO,2:0,FC Porto POR,1,Fussball - UEFA Europa League
+111,07.11. 21:00,EL,Feyenoord NED,1:1,YB Bern SUI,X,Fussball - UEFA Europa League
+112,07.11. 21:00,EL,Espanyol Barc. ESP,6:0,Ludog. Razgrad BUL,1,Fussball - UEFA Europa League
+113,07.11. 21:00,EL,Ferencvaros HUN,0:0,ZSKA Moskau RUS,X,Fussball - UEFA Europa League
+114,07.11. 21:00,EL,FC Oleksandria UKR,2:2,St. Etienne FRA,X,Fussball - UEFA Europa League
+115,07.11. 23:30,BRA 1,Ceara SC CE,2:0,Internacional RS,1,Fussball - Brasilien Brasilero Serie A
+116,07.11. 23:30,BRA 1,Sao Paulo SP,0:2,Fluminense RJ,2,Fussball - Brasilien Brasilero Serie A
+117,08.11. 00:00,BRA 1,Botafogo RJ,0:1,CR Flamengo RJ,2,Fussball - Brasilien Brasilero Serie A
+118,08.11. 01:00,BRA 1,Gremio RS,2:1,CSA AL,1,Fussball - Brasilien Brasilero Serie A
+119,08.11. 01:30,INT FSD,USA Damen,3:2,Schweden Damen,1,"Fussball - Internationale Freundschaftsspiele, Damen"
+120,08.11. 02:20,NFL,Oakland Raiders,26:24,LA Chargers,1,Football - USA NFL

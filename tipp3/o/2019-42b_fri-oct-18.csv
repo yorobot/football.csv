@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,18.10. 18:30,GER 2,Erzgebirge Aue,4:3,1. FC Nürnberg,1,Fussball - Deutschland 2. Bundesliga
+002,18.10. 18:30,GER 2,Greuther Fürth,2:0,Dynamo Dresden,1,Fussball - Deutschland 2. Bundesliga
+003,18.10. 19:00,GER 3,MSV Duisburg,3:1,FC Kaiserslautern,1,Fussball - Deutschland 3. Liga
+004,18.10. 19:00,AUT RLO,Rapid Wien Am.,1:1,SC Team Wr. Linien,X,Fussball - Österreich Regionalliga Ost
+005,18.10. 19:00,AUT RLO,SC Neusiedl,2:0,SV Stripfing,1,Fussball - Österreich Regionalliga Ost
+006,18.10. 19:00,AUT RLM,Bad Gleichenberg,3:1,SC Kalsdorf,1,Fussball - Österreich Regionalliga Mitte
+007,18.10. 19:00,AUT RLM,Union Vöcklamarkt,2:2,FC Gleisdorf,X,Fussball - Österreich Regionalliga Mitte
+008,18.10. 19:00,DEN 1,Aalborg BK,1:0,Odense BK,1,Fussball - Dänemark Superligaen
+009,18.10. 19:00,HB AUT,Alpla HC Hard,26:27,Handball Tirol,2,Handball - Österreich HLA
+010,18.10. 19:00,HB AUT,HC Linz AG,26:31,Bregenz Handball,2,Handball - Österreich HLA
+011,18.10. 19:10,AUT 2,BW Linz,2:3,Floridsdorfer AC,2,Fussball - Österreich Zweite Liga
+012,18.10. 19:10,AUT 2,SK Vorwärts Steyr,3:1,Austria Lustenau,1,Fussball - Österreich Zweite Liga
+013,18.10. 19:10,AUT 2,Austria Klagenfurt,2:0,SV Horn,1,Fussball - Österreich Zweite Liga
+014,18.10. 19:10,AUT 2,SKU Amstetten,1:1,SV Lafnitz,X,Fussball - Österreich Zweite Liga
+015,18.10. 19:10,AUT 2,Young Violets A.W.,1:2,Wacker Innsbruck,2,Fussball - Österreich Zweite Liga
+016,18.10. 19:15,EH AUT,KAC Klagenfurt,1:0,Villacher SV,1,Eishockey - Österreich Erste Bank-EHL
+017,18.10. 19:15,EH AUT,EC RB Salzburg,2:3,Fehervar,2,Eishockey - Österreich Erste Bank-EHL
+018,18.10. 19:15,EH AUT,Vienna Capitals,6:1,HC Innsbruck,1,Eishockey - Österreich Erste Bank-EHL
+019,18.10. 19:15,EH AUT,EC Graz 99ers,4:0,Black Wings Linz,1,Eishockey - Österreich Erste Bank-EHL
+020,18.10. 19:30,AUT RLO,FCM Traiskirchen,2:4,SV Mattersburg Am.,2,Fussball - Österreich Regionalliga Ost
+021,18.10. 19:30,AUT RLO,ASV Draßburg,0:0,ASK Ebreichsdorf,X,Fussball - Österreich Regionalliga Ost
+022,18.10. 19:30,AUT RLO,Mannsdorf-Großenz.,1:0,Bruck/Leitha,1,Fussball - Österreich Regionalliga Ost
+023,18.10. 19:30,TUR 1,Galatasaray,3:2,Sivasspor,1,Fussball - Türkei Süper Lig
+024,18.10. 19:45,EH AUT,HC Bozen Foxes,9:0,HC Znojmo,1,Eishockey - Österreich Erste Bank-EHL
+025,18.10. 20:30,GER BL,Eintr. Frankfurt,3:0,Bayer Leverkusen,1,Fussball - Deutschland Bundesliga
+026,18.10. 20:30,BEL 1,RE Mouscron,0:1,Club Brügge,2,Fussball - Belgien Jupiler Pro League
+027,18.10. 20:45,FRA 1,OGC Nizza,1:4,Paris SG,2,Fussball - Frankreich Ligue 1
+028,18.10. 20:45,ENG CS,Cardiff City,1:1,Sheffield Wednes.,X,Fussball - England Championship
+029,18.10. 21:00,ESP 1,Granada CF,1:0,CA Osasuna,1,Fussball - Spanien Primera Division
+030,18.10. 21:00,ESP 2,Cadiz CF,2:0,Las Palmas UD,1,Fussball - Spanien Segunda Division
+031,19.10. 13:00,GER 2,FC St. Pauli,0:1,SV Darmstadt 98,2,Fussball - Deutschland 2. Bundesliga
+032,19.10. 13:00,GER 2,Jahn Regensburg,1:0,SV Sandhausen,1,Fussball - Deutschland 2. Bundesliga
+033,19.10. 13:00,GER 2,Wehen Wiesbaden,0:0,FC Heidenheim,X,Fussball - Deutschland 2. Bundesliga
+034,19.10. 13:00,ESP 1,SD Eibar,0:3,FC Barcelona,2,Fussball - Spanien Primera Division
+035,19.10. 13:30,ENG PL,FC Everton,2:0,West Ham United,1,Fussball - England Premier League
+036,19.10. 14:30,AUT 2,FC Liefering,0:1,SV Ried,2,Fussball - Österreich Zweite Liga
+037,19.10. 15:00,ITA A,Lazio Rom,3:3,Atalanta Bergamo,X,Fussball - Italien Serie A
+038,19.10. 15:30,GER BL,RB Leipzig,1:1,VfL Wolfsburg,X,Fussball - Deutschland Bundesliga
+039,19.10. 15:30,GER BL,Werder Bremen,1:1,Hertha BSC,X,Fussball - Deutschland Bundesliga
+040,19.10. 15:30,GER BL,Fortuna Düsseldorf,1:0,FSV Mainz 05,1,Fussball - Deutschland Bundesliga
+041,19.10. 15:30,GER BL,FC Augsburg,2:2,FC Bayern München,X,Fussball - Deutschland Bundesliga
+042,19.10. 15:30,GER BL,FC Union Berlin,2:0,SC Freiburg,1,Fussball - Deutschland Bundesliga
+043,19.10. 16:00,AUT 2,FC Dornbirn,2:2,FC Juniors OÖ,X,Fussball - Österreich Zweite Liga
+044,19.10. 16:00,ENG PL,Aston Villa,2:1,Brighton & Hove,1,Fussball - England Premier League
+045,19.10. 16:00,ENG PL,AFC Bournemouth,0:0,Norwich City,X,Fussball - England Premier League
+046,19.10. 16:00,ENG PL,FC Chelsea,1:0,Newcastle United,1,Fussball - England Premier League
+047,19.10. 16:00,ENG PL,Leicester City,2:1,FC Burnley,1,Fussball - England Premier League
+048,19.10. 16:00,ENG PL,Tottenham,1:1,FC Watford,X,Fussball - England Premier League
+049,19.10. 16:00,ENG PL,Wolverhampton,1:1,FC Southampton,X,Fussball - England Premier League
+050,19.10. 16:00,ESP 1,Atletico Madrid,1:1,FC Valencia,X,Fussball - Spanien Primera Division
+051,19.10. 17:00,AUT BL,SK Sturm Graz,1:1,Red Bull Salzburg,X,Fussball - Österreich Bundesliga
+052,19.10. 17:00,AUT BL,SK Sturm Graz+1,2:1,Red Bull Salzburg,1,Fussball - Österreich Bundesliga
+053,19.10. 17:00,AUT BL,LASK Linz,7:2,SV Mattersburg,1,Fussball - Österreich Bundesliga
+054,19.10. 17:00,AUT BL,SCR Altach,1:4,Admira Wacker,2,Fussball - Österreich Bundesliga
+055,19.10. 17:30,FRA 1,Olympique Lyon,0:0,Dijon Football,X,Fussball - Frankreich Ligue 1
+056,19.10. 18:00,ITA A,SSC Napoli,2:0,Hellas Verona,1,Fussball - Italien Serie A
+057,19.10. 18:00,RUS PL,Zenit St.Petersb.,6:1,FC Rostov,1,Fussball - Russland Premier League
+058,19.10. 18:30,GER BL,Bor. Dortmund,1:0,Mönchengladbach,1,Fussball - Deutschland Bundesliga
+059,19.10. 18:30,ENG PL,Crystal Palace,0:2,Manchester City,2,Fussball - England Premier League
+060,19.10. 18:30,ESP 1,Getafe CF,2:0,CD Leganes,1,Fussball - Spanien Primera Division
+061,19.10. 19:00,SUI SL,FC Basel,3:1,FC Thun,1,Fussball - Schweiz Axpo Super League
+062,19.10. 19:00,SUI SL,Young Boys Bern,4:1,Xamax Neuchatel,1,Fussball - Schweiz Axpo Super League
+063,19.10. 20:00,FRA 1,Stade de Reims,1:0,HSC Montpellier,1,Fussball - Frankreich Ligue 1
+064,19.10. 20:00,FRA 1,SCO Angers,0:1,Stade Brest,2,Fussball - Frankreich Ligue 1
+065,19.10. 20:00,FRA 1,FC Toulouse,2:1,Lille OSC,1,Fussball - Frankreich Ligue 1
+066,19.10. 20:45,ITA A,Juventus Turin,2:1,Bologna FC,1,Fussball - Italien Serie A
+067,19.10. 20:45,NL 1,FC Utrecht,3:0,PSV Eindhoven,1,Fussball - Niederlande Eredivisie
+068,19.10. 21:00,ESP 1,RCD Mallorca,1:0,Real Madrid,1,Fussball - Spanien Primera Division
+069,20.10. 10:30,AUT 2,Kapfenberger SV,2:0,Grazer AK,1,Fussball - Österreich Zweite Liga
+070,20.10. 12:30,ITA A,US Sassuolo,3:4,Inter Mailand,2,Fussball - Italien Serie A
+071,20.10. 13:15,SCO PS,Heart of Midl.,1:1,Glasgow Rangers,X,Fussball - Schottland Premiership
+072,20.10. 13:30,GER 2,VfB Stuttgart,0:1,Holstein Kiel,2,Fussball - Deutschland 2. Bundesliga
+073,20.10. 13:30,GER 2,Hannover 96,0:0,VfL Osnabrück,X,Fussball - Deutschland 2. Bundesliga
+074,20.10. 13:30,GER 2,VfL Bochum,3:3,Karlsruher SC,X,Fussball - Deutschland 2. Bundesliga
+075,20.10. 14:00,ESP 1,Real Sociedad,3:1,Betis Sevilla,1,Fussball - Spanien Primera Division
+076,20.10. 14:30,AUT BL,SKN St. Pölten,2:2,FK Austria Wien,X,Fussball - Österreich Bundesliga
+077,20.10. 14:30,AUT BL,WSG Swarovs. Tirol,0:1,TSV Hartberg,2,Fussball - Österreich Bundesliga
+078,20.10. 15:00,ITA A,Cagliari Calcio,2:0,Spal Ferrara,1,Fussball - Italien Serie A
+079,20.10. 15:00,ITA A,Sampdoria Genua,0:0,AS Roma,X,Fussball - Italien Serie A
+080,20.10. 15:00,ITA A,Udinese Calcio,1:0,FC Torino,1,Fussball - Italien Serie A
+081,20.10. 15:00,FRA 1,Bordeaux,0:1,AS Saint Etienne,2,Fussball - Frankreich Ligue 1
+082,20.10. 15:30,GER BL,1. FC Köln,3:0,SC Paderborn,1,Fussball - Deutschland Bundesliga
+083,20.10. 16:00,ESP 1,Espanyol Barcelona,0:1,Villarreal CF,2,Fussball - Spanien Primera Division
+084,20.10. 16:45,NL 1,Feyenoord,1:1,Heracles Almelo,X,Fussball - Niederlande Eredivisie
+085,20.10. 17:00,AUT BL,SK Rapid Wien,1:1,Wolfsberger AC,X,Fussball - Österreich Bundesliga
+086,20.10. 17:00,FRA 1,AS Monaco,3:2,Stade Rennes,1,Fussball - Frankreich Ligue 1
+087,20.10. 17:30,ENG PL,Manchester United,1:1,FC Liverpool,X,Fussball - England Premier League
+088,20.10. 17:30,EH AUT,Fehervar,3:1,Vienna Capitals,1,Eishockey - Österreich Erste Bank-EHL
+089,20.10. 17:30,EH AUT,HC Znojmo,2:4,EC RB Salzburg,2,Eishockey - Österreich Erste Bank-EHL
+090,20.10. 17:30,BB AUT,Swans Gmunden,59:64,Klosterneuburg,2,Basketball - Österreich Basketball Superliga
+091,20.10. 18:00,GER BL,TSG Hoffenheim,2:0,FC Schalke 04,1,Fussball - Deutschland Bundesliga
+092,20.10. 18:00,ITA A,FC Parma,5:1,FC Genua,1,Fussball - Italien Serie A
+093,20.10. 18:00,TUR 1,Denizlispor,1:2,Fenerbahce,2,Fussball - Türkei Süper Lig
+094,20.10. 18:00,EH AUT,Black Wings Linz,2:2,KAC Klagenfurt,X,Eishockey - Österreich Erste Bank-EHL
+095,20.10. 18:30,ESP 1,Athletic Bilbao,1:1,Real Valladolid,X,Fussball - Spanien Primera Division
+096,20.10. 20:45,ITA A,AC Milan,2:2,US Lecce,X,Fussball - Italien Serie A
+097,20.10. 21:00,ESP 1,FC Sevilla,1:0,Levante UD,1,Fussball - Spanien Primera Division
+098,20.10. 21:00,FRA 1,Olymp. Marseille,2:0,Racing Strasbourg,1,Fussball - Frankreich Ligue 1
+099,20.10. 22:25,NFL,Seattle Seahawks,16:30,Baltimore Ravens,2,Football - USA NFL
+100,21.10. 17:00,ISR 1,Hapoel Raanana FC,0:0,Hapoel Haifa,X,Fussball - Israel Winner League
+101,21.10. 18:00,POL 1,Rakow Czestochowa,1:0,Slask Wroclaw,1,Fussball - Polen Orange Ekstraklasa
+102,21.10. 19:00,GER 3,SV Meppen,1:1,FC Viktoria Köln,X,Fussball - Deutschland 3. Liga
+103,21.10. 19:00,TUR 1,Konyaspor,0:2,Yeni Malatyaspor,2,Fussball - Türkei Süper Lig
+104,21.10. 19:00,DEN 1,FC Midtjylland,2:1,Randers FC,1,Fussball - Dänemark Superligaen
+105,21.10. 19:00,ISR 1,FC Ashdod,0:1,Maccabi Tel Aviv,2,Fussball - Israel Winner League
+106,21.10. 19:00,BUL 1,Beroe Stara Zag.,1:2,PFC Slavia Sofia,2,Fussball - Bulgarien Premier League
+107,21.10. 19:00,NOR 1,Bodö Glimt,0:0,Mjöndalen,X,Fussball - Norwegen Tippeligaen
+108,21.10. 19:00,SWE 1,IFK Göteborg,0:1,Djurgardens IF,2,Fussball - Schweden Allsvenskan
+109,21.10. 19:00,SWE 1,Örebro SK,2:2,IF Elfsborg,X,Fussball - Schweden Allsvenskan
+110,21.10. 19:15,ISR 1,Maccabi Haifa,1:1,Bnei Yehuda,X,Fussball - Israel Winner League
+111,21.10. 20:00,NL 2,NAC Breda,1:2,De Graafschap,2,Fussball - Niederlande Jupiler League
+112,21.10. 20:30,GER 2,Arminia Bielefeld,1:1,Hamburger SV,X,Fussball - Deutschland 2. Bundesliga
+113,21.10. 21:00,ITA A,Brescia Calcio,0:0,AC Fiorentina,X,Fussball - Italien Serie A
+114,21.10. 20:45,ITA C1B,FC Modena,1:1,US Fermana,X,"Fussball - Italien Lega Pro Prima Divisione, Girone B"
+115,21.10. 20:45,FRA 2,RC Lens,0:0,AJ Auxerre,X,Fussball - Frankreich Ligue 2
+116,21.10. 21:00,ENG PL,Sheffield United,1:0,FC Arsenal,1,Fussball - England Premier League
+117,21.10. 21:00,ITA B,Frosinone Calcio,1:0,AS Livorno,1,Fussball - Italien Serie B
+118,22.10. 01:00,BRA 1,Botafogo RJ,2:1,CSA AL,1,Fussball - Brasilien Brasilero Serie A
+119,22.10. 00:30,BRA 1,EC Bahia BA,1:2,Ceara SC CE,2,Fussball - Brasilien Brasilero Serie A
+120,22.10. 02:15,NFL,New York Jets,0:33,N.England Patriots,2,Football - USA NFL

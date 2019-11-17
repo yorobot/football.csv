@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,22.10. 18:11,TEN ATP,"Thiem, Dominic",2:0,"Tsonga, J. W.",1,Tennis - Tennis ATP
+002,22.10. 17:00,SLO CUP,NK Celje,1:1,NK Radomlje,X,Fussball - Slowenien Cup
+003,22.10. 18:15,AFC CL,Al-Hilal Riyad KSA,2:4,Al-Sadd SC QAT,2,Fussball - AFC Champions League
+004,22.10. 18:55,CL,Shakhtar Don. UKR,2:2,Dinamo Zagreb CRO,X,Fussball - UEFA Champions League
+005,22.10. 18:55,CL,Atl. Madrid ESP,1:0,Leverkusen GER,1,Fussball - UEFA Champions League
+006,22.10. 18:55,CL,Atletico Madrid,1:1,Bay. Leverkusen+1,X,Fussball - UEFA Champions League
+007,22.10. 19:00,SWE 2,Örgryte Göteborg,1:1,Degerfors IF,X,Fussball - Schweden Superettan
+008,22.10. 19:00,AUT RLO,Rapid Wien Am.,2:3,Mannsdorf-Großenz.,2,Fussball - Österreich Regionalliga Ost
+009,22.10. 19:00,AUT RLM,SC Weiz,1:1,WAC Amateure,X,Fussball - Österreich Regionalliga Mitte
+010,22.10. 19:00,AUT RLM,WSC Hertha Wels,5:2,Sturm Graz Amat.,1,Fussball - Österreich Regionalliga Mitte
+011,22.10. 19:15,EH AUT,Black Wings Linz,5:0,EC Graz 99ers,1,Eishockey - Österreich Erste Bank-EHL
+012,22.10. 20:45,IRL 1,FC Derry City,1:3,St Patrick's,2,Fussball - Irland Premier Division
+013,22.10. 20:45,ENG CS,Birmingham City,1:0,Blackburn Rovers,1,Fussball - England Championship
+014,22.10. 20:45,ENG CS,FC Millwall,2:2,Cardiff City,X,Fussball - England Championship
+015,22.10. 20:45,ENG CS,Queens Park R.,2:2,FC Reading,X,Fussball - England Championship
+016,22.10. 20:45,ENG CS,Sheffield Wednes.,1:0,Stoke City,1,Fussball - England Championship
+017,22.10. 20:45,ENG CS,Swansea City,0:3,FC Brentford,2,Fussball - England Championship
+018,22.10. 20:45,ENG CS,Preston North End,1:1,Leeds United,X,Fussball - England Championship
+019,22.10. 20:45,ENG 1,FC Blackpool,1:1,Wycombe Wanderers,X,Fussball - England League One
+020,22.10. 20:45,ENG 1,Bristol Rovers,0:2,Bolton Wanderers,2,Fussball - England League One
+021,22.10. 20:45,ENG 1,Burton Albion,1:0,AFC Wimbledon,1,Fussball - England League One
+022,22.10. 20:45,ENG 1,FC Portsmouth,1:0,Lincoln City,1,Fussball - England League One
+023,22.10. 20:45,ENG 1,FC Rochdale,2:0,MK Dons,1,Fussball - England League One
+024,22.10. 20:45,ENG 1,Shrewsbury Town,1:1,FC Gillingham,X,Fussball - England League One
+025,22.10. 20:45,ENG 1,Southend United,1:7,Doncaster Rovers,2,Fussball - England League One
+026,22.10. 20:45,ENG 1,AFC Sunderland,5:0,Tranmere Rovers,1,Fussball - England League One
+027,22.10. 21:00,CL,Galatasaray TUR,0:1,Real Madrid ESP,2,Fussball - UEFA Champions League
+028,22.10. 21:00,CL,Man. City ENG,5:1,Atalanta BC ITA,1,Fussball - UEFA Champions League
+029,22.10. 21:00,CL,Juventus Turin ITA,2:1,Lok Moskau RUS,1,Fussball - UEFA Champions League
+030,22.10. 21:00,CL,Club Brügge BEL,0:5,Paris SG FRA,2,Fussball - UEFA Champions League
+031,22.10. 21:00,CL,Tottenham ENG,5:0,Roter Stern B. SRB,1,Fussball - UEFA Champions League
+032,22.10. 21:00,CL,Olympiakos P. GRE,2:3,Bayern München GER,2,Fussball - UEFA Champions League
+033,22.10. 21:00,CL,Olympiakos Pir.+1,3:3,FC Bayern München,X,Fussball - UEFA Champions League
+034,22.10. 21:00,ENG CS,West Bromwich,2:2,FC Barnsley,X,Fussball - England Championship
+035,23.10. 02:30,COPA L,Boca Juniors ARG,1:0,CA River Plate ARG,1,Fussball - Copa Libertadores
+036,23.10. 10:30,AUS CUP,Adelaide United FC,4:0,Melbourne City FC,1,"Fussball - Australien, FFA Cup"
+037,23.10. 12:00,JPN CUP,Vissel Kobe,1:0,Oita Trinita,1,Fussball - Japan Emperor Cup
+038,23.10. 12:00,JPN CUP,V-Varen Nagasaki,2:1,Ventforet Kofu,1,Fussball - Japan Emperor Cup
+039,23.10. 12:00,JPN CUP,Sagan Tosu,0:1,Shimizu S-Pulse,2,Fussball - Japan Emperor Cup
+040,23.10. 12:00,JPN CUP,Kashima Antlers,1:0,Honda FC,1,Fussball - Japan Emperor Cup
+041,23.10. 14:00,AFC CL,Guangzhou Ev. CHN,0:1,Urawa RD JPN,2,Fussball - AFC Champions League
+042,23.10. 14:00,RUS 2,FC Yenisey,1:1,FC Avangard Kursk,X,Fussball - Russland 1. Division
+043,23.10. 17:00,RUS 2,FC Neftekhimik,2:2,Energ. Khabarovsk,X,Fussball - Russland 1. Division
+044,23.10. 17:00,RUS 2,FC Rotor Wolgograd,2:0,Luch Wladivostok,1,Fussball - Russland 1. Division
+045,23.10. 17:30,RUS 2,Shinnik Yaroslavl,0:2,FK Baltika,2,Fussball - Russland 1. Division
+046,23.10. 17:30,EH FIN,Lukko Rauma,1:3,Kookoo Kouvola,2,Eishockey - Finnland SM-Liiga
+047,23.10. 17:30,EH FIN,KalPa Kuopio,1:1,HPK Hämeenlinna,X,Eishockey - Finnland SM-Liiga
+048,23.10. 17:30,EH FIN,SaiPa Lappeenr.,6:4,HIFK Helsinki,1,Eishockey - Finnland SM-Liiga
+049,23.10. 17:30,EH FIN,Kärpät Oulu,5:3,Pelicans Lahti,1,Eishockey - Finnland SM-Liiga
+050,23.10. 17:30,EH FIN,Tappara Tampere,2:2,Vaasan Sport,X,Eishockey - Finnland SM-Liiga
+051,23.10. 17:30,EH FIN,Jukurit Mikkeli,2:5,JYP Jyväskylä,2,Eishockey - Finnland SM-Liiga
+052,23.10. 18:30,ITA C1A,Pontedera,2:1,Pro Patria,1,"Fussball - Italien Lega Pro Prima Divisione, Girone A"
+053,23.10. 18:30,ITA C1A,Carrarese Calcio,2:0,Como Calcio,1,"Fussball - Italien Lega Pro Prima Divisione, Girone A"
+054,23.10. 18:30,ITA C1A,AC Renate,1:1,Novara Calcio,X,"Fussball - Italien Lega Pro Prima Divisione, Girone A"
+055,23.10. 18:30,ITA C1B,AC Cesena,0:1,FC Südtirol,2,"Fussball - Italien Lega Pro Prima Divisione, Girone B"
+056,23.10. 18:30,ITA C1C,Ternana Calcio,0:1,AS Avellino,2,"Fussball - Italien, Lega Pro Prima Divisione, Girone C"
+057,23.10. 18:55,CL,RB Leipzig GER,2:1,Zenit St.Peter RUS,1,Fussball - UEFA Champions League
+058,23.10. 18:55,CL,Ajax Amsterd. NED,0:1,FC Chelsea ENG,2,Fussball - UEFA Champions League
+059,23.10. 20:45,ENG CS,Bristol City,2:1,Charlton Athletic,1,Fussball - England Championship
+060,23.10. 20:45,ENG CS,Derby County,1:0,Wigan Athletic,1,Fussball - England Championship
+061,23.10. 20:45,ENG CS,FC Fulham,3:2,Luton Town,1,Fussball - England Championship
+062,23.10. 20:45,ENG CS,Huddersfield Town,0:0,FC Middlesbrough,X,Fussball - England Championship
+063,23.10. 20:45,ENG CS,Nottingham Forest,1:2,Hull City,2,Fussball - England Championship
+064,23.10. 20:45,ENG 1,Ipswich Town,0:2,Rotherham United,2,Fussball - England League One
+065,23.10. 20:45,ENG 1,Peterborough Utd.,4:0,Accrington Stanley,1,Fussball - England League One
+066,23.10. 20:45,ENG 1,Coventry City,2:1,Fleetwood Town,1,Fussball - England League One
+067,23.10. 20:45,ITA C1A,Pro Vercelli,1:1,AC Arezzo,X,"Fussball - Italien Lega Pro Prima Divisione, Girone A"
+068,23.10. 20:45,ITA C1B,AC Feralpisalo,0:0,Piacenza Calcio,X,"Fussball - Italien Lega Pro Prima Divisione, Girone B"
+069,23.10. 20:45,ITA C1B,Padua Calcio,2:0,Sambenedettese,1,"Fussball - Italien Lega Pro Prima Divisione, Girone B"
+070,23.10. 20:45,ITA C1C,AS Bari,2:0,US Catanzaro,1,"Fussball - Italien, Lega Pro Prima Divisione, Girone C"
+071,23.10. 21:00,CL,RB Salzburg AUT,2:3,SSC Napoli ITA,2,Fussball - UEFA Champions League
+072,23.10. 21:00,CL,Red Bull Salzburg,2:4,SSC Napoli+1,2,Fussball - UEFA Champions League
+073,23.10. 21:00,CL,RB Salzburg+1,3:3,SSC Napoli,X,Fussball - UEFA Champions League
+074,23.10. 21:00,CL,KRC Genk BEL,1:4,FC Liverpool ENG,2,Fussball - UEFA Champions League
+075,23.10. 21:00,CL,KRC Genk+1,2:4,FC Liverpool,2,Fussball - UEFA Champions League
+076,23.10. 21:00,CL,Inter Mailand ITA,2:0,Bor. Dortmund GER,1,Fussball - UEFA Champions League
+077,23.10. 21:00,CL,Inter Mailand,2:1,Bor. Dortmund+1,1,Fussball - UEFA Champions League
+078,23.10. 21:00,CL,Lille OSC FRA,1:1,FC Valencia ESP,X,Fussball - UEFA Champions League
+079,23.10. 21:00,CL,Slavia Prag CZE,1:2,FC Barcelona ESP,2,Fussball - UEFA Champions League
+080,23.10. 21:00,CL,Benfica Lissab POR,2:1,Ol. Lyon FRA,1,Fussball - UEFA Champions League
+081,24.10. 01:00,USA MLS,New York City FC,1:2,FC Toronto,2,Fussball - USA Major League Soccer
+082,24.10. 02:30,COPA L,CR Flamengo RJ BRA,5:0,Gremio RS BRA,1,Fussball - Copa Libertadores
+083,24.10. 04:00,USA MLS,Seattle Sounders,2:0,Real Salt Lake,1,Fussball - USA Major League Soccer
+084,24.10. 17:00,SLO CUP,NK Domzale,3:2,NS Mura,1,Fussball - Slowenien Cup
+085,24.10. 17:15,DEN 2,Naestved BK,1:3,Viborg FF,2,Fussball - Dänemark 1. Division
+086,24.10. 18:55,EL,AS Roma ITA,1:1,M'gladbach GER,X,Fussball - UEFA Europa League
+087,24.10. 18:55,EL,AS Roma,1:2,Mönchengladbach+1,2,Fussball - UEFA Europa League
+088,24.10. 18:55,EL,Besiktas Ist. TUR,1:2,Sporting Braga POR,2,Fussball - UEFA Europa League
+089,24.10. 18:55,EL,FK Partizan SRB,0:1,Manchester U. ENG,2,Fussball - UEFA Europa League
+090,24.10. 18:55,EL,FC Porto POR,1:1,Gl.Rangers SCO,X,Fussball - UEFA Europa League
+091,24.10. 18:55,EL,Ludog. Razgrad BUL,0:1,Espanyol Barc. ESP,2,Fussball - UEFA Europa League
+092,24.10. 18:55,EL,St. Etienne FRA,1:1,FC Oleksandria UKR,X,Fussball - UEFA Europa League
+093,24.10. 18:55,EL,Qarabag FK AZE,2:2,APOEL Nikosia CYP,X,Fussball - UEFA Europa League
+094,24.10. 18:55,EL,Ist.Basaks TUR,1:0,Wolfsberger AC AUT,1,Fussball - UEFA Europa League
+095,24.10. 18:55,EL,Istanbul Basakseh.,1:1,Wolfsberger AC+1,X,Fussball - UEFA Europa League
+096,24.10. 18:55,EL,Slov. Bratisl. SVK,1:2,Wolverhampton ENG,2,Fussball - UEFA Europa League
+097,24.10. 18:55,EL,AZ Alkmaar NED,6:0,FC Astana KAZ,1,Fussball - UEFA Europa League
+098,24.10. 18:55,EL,YB Bern SUI,2:0,Feyenoord NED,1,Fussball - UEFA Europa League
+099,24.10. 18:55,EL,ZSKA Moskau RUS,0:1,Ferencvaros HUN,2,Fussball - UEFA Europa League
+100,24.10. 18:55,EL,KAA Gent BEL,2:2,VfL Wolfsburg GER,X,Fussball - UEFA Europa League
+101,24.10. 19:00,BB EL,Zenit Petersb. RUS,79:89,Panathinaikos GRE,2,Basketball - Euroleague
+102,24.10. 19:15,BB EL,Efes Istanbul TUR,76:60,Real Madrid BC ESP,1,Basketball - Euroleague
+103,24.10. 19:30,DEN 2,FC Fredericia,2:2,HB Köge,X,Fussball - Dänemark 1. Division
+104,24.10. 20:05,BB EL,M.Tel Aviv ISR,76:63,Valencia Bask. ESP,1,Basketball - Euroleague
+105,24.10. 20:30,BB EL,Bayern München GER,74:87,Khimki Moskau RUS,2,Basketball - Euroleague
+106,24.10. 21:00,EL,FC Sevilla,3:3,F91 Dudelange+3,X,Fussball - UEFA Europa League
+107,24.10. 21:00,EL,Malmö FF SWE,2:1,FC Lugano SUI,1,Fussball - UEFA Europa League
+108,24.10. 21:00,EL,Sporting Liss. POR,1:0,Rosenborg BK NOR,1,Fussball - UEFA Europa League
+109,24.10. 21:00,EL,PSV Eindhoven NED,0:0,LASK Linz AUT,X,Fussball - UEFA Europa League
+110,24.10. 21:00,EL,PSV Eindhoven,0:1,LASK Linz+1,2,Fussball - UEFA Europa League
+111,24.10. 21:00,EL,Celtic Glasgow SCO,2:1,Lazio Rom ITA,1,Fussball - UEFA Europa League
+112,24.10. 21:00,EL,FC Arsenal ENG,3:2,Vit. Guimaraes POR,1,Fussball - UEFA Europa League
+113,24.10. 21:00,EL,Dynamo Kiev UKR,1:1,FC Kopenhagen DEN,X,Fussball - UEFA Europa League
+114,24.10. 21:00,EL,Getafe CF ESP,0:1,FC Basel SUI,2,Fussball - UEFA Europa League
+115,24.10. 21:00,EL,Trabzonspor TUR,0:2,FC Krasnodar RUS,2,Fussball - UEFA Europa League
+116,24.10. 21:00,EL,Stade Rennes FRA,0:1,FC CFR Cluj ROU,2,Fussball - UEFA Europa League
+117,24.10. 21:00,EL,E. Frankfurt GER,2:1,Stand. Lüttich BEL,1,Fussball - UEFA Europa League
+118,24.10. 21:00,EL,Eintr. Frankfurt,2:2,Standard Lüttich+1,X,Fussball - UEFA Europa League
+119,25.10. 02:00,USA MLS,Atlanta United FC,2:0,Philadelphia Union,1,Fussball - USA Major League Soccer
+120,25.10. 04:30,USA MLS,Los Angeles FC,5:3,LA Galaxy,1,Fussball - USA Major League Soccer

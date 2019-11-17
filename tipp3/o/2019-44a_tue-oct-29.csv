@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,29.10. 18:00,AUT CUP,SKN St. Pölten,1:0,SV Ried,1,Fussball - Österreich ÖFB Cup
+002,29.10. 18:30,GER CUP,SC Freiburg,1:3,FC Union Berlin,2,Fussball - Deutschland DFB Pokal
+003,29.10. 18:30,GER CUP,MSV Duisburg,0:2,TSG Hoffenheim,2,Fussball - Deutschland DFB Pokal
+004,29.10. 18:30,GER CUP,Hamburger SV,1:1,VfB Stuttgart,X,Fussball - Deutschland DFB Pokal
+005,29.10. 18:30,GER CUP,FC Saarbrücken,3:2,1. FC Köln,1,Fussball - Deutschland DFB Pokal
+006,29.10. 18:30,NL CUP,Vitesse Arnheim,2:0,De Graafschap,1,Fussball - Niederlande KNVB Cup
+007,29.10. 18:45,FRA LC,Olympique Nimes,3:0,RC Lens,1,Fussball - Frankreich Coupe de la Ligue
+008,29.10. 19:00,AUT CUP,FC Gleisdorf,1:1,WSG Swarovs. Tirol,X,Fussball - Österreich ÖFB Cup
+009,29.10. 19:00,AUT CUP,Union Gurten,2:3,Austria Lustenau,2,Fussball - Österreich ÖFB Cup
+010,29.10. 19:00,AUT CUP,St Anna am Aigen,0:3,SKU Amstetten,2,Fussball - Österreich ÖFB Cup
+011,29.10. 19:00,ESP 1,CD Alaves,1:1,Atletico Madrid,X,Fussball - Spanien Primera Division
+012,29.10. 19:00,ITA A,FC Parma,0:1,Hellas Verona,2,Fussball - Italien Serie A
+013,29.10. 19:30,EH GER,Adler Mannheim,5:7,Iserlohn Roosters,2,Eishockey - Deutschland Deutsche Eishockey Liga
+014,29.10. 20:00,GER CUP,VfL Bochum,1:2,FC Bayern München,2,Fussball - Deutschland DFB Pokal
+015,29.10. 20:30,AUT CUP,Kapfenberger SV,0:2,SK Sturm Graz,2,Fussball - Österreich ÖFB Cup
+016,29.10. 20:30,BEL 1,KV Oostende,0:1,Royal Charleroi SC,2,Fussball - Belgien Jupiler Pro League
+017,29.10. 20:30,BEL 1,KV Kortrijk,1:2,AS Eupen,2,Fussball - Belgien Jupiler Pro League
+018,29.10. 20:30,BEL 1,Cercle Brügge KSV,2:2,RE Mouscron,X,Fussball - Belgien Jupiler Pro League
+019,29.10. 20:45,GER CUP,Bayer Leverkusen,1:0,SC Paderborn,1,Fussball - Deutschland DFB Pokal
+020,29.10. 20:45,GER CUP,Arminia Bielefeld,2:3,FC Schalke 04,2,Fussball - Deutschland DFB Pokal
+021,29.10. 20:45,GER CUP,SV Darmstadt 98,0:1,Karlsruher SC,2,Fussball - Deutschland DFB Pokal
+022,29.10. 20:45,ENG LC,Manchester City,3:1,FC Southampton,1,Fussball - England Liga Cup
+023,29.10. 20:45,ENG LC,FC Everton,2:0,FC Watford,1,Fussball - England Liga Cup
+024,29.10. 20:45,ENG LC,Burton Albion,1:3,Leicester City,2,Fussball - England Liga Cup
+025,29.10. 20:45,ENG LC,Crawley Town,1:3,Colchester United,2,Fussball - England Liga Cup
+026,29.10. 20:45,ENG LC,Oxford United,1:1,AFC Sunderland,X,Fussball - England Liga Cup
+027,29.10. 20:45,NL CUP,NAC Breda,3:2,FC Emmen,1,Fussball - Niederlande KNVB Cup
+028,29.10. 21:00,ITA A,Brescia Calcio,1:2,Inter Mailand,2,Fussball - Italien Serie A
+029,29.10. 21:05,FRA LC,Bordeaux,2:0,Dijon Football,1,Fussball - Frankreich Coupe de la Ligue
+030,29.10. 21:15,ESP 1,FC Barcelona,5:1,Real Valladolid,1,Fussball - Spanien Primera Division
+031,30.10. 18:00,AUT CUP,ASK Ebreichsdorf+5,5:5,Red Bull Salzburg,X,Fussball - Österreich ÖFB Cup
+032,30.10. 18:30,GER CUP,VfL Wolfsburg,1:6,RB Leipzig,2,Fussball - Deutschland DFB Pokal
+033,30.10. 18:30,GER CUP,Werder Bremen,4:1,FC Heidenheim,1,Fussball - Deutschland DFB Pokal
+034,30.10. 18:30,GER CUP,FC Kaiserslautern,2:2,1. FC Nürnberg,X,Fussball - Deutschland DFB Pokal
+035,30.10. 18:30,GER CUP,SC Verl,1:1,Holstein Kiel,X,Fussball - Deutschland DFB Pokal
+036,30.10. 18:30,UKR CUP,FC Dynamo Kiev,1:1,Shakhtar Donetsk,X,Fussball - Ukraine Cup
+037,30.10. 19:00,AUT CUP,Wacker Innsbruck,1:0,Wolfsberger AC,1,Fussball - Österreich ÖFB Cup
+038,30.10. 19:00,ESP 1,FC Valencia,1:1,FC Sevilla,X,Fussball - Spanien Primera Division
+039,30.10. 19:00,ESP 1,Real Sociedad,1:2,Levante UD,2,Fussball - Spanien Primera Division
+040,30.10. 19:00,ITA A,SSC Napoli,2:2,Atalanta Bergamo,X,Fussball - Italien Serie A
+041,30.10. 19:00,SUI CUP,Grasshoppers,0:1,FC Luzern,2,Fussball - Schweiz Cup
+042,30.10. 19:45,POR 1,Maritimo Funchal,1:1,FC Porto,X,Fussball - Portugal Primeira Liga
+043,30.10. 20:00,ESP 1,Athletic Bilbao,3:0,Espanyol Barcelona,1,Fussball - Spanien Primera Division
+044,30.10. 20:15,SUI CUP,Young Boys Bern,4:0,FC Zürich,1,Fussball - Schweiz Cup
+045,30.10. 20:30,AUT CUP,LASK Linz,3:1,SCR Altach,1,Fussball - Österreich ÖFB Cup
+046,30.10. 20:30,ENG LC,FC Liverpool,5:5,FC Arsenal,X,Fussball - England Liga Cup
+047,30.10. 20:30,BEL 1,Standard Lüttich,2:0,Red Star Waasland,1,Fussball - Belgien Jupiler Pro League
+048,30.10. 20:30,BEL 1,SV Zulte Waregem,0:2,Club Brügge,2,Fussball - Belgien Jupiler Pro League
+049,30.10. 20:30,BEL 1,KRC Genk,2:2,FC Royal Antwerpen,X,Fussball - Belgien Jupiler Pro League
+050,30.10. 20:30,BEL 1,YR KV Mechelen,1:2,St. Truiden VV,2,Fussball - Belgien Jupiler Pro League
+051,30.10. 20:45,GER CUP,Bor. Dortmund,2:1,Mönchengladbach,1,Fussball - Deutschland DFB Pokal
+052,30.10. 20:45,GER CUP,FC St. Pauli,1:2,Eintr. Frankfurt,2,Fussball - Deutschland DFB Pokal
+053,30.10. 20:45,GER CUP,Hertha BSC,2:2,Dynamo Dresden,X,Fussball - Deutschland DFB Pokal
+054,30.10. 20:45,GER CUP,Fortuna Düsseldorf,2:1,Erzgebirge Aue,1,Fussball - Deutschland DFB Pokal
+055,30.10. 20:45,ENG LC,Aston Villa,2:1,Wolverhampton,1,Fussball - England Liga Cup
+056,30.10. 21:00,ITA A,Juventus Turin,2:1,FC Genua,1,Fussball - Italien Serie A
+057,30.10. 21:00,ITA A,Lazio Rom,4:0,FC Torino,1,Fussball - Italien Serie A
+058,30.10. 21:00,ITA A,Sampdoria Genua,1:1,US Lecce,X,Fussball - Italien Serie A
+059,30.10. 21:00,ITA A,Cagliari Calcio,3:2,Bologna FC,1,Fussball - Italien Serie A
+060,30.10. 21:00,ITA A,US Sassuolo,1:2,AC Fiorentina,2,Fussball - Italien Serie A
+061,30.10. 21:00,ITA A,Udinese Calcio,0:4,AS Roma,2,Fussball - Italien Serie A
+062,30.10. 21:00,ESP 1,Betis Sevilla,2:1,Celta de Vigo,1,Fussball - Spanien Primera Division
+063,30.10. 21:00,POR 1,Vitoria Guimaraes,5:0,Belenenses L.,1,Fussball - Portugal Primeira Liga
+064,30.10. 21:05,ENG LC,FC Chelsea,1:2,Manchester United,2,Fussball - England Liga Cup
+065,30.10. 21:05,FRA LC,AS Monaco,2:1,Olymp. Marseille,1,Fussball - Frankreich Coupe de la Ligue
+066,30.10. 21:15,ESP 1,Real Madrid,5:0,CD Leganes,1,Fussball - Spanien Primera Division
+067,30.10. 21:15,POR 1,Benfica Lissabon,4:0,Portimonense SC,1,Fussball - Portugal Primeira Liga
+068,31.10. 14:00,EH GER,EHC Wolfsburg,3:5,EHC München,2,Eishockey - Deutschland Deutsche Eishockey Liga
+069,31.10. 17:30,KHL,Spartak Moskau,2:2,Sev. Cherepovets,X,Eishockey - Kontinental Hockey League
+070,31.10. 17:30,KHL,Jokerit Helsinki,1:4,Lok. Jaroslawl,2,Eishockey - Kontinental Hockey League
+071,31.10. 17:30,KHL,Dynamo Moskau,4:1,Salavat Yulaev Ufa,1,Eishockey - Kontinental Hockey League
+072,31.10. 17:30,DEN CUP,FC Kopenhagen,4:1,FC Nordsjaelland,1,Fussball - Dänemark Landspokalturneringen
+073,31.10. 17:30,RUS CUP,FC Spartak Moskau,2:1,FC Rostov,1,Fussball - Russland Russian Cup
+074,31.10. 17:30,RUS CUP,FC Torpedo Moskau,1:0,FK Baltika,1,Fussball - Russland Russian Cup
+075,31.10. 19:00,AUT RLM,Sturm Graz Amat.,5:0,SV Ried II,1,Fussball - Österreich Regionalliga Mitte
+076,31.10. 19:00,AUT RLM,Union Vöcklamarkt,6:2,SC Kalsdorf,1,Fussball - Österreich Regionalliga Mitte
+077,31.10. 19:00,ESP 1,SD Eibar,2:1,Villarreal CF,1,Fussball - Spanien Primera Division
+078,31.10. 19:00,ESP 1,RCD Mallorca,2:2,CA Osasuna,X,Fussball - Spanien Primera Division
+079,31.10. 19:00,EH SWE,Skelleftea AIK,4:0,Djurgardens IF,1,Eishockey - Schweden Elitserien
+080,31.10. 19:00,EH SWE,Linköpings HC,5:3,HV 71,1,Eishockey - Schweden Elitserien
+081,31.10. 19:00,EH SWE,HC Örebro,5:2,Färjestads BK,1,Eishockey - Schweden Elitserien
+082,31.10. 19:00,EH SWE,Malmö IF,3:2,Frölunda HC,1,Eishockey - Schweden Elitserien
+083,31.10. 19:15,EH AUT,EC Graz 99ers,3:2,HC Znojmo,1,Eishockey - Österreich Erste Bank-EHL
+084,31.10. 19:30,AUT RLO,ASV Draßburg,2:2,SC Team Wr. Linien,X,Fussball - Österreich Regionalliga Ost
+085,31.10. 19:30,EH GER,Nürnberg Ice Tiger,2:2,Eisbären Berlin,X,Eishockey - Deutschland Deutsche Eishockey Liga
+086,31.10. 19:45,EH AUT,HC Bozen Foxes,6:4,Villacher SV,1,Eishockey - Österreich Erste Bank-EHL
+087,31.10. 20:00,ROU CUP,CS Voluntari,1:4,CS Uni Craiova,2,Fussball - Rumänien Cup
+088,31.10. 20:00,NOR CUP,Odds BK,0:3,FK Haugesund,2,Fussball - Norwegen Cup
+089,31.10. 20:15,DEN CUP,AGF Aarhus,1:0,Odense BK,1,Fussball - Dänemark Landspokalturneringen
+090,31.10. 20:30,BEL 1,RSC Anderlecht,3:3,KAA Gent,X,Fussball - Belgien Jupiler Pro League
+091,31.10. 20:45,POR 1,FC Pacos Ferreira,1:2,Sporting Lissabon,2,Fussball - Portugal Primeira Liga
+092,31.10. 20:45,NL CUP,Fortuna Sittard,3:0,ADO Den Haag,1,Fussball - Niederlande KNVB Cup
+093,31.10. 21:00,ITA A,AC Milan,1:0,Spal Ferrara,1,Fussball - Italien Serie A
+094,31.10. 21:15,ESP 1,Getafe CF,3:1,Granada CF,1,Fussball - Spanien Primera Division
+095,31.10. 21:15,POR 1,Boavista FC,2:0,Sporting Braga,1,Fussball - Portugal Primeira Liga
+096,31.10. 21:15,POR 1,CD Santa Clara,1:1,Vitoria Setubal,X,Fussball - Portugal Primeira Liga
+097,31.10. 23:10,ARG 1,Velez Sarsfield,0:0,CA Huracan,X,Fussball - Argentinien Primera Division
+098,31.10. 23:15,BRA 1,Santos SP,1:0,EC Bahia BA,1,Fussball - Brasilien Brasilero Serie A
+099,01.11. 00:00,BRA 1,Goias EC GO,2:2,CR Flamengo RJ,X,Fussball - Brasilien Brasilero Serie A
+100,01.11. 01:30,BRA 1,Internacional RS,1:1,Atletico PR,X,Fussball - Brasilien Brasilero Serie A
+101,01.11. 01:30,BRA 1,Botafogo RJ,0:2,Cruzeiro EC MG,2,Fussball - Brasilien Brasilero Serie A
+102,01.11. 01:20,ARG 1,Atletico Lanus,2:1,Boca Juniors,1,Fussball - Argentinien Primera Division
+103,01.11. 01:20,NFL,Arizona Cardinals,25:28,San Francisco 49,2,Football - USA NFL
+104,01.11. 17:30,EH AUT,Black Wings Linz,6:3,Vienna Capitals,1,Eishockey - Österreich Erste Bank-EHL
+105,01.11. 17:30,EH AUT,KAC Klagenfurt,5:1,EC Dornbirn,1,Eishockey - Österreich Erste Bank-EHL
+106,01.11. 17:30,EH AUT,EC RB Salzburg,7:1,HC Innsbruck,1,Eishockey - Österreich Erste Bank-EHL
+107,01.11. 18:30,GER 2,Hannover 96,1:1,SV Sandhausen,X,Fussball - Deutschland 2. Bundesliga
+108,01.11. 18:30,GER 2,Jahn Regensburg,3:3,VfL Osnabrück,X,Fussball - Deutschland 2. Bundesliga
+109,01.11. 18:30,TUR 1,Galatasaray,2:0,Caykur Rizespor,1,Fussball - Türkei Süper Lig
+110,01.11. 19:00,HB AUT,Fivers Margareten,32:34,UHK Krems,2,Handball - Österreich HLA
+111,01.11. 19:10,AUT 2,Austria Klagenfurt,1:1,SKU Amstetten,X,Fussball - Österreich Zweite Liga
+112,01.11. 19:10,AUT 2,SV Ried,3:1,SV Horn,1,Fussball - Österreich Zweite Liga
+113,01.11. 19:10,AUT 2,SK Vorwärts Steyr,2:2,Grazer AK,X,Fussball - Österreich Zweite Liga
+114,01.11. 19:10,AUT 2,Kapfenberger SV,2:1,Floridsdorfer AC,1,Fussball - Österreich Zweite Liga
+115,01.11. 19:10,AUT 2,BW Linz,1:5,SV Lafnitz,2,Fussball - Österreich Zweite Liga
+116,01.11. 19:10,AUT 2,FC Liefering,0:4,FC Juniors OÖ,2,Fussball - Österreich Zweite Liga
+117,01.11. 20:00,NL 1,FC Zwolle,2:4,Ajax Amsterdam,2,Fussball - Niederlande Eredivisie
+118,01.11. 20:30,GER BL,TSG Hoffenheim,3:0,SC Paderborn,1,Fussball - Deutschland Bundesliga
+119,01.11. 20:45,ENG CS,FC Barnsley,2:2,Bristol City,X,Fussball - England Championship
+120,01.11. 20:45,FRA 1,Dijon Football,2:1,Paris SG,1,Fussball - Frankreich Ligue 1
