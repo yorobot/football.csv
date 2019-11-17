@@ -55,7 +55,13 @@ puts "sorted (#{sorted_leagues.size}) - #{PROGRAMS.join(' ')}:"
 sorted_leagues.each do |l|
   m = LEAGUES.match( l[0] )
   if m
-    print "    "
+    if m.size == 1
+      print "    "
+    else
+      ## check for ambigious (multiple) matches too (and warn)
+      print " !! ambigious (multiple) matches (#{m.size})"
+      pp m
+    end
   elsif EXCLUDE_LEAGUES.include?( l[0] )
     print "(*) "   ## skip national (selection) team leagues and/or women leagues for now
   else
