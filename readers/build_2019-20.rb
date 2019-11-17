@@ -23,10 +23,17 @@ end
 
 
 def read( name, season: '2019/20' )
-  SportDb.read( "#{SOURCE_DIR}/#{name}", season: season )
+  ## SportDb.read( "#{SOURCE_DIR}/#{name}", season: season )
+  pack = Datafile::DirPackage.new( "#{SOURCE_DIR}/#{name}" )
+  ## pack.read_clubs_props
+  pack.read( season: season )
 end
 
 
 setup()
 read( 'england' )
-read( 'austria' )
+## read( 'austria' )
+
+## check for club props update
+pp SportDb::Model::Team.find_by( code: 'MUN' )
+## pp SportDb::Model::Team.find_by( title: 'Manchester United FC' )
