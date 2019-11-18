@@ -20,16 +20,19 @@ PROGRAMS = %w[
 
 ## national teams and/or women leagues
 EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
+  'WM Q',       # WM Qualifikation
   'EM Q',       # Europameisterschaft Qualifikation
   'U21 EMQ',    # U21 EM Qualifikation
-  'WM Q',       # WM Qualifikation
+  'U19 EMQ',    # U19 EM Qualifikation
   'INT FS',     # Internationale Freundschaftsspiele
   'FS U21',     # U21 Freundschaftsspiele
   'FS U20',     # U20 Freundschaftsspiele
+
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
   'EMQDA',      # EM Qualifikation, Damen
   'U19 DAQ',    # U19 EM Frauen, Qualifikation
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
+  'AUT DA',     # Österreich Frauen Bundesliga
 ]
