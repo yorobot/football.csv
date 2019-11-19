@@ -1,158 +1,144 @@
-League POL 2 (5):
-  KS Warta Posen
-  Podbeskidzie Biala
-  OKS Odra Opole
-  GKS Tychy 71
-  Chrobry Glogow
-League SWE CUP (4):
-  Qviding FIF
-  FC Trollhättan
-  Husqvarna FF
-  Nyköping BIS
-League DEN 2 (10):
-  FC Fredericia
-  Skive IK
-  Kolding IF
-  Vejle BK
-  FC Roskilde
-  HB Köge
-  Hvidovre IF
-  BK Fremad Amager
-  Nyköbing FC
-  Naestved BK
-League ROU 2 (2):
-  CS Mioveni
-  FC Arges Pitesti
-League SWE 2 (8):
-  Jönköpings Södra
-  Vasteraas SK
-  Degerfors IF
-  GAIS Göteborg
-  Örgryte Göteborg
-  Varbergs BoIS
-  IK Brage
-  Norrby IF
-League DEN CUP (15):
-  Brönshöj BK
-  Hvidovre IF
-  Hilleröd Fodbold
-  Naestved BK
-  Middelfart BK
-  Skive IK
-  Varde IF
-  Thisted FC
-  B 1908 Amager
-  Vejle BK
-  BK Fremad Amager
-  FC Roskilde
-  Viby IF
-  Vanlöse IF
-  HIK Hellerup
-League FIN 3 (2):
-  Pepo Lappeenranta
-  Jippo
-League FIN 2 (2):
-  FC KTP
-  Ekenäs IF
-League ITA C1B (4):
-  Vis Pesaro 1898
-  FC Modena
-  Padua Calcio
-  Vicenza Calcio
-League SLO CUP (1):
-  NK Radomlje
-League BEL 1 (1):
-  Royal Charleroi SC
-League NOR 1 (3):
-  Lilleström SK
-  Stabaek IF
-  Mjöndalen
-League AFC CL (2):
-  Al-Sadd SC, Qatar (qa)
-  AL Nassr, Saudi Arabia (sa)
-League CZE 1 (5):
-  Viktoria Pilsen
-  FK Baumit Jablonec
-  SK Sigma Olmütz
-  Bohem.Prag 1905
-  SK Dynamo Budweis
-League CYP 1 (4):
-  Nea Salamina Fama.
-  Olympiakos Nicosia
-  Enosis N.Paralimni
-  Apollon Limassol
-League POL 1 (2):
-  Cracovia Krakau
-  LKS Lodz PSS
-League RUS PL (3):
-  Dinamo Moskau
-  FK Achmat Grozny
-  Lok Moskau
-League ISR 1 (2):
-  Hapoel Haifa
-  Hap. Beer Sheva
-League ITA B (7):
-  Salernitana Calcio
-  SSC Venezia
-  Ascoli FC
-  Spezia Calcio
-  AS Cittadella
-  Perugia Calcio
-  US Cremonese
-League CL (3):
-  Ol. Lyon, France (fr)
-  Atl. Madrid, Spain (es)
-  Lok Moskau, Russia (ru)
-League COPA S (2):
-  Indep. d.Valle, Ecuador (ec)
-  Ind.d.Valle, Ecuador (ec)
-League EL (7):
-  Sporting Liss., Portugal (pt)
-  Stand. Lüttich, Belgium (be)
-  ZSKA Moskau, Russia (ru)
-  FC Oleksandria, Ukraine (ua)
-  I. Basaksehir, Turkey (tr)
-  Besiktas Ist., Turkey (tr)
-  Oleksandria, Ukraine (ua)
-League GER 3 (2):
-  Kickers Würzburg
-  W. Mannheim
-League POR 1 (2):
-  FC Pacos Ferreira
-  Maritimo Funchal
-League SERB 1 (1):
-  Partizan Belgrad
-League ITA C1A (2):
-  Giana Erminio
-  Carrarese Calcio
-League FRA 2 (1):
-  Rodez Aveyron
-League NIRL 1 (1):
-  FC Carrick Rangers
 League RL SBG (1):
-  Pinzgau Saalfelden
-League SWE 1 (1):
-  IK Sirius FK
-League SUI SL (1):
-  FC Servette Genf
-League BRA 1 (1):
-  CSA AL
-League SCO PS (2):
-  Glasgow Rangers
-  FC Aberdeen
-League GRE 1 (1):
-  PAOK Thessaloniki
+  SAK 1914 Salzburg
+League NL 2 (5):
+  FC Oss
+  SC Telstar
+  Helmond Sport
+  Almere City FC
+  Excel. Rotterdam
+League BEL 2 (3):
+  Excelsior Virton
+  Lommel United
+  Saint-Gilloise
+League ITA C1A (7):
+  Pontedera
+  AC Pistoiese
+  Pro Patria
+  Como Calcio
+  AC Renate
+  Novara Calcio
+  AC Arezzo
+League SLO CUP (1):
+  Nafta Lendava
+League BRA 1 (2):
+  CR Flamengo RJ
+  Ceara SC CE
+League ARG CUP (1):
+  Estudiantes BA
+League ISR 2 (1):
+  Macc. Petach Tikva
+League POR CUP (1):
+  Alverca Futebol
+League RUS PL (2):
+  Zenit St.Petersb.
+  Gazovik Orenburg
+League SCO PS (1):
+  Heart of Midl.
+League BUL 1 (4):
+  Beroe Stara Zag.
+  ZSKA Sofia
+  Tsarsko Selo Sofia
+  FC Dunav 2010
+League ISR 1 (1):
+  Maccabi Haifa
+League ITA C1B (6):
+  US Fermana
+  FC Südtirol
+  AC Feralpisalo
+  Sambenedettese
+  Triestina Calcio
+  Ravenna Calcio
+League IRL 1 (1):
+  FC Derry City
 League AUS CUP (1):
-  Adelaide United FC
+  Melbourne City FC
+League JPN CUP (1):
+  Honda FC
+League RUS 2 (6):
+  FC Yenisey
+  FC Neftekhimik
+  Energ. Khabarovsk
+  FC Rotor Wolgograd
+  Luch Wladivostok
+  FK Baltika
+League ITA C1C (4):
+  Ternana Calcio
+  AS Avellino
+  AS Bari
+  Potenza SC
+League CL (2):
+  Zenit St.Peter, Russia (ru)
+  Benfica Lissab, Portugal (pt)
+League COPA L (1):
+  CR Flamengo RJ, Brazil (br)
+League EL (2):
+  Espanyol Barc., Spain (es)
+  Ist.Basaks, Turkey (tr)
+League BEL 1 (5):
+  AS Eupen
+  Cercle Brügge KSV
+  Red Star Waasland
+  FC Royal Antwerpen
+  St. Truiden VV
+League CZE 1 (1):
+  SK Slavia Prag
+League TUR 2 (2):
+  Osmanlispor FK
+  Akhisar Bld.spor
+League TUR 1 (1):
+  Istanbul Basakseh.
+League CYP 1 (1):
+  Salamis Famagusta
+League GRE 1 (3):
+  Lamia 1964
+  Volos NPS
+  AE Larissa
+League GER 3 (3):
+  Bayern München Am.
+  Preussen Münster
+  E. Braunschweig
 League ROU 1 (2):
-  CS Voluntari
-  AFC Astra Giurgiu
-League ISR 2 (2):
-  Hap. Rishon LeZion
-  Hapoel UM EL Fahem
+  FC CFR 1907 Cluj
+  CS Uni Craiova
+League GER CUP (2):
+  FC Saarbrücken
+  SC Verl
+League UKR CUP (1):
+  FC Dynamo Kiev
+League RUS CUP (2):
+  FC Torpedo Moskau
+  FK Baltika
+League ROU CUP (1):
+  CS Uni Craiova
+League ARG 1 (1):
+  Atletico Lanus
+League NL 1 (1):
+  FC Zwolle
+League SCO LC (1):
+  Heart of Midl.
+League DEN 1 (1):
+  Bröndby IF
+League BRA 2 (3):
+  Botafogo FC SP
+  Criciuma EC SC
+  EC Vitoria BA
+League CZE CUP (1):
+  FK Viktoria Zizkov
+League DEN CUP (1):
+  AB Gladsaxe
+League RSA PL (4):
+  Baroka FC
+  Mamelodi FC
+  Cape Town City FC
+  Polokwane City
 League URU 1 (3):
-  RC Montevideo
-  CA Fenix
-  CA Boston River
-League COL 1 (1):
-  Los Millonarios
+  Plaza Colonia CD
+  Juventud Piedras
+  Rampla Juniors FC
+League COL COP (2):
+  Indep. Medellin
+  AD Cali
+League GRE 2 (1):
+  Kerkyra Kassiopi
+League NIRL 1 (1):
+  Crusaders Belfast
