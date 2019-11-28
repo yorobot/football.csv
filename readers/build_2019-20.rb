@@ -37,7 +37,7 @@ LEAGUE_TO_BASENAME = {
 
 def gen_json( league_key, opts={} )
 
-  out_root = opts[:out_root] || './o'
+  out_root = opts[:out_root] || './build'
 
   league = SportDb::Model::League.find_by_key!( league_key )
 
@@ -119,11 +119,14 @@ end
 
 
 setup()
-read( 'england' )
+## read( 'england' )
 ## read( 'austria' )
+read( 'deutschland' )
 
 ## gen_json( 'eng.1' )
+gen_json( 'de.1' )
+gen_json( 'de.2' )
 
 ## check for club props update
-pp SportDb::Model::Team.find_by( code: 'MUN' )
+## pp SportDb::Model::Team.find_by( code: 'MUN' )
 ## pp SportDb::Model::Team.find_by( title: 'Manchester United FC' )
