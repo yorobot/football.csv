@@ -113,7 +113,6 @@ def gen_json( league_key, opts={} )
        f.write JSON.pretty_generate( hash_matches )
      end
   end
-
 end
 
 
@@ -121,11 +120,15 @@ end
 setup()
 ## read( 'england' )
 ## read( 'austria' )
-read( 'deutschland' )
+## read( 'deutschland' )
+read( 'italy' )
 
 ## gen_json( 'eng.1' )
-gen_json( 'de.1' )
-gen_json( 'de.2' )
+## gen_json( 'de.1' )
+## gen_json( 'de.2' )
+## gen_json( 'es.1' )
+## gen_json( 'es.2' )
+
 
 ## check for club props update
 ## pp SportDb::Model::Team.find_by( code: 'MUN' )
