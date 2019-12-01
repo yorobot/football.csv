@@ -2,7 +2,12 @@ require 'sportdb/readers'
 
 
 
-OPENFOOTBALL_PATH = '../openfootball'
+OPENFOOTBALL_PATH = '../../../openfootball'
+
+## use (switch to) "external" datasets
+SportDb::Import.config.clubs_dir   = "#{OPENFOOTBALL_PATH}/clubs"
+SportDb::Import.config.leagues_dir = "#{OPENFOOTBALL_PATH}/leagues"
+
 
 
 
@@ -21,6 +26,12 @@ end
 
 def read_conf( path )
   buf = String.new
+
+  unless File.directory?( path )   ## check if path exists (AND is a direcotry)
+    puts "  dir >#{path}< missing; NOT found"
+    exit 1
+  end
+
   datafiles = Datafile.find( path, MATCH_RE )
   pp datafiles
 
@@ -52,8 +63,20 @@ def read_conf( path )
         clubs = parse( sec[:lines ])
         line = "      #{clubs.size} clubs:\n"
         buf << line
-        clubs.each do |club_name, count|
-          line = "        #{club_name} x#{count}\n"
+
+        ## sort clubs by usage
+        clubs_sorted = clubs.to_a.sort do |l,r|
+          res =  r[1] <=> l[1]   ## by count
+          res =  l[0] <=> r[0]  if res == 0  ## by club name
+          res
+        end
+
+        clubs_sorted.each do |rec|
+          club_name, count = rec
+          line = "        "
+          line << "#{club_name}"
+          line << " x#{count}"     if count > 1
+          line << "\n"
           buf << line
         end
       end
