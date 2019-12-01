@@ -24,13 +24,17 @@ def parse( lines )
 end
 
 
-def read_conf( path )
-  buf = String.new
+def read_conf( path, lang: )
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
     exit 1
   end
+
+  DateFormats.lang  = lang
+  SportDb.lang.lang = lang
+
+  buf = String.new
 
   datafiles = Datafile.find( path, MATCH_RE )
   pp datafiles
@@ -60,7 +64,7 @@ def read_conf( path )
         line << "\n"
         buf << line; puts line
 
-        clubs = parse( sec[:lines ])
+        clubs, rounds = parse( sec[:lines ])
         line = "      #{clubs.size} clubs:\n"
         buf << line
 
@@ -79,6 +83,19 @@ def read_conf( path )
           line << "\n"
           buf << line
         end
+
+
+        line = "      #{rounds.size} rounds:\n"
+        buf << line
+
+        rounds.each do |round_name, round_hash|
+          line = "        "
+          line << "#{round_name}"
+          line << " x#{round_hash[:count]}"     if round_hash[:count] > 1
+          line << ", #{round_hash[:match_count]} matches"
+          line << "\n"
+          buf << line
+        end
       end
     end
   end
@@ -86,10 +103,10 @@ def read_conf( path )
 end
 
 
-at = "#{OPENFOOTBALL_PATH}/austria"
-fr = "#{OPENFOOTBALL_PATH}/france"
-it = "#{OPENFOOTBALL_PATH}/italy"
-es = "#{OPENFOOTBALL_PATH}/espana"
+at = "#{OPENFOOTBALL_PATH}/austria"   ## de
+fr = "#{OPENFOOTBALL_PATH}/france"    ## fr
+it = "#{OPENFOOTBALL_PATH}/italy"     ## it
+es = "#{OPENFOOTBALL_PATH}/espana"    ## es
 
-buf = read_conf( es )
+buf = read_conf( es, lang: 'es' )
 puts buf
