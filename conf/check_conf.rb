@@ -103,10 +103,13 @@ def read_conf( path, lang: )
 end
 
 
-at = "#{OPENFOOTBALL_PATH}/austria"   ## de
-fr = "#{OPENFOOTBALL_PATH}/france"    ## fr
-it = "#{OPENFOOTBALL_PATH}/italy"     ## it
-es = "#{OPENFOOTBALL_PATH}/espana"    ## es
+at  = "#{OPENFOOTBALL_PATH}/austria"   ## de
+fr  = "#{OPENFOOTBALL_PATH}/france"    ## fr
+it  = "#{OPENFOOTBALL_PATH}/italy"     ## it
+es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
 
-buf = read_conf( es, lang: 'es' )
+de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
+eng = "#{OPENFOOTBALL_PATH}/england"   ## en
+
+buf = read_conf( eng, lang: 'en' )
 puts buf
