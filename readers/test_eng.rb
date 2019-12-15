@@ -1,12 +1,19 @@
-require 'sportdb/readers'
+require_relative 'build'
 
 
-SOURCE_DIR = '../../../openfootball'
+### "pre-load" leagues & clubs
+LEAGUES = SportDb::Import.config.leagues
+CLUBS   = SportDb::Import.config.clubs
 
-## use (switch to) "external" datasets
-SportDb::Import.config.clubs_dir   = "#{SOURCE_DIR}/clubs"
-SportDb::Import.config.leagues_dir = "#{SOURCE_DIR}/leagues"
 
+setup( 'england' )
+## read( 'england', season: '2019/20' )
+read( 'england' )
+
+
+
+
+__END__
 
 datafiles = Datafile.find_conf( "#{SOURCE_DIR}/england" )
 puts "#{datafiles.size} conf datafiles:"
@@ -15,20 +22,6 @@ pp datafiles
 ## lint first (dry run - no database reads/updates/etc.)
 SportDb.read( "#{SOURCE_DIR}/england", sync: false )
 ## SportDb.read( "#{SOURCE_DIR}/deutschland", sync: false )
-
-__END__
-
-
-DB_FILE = './england.db'
-File.delete( DB_FILE )  if File.exist?( DB_FILE )
-
-SportDb.connect( adapter:  'sqlite3',
-                 database: DB_FILE )
-SportDb.create_all       ## build database schema (tables, indexes, etc.)
-
-
-## turn on logging to console
-ActiveRecord::Base.logger = Logger.new( STDOUT )
 
 
 ## SportDb.read( "#{SOURCE_DIR}/england" )

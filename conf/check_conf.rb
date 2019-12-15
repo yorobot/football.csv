@@ -8,6 +8,12 @@ OPENFOOTBALL_PATH = '../../../openfootball'
 SportDb::Import.config.clubs_dir   = "#{OPENFOOTBALL_PATH}/clubs"
 SportDb::Import.config.leagues_dir = "#{OPENFOOTBALL_PATH}/leagues"
 
+### "pre-load" leagues & clubs
+LEAGUES   = SportDb::Import.config.leagues
+CLUBS     = SportDb::Import.config.clubs
+COUNTRIES = SportDb::Import.config.countries
+
+
 
 
 
@@ -24,7 +30,8 @@ def parse( lines )
 end
 
 
-def read_conf( path, lang: )
+
+def read_conf( path, lang:, country: )
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
@@ -41,6 +48,9 @@ def read_conf( path, lang: )
 
   line = "#{datafiles.size} datafiles:\n"
   buf << line; puts line
+
+
+  country =  COUNTRIES[ country ]  ## map to country_rec - fix: in find_by !!!!
 
   datafiles.each_with_index do |datafile,i|
     path_rel = datafile[path.length+1..-1]
@@ -75,15 +85,38 @@ def read_conf( path, lang: )
           res
         end
 
+        club_recs = []
+
         clubs_sorted.each do |rec|
           club_name, count = rec
-          line = "        "
+
+          ## try matching club name
+          club_rec = CLUBS.find_by( name: club_name, country: country )
+          club_recs << club_rec   if club_rec   ## add if match found
+
+          line = "     "
+          if club_rec.nil?
+             line << "!! "
+          else
+             line << "   "
+          end
+
           line << "#{club_name}"
           line << " x#{count}"     if count > 1
+
+          if club_rec
+            line << " => #{club_rec.name}"
+          end
+
           line << "\n"
           buf << line
         end
 
+        ## check if all club_recs are uniq(ue)
+        diff = club_recs.size - club_recs.uniq.size
+        if diff > 0
+          buf << "!! ERROR: #{diff} duplicate club record(s) found\n\n"
+        end
 
         line = "      #{rounds.size} rounds:\n"
         buf << line
@@ -111,5 +144,24 @@ es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
 de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
 eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 
-buf = read_conf( eng, lang: 'en' )
+
+
+path = eng
+buf = read_conf( path, lang: 'en', country: 'eng' )
+
+# path = de
+# buf = read_conf( path, lang: 'de', country: 'de' )
+
+# path = at
+# buf = read_conf( path, lang: 'de', country: 'at' )
+
+# path = es
+# buf = read_conf( path, lang: 'es', country: 'es' )
+
 puts buf
+
+
+## save
+File.open( "#{path}/.build/conf.txt", 'w:utf-8' ) do |f|
+ f.write( buf )
+end
