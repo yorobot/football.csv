@@ -182,8 +182,11 @@ eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 # path = es
 # buf = read_conf( path, lang: 'es', country: 'es' )
 
-path = fr
-buf = read_conf( path, lang: 'fr', country: 'fr' )
+# path = fr
+# buf = read_conf( path, lang: 'fr', country: 'fr' )
+
+path = it
+buf = read_conf( path, lang: 'it', country: 'it' )
 
 
 puts buf
