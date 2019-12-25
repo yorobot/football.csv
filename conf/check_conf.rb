@@ -17,7 +17,11 @@ COUNTRIES = SportDb::Import.config.countries
 
 
 
-MATCH_RE = %r{ /\d{4}-\d{2}        ## season folder e.g. /2019-20
+MATCH_RE = %r{ /(
+                  \d{4}-\d{2}   ## (summer/winter) season folder e.g. /2019-20
+                   |
+                  \d{4}         ## all year season folder e.g. /2019
+                )
                    /[a-z0-9_-]+\.txt$  ## txt e.g /1-premierleague.txt
                 }x
 
@@ -168,6 +172,8 @@ es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
 de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
 eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 
+br  = "#{OPENFOOTBALL_PATH}/brazil"
+ru  = "#{OPENFOOTBALL_PATH}/russia"
 
 
 # path = eng
@@ -176,8 +182,8 @@ eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 # path = de
 # buf = read_conf( path, lang: 'de', country: 'de' )
 
-# path = at
-# buf = read_conf( path, lang: 'de', country: 'at' )
+path = at
+buf = read_conf( path, lang: 'de', country: 'at' )
 
 # path = es
 # buf = read_conf( path, lang: 'es', country: 'es' )
@@ -185,9 +191,14 @@ eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 # path = fr
 # buf = read_conf( path, lang: 'fr', country: 'fr' )
 
-path = it
-buf = read_conf( path, lang: 'it', country: 'it' )
+# path = it
+# buf = read_conf( path, lang: 'it', country: 'it' )
 
+# path = ru
+# buf = read_conf( path, lang: 'en', country: 'ru' )   ## note: use english fallback / default lang for now
+
+# path = br
+# buf = read_conf( path, lang: 'pt', country: 'br' )
 
 puts buf
 
