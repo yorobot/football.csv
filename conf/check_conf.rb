@@ -182,8 +182,8 @@ ru  = "#{OPENFOOTBALL_PATH}/russia"
 # path = de
 # buf = read_conf( path, lang: 'de', country: 'de' )
 
-path = at
-buf = read_conf( path, lang: 'de', country: 'at' )
+# path = at
+# buf = read_conf( path, lang: 'de', country: 'at' )
 
 # path = es
 # buf = read_conf( path, lang: 'es', country: 'es' )
@@ -197,8 +197,8 @@ buf = read_conf( path, lang: 'de', country: 'at' )
 # path = ru
 # buf = read_conf( path, lang: 'en', country: 'ru' )   ## note: use english fallback / default lang for now
 
-# path = br
-# buf = read_conf( path, lang: 'pt', country: 'br' )
+path = br
+buf = read_conf( path, lang: 'pt', country: 'br' )
 
 puts buf
 
