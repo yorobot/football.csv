@@ -101,14 +101,19 @@ def read_conf( path, lang:, country: )
           res
         end
 
-        club_recs = []
+        club_recs      = []
+        club_recs_uniq = {}   ## for reporting duplicate club records
 
         clubs_sorted.each do |rec|
           club_name, count = rec
 
           ## try matching club name
           club_rec = CLUBS.find_by( name: club_name, country: country )
-          club_recs << club_rec   if club_rec   ## add if match found
+          if club_rec   ## add if match found
+             club_recs << club_rec
+             club_recs_uniq[club_rec] ||= []
+             club_recs_uniq[club_rec] << club_name
+          end
 
           line = "     "
           if club_rec.nil?
@@ -131,10 +136,18 @@ def read_conf( path, lang:, country: )
         end
 
         ## check if all club_recs are uniq(ue)
-        diff = club_recs.size - club_recs.uniq.size
+        diff = club_recs.size - club_recs_uniq.size
         if diff > 0
-          line = "!! ERROR: #{diff} duplicate club record(s) found\n\n"
+          line = "!! ERROR: #{diff} duplicate club record(s) found\n"
           buf << line; sum_more_lines << line
+
+          ## find duplicate records
+          club_recs_uniq.each do |rec, names|
+            if names.size > 1
+              line = "    #{names.size} duplicate names for >#{rec.name}<:  #{names.join(' | ')}\n"
+              buf << line; sum_more_lines << line
+            end
+          end
         end
 
         line = "      #{rounds.size} rounds:\n"
@@ -182,8 +195,8 @@ ru  = "#{OPENFOOTBALL_PATH}/russia"
 # path = de
 # buf = read_conf( path, lang: 'de', country: 'de' )
 
-# path = at
-# buf = read_conf( path, lang: 'de', country: 'at' )
+path = at
+buf = read_conf( path, lang: 'de', country: 'at' )
 
 # path = es
 # buf = read_conf( path, lang: 'es', country: 'es' )
@@ -197,8 +210,8 @@ ru  = "#{OPENFOOTBALL_PATH}/russia"
 # path = ru
 # buf = read_conf( path, lang: 'en', country: 'ru' )   ## note: use english fallback / default lang for now
 
-path = br
-buf = read_conf( path, lang: 'pt', country: 'br' )
+# path = br
+# buf = read_conf( path, lang: 'pt', country: 'br' )
 
 puts buf
 

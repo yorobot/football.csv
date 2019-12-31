@@ -1,13 +1,16 @@
-require 'sportdb/readers'
+require_relative 'build'
 
 
-SOURCE_DIR = '../../../openfootball'
-
-## use (switch to) "external" datasets
-SportDb::Import.config.clubs_dir   = "#{SOURCE_DIR}/clubs"
-SportDb::Import.config.leagues_dir = "#{SOURCE_DIR}/leagues"
+### "pre-load" leagues & clubs
+LEAGUES = SportDb::Import.config.leagues
+CLUBS   = SportDb::Import.config.clubs
 
 
+setup( 'austria' )
+read( 'austria' )
+
+
+__END__
 datafiles = Datafile.find_conf( "#{SOURCE_DIR}/austria" )
 puts "#{datafiles.size} conf datafiles:"
 pp datafiles
