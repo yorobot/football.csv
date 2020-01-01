@@ -35,7 +35,7 @@ end
 
 
 
-def read_conf( path, lang:, country: )
+def read_conf( path, lang:, country: nil )
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
@@ -55,7 +55,7 @@ def read_conf( path, lang:, country: )
   sum_buf << line; puts line
 
 
-  country =  COUNTRIES[ country ]  ## map to country_rec - fix: in find_by !!!!
+  country =  COUNTRIES[ country ]   if country  ## map to country_rec - fix: in find_by !!!!
 
   datafiles.each_with_index do |datafile,i|
     path_rel = datafile[path.length+1..-1]
@@ -108,7 +108,23 @@ def read_conf( path, lang:, country: )
           club_name, count = rec
 
           ## try matching club name
-          club_rec = CLUBS.find_by( name: club_name, country: country )
+          club_rec = if country
+                       CLUBS.find_by( name: club_name, country: country )
+                     else  ## assume int'l competition
+                       m = CLUBS.match( club_name )
+                       if m
+                         if m.size > 1
+                           puts "** ERROR: too many name matches for >#{club_name}<:"
+                           pp m
+                           exit 1
+                         else
+                           m[0]
+                         end
+                       else
+                         nil
+                       end
+                     end
+
           if club_rec   ## add if match found
              club_recs << club_rec
              club_recs_uniq[club_rec] ||= []
@@ -187,7 +203,9 @@ eng = "#{OPENFOOTBALL_PATH}/england"   ## en
 
 br  = "#{OPENFOOTBALL_PATH}/brazil"
 ru  = "#{OPENFOOTBALL_PATH}/russia"
+mx  = "#{OPENFOOTBALL_PATH}/mexico"
 
+cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
 
 # path = eng
 # buf = read_conf( path, lang: 'en', country: 'eng' )
@@ -195,8 +213,8 @@ ru  = "#{OPENFOOTBALL_PATH}/russia"
 # path = de
 # buf = read_conf( path, lang: 'de', country: 'de' )
 
-path = at
-buf = read_conf( path, lang: 'de', country: 'at' )
+# path = at
+# buf = read_conf( path, lang: 'de', country: 'at' )
 
 # path = es
 # buf = read_conf( path, lang: 'es', country: 'es' )
@@ -212,6 +230,12 @@ buf = read_conf( path, lang: 'de', country: 'at' )
 
 # path = br
 # buf = read_conf( path, lang: 'pt', country: 'br' )
+
+# path = mx
+# buf = read_conf( path, lang: 'es', country: 'mx' )
+
+path = cl
+buf = read_conf( path, lang: 'en' )
 
 puts buf
 
