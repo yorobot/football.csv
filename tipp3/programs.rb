@@ -15,6 +15,13 @@ PROGRAMS = %w[
   43a_tue-oct-22  43b_fri-oct-25
   44a_tue-oct-29  44b_sat-nov-2
   45a_tue-nov-5   45b_fri-nov-8
+  46a_tue-nov-12  46b_fri-nov-15
+  47a_tue-nov-19  47b_fri-nov-22
+  48a_tue-nov-26  48b_fri-nov-29
+  49a_tue-dec-3   49b_fri-dec-6
+  50a_tue-dec-10  50b_fri-dec-13
+  51a_tue-dec-17  51b_fri-dec-20
+  52a_mon-dec-23  52b_fri-dec-27
 ]
 
 
