@@ -234,6 +234,7 @@ cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
 # path = mx
 # buf = read_conf( path, lang: 'es', country: 'mx' )
 
+## todo/fix:  add Arsenal => Arsenal, ENG
 path = cl
 buf = read_conf( path, lang: 'en' )
 
