@@ -34,6 +34,9 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   'INT FS',     # Internationale Freundschaftsspiele
   'FS U21',     # U21 Freundschaftsspiele
   'FS U20',     # U20 Freundschaftsspiele
+  'CCC NL',     # CONCACAF Nations League
+  'AFR CQ',     # Africa Cup, Qualifikation
+  'GOLF-C',     # Golf Cup in Katar
 
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
@@ -42,4 +45,7 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
   'AUT DA',     # Österreich Frauen Bundesliga
+  
+  ## misc
+   'FS',       # Freundschaftsspiele International (Klub)
 ]
