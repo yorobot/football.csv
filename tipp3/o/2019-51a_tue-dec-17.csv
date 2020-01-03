@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,17.12. 14:30,TUR CUP,Samsunspor,1:1,Caykur Rizespor,X,Fussball - Türkei Türkiye Kupasi
+002,17.12. 15:15,POR CUP,Academico Viseu,1:0,GD Chaves,1,Fussball - Portugal Taca de Portugal
+003,17.12. 16:30,TUR CUP,Adanaspor,1:7,Alanyaspor,2,Fussball - Türkei Türkiye Kupasi
+004,17.12. 17:30,KHL,Dynamo Moskau,1:1,Jokerit Helsinki,X,Eishockey - Kontinental Hockey League
+005,17.12. 18:30,KHL,HK Dinamo Riga,1:4,HK CSKA Moskau,2,Eishockey - Kontinental Hockey League
+006,17.12. 18:30,KLUB WM,CR Flamengo RJ BRA,3:1,Al Hilal FC,1,Fussball - FIFA Klub WM
+007,17.12. 18:30,GER BL,Werder Bremen,0:5,FSV Mainz 05,2,Fussball - Deutschland Bundesliga
+008,17.12. 18:30,NL CUP,Twente Enschede,2:5,Go Ahead Eagles,2,Fussball - Niederlande KNVB Cup
+009,17.12. 18:45,FRA LC,Stade de Reims,1:0,HSC Montpellier,1,Fussball - Frankreich Coupe de la Ligue
+010,17.12. 18:45,POR CUP,Varzim SC,1:1,Anadia FC,X,Fussball - Portugal Taca de Portugal
+011,17.12. 18:45,TUR CUP,Tuzlaspor,0:4,Galatasaray,2,Fussball - Türkei Türkiye Kupasi
+012,17.12. 19:00,ESP CUP,SD Logrones,0:5,SD Eibar,2,Fussball - Spanien Copa del Rey
+013,17.12. 19:00,ESP CUP,Real Jaen,3:1,CD Alaves,1,Fussball - Spanien Copa del Rey
+014,17.12. 19:00,ESP CUP,Illueca CF,0:2,Dep. La Coruna,2,Fussball - Spanien Copa del Rey
+015,17.12. 19:30,EH GER,Eisbären Berlin,1:5,Krefeld Pinguine,2,Eishockey - Deutschland Deutsche Eishockey Liga
+016,17.12. 19:30,EH GER,Straubing Tigers,2:2,EHC München,X,Eishockey - Deutschland Deutsche Eishockey Liga
+017,17.12. 19:30,EH GER,Iserlohn Roosters,3:4,Kölner Haie,2,Eishockey - Deutschland Deutsche Eishockey Liga
+018,17.12. 19:30,EH GER,Nürnberg Ice Tiger,2:7,Adler Mannheim,2,Eishockey - Deutschland Deutsche Eishockey Liga
+019,17.12. 19:45,NL CUP,Excel. Rotterdam,0:2,FC Eindhoven,2,Fussball - Niederlande KNVB Cup
+020,17.12. 19:45,NL CUP,SC Heerenveen,2:0,Roda JC Kerkrade,1,Fussball - Niederlande KNVB Cup
+021,17.12. 20:00,ESP CUP,CD Castellon,0:2,Las Palmas UD,2,Fussball - Spanien Copa del Rey
+022,17.12. 20:00,ESP CUP,UD Socuellamos CF,0:1,Real Saragossa,2,Fussball - Spanien Copa del Rey
+023,17.12. 20:00,BB EL,Panathinaikos GRE,81:78,Fenerbahce TUR,1,Basketball - Euroleague
+024,17.12. 20:30,GER BL,Bor. Dortmund,3:3,RB Leipzig,X,Fussball - Deutschland Bundesliga
+025,17.12. 20:30,GER BL,Bor. Dortmund,3:4,RB Leipzig+1,2,Fussball - Deutschland Bundesliga
+026,17.12. 20:30,GER BL,Bor. Dortmund+1,4:3,RB Leipzig,1,Fussball - Deutschland Bundesliga
+027,17.12. 20:30,GER BL,FC Augsburg,3:0,Fortuna Düsseldorf,1,Fussball - Deutschland Bundesliga
+028,17.12. 20:30,GER BL,FC Union Berlin,0:2,TSG Hoffenheim,2,Fussball - Deutschland Bundesliga
+029,17.12. 20:30,ENG FA,Plymouth Argyle,0:1,Bristol Rovers,2,Fussball - England FA Cup
+030,17.12. 20:45,NL CUP,Fortuna Sittard,3:0,FC Zwolle,1,Fussball - Niederlande KNVB Cup
+031,17.12. 20:45,BEL CUP,SV Zulte Waregem,2:0,Sporting Charleroi,1,Fussball - Belgium Beker van Belgie
+032,17.12. 20:30,ESP CUP,UM Escobedo,2:0,Malaga CF,1,Fussball - Spanien Copa del Rey
+033,17.12. 20:30,ESP CUP,Segoviana,0:2,Elche CF,2,Fussball - Spanien Copa del Rey
+034,17.12. 20:30,ESP CUP,Zamora CF,2:1,Sporting Gijon,1,Fussball - Spanien Copa del Rey
+035,17.12. 20:45,ESP CUP,Hercules CF,0:1,Recreativo Huelva,2,Fussball - Spanien Copa del Rey
+036,17.12. 21:00,ESP CUP,Real Murcia CF,1:0,Racing Santander,1,Fussball - Spanien Copa del Rey
+037,17.12. 21:05,FRA LC,AS Monaco,0:3,Lille OSC,2,Fussball - Frankreich Coupe de la Ligue
+038,17.12. 21:30,POR CUP,AC Marinhense,0:2,Rio Ave FC,2,Fussball - Portugal Taca de Portugal
+039,18.12. 11:00,TUR CUP,An. Erzincanspor,2:0,Besiktas Istanbul,1,Fussball - Türkei Türkiye Kupasi
+040,18.12. 16:00,GRE 1,Skoda Xanthi FC,0:0,Panaitolikos,X,Fussball - Griechenland Super League
+041,18.12. 16:15,GRE 1,Olympiakos Piräus,4:1,AE Larissa,1,Fussball - Griechenland Super League
+042,18.12. 16:15,GRE 1,OFI Kreta FC,1:1,Panathinaikos,X,Fussball - Griechenland Super League
+043,18.12. 18:00,ESP CUP,Comillas CF,0:5,Villarreal CF,2,Fussball - Spanien Copa del Rey
+044,18.12. 18:00,ESP CUP,CD El Alamo,0:1,RCD Mallorca,2,Fussball - Spanien Copa del Rey
+045,18.12. 18:00,ESP CUP,EG El Palmar CF,1:2,Getafe CF,2,Fussball - Spanien Copa del Rey
+046,18.12. 18:00,ESP CUP,Bergantinos CF,0:1,FC Sevilla,2,Fussball - Spanien Copa del Rey
+047,18.12. 18:00,ESP CUP,Tolosa CF,0:3,Real Valladolid,2,Fussball - Spanien Copa del Rey
+048,18.12. 18:00,ESP CUP,CF Badalona,3:1,Real Oviedo,1,Fussball - Spanien Copa del Rey
+049,18.12. 18:00,CRO 1,NK Dinamo Zagreb,3:0,HNK Rijeka,1,Fussball - Kroatien 1. HNL
+050,18.12. 18:30,KLUB WM,CF Monterrey,1:2,FC Liverpool ENG,2,Fussball - FIFA Klub WM
+051,18.12. 18:30,GER BL,Bayer Leverkusen,0:1,Hertha BSC,2,Fussball - Deutschland Bundesliga
+052,18.12. 18:30,NL CUP,SC Telstar,3:4,Ajax Amsterdam,2,Fussball - Niederlande KNVB Cup
+053,18.12. 18:30,GRE 1,Atromitos Athen,1:1,Lamia 1964,X,Fussball - Griechenland Super League
+054,18.12. 18:30,GRE 1,AEK Athen,2:1,Asteras Tripolis,1,Fussball - Griechenland Super League
+055,18.12. 18:45,FRA LC,Olympique Lyon,4:1,FC Toulouse,1,Fussball - Frankreich Coupe de la Ligue
+056,18.12. 18:45,TUR CUP,Istanbulspor AS,0:2,Fenerbahce,2,Fussball - Türkei Türkiye Kupasi
+057,18.12. 18:55,ITA A,Sampdoria Genua,1:2,Juventus Turin,2,Fussball - Italien Serie A
+058,18.12. 19:30,EH GER,EHC Wolfsburg,3:0,Schwenninger W.W.,1,Eishockey - Deutschland Deutsche Eishockey Liga
+059,18.12. 19:30,EH GER,DEG Metro Stars,2:2,Bremerhaven P.,X,Eishockey - Deutschland Deutsche Eishockey Liga
+060,18.12. 19:30,EH GER,Augsburger Panth.,3:3,ERC Ingolstadt,X,Eishockey - Deutschland Deutsche Eishockey Liga
+061,18.12. 19:45,POR CUP,FC Pacos Ferreira,3:0,SC Espinho,1,Fussball - Portugal Taca de Portugal
+062,18.12. 19:45,NL CUP,Willem II Tilburg,3:0,Sparta Rotterdam,1,Fussball - Niederlande KNVB Cup
+063,18.12. 20:00,BEL CUP,Saint-Gilloise,0:1,KV Kortrijk,2,Fussball - Belgium Beker van Belgie
+064,18.12. 20:00,ESP 1,FC Barcelona,0:0,Real Madrid,X,Fussball - Spanien Primera Division
+065,18.12. 20:00,ESP 1,FC Barcelona,0:1,Real Madrid+1,2,Fussball - Spanien Primera Division
+066,18.12. 20:30,GER BL,Mönchengladbach,2:0,SC Paderborn,1,Fussball - Deutschland Bundesliga
+067,18.12. 20:30,GER BL,Eintr. Frankfurt,2:4,1. FC Köln,2,Fussball - Deutschland Bundesliga
+068,18.12. 20:30,GER BL,VfL Wolfsburg,1:1,FC Schalke 04,X,Fussball - Deutschland Bundesliga
+069,18.12. 20:30,GER BL,SC Freiburg,1:3,FC Bayern München,2,Fussball - Deutschland Bundesliga
+070,18.12. 20:45,ITA A,Brescia Calcio,0:2,US Sassuolo,2,Fussball - Italien Serie A
+071,18.12. 20:45,BEL CUP,Standard Lüttich,1:3,FC Royal Antwerpen,2,Fussball - Belgium Beker van Belgie
+072,18.12. 20:45,SCO PS,Heart of Midl.,0:2,Celtic Glasgow,2,Fussball - Schottland Premiership
+073,18.12. 20:45,ENG LC,FC Everton,2:2,Leicester City,X,Fussball - England Liga Cup
+074,18.12. 20:45,ENG LC,Oxford United,1:3,Manchester City,2,Fussball - England Liga Cup
+075,18.12. 21:00,ENG LC,Manchester United,3:0,Colchester United,1,Fussball - England Liga Cup
+076,18.12. 21:05,FRA LC,FC Nantes,0:1,Racing Strasbourg,2,Fussball - Frankreich Coupe de la Ligue
+077,18.12. 21:05,FRA LC,Amiens SC,3:2,Stade Rennes,1,Fussball - Frankreich Coupe de la Ligue
+078,18.12. 21:05,FRA LC,Le Mans UC 72,1:4,Paris SG,2,Fussball - Frankreich Coupe de la Ligue
+079,18.12. 21:05,FRA LC,Olympique Nimes,1:2,AS Saint Etienne,2,Fussball - Frankreich Coupe de la Ligue
+080,18.12. 21:05,FRA LC,Stade Brest,2:0,Bordeaux,1,Fussball - Frankreich Coupe de la Ligue
+081,18.12. 21:45,POR CUP,Benfica Lissabon,2:1,Sporting Braga,1,Fussball - Portugal Taca de Portugal
+082,19.12. 16:15,GRE 1,Aris Thessaloniki,4:0,Volos NPS,1,Fussball - Griechenland Super League
+083,19.12. 16:30,TUR CUP,Bursaspor,2:1,Erzurum BB,1,Fussball - Türkei Türkiye Kupasi
+084,19.12. 17:30,KHL,Avangard Omsk,3:1,Sibir Nowosibirsk,1,Eishockey - Kontinental Hockey League
+085,19.12. 17:30,KHL,HC Vityaz Podolsk,1:0,HK Dinamo Riga,1,Eishockey - Kontinental Hockey League
+086,19.12. 17:30,KHL,Dynamo Moskau,8:1,Sev. Cherepovets,1,Eishockey - Kontinental Hockey League
+087,19.12. 17:30,KHL,AK Bars Kasan,2:1,Salavat Yulaev Ufa,1,Eishockey - Kontinental Hockey League
+088,19.12. 17:30,KHL,Jokerit Helsinki,4:4,Lok. Jaroslawl,X,Eishockey - Kontinental Hockey League
+089,19.12. 18:00,KHL,SKA St. Petersburg,0:1,HK CSKA Moskau,2,Eishockey - Kontinental Hockey League
+090,19.12. 18:00,POL 1,LKS Lodz PSS,2:4,Wisla Krakau,2,Fussball - Polen Orange Ekstraklasa
+091,19.12. 18:30,NL CUP,FC Groningen,0:1,FC Utrecht,2,Fussball - Niederlande KNVB Cup
+092,19.12. 18:30,GRE 1,Panionios Athen,0:2,PAOK Thessaloniki,2,Fussball - Griechenland Super League
+093,19.12. 18:30,ISR CUP,SC Kfar Qasem,1:0,Hapoel Kfar Saba,1,Fussball - Israel Cup
+094,19.12. 18:40,ISR CUP,Hapoel Afula FC,2:1,Hapoel Ashkelon,1,Fussball - Israel Cup
+095,19.12. 18:45,TUR CUP,Trabzonspor,4:1,Altay Izmir,1,Fussball - Türkei Türkiye Kupasi
+096,19.12. 18:50,ISR CUP,Bnei Sakhnin FC,2:2,I. Ramat Hasharon,X,Fussball - Israel Cup
+097,19.12. 19:00,ISR CUP,Bnei Yehuda,0:0,Hapoel Hadera,X,Fussball - Israel Cup
+098,19.12. 19:00,ROU 1,FC Botosani,1:0,Dinamo Bukarest,1,Fussball - Rumänien Liga 1
+099,19.12. 19:00,ESP CUP,UE Lleida,0:2,Espanyol Barcelona,2,Fussball - Spanien Copa del Rey
+100,19.12. 19:00,ESP CUP,CA Antoniano*,0:4,Betis Sevilla,2,Fussball - Spanien Copa del Rey
+101,19.12. 19:00,ESP CUP,CD Pena Azagresa,0:2,Celta de Vigo,2,Fussball - Spanien Copa del Rey
+102,19.12. 19:00,EH SWE,Malmö IF,4:0,Djurgardens IF,1,Eishockey - Schweden Elitserien
+103,19.12. 19:00,EH SWE,Rögle BK,1:2,Växjö Lakers,2,Eishockey - Schweden Elitserien
+104,19.12. 19:00,EH SWE,Frölunda HC,1:0,Lulea Hockey,1,Eishockey - Schweden Elitserien
+105,19.12. 19:00,EH SWE,Leksands IF,3:4,Färjestads BK,2,Eishockey - Schweden Elitserien
+106,19.12. 19:00,EH SWE,Linköpings HC,2:3,IK Oskarshamn,2,Eishockey - Schweden Elitserien
+107,19.12. 19:00,EH SWE,Skelleftea AIK,0:3,HV 71,2,Eishockey - Schweden Elitserien
+108,19.12. 19:00,EH SWE,Brynas IF,2:1,HC Örebro,1,Eishockey - Schweden Elitserien
+109,19.12. 20:05,BB EL,M.Tel Aviv ISR,88:79,Panathinaikos GRE,1,Basketball - Euroleague
+110,19.12. 20:15,POR CUP,FC Porto,1:0,CD Santa Clara,1,Fussball - Portugal Taca de Portugal
+111,19.12. 20:30,POL 1,Lech Posen,1:1,Arka Gdynia 1929,X,Fussball - Polen Orange Ekstraklasa
+112,19.12. 20:45,NL CUP,SC Cambuur,1:2,Feyenoord,2,Fussball - Niederlande KNVB Cup
+113,19.12. 20:45,BEL CUP,RSC Anderlecht,0:2,Club Brügge,2,Fussball - Belgium Beker van Belgie
+114,19.12. 20:45,BB EL,O.Milano ITA,78:71,Valencia Bask. ESP,1,Basketball - Euroleague
+115,19.12. 21:00,BB EL,Baskonia G. ESP,55:77,Real Madrid BC ESP,2,Basketball - Euroleague
+116,19.12. 21:00,ESP CUP,CD Becerril,0:8,Real Sociedad,2,Fussball - Spanien Copa del Rey
+117,19.12. 22:45,POR CUP,FC Famalicao,3:0,CD Mafra,1,Fussball - Portugal Taca de Portugal
+118,20.12. 01:00,NHL,Philadelphia Fl.,6:1,Buffalo Sabres,1,Eishockey - USA NHL
+119,20.12. 01:00,NHL,Boston Bruins,2:2,NY Islanders,X,Eishockey - USA NHL
+120,20.12. 01:00,NHL,Tampa Bay Lightn.,3:3,Dallas Stars,X,Eishockey - USA NHL

@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,10.12. 18:00,EH CL,Lulea Hockey SWE,5:2,HC Lausanne SUI,1,Eishockey - Champions Hockey League
+002,10.12. 18:55,CL,RB Salzburg AUT,0:2,FC Liverpool ENG,2,Fussball - UEFA Champions League
+003,10.12. 18:55,CL,RB Salzburg+1,1:2,FC Liverpool,2,Fussball - UEFA Champions League
+004,10.12. 18:55,CL,Red Bull Salzburg,0:3,FC Liverpool+1,2,Fussball - UEFA Champions League
+005,10.12. 18:55,CL,SSC Napoli ITA,4:0,KRC Genk BEL,1,Fussball - UEFA Champions League
+006,10.12. 18:55,CL,SSC Napoli,4:2,KRC Genk+2,1,Fussball - UEFA Champions League
+007,10.12. 19:15,EH AUT,Fehervar,2:2,HC Bozen Foxes,X,Eishockey - Österreich Erste Bank-EHL
+008,10.12. 19:45,EH SUI,HC Davos,1:2,HC Ambri Piotta,2,Eishockey - Schweiz National League A
+009,10.12. 19:45,EH CL,EHC Biel SUI,3:4,Frölunda HC SWE,2,Eishockey - Champions Hockey League
+010,10.12. 19:45,EH CL,EV Zug SUI,0:4,Mountfield HK CZE,2,Eishockey - Champions Hockey League
+011,10.12. 20:00,EH CL,EHC München GER,0:3,Djurgardens IF SWE,2,Eishockey - Champions Hockey League
+012,10.12. 20:45,NIRL 1,FC Glenavon,1:0,FC Carrick Rangers,1,Fussball - Nordirland JJB Sports Premiership
+013,10.12. 20:45,SCO CS,Ayr United,1:1,FC Arbroath,X,Fussball - Schottland Championship
+014,10.12. 20:45,SCO CS,Greenock Morton,1:2,Dundee United,2,Fussball - Schottland Championship
+015,10.12. 20:45,ENG FA,FC Crewe Alexandra,3:1,Eastleigh FC,1,Fussball - England FA Cup
+016,10.12. 20:45,ENG FA,Carlisle United,1:0,Forest Green,1,Fussball - England FA Cup
+017,10.12. 20:45,ENG FA,Ipswich Town,1:2,Coventry City,2,Fussball - England FA Cup
+018,10.12. 20:45,ENG FA,Hartlepool United,0:0,Exeter City,X,Fussball - England FA Cup
+019,10.12. 20:45,ENG LTR,Accrington Stanley,2:0,Bolton Wanderers,1,Fussball - England Football League Trophy
+020,10.12. 20:45,ENG CS,Bristol City,1:2,FC Millwall,2,Fussball - England Championship
+021,10.12. 20:55,ENG CS,Charlton Athletic,0:1,Huddersfield Town,2,Fussball - England Championship
+022,10.12. 20:45,ENG CS,Leeds United,2:0,Hull City,1,Fussball - England Championship
+023,10.12. 20:45,ENG CS,Nottingham Forest,1:1,FC Middlesbrough,X,Fussball - England Championship
+024,10.12. 20:45,ENG CS,Preston North End,2:1,FC Fulham,1,Fussball - England Championship
+025,10.12. 21:00,ENG CS,Stoke City,3:0,Luton Town,1,Fussball - England Championship
+026,10.12. 21:00,CL,Bor. Dortmund GER,2:1,Slavia Prag CZE,1,Fussball - UEFA Champions League
+027,10.12. 21:00,CL,Bor. Dortmund,2:3,SK Slavia Prag+2,2,Fussball - UEFA Champions League
+028,10.12. 21:00,CL,Inter Mailand ITA,1:2,FC Barcelona ESP,2,Fussball - UEFA Champions League
+029,10.12. 21:00,CL,Benfica Lissab POR,3:0,Zenit St.Peter RUS,1,Fussball - UEFA Champions League
+030,10.12. 21:00,CL,Ol. Lyon FRA,2:2,RB Leipzig GER,X,Fussball - UEFA Champions League
+031,10.12. 21:00,CL,FC Chelsea ENG,2:1,Lille OSC FRA,1,Fussball - UEFA Champions League
+032,10.12. 21:00,CL,Ajax Amsterd. NED,0:1,FC Valencia ESP,2,Fussball - UEFA Champions League
+033,10.12. 21:00,CL,Ajax Amsterdam,0:2,FC Valencia+1,2,Fussball - UEFA Champions League
+034,11.12. 01:00,NHL,Florida Panthers,1:2,Tampa Bay Lightn.,2,Eishockey - USA NHL
+035,11.12. 01:00,NHL,Pittsburgh Peng.,1:4,Montreal Canad.,2,Eishockey - USA NHL
+036,11.12. 01:30,NHL,Buffalo Sabres,5:2,St. Louis Blues,1,Eishockey - USA NHL
+037,11.12. 02:00,NHL,Nashville Pred.,3:1,San Jose Sharks,1,Eishockey - USA NHL
+038,11.12. 02:00,NHL,Minnesota Wild,2:2,Anaheim Ducks,X,Eishockey - USA NHL
+039,11.12. 02:00,NHL,Winnipeg Jets,5:1,Detroit Red Wings,1,Eishockey - USA NHL
+040,11.12. 02:30,NHL,Dallas Stars,2:0,New Jersey Devils,1,Eishockey - USA NHL
+041,11.12. 03:00,NHL,Edmonton Oilers,3:6,Carolina Hurric.,2,Eishockey - USA NHL
+042,11.12. 03:00,NHL,Arizona Coyotes,2:5,Calgary Flames,2,Eishockey - USA NHL
+043,11.12. 04:00,NHL,Vancouver Can.,1:4,Toronto Maple L.,2,Eishockey - USA NHL
+044,11.12. 04:00,NHL,Vegas Gold.Knights,5:1,Chicago Blackhawks,1,Eishockey - USA NHL
+045,11.12. 04:30,NHL,Los Angeles Kings,3:1,New York Rangers,1,Eishockey - USA NHL
+046,11.12. 14:30,ITA C1C,Paganese Calcio,3:1,Catania Calcio,1,"Fussball - Italien, Lega Pro Prima Divisione, Girone C"
+047,11.12. 17:30,EH FIN,Ässät Pori,1:2,Pelicans Lahti,2,Eishockey - Finnland SM-Liiga
+048,11.12. 17:30,EH FIN,JYP Jyväskylä,3:2,Jukurit Mikkeli,1,Eishockey - Finnland SM-Liiga
+049,11.12. 17:30,EH FIN,Tappara Tampere,3:2,Kookoo Kouvola,1,Eishockey - Finnland SM-Liiga
+050,11.12. 17:30,EH FIN,Kärpät Oulu,1:1,HPK Hämeenlinna,X,Eishockey - Finnland SM-Liiga
+051,11.12. 17:30,EH FIN,HC TPS Turku,2:2,KalPa Kuopio,X,Eishockey - Finnland SM-Liiga
+052,11.12. 17:30,EH FIN,Vaasan Sport,2:3,Ilves Tampere,2,Eishockey - Finnland SM-Liiga
+053,11.12. 18:00,ITA C1A,Pontedera,4:1,Calcio Lecco,1,"Fussball - Italien Lega Pro Prima Divisione, Girone A"
+054,11.12. 18:55,CL,Shakhtar Don. UKR,0:3,Atalanta BC ITA,2,Fussball - UEFA Champions League
+055,11.12. 18:55,CL,Dinamo Zagreb CRO,1:4,Man. City ENG,2,Fussball - UEFA Champions League
+056,11.12. 19:00,ESP CUP,UD Logrones,2:1,Club Marino Luanco,1,Fussball - Spanien Copa del Rey
+057,11.12. 19:00,NOR 1,Lilleström SK,4:3,IK Start,1,Fussball - Norwegen Tippeligaen
+058,11.12. 19:00,BB AUTC,Swans Gmunden,88:87,WBC Wels,1,Basketball - Basketball Cup Österreich
+059,11.12. 19:00,BB AUTC,Kapfenberg Bulls,83:83,Gunners Oberwart,X,Basketball - Basketball Cup Österreich
+060,11.12. 19:00,BB AUTC,Vienna Timberw.,80:79,BC Vienna,1,Basketball - Basketball Cup Österreich
+061,11.12. 20:00,BOL 1,Club Destroyers,1:3,Alw.Ready La Paz,2,Fussball - Bolivien Liga Profesjonal
+062,11.12. 20:30,ITA C1C,Vibonese Calcio,0:0,US Catanzaro,X,"Fussball - Italien, Lega Pro Prima Divisione, Girone C"
+063,11.12. 20:45,ENG CS,FC Barnsley,1:1,FC Reading,X,Fussball - England Championship
+064,11.12. 20:45,ENG CS,Birmingham City,0:2,Queens Park R.,2,Fussball - England Championship
+065,11.12. 20:45,ENG CS,FC Brentford,2:1,Cardiff City,1,Fussball - England Championship
+066,11.12. 20:45,ENG CS,Derby County,1:1,Sheffield Wednes.,X,Fussball - England Championship
+067,11.12. 20:45,ENG CS,Swansea City,1:1,Blackburn Rovers,X,Fussball - England Championship
+068,11.12. 20:45,ENG CS,Wigan Athletic,1:1,West Bromwich,X,Fussball - England Championship
+069,11.12. 21:00,CL,Bayern München GER,3:1,Tottenham ENG,1,Fussball - UEFA Champions League
+070,11.12. 21:00,CL,FC Bayern München,3:2,Tottenham+1,1,Fussball - UEFA Champions League
+071,11.12. 21:00,CL,Paris SG FRA,5:0,Galatasaray TUR,1,Fussball - UEFA Champions League
+072,11.12. 21:00,CL,Paris SG,5:2,Galatasaray+2,1,Fussball - UEFA Champions League
+073,11.12. 21:00,CL,Club Brügge BEL,1:3,Real Madrid ESP,2,Fussball - UEFA Champions League
+074,11.12. 21:00,CL,Olympiakos P. GRE,1:0,Roter Stern B. SRB,1,Fussball - UEFA Champions League
+075,11.12. 21:00,CL,Atl. Madrid ESP,2:0,Lok Moskau RUS,1,Fussball - UEFA Champions League
+076,11.12. 21:00,CL,Leverkusen GER,0:2,Juventus Turin ITA,2,Fussball - UEFA Champions League
+077,11.12. 23:15,BOL 1,Blooming,2:0,Real Potosi,1,Fussball - Bolivien Liga Profesjonal
+078,12.12. 01:30,BOL 1,San Jose Oruro,2:2,Bolivar La Paz,X,Fussball - Bolivien Liga Profesjonal
+079,12.12. 01:00,NHL,Washington Cap.,3:2,Boston Bruins,1,Eishockey - USA NHL
+080,12.12. 01:30,NHL,Montreal Canad.,2:2,Ottawa Senators,X,Eishockey - USA NHL
+081,12.12. 03:30,NHL,Colorado Avalan.,3:1,Philadelphia Fl.,1,Eishockey - USA NHL
+082,12.12. 18:00,BB EL,Khimki Moskau RUS,104:87,Alba Berlin GER,1,Basketball - Euroleague
+083,12.12. 18:00,EH TOUR,Russland,3:4,Schweden,2,Eishockey - Euro Hockey Tour
+084,12.12. 18:30,EH TOUR,Tschechien,3:3,Finnland,X,Eishockey - Euro Hockey Tour
+085,12.12. 18:55,EL,APOEL Nikosia CYP,1:0,FC Sevilla ESP,1,Fussball - UEFA Europa League
+086,12.12. 18:55,EL,Dynamo Kiev UKR,1:1,FC Lugano SUI,X,Fussball - UEFA Europa League
+087,12.12. 18:55,EL,PSV Eindhoven NED,1:1,Rosenborg BK NOR,X,Fussball - UEFA Europa League
+088,12.12. 18:55,EL,Stand. Lüttich BEL,2:2,FC Arsenal ENG,X,Fussball - UEFA Europa League
+089,12.12. 18:55,EL,Qarabag FK AZE,1:1,F91 Dudelange LUX,X,Fussball - UEFA Europa League
+090,12.12. 18:55,EL,FC Kopenhagen DEN,0:1,Malmö FF SWE,2,Fussball - UEFA Europa League
+091,12.12. 18:55,EL,LASK Linz AUT,3:0,Sporting Liss. POR,1,Fussball - UEFA Europa League
+092,12.12. 18:55,EL,LASK Linz,3:1,Sporting Lissab.+1,1,Fussball - UEFA Europa League
+093,12.12. 18:55,EL,Stade Rennes FRA,2:0,Lazio Rom ITA,1,Fussball - UEFA Europa League
+094,12.12. 18:55,EL,FC Basel SUI,2:0,Trabzonspor TUR,1,Fussball - UEFA Europa League
+095,12.12. 18:55,EL,Getafe CF ESP,3:0,FC Krasnodar RUS,1,Fussball - UEFA Europa League
+096,12.12. 18:55,EL,FC CFR Cluj ROU,2:0,Celtic Glasgow SCO,1,Fussball - UEFA Europa League
+097,12.12. 18:55,EL,E. Frankfurt GER,2:3,Vit. Guimaraes POR,2,Fussball - UEFA Europa League
+098,12.12. 19:00,HB GER,Füchse Berlin,29:28,THW Kiel,1,Handball - Deutsche Handball Bundesliga
+099,12.12. 19:00,HB GER,TBV Lemgo,30:25,Rhein-Neckar L.,1,Handball - Deutsche Handball Bundesliga
+100,12.12. 19:30,EH GER,Eisbären Berlin,3:1,DEG Metro Stars,1,Eishockey - Deutschland Deutsche Eishockey Liga
+101,12.12. 20:00,BOL 1,CA Nacional Potosi,5:2,Royal Pari Sion,1,Fussball - Bolivien Liga Profesjonal
+102,12.12. 20:05,BB EL,M.Tel Aviv ISR,90:80,ZSKA Moskau RUS,1,Basketball - Euroleague
+103,12.12. 21:00,BB EL,Real Madrid BC ESP,93:77,Olympiakos P. GRE,1,Basketball - Euroleague
+104,12.12. 21:00,EL,AS Roma ITA,2:2,Wolfsberger AC AUT,X,Fussball - UEFA Europa League
+105,12.12. 21:00,EL,AS Roma,2:4,Wolfsberger AC+2,2,Fussball - UEFA Europa League
+106,12.12. 21:00,EL,M'gladbach GER,1:2,Ist.Basaks TUR,2,Fussball - UEFA Europa League
+107,12.12. 21:00,EL,Slov. Bratisl. SVK,2:4,Sporting Braga POR,2,Fussball - UEFA Europa League
+108,12.12. 21:00,EL,Gl.Rangers SCO,1:1,YB Bern SUI,X,Fussball - UEFA Europa League
+109,12.12. 21:00,EL,Espanyol Barc. ESP,0:1,ZSKA Moskau RUS,2,Fussball - UEFA Europa League
+110,12.12. 21:00,EL,KAA Gent BEL,2:1,FC Oleksandria UKR,1,Fussball - UEFA Europa League
+111,12.12. 21:00,EL,Wolverhampton ENG,4:0,Besiktas Ist. TUR,1,Fussball - UEFA Europa League
+112,12.12. 21:00,EL,Manchester U. ENG,4:0,AZ Alkmaar NED,1,Fussball - UEFA Europa League
+113,12.12. 21:00,EL,FK Partizan SRB,4:1,FC Astana KAZ,1,Fussball - UEFA Europa League
+114,12.12. 21:00,EL,FC Porto POR,3:2,Feyenoord NED,1,Fussball - UEFA Europa League
+115,12.12. 21:00,EL,Ludog. Razgrad BUL,1:1,Ferencvaros HUN,X,Fussball - UEFA Europa League
+116,12.12. 21:00,EL,VfL Wolfsburg GER,1:0,St. Etienne FRA,1,Fussball - UEFA Europa League
+117,13.12. 01:00,BOL 1,Guabira Montero,0:0,Sport Boys Warnes,X,Fussball - Bolivien Liga Profesjonal
+118,13.12. 01:00,ARG 1,Arsenal de Sarandi,2:1,Colon Santa Fe,1,Fussball - Argentinien Primera Division
+119,13.12. 01:30,BOL 1,The Strongest,2:0,Oriente Petrolero,1,Fussball - Bolivien Liga Profesjonal
+120,13.12. 01:30,BOL 1,Club Dep. Aurora,0:2,Jorge Wilstermann,2,Fussball - Bolivien Liga Profesjonal
