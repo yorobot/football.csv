@@ -35,7 +35,7 @@ end
 
 
 
-def read_conf( path, lang:, country: nil )
+def read_conf( path, lang:, country: nil, mapping: {} )
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
@@ -114,9 +114,20 @@ def read_conf( path, lang:, country: nil )
                        m = CLUBS.match( club_name )
                        if m
                          if m.size > 1
-                           puts "** ERROR: too many name matches for >#{club_name}<:"
-                           pp m
-                           exit 1
+                           if mapping[ club_name ]
+                             ## warn and try again with country
+                             line = " !!! WARN: too many name matches (#{m.size}) found for >#{club_name}<\n"
+                             ## todo/fix: add / log club matches here too!!!
+                             buf << line; sum_buf << line
+                             values = mapping[ club_name ].split( ',' )
+                             values = values.map { |value| value.strip }  ## strip all spaces
+                             club_name_fix, country_fix = values
+                             CLUBS.find_by( name: club_name_fix, country: country_fix )
+                           else
+                             puts "** ERROR: too many name matches for >#{club_name}<:"
+                             pp m
+                             exit 1
+                           end
                          else
                            m[0]
                          end
@@ -231,12 +242,15 @@ cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
 # path = br
 # buf = read_conf( path, lang: 'pt', country: 'br' )
 
-# path = mx
-# buf = read_conf( path, lang: 'es', country: 'mx' )
+path = mx
+buf = read_conf( path, lang: 'es', country: 'mx' )
 
-## todo/fix:  add Arsenal => Arsenal, ENG
-path = cl
-buf = read_conf( path, lang: 'en' )
+
+mapping_cl = {'Arsenal'    => 'Arsenal, ENG',
+              'Barcelona'  => 'Barcelona, ESP',
+              'Valencia'   => 'Valencia, ESP'}
+# path = cl
+# buf = read_conf( path, lang: 'en', mapping: mapping_cl )
 
 puts buf
 
