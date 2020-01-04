@@ -82,6 +82,18 @@ PROGRAMS.each do |program|
            ##    LASK Linz AUT    =>  LASK Linz,   AUT
            ##    Club Brügge BEL  =>  Club Brügge, BEL
            teams = [team1, team2]
+
+           ## quick hack: check for known exceptions; fix missing country codes
+           teams = teams.map do |team|
+              if team == 'Al Hilal FC'   ## used in 2019-51a_tue-dec-17 for KLUB WM
+                team = 'Al Hilal FC KSA'
+              elsif team == 'CF Monterrey'
+                team = 'CF Monterrey MEX' ## used in 2019-51a_tue-dec-17 for KLUB WM
+              else
+                team
+              end
+           end
+
            teams.each do |team|
              if team =~ /^(.+)[ ]+([A-Z]{3})$/
                country_code = EXTRA_COUNTRY_MAPPINGS[$2] || $2   ## check for corrections / (re)mappings first
@@ -93,8 +105,9 @@ PROGRAMS.each do |program|
                end
                club_queries << [$1, country]
              else
-               puts "** !!! ERROR !!! three-letter country code missing >#{team1}<; sorry"
+               puts "** !!! ERROR !!! three-letter country code missing >#{team}<; sorry"
                pp rec
+               pp league   ## note: also print league to help debugging
                exit 1
              end
            end
