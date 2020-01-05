@@ -242,15 +242,18 @@ cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
 # path = br
 # buf = read_conf( path, lang: 'pt', country: 'br' )
 
-path = mx
-buf = read_conf( path, lang: 'es', country: 'mx' )
+# path = mx
+# buf = read_conf( path, lang: 'es', country: 'mx' )
 
 
-mapping_cl = {'Arsenal'    => 'Arsenal, ENG',
-              'Barcelona'  => 'Barcelona, ESP',
-              'Valencia'   => 'Valencia, ESP'}
-# path = cl
-# buf = read_conf( path, lang: 'en', mapping: mapping_cl )
+mapping_cl = {'Arsenal'      => 'Arsenal, ENG',
+              'Arsenal FC'   => 'Arsenal, ENG',
+              'Liverpool'    => 'Liverpool, ENG',
+              'Liverpool FC' => 'Liverpool, ENG',
+              'Barcelona'    => 'Barcelona, ESP',
+              'Valencia'     => 'Valencia, ESP'}
+path = cl
+buf = read_conf( path, lang: 'en', mapping: mapping_cl )
 
 puts buf
 
