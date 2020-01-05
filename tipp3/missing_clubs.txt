@@ -8,15 +8,6 @@ League ITA C1A (9):
   AC Arezzo
   UC Albinoleffe
   Calcio Lecco
-League SLO CUP (1):
-  Nafta Lendava
-League POR CUP (6):
-  Alverca Futebol
-  Academico Viseu
-  Anadia FC
-  AC Marinhense
-  SC Espinho
-  CD Mafra
 League ITA C1B (8):
   US Fermana
   FC Südtirol
@@ -28,22 +19,6 @@ League ITA C1B (8):
   Reggio Audace FC
 League IRL 1 (1):
   FC Derry City
-League AUS CUP (1):
-  Melbourne City FC
-League JPN CUP (1):
-  Honda FC
-League RUS 2 (11):
-  FC Yenisey
-  FC Neftekhimik
-  Energ. Khabarovsk
-  FC Rotor Wolgograd
-  Luch Wladivostok
-  FK Baltika
-  FC Chayka
-  Fakel Worenesch
-  FC Chertanovo Mosk
-  FC Torpedo Moskau
-  FC Nizhny Novgorod
 League ITA C1C (7):
   Ternana Calcio
   AS Avellino
@@ -52,58 +27,12 @@ League ITA C1C (7):
   Paganese Calcio
   Catania Calcio
   Vibonese Calcio
-League ROU 1 (3):
-  FC CFR 1907 Cluj
-  CS Uni Craiova
-  FC Academica Clinc
 League UKR CUP (1):
   FC Dynamo Kiev
-League RUS CUP (2):
-  FC Torpedo Moskau
-  FK Baltika
-League ROU CUP (1):
-  CS Uni Craiova
-League BRA 2 (4):
-  Botafogo FC SP
-  Criciuma EC SC
-  EC Vitoria BA
-  Operario Ferroviar
-League CZE CUP (1):
-  FK Viktoria Zizkov
 League DEN CUP (1):
   AB Gladsaxe
-League RSA PL (4):
-  Baroka FC
-  Mamelodi FC
-  Cape Town City FC
-  Polokwane City
-League URU 1 (6):
-  Plaza Colonia CD
-  Juventud Piedras
-  Rampla Juniors FC
-  Montev. Wanderers
-  Nacional de Footb.
-  Liverpool Montevid
-League COL COP (2):
-  Indep. Medellin
-  AD Cali
-League GRE 2 (2):
-  Kerkyra Kassiopi
-  Chania FC
-League NIRL 1 (2):
-  Crusaders Belfast
-  FC Glenavon
 League ENG LTR (1):
   Bradford City FC
-League ARG CUP (1):
-  CA Central Cordob
-League NL 2 (1):
-  FC Eindhoven
-League BEL 2 (1):
-  KFCO Wilrijk
-League BRA 1 (2):
-  Botafogo FR RJ
-  CS Alagoano AL
 League ENG FA (5):
   Stourbridge FC
   Bradford City FC
@@ -115,10 +44,6 @@ League ROU 2 (2):
   AFC Turris-Oltul
 League NOR 2 (1):
   Aasane Fotball
-League VEN 1 (1):
-  Llaneros Guanare
-League CZE 1 (1):
-  Sparta Prag
 League POL 1 (2):
   Lech Posen
   Arka Gdynia 1929
@@ -129,29 +54,6 @@ League TUR 2 (6):
   Keciöerengücü
   Giresunspor
   Fatih Karagumruk
-League SCO PS (7):
-  FC St. Mirren
-  FC Livingston
-  FC Motherwell
-  FC Kilmarnock
-  FC St. Johnstone
-  Hamilton FC
-  FC Ross County
-League SCO CS (4):
-  FC Alloa Athletic
-  FC Arbroath
-  FC Dundee
-  Queen of South
-League CHN 1 (2):
-  Guangzhou R&F FC
-  Beijing Guoan FC
-League COL 1 (2):
-  Indep. Santa Fe
-  AD Cali
-League ECU 1 (1):
-  CD Catolica
-League CYP 1 (1):
-  Omonia Nikosia
 League CRO CUP (2):
   Lok Zagreb
   NK Slaven Belupo
@@ -165,11 +67,6 @@ League POL CUP (3):
   GKS Gornik Leczna
   ASPN Miedz Legnica
   OKS 1945 Olsztyn
-League FRA 2 (1):
-  FC Sochaux
-League POR LC (2):
-  SC Covilha
-  Casa Pia Atletico
 League ESP CUP (18):
   UD Logrones
   Club Marino Luanco
@@ -189,65 +86,3 @@ League ESP CUP (18):
   CA Antoniano
   CD Pena Azagresa
   CD Becerril
-League BOL 1 (7):
-  Alw.Ready La Paz
-  San Jose Oruro
-  Bolivar La Paz
-  CA Nacional Potosi
-  Royal Pari Sion
-  Guabira Montero
-  Club Dep. Aurora
-League KLUB WM (1):
-  Al Hilal FC, Saudi Arabia (sa)
-League NL CUP (1):
-  FC Eindhoven
-League GRE 1 (6):
-  Skoda Xanthi FC
-  Panaitolikos
-  OFI Kreta FC
-  Atromitos Athen
-  Aris Thessaloniki
-  Panionios Athen
-League ISR CUP (1):
-  SC Kfar Qasem
-League QAT 1 (5):
-  AL Shahaniya
-  AL Khoor
-  AL Gharafa SC
-  AL Ahli Doha SC
-  Al-Duhail SC
-League EGY 1 (9):
-  Al Moqawloon
-  Al Ittihad
-  FC Tanta
-  Aswan FC
-  FC Masr
-  Misr LeL Makasa
-  El Zamalek
-  Al-Masry Club
-  Pyramids FC
-League IRI 1 (2):
-  Pars Jonoubi Jam
-  Peykan
-League ISR 2 (1):
-  SC Kfar Qasem
-League ISR 1 (1):
-  Sectzya Nes Ziona
-League CAF CL (2):
-  Esp. Sp. Tunis, Tunisia (tn)
-  AS Vita Club, Congo DR (cd)
-League POR 2 (5):
-  GD Estoril Praia
-  Academ. Coimbra
-  UD Oliveirense
-  Casa Pia Atletico
-  Vilafranquense
-League SCO 1 (8):
-  FC East Fife
-  FC Raith Rovers
-  FC Falkirk
-  FC Montrose
-  FC Dumbarton
-  FC Stranraer
-  Peterhead FC
-  FC Clyde
