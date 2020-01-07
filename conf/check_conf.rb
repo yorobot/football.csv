@@ -66,7 +66,7 @@ def read_conf( path, lang:, country: nil, mapping: {} )
     txt = File.open( datafile, 'r:utf-8' ).read
     secs = SportDb::LeagueOutlineReader.parse( txt )
     if secs.size == 0
-      line = "  !!! WARN !!! - NO sections found; 0 sections\n"
+      line = "  !!! ERROR !!! - NO sections found; 0 sections\n"
       buf << line;  sum_buf << line; puts line
     else
       line = "  #{secs.size} section(s):\n"
@@ -116,7 +116,7 @@ def read_conf( path, lang:, country: nil, mapping: {} )
                          if m.size > 1
                            if mapping[ club_name ]
                              ## warn and try again with country
-                             line = " !!! WARN: too many name matches (#{m.size}) found for >#{club_name}<\n"
+                             line = "    WARN: too many name matches (#{m.size}) found for >#{club_name}<\n"
                              ## todo/fix: add / log club matches here too!!!
                              buf << line; sum_buf << line
                              values = mapping[ club_name ].split( ',' )
