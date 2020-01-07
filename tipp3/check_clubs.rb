@@ -27,6 +27,12 @@ EXTRA_COUNTRY_MAPPINGS = {
   'LAT' => 'LVA',
 }
 
+EXTRA_LEAGUE_MAPPINGS = {
+  'ENG 1' => 'ENG 3',   ## note: ENG 1 is Premier League (level 1) NOT League One (level 3)
+  'ENG 2' => 'ENG 4',   ## note: ENG 2 is Championship (level 2) NOT League Two (level 4)
+}
+
+league_titles = {}   ## lookup league title by league code
 
 PROGRAMS.each do |program|
    recs = CsvHash.read( "o/2019-#{program}.csv", :header_converters => :symbol )
@@ -34,13 +40,15 @@ PROGRAMS.each do |program|
 
 
    recs.each do |rec|
-     league_code  = rec[:liga]
+     league_code  = EXTRA_LEAGUE_MAPPINGS[ rec[:liga] ] || rec[:liga]    ## check for corrections / (re)mappings first
      league_title = rec[:liga_title]
 
      if league_title =~ /Fussball/
 
        ## skip national (selection) teams / matches e.g. wm, em, u21, u20, int fs, etc.
        next if EXCLUDE_LEAGUES.include?( league_code )
+
+       league_titles[ league_code ] = league_title
 
 
        team1 = rec[:team_1]
@@ -122,6 +130,7 @@ PROGRAMS.each do |program|
           if m.nil? && league.national?
             ## (re)try with second country - quick hacks for known leagues
             m = clubs.match_by( name: name, country: countries['wal'])  if country.key == 'eng'
+            m = clubs.match_by( name: name, country: countries['nir'])  if country.key == 'ie'
             m = clubs.match_by( name: name, country: countries['mc'])   if country.key == 'fr'
             m = clubs.match_by( name: name, country: countries['li'])   if country.key == 'ch'
             m = clubs.match_by( name: name, country: countries['ca'])   if country.key == 'us'
@@ -164,7 +173,7 @@ pp missing_clubs
 puts "pretty print:"
 buf = String.new
 missing_clubs.each do |league, names|
-  buf << "League #{league} (#{names.size}):\n"
+  buf << "League #{league} (#{names.size}) - >#{league_titles[league]}<:\n"
   names.each do |name|
     buf << "  #{name}\n"
   end
