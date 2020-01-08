@@ -69,8 +69,8 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   'DA CUP',     # Österreich Damen Cup
 
   ## misc
-   'FS',       # Freundschaftsspiele International (Klub)
-   'INT CHC',  # International Champions Cup
-   'PL ASIA',  # Premier League Asia Trophy
-   'EMR CUP',  # Emirates Cup
+  'FS',       # Freundschaftsspiele International (Klub)
+  'INT CHC',  # International Champions Cup
+  'PL ASIA',  # Premier League Asia Trophy
+  'EMR CUP',  # Emirates Cup
 ]
