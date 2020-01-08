@@ -1,0 +1,91 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,25.06. 12:00,AFC CL,S. Hiroshima JPN,3:2,Kashima A. JPN,1,Fussball - AFC Champions League
+002,25.06. 13:30,AFC CL,Shandong L. CHN,2:1,Guangzhou Ev. CHN,1,Fussball - AFC Champions League
+003,25.06. 15:00,CL,SP Tre Penne SMR*,0:1,FC Santa Colom AND,2,Fussball - UEFA Champions League
+004,25.06. 17:00,LAT 1,FK Ventspils,2:2,Spartaks Jurmala,X,Fussball - Lettland LMT Virsliga
+005,25.06. 17:00,FIN 1,IFK Mariehamn,0:2,HJK Helsinki,2,Fussball - Finnland Veikkausliiga
+006,25.06. 17:30,FIN 1,Tampereen Ilves,4:2,KPV Kokkola,1,Fussball - Finnland Veikkausliiga
+007,25.06. 17:30,FIN 1,FC Honka,1:0,Rovaniemi PS,1,Fussball - Finnland Veikkausliiga
+008,25.06. 17:30,FIN 1,Kuopio PS,5:1,FC Lahti,1,Fussball - Finnland Veikkausliiga
+009,25.06. 17:30,FIN 1,FC Inter Turku,1:1,Vaasa PS,X,Fussball - Finnland Veikkausliiga
+010,25.06. 17:30,FIN 2,AC Oulu,2:2,AC Kajaani,X,Fussball - Finnland Ykkonen
+011,25.06. 17:30,FIN 2,Mypa Myllykoski,0:5,FF Jaro,2,Fussball - Finnland Ykkonen
+012,25.06. 17:30,FIN 2,Musa Pori,1:0,TPV Tampere,1,Fussball - Finnland Ykkonen
+013,25.06. 18:00,WM DAM,Italien Damen,2:0,China Damen,1,Fussball - Damen WM 2019 in Frankreich
+014,25.06. 18:00,FS,SK Sturm Graz AUT*,1:0,Mlada Boleslav CZE,1,Fussball - Freundschaftsspiele International (Klub)
+015,25.06. 19:00,AFR CUP,Kamerun,2:0,Guinea-Bissau,1,Fussball - Afrika Cup
+016,25.06. 19:00,SWE 1,AIK Stockholm,0:2,IFK Norrköping,2,Fussball - Schweden Allsvenskan
+017,25.06. 19:00,SWE 2,Dalkurd FF,1:6,Vasteraas SK,2,Fussball - Schweden Superettan
+018,25.06. 19:00,LAT 1,Rigas Futb.Skola,1:2,FK Liepaja,2,Fussball - Lettland LMT Virsliga
+019,25.06. 19:00,FS,Leobendorf AUT,0:3,SK Rapid Wien AUT,2,Fussball - Freundschaftsspiele International (Klub)
+020,25.06. 20:45,CL,Feronikeli KOS*,1:0,Lincoln FC GIB,1,Fussball - UEFA Champions League
+021,25.06. 20:45,BB FRA,Asvel Basket,66:55,AS Monaco,1,Basketball - Frankreich Pro A
+022,25.06. 21:00,WM DAM,Niederlande Damen,2:1,Japan Damen,1,Fussball - Damen WM 2019 in Frankreich
+023,25.06. 21:00,WM DAM,Niederlande Damen,2:2,Japan Damen+1,X,Fussball - Damen WM 2019 in Frankreich
+024,25.06. 22:00,AFR CUP,Ghana,2:2,Benin,X,Fussball - Afrika Cup
+025,26.06. 02:00,G-CUP,Jamaika,1:1,Curacao,X,Fussball - Gold Cup
+026,26.06. 04:30,G-CUP,Honduras,4:0,El Salvador,1,Fussball - Gold Cup
+027,26.06. 12:00,JPN LC,Vegalta Sendai,1:0,Nagoya Grampus,1,Fussball - Japan Nabisco Cup
+028,26.06. 12:00,JPN LC,Cerezo Osaka,1:1,FC Tokyo,X,Fussball - Japan Nabisco Cup
+029,26.06. 12:00,JPN LC,Hokkaido Consadole,2:1,Jubilo Iwata,1,Fussball - Japan Nabisco Cup
+030,26.06. 12:00,JPN LC,Gamba Osaka,0:2,V-Varen Nagasaki,2,Fussball - Japan Nabisco Cup
+031,26.06. 12:00,AFC CL,Jeonbuk Hyu. KOR,1:1,SIPG Shanghai CHN,X,Fussball - AFC Champions League
+032,26.06. 13:00,AFC CL,Ulsan Hyundai KOR,0:3,Urawa RD JPN,2,Fussball - AFC Champions League
+033,26.06. 14:00,FS,FC Ingolstadt GER,3:1,SKN St. Pölten AUT,1,Fussball - Freundschaftsspiele International (Klub)
+034,26.06. 16:00,FS,FC Vaduz LIE,1:0,YB Bern SUI,1,Fussball - Freundschaftsspiele International (Klub)
+035,26.06. 16:30,AFR CUP,Nigeria,1:0,Guinea,1,Fussball - Afrika Cup
+036,26.06. 19:00,FS,1860 München GER*,1:5,FC Basel SUI,2,Fussball - Freundschaftsspiele International (Klub)
+037,26.06. 17:00,FS,Honved Budap. HUN*,3:0,WSG Sw.Tirol AUT,1,Fussball - Freundschaftsspiele International (Klub)
+038,26.06. 18:00,NOR CUP,Kfum Oslo,2:1,Tromsdalen UIL,1,Fussball - Norwegen Cup
+039,26.06. 18:00,NOR CUP,Viking FK,5:2,Stabaek IF,1,Fussball - Norwegen Cup
+040,26.06. 18:00,NOR CUP,Ranheim IL,4:0,SK Brann,1,Fussball - Norwegen Cup
+041,26.06. 18:00,NOR CUP,Kongsvinger IL Fot,0:3,Mjöndalen,2,Fussball - Norwegen Cup
+042,26.06. 18:00,NOR CUP,FK Haugesund,0:0,Strömmen IF,X,Fussball - Norwegen Cup
+043,26.06. 18:00,NOR CUP,Fram Larvik,3:1,Baerum,1,Fussball - Norwegen Cup
+044,26.06. 18:00,NOR CUP,Kristiansund BK,1:1,Odds BK,X,Fussball - Norwegen Cup
+045,26.06. 18:00,FS,FC Rostov RUS*,2:0,Spartak Moskau RUS,1,Fussball - Freundschaftsspiele International (Klub)
+046,26.06. 18:45,LAT 1,BFC Daugavpils,0:0,FS Metta LU,X,Fussball - Lettland LMT Virsliga
+047,26.06. 19:00,LAT 1,FC Riga,0:1,FK Jelgava,2,Fussball - Lettland LMT Virsliga
+048,26.06. 19:00,AFR CUP,Uganda,1:1,Simbabwe,X,Fussball - Afrika Cup
+049,26.06. 20:00,NOR CUP,Rosenborg BK,1:1,Aalesunds FK,X,Fussball - Norwegen Cup
+050,26.06. 20:00,ISL CUP,IBV Vestmannaeyjar,2:3,Vikingur Reykjavik,2,Fussball - Island Cup
+051,26.06. 21:15,ISL 2,Fram Reykjavik,2:1,Throttur Reykjavik,1,Fussball - Island 1. deild
+052,26.06. 22:00,AFR CUP,Ägypten,2:0,Kongo DR,1,Fussball - Afrika Cup
+053,26.06. 22:00,AFR CUP,Ägypten,2:1,Kongo DR+1,1,Fussball - Afrika Cup
+054,27.06. 00:30,G-CUP,Trinidad & Tobago,1:1,Guyana,X,Fussball - Gold Cup
+055,27.06. 01:00,USA MLS,New England Rev.,1:1,Philadelphia Union,X,Fussball - USA Major League Soccer
+056,27.06. 01:30,USA MLS,Montreal Impact,2:1,Portland Timbers,1,Fussball - USA Major League Soccer
+057,27.06. 02:00,USA MLS,DC United,1:0,Orlando City SC,1,Fussball - USA Major League Soccer
+058,27.06. 02:00,USA MLS,FC Toronto,3:2,Atlanta United FC,1,Fussball - USA Major League Soccer
+059,27.06. 03:00,G-CUP,Panama,0:1,USA,2,Fussball - Gold Cup
+060,27.06. 03:00,USA MLS,FC Dallas,2:2,Vancouver W'caps,X,Fussball - USA Major League Soccer
+061,27.06. 04:30,USA MLS,SJ Earthquakes,2:0,Houston Dynamo,1,Fussball - USA Major League Soccer
+062,27.06. 12:00,BB EMDA,Schweden,67:51,Montenegro,1,Basketball - Europameisterschaft Damen
+063,27.06. 14:30,BB EMDA,Frankreich,74:61,Tschechien,1,Basketball - Europameisterschaft Damen
+064,27.06. 16:00,BB EMDA,Ungarn,88:84,Slowenien,1,Basketball - Europameisterschaft Damen
+065,27.06. 16:30,AFR CUP,Madagaskar,1:0,Burundi,1,Fussball - Afrika Cup
+066,27.06. 17:30,BB EMDA,Großbritannien,74:60,Lettland,1,Basketball - Europameisterschaft Damen
+067,27.06. 17:45,BB EMDA,Russland,54:67,Belgien,2,Basketball - Europameisterschaft Damen
+068,27.06. 18:00,U21 EM,Deutschland U21,4:2,Rumänien U21,1,Fussball - U21 Europameisterschaft
+069,27.06. 18:00,FS,FC Krasnodar RUS*,1:0,ZSKA Moskau RUS,1,Fussball - Freundschaftsspiele International (Klub)
+070,27.06. 18:30,BB EMDA,Türkei,54:57,Italien,2,Basketball - Europameisterschaft Damen
+071,27.06. 19:00,AFR CUP,Senegal,0:1,Algerien,2,Fussball - Afrika Cup
+072,27.06. 19:30,EL,FC Barry Town WAL,0:0,Cliftonville NIR,X,Fussball - UEFA Europa League
+073,27.06. 19:30,EL,P. Niederkorn LUX,1:0,Cardiff M.U. WAL,1,Fussball - UEFA Europa League
+074,27.06. 20:00,EL,KI Klaksvik FRO,5:1,SP Tre Fiori SMR,1,Fussball - UEFA Europa League
+075,27.06. 20:00,EL,Sant Julia AND,3:2,Europa FC GIB,1,Fussball - UEFA Europa League
+076,27.06. 20:00,BB EMDA,Ukraine,77:95,Spanien,2,Basketball - Europameisterschaft Damen
+077,27.06. 20:30,BB EMDA,Weißrussland,53:55,Serbien,2,Basketball - Europameisterschaft Damen
+078,27.06. 20:45,EL,FC Pristina KOS,1:1,St. Joseph's GIB,X,Fussball - UEFA Europa League
+079,27.06. 20:45,EL,SP La Fiorita SMR,0:1,UE Engordany AND,2,Fussball - UEFA Europa League
+080,27.06. 20:45,EL,Ballymena NIR,2:0,NSI Runavik FRO,1,Fussball - UEFA Europa League
+081,27.06. 21:00,WM DAM,Norwegen Damen,0:3,England Damen,2,Fussball - Damen WM 2019 in Frankreich
+082,27.06. 21:00,WM DAM,Norwegen Damen+1,1:3,England Damen,2,Fussball - Damen WM 2019 in Frankreich
+083,27.06. 21:00,U21 EM,Spanien U21,4:1,Frankreich U21,1,Fussball - U21 Europameisterschaft
+084,27.06. 21:15,ISL 2,Keflavik IF,1:3,Leiknir Reykjavik,2,Fussball - Island 1. deild
+085,27.06. 21:15,ISL 2,Afturelding,0:3,Grotta,2,Fussball - Island 1. deild
+086,27.06. 21:15,ISL 3,UMF Tindastoll,0:0,Völsungur,X,Fussball - Island 2. Delid
+087,27.06. 21:15,ISL CUP,FH Hafnarfjördur,7:1,UMF Grindavik,1,Fussball - Island Cup
+088,27.06. 21:15,ISL CUP,Breidablik,2:2,Fylkir Reykjavik,X,Fussball - Island Cup
+089,27.06. 22:00,AFR CUP,Kenia,3:2,Tansania,1,Fussball - Afrika Cup
+090,28.06. 02:30,COPA AM,Brasilien,0:0,Paraguay,X,Fussball - Copa America

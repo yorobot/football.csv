@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,21.06. 12:30,KOR 1,Jeju United FC,1:2,Seongnam Ilhwa,2,Fussball - Südkorea K-League
+002,21.06. 13:35,CHN 1,Jiangsu Suning,0:1,Shenhua Shanghai,2,Fussball - China Chinese Super League
+003,21.06. 13:45,SIN 1,Balestier Khalsa,1:3,Albirex Niigata FC,2,Fussball - Singapur S.League
+004,21.06. 17:00,LAT 1,BFC Daugavpils,0:2,FK Jelgava,2,Fussball - Lettland LMT Virsliga
+005,21.06. 17:45,BLR 1,FC BGU Minsk,2:1,FC Torpedo Minsk,1,Fussball - Weißrussland Premier League
+006,21.06. 18:00,FS,Mattersburg AUT*,2:3,Kapfenberg AUT,2,Fussball - Freundschaftsspiele International (Klub)
+007,21.06. 18:00,LAT 1,Valmiera Fk,0:2,FS Metta LU,2,Fussball - Lettland LMT Virsliga
+008,21.06. 18:00,LAT 1,FC Riga,6:1,Spartaks Jurmala,1,Fussball - Lettland LMT Virsliga
+009,21.06. 18:30,U21 EM,England U21,2:4,Rumänien U21,2,Fussball - U21 Europameisterschaft
+010,21.06. 18:30,U21 EM,England U21,2:5,Rumänien U21+1,2,Fussball - U21 Europameisterschaft
+011,21.06. 18:30,EST 1,JK Tallinna Kalev,0:2,FC Flora Tallinn,2,Fussball - Estland Meistriliiga
+012,21.06. 19:45,BLR 1,FC Neman Grodno,1:3,FC Gorodeya,2,Fussball - Weißrussland Premier League
+013,21.06. 21:00,U21 EM,Frankreich U21,1:0,Kroatien U21,1,Fussball - U21 Europameisterschaft
+014,21.06. 21:00,U21 EM,Frankreich U21,1:1,Kroatien U21+1,X,Fussball - U21 Europameisterschaft
+015,21.06. 21:00,BB ESP,FC Barcelona Lassa,68:74,Real Madrid BC,2,Basketball - Spanien Spagnola ACB
+016,21.06. 22:00,AFR CUP,Ägypten,1:0,Simbabwe,1,Fussball - Afrika Cup
+017,22.06. 01:00,COPA AM,Ekuador,1:2,Chile,2,Fussball - Copa America
+018,22.06. 01:00,G-CUP,El Salvador,0:0,Jamaika,X,Fussball - Gold Cup
+019,22.06. 03:30,G-CUP,Honduras,0:1,Curacao,2,Fussball - Gold Cup
+020,22.06. 07:00,JPN 1,Hokkaido Consadole,3:1,Sagan Tosu,1,Fussball - Japan J.League
+021,22.06. 11:00,JPN 1,Yokohama F Marinos,1:0,Matsumoto Yamaga,1,Fussball - Japan J.League
+022,22.06. 11:00,JPN 1,Vissel Kobe,2:2,Oita Trinita,X,Fussball - Japan J.League
+023,22.06. 11:00,JPN 2,Mito Hollyhock,1:1,Yokohama FC,X,Fussball - Japan J.League 2
+024,22.06. 11:00,JPN 2,V-Varen Nagasaki,1:2,Montedio Yamagata,2,Fussball - Japan J.League 2
+025,22.06. 11:00,JPN 2,Zweigen Kanazawa,2:1,Niigata Albirex,1,Fussball - Japan J.League 2
+026,22.06. 11:00,JPN 2,FC Ryukyu,2:5,Ventforet Kofu,2,Fussball - Japan J.League 2
+027,22.06. 11:00,JPN 2,Tokushima Vortis,2:1,Avispa Fukuoka,1,Fussball - Japan J.League 2
+028,22.06. 12:00,JPN 2,Renofa Yamaguchi,4:0,FC Gifu,1,Fussball - Japan J.League 2
+029,22.06. 12:00,JPN 2,Kashiwa Reysol,2:0,JEF Utd Ichihara,1,Fussball - Japan J.League 2
+030,22.06. 12:00,JPN 2,Ehime FC,0:2,Kyoto Sanga FC,2,Fussball - Japan J.League 2
+031,22.06. 12:00,JPN 2,Tokyo Verdy,0:0,Omiya Ardija,X,Fussball - Japan J.League 2
+032,22.06. 12:00,JPN 2,Kagoshima United,2:0,Tochigi SC,1,Fussball - Japan J.League 2
+033,22.06. 12:00,JPN 1,Nagoya Grampus,1:2,Shimizu S-Pulse,2,Fussball - Japan J.League
+034,22.06. 12:00,JPN 1,Gamba Osaka,1:0,Shonan Bellmare,1,Fussball - Japan J.League
+035,22.06. 12:00,JPN 1,Cerezo Osaka,2:0,Jubilo Iwata,1,Fussball - Japan J.League
+036,22.06. 13:35,CHN 1,Guangzhou Ev.,2:1,Hebei China Fortun,1,Fussball - China Chinese Super League
+037,22.06. 15:30,NOR 2,Sandefjord Fotball,3:2,Ullensaker/Kisa,1,Fussball - Norwegen Adeccoligaen
+038,22.06. 15:30,NOR 2,IK Start,0:3,Notodden FK,2,Fussball - Norwegen Adeccoligaen
+039,22.06. 16:00,ISL 1,Breidablik,3:1,IBV Vestmannaeyjar,1,Fussball - Island Urvalsdeild
+040,22.06. 16:00,ISL 2,Vikingur Olafsvik,0:1,Fram Reykjavik,2,Fussball - Island 1. deild
+041,22.06. 16:30,AFR CUP,Kongo DR,0:2,Uganda,2,Fussball - Afrika Cup
+042,22.06. 17:30,WM DAM,Deutschland Damen,3:0,Nigeria Damen,1,Fussball - Damen WM 2019 in Frankreich
+043,22.06. 18:00,NOR 1,Strömsgodset,0:4,Molde FK,2,Fussball - Norwegen Tippeligaen
+044,22.06. 18:00,ISL 2,Grotta,4:1,Magni,1,Fussball - Island 1. deild
+045,22.06. 18:00,ISL 2,Thor Akureyri,0:0,Keflavik IF,X,Fussball - Island 1. deild
+046,22.06. 19:00,ISL 1,IA Akranes,0:2,HK Kopavogs,2,Fussball - Island Urvalsdeild
+047,22.06. 19:00,AFR CUP,Nigeria,1:0,Burundi,1,Fussball - Afrika Cup
+048,22.06. 21:00,WM DAM,Norwegen Damen,1:1,Australien Damen,X,Fussball - Damen WM 2019 in Frankreich
+049,22.06. 21:00,COPA AM,Peru,0:5,Brasilien,2,Fussball - Copa America
+050,22.06. 21:00,COPA AM,Bolivien,1:3,Venezuela,2,Fussball - Copa America
+051,22.06. 21:00,U21 EM,Spanien U21,5:0,Polen U21,1,Fussball - U21 Europameisterschaft
+052,22.06. 21:00,U21 EM,Spanien U21,5:1,Polen U21+1,1,Fussball - U21 Europameisterschaft
+053,22.06. 21:00,U21 EM,Belgien U21,1:3,Italien U21,2,Fussball - U21 Europameisterschaft
+054,22.06. 22:00,AFR CUP,Guinea,2:2,Madagaskar,X,Fussball - Afrika Cup
+055,22.06. 23:30,G-CUP,Guyana,2:4,Panama,2,Fussball - Gold Cup
+056,23.06. 01:30,G-CUP,USA,6:0,Trinidad & Tobago,1,Fussball - Gold Cup
+057,23.06. 01:30,USA MLS,FC Cincinnati,0:2,LA Galaxy,2,Fussball - USA Major League Soccer
+058,23.06. 02:00,USA MLS,FC Dallas,3:0,FC Toronto,1,Fussball - USA Major League Soccer
+059,23.06. 02:00,USA MLS,Chicago Fire,1:1,Real Salt Lake,X,Fussball - USA Major League Soccer
+060,23.06. 04:00,USA MLS,Vancouver W'caps,2:2,Colorado Rapids,X,Fussball - USA Major League Soccer
+061,23.06. 11:00,JPN 2,Machida Zelvia,1:1,Fagiano Okayama,X,Fussball - Japan J.League 2
+062,23.06. 12:00,JPN 1,Vegalta Sendai,2:0,FC Tokyo,1,Fussball - Japan J.League
+063,23.06. 15:00,NOR 1,Valerenga IF,1:1,Sarpsborg 08,X,Fussball - Norwegen Tippeligaen
+064,23.06. 15:00,SWE 2,Jönköpings Södra,2:0,Trelleborgs FF,1,Fussball - Schweden Superettan
+065,23.06. 15:00,SWE 2,Mjällby AIF,1:2,IK Brage,2,Fussball - Schweden Superettan
+066,23.06. 15:10,F1,"Hamilton, Lewis",Hamilto,"Vettel, Sebastian",1,Formel 1 - Formel 1
+067,23.06. 15:10,F1,"Bottas, Valtteri",Bottas,"Leclerc, Charles",1,Formel 1 - Formel 1
+068,23.06. 15:10,F1,"Ricciardo, Daniel",Sainz J,"Sainz Jr, Carlos",2,Formel 1 - Formel 1
+069,23.06. 16:30,AFR CUP,Marokko,1:0,Namibia,1,Fussball - Afrika Cup
+070,23.06. 17:30,WM DAM,England Damen,3:0,Kamerun Damen,1,Fussball - Damen WM 2019 in Frankreich
+071,23.06. 17:30,SWE 2,IF Brommapojkarna,0:0,Örgryte Göteborg,X,Fussball - Schweden Superettan
+072,23.06. 17:30,SWE 2,Halmstads BK,4:1,IK Frej,1,Fussball - Schweden Superettan
+073,23.06. 18:00,NOR 1,Viking FK,3:4,Bodö Glimt,2,Fussball - Norwegen Tippeligaen
+074,23.06. 18:00,NOR 1,Tromsö IL,1:0,Rosenborg BK,1,Fussball - Norwegen Tippeligaen
+075,23.06. 18:00,NOR 1,Odds BK,3:1,FK Haugesund,1,Fussball - Norwegen Tippeligaen
+076,23.06. 18:00,NOR 1,Ranheim IL,1:1,Mjöndalen,X,Fussball - Norwegen Tippeligaen
+077,23.06. 18:00,NOR 1,Kristiansund BK,0:1,Stabaek IF,2,Fussball - Norwegen Tippeligaen
+078,23.06. 18:00,NOR 2,Strömmen IF,2:0,Kongsvinger IL Fot,1,Fussball - Norwegen Adeccoligaen
+079,23.06. 18:00,NOR 2,Kfum Oslo,2:0,Ham-Kam,1,Fussball - Norwegen Adeccoligaen
+080,23.06. 18:00,NOR 2,Sandnes ULF,3:2,Tromsdalen UIL,1,Fussball - Norwegen Adeccoligaen
+081,23.06. 18:00,NOR 2,Nest-Sotra,4:1,FK Jerv,1,Fussball - Norwegen Adeccoligaen
+082,23.06. 18:00,NOR 2,Sogndal IL,4:2,Skeid Fotball,1,Fussball - Norwegen Adeccoligaen
+083,23.06. 18:00,NOR 2,Raufoss IL,2:1,Aalesunds FK,1,Fussball - Norwegen Adeccoligaen
+084,23.06. 18:00,ISL 1,Stjarnan Gardab.,5:1,Fylkir Reykjavik,1,Fussball - Island Urvalsdeild
+085,23.06. 18:00,ISL 1,Valur Reykjavik,1:0,UMF Grindavik,1,Fussball - Island Urvalsdeild
+086,23.06. 18:00,BB GER,Bayern München,76:76,Alba Berlin,X,Basketball - Deutschland BBL
+087,23.06. 19:00,AFR CUP,Senegal,2:0,Tansania,1,Fussball - Afrika Cup
+088,23.06. 19:00,ISL 1,KA Akureyri,3:4,Vikingur Reykjavik,2,Fussball - Island Urvalsdeild
+089,23.06. 20:00,NOR 1,SK Brann,1:0,Lilleström SK,1,Fussball - Norwegen Tippeligaen
+090,23.06. 21:00,WM DAM,Frankreich Damen,1:1,Brasilien Damen,X,Fussball - Damen WM 2019 in Frankreich
+091,23.06. 21:00,COPA AM,Katar,0:2,Argentinien,2,Fussball - Copa America
+092,23.06. 21:00,COPA AM,Kolumbien,1:0,Paraguay,1,Fussball - Copa America
+093,23.06. 21:00,U21 EM,Österreich U21,1:1,Deutschland U21,X,Fussball - U21 Europameisterschaft
+094,23.06. 21:00,U21 EM,Österreich U21+1,2:1,Deutschland U21,1,Fussball - U21 Europameisterschaft
+095,23.06. 21:00,U21 EM,Dänemark U21,2:0,Serbien U21,1,Fussball - U21 Europameisterschaft
+096,23.06. 21:00,ESP 2,RCD Mallorca,3:0,Dep. La Coruna,1,Fussball - Spanien Segunda Division
+097,23.06. 21:15,ISL 1,FH Hafnarfjördur,1:2,KR Reykjavik,2,Fussball - Island Urvalsdeild
+098,23.06. 22:00,AFR CUP,Algerien,2:0,Kenia,1,Fussball - Afrika Cup
+099,24.06. 00:00,G-CUP,Kanada,7:0,Kuba,1,Fussball - Gold Cup
+100,24.06. 02:00,G-CUP,Martinique+3,5:3,Mexiko,1,Fussball - Gold Cup
+101,24.06. 16:30,AFR CUP,Elfenbeinküste,1:0,Südafrika,1,Fussball - Afrika Cup
+102,24.06. 17:30,FIN 2,FC KTP,0:1,Haka Valkeakoski,2,Fussball - Finnland Ykkonen
+103,24.06. 18:00,WM DAM,Spanien Damen,1:2,USA Damen,2,Fussball - Damen WM 2019 in Frankreich
+104,24.06. 18:00,AFC C,AL Ahed LIB,0:0,AL Wehdat JOR JOR,X,Fussball - AFC Cup
+105,24.06. 19:00,AFR CUP,Tunesien,1:1,Angola,X,Fussball - Afrika Cup
+106,24.06. 19:00,SWE 2,GAIS Göteborg,0:3,Degerfors IF,2,Fussball - Schweden Superettan
+107,24.06. 19:00,SWE 2,Östers IF,1:1,Varbergs BoIS,X,Fussball - Schweden Superettan
+108,24.06. 19:00,SWE 2,Norrby IF,3:2,Syrianska FC,1,Fussball - Schweden Superettan
+109,24.06. 19:00,SWE 3S,Eskilsminne IF,2:1,Landskrona Bois,1,Fussball - Schweden Div 1 Södra
+110,24.06. 19:00,SWE 3S,IK Oddevold,3:1,IFK Värnamo,1,Fussball - Schweden Div 1 Södra
+111,24.06. 21:00,WM DAM,Schweden Damen,1:0,Kanada Damen,1,Fussball - Damen WM 2019 in Frankreich
+112,24.06. 21:00,U21 EM,Kroatien U21,3:3,England U21,X,Fussball - U21 Europameisterschaft
+113,24.06. 21:00,U21 EM,Kroatien U21+1,4:3,England U21,1,Fussball - U21 Europameisterschaft
+114,24.06. 21:00,U21 EM,Frankreich U21,0:0,Rumänien U21,X,Fussball - U21 Europameisterschaft
+115,24.06. 21:15,ISL 2,UMF Njardvik,1:5,Haukar Hafnarfj.,2,Fussball - Island 1. deild
+116,24.06. 22:00,AFR CUP,Mali,4:1,Mauretanien,1,Fussball - Afrika Cup
+117,25.06. 01:00,COPA AM,Chile,0:1,Uruguay,2,Fussball - Copa America
+118,25.06. 01:00,COPA AM,Ekuador,1:1,Japan,X,Fussball - Copa America
+119,25.06. 00:30,G-CUP,Bermuda,2:0,Nicaragua,1,Fussball - Gold Cup
+120,25.06. 03:00,G-CUP,Haiti,2:1,Costa Rica,1,Fussball - Gold Cup

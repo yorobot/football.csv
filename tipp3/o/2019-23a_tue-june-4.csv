@@ -1,0 +1,90 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,04.06. 14:00,TEN ATP,"Wawrinka, Stan",1:3,"Federer, Roger",2,Tennis - Tennis ATP
+002,04.06. 15:15,TEN ATP,"Nishikori, Kei",0:3,"Nadal, Rafael",2,Tennis - Tennis ATP
+003,04.06. 14:00,TEN WTA,"Stephens, Sloane",0:2,"Konta, Johanna",2,Tennis - Tennis WTA
+004,04.06. 19:10,TEN WTA,Vondrousova M.,2:0,"Martic, Petra",1,Tennis - Tennis WTA
+005,04.06. 17:30,U20 WM,Frankreich U20,2:3,USA U20,2,Fussball - U20 Weltmeisterschaft
+006,04.06. 17:30,U20 WM,Japan U20,0:1,Südkorea U20,2,Fussball - U20 Weltmeisterschaft
+007,04.06. 17:30,FIN 2,Haka Valkeakoski,2:0,Ekenäs IF,1,Fussball - Finnland Ykkonen
+008,04.06. 18:00,UKR 1,Karpaty Lemberg,0:0,Volyn Lutsk,X,Fussball - Ukraine Premier League
+009,04.06. 18:00,UKR 1,Chernom. Odessa,0:0,Kolos Kovalivka,X,Fussball - Ukraine Premier League
+010,04.06. 18:00,FIN 3,Kiffen,2:1,Järvenpään PS,1,Fussball - Finnland Kakkonen
+011,04.06. 20:20,HB AUT,Alpla HC Hard,26:24,UHK Krems,1,Handball - Österreich HLA
+012,04.06. 20:30,U20 WM,Argentinien U20,1:1,Mali U20,X,Fussball - U20 Weltmeisterschaft
+013,04.06. 20:30,BB GER,SC Rasta Vechta,71:89,Bayern München,2,Basketball - Deutschland BBL
+014,04.06. 21:00,ESP 2,Elche CF,0:0,Dep. La Coruna,X,Fussball - Spanien Segunda Division
+015,04.06. 21:00,ESP 2,Real Saragossa,0:0,Numancia CD,X,Fussball - Spanien Segunda Division
+016,04.06. 21:00,ESP 2,Albacete Balompie,1:2,Malaga CF,2,Fussball - Spanien Segunda Division
+017,04.06. 21:00,ESP 2,RCD Mallorca,1:1,Granada CF,X,Fussball - Spanien Segunda Division
+018,04.06. 21:00,ESP 2,Cadiz CF,0:1,UD Extremadura,2,Fussball - Spanien Segunda Division
+019,04.06. 21:00,ESP 2,Real Oviedo,4:3,R. Majadahonda,1,Fussball - Spanien Segunda Division
+020,05.06. 00:00,BRA 2,RB Bragantino SP,2:0,Sao Bento SP,1,Fussball - Brasilien Brasilero Serie B
+021,05.06. 02:30,BRA CUP,CR Flamengo RJ,1:0,Corinthians SP,1,Fussball - Brasilien Cup
+022,05.06. 12:30,INT FS,Japan,0:0,Trinidad & Tobago,X,Fussball - Internationale Freundschaftsspiele
+023,06.06. 14:30,TEN ATP,"Thiem, Dominic",3:0,"Khachanov, Karen",1,Tennis - Tennis ATP
+024,06.06. 14:30,TEN ATP,"Djokovic, Novak",3:0,"Zverev, Alexander",1,Tennis - Tennis ATP
+025,05.06. 15:00,NOR 3,Sotra SK,3:0,Mjolner FK,1,"Fussball - Norwegen 2. Division, avd. 2"
+026,05.06. 18:00,FS U21,Russland U21*,0:1,Tschechien U21,2,Fussball - U21 Freundschaftsspiele
+027,05.06. 18:45,HBWMQD,Deutschland,25:21,Kroatien,1,"Handball - Weltmeisterschaft, Qualifikation, Damen"
+028,05.06. 19:00,BB AUT,Swans Gmunden,65:71,Kapfenberg Bulls,2,Basketball - Österreich Basketball Superliga
+029,05.06. 20:15,HBWMQD,Montenegro,25:23,Tschechien,1,"Handball - Weltmeisterschaft, Qualifikation, Damen"
+030,05.06. 20:30,U21 EMQ,San Marino U21,0:3,Litauen U21,2,Fussball - U21 EM Qualifikation
+031,05.06. 20:30,BB GER,Alba Berlin,79:68,Oldenburg,1,Basketball - Deutschland BBL
+032,05.06. 20:45,UEFA NL,Portugal,3:1,Schweiz,1,Fussball - UEFA Nations League
+033,05.06. 20:45,UEFA NL,Portugal,3:2,Schweiz+1,1,Fussball - UEFA Nations League
+034,05.06. 20:45,ITA B,Salernitana Calcio,2:1,SSC Venezia,1,Fussball - Italien Serie B
+035,06.06. 00:15,BRA CUP,Cruzeiro EC MG,2:2,Fluminense RJ,X,Fussball - Brasilien Cup
+036,06.06. 00:15,BRA CUP,Atletico PR,1:0,Fortaleza EC CE,1,Fussball - Brasilien Cup
+037,06.06. 01:00,INT FS,USA,0:1,Jamaika,2,Fussball - Internationale Freundschaftsspiele
+038,06.06. 01:00,INT FS,Paraguay,1:1,Honduras,X,Fussball - Internationale Freundschaftsspiele
+039,06.06. 01:30,USA MLS,Montreal Impact,2:1,Seattle Sounders,1,Fussball - USA Major League Soccer
+040,06.06. 02:30,INT FS,Brasilien,2:0,Katar,1,Fussball - Internationale Freundschaftsspiele
+041,06.06. 03:00,INT FS,Peru,1:0,Costa Rica,1,Fussball - Internationale Freundschaftsspiele
+042,06.06. 03:00,NBA,Golden State W.,109:123,Toronto Raptors,2,Basketball - USA NBA
+043,06.06. 03:00,INT FS,Mexiko*,3:1,Venezuela,1,Fussball - Internationale Freundschaftsspiele
+044,06.06. 18:00,U21 EMQ,Färöer Inseln U21,1:3,Kasachstan U21,2,Fussball - U21 EM Qualifikation
+045,06.06. 18:00,NOR 3,Nardo,3:2,Bryne FK,1,"Fussball - Norwegen 2. Division, avd. 1"
+046,06.06. 19:00,HBWMQD,Polen,30:27,Serbien,1,"Handball - Weltmeisterschaft, Qualifikation, Damen"
+047,06.06. 18:30,U21 EMQ,Andorra U21,0:4,Kosovo U21,2,Fussball - U21 EM Qualifikation
+048,06.06. 19:00,U21 EMQ,Liechtenstein U21,1:0,Aserbaidschan U21,1,Fussball - U21 EM Qualifikation
+049,06.06. 19:00,AUT RLM,FC Gleisdorf,3:0,Union Vöcklamarkt,1,Fussball - Österreich Regionalliga Mitte
+050,06.06. 19:00,NOR 3,Fredrikstad FK,2:2,FK Vidar,X,"Fussball - Norwegen 2. Division, avd. 1"
+051,06.06. 20:45,UEFA NL,Niederlande*,1:1,England,X,Fussball - UEFA Nations League
+052,06.06. 20:45,UEFA NL,Niederlande,1:2,England+1,2,Fussball - UEFA Nations League
+053,06.06. 20:45,UEFA NL,Niederlande+1,2:1,England,1,Fussball - UEFA Nations League
+054,06.06. 21:45,HBWMQD,Island,32:31,Spanien,1,"Handball - Weltmeisterschaft, Qualifikation, Damen"
+055,07.06. 01:00,INT FS,Chile,2:1,Haiti,1,Fussball - Internationale Freundschaftsspiele
+056,07.06. 01:00,BRA CUP,Santos SP,1:2,Atletico MG,2,Fussball - Brasilien Cup
+057,07.06. 00:15,BRA 2,Atletico GO,1:0,Guarani FC SP,1,Fussball - Brasilien Brasilero Serie B
+058,07.06. 01:00,USA MLS,New York City FC,5:2,FC Cincinnati,1,Fussball - USA Major League Soccer
+059,07.06. 02:00,NHL,Boston Bruins,1:2,St. Louis Blues,2,Eishockey - USA NHL
+060,07.06. 20:45,EM Q,Österreich,1:0,Slowenien,1,Fussball - Europameisterschaft Qualifikation
+061,07.06. 20:45,EM Q,Österreich,1:1,Slowenien+1,X,Fussball - Europameisterschaft Qualifikation
+062,07.06. 20:45,EM Q,Österreich,1:2,Slowenien+2,2,Fussball - Europameisterschaft Qualifikation
+063,07.06. 20:45,EM Q,Montenegro,1:1,Kosovo,X,Fussball - Europameisterschaft Qualifikation
+064,07.06. 20:45,EM Q,Tschechien,2:1,Bulgarien,1,Fussball - Europameisterschaft Qualifikation
+065,07.06. 20:45,EM Q,Ukraine,5:0,Serbien,1,Fussball - Europameisterschaft Qualifikation
+066,07.06. 20:45,EM Q,Lettland,0:3,Israel,2,Fussball - Europameisterschaft Qualifikation
+067,07.06. 20:45,EM Q,Litauen,1:1,Luxemburg,X,Fussball - Europameisterschaft Qualifikation
+068,07.06. 20:45,EM Q,Dänemark,1:1,Irland,X,Fussball - Europameisterschaft Qualifikation
+069,07.06. 20:45,EM Q,Norwegen,2:2,Rumänien,X,Fussball - Europameisterschaft Qualifikation
+070,07.06. 20:45,EM Q,Nordmazedonien,0:1,Polen,2,Fussball - Europameisterschaft Qualifikation
+071,08.06. 15:00,EM Q,Kroatien,2:1,Wales,1,Fussball - Europameisterschaft Qualifikation
+072,08.06. 15:00,EM Q,Island,1:0,Albanien,1,Fussball - Europameisterschaft Qualifikation
+073,08.06. 18:00,EM Q,Estland,1:2,Nordirland,2,Fussball - Europameisterschaft Qualifikation
+074,08.06. 18:00,EM Q,Aserbaidschan,1:3,Ungarn,2,Fussball - Europameisterschaft Qualifikation
+075,08.06. 18:00,EM Q,Moldawien,1:0,Andorra,1,Fussball - Europameisterschaft Qualifikation
+076,08.06. 18:00,EM Q,Finnland,2:0,Bosnien-Herzegow.,1,Fussball - Europameisterschaft Qualifikation
+077,08.06. 18:00,EM Q,Armenien,3:0,Liechtenstein,1,Fussball - Europameisterschaft Qualifikation
+078,08.06. 20:45,EM Q,Weißrussland,0:2,Deutschland,2,Fussball - Europameisterschaft Qualifikation
+079,08.06. 20:45,EM Q,Türkei,2:0,Frankreich,1,Fussball - Europameisterschaft Qualifikation
+080,08.06. 20:45,EM Q,Schottland,2:1,Zypern,1,Fussball - Europameisterschaft Qualifikation
+081,08.06. 20:45,EM Q,Griechenland,0:3,Italien,2,Fussball - Europameisterschaft Qualifikation
+082,10.06. 20:45,EM Q,Tschechien,3:0,Montenegro,1,Fussball - Europameisterschaft Qualifikation
+083,10.06. 20:45,EM Q,Dänemark,5:1,Georgien,1,Fussball - Europameisterschaft Qualifikation
+084,10.06. 20:45,EM Q,Spanien,3:0,Schweden,1,Fussball - Europameisterschaft Qualifikation
+085,10.06. 20:45,EM Q,Färöer Inseln,0:2,Norwegen,2,Fussball - Europameisterschaft Qualifikation
+086,10.06. 20:45,EM Q,Polen,4:0,Israel,1,Fussball - Europameisterschaft Qualifikation
+087,10.06. 20:45,EM Q,Lettland,0:5,Slowenien,2,Fussball - Europameisterschaft Qualifikation
+088,10.06. 20:45,EM Q,Nordmazedonien,1:4,Österreich,2,Fussball - Europameisterschaft Qualifikation
+089,10.06. 20:45,EM Q,Nordmazedonien+1,2:4,Österreich,2,Fussball - Europameisterschaft Qualifikation

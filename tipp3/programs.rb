@@ -9,7 +9,7 @@ PROGRAMS = %w[
   24a_tue-june-11  24b_fri-june-14
   25a_tue-june-18  25b_fri-june-21
   26a_tue-june-25  26b_fri-june-28
-  27a_tue-july-2   27b_fri-july-7  
+  27a_tue-july-2   27b_fri-july-5
   28a_tue-july-9   28b_fri-july-12
   29a_tue-july-16  29b_fri-july-19
   30a_tue-july-23  30b_fri-july-26
@@ -58,7 +58,7 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
   'AUT DA',     # Österreich Frauen Bundesliga
-  
+
   ## misc
    'FS',       # Freundschaftsspiele International (Klub)
 ]

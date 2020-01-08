@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,07.06. 11:00,TEN WTA,"Barty, Ashleigh",2:1,"Anisimova, Am.",1,Tennis - Tennis WTA
+002,07.06. 12:50,TEN ATP,"Federer, Roger",0:3,"Nadal, Rafael",2,Tennis - Tennis ATP
+003,08.06. 11:59,TEN ATP,"Djokovic, Novak",2:3,"Thiem, Dominic",2,Tennis - Tennis ATP
+004,07.06. 13:00,INT FS,Südkorea,1:0,Australien,1,Fussball - Internationale Freundschaftsspiele
+005,07.06. 11:00,TEN WTA,"Konta, Johanna",0:2,Vondrousova M.,2,Tennis - Tennis WTA
+006,07.06. 15:30,U20 WM,Kolumbien U20,0:1,Ukraine U20,2,Fussball - U20 Weltmeisterschaft
+007,07.06. 18:00,EM Q,Georgien,3:3,Gibraltar+3,X,Fussball - Europameisterschaft Qualifikation
+008,07.06. 18:00,AUT RLO,ASK Ebreichsdorf,6:1,SV Leobendorf,1,Fussball - Österreich Regionalliga Ost
+009,07.06. 18:00,AUT RLW,SC Schwaz,0:6,USK Anif,2,Fussball - Österreich Regionalliga West
+010,07.06. 18:00,AUT RLW,SV Grödig,2:2,FC Kitzbühel,X,Fussball - Österreich Regionalliga West
+011,07.06. 18:00,AUT RLW,FC Dornbirn,2:1,FC Kufstein,1,Fussball - Österreich Regionalliga West
+012,07.06. 18:30,U20 WM,Italien U20,4:2,Mali U20,1,Fussball - U20 Weltmeisterschaft
+013,07.06. 18:30,FS U21,Schweden U21,3:1,Norwegen U21,1,Fussball - U21 Freundschaftsspiele
+014,07.06. 18:45,AUT RLO,Bruck/Leitha,0:2,FC Stadlau,2,Fussball - Österreich Regionalliga Ost
+015,07.06. 18:45,AUT RLO,SC Neusiedl,2:3,FC Mauerwerk,2,Fussball - Österreich Regionalliga Ost
+016,07.06. 18:45,AUT RLO,Rapid Wien Am.,1:1,Admira Amateure,X,Fussball - Österreich Regionalliga Ost
+017,07.06. 18:45,AUT RLO,FCM Traiskirchen,5:1,SV Mattersburg Am.,1,Fussball - Österreich Regionalliga Ost
+018,07.06. 18:45,AUT RLO,SC Team Wr. Linien,2:2,Wiener Sportklub,X,Fussball - Österreich Regionalliga Ost
+019,07.06. 18:45,AUT RLW,SV Seekirchen,4:0,SV Wörgl,1,Fussball - Österreich Regionalliga West
+020,07.06. 18:45,AUT RLM,Sturm Graz Amat.,4:1,WSC Hertha Wels,1,Fussball - Österreich Regionalliga Mitte
+021,07.06. 18:45,AUT RLM,Deutschlandsberg,3:1,WAC Amateure,1,Fussball - Österreich Regionalliga Mitte
+022,07.06. 20:30,INT FS,Slowakei,5:1,Jordanien,1,Fussball - Internationale Freundschaftsspiele
+023,07.06. 20:45,EM Q,Montenegro,1:1,Kosovo,X,Fussball - Europameisterschaft Qualifikation
+024,07.06. 20:45,EM Q,Tschechien,2:1,Bulgarien,1,Fussball - Europameisterschaft Qualifikation
+025,07.06. 20:45,EM Q,Ukraine,5:0,Serbien,1,Fussball - Europameisterschaft Qualifikation
+026,07.06. 20:45,EM Q,Litauen,1:1,Luxemburg,X,Fussball - Europameisterschaft Qualifikation
+027,07.06. 20:45,EM Q,Dänemark,1:1,Irland,X,Fussball - Europameisterschaft Qualifikation
+028,07.06. 20:45,EM Q,Norwegen,2:2,Rumänien,X,Fussball - Europameisterschaft Qualifikation
+029,07.06. 20:45,EM Q,Färöer Inseln+4,5:4,Spanien,1,Fussball - Europameisterschaft Qualifikation
+030,07.06. 20:45,EM Q,Schweden,3:3,Malta+3,X,Fussball - Europameisterschaft Qualifikation
+031,07.06. 20:45,EM Q,Lettland,0:3,Israel,2,Fussball - Europameisterschaft Qualifikation
+032,07.06. 20:45,EM Q,Nordmazedonien,0:1,Polen,2,Fussball - Europameisterschaft Qualifikation
+033,07.06. 20:45,EM Q,Österreich,1:0,Slowenien,1,Fussball - Europameisterschaft Qualifikation
+034,07.06. 20:45,EM Q,Österreich,1:1,Slowenien+1,X,Fussball - Europameisterschaft Qualifikation
+035,07.06. 20:45,EM Q,Österreich,1:2,Slowenien+2,2,Fussball - Europameisterschaft Qualifikation
+036,07.06. 21:00,WM DAM,Frankreich Damen,4:0,Südkorea Damen,1,Fussball - Damen WM 2019 in Frankreich
+037,08.06. 01:15,INT FS,Uruguay,3:0,Panama,1,Fussball - Internationale Freundschaftsspiele
+038,08.06. 01:00,USA MLS,FC Toronto,2:2,Sp. Kansas City,X,Fussball - USA Major League Soccer
+039,08.06. 01:30,BRA 1,Vasco Da Gama RJ,2:1,Internacional RS,1,Fussball - Brasilien Brasilero Serie A
+040,08.06. 03:00,NBA,Golden State W.,92:105,Toronto Raptors,2,Basketball - USA NBA
+041,08.06. 15:00,EM Q,Kroatien,2:1,Wales,1,Fussball - Europameisterschaft Qualifikation
+042,08.06. 15:00,EM Q,Island,1:0,Albanien,1,Fussball - Europameisterschaft Qualifikation
+043,08.06. 15:00,WM DAM,Deutschland Damen,1:0,China Damen,1,Fussball - Damen WM 2019 in Frankreich
+044,08.06. 16:30,TEN WTA,"Barty, Ashleigh",2:0,Vondrousova M.,1,Tennis - Tennis WTA
+045,08.06. 16:00,SWE 2,Trelleborgs FF,0:0,Degerfors IF,X,Fussball - Schweden Superettan
+046,08.06. 16:00,SWE 2,Vasteraas SK,2:0,IK Frej,1,Fussball - Schweden Superettan
+047,08.06. 16:00,SWE 2,IF Brommapojkarna,1:1,Mjällby AIF,X,Fussball - Schweden Superettan
+048,08.06. 17:00,DA CUP,St. Pölten Damen,2:4,Landhaus Damen+4,2,Fussball - Österreich Damen Cup
+049,08.06. 17:30,U20 WM,USA U20,1:2,Ekuador U20,2,Fussball - U20 Weltmeisterschaft
+050,08.06. 18:00,EM Q,Estland,1:2,Nordirland,2,Fussball - Europameisterschaft Qualifikation
+051,08.06. 18:00,EM Q,Aserbaidschan,1:3,Ungarn,2,Fussball - Europameisterschaft Qualifikation
+052,08.06. 18:00,EM Q,Moldawien,1:0,Andorra,1,Fussball - Europameisterschaft Qualifikation
+053,08.06. 18:00,EM Q,Russland,9:5,San Marino+5,1,Fussball - Europameisterschaft Qualifikation
+054,08.06. 18:00,EM Q,Finnland,2:0,Bosnien-Herzegow.,1,Fussball - Europameisterschaft Qualifikation
+055,08.06. 18:00,EM Q,Armenien,3:0,Liechtenstein,1,Fussball - Europameisterschaft Qualifikation
+056,08.06. 20:20,HB AUT,UHK Krems,27:22,Alpla HC Hard,1,Handball - Österreich HLA
+057,08.06. 20:30,ESP 2,Granada CF,2:1,Alcorcon AD,1,Fussball - Spanien Segunda Division
+058,08.06. 20:30,ESP 2,Dep. La Coruna,2:0,Cordoba CF,1,Fussball - Spanien Segunda Division
+059,08.06. 20:30,ESP 2,Malaga CF,3:0,Elche CF,1,Fussball - Spanien Segunda Division
+060,08.06. 20:30,ESP 2,UD Extremadura,0:0,RCD Mallorca,X,Fussball - Spanien Segunda Division
+061,08.06. 20:30,U20 WM,Südkorea U20,2:2,Senegal U20,X,Fussball - U20 Weltmeisterschaft
+062,08.06. 20:45,EM Q,Weißrussland,0:2,Deutschland,2,Fussball - Europameisterschaft Qualifikation
+063,08.06. 20:45,EM Q,Türkei,2:0,Frankreich,1,Fussball - Europameisterschaft Qualifikation
+064,08.06. 20:45,EM Q,Schottland,2:1,Zypern,1,Fussball - Europameisterschaft Qualifikation
+065,08.06. 20:45,EM Q,Belgien,3:4,Kasachstan+4,2,Fussball - Europameisterschaft Qualifikation
+066,08.06. 20:45,EM Q,Griechenland,0:3,Italien,2,Fussball - Europameisterschaft Qualifikation
+067,08.06. 21:00,WM DAM,Norwegen Damen,3:0,Nigeria Damen,1,Fussball - Damen WM 2019 in Frankreich
+068,08.06. 21:30,USA MLS,SJ Earthquakes,2:2,FC Dallas,X,Fussball - USA Major League Soccer
+069,08.06. 21:30,BRA 1,SE Palmeiras SP,1:0,Atletico PR,1,Fussball - Brasilien Brasilero Serie A
+070,09.06. 00:00,BRA 1,Gremio RS,1:0,Fortaleza EC CE,1,Fussball - Brasilien Brasilero Serie A
+071,09.06. 00:00,BRA 1,Cruzeiro EC MG,0:0,Corinthians SP,X,Fussball - Brasilien Brasilero Serie A
+072,09.06. 00:30,BRA 1,Ceara SC CE,0:0,EC Bahia BA,X,Fussball - Brasilien Brasilero Serie A
+073,09.06. 01:30,USA MLS,Philadelphia Union,3:2,NY Red Bulls,1,Fussball - USA Major League Soccer
+074,09.06. 02:00,BRA 1,Avai FC SC,0:0,Sao Paulo SP,X,Fussball - Brasilien Brasilero Serie A
+075,09.06. 03:00,USA MLS,Colorado Rapids,1:0,FC Minnesota Utd.,1,Fussball - USA Major League Soccer
+076,09.06. 12:00,INT FS,Japan,2:0,El Salvador,1,Fussball - Internationale Freundschaftsspiele
+077,09.06. 13:00,WM DAM,Australien Damen,1:2,Italien Damen,2,Fussball - Damen WM 2019 in Frankreich
+078,09.06. 15:00,UEFA NL,Schweiz*,0:0,England,X,Fussball - UEFA Nations League
+079,09.06. 15:00,TEN ATP,"Thiem, Dominic",1:3,"Nadal, Rafael",2,Tennis - Tennis ATP
+080,09.06. 15:30,WM DAM,Brasilien Damen,3:0,Jamaika Damen,1,Fussball - Damen WM 2019 in Frankreich
+081,09.06. 17:30,SWE 2,Dalkurd FF,1:0,Halmstads BK,1,Fussball - Schweden Superettan
+082,09.06. 17:30,FIN 2,AC Oulu,0:0,FF Jaro,X,Fussball - Finnland Ykkonen
+083,09.06. 17:30,FIN 2,AC Kajaani,0:0,Haka Valkeakoski,X,Fussball - Finnland Ykkonen
+084,09.06. 17:30,FIN 2,Musa Pori,1:3,Ekenäs IF,2,Fussball - Finnland Ykkonen
+085,09.06. 17:30,FIN 2,Mypa Myllykoski,1:1,TPV Tampere,X,Fussball - Finnland Ykkonen
+086,09.06. 18:00,WM DAM,England Damen,2:1,Schottland Damen,1,Fussball - Damen WM 2019 in Frankreich
+087,09.06. 18:00,ITA B,SSC Venezia,1:0,Salernitana Calcio,1,Fussball - Italien Serie B
+088,09.06. 20:00,INT FS,USA,0:3,Venezuela,2,Fussball - Internationale Freundschaftsspiele
+089,09.06. 20:10,F1,"Hamilton, Lewis",Hamilto,"Vettel, Sebastian",1,Formel 1 - Formel 1
+090,09.06. 20:10,F1,"Bottas, Valtteri",Leclerc,"Leclerc, Charles",2,Formel 1 - Formel 1
+091,09.06. 20:10,F1,"Sainz Jr, Carlos",Sainz J,"Perez, Sergio",1,Formel 1 - Formel 1
+092,09.06. 18:30,ESP 2,Gimn. Tarragona,1:1,CD Lugo,X,Fussball - Spanien Segunda Division
+093,09.06. 20:30,ESP 2,Teneriffa CD,1:0,Real Saragossa,1,Fussball - Spanien Segunda Division
+094,09.06. 20:00,ESP 2,Numancia CD,1:1,Las Palmas UD,X,Fussball - Spanien Segunda Division
+095,09.06. 20:45,UEFA NL,Portugal,1:0,Niederlande,1,Fussball - UEFA Nations League
+096,09.06. 23:00,INT FS,Peru,0:3,Kolumbien,2,Fussball - Internationale Freundschaftsspiele
+097,09.06. 23:00,INT FS,Paraguay,2:0,Guatemala,1,Fussball - Internationale Freundschaftsspiele
+098,10.06. 00:00,BRA 1,Fluminense RJ,0:0,CR Flamengo RJ,X,Fussball - Brasilien Brasilero Serie A
+099,10.06. 00:00,BRA 1,Santos SP,3:1,Atletico MG,1,Fussball - Brasilien Brasilero Serie A
+100,10.06. 00:00,BRA 1,CS Alagoano AL,1:2,Botafogo FR RJ,2,Fussball - Brasilien Brasilero Serie A
+101,10.06. 01:00,INT FS,Mexiko*,3:2,Ekuador,1,Fussball - Internationale Freundschaftsspiele
+102,10.06. 02:00,NHL,St. Louis Blues,1:5,Boston Bruins,2,Eishockey - USA NHL
+103,10.06. 17:30,FIN 2,FC KTP,0:3,TPS Juniorijalkapa,2,Fussball - Finnland Ykkonen
+104,10.06. 20:45,EM Q,Tschechien,3:0,Montenegro,1,Fussball - Europameisterschaft Qualifikation
+105,10.06. 20:45,EM Q,Bulgarien,2:3,Kosovo,2,Fussball - Europameisterschaft Qualifikation
+106,10.06. 20:45,EM Q,Ukraine,1:2,Luxemburg+2,2,Fussball - Europameisterschaft Qualifikation
+107,10.06. 20:45,EM Q,Serbien,4:3,Litauen+2,1,Fussball - Europameisterschaft Qualifikation
+108,10.06. 20:45,EM Q,Irland,2:4,Gibraltar+4,2,Fussball - Europameisterschaft Qualifikation
+109,10.06. 20:45,EM Q,Dänemark,5:1,Georgien,1,Fussball - Europameisterschaft Qualifikation
+110,10.06. 20:45,EM Q,Spanien,3:0,Schweden,1,Fussball - Europameisterschaft Qualifikation
+111,10.06. 20:45,EM Q,Malta,0:4,Rumänien,2,Fussball - Europameisterschaft Qualifikation
+112,10.06. 20:45,EM Q,Färöer Inseln,0:2,Norwegen,2,Fussball - Europameisterschaft Qualifikation
+113,10.06. 20:45,EM Q,Polen,4:0,Israel,1,Fussball - Europameisterschaft Qualifikation
+114,10.06. 20:45,EM Q,Lettland,0:5,Slowenien,2,Fussball - Europameisterschaft Qualifikation
+115,10.06. 20:45,EM Q,Nordmazedonien,1:4,Österreich,2,Fussball - Europameisterschaft Qualifikation
+116,10.06. 20:45,EM Q,Nordmazedonien+1,2:4,Österreich,2,Fussball - Europameisterschaft Qualifikation
+117,10.06. 21:00,WM DAM,Kanada Damen,1:0,Kamerun Damen,1,Fussball - Damen WM 2019 in Frankreich
+118,11.06. 01:00,BRA 1,Goias EC GO,3:1,Chapecoense SC,1,Fussball - Brasilien Brasilero Serie A
+119,11.06. 01:00,BRA 2,Londrina EC PR,1:3,AA Ponte Preta SP,2,Fussball - Brasilien Brasilero Serie B
+120,11.06. 03:00,NBA,Toronto Raptors,105:106,Golden State W.,2,Basketball - USA NBA

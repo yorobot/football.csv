@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,16.08. 18:00,DEN 1,Randers FC,0:1,FC Kopenhagen,2,Fussball - Dänemark Superligaen
+002,16.08. 18:00,CZE 1,SK Dynamo Budweis,0:3,SK Slavia Prag,2,Fussball - Tschechien Gambrinus Liga
+003,16.08. 18:30,GER 2,Hamburger SV,1:0,VfL Bochum,1,Fussball - Deutschland 2. Bundesliga
+004,16.08. 18:30,GER 2,SV Sandhausen,3:2,1. FC Nürnberg,1,Fussball - Deutschland 2. Bundesliga
+005,16.08. 19:00,GER 3,Chemnitzer FC,0:0,FC Magdeburg,X,Fussball - Deutschland 3. Liga
+006,16.08. 19:00,AUT RLO,Rapid Wien Am.,1:0,SC Neusiedl,1,Fussball - Österreich Regionalliga Ost
+007,16.08. 19:00,AUT RLO,Bruck/Leitha,2:3,SC Team Wr. Linien,2,Fussball - Österreich Regionalliga Ost
+008,16.08. 19:00,AUT RLM,SV Allerheiligen,1:3,Bad Gleichenberg,2,Fussball - Österreich Regionalliga Mitte
+009,16.08. 19:00,AUT RLM,Deutschlandsberg,4:2,SV Ried II,1,Fussball - Österreich Regionalliga Mitte
+010,16.08. 19:00,AUT RLM,Sturm Graz Amat.,2:1,WAC Amateure,1,Fussball - Österreich Regionalliga Mitte
+011,16.08. 19:00,AUT RLM,ATSV Wolfsberg,1:2,SC Weiz,2,Fussball - Österreich Regionalliga Mitte
+012,16.08. 19:10,AUT 2,SK Vorwärts Steyr,1:0,Floridsdorfer AC,1,Fussball - Österreich Zweite Liga
+013,16.08. 19:10,AUT 2,Kapfenberger SV,1:2,Austria Klagenfurt,2,Fussball - Österreich Zweite Liga
+014,16.08. 19:10,AUT 2,Wacker Innsbruck,2:1,FC Juniors OÖ,1,Fussball - Österreich Zweite Liga
+015,16.08. 19:10,AUT 2,FC Liefering,3:2,SV Horn,1,Fussball - Österreich Zweite Liga
+016,16.08. 19:10,AUT 2,BW Linz,4:3,Young Violets A.W.,1,Fussball - Österreich Zweite Liga
+017,16.08. 19:10,AUT 2,SV Lafnitz,0:1,SV Ried,2,Fussball - Österreich Zweite Liga
+018,16.08. 19:10,AUT 2,SKU Amstetten,0:2,FC Dornbirn,2,Fussball - Österreich Zweite Liga
+019,16.08. 19:30,AUT RLO,ASK Ebreichsdorf,3:1,Wiener Sportklub,1,Fussball - Österreich Regionalliga Ost
+020,16.08. 19:30,AUT RLO,FC Mauerwerk,0:2,SV Mattersburg Am.,2,Fussball - Österreich Regionalliga Ost
+021,16.08. 19:30,AUT RLO,Mannsdorf-Großenz.,1:0,FCM Traiskirchen,1,Fussball - Österreich Regionalliga Ost
+022,16.08. 19:30,AUT RLO,ASV Draßburg,1:0,Admira Amateure,1,Fussball - Österreich Regionalliga Ost
+023,16.08. 19:30,RL TIR,SV Wörgl,6:1,FC Kufstein,1,Fussball - Regionalliga Tirol
+024,16.08. 19:30,TUR 1,Denizlispor,2:0,Galatasaray,1,Fussball - Türkei Süper Lig
+025,16.08. 20:00,NL 1,Vitesse Arnheim,3:0,FC Zwolle,1,Fussball - Niederlande Eredivisie
+026,16.08. 20:00,DEN 1,FC Nordsjaelland,2:0,Odense BK,1,Fussball - Dänemark Superligaen
+027,16.08. 20:30,GER BL,FC Bayern München,2:2,Hertha BSC,X,Fussball - Deutschland Bundesliga
+028,16.08. 20:30,GER BL,FC Bayern München,2:3,Hertha BSC+1,2,Fussball - Deutschland Bundesliga
+029,16.08. 20:30,POL 1,Wisla Krakau,4:0,LKS Lodz PSS,1,Fussball - Polen Orange Ekstraklasa
+030,16.08. 20:45,ENG CS,Huddersfield Town,1:2,FC Fulham,2,Fussball - England Championship
+031,16.08. 20:45,SCO LC,FC Motherwell,1:2,Heart of Midl.,2,Fussball - Schottland League Cup
+032,16.08. 20:45,FRA 1,Olympique Lyon,6:0,SCO Angers,1,Fussball - Frankreich Ligue 1
+033,16.08. 21:00,ESP 1,Athletic Bilbao,1:0,FC Barcelona,1,Fussball - Spanien Primera Division
+034,16.08. 21:30,POR 1,FC Famalicao,1:0,Rio Ave FC,1,Fussball - Portugal Primeira Liga
+035,17.08. 13:00,GER 2,VfB Stuttgart,2:1,FC St. Pauli,1,Fussball - Deutschland 2. Bundesliga
+036,17.08. 13:00,GER 2,Arminia Bielefeld,3:1,Erzgebirge Aue,1,Fussball - Deutschland 2. Bundesliga
+037,17.08. 13:00,GER 2,Wehen Wiesbaden,0:3,Hannover 96,2,Fussball - Deutschland 2. Bundesliga
+038,17.08. 13:30,ENG PL,FC Arsenal,2:1,FC Burnley,1,Fussball - England Premier League
+039,17.08. 15:30,GER BL,Bor. Dortmund,5:1,FC Augsburg,1,Fussball - Deutschland Bundesliga
+040,17.08. 15:30,GER BL,VfL Wolfsburg,2:1,1. FC Köln,1,Fussball - Deutschland Bundesliga
+041,17.08. 15:30,GER BL,VfL Wolfsburg,2:2,1. FC Köln+1,X,Fussball - Deutschland Bundesliga
+042,17.08. 15:30,GER BL,Bayer Leverkusen,3:2,SC Paderborn,1,Fussball - Deutschland Bundesliga
+043,17.08. 15:30,GER BL,Werder Bremen,1:3,Fortuna Düsseldorf,2,Fussball - Deutschland Bundesliga
+044,17.08. 15:30,GER BL,SC Freiburg,3:0,FSV Mainz 05,1,Fussball - Deutschland Bundesliga
+045,17.08. 16:00,ENG PL,Aston Villa,1:2,AFC Bournemouth,2,Fussball - England Premier League
+046,17.08. 16:00,ENG PL,Brighton & Hove,1:1,West Ham United,X,Fussball - England Premier League
+047,17.08. 16:00,ENG PL,FC Everton,1:0,FC Watford,1,Fussball - England Premier League
+048,17.08. 16:00,ENG PL,Norwich City,3:1,Newcastle United,1,Fussball - England Premier League
+049,17.08. 16:00,ENG PL,FC Southampton,1:2,FC Liverpool,2,Fussball - England Premier League
+050,17.08. 17:00,AUT BL,LASK Linz,1:1,WSG Swarovs. Tirol,X,Fussball - Österreich Bundesliga
+051,17.08. 17:00,AUT BL,Wolfsberger AC,5:0,SV Mattersburg,1,Fussball - Österreich Bundesliga
+052,17.08. 17:00,AUT BL,SKN St. Pölten,0:6,Red Bull Salzburg,2,Fussball - Österreich Bundesliga
+053,17.08. 17:00,ESP 1,Celta de Vigo,1:3,Real Madrid,2,Fussball - Spanien Primera Division
+054,17.08. 17:30,FRA 1,FC Nantes,0:0,Olymp. Marseille,X,Fussball - Frankreich Ligue 1
+055,17.08. 18:00,NOR 1,Odds BK,1:1,Rosenborg BK,X,Fussball - Norwegen Tippeligaen
+056,17.08. 18:30,GER BL,Mönchengladbach,0:0,FC Schalke 04,X,Fussball - Deutschland Bundesliga
+057,17.08. 18:30,ENG PL,Manchester City,2:2,Tottenham,X,Fussball - England Premier League
+058,17.08. 19:00,ESP 1,FC Valencia,1:1,Real Sociedad,X,Fussball - Spanien Primera Division
+059,17.08. 20:00,ESP 1,RCD Mallorca,2:1,SD Eibar,1,Fussball - Spanien Primera Division
+060,17.08. 20:00,POR 1,Belenenses L.,0:2,Benfica Lissabon,2,Fussball - Portugal Primeira Liga
+061,17.08. 20:00,FRA 1,FC Metz,3:0,AS Monaco,1,Fussball - Frankreich Ligue 1
+062,17.08. 20:00,FRA 1,FC Toulouse,1:0,Dijon Football,1,Fussball - Frankreich Ligue 1
+063,17.08. 20:00,FRA 1,Olympique Nimes,1:2,OGC Nizza,2,Fussball - Frankreich Ligue 1
+064,17.08. 20:00,FRA 1,Amiens SC,1:0,Lille OSC,1,Fussball - Frankreich Ligue 1
+065,17.08. 20:00,FRA 1,Bordeaux,1:1,HSC Montpellier,X,Fussball - Frankreich Ligue 1
+066,17.08. 20:45,TUR 1,Sivasspor,3:0,Besiktas Istanbul,1,Fussball - Türkei Süper Lig
+067,17.08. 21:00,ESP 1,CD Leganes,0:1,CA Osasuna,2,Fussball - Spanien Primera Division
+068,17.08. 21:00,ESP 1,Villarreal CF,4:4,Granada CF,X,Fussball - Spanien Primera Division
+069,17.08. 22:30,POR 1,FC Porto,4:0,Vitoria Setubal,1,Fussball - Portugal Primeira Liga
+070,18.08. 10:30,AUT 2,Austria Lustenau,0:2,Grazer AK,2,Fussball - Österreich Zweite Liga
+071,18.08. 13:30,GER 2,Holstein Kiel,2:1,Karlsruher SC,1,Fussball - Deutschland 2. Bundesliga
+072,18.08. 13:30,GER 2,Dynamo Dresden,2:1,FC Heidenheim,1,Fussball - Deutschland 2. Bundesliga
+073,18.08. 13:30,GER 2,Greuther Fürth,1:0,Jahn Regensburg,1,Fussball - Deutschland 2. Bundesliga
+074,18.08. 15:00,ENG PL,Sheffield United,1:0,Crystal Palace,1,Fussball - England Premier League
+075,18.08. 15:00,FRA 1,AS Saint Etienne,1:1,Stade Brest,X,Fussball - Frankreich Ligue 1
+076,18.08. 15:00,AUT DA,SV Neulengbach,0:4,Sturm Graz Damen,2,Fussball - Österreich Frauen Bundesliga
+077,18.08. 15:30,GER BL,Eintr. Frankfurt,1:0,TSG Hoffenheim,1,Fussball - Deutschland Bundesliga
+078,18.08. 16:45,NL 1,Feyenoord,1:1,FC Utrecht,X,Fussball - Niederlande Eredivisie
+079,18.08. 17:00,AUT BL,FK Austria Wien,1:1,Admira Wacker,X,Fussball - Österreich Bundesliga
+080,18.08. 17:00,AUT BL,SK Sturm Graz,0:1,SK Rapid Wien,2,Fussball - Österreich Bundesliga
+081,18.08. 17:00,AUT BL,SK Sturm Graz,0:2,SK Rapid Wien+1,2,Fussball - Österreich Bundesliga
+082,18.08. 17:00,AUT BL,SK Sturm Graz+1,1:1,SK Rapid Wien,X,Fussball - Österreich Bundesliga
+083,18.08. 17:00,AUT BL,SCR Altach,3:3,TSV Hartberg,X,Fussball - Österreich Bundesliga
+084,18.08. 17:00,ESP 1,CD Alaves,1:0,Levante UD,1,Fussball - Spanien Primera Division
+085,18.08. 17:00,FRA 1,Stade de Reims,0:0,Racing Strasbourg,X,Fussball - Frankreich Ligue 1
+086,18.08. 17:30,ENG PL,FC Chelsea,1:1,Leicester City,X,Fussball - England Premier League
+087,18.08. 18:00,GER BL,FC Union Berlin,0:4,RB Leipzig,2,Fussball - Deutschland Bundesliga
+088,18.08. 18:00,RUS PL,Dinamo Moskau,1:2,Lok Moskau,2,Fussball - Russland Premier League
+089,18.08. 19:00,ESP 1,Espanyol Barcelona,0:2,FC Sevilla,2,Fussball - Spanien Primera Division
+090,18.08. 20:00,NL 1,Heracles Almelo,0:2,PSV Eindhoven,2,Fussball - Niederlande Eredivisie
+091,18.08. 20:45,TUR 1,Yeni Malatyaspor,3:0,Istanbul Basakseh.,1,Fussball - Türkei Süper Lig
+092,18.08. 20:45,TUR 1,Kasimpasa,1:1,Trabzonspor,X,Fussball - Türkei Süper Lig
+093,18.08. 21:00,FRA 1,Stade Rennes,2:1,Paris SG,1,Fussball - Frankreich Ligue 1
+094,18.08. 21:00,ESP 1,Betis Sevilla,1:2,Real Valladolid,2,Fussball - Spanien Primera Division
+095,18.08. 22:00,ESP 1,Atletico Madrid,1:0,Getafe CF,1,Fussball - Spanien Primera Division
+096,18.08. 22:00,POR 1,Sporting Lissabon,2:1,Sporting Braga,1,Fussball - Portugal Primeira Liga
+097,19.08. 17:00,ROU 1,CS Voluntari,0:3,Gaz Metan Medias,2,Fussball - Rumänien Liga 1
+098,19.08. 17:00,BLR 1,Slutsksak. Slutsk,0:5,Shakhter Soligorsk,2,Fussball - Weißrussland Premier League
+099,19.08. 17:30,FIN 1,Vaasa PS,2:1,IFK Mariehamn,1,Fussball - Finnland Veikkausliiga
+100,19.08. 17:30,FIN 1,FC Lahti,3:2,FC Honka,1,Fussball - Finnland Veikkausliiga
+101,19.08. 17:30,FIN 1,Seinajoen JK,0:0,Rovaniemi PS,X,Fussball - Finnland Veikkausliiga
+102,19.08. 18:00,POL 1,Korona Kielce,0:1,Pogon Szczecin,2,Fussball - Polen Orange Ekstraklasa
+103,19.08. 19:00,GER 3,Hallescher FC,1:2,Bayern München Am.,2,Fussball - Deutschland 3. Liga
+104,19.08. 19:00,RUS PL,FC Spartak Moskau,2:1,ZSKA Moskau,1,Fussball - Russland Premier League
+105,19.08. 19:00,TUR 1,Fenerbahce,5:0,Gazis. Gaziantep,1,Fussball - Türkei Süper Lig
+106,19.08. 19:00,DEN 1,AGF Aarhus,2:0,AC Horsens,1,Fussball - Dänemark Superligaen
+107,19.08. 19:00,NOR 1,Sarpsborg 08,1:1,Bodö Glimt,X,Fussball - Norwegen Tippeligaen
+108,19.08. 19:00,SWE 1,Djurgardens IF,3:0,AFC Eskilstuna,1,Fussball - Schweden Allsvenskan
+109,19.08. 19:00,SWE 1,Helsingborgs IF,1:2,IFK Göteborg,2,Fussball - Schweden Allsvenskan
+110,19.08. 19:00,SWE 1,IF Elfsborg,4:1,Östersunds FK,1,Fussball - Schweden Allsvenskan
+111,19.08. 19:00,SWE 2,Varbergs BoIS,0:0,IK Brage,X,Fussball - Schweden Superettan
+112,19.08. 19:30,BUL 1,Lokomotiv Plovdiv,3:1,FC Dunav 2010,1,Fussball - Bulgarien Premier League
+113,19.08. 20:00,ROU 1,AFC Astra Giurgiu,1:1,Viitorul Constanta,X,Fussball - Rumänien Liga 1
+114,19.08. 20:00,ISL 1,KR Reykjavik,1:0,Vikingur Reykjavik,1,Fussball - Island Urvalsdeild
+115,19.08. 20:30,GER 2,VfL Osnabrück,4:0,SV Darmstadt 98,1,Fussball - Deutschland 2. Bundesliga
+116,19.08. 20:30,BEL 1,SV Zulte Waregem,3:1,Sporting Charleroi,1,Fussball - Belgien Jupiler Pro League
+117,19.08. 20:45,FRA 2,AJ Auxerre,2:2,EA Guingamp,X,Fussball - Frankreich Ligue 2
+118,19.08. 21:00,ENG PL,Wolverhampton,1:1,Manchester United,X,Fussball - England Premier League
+119,19.08. 21:15,POR 1,CD Tondela,1:2,Portimonense SC,2,Fussball - Portugal Primeira Liga
+120,19.08. 21:15,ISL 1,Breidablik,3:3,Valur Reykjavik,X,Fussball - Island Urvalsdeild

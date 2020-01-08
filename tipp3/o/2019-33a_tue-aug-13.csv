@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,13.08. 18:00,EL,JK Nomme Kalju EST,0:1,F91 Dudelange LUX,2,Fussball - UEFA Europa League
+002,13.08. 18:30,CL,Qarabag FK AZE,0:2,APOEL Nikosia CYP,2,Fussball - UEFA Champions League
+003,13.08. 19:00,CL,Rosenborg BK NOR,3:1,NK Maribor SLO,1,Fussball - UEFA Champions League
+004,13.08. 19:30,CL,Dynamo Kiev UKR,3:3,Club Brügge BEL,X,Fussball - UEFA Champions League
+005,13.08. 20:00,CL,Ferencvaros HUN,0:4,Dinamo Zagreb CRO,2,Fussball - UEFA Champions League
+006,13.08. 20:00,CL,FC Kopenhagen DEN,1:1,Roter Stern B. SRB,X,Fussball - UEFA Champions League
+007,13.08. 20:30,CL,Ajax Amsterd. NED,3:2,PAOK Thessal. GRE,1,Fussball - UEFA Champions League
+008,13.08. 20:30,CL,LASK Linz AUT,3:1,FC Basel SUI,1,Fussball - UEFA Champions League
+009,13.08. 20:30,CL,LASK Linz,3:2,FC Basel+1,1,Fussball - UEFA Champions League
+010,13.08. 20:30,CL,LASK Linz+1,4:1,FC Basel,1,Fussball - UEFA Champions League
+011,13.08. 20:30,CL,Olympiakos P. GRE,2:0,Ist.Basaks TUR,1,Fussball - UEFA Champions League
+012,13.08. 20:45,CL,Celtic Glasgow SCO,3:4,FC CFR Cluj ROU,2,Fussball - UEFA Champions League
+013,13.08. 20:45,EL,FC Linfield NIR,3:2,Sutj. Niksic MNE,1,Fussball - UEFA Europa League
+014,13.08. 20:45,ENG LC,FC Middlesbrough,2:2,FC Crewe Alexandra,X,Fussball - England Liga Cup
+015,13.08. 20:45,ENG LC,Nottingham Forest,1:0,Fleetwood Town,1,Fussball - England Liga Cup
+016,13.08. 20:45,ENG LC,Plymouth Argyle,2:0,Leyton Orient,1,Fussball - England Liga Cup
+017,13.08. 20:45,ENG LC,Queens Park R.,3:3,Bristol City,X,Fussball - England Liga Cup
+018,13.08. 20:45,ENG LC,FC Rochdale,5:2,Bolton Wanderers,1,Fussball - England Liga Cup
+019,13.08. 20:45,ENG LC,Scunthorpe United,0:1,Derby County,2,Fussball - England Liga Cup
+020,13.08. 20:45,ENG LC,Sheffield Wednes.,abgesagt,FC Bury, ,Fussball - England Liga Cup
+021,13.08. 20:45,ENG LC,Shrewsbury Town,0:4,Rotherham United,2,Fussball - England Liga Cup
+022,13.08. 20:45,ENG LC,Swansea City,3:1,Northampton,1,Fussball - England Liga Cup
+023,13.08. 20:45,ENG LC,Tranmere Rovers,0:3,Hull City,2,Fussball - England Liga Cup
+024,13.08. 20:45,ENG LC,FC Walsall,2:3,Crawley Town,2,Fussball - England Liga Cup
+025,13.08. 20:45,ENG LC,Wigan Athletic,0:1,Stoke City,2,Fussball - England Liga Cup
+026,13.08. 20:45,ENG LC,Salford City,0:3,Leeds United,2,Fussball - England Liga Cup
+027,13.08. 20:45,ENG LC,AFC Wimbledon,2:2,MK Dons,X,Fussball - England Liga Cup
+028,13.08. 20:45,ENG LC,Accrington Stanley,1:3,AFC Sunderland,2,Fussball - England Liga Cup
+029,13.08. 20:45,ENG LC,FC Barnsley,0:3,Carlisle United,2,Fussball - England Liga Cup
+030,13.08. 20:45,ENG LC,Blackburn Rovers,3:2,Oldham Athletic,1,Fussball - England Liga Cup
+031,13.08. 20:45,ENG LC,FC Blackpool,2:2,Macclesfield Town,X,Fussball - England Liga Cup
+032,13.08. 20:45,ENG LC,Bradford City FC,0:4,Preston North End,2,Fussball - England Liga Cup
+033,13.08. 20:45,ENG LC,FC Brentford,1:1,Cambridge United,X,Fussball - England Liga Cup
+034,13.08. 20:45,ENG LC,Bristol Rovers,3:0,Cheltenham Town,1,Fussball - England Liga Cup
+035,13.08. 20:45,ENG LC,Charlton Athletic,0:0,Forest Green,X,Fussball - England Liga Cup
+036,13.08. 20:45,ENG LC,Colchester United,3:0,Swindon Town,1,Fussball - England Liga Cup
+037,13.08. 20:45,ENG LC,Coventry City,4:1,Exeter City,1,Fussball - England Liga Cup
+038,13.08. 20:45,ENG LC,FC Gillingham,2:2,Newport County,X,Fussball - England Liga Cup
+039,13.08. 20:45,ENG LC,Grimsby Town,1:0,Doncaster Rovers,1,Fussball - England Liga Cup
+040,13.08. 20:45,ENG LC,Huddersfield Town,0:1,Lincoln City,2,Fussball - England Liga Cup
+041,13.08. 20:45,ENG LC,Luton Town,3:1,Ipswich Town,1,Fussball - England Liga Cup
+042,13.08. 20:45,ENG LC,Mansfield Town,2:2,FC Morecambe,X,Fussball - England Liga Cup
+043,13.08. 21:00,ENG LC,West Bromwich,1:2,FC Millwall,2,Fussball - England Liga Cup
+044,13.08. 21:00,CL,FC Porto POR,2:3,FC Krasnodar RUS,2,Fussball - UEFA Champions League
+045,13.08. 21:00,EL,FC Dundalk IRL,1:3,Slov. Bratisl. SVK,2,Fussball - UEFA Europa League
+046,14.08. 11:00,RUS 2,Energ. Khabarovsk,1:2,Mordovia Saransk,2,Fussball - Russland 1. Division
+047,14.08. 11:00,RUS 2,Luch Wladivostok,1:1,FC Chayka,X,Fussball - Russland 1. Division
+048,14.08. 13:35,CHN 1,Shenzhen FC,4:0,Guangzhou R&F FC,1,Fussball - China Chinese Super League
+049,14.08. 13:35,CHN 1,SIPG Shanghai,5:1,FC Tianjin Taida,1,Fussball - China Chinese Super League
+050,14.08. 14:00,RUS 2,FC Tom Tomsk,0:0,FK Khimki,X,Fussball - Russland 1. Division
+051,14.08. 16:30,RUS 2,Spartak Moskau II,1:2,Tekstilshchik,2,Fussball - Russland 1. Division
+052,14.08. 17:00,RUS 2,FC Neftekhimik,1:2,FC Rotor Wolgograd,2,Fussball - Russland 1. Division
+053,14.08. 17:30,RUS 2,Shinnik Yaroslavl,0:0,FC Yenisey,X,Fussball - Russland 1. Division
+054,14.08. 18:00,RUS 2,FC Chertanovo Mosk,1:2,FC Krasnodar 2,2,Fussball - Russland 1. Division
+055,14.08. 18:00,RUS 2,Fakel Worenesch,0:2,Torpedo Armavir,2,Fussball - Russland 1. Division
+056,14.08. 18:00,EL,Sab.Tiflis GEO,0:2,Ararat-Armenia ARM,2,Fussball - UEFA Europa League
+057,14.08. 18:00,EL,Atromitos Ath. GRE,0:2,Legia Warschau POL,2,Fussball - UEFA Europa League
+058,14.08. 18:00,EL,Vit. Guimaraes POR,6:0,FK Ventspils LAT,1,Fussball - UEFA Europa League
+059,14.08. 18:30,DEN 2,Vejle BK,0:1,FC Fredericia,2,Fussball - Dänemark 1. Division
+060,14.08. 18:30,SWE CUP,Lunds BK,0:1,Varbergs BoIS,2,Fussball - Schweden Cup
+061,14.08. 18:30,SWE CUP,Carlstad United,2:3,AFC Eskilstuna,2,Fussball - Schweden Cup
+062,14.08. 18:30,RUS 2,FC Torpedo Moskau,3:1,FC Avangard Kursk,1,Fussball - Russland 1. Division
+063,14.08. 19:00,RUS 2,FK Baltika,2:1,FC Nizhny Novgorod,1,Fussball - Russland 1. Division
+064,14.08. 19:00,SUI SL,FC Zürich,2:1,FC St. Gallen,1,Fussball - Schweiz Axpo Super League
+065,14.08. 19:00,NOR 1,Stabaek IF,1:1,Valerenga IF,X,Fussball - Norwegen Tippeligaen
+066,14.08. 19:00,NOR 1,Kristiansund BK,1:2,Bodö Glimt,2,Fussball - Norwegen Tippeligaen
+067,14.08. 19:00,RL TIR,FC Kufstein,0:3,FC Kitzbühel,2,Fussball - Regionalliga Tirol
+068,14.08. 19:00,RL TIR,SV Hall,3:3,Telfs,X,Fussball - Regionalliga Tirol
+069,14.08. 19:30,RL TIR,SC Imst 1933,1:2,SC Schwaz,2,Fussball - Regionalliga Tirol
+070,14.08. 19:30,RL TIR,Zirl,0:0,SV Wörgl,X,Fussball - Regionalliga Tirol
+071,14.08. 20:00,ISL CUP,FH Hafnarfjördur,3:1,KR Reykjavik,1,Fussball - Island Cup
+072,14.08. 21:00,UEFA SC,FC Liverpool ENG,1:1,FC Chelsea ENG,X,Fussball - UEFA Super Cup
+073,14.08. 21:00,UEFA SC,FC Liverpool,1:2,FC Chelsea+1,2,Fussball - UEFA Super Cup
+074,15.08. 04:30,USA MLS,LA Galaxy,2:0,FC Dallas,1,Fussball - USA Major League Soccer
+075,15.08. 18:00,EL,HJK Helsinki FIN,2:2,FC Riga LAT,X,Fussball - UEFA Europa League
+076,15.08. 18:30,EL,Dinamo Tiflis GEO,1:1,Feyenoord NED,X,Fussball - UEFA Europa League
+077,15.08. 18:45,EL,Spartak Moskau RUS,2:1,FC Thun SUI,1,Fussball - UEFA Europa League
+078,15.08. 19:00,EL,Suduva Marija. LTU,2:1,Macc. Tel Aviv ISR,1,Fussball - UEFA Europa League
+079,15.08. 19:00,EL,BATE Borisov BLR,0:0,FK Sarajevo BIH,X,Fussball - UEFA Europa League
+080,15.08. 19:00,EL,Sh. Soligorsk BLR*,1:1,FC Torino ITA,X,Fussball - UEFA Europa League
+081,15.08. 19:00,EL,Zrinjs. Mostar BIH,1:0,Malmö FF SWE,1,Fussball - UEFA Europa League
+082,15.08. 19:00,EL,Mlada Boleslav CZE,0:1,FCS Bukarest ROU,2,Fussball - UEFA Europa League
+083,15.08. 19:00,EL,Bnei Yehuda ISR,2:1,Neftchi Baku AZE,1,Fussball - UEFA Europa League
+084,15.08. 19:00,EL,Apollon L. CYP*,3:1,Austria Wien AUT,1,Fussball - UEFA Europa League
+085,15.08. 19:00,EL,Apollon Limassol,3:2,FK Austria Wien+1,1,Fussball - UEFA Europa League
+086,15.08. 19:00,EL,AIK Stockholm SWE,1:1,FC Sheriff T. MDA,X,Fussball - UEFA Europa League
+087,15.08. 19:00,EL,Y. Malatyaspor TUR,1:0,FK Partizan SRB,1,Fussball - UEFA Europa League
+088,15.08. 19:00,EL,Zorya Lugansk UKR,1:0,ZSKA Sofia BUL,1,Fussball - UEFA Europa League
+089,15.08. 19:30,EL,Trabzonspor TUR,2:1,Sparta Prag CZE,1,Fussball - UEFA Europa League
+090,15.08. 19:30,EL,H. Beer Sheva ISR,3:1,IFK Norrköping SWE,1,Fussball - UEFA Europa League
+091,15.08. 19:30,EL,TN Saints WAL*,0:4,Ludog. Razgrad BUL,2,Fussball - UEFA Europa League
+092,15.08. 20:00,EL,Vikt. Pilsen CZE,1:0,R. Antwerpen BEL,1,Fussball - UEFA Europa League
+093,15.08. 20:00,EL,AEK Athen GRE,1:1,CS Uni Craiova ROU,X,Fussball - UEFA Europa League
+094,15.08. 20:00,EL,Valletta FC MLT,0:4,FC Astana KAZ,2,Fussball - UEFA Europa League
+095,15.08. 20:30,EL,Aris Saloniki GRE,3:0,Molde FK NOR,1,Fussball - UEFA Europa League
+096,15.08. 20:30,EL,E. Frankfurt GER,1:0,FC Vaduz LIE,1,Fussball - UEFA Europa League
+097,15.08. 20:30,EL,KAA Gent BEL,3:0,AEK Larnaca FC CYP,1,Fussball - UEFA Europa League
+098,15.08. 20:30,EL,AZ Alkmaar NED,4:0,FK Mariupol UKR,1,Fussball - UEFA Europa League
+099,15.08. 20:30,EL,Strasbourg FRA,1:0,Lok. Plovdiv BUL,1,Fussball - UEFA Europa League
+100,15.08. 20:30,EL,PSV Eindhoven NED,0:0,FK Haugesund NOR,X,Fussball - UEFA Europa League
+101,15.08. 20:45,EL,Sporting Braga POR,3:1,Bröndby IF DEN,1,Fussball - UEFA Europa League
+102,15.08. 20:45,EL,Wolverhampton ENG,4:0,Pyunik Yerevan ARM,1,Fussball - UEFA Europa League
+103,15.08. 20:45,EL,FC Aberdeen SCO,0:2,HNK Rijeka CRO,2,Fussball - UEFA Europa League
+104,15.08. 20:45,EL,Gl.Rangers SCO,3:1,FC Midtjylland DEN,1,Fussball - UEFA Europa League
+105,15.08. 21:00,EL,Espanyol Barc. ESP,3:0,FC Luzern SUI,1,Fussball - UEFA Europa League
+106,17.08. 17:00,AUT BL,LASK Linz,1:1,WSG Swarovs. Tirol,X,Fussball - Österreich Bundesliga
+107,17.08. 17:00,AUT BL,Wolfsberger AC,5:0,SV Mattersburg,1,Fussball - Österreich Bundesliga
+108,17.08. 17:00,AUT BL,SKN St. Pölten,0:6,Red Bull Salzburg,2,Fussball - Österreich Bundesliga
+109,18.08. 17:00,AUT BL,FK Austria Wien,1:1,Admira Wacker,X,Fussball - Österreich Bundesliga
+110,18.08. 17:00,AUT BL,SK Sturm Graz,0:1,SK Rapid Wien,2,Fussball - Österreich Bundesliga
+111,18.08. 17:00,AUT BL,SCR Altach,3:3,TSV Hartberg,X,Fussball - Österreich Bundesliga
+112,16.08. 20:30,GER BL,FC Bayern München,2:2,Hertha BSC,X,Fussball - Deutschland Bundesliga
+113,17.08. 15:30,GER BL,Bor. Dortmund,5:1,FC Augsburg,1,Fussball - Deutschland Bundesliga
+114,17.08. 15:30,GER BL,Bayer Leverkusen,3:2,SC Paderborn,1,Fussball - Deutschland Bundesliga
+115,17.08. 15:30,GER BL,VfL Wolfsburg,2:1,1. FC Köln,1,Fussball - Deutschland Bundesliga
+116,17.08. 15:30,GER BL,Werder Bremen,1:3,Fortuna Düsseldorf,2,Fussball - Deutschland Bundesliga
+117,17.08. 15:30,GER BL,SC Freiburg,3:0,FSV Mainz 05,1,Fussball - Deutschland Bundesliga
+118,17.08. 18:30,GER BL,Mönchengladbach,0:0,FC Schalke 04,X,Fussball - Deutschland Bundesliga
+119,18.08. 15:30,GER BL,Eintr. Frankfurt,1:0,TSG Hoffenheim,1,Fussball - Deutschland Bundesliga
+120,18.08. 18:00,GER BL,FC Union Berlin,0:4,RB Leipzig,2,Fussball - Deutschland Bundesliga

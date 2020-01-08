@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,23.07. 12:30,FS,FC Barcelona ESP*,1:2,FC Chelsea ENG,2,Fussball - Freundschaftsspiele International (Klub)
+002,23.07. 13:00,TEN ATP,"Thiem, Dominic",2:0,"Cuevas, Pablo",1,Tennis - Tennis ATP
+003,23.07. 15:30,TEN ATP,"Jarry, Nicolas",0:2,"Zverev, Alexander",2,Tennis - Tennis ATP
+004,23.07. 17:00,EL,Ararat-Arm. ARM*,2:0,Lincoln FC GIB,1,Fussball - UEFA Europa League
+005,23.07. 17:45,EL,HB Torshavn FRO,2:2,FC Linfield NIR,X,Fussball - UEFA Europa League
+006,23.07. 17:55,EL,Shk.Tetovo MKD*,1:2,F91 Dudelange LUX,2,Fussball - UEFA Europa League
+007,23.07. 19:00,SWE 2,Jönköpings Södra,2:1,Vasteraas SK,1,Fussball - Schweden Superettan
+008,23.07. 19:00,FS,Twente Ensch. NED,1:1,FC Schalke 04 GER,X,Fussball - Freundschaftsspiele International (Klub)
+009,23.07. 19:00,CL,Vikt. Pilsen CZE,0:0,Olympiakos P. GRE,X,Fussball - UEFA Champions League
+010,23.07. 19:30,CL,Sab.Tiflis GEO*,0:2,Dinamo Zagreb CRO,2,Fussball - UEFA Champions League
+011,23.07. 20:00,CL,PSV Eindhoven NED,3:2,FC Basel SUI,1,Fussball - UEFA Champions League
+012,23.07. 20:00,CL,The New Saints WAL,0:2,FC Kopenhagen DEN,2,Fussball - UEFA Champions League
+013,23.07. 20:00,EL,FC Santa Colo AND*,0:0,FC Astana KAZ,X,Fussball - UEFA Europa League
+014,23.07. 20:15,CL,Sutj. Niksic MNE,0:1,APOEL Nikosia CYP,2,Fussball - UEFA Champions League
+015,23.07. 20:30,EL,SP Tre Penne SMR*,0:5,Suduva Marija. LTU,2,Fussball - UEFA Europa League
+016,23.07. 20:45,SCO LC,Dundee United,0:2,FC East Fife,2,Fussball - Schottland League Cup
+017,23.07. 20:45,SCO LC,Hibernian FC,3:0,FC Arbroath,1,Fussball - Schottland League Cup
+018,23.07. 20:45,SCO LC,FC Alloa Athletic,2:1,Stirling Albion,1,Fussball - Schottland League Cup
+019,23.07. 20:45,SCO LC,FC Raith Rovers,3:1,Peterhead FC,1,Fussball - Schottland League Cup
+020,23.07. 20:45,SCO LC,Inverness CT,3:2,Cove Rangers,1,Fussball - Schottland League Cup
+021,23.07. 20:45,SCO LC,Annan Athletic,0:5,Greenock Morton,2,Fussball - Schottland League Cup
+022,23.07. 20:45,SCO LC,FC Dumbarton,0:2,FC Motherwell,2,Fussball - Schottland League Cup
+023,23.07. 20:45,SCO LC,FC Stranraer,1:2,FC Livingston,2,Fussball - Schottland League Cup
+024,23.07. 20:45,SCO LC,Edinburgh City,0:1,East Kilbride,2,Fussball - Schottland League Cup
+025,23.07. 20:45,SCO LC,FC Albion Rovers,0:0,FC St. Mirren,X,Fussball - Schottland League Cup
+026,24.07. 00:15,COPA L,CA River Plate ARG,0:0,Cruzeiro EC MG BRA,X,Fussball - Copa Libertadores
+027,24.07. 01:00,INT CHC,Real Madrid ESP*,2:2,FC Arsenal ENG,X,Fussball - International Champions Cup
+028,24.07. 02:30,COPA L,LDU Quito ECU,3:1,Ol. Asuncion PAR,1,Fussball - Copa Libertadores
+029,24.07. 02:30,COPA L,Godoy Cruz ARG,2:2,SE Palmeiras S BRA,X,Fussball - Copa Libertadores
+030,24.07. 03:00,INT CHC,Bayern Mün. GER*,1:0,AC Milan ITA,1,Fussball - International Champions Cup
+031,24.07. 13:30,INT CHC,Juventus ITA*,1:1,Inter Mailand ITA,X,Fussball - International Champions Cup
+032,24.07. 14:00,RUS 2,FC Tom Tomsk,2:0,FC Avangard Kursk,1,Fussball - Russland 1. Division
+033,24.07. 16:00,U19 EM,Portugal U19,4:0,Irland U19,1,Fussball - U19 Europameisterschaft
+034,24.07. 17:00,RUS 2,FC Neftekhimik,1:1,Luch Wladivostok,X,Fussball - Russland 1. Division
+035,24.07. 17:30,RUS 2,Shinnik Yaroslavl,1:1,Torpedo Armavir,X,Fussball - Russland 1. Division
+036,24.07. 17:30,FIN 2,FF Jaro,4:3,AC Oulu,1,Fussball - Finnland Ykkonen
+037,24.07. 18:00,EL,Slov. Bratisl. SVK,2:1,KF Feronikeli KOS,1,Fussball - UEFA Europa League
+038,24.07. 18:00,NOR 2,Sogndal IL,0:1,IK Start,2,Fussball - Norwegen Adeccoligaen
+039,24.07. 18:00,RUS 2,FC Torpedo Moskau,2:2,Mordovia Saransk,X,Fussball - Russland 1. Division
+040,24.07. 18:00,RUS 2,Fakel Worenesch,1:2,FK Baltika,2,Fussball - Russland 1. Division
+041,24.07. 18:00,RUS 2,FK Khimki,4:0,FC Yenisey,1,Fussball - Russland 1. Division
+042,24.07. 18:00,RUS 2,FC Chertanovo Mosk,1:0,FC Rotor Wolgograd,1,Fussball - Russland 1. Division
+043,24.07. 19:00,RUS 2,FC Chayka,0:2,Energ. Khabarovsk,2,Fussball - Russland 1. Division
+044,24.07. 19:00,SWE 2,GAIS Göteborg,1:0,Norrby IF,1,Fussball - Schweden Superettan
+045,24.07. 19:00,U19 EM,Frankreich U19,0:0,Spanien U19,X,Fussball - U19 Europameisterschaft
+046,24.07. 19:00,CL,BATE Borisov BLR,2:1,Rosenborg BK NOR,1,Fussball - UEFA Champions League
+047,24.07. 20:00,CL,Ferencvaros HUN,3:1,Valletta FC MLT,1,Fussball - UEFA Champions League
+048,24.07. 20:00,CL,FC CFR Cluj ROU,1:0,Macc. Tel Aviv ISR,1,Fussball - UEFA Champions League
+049,24.07. 20:15,CL,NK Maribor SLO,2:1,AIK Stockholm SWE,1,Fussball - UEFA Champions League
+050,24.07. 20:45,CL,Roter Stern B. SRB,2:0,HJK Helsinki FIN,1,Fussball - UEFA Champions League
+051,24.07. 20:45,CL,FC Dundalk IRL,1:1,Qarabag FK AZE,X,Fussball - UEFA Champions League
+052,24.07. 20:45,CL,Celtic Glasgow SCO,5:0,JK Nomme Kalju EST,1,Fussball - UEFA Champions League
+053,24.07. 20:45,SCO LC,Heart of Midl.,2:1,FC Stenhousemuir,1,Fussball - Schottland League Cup
+054,24.07. 20:45,SCO LC,FC Ross County,2:0,Forfar Athletic,1,Fussball - Schottland League Cup
+055,24.07. 20:45,SCO LC,Airdrie Utd.,2:2,FC Queens Park,X,Fussball - Schottland League Cup
+056,24.07. 20:45,SCO LC,Partick Thistle,3:2,FC Clyde,1,Fussball - Schottland League Cup
+057,25.07. 00:15,COPA L,CA San Lorenzo ARG,0:0,Cerro Porteno PAR,X,Fussball - Copa Libertadores
+058,25.07. 00:15,COPA L,Club Nacional URU,0:1,Internacional BRA,2,Fussball - Copa Libertadores
+059,25.07. 02:00,INT CHC,AC Fiorentina ITA*,1:2,Benfica Lissab POR,2,Fussball - International Champions Cup
+060,25.07. 02:05,FS,FC Liverpool ENG*,2:2,Sporting Liss. POR,X,Fussball - Freundschaftsspiele International (Klub)
+061,25.07. 02:30,COPA L,CS Emelec ECU,2:0,CR Flamengo RJ BRA,1,Fussball - Copa Libertadores
+062,25.07. 02:30,COPA L,Atletico PR BRA,0:1,Boca Juniors ARG,2,Fussball - Copa Libertadores
+063,25.07. 13:30,INT CHC,Tottenham ENG*,1:2,Manchester U. ENG,2,Fussball - International Champions Cup
+064,25.07. 15:30,EL,Pyu. Yerevan ARM*,2:1,FK Jablonec CZE,1,Fussball - UEFA Europa League
+065,25.07. 16:45,EL,FK Ventspils LAT,4:0,Gzira United MLT,1,Fussball - UEFA Europa League
+066,25.07. 17:00,EL,FK Gabala AZE,0:2,Dinamo Tiflis GEO,2,Fussball - UEFA Europa League
+067,25.07. 17:30,EL,Partiz.Tirana ALB,0:1,FC Sheriff T. MDA,2,Fussball - UEFA Europa League
+068,25.07. 17:30,EL,AEK Larnaca FC CYP,3:0,Levski Sofia BUL,1,Fussball - UEFA Europa League
+069,25.07. 18:30,FS,Hertha BSC GER*,2:1,Fenerbahce TUR,1,Fussball - Freundschaftsspiele International (Klub)
+070,25.07. 18:30,EL,FC Utrecht NED,1:1,Zrinjs. Mostar BIH,X,Fussball - UEFA Europa League
+071,25.07. 18:45,EL,Ch. Sachkhere GEO*,1:1,FC Aberdeen SCO,X,Fussball - UEFA Europa League
+072,25.07. 18:55,EL,Honved Budap. HUN*,0:0,CS Uni Craiova ROU,X,Fussball - UEFA Europa League
+073,25.07. 19:00,EL,Y. Malatyaspor TUR,2:2,Ol. Ljubljana SLO,X,Fussball - UEFA Europa League
+074,25.07. 19:00,EL,Arsenal Tula RUS,0:1,Neftchi Baku AZE,2,Fussball - UEFA Europa League
+075,25.07. 19:00,EL,Alashkert ARM*,0:3,FCS Bukarest ROU,2,Fussball - UEFA Europa League
+076,25.07. 19:00,EL,Mlada Boleslav CZE,1:1,Ordabassy Sch. KAZ,X,Fussball - UEFA Europa League
+077,25.07. 19:00,EL,Lechia Gdansk POL,2:1,Bröndby IF DEN,1,Fussball - UEFA Europa League
+078,25.07. 19:00,EL,FK Haugesund NOR,2:0,SK Sturm Graz AUT,1,Fussball - UEFA Europa League
+079,25.07. 19:00,EL,FK Haugesund,2:1,SK Sturm Graz+1,1,Fussball - UEFA Europa League
+080,25.07. 19:00,EL,Sh. Soligorsk BLR,2:0,Esbjerg FB DEN,1,Fussball - UEFA Europa League
+081,25.07. 19:00,EL,Flora Tallinn EST,1:2,E. Frankfurt GER,2,Fussball - UEFA Europa League
+082,25.07. 19:00,EL,Molde FK NOR,0:0,Cukaricki Belg SRB,X,Fussball - UEFA Europa League
+083,25.07. 19:30,EL,ZSKA Sofia BUL,1:0,NK Osijek CRO,1,Fussball - UEFA Europa League
+084,25.07. 19:30,EL,H. Beer Sheva ISR,2:0,Kairat Almaty KAZ,1,Fussball - UEFA Europa League
+085,25.07. 19:30,EL,Connah's Quay WAL*,0:1,FK Partizan SRB,2,Fussball - UEFA Europa League
+086,25.07. 19:30,EL,Lok. Plovdiv BUL,2:0,Spartak Trnava SVK,1,Fussball - UEFA Europa League
+087,25.07. 20:00,EL,Piast Gliwice POL,3:2,FC Riga LAT,1,Fussball - UEFA Europa League
+088,25.07. 20:30,EL,Jeunesse Esch LUX*,0:1,Vit. Guimaraes POR,2,Fussball - UEFA Europa League
+089,25.07. 20:00,EL,IFK Norrköping SWE,2:0,FK Liepaja LAT,1,Fussball - UEFA Europa League
+090,25.07. 20:00,EL,Fehervar FC HUN*,1:0,FC Vaduz LIE,1,Fussball - UEFA Europa League
+091,25.07. 20:15,EL,FC Luzern SUI,1:0,KI Klaksvik FRO,1,Fussball - UEFA Europa League
+092,25.07. 20:30,EL,AZ Alkmaar NED,0:0,BK Häcken SWE,X,Fussball - UEFA Europa League
+093,25.07. 20:30,EL,Aris Saloniki GRE,0:0,AEL Limassol CYP,X,Fussball - UEFA Europa League
+094,25.07. 20:30,EL,KAA Gent BEL,6:3,Viitorul Con. ROU,1,Fussball - UEFA Europa League
+095,25.07. 20:30,EL,Dunajska Str. SVK,1:2,Atromitos Ath. GRE,2,Fussball - UEFA Europa League
+096,25.07. 20:45,EL,Strasbourg FRA,3:1,Maccabi Haifa ISR,1,Fussball - UEFA Europa League
+097,25.07. 20:45,EL,Wolverhampton ENG,2:0,Crusaders NIR,1,Fussball - UEFA Europa League
+098,25.07. 20:45,EL,FK Buducnost MNE,1:3,Zorya Lugansk UKR,2,Fussball - UEFA Europa League
+099,25.07. 20:45,EL,Gl.Rangers SCO,2:0,P. Niederkorn LUX,1,Fussball - UEFA Europa League
+100,25.07. 20:45,EL,NK Domzale SLO,2:2,Malmö FF SWE,X,Fussball - UEFA Europa League
+101,25.07. 21:00,EL,Valur Reykj. ISL,1:1,Ludog. Razgrad BUL,X,Fussball - UEFA Europa League
+102,25.07. 21:00,EL,Espanyol Barc. ESP,4:0,Stjarnan Gard. ISL,1,Fussball - UEFA Europa League
+103,25.07. 21:00,EL,FC Torino ITA*,3:0,Debreceni VSC HUN,1,Fussball - UEFA Europa League
+104,25.07. 21:00,EL,Shamrock IRL,2:1,Apollon L. CYP,1,Fussball - UEFA Europa League
+105,25.07. 21:00,EL,Legia Warschau POL,1:0,Kuopio PS FIN,1,Fussball - UEFA Europa League
+106,26.07. 02:30,COPA L,Gremio RS BRA,2:0,Club Libertad PAR,1,Fussball - Copa Libertadores
+107,26.07. 20:45,AUT BL,SK Rapid Wien,0:2,Red Bull Salzburg,2,Fussball - Österreich Bundesliga
+108,27.07. 17:00,AUT BL,Admira Wacker,0:3,Wolfsberger AC,2,Fussball - Österreich Bundesliga
+109,27.07. 17:00,AUT BL,WSG Swarovs. Tirol,3:1,FK Austria Wien,1,Fussball - Österreich Bundesliga
+110,28.07. 17:00,AUT BL,SV Mattersburg,2:1,TSV Hartberg,1,Fussball - Österreich Bundesliga
+111,28.07. 17:00,AUT BL,SK Sturm Graz,3:0,SKN St. Pölten,1,Fussball - Österreich Bundesliga
+112,28.07. 17:00,AUT BL,LASK Linz,2:0,SCR Altach,1,Fussball - Österreich Bundesliga
+113,26.07. 19:10,AUT 2,SV Ried,1:3,Austria Klagenfurt,2,Fussball - Österreich Zweite Liga
+114,26.07. 19:10,AUT 2,FC Liefering,2:3,SKU Amstetten,2,Fussball - Österreich Zweite Liga
+115,26.07. 19:10,AUT 2,BW Linz,1:1,Kapfenberger SV,X,Fussball - Österreich Zweite Liga
+116,26.07. 19:10,AUT 2,Young Violets A.W.,1:5,SV Horn,2,Fussball - Österreich Zweite Liga
+117,26.07. 19:10,AUT 2,FC Dornbirn,1:3,Austria Lustenau,2,Fussball - Österreich Zweite Liga
+118,26.07. 19:10,AUT 2,SV Lafnitz,0:0,FC Juniors OÖ,X,Fussball - Österreich Zweite Liga
+119,26.07. 19:10,AUT 2,SK Vorwärts Steyr,2:0,Wacker Innsbruck,1,Fussball - Österreich Zweite Liga
+120,28.07. 10:30,AUT 2,Floridsdorfer AC,2:0,Grazer AK,1,Fussball - Österreich Zweite Liga

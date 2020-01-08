@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,02.08. 13:30,TEN ATP,"Ruud, Casper",0:2,"Ramos-Vinolas, A.",2,Tennis - Tennis ATP
+002,02.08. 17:35,TEN ATP,"Thiem, Dominic",2:0,"Sonego, Lorenzo",1,Tennis - Tennis ATP
+003,02.08. 18:30,GER 2,VfL Bochum,3:3,Arminia Bielefeld,X,Fussball - Deutschland 2. Bundesliga
+004,02.08. 18:30,GER 2,SV Sandhausen,0:1,VfL Osnabrück,2,Fussball - Deutschland 2. Bundesliga
+005,02.08. 19:00,GER 3,FC Ingolstadt,3:0,Kickers Würzburg,1,Fussball - Deutschland 3. Liga
+006,02.08. 19:00,DEN 1,Silkeborg IF,2:3,Hobro IK,2,Fussball - Dänemark Superligaen
+007,02.08. 19:00,AUT RLO,SC Neusiedl,3:0,SV Leobendorf,1,Fussball - Österreich Regionalliga Ost
+008,02.08. 19:00,AUT RLM,SV Allerheiligen,3:2,SV Ried II,1,Fussball - Österreich Regionalliga Mitte
+009,02.08. 19:00,AUT RLM,SC Kalsdorf,2:1,WAC Amateure,1,Fussball - Österreich Regionalliga Mitte
+010,02.08. 19:00,AUT RLM,Sturm Graz Amat.,3:1,Bad Gleichenberg,1,Fussball - Österreich Regionalliga Mitte
+011,02.08. 19:00,AUT RLM,ATSV Wolfsberg,1:1,WSC Hertha Wels,X,Fussball - Österreich Regionalliga Mitte
+012,02.08. 19:00,AUT RLM,FC Wels,1:3,Union Vöcklamarkt,2,Fussball - Österreich Regionalliga Mitte
+013,02.08. 19:10,AUT 2,FC Juniors OÖ,3:1,SK Vorwärts Steyr,1,Fussball - Österreich Zweite Liga
+014,02.08. 19:10,AUT 2,SV Horn,2:2,Floridsdorfer AC,X,Fussball - Österreich Zweite Liga
+015,02.08. 19:10,AUT 2,Austria Lustenau,1:1,SV Ried,X,Fussball - Österreich Zweite Liga
+016,02.08. 19:10,AUT 2,Kapfenberger SV,1:2,SV Lafnitz,2,Fussball - Österreich Zweite Liga
+017,02.08. 19:10,AUT 2,SKU Amstetten,3:2,Young Violets A.W.,1,Fussball - Österreich Zweite Liga
+018,02.08. 19:30,AUT RLO,ASV Draßburg,0:5,SV Stripfing,2,Fussball - Österreich Regionalliga Ost
+019,02.08. 19:30,AUT RLO,Mannsdorf-Großenz.,1:0,SV Mattersburg Am.,1,Fussball - Österreich Regionalliga Ost
+020,02.08. 19:30,AUT RLO,FC Mauerwerk,1:3,Wiener Sportklub,2,Fussball - Österreich Regionalliga Ost
+021,02.08. 19:30,AUT RLO,FCM Traiskirchen,1:3,Wiener Viktoria,2,Fussball - Österreich Regionalliga Ost
+022,02.08. 19:30,AUT RLO,ASK Ebreichsdorf,2:0,Bruck/Leitha,1,Fussball - Österreich Regionalliga Ost
+023,02.08. 20:00,FRA 2,Troyes AC,1:2,Clermont Foot,2,Fussball - Frankreich Ligue 2
+024,02.08. 20:00,FRA 2,FC Valenciennes,1:1,AS Nancy,X,Fussball - Frankreich Ligue 2
+025,02.08. 20:00,FRA 2,AJ Auxerre,2:0,Le Mans UC 72,1,Fussball - Frankreich Ligue 2
+026,02.08. 20:00,NL 1,FC Zwolle,1:3,Willem II Tilburg,2,Fussball - Niederlande Eredivisie
+027,02.08. 20:00,SUI 2,FC Aarau,1:2,Grasshoppers,2,Fussball - Schweiz Challenge League
+028,02.08. 20:00,ROU 1,Dinamo Bukarest,4:2,FC Academica Clinc,1,Fussball - Rumänien Liga 1
+029,02.08. 20:30,AUT 2,Grazer AK,2:0,BW Linz,1,Fussball - Österreich Zweite Liga
+030,02.08. 20:30,GER 2,FC St. Pauli,1:3,Greuther Fürth,2,Fussball - Deutschland 2. Bundesliga
+031,02.08. 20:30,BEL 1,Club Brügge,6:0,St. Truiden VV,1,Fussball - Belgien Jupiler Pro League
+032,02.08. 20:30,POL 1,Zaglebie Lubin,2:2,Jagiellonia Bial.,X,Fussball - Polen Orange Ekstraklasa
+033,02.08. 20:45,ENG CS,Luton Town,3:3,FC Middlesbrough,X,Fussball - England Championship
+034,03.08. 13:00,GER 2,Karlsruher SC,4:2,Dynamo Dresden,1,Fussball - Deutschland 2. Bundesliga
+035,03.08. 13:30,FRA SC,Paris SG*,2:1,Stade Rennes,1,Fussball - Frankreich Trophée des Champions
+036,03.08. 14:00,GER 3,Preussen Münster,3:2,FC Kaiserslautern,1,Fussball - Deutschland 3. Liga
+037,03.08. 14:00,GER 3,Unterhaching,1:0,Hansa Rostock,1,Fussball - Deutschland 3. Liga
+038,03.08. 14:00,GER 3,SV Meppen,1:3,FC Magdeburg,2,Fussball - Deutschland 3. Liga
+039,03.08. 14:00,GER 3,Bayern München Am.,2:5,FC Viktoria Köln,2,Fussball - Deutschland 3. Liga
+040,03.08. 14:00,GER 3,Großaspach,2:2,KFC Uerdingen 05,X,Fussball - Deutschland 3. Liga
+041,03.08. 14:00,GER 3,Hallescher FC,3:1,Chemnitzer FC,1,Fussball - Deutschland 3. Liga
+042,03.08. 15:00,TEN ATP,"Thiem, Dominic",2:0,"Ramos-Vinolas, A.",1,Tennis - Tennis ATP
+043,03.08. 15:30,GER 2,Hannover 96,1:1,Jahn Regensburg,X,Fussball - Deutschland 2. Bundesliga
+044,03.08. 16:00,ENG CS,FC Barnsley,1:0,FC Fulham,1,Fussball - England Championship
+045,03.08. 16:00,ENG CS,Blackburn Rovers,1:2,Charlton Athletic,2,Fussball - England Championship
+046,03.08. 16:00,ENG CS,FC Brentford,0:1,Birmingham City,2,Fussball - England Championship
+047,03.08. 16:00,ENG CS,FC Millwall,1:0,Preston North End,1,Fussball - England Championship
+048,03.08. 16:00,ENG CS,FC Reading,1:3,Sheffield Wednes.,2,Fussball - England Championship
+049,03.08. 16:00,ENG CS,Stoke City,1:2,Queens Park R.,2,Fussball - England Championship
+050,03.08. 16:00,ENG CS,Swansea City,2:1,Hull City,1,Fussball - England Championship
+051,03.08. 16:00,ENG CS,Wigan Athletic,3:2,Cardiff City,1,Fussball - England Championship
+052,03.08. 16:00,SCO PS,Celtic Glasgow,7:0,FC St. Johnstone,1,Fussball - Schottland Premiership
+053,03.08. 17:00,AUT BL,FK Austria Wien,0:3,LASK Linz,2,Fussball - Österreich Bundesliga
+054,03.08. 17:00,AUT BL,FK Austria Wien+1,1:3,LASK Linz,2,Fussball - Österreich Bundesliga
+055,03.08. 17:00,AUT BL,SCR Altach,3:2,WSG Swarovs. Tirol,1,Fussball - Österreich Bundesliga
+056,03.08. 17:00,AUT BL,TSV Hartberg,4:1,Admira Wacker,1,Fussball - Österreich Bundesliga
+057,03.08. 17:30,AUT RLO,SC Wiener Neustadt,3:1,SC Team Wr. Linien,1,Fussball - Österreich Regionalliga Ost
+058,03.08. 18:00,AUT RLM,Union Gurten,2:3,FC Gleisdorf,2,Fussball - Österreich Regionalliga Mitte
+059,03.08. 18:00,BEL 1,Standard Lüttich,4:0,SV Zulte Waregem,1,Fussball - Belgien Jupiler Pro League
+060,03.08. 18:00,NOR 1,Odds BK,2:1,Lilleström SK,1,Fussball - Norwegen Tippeligaen
+061,03.08. 18:00,NOR 1,Sarpsborg 08,1:1,Rosenborg BK,X,Fussball - Norwegen Tippeligaen
+062,03.08. 18:30,INT CHC,Manchester U. ENG*,2:2,AC Milan ITA,X,Fussball - International Champions Cup
+063,03.08. 18:30,ENG CS,Nottingham Forest,1:2,West Bromwich,2,Fussball - England Championship
+064,03.08. 18:30,NL 1,Vitesse Arnheim,2:2,Ajax Amsterdam,X,Fussball - Niederlande Eredivisie
+065,03.08. 19:00,SUI SL,FC Thun,2:3,FC Basel,2,Fussball - Schweiz Axpo Super League
+066,03.08. 19:00,SUI SL,FC Sion,3:1,FC Zürich,1,Fussball - Schweiz Axpo Super League
+067,03.08. 20:30,GER SC,Bor. Dortmund,2:0,FC Bayern München,1,Fussball - Deutschland Supercup
+068,03.08. 20:30,GER SC,Bor. Dortmund+1,3:0,FC Bayern München,1,Fussball - Deutschland Supercup
+069,03.08. 20:30,RUS PL,Zenit St.Petersb.,1:1,FC Krasnodar,X,Fussball - Russland Premier League
+070,03.08. 20:45,NL 1,Twente Enschede,1:1,PSV Eindhoven,X,Fussball - Niederlande Eredivisie
+071,04.08. 10:30,AUT 2,Wacker Innsbruck,1:0,FC Dornbirn,1,Fussball - Österreich Zweite Liga
+072,04.08. 13:00,GER 3,E. Braunschweig,0:3,MSV Duisburg,2,Fussball - Deutschland 3. Liga
+073,04.08. 13:30,GER 2,FC Heidenheim,2:2,VfB Stuttgart,X,Fussball - Deutschland 2. Bundesliga
+074,04.08. 14:00,GER 3,FSV Zwickau,2:0,FC Carl Zeiss Jena,1,Fussball - Deutschland 3. Liga
+075,04.08. 14:30,NL 1,Feyenoord,2:2,Sparta Rotterdam,X,Fussball - Niederlande Eredivisie
+076,04.08. 14:30,SCO PS,FC Kilmarnock,1:2,Glasgow Rangers,2,Fussball - Schottland Premiership
+077,04.08. 15:10,F1,"Hamilton, Lewis",Hamilto,"Verstappen, Max",1,Formel 1 - Formel 1
+078,04.08. 15:10,F1,"Bottas, Valtteri",Vettel,"Vettel, Sebastian",2,Formel 1 - Formel 1
+079,04.08. 15:10,F1,"Raikkonen, Kimi",Raikkon,"Ricciardo, Daniel",1,Formel 1 - Formel 1
+080,04.08. 15:30,GER 2,SV Darmstadt 98,2:0,Holstein Kiel,1,Fussball - Deutschland 2. Bundesliga
+081,04.08. 15:30,GER 2,Erzgebirge Aue,3:2,Wehen Wiesbaden,1,Fussball - Deutschland 2. Bundesliga
+082,04.08. 16:00,INT CHC,Tottenham ENG,1:1,Inter Mailand ITA,X,Fussball - International Champions Cup
+083,04.08. 16:00,ENG COM,FC Liverpool*,1:1,Manchester City,X,Fussball - England Community Shield
+084,04.08. 16:00,SCO PS,FC Aberdeen,3:2,Heart of Midl.,1,Fussball - Schottland Premiership
+085,04.08. 16:00,DEN 1,Bröndby IF,1:2,AC Horsens,2,Fussball - Dänemark Superligaen
+086,04.08. 16:00,SUI SL,Young Boys Bern,2:0,FC Lugano,1,Fussball - Schweiz Axpo Super League
+087,04.08. 16:00,SUI SL,FC Servette Genf,1:0,FC Luzern,1,Fussball - Schweiz Axpo Super League
+088,04.08. 17:00,AUT BL,Red Bull Salzburg,4:1,SV Mattersburg,1,Fussball - Österreich Bundesliga
+089,04.08. 17:00,AUT BL,Wolfsberger AC,0:1,SK Sturm Graz,2,Fussball - Österreich Bundesliga
+090,04.08. 17:00,AUT BL,SKN St. Pölten,2:2,SK Rapid Wien,X,Fussball - Österreich Bundesliga
+091,04.08. 17:00,AUT 2,Austria Klagenfurt,4:4,FC Liefering,X,Fussball - Österreich Zweite Liga
+092,04.08. 17:30,ENG CS,Bristol City,1:3,Leeds United,2,Fussball - England Championship
+093,04.08. 18:00,RUS PL,FC Rubin Kazan,0:1,ZSKA Moskau,2,Fussball - Russland Premier League
+094,04.08. 18:00,BEL 1,RE Mouscron,0:0,RSC Anderlecht,X,Fussball - Belgien Jupiler Pro League
+095,04.08. 18:00,DEN 1,FC Midtjylland,1:0,Aalborg BK,1,Fussball - Dänemark Superligaen
+096,04.08. 18:00,NOR 1,Viking FK,0:2,Molde FK,2,Fussball - Norwegen Tippeligaen
+097,04.08. 18:30,ITA CUP,SSD Monza 1912,2:0,Alessandria Calcio,1,Fussball - Italien Coppa Italia
+098,04.08. 20:00,ITA CUP,Triestina Calcio,3:1,SS Cavese,1,Fussball - Italien Coppa Italia
+099,04.08. 20:00,NL 1,AZ Alkmaar,4:0,Fortuna Sittard,1,Fussball - Niederlande Eredivisie
+100,04.08. 20:00,NOR 1,Valerenga IF,1:1,Kristiansund BK,X,Fussball - Norwegen Tippeligaen
+101,04.08. 21:45,POR SC,Benfica Lissabon*,5:0,Sporting Lissabon,1,Fussball - Portugal Supercup
+102,05.08. 17:00,ROU 1,CS Voluntari,0:0,CSMS Iasi,X,Fussball - Rumänien Liga 1
+103,05.08. 18:00,POL 1,Wisla Krakau,1:0,Gornik Zabrze,1,Fussball - Polen Orange Ekstraklasa
+104,05.08. 19:00,GER 3,W. Mannheim,4:0,TSV 1860 München,1,Fussball - Deutschland 3. Liga
+105,05.08. 19:00,RUS PL,FK Achmat Grozny,2:1,Gazovik Orenburg,1,Fussball - Russland Premier League
+106,05.08. 19:00,DEN 1,Lyngby BK,2:1,AGF Aarhus,1,Fussball - Dänemark Superligaen
+107,05.08. 19:00,NOR 1,Strömsgodset,1:3,Bodö Glimt,2,Fussball - Norwegen Tippeligaen
+108,05.08. 19:00,SWE 1,Örebro SK,2:2,IFK Göteborg,X,Fussball - Schweden Allsvenskan
+109,05.08. 19:00,SWE 1,IF Elfsborg,0:1,Djurgardens IF,2,Fussball - Schweden Allsvenskan
+110,05.08. 20:00,ROU 1,AFC Astra Giurgiu,2:1,FCS Bukarest,1,Fussball - Rumänien Liga 1
+111,05.08. 20:00,BUL 1,Tsarsko Selo*,0:2,Levski Sofia,2,Fussball - Bulgarien Premier League
+112,05.08. 20:30,GER 2,1. FC Nürnberg,0:4,Hamburger SV,2,Fussball - Deutschland 2. Bundesliga
+113,05.08. 20:45,ENG CS,Huddersfield Town,1:2,Derby County,2,Fussball - England Championship
+114,05.08. 20:45,FRA 2,SM Caen,1:2,FC Lorient,2,Fussball - Frankreich Ligue 2
+115,05.08. 20:45,POR LC,CD Feirense,0:1,Vitoria Guimaraes,2,Fussball - Portugal Carlsberg Cup
+116,05.08. 20:00,IRL LC,FC Derry City,2:2,Waterford United,X,Fussball - Irland League Cup
+117,05.08. 20:45,IRL LC,FC Dundalk,abgesagt,Boh. Dublin, ,Fussball - Irland League Cup
+118,06.08. 01:00,BRA 1,Gremio RS,3:3,Chapecoense SC,X,Fussball - Brasilien Brasilero Serie A
+119,06.08. 02:10,ARG 1,Godoy Cruz,0:2,Arsenal de Sarandi,2,Fussball - Argentinien Primera Division
+120,06.08. 02:10,ARG 1,CA Independiente,abgesagt,Newell's Old B., ,Fussball - Argentinien Primera Division

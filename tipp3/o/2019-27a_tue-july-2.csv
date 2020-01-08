@@ -1,0 +1,91 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,02.07. 13:25,TEN ATP,"Thiem, Dominic",1:3,"Querrey, Sam",2,Tennis - Tennis ATP
+002,02.07. 18:50,TEN ATP,"Fucsovics, Marton",3:1,"Novak, Dennis",1,Tennis - Tennis ATP
+003,02.07. 17:30,FIN 2,Ekenäs IF,1:4,FC KTP,2,Fussball - Finnland Ykkonen
+004,02.07. 17:30,FIN 2,TPV Tampere,1:4,TPS Juniorijalkapa,2,Fussball - Finnland Ykkonen
+005,02.07. 17:45,EL,St. Joseph's GIB,2:0,FC Pristina KOS,1,Fussball - UEFA Europa League
+006,02.07. 18:00,AFR CUP,Guinea-Bissau,0:2,Ghana,2,Fussball - Afrika Cup
+007,02.07. 18:00,AFR CUP,Benin,0:0,Kamerun,X,Fussball - Afrika Cup
+008,02.07. 18:00,FS,EA Guingamp FRA*,1:0,Le Havre AC FRA,1,Fussball - Freundschaftsspiele International (Klub)
+009,02.07. 18:30,FS,Nottingham F. ENG*,0:0,FC Dundee SCO,X,Fussball - Freundschaftsspiele International (Klub)
+010,02.07. 18:30,FS,Austria Wien AUT*,2:3,Slavia Prag CZE,2,Fussball - Freundschaftsspiele International (Klub)
+011,02.07. 18:30,FS,SK Sturm Graz AUT*,0:3,FK Grozny RUS,2,Fussball - Freundschaftsspiele International (Klub)
+012,02.07. 19:00,FS,USK Anif AUT,2:2,FC Juniors OÖ AUT,X,Fussball - Freundschaftsspiele International (Klub)
+013,02.07. 19:00,SWE CUP,Vinbergs IF,0:1,Tvaakers IF,2,Fussball - Schweden Cup
+014,02.07. 19:00,SWE CUP,Carlstad United,5:0,Rynninge IK,1,Fussball - Schweden Cup
+015,02.07. 19:00,SWE CUP,IFK Mora,0:2,Sandvikens IF,2,Fussball - Schweden Cup
+016,02.07. 19:30,SWE 3S,Assyriska Turabdin,1:2,Lindome GIF,2,Fussball - Schweden Div 1 Södra
+017,02.07. 19:30,FS,FC St. Gallen SUI,0:0,Celtic Glasgow SCO,X,Fussball - Freundschaftsspiele International (Klub)
+018,02.07. 21:00,WM DAM,England Damen,1:2,USA Damen,2,Fussball - Damen WM 2019 in Frankreich
+019,02.07. 21:00,WM DAM,England Damen+1,2:2,USA Damen,X,Fussball - Damen WM 2019 in Frankreich
+020,02.07. 21:00,AFR CUP,Angola,0:1,Mali,2,Fussball - Afrika Cup
+021,02.07. 21:00,AFR CUP,Mauretanien,0:0,Tunesien,X,Fussball - Afrika Cup
+022,03.07. 02:30,COPA AM,Brasilien,2:0,Argentinien,1,Fussball - Copa America
+023,03.07. 02:30,COPA AM,Brasilien,2:1,Argentinien+1,1,Fussball - Copa America
+024,03.07. 02:30,COPA AM,Brasilien+1,3:0,Argentinien,1,Fussball - Copa America
+025,03.07. 04:30,G-CUP,Haiti,0:0,Mexiko,X,Fussball - Gold Cup
+026,03.07. 04:30,G-CUP,Haiti+1,1:0,Mexiko,1,Fussball - Gold Cup
+027,03.07. 12:00,JPN CUP,Tokushima Vortis,0:0,Ehime FC,X,Fussball - Japan Emperor Cup
+028,03.07. 12:00,JPN CUP,JEF Utd Ichihara,0:3,Fagiano Okayama,2,Fussball - Japan Emperor Cup
+029,03.07. 12:00,JPN CUP,Avispa Fukuoka,1:1,Kagoshima United,X,Fussball - Japan Emperor Cup
+030,03.07. 12:00,JPN CUP,Mito Hollyhock,1:0,Kyoto Sanga FC,1,Fussball - Japan Emperor Cup
+031,03.07. 12:00,JPN CUP,Kashiwa Reysol,4:0,Grulla Morioka,1,Fussball - Japan Emperor Cup
+032,03.07. 12:00,JPN CUP,Zweigen Kanazawa,1:0,Niigata Albirex,1,Fussball - Japan Emperor Cup
+033,03.07. 12:00,JPN CUP,Ventforet Kofu,2:2,FC Gifu,X,Fussball - Japan Emperor Cup
+034,03.07. 12:00,JPN CUP,Vissel Kobe,4:0,Giravanz Kitakyush,1,Fussball - Japan Emperor Cup
+035,03.07. 12:00,JPN CUP,Omiya Ardija,1:1,Thespakusatsu,X,Fussball - Japan Emperor Cup
+036,03.07. 12:00,JPN CUP,Montedio Yamagata,1:2,Tochigi SC,2,Fussball - Japan Emperor Cup
+037,03.07. 13:00,FS,Odense BK DEN,1:1,Holstein Kiel GER,X,Fussball - Freundschaftsspiele International (Klub)
+038,03.07. 18:00,FS,ZSKA Moskau RUS*,1:2,FC Rostov RUS,2,Fussball - Freundschaftsspiele International (Klub)
+039,03.07. 18:00,FS,Slov. Bratisl. SVK,2:0,SKN St. Pölten AUT,1,Fussball - Freundschaftsspiele International (Klub)
+040,03.07. 18:30,FS,Heracles Alme NED*,0:1,Club Brügge BEL,2,Fussball - Freundschaftsspiele International (Klub)
+041,03.07. 18:30,FS,RB Salzburg AUT*,0:1,ZSKA Sofia BUL,2,Fussball - Freundschaftsspiele International (Klub)
+042,03.07. 18:30,FS,TSV Hartberg AUT*,1:0,Kapfenberg AUT,1,Fussball - Freundschaftsspiele International (Klub)
+043,03.07. 18:30,FS,Admira Wacker AUT,4:1,Bruck/Leitha AUT,1,Fussball - Freundschaftsspiele International (Klub)
+044,03.07. 19:00,FS,FC Luzern SUI,3:0,FC Aarau SUI,1,Fussball - Freundschaftsspiele International (Klub)
+045,03.07. 19:00,FS,Strasbourg FRA*,2:1,FC Zürich SUI,1,Fussball - Freundschaftsspiele International (Klub)
+046,03.07. 19:00,SWE 3S,Skövde AIK,2:1,Torns IF,1,Fussball - Schweden Div 1 Södra
+047,03.07. 19:00,SWE CUP,IFK Lidingö FK,1:0,Karlbergs BK,1,Fussball - Schweden Cup
+048,03.07. 19:00,SWE CUP,Hittarps IK,0:1,Eskilsminne IF,2,Fussball - Schweden Cup
+049,03.07. 19:00,LIT 1,Suduva Marijampole,3:0,FK Zalgiris Kaunas,1,Fussball - Litauen A lyga
+050,03.07. 19:30,BUL SC,Ludogorets*,2:0,Lokomotiv Plovdiv,1,Fussball - Bulgarien Supercup
+051,03.07. 20:45,FS,Peterhead FC SCO,0:2,FC Aberdeen SCO,2,Fussball - Freundschaftsspiele International (Klub)
+052,03.07. 20:45,FS,FC Arbroath SCO,3:2,Hibernian FC SCO,1,Fussball - Freundschaftsspiele International (Klub)
+053,03.07. 21:00,WM DAM,Niederlande Damen,0:0,Schweden Damen,X,Fussball - Damen WM 2019 in Frankreich
+054,03.07. 21:00,WM DAM,Niederlande Damen,0:1,Schweden Damen+1,2,Fussball - Damen WM 2019 in Frankreich
+055,04.07. 01:00,USA MLS,New York City FC,3:0,Seattle Sounders,1,Fussball - USA Major League Soccer
+056,04.07. 01:30,USA MLS,Orlando City SC,1:3,Philadelphia Union,2,Fussball - USA Major League Soccer
+057,04.07. 02:00,USA MLS,Chicago Fire,5:1,Atlanta United FC,1,Fussball - USA Major League Soccer
+058,04.07. 02:00,USA MLS,FC Minnesota Utd.,3:1,SJ Earthquakes,1,Fussball - USA Major League Soccer
+059,04.07. 02:30,USA MLS,Sp. Kansas City,1:5,Los Angeles FC,2,Fussball - USA Major League Soccer
+060,04.07. 02:30,COPA AM,Chile,0:3,Peru,2,Fussball - Copa America
+061,04.07. 02:30,COPA AM,Chile,0:4,Peru+1,2,Fussball - Copa America
+062,04.07. 03:30,G-CUP,Jamaika,1:3,USA,2,Fussball - Gold Cup
+063,04.07. 03:30,G-CUP,Jamaika+1,2:3,USA,2,Fussball - Gold Cup
+064,04.07. 03:00,USA MLS,Houston Dynamo,4:0,NY Red Bulls,1,Fussball - USA Major League Soccer
+065,04.07. 04:00,USA MLS,Real Salt Lake,1:0,Columbus Crew,1,Fussball - USA Major League Soccer
+066,04.07. 17:30,FIN 1,HIFK Helsinki,0:2,HJK Helsinki,2,Fussball - Finnland Veikkausliiga
+067,04.07. 17:30,FIN 3,Mikkelin Pall.,1:0,Mipk Mikkeli,1,Fussball - Finnland Kakkonen
+068,04.07. 18:00,LAT 1,FC Riga,0:0,Valmiera Fk,X,Fussball - Lettland LMT Virsliga
+069,04.07. 18:00,FS,Spartak Mosk. RUS*,1:2,FC Krasnodar RUS,2,Fussball - Freundschaftsspiele International (Klub)
+070,04.07. 18:00,FS,SV Sandhausen GER*,0:1,Kaiserslautern GER,2,Fussball - Freundschaftsspiele International (Klub)
+071,04.07. 19:00,SWE 3N,Umea FC,2:1,Sollentuna FF,1,Fussball - Schweden Div 1 Norra
+072,04.07. 19:00,SWE 3N,Nyköping BIS,2:3,Vasalunds IF,2,Fussball - Schweden Div 1 Norra
+073,04.07. 19:00,SWE 3S,Lunds BK,1:1,FC Trollhättan,X,Fussball - Schweden Div 1 Södra
+074,04.07. 19:30,EL,Cardiff M.U. WAL,2:1,P. Niederkorn LUX,1,Fussball - UEFA Europa League
+075,04.07. 19:30,EL,UE Engordany AND,2:1,SP La Fiorita SMR,1,Fussball - UEFA Europa League
+076,04.07. 19:30,ISL 3,IR Reykjavik,3:3,Dalvik Reynir,X,Fussball - Island 2. Delid
+077,04.07. 20:00,EL,NSI Runavik FRO,0:0,Ballymena NIR,X,Fussball - UEFA Europa League
+078,04.07. 20:00,NOR 1,Ranheim IL,2:3,Rosenborg BK,2,Fussball - Norwegen Tippeligaen
+079,04.07. 20:00,ISL 1,Valur Reykjavik,3:1,KA Akureyri,1,Fussball - Island Urvalsdeild
+080,04.07. 20:30,EL,Europa FC GIB,4:0,Sant Julia AND,1,Fussball - UEFA Europa League
+081,04.07. 20:30,FS,Raith R. SCO,3:2,Hamilton FC SCO,1,Fussball - Freundschaftsspiele International (Klub)
+082,04.07. 20:45,EL,SP Tre Fiori SMR,0:4,KI Klaksvik FRO,2,Fussball - UEFA Europa League
+083,04.07. 20:45,EL,Cliftonville NIR,4:0,FC Barry Town WAL,1,Fussball - UEFA Europa League
+084,04.07. 21:15,ISL 2,Leiknir Reykjavik,0:2,Fjölnir,2,Fussball - Island 1. deild
+085,04.07. 21:15,ISL 2,Keflavik IF,1:1,Haukar Hafnarfj.,X,Fussball - Island 1. deild
+086,04.07. 21:15,ISL 3,UMF Vidir,0:1,Throttur Vogum,2,Fussball - Island 2. Delid
+087,05.07. 03:00,USA MLS,FC Dallas,2:0,DC United,1,Fussball - USA Major League Soccer
+088,05.07. 04:30,USA MLS,LA Galaxy,2:0,FC Toronto,1,Fussball - USA Major League Soccer
+089,05.07. 03:00,USA MLS,Colorado Rapids,1:2,New England Rev.,2,Fussball - USA Major League Soccer
+090,05.07. 02:15,ECU 1,Indep. del Valle,2:0,CD Cuenca,1,Fussball - Ecuador Serie A
