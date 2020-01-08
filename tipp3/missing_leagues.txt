@@ -1,151 +1,211 @@
-(*)    264 EM Q     Europameisterschaft Qualifikation
-       211 EL       UEFA Europa League
-       199 GER BL   Deutschland Bundesliga
-       189 ENG PL   England Premier League
-       166 ESP 1    Spanien Primera Division
-       164 ITA A    Italien Serie A
-       151 CL       UEFA Champions League
-       148 FRA 1    Frankreich Ligue 1
-       135 GER 2    Deutschland 2. Bundesliga
-       125 AUT BL   Österreich Bundesliga
-       120 ENG CS   England Championship
-       112 AUT 2    Österreich Zweite Liga
-        86 BRA 1    Brasilien Brasilero Serie A
-        79 AUT RLO  Österreich Regionalliga Ost
-        77 ENG 1    England League One
-(*)     75 U21 EMQ  U21 EM Qualifikation
-        67 TUR 1    Türkei Süper Lig
-        60 ESP 2    Spanien Segunda Division
-        55 AUT RLM  Österreich Regionalliga Mitte
-        53 ENG LC   England Liga Cup
-        52 ENG LTR  England Football League Trophy
-(*)     50 INT FS   Internationale Freundschaftsspiele
-        43 ITA B    Italien Serie B
-        38 BEL 1    Belgien Jupiler Pro League
-        38 POR 1    Portugal Primeira Liga
-        36 BRA 2    Brasilien Brasilero Serie B
-        33 FRA 2    Frankreich Ligue 2
-        31 NL 1     Niederlande Eredivisie
-        29 ISR 1    Israel Winner League
-        28 GER 3    Deutschland 3. Liga
-        26 AUT CUP  Österreich ÖFB Cup
-        24 ISR 2    Israel National League
-        24 ROU 1    Rumänien Liga 1
-        24 SCO PS   Schottland Premiership
-        23 SUI SL   Schweiz Axpo Super League
-        23 USA MLS  USA Major League Soccer
-        22 POL 1    Polen Orange Ekstraklasa
-(*)     22 WM Q     WM Qualifikation, Asien
-        21 DEN 1    Dänemark Superligaen
-        21 ENG FA   England FA Cup
-        21 ESP CUP  Spanien Copa del Rey
-        20 SWE 1    Schweden Allsvenskan
-        18 DEN CUP  Dänemark Landspokalturneringen
-        17 FRA LC   Frankreich Coupe de la Ligue
-        17 URU 1    Uruguay Primera Division
-        16 GER CUP  Deutschland DFB Pokal
-        16 NOR 2    Norwegen Adeccoligaen
-        15 RUS PL   Russland Premier League
-        14 GRE 1    Griechenland Super League
-(*)     13 CL DAM   UEFA Champions League Damen
-        13 CZE 1    Tschechien Gambrinus Liga
-        12 COPA L   Copa Libertadores
-        12 DEN 2    Dänemark 1. Division
-        12 ITA C1B  Italien Lega Pro Prima Divisione, Girone B
-        12 RUS 2    Russland 1. Division
-        11 BEL CUP  Belgium Beker van Belgie
-        11 NL CUP   Niederlande KNVB Cup
-        11 POR LC   Portugal Carlsberg Cup
-        11 SWE 2    Schweden Superettan
-        11 TUR CUP  Türkei Türkiye Kupasi
-        11 VEN 1    Venezuela Primera Divison
-        10 NOR 1    Norwegen Tippeligaen
-         9 ITA C1A  Italien Lega Pro Prima Divisione, Girone A
-         9 JPN CUP  Japan Emperor Cup
-         9 NL 2     Niederlande Jupiler League
-         9 SCO CS   Schottland Championship
-         8 AFC CL   AFC Champions League
-         8 BUL 1    Bulgarien Premier League
-         8 COPA S   Copa Sudamericana
-         8 EGY 1    Ägypten Premier League
-         8 ITA CUP  Italien Coppa Italia
-         8 POR CUP  Portugal Taca de Portugal
-         7 BOL 1    Bolivien Liga Profesjonal
-         7 CYP 1    Zypern 1. Division
-         6 CRC 1    Costa Rica Primera División
-         6 IRL 1    Irland Premier Division
-         6 ISL 1    Island Urvalsdeild
-         6 JPN LC   Japan Nabisco Cup
-         6 TUR 2    Türkei TFF 1. Lig
-         5 BEL 2    Belgium Tweede Klasse
+491 EL       UEFA Europa League
+(*)    350 EM Q     Europameisterschaft Qualifikation
+244 CL       UEFA Champions League
+221 GER BL   Deutschland Bundesliga
+214 ENG PL   England Premier League
+201 AUT BL   Österreich Bundesliga, Qualifikationsgruppe
+178 FRA 1    Frankreich Ligue 1
+176 AUT 2    Österreich Zweite Liga
+176 ESP 1    Spanien Primera Division
+173 ITA A    Italien Serie A
+167 GER 2    Deutschland 2. Bundesliga
+(*)    141 FS       Freundschaftsspiele International (Klub)
+134 ENG CS   England Championship
+133 BRA 1    Brasilien Brasilero Serie A
+114 AUT RLO  Österreich Regionalliga Ost
+106 USA MLS  USA Major League Soccer
+ 95 ESP 2    Spanien Segunda Division
+ 89 SWE 1    Schweden Allsvenskan
+ 88 AUT RLM  Österreich Regionalliga Mitte
+ 84 ENG LC   England Liga Cup
+(*)     81 U21 EMQ  U21 EM Qualifikation
+ 78 ENG 1    England League One
+ 76 TUR 1    Türkei Süper Lig
+(*)     71 INT FS   Internationale Freundschaftsspiele
+ 70 GER 3    Deutschland 3. Liga
+ 69 NOR 1    Norwegen Tippeligaen
+!!!     60 AFR CUP  Afrika Cup
+ 60 DEN 1    Dänemark Superligaen
+ 58 AUT CUP  Österreich ÖFB Cup
+ 58 BRA 2    Brasilien Brasilero Serie B
+ 57 SWE 2    Schweden Superettan
+!!!     57 WM DAM   Damen WM 2019 in Frankreich
+ 54 BEL 1    Belgien Jupiler Pro League
+ 52 ENG LTR  England Football League Trophy
+ 51 ITA B    Italien Serie B
+ 51 SUI SL   Schweiz Axpo Super League
+ 48 POR 1    Portugal Primeira Liga
+!!!     48 U21 EM   U21 Europameisterschaft
+ 47 NL 1     Niederlande Eredivisie
+ 46 GER CUP  Deutschland DFB Pokal
+ 46 ISL 1    Island Urvalsdeild
+ 45 FIN 1    Finnland Veikkausliiga
+ 45 FIN 2    Finnland Ykkonen
+ 45 ROU 1    Rumänien Liga 1
+ 44 FRA 2    Frankreich Ligue 2
+!!!     42 JPN 1    Japan J.League
+ 41 RUS PL   Russland Premier League
+ 40 RUS 2    Russland 1. Division
+!!!     38 ISL 2    Island 1. deild
+!!!     36 COPA AM  Copa America
+ 35 COPA S   Copa Sudamericana
+ 35 SCO LC   Schottland League Cup
+ 34 NOR 2    Norwegen Adeccoligaen
+!!!     33 G-CUP    Gold Cup
+ 33 IRL 1    Irland Premier Division
+ 33 POL 1    Polen Orange Ekstraklasa
+ 31 CZE 1    Tschechien Gambrinus Liga
+!!!     31 JPN 2    Japan J.League 2
+ 30 SCO PS   Schottland Premiership
+ 29 ISR 1    Israel Winner League
+!!!     28 U20 WM   U20 Weltmeisterschaft
+ 26 COPA L   Copa Libertadores
+ 26 NOR CUP  Norwegen Cup
+ 25 DEN CUP  Dänemark Landspokalturneringen
+ 24 ISR 2    Israel National League
+ 23 BRA CUP  Brasilien Cup
+ 23 BUL 1    Bulgarien Premier League
+ 23 ESP CUP  Spanien Copa del Rey
+(*)     23 WM Q     WM Qualifikation, Asien
+ 22 ITA C1A  Italien Lega Pro Prima Divisione, Girone A
+ 22 JPN LC   Japan Nabisco Cup
+ 21 CHN 1    China Chinese Super League
+ 21 ENG FA   England FA Cup
+ 19 JPN CUP  Japan Emperor Cup
+ 19 USA CUP  USA US Open Cup
+ 18 AFC CL   AFC Champions League
+!!!     18 IRL 2    Irland First Division
+ 17 FRA LC   Frankreich Coupe de la Ligue
+!!!     17 INT CHC  International Champions Cup
+ 17 UKR 1    Ukraine Premier League
+ 17 URU 1    Uruguay Primera Division
+ 15 GRE 1    Griechenland Super League
+(*)     14 CL DAM   UEFA Champions League Damen
+ 13 DEN 2    Dänemark 1. Division
+ 13 RL TIR   Regionalliga Tirol
+!!!     13 SWE 3S   Schweden Div 1 Södra
+!!!     13 U19 EM   U19 Europameisterschaft
+!!!     12 ISL CUP  Island Cup
+ 12 ITA C1B  Italien Lega Pro Prima Divisione, Girone B
+ 12 POR LC   Portugal Carlsberg Cup
+ 12 SLO 1    Slowenien PrvaLiga Telekom
+ 12 SWE CUP  Schweden Cup
+ 12 VEN 1    Venezuela Primera Divison
+ 11 BEL CUP  Belgium Beker van Belgie
+ 11 BLR 1    Weißrussland Premier League
+ 11 ITA CUP  Italien Coppa Italia
+ 11 NL 2     Niederlande Jupiler League
+ 11 NL CUP   Niederlande KNVB Cup
+ 11 TUR CUP  Türkei Türkiye Kupasi
+!!!     10 AUT RLW  Österreich Regionalliga West
+!!!     10 LAT 1    Lettland LMT Virsliga
+ 10 SUI 2    Schweiz Challenge League
+  9 CRO 1    Kroatien 1. HNL
+(*)      9 FS U21   U21 Freundschaftsspiele
+  9 POR CUP  Portugal Taca de Portugal
+  9 SCO CS   Schottland Championship
+!!!      9 SWE 3N   Schweden Div 1 Norra
+  8 ARG 1    Argentinien Primera Division
+  8 EGY 1    Ägypten Premier League
+(*)      8 INT FSD  Internationale Freundschaftsspiele, Damen
+  7 BOL 1    Bolivien Liga Profesjonal
+  7 COL 1    Kolumbien Primera Liga
+  7 CYP 1    Zypern 1. Division
+  7 FIN 3    Finnland Kakkonen
+!!!      7 UEFA NL  UEFA Nations League
+  6 AUS CUP  Australien, FFA Cup
+!!!      6 COPA MX  Mexiko, Copa MX
+  6 CRC 1    Costa Rica Primera División
+!!!      6 IRL LC   Irland League Cup
+!!!      6 NED PO   Niederlande, Auf/Abstiegsplayoffs
+  6 ROU 2    Rumänien, Liga 2
+  6 SLO CUP  Slowenien Cup
+  6 TUR 2    Türkei TFF 1. Lig
+  5 BEL 2    Belgium Tweede Klasse
 (*)      5 EMQDA    EM Qualifikation, Damen
-         5 ITA C1C  Italien, Lega Pro Prima Divisione, Girone C
-         5 POL CUP  Polen Cup
-         5 RL SBG   Regionalliga Salzburg
-         5 RL VBG   Eliteliga Vorarlberg
-         5 SCO 1    Schottland League One
-         5 SLO CUP  Slowenien Cup
-         4 ARG 1    Argentinien Primera Division
-         4 BRA CUP  Brasilien Cup
-         4 COL 1    Kolumbien Primera Liga
+  5 EST 1    Estland Meistriliiga
+!!!      5 ISR LCP  Israel, League Cup Premier
+  5 ITA C1C  Italien, Lega Pro Prima Divisione, Girone C
+  5 POL CUP  Polen Cup
+  5 RL SBG   Regionalliga Salzburg
+  5 RL VBG   Eliteliga Vorarlberg
+  5 RUS CUP  Russland Russian Cup
+  5 SCO 1    Schottland League One
+  4 CRO CUP  Kroatien Croatian Cup
+!!!      4 ESP 2B   Spanien Segunda Division B
 (*)      4 FS U20   U20 Freundschaftsspiele
-(*)      4 INT FSD  Internationale Freundschaftsspiele, Damen
-         4 ISR CUP  Israel Cup
-         4 NIRL 1   Nordirland JJB Sports Premiership
-         4 POR 2    Portugal Segunda Liga
-         4 RL TIR   Regionalliga Tirol
-         4 ROU 2    Rumänien, Liga 2
-         4 RUS CUP  Russland Russian Cup
-         4 SLO 1    Slowenien PrvaLiga Telekom
-         4 SWE CUP  Schweden Cup
-         3 AUS CUP  Australien, FFA Cup
-         3 CRO 1    Kroatien 1. HNL
-         3 CRO CUP  Kroatien Croatian Cup
-         3 FIN 2    Finnland Ykkonen
-         3 KLUB WM  FIFA Klub WM
-         3 NOR CUP  Norwegen Cup
-         3 POL 2    Polen I Liga
-         3 QAT 1    Katar, Stars League
-         3 SCO LC   Schottland League Cup
+  4 ISR CUP  Israel Cup
+  4 NIRL 1   Nordirland JJB Sports Premiership
+!!!      4 NOR 3    Norwegen 2. Division, avd. 2
+!!!      4 PL ASIA  Premier League Asia Trophy
+  4 POR 2    Portugal Segunda Liga
+  3 COL COP  Copa Colombia
+  3 ECU 1    Ecuador Serie A
+!!!      3 ISL 3    Island 2. Delid
+  3 KLUB WM  FIFA Klub WM
+  3 POL 2    Polen I Liga
+  3 QAT 1    Katar, Stars League
+  3 RSA PL   Südafrika, Premier League
+  3 SVK 1    Slowakei Corgon Liga
 (*)      3 U19 EMQ  U19 EM, Qualifikation
 (*)      2 AFR CQ   Africa Cup, Qualifikation
-         2 ARG CUP  Argentinien Cup
-         2 BOS CUP  Bosnien Cup
+  2 ARG CUP  Argentinien Cup
+(*)      2 AUT DA   Österreich Frauen Bundesliga
+  2 BOS CUP  Bosnien Cup
+  2 CAF CL   CAF Champions League
 (*)      2 CCC NL   CONCACAF Nations League
-         2 CHN 1    China Chinese Super League
-         2 FIN 1    Finnland Veikkausliiga
-(*)      2 FS U21   U21 Freundschaftsspiele
+!!!      2 CHI 1    Chile Primera Divison
+!!!      2 CHI CUP  Copa Chile
+!!!      2 CZE 2    Tschechien 1. Division
+  2 CZE CUP  Tschechien Cup
+!!!      2 GER SC   Deutschland Supercup
 (*)      2 GOLF-C   Golf Cup in Katar
-         2 GRE 2    Griechenland Super League 2
-         2 PAR 1    Paraguay Primera Division
-         2 RSA PL   Südafrika, Premier League
-         2 SUI CUP  Schweiz Cup
+  2 GRE 2    Griechenland Super League 2
+!!!      2 LIT 1    Litauen A lyga
+  2 PAR 1    Paraguay Primera Division
+  2 PER 1    Peru Primera Division
+!!!      2 RECOPA   Recopa Sudamericana
+  2 ROU CUP  Rumänien Cup
+  2 SUI CUP  Schweiz Cup
 (*)      2 U19 DAQ  U19 EM Frauen, Qualifikation
-         2 USMXLC   US & Mexican Leagues Cup
-         2 WAL 1    Wales Premier League
-(*)      1 AUT DA   Österreich Frauen Bundesliga
-         1 BOS 1    Bosnien Premier Liga
-         1 BUL CUP  Bulgarien Cup
-         1 CAF CL   CAF Champions League
-         1 COL COP  Copa Colombia
-         1 CP BIC   Peru, Copa Bicentenario
-         1 CZE CUP  Tschechien Cup
-         1 ECU 1    Ecuador Serie A
-         1 EST 1    Estland Meistriliiga
-         1 FIN 3    Finnland Kakkonen
-(*)      1 FS       Freundschaftsspiele International (Klub)
-         1 IRI 1    Iran Pro League
-         1 ISR LCN  Israel, League Cup National
-         1 ITA SC   Italien Supercoppa
-         1 PER 1    Peru Primera Division
-         1 ROU CUP  Rumänien Cup
-         1 SERB 1   Serbien Meridijan Superliga
-         1 SUI 2    Schweiz Challenge League
-         1 SVK 1    Slowakei Corgon Liga
-         1 SVK CUP  Slowakei Cup
-         1 UKR 1    Ukraine Premier League
-         1 UKR CUP  Ukraine Cup
-         1 USA CUP  USA US Open Cup
-         1 VEN CUP  Copa Venezuela
+!!!      2 UEFA SC  UEFA Super Cup
+  2 USMXLC   US & Mexican Leagues Cup
+  2 WAL 1    Wales Premier League
+!!!      1 AFC C    AFC Cup
+!!!      1 ARG LC   Argentinien, Ligacup
+!!!      1 BEL SC   Belgien Supercup
+  1 BOS 1    Bosnien Premier Liga
+  1 BUL CUP  Bulgarien Cup
+!!!      1 BUL SC   Bulgarien Supercup
+  1 CP BIC   Peru, Copa Bicentenario
+!!!      1 CRO SC   Kroatien Supercup
+!!!      1 CYP CUP  Zypern Cup
+!!!      1 CZSK SC  Tschechisch-Slowakischer Supercup
+!!!      1 DA CUP   Österreich Damen Cup
+!!!      1 EMR CUP  Emirates Cup
+!!!      1 ENG COM  England Community Shield
+!!!      1 FIN CUP  Finnland Cup
+!!!      1 FRA SC   Frankreich Trophée des Champions
+  1 IRI 1    Iran Pro League
+  1 ISR LCN  Israel, League Cup National
+!!!      1 ISR SC   Israel Supercup
+  1 ITA SC   Italien Supercoppa
+!!!      1 KOR 1    Südkorea K-League
+  1 MEX 1    Mexiko Primera Division
+!!!      1 NL SC    Niederlande Johan Cruijff Schaal in Amsterdam
+!!!      1 POL SC   Polen Supercup
+!!!      1 POR SC   Portugal Supercup
+!!!      1 ROU SC   Rumänien Supercup
+!!!      1 RUS SC   Russland Supercup
+!!!      1 SCO FA   Schottland FA Cup
+!!!      1 SER CUP  Serbien Cup
+  1 SERB 1   Serbien Meridijan Superliga
+!!!      1 SIN 1    Singapur S.League
+  1 SVK CUP  Slowakei Cup
+!!!      1 THA 1    Thai Premier League
+!!!      1 TUR SC   Türkei Süper Kupa
+  1 UKR CUP  Ukraine Cup
+!!!      1 UKR SC   Ukraine Supercup
+  1 VEN CUP  Copa Venezuela
 
 (*): national team and/or women leagues - AFR CQ, AUT DA, CCC NL, CL DAM, EM Q, EMQDA, FS, FS U20, FS U21, GOLF-C, INT FS, INT FSD, U19 DAQ, U19 EMQ, U21 EMQ, WM Q
