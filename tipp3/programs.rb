@@ -41,24 +41,36 @@ PROGRAMS = %w[
 ## national teams and/or women leagues
 EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
   'WM Q',       # WM Qualifikation
+  'U20 WM',     # U20 Weltmeisterschaft
   'EM Q',       # Europameisterschaft Qualifikation
   'U21 EMQ',    # U21 EM Qualifikation
+  'U21 EM',     # U21 Europameisterschaft
+  'U19 EM',     # U19 Europameisterschaft
   'U19 EMQ',    # U19 EM Qualifikation
   'INT FS',     # Internationale Freundschaftsspiele
   'FS U21',     # U21 Freundschaftsspiele
   'FS U20',     # U20 Freundschaftsspiele
-  'CCC NL',     # CONCACAF Nations League
+  'AFR CUP',    # Afrika Cup
   'AFR CQ',     # Africa Cup, Qualifikation
   'GOLF-C',     # Golf Cup in Katar
-
+  'COPA AM',    # Copa America
+  'G-CUP',      # Gold Cup
+  'CCC NL',     # CONCACAF Nations League
+  'UEFA NL',    # UEFA Nations League
+  
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
   'EMQDA',      # EM Qualifikation, Damen
   'U19 DAQ',    # U19 EM Frauen, Qualifikation
+  'WM DAM',     # Damen WM 2019 in Frankreich
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
   'AUT DA',     # Österreich Frauen Bundesliga
+  'DA CUP',     # Österreich Damen Cup
 
   ## misc
    'FS',       # Freundschaftsspiele International (Klub)
+   'INT CHC',  # International Champions Cup
+   'PL ASIA',  # Premier League Asia Trophy
+   'EMR CUP',  # Emirates Cup
 ]
