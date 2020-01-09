@@ -16,7 +16,7 @@ PROGRAMS.each do |program|
    ## pp recs[0]
 
    recs.each do |rec|
-     league_code  = rec[:liga]
+     league_code  = EXTRA_LEAGUE_MAPPINGS[ rec[:liga] ] || rec[:liga]    ## check for corrections / (re)mappings first
      league_title = rec[:liga_title]
 
      if league_title =~ /Fussball/

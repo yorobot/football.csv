@@ -2,6 +2,35 @@
 
 ##  Todos
 
+
+leagues duplicates
+
+cl - chamions league AND chile !!!
+
+```
+!! ambigious (multiple) matches (2)[#<SportDb::Import::League:0x2e0cc08
+ @alt_names=["Champions League"],
+ @alt_names_auto=["CL"],
+ @country=nil,
+ @intl=true,
+ @key="cl",
+ @name="UEFA Champions League">,
+#<SportDb::Import::League:0x2e4ee18
+ @alt_names=["Chile Primera Divison"],
+ @alt_names_auto=["CL 1", "CL", "CHI 1", "CHI", "Chile 1"],
+ @country=
+  #<SportDb::Import::Country:0x2e0c908
+   @alt_names=[],
+   @fifa="CHI",
+   @key="cl",
+   @name="Chile",
+   @tags=["fifa", "conmebol"]>,
+ @intl=false,
+ @key="cl.1",
+ @name="Primera Divison">]
+```
+
+
 wikiscript table
 
 ```

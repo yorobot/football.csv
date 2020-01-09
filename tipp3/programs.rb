@@ -1,6 +1,16 @@
 
-## shared list of tipp3 programs
+EXTRA_LEAGUE_MAPPINGS = {
+  'ENG 1'  => 'ENG 3',   ## note: ENG 1 is Premier League (level 1) NOT League One (level 3)
+  'ENG 2'  => 'ENG 4',   ## note: ENG 2 is Championship (level 2) NOT League Two (level 4)
+  'CL'     => 'UEFA CL',    ##  how to deal with cl for Chile AND Champions Leauge??
+  'EL'     => 'UEFA EL',
+  ## 'RL TIR' => 'AUT RL T',   ## or use AUT RLT or AUT RL TIR ???
+  ## 'RL SBG' => 'AUT RL S',
+  ## 'RL VBG' => 'AUT RL V',
+}
 
+
+## shared list of tipp3 programs
 # note: 44b_sat-nov-2 starts on a saturday!
 PROGRAMS = %w[
   21a_tue-may-21   21b_fri-may-24
@@ -57,7 +67,7 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   'G-CUP',      # Gold Cup
   'CCC NL',     # CONCACAF Nations League
   'UEFA NL',    # UEFA Nations League
-  
+
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
   'EMQDA',      # EM Qualifikation, Damen

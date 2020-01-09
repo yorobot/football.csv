@@ -27,10 +27,6 @@ EXTRA_COUNTRY_MAPPINGS = {
   'LAT' => 'LVA',
 }
 
-EXTRA_LEAGUE_MAPPINGS = {
-  'ENG 1' => 'ENG 3',   ## note: ENG 1 is Premier League (level 1) NOT League One (level 3)
-  'ENG 2' => 'ENG 4',   ## note: ENG 2 is Championship (level 2) NOT League Two (level 4)
-}
 
 league_titles = {}   ## lookup league title by league code
 
