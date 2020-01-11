@@ -47,6 +47,10 @@ PROGRAMS = %w[
   52a_mon-dec-23   52b_fri-dec-27
 ]
 
+# 2020-01a_mon-30-dec
+# 2020-01b_fri-3-jan
+# 2020-02a_tue-7-jan
+
 
 ## national teams and/or women leagues
 EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with national (selction) teams for now
