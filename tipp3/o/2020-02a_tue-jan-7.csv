@@ -1,0 +1,121 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,07.01. 13:30,EGY 1,Aswan FC,?,EL Gouna FC,?,Ägypten Premier League
+002,07.01. 14:10,KHL,HK Dinamo Minsk,?,HC Red Star Kunlun,?,Kontinental Hockey League
+003,07.01. 15:00,KHL,HC Sochi,?,Traktor Chelyab.,?,Kontinental Hockey League
+004,07.01. 15:00,KHL,Dynamo Moskau,?,Amur Chabarowsk,?,Kontinental Hockey League
+005,07.01. 15:00,KHL,AK Bars Kasan,?,Met. Magnitogorsk,?,Kontinental Hockey League
+006,07.01. 15:00,KHL,Spartak Moskau,?,SKA St. Petersburg,?,Kontinental Hockey League
+007,07.01. 15:00,KHL,Torp. Nowgorod,?,A. Vladivostok,?,Kontinental Hockey League
+008,07.01. 18:30,EGY 1,Pyramids FC,?,Ismaily SC,?,Ägypten Premier League
+009,07.01. 16:00,EGY 1,El-Entag El-Harby,?,Al-Masry Club,?,Ägypten Premier League
+010,07.01. 18:00,EH CL,Frölunda HC SWE,?,Lulea Hockey SWE,?,Champions Hockey League
+011,07.01. 18:30,GRE CUP,Volos NPS,?,Atromitos Athen,?,Griechenland Cup
+012,07.01. 18:30,RSA PL,Mamelodi FC,?,Bidwest Wits FC,?,"Südafrika, Premier League"
+013,07.01. 18:30,RSA PL,Stellenbosch FC,?,Bloemfontein,?,"Südafrika, Premier League"
+014,07.01. 18:30,RSA PL,Polokwane City,?,Orlando Pirates FC,?,"Südafrika, Premier League"
+015,07.01. 18:30,EH AUT,HC Znojmo,?,HC Innsbruck,?,Österreich Erste Bank-EHL
+016,07.01. 19:00,EH CL,Djurgardens IF SWE,?,Mountfield HK CZE,?,Champions Hockey League
+017,07.01. 19:15,EH AUT,KAC Klagenfurt,?,HC Bozen Foxes,?,Österreich Erste Bank-EHL
+018,07.01. 19:15,EH AUT,EC Graz 99ers,?,Fehervar,?,Österreich Erste Bank-EHL
+019,07.01. 19:15,EH AUT,Villacher SV,?,Black Wings Linz,?,Österreich Erste Bank-EHL
+020,07.01. 19:45,EH SUI,HC Davos,?,Zürcher SC Lions,?,Schweiz National League A
+021,07.01. 20:30,GRE CUP,OFI Kreta FC,?,PAOK Thessaloniki,?,Griechenland Cup
+022,07.01. 20:30,ENG LTR,Newport County,?,MK Dons,?,England Football League Trophy
+023,07.01. 20:45,ENG LTR,Salford City,?,Port Vale FC,?,England Football League Trophy
+024,07.01. 20:45,ENG LTR,FC Walsall,?,FC Portsmouth,?,England Football League Trophy
+025,07.01. 20:45,ENG LTR,Fleetwood Town,?,Accrington Stanley,?,England Football League Trophy
+026,07.01. 20:45,ENG 1,Doncaster Rovers,?,Shrewsbury Town,?,England League One
+027,07.01. 20:45,FA TRO,FC Barrow,?,Atherton Colli.,?,England FA Trophy
+028,07.01. 20:45,FA TRO,Salisbury City,?,Eastbourne Borough,?,England FA Trophy
+029,07.01. 21:00,ENG LC,Manchester United,?,Manchester City,?,England Liga Cup
+030,07.01. 21:00,ENG LC,Manchester Utd.+1,?,Manchester City,?,England Liga Cup
+031,07.01. 21:00,ESP 2,Real Saragossa,?,Sporting Gijon,?,Spanien Segunda Division
+032,07.01. 21:00,FRA LC,Stade de Reims,?,Racing Strasbourg,?,Frankreich Coupe de la Ligue
+033,08.01. 01:00,NHL,Carolina Hurric.,?,Philadelphia Fl.,?,USA NHL
+034,08.01. 01:00,NHL,Tampa Bay Lightn.,?,Vancouver Can.,?,USA NHL
+035,08.01. 01:00,NHL,Florida Panthers,?,Arizona Coyotes,?,USA NHL
+036,08.01. 01:00,NHL,Washington Cap.,?,Ottawa Senators,?,USA NHL
+037,08.01. 01:00,NHL,New Jersey Devils,?,NY Islanders,?,USA NHL
+038,08.01. 01:30,NHL,New York Rangers,?,Colorado Avalan.,?,USA NHL
+039,08.01. 01:30,NHL,Detroit Red Wings,?,Montreal Canad.,?,USA NHL
+040,08.01. 02:00,NHL,St. Louis Blues,?,San Jose Sharks,?,USA NHL
+041,08.01. 02:00,NHL,Nashville Pred.,?,Boston Bruins,?,USA NHL
+042,08.01. 02:30,NHL,Chicago Blackhawks,?,Calgary Flames,?,USA NHL
+043,08.01. 12:30,KHL,Salavat Yulaev Ufa,?,Lok. Jaroslawl,?,Kontinental Hockey League
+044,08.01. 13:30,EGY 1,Talaea El Gaish,?,Haras El Hodood,?,Ägypten Premier League
+045,08.01. 14:00,GRE CUP,PAE PS Kalamata,?,Olympiakos Piräus,?,Griechenland Cup
+046,08.01. 15:00,KHL,Neftekhimik,?,HC Barys,?,Kontinental Hockey League
+047,08.01. 15:00,KHL,Spartak Moskau,?,Jokerit Helsinki,?,Kontinental Hockey League
+048,08.01. 15:00,KHL,Dynamo Moskau,?,HK CSKA Moskau,?,Kontinental Hockey League
+049,08.01. 15:30,CYP CUP,AEK Larnaca FC,?,Karmiotissa Pol.,?,Zypern Cup
+050,08.01. 16:00,CYP CUP,Enosis N.Paralimni,?,Doxa Katokopias FC,?,Zypern Cup
+051,08.01. 16:00,CYP CUP,Digenis Morphou,?,Ethnikos Achnas,?,Zypern Cup
+052,08.01. 16:00,EGY 1,Smouha SC,?,Wadi Degla SC,?,Ägypten Premier League
+053,08.01. 16:15,GRE CUP,PAS Giannina FC,?,Panathinaikos,?,Griechenland Cup
+054,08.01. 16:15,GRE CUP,Asteras Tripolis,?,AEK Athen,?,Griechenland Cup
+055,08.01. 17:30,EH FIN,Pelicans Lahti,?,HPK Hämeenlinna,?,Finnland SM-Liiga
+056,08.01. 17:30,EH FIN,Ilves Tampere,?,HIFK Helsinki,?,Finnland SM-Liiga
+057,08.01. 17:30,EH FIN,SaiPa Lappeenr.,?,HC TPS Turku,?,Finnland SM-Liiga
+058,08.01. 17:30,EH FIN,KalPa Kuopio,?,Kookoo Kouvola,?,Finnland SM-Liiga
+059,08.01. 17:30,EH FIN,Vaasan Sport,?,Tappara Tampere,?,Finnland SM-Liiga
+060,08.01. 17:45,HE-SL,Kristoffersen H.,?,"Pinturault, Alexis",?,"Ski Alpin, Herren Slalom"
+061,08.01. 17:45,HE-SL,"Noel, Clement",?,"Zenhäusern, Ramon",?,"Ski Alpin, Herren Slalom"
+062,08.01. 17:45,HE-SL,"Myhrer, Andre",?,"Yule, Daniel",?,"Ski Alpin, Herren Slalom"
+063,08.01. 17:45,HE-SL,"Matt, Michael",?,"Gross, Stefano",?,"Ski Alpin, Herren Slalom"
+064,08.01. 17:45,HE-SL,"Schwarz, Marco",?,"Vinatzer, Alex",?,"Ski Alpin, Herren Slalom"
+065,08.01. 17:45,HE-SL,"Feller, Manuel",?,"Mölgg, Manfred",?,"Ski Alpin, Herren Slalom"
+066,08.01. 18:00,CYP 1,APOEL Nikosia,?,Olympiakos Nicosia,?,Zypern 1. Division
+067,08.01. 18:00,CYP CUP,Alki Oroklinis,?,AEL Limassol,?,Zypern Cup
+068,08.01. 18:30,GRE CUP,Panaitolikos,?,Panionios Athen,?,Griechenland Cup
+069,08.01. 18:30,RSA PL,Supersport United,?,Maritzburg United,?,"Südafrika, Premier League"
+070,08.01. 18:30,RSA PL,Black Leopards FC,?,Chippa United,?,"Südafrika, Premier League"
+071,08.01. 18:30,RSA PL,Lamontville FC,?,Baroka FC,?,"Südafrika, Premier League"
+072,08.01. 18:30,RSA PL,Cape Town City FC,?,Amazulu FC,?,"Südafrika, Premier League"
+073,08.01. 18:30,RSA PL,Kaizer Chiefs,?,Highlands Park,?,"Südafrika, Premier League"
+074,08.01. 18:30,EGY 1,Enppi Club,?,Al Ittihad,?,Ägypten Premier League
+075,08.01. 18:30,KHL,HK Dinamo Riga,?,Sev. Cherepovets,?,Kontinental Hockey League
+076,08.01. 18:45,FRA LC,Olympique Lyon,?,Stade Brest,?,Frankreich Coupe de la Ligue
+077,08.01. 19:15,EH AUT,EC Dornbirn,?,Vienna Capitals,?,Österreich Erste Bank-EHL
+078,08.01. 19:30,BB AUT,BC Vienna,?,UBSC Graz,?,Österreich Basketball Superliga
+079,08.01. 20:00,ESP SC,FC Valencia*,?,Real Madrid,?,Spanien Supercopa
+080,08.01. 20:00,ESP SC,FC Valencia+1,?,Real Madrid,?,Spanien Supercopa
+081,08.01. 20:30,GRE CUP,Skoda Xanthi FC,?,Aris Thessaloniki,?,Griechenland Cup
+082,08.01. 20:45,ENG LTR,Bristol Rovers,?,FC Stevenage,?,England Football League Trophy
+083,08.01. 20:45,FA TRO,FC Darlington,?,FC Solihull Moors,?,England FA Trophy
+084,08.01. 21:00,ENG LC,Leicester City,?,Aston Villa,?,England Liga Cup
+085,08.01. 21:00,ENG LC,Leicester City,?,Aston Villa+1,?,England Liga Cup
+086,08.01. 21:05,FRA LC,Lille OSC,?,Amiens SC,?,Frankreich Coupe de la Ligue
+087,08.01. 21:05,FRA LC,Paris SG,?,AS Saint Etienne,?,Frankreich Coupe de la Ligue
+088,09.01. 01:00,FS,Hertha BSC GER*,?,E. Frankfurt GER,?,Freundschaftsspiele International (Klub)
+089,09.01. 01:30,NHL,Toronto Maple L.,?,Winnipeg Jets,?,USA NHL
+090,09.01. 01:30,NHL,Philadelphia Fl.,?,Washington Cap.,?,USA NHL
+091,09.01. 02:30,COPA CA,Alianza FC ESA,?,CD Olimpia HON,?,Copa Centroamericana
+092,09.01. 04:00,NHL,Los Angeles Kings,?,Dallas Stars,?,USA NHL
+093,09.01. 15:00,KHL,Met. Magnitogorsk,?,Amur Chabarowsk,?,Kontinental Hockey League
+094,09.01. 15:00,KHL,Avtomobilist,?,A. Vladivostok,?,Kontinental Hockey League
+095,09.01. 17:30,KHL,AK Bars Kasan,?,Torp. Nowgorod,?,Kontinental Hockey League
+096,09.01. 17:30,EH FIN,HIFK Helsinki,?,SaiPa Lappeenr.,?,Finnland SM-Liiga
+097,09.01. 18:15,HB EM,Weißrussland,?,Serbien,?,Handball Europameisterschaft
+098,09.01. 18:15,HB EM,Deutschland,?,Niederlande,?,Handball Europameisterschaft
+099,09.01. 18:30,GRE CUP,AO Trikala 1963,?,Lamia 1964,?,Griechenland Cup
+100,09.01. 19:00,EH SWE,Brynas IF,?,Rögle BK,?,Schweden Elitserien
+101,09.01. 19:00,EH SWE,Färjestads BK,?,Malmö IF,?,Schweden Elitserien
+102,09.01. 19:00,EH SWE,Leksands IF,?,Linköpings HC,?,Schweden Elitserien
+103,09.01. 19:00,EH SWE,Djurgardens IF,?,HV 71,?,Schweden Elitserien
+104,09.01. 19:00,EH SWE,HC Örebro,?,Växjö Lakers,?,Schweden Elitserien
+105,09.01. 19:00,EH SWE,IK Oskarshamn,?,Lulea Hockey,?,Schweden Elitserien
+106,09.01. 19:00,EH SWE,Skelleftea AIK,?,Frölunda HC,?,Schweden Elitserien
+107,09.01. 19:15,EH ALP,HK SZ Olimpija,?,Adler Kitzbühe AUT,?,Alps Hockey League
+108,09.01. 19:30,EH GER,Adler Mannheim,?,Bremerhaven P.,?,Deutschland Deutsche Eishockey Liga
+109,09.01. 20:00,ESP SC,FC Barcelona*,?,Atletico Madrid,?,Spanien Supercopa
+110,09.01. 20:00,ESP SC,FC Barcelona,?,Atletico Madrid+1,?,Spanien Supercopa
+111,09.01. 20:00,BB EL,Alba Berlin GER,?,M.Tel Aviv ISR,?,Euroleague
+112,09.01. 20:00,EH ALP,Ritten Sport ITA,?,EK Zell am See AUT,?,Alps Hockey League
+113,09.01. 20:30,EH ALP,SHC Fassa ITA,?,HC Pustertal ITA,?,Alps Hockey League
+114,09.01. 20:30,EH ALP,SG Cortina ITA,?,HC Jesenice SLO,?,Alps Hockey League
+115,09.01. 20:30,EH ALP,HC Gröden ITA,?,Sterzing ITA,?,Alps Hockey League
+116,09.01. 20:30,HB EM,Kroatien,?,Montenegro,?,Handball Europameisterschaft
+117,09.01. 20:45,BB EL,O.Milano ITA,?,Panathinaikos GRE,?,Euroleague
+118,09.01. 21:00,BB EL,Real Madrid BC ESP,?,BC Zalgiris LTU,?,Euroleague
+119,09.01. 21:00,BB EL,Baskonia G. ESP,?,Fenerbahce TUR,?,Euroleague
+120,09.01. 21:15,ITA CUP,FC Torino,?,FC Genua,?,Italien Coppa Italia

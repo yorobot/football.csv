@@ -7,12 +7,14 @@ EXTRA_LEAGUE_MAPPINGS = {
   ## 'RL TIR' => 'AUT RL T',   ## or use AUT RLT or AUT RL TIR ???
   ## 'RL SBG' => 'AUT RL S',
   ## 'RL VBG' => 'AUT RL V',
+  
+  ## 'FA TRO' => 'ENG FA TRO',  ## England FA Trophy
 }
 
 
 ## shared list of tipp3 programs
 # note: 44b_sat-nov-2 starts on a saturday!
-PROGRAMS = %w[
+PROGRAMS_2019 = %w[
   21a_tue-may-21   21b_fri-may-24
   22a_tue-may-28   22b_fri-may-31
   23a_tue-june-4   23b_fri-june-7
@@ -45,11 +47,86 @@ PROGRAMS = %w[
   50a_tue-dec-10   50b_fri-dec-13
   51a_tue-dec-17   51b_fri-dec-20
   52a_mon-dec-23   52b_fri-dec-27
+].map { |name| "2019-#{name}" }
+
+PROGRAMS_2020 = %w[
+  01a_mon-dec-30   01b_fri-jan-3
+  02a_tue-jan-7
+].map { |name| "2020-#{name}" } 
+
+
+PROGRAMS = PROGRAMS_2019 + PROGRAMS_2020
+
+
+HOCKEY_LEAGUES = [
+  'NHL',     # USA NHL
+  'KHL',     # Kontinental Hockey League
+  'EH AUT',  # Österreich Erste Bank-EHL
+  'EH GER',  # Deutschland Deutsche Eishockey Liga
+  'INTGERC', # Germany Cup
+  'EH SWE',  # Schweden Elitserien
+  'EH ALP',  # Alps Hockey League
+  'EH SUI',  # Schweiz National League A
+  'EH FIN',  # Finnland SM-Liiga
+  'EH ENG',  # England, Elite League
+  'EH CZE',  # Tschechische Republik Extraliga
+  'EH CZE2', # Tschechische Republik 1. Liga
+  'EH CL',   # Champions Hockey League
+  'EH WM',   # Eishockey WM 2019
+  'EH TOUR', # Euro Hockey Tour
+  'EH FS',   # Freundschaftsspiele, Herren
+  'EH NOR',  # Norwegen GET-Ligaen
+  'EH SVK',  # Slowakei Extraliga
 ]
 
-# 2020-01a_mon-30-dec
-# 2020-01b_fri-3-jan
-# 2020-02a_tue-7-jan
+HANDBALL_LEAGUES = [
+  'HB EM',   # Handball Europameisterschaft
+  'HB EMQ',  # Europameisterschaft Qualifikation
+  'HB FS',   # Freundschaftsspiele, Herren
+  'HB AUT',  # Österreich HLA
+  'HB GER',  # Deutsche Handball Bundesliga
+  'HBAUTSC', # Handball Supercup Österreich
+  'HBGERSC', # Deutschland Supercup
+  'EHF EUC', # EHF EURO Cup
+  'HB CL',   # Champions League, Herren
+  'HBWMQD',  # Weltmeisterschaft, Qualifikation, Damen
+]
+
+BASKETBALL_LEAGUES = [
+  'BB AUT',  # Österreich Basketball Superliga
+  'BB AUTC', # Basketball Cup Österreich
+  'BBAUTSC', # Österreich, Herren Supercup
+  'BB GER',  # Deutschland BBL
+  'BB ESP',  # Spanien Spagnola ACB
+  'BB ITA',  # Italien A1
+  'BB FRA',  # Frankreich Pro A
+  'BB POR',  # Portugal, LPB
+  'BB WM',   # FIBA Weltmeisterschaft 
+  'BB EL',   # Euroleague
+  'BB BEL',  # Belgien Scooore League
+  'BB CL',   # Basketball Champions League
+  'BB EU C', # Europe Cup
+  'BB SER',  # Serbien A1 League
+  'BB TUR',  #Türkei TBL
+  'NBA',     # USA NBA
+  'BB EC',   # Eurocup
+  'BB EMDA', # Europameisterschaft Damen
+]
+
+WINTER_LEAGUES = [
+  'HE-SL',   # Ski Alpin, Herren Slalom
+  'HE-RTL',  # Ski Alpin, Herren Riesentorlauf
+]
+
+MORE_LEAGUES = [
+  'NFL',      # USA NFL
+  'AFB AFL',  # Austrian Football League
+  'RUG WM',   # Rugby Union WM
+  'VB EM H',  # Volleyball Europameisterschaft Herren
+  'TEN ATP',  # Tennis ATP
+  'TEN WTA',  # Tennis WTA
+  'F1',       # Formel 1
+]
 
 
 ## national teams and/or women leagues
@@ -71,12 +148,14 @@ EXCLUDE_LEAGUES = [    # note: skip (ignore) all leagues/cups/tournaments with n
   'G-CUP',      # Gold Cup
   'CCC NL',     # CONCACAF Nations League
   'UEFA NL',    # UEFA Nations League
+  'COPA CA',    # Copa Centroamericana
 
   ## national leagues (women)
   'INT FSD',    # Internationale Freundschaftsspiele, Damen
   'EMQDA',      # EM Qualifikation, Damen
   'U19 DAQ',    # U19 EM Frauen, Qualifikation
   'WM DAM',     # Damen WM 2019 in Frankreich
+
   ## todo/fix: move to clubs leagues (women) - why? why not?
   'CL DAM',     # UEFA Champions League Damen
   'AUT DA',     # Österreich Frauen Bundesliga

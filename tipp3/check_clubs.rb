@@ -30,8 +30,8 @@ EXTRA_COUNTRY_MAPPINGS = {
 
 league_titles = {}   ## lookup league title by league code
 
-PROGRAMS.each do |program|
-   recs = CsvHash.read( "o/2019-#{program}.csv", :header_converters => :symbol )
+PROGRAMS_2020.each do |program|
+   recs = CsvHash.read( "o/#{program}.csv", :header_converters => :symbol )
    pp recs.size
 
 
@@ -39,13 +39,20 @@ PROGRAMS.each do |program|
      league_code  = EXTRA_LEAGUE_MAPPINGS[ rec[:liga] ] || rec[:liga]    ## check for corrections / (re)mappings first
      league_title = rec[:liga_title]
 
-     if league_title =~ /Fussball/
+     next if HOCKEY_LEAGUES.include?( league_code ) ||     ## skip (ice) hockey leagues
+             BASKETBALL_LEAGUES.include?( league_code ) ||
+             HANDBALL_LEAGUES.include?( league_code ) ||
+             MORE_LEAGUES.include?( league_code ) ||      ## skip amercian football, etc.
+             WINTER_LEAGUES.include?( league_code )       ## skip ski alpin 
 
-       ## skip national (selection) teams / matches e.g. wm, em, u21, u20, int fs, etc.
-       next if EXCLUDE_LEAGUES.include?( league_code )
+     ## skip national (selection) teams / matches e.g. wm, em, u21, u20, int fs, etc.
+     next if EXCLUDE_LEAGUES.include?( league_code )
+
+      ## remove leading "Fussball -" from title (before 2020 format change)   
+      league_title = league_title.sub('Fussball - ','')  if league_title =~ %r{Fussball -}
+
 
        league_titles[ league_code ] = league_title
-
 
        team1 = rec[:team_1]
        team2 = rec[:team_2]
@@ -158,8 +165,8 @@ PROGRAMS.each do |program|
             # bingo; match
           end
         end
-     end
-   end
+    
+  end
 end
 
 

@@ -1,0 +1,120 @@
+Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
+001,30.12. 17:10,KHL,HK Dinamo Minsk,?,HK Dinamo Riga,?,Kontinental Hockey League
+002,30.12. 17:30,KHL,Jokerit Helsinki,?,HC Vityaz Podolsk,?,Kontinental Hockey League
+003,30.12. 17:30,KHL,HK CSKA Moskau,?,Lok. Jaroslawl,?,Kontinental Hockey League
+004,30.12. 18:00,ISR 2,Macc. Petach Tikva,?,Hap. Rishon LeZion,?,Israel National League
+005,30.12. 18:00,ISR 2,Hap.Kat. Jerusalem,?,Bnei Sakhnin FC,?,Israel National League
+006,30.12. 18:00,ISR 2,Hapoel Umm al-Fahm,?,Hapoel Ramat Gan,?,Israel National League
+007,30.12. 18:30,EH AUT,HC Znojmo,?,Vienna Capitals,?,Österreich Erste Bank-EHL
+008,30.12. 19:00,EH ALP,HC Jesenice SLO,?,EK Zell am See AUT,?,Alps Hockey League
+009,30.12. 19:00,EH SWE,Lulea Hockey,?,Leksands IF,?,Schweden Elitserien
+010,30.12. 19:00,EH SWE,Skelleftea AIK,?,Färjestads BK,?,Schweden Elitserien
+011,30.12. 19:00,EH SWE,HV 71,?,Frölunda HC,?,Schweden Elitserien
+012,30.12. 19:00,EH SWE,Rögle BK,?,Djurgardens IF,?,Schweden Elitserien
+013,30.12. 19:00,EH SWE,Växjö Lakers,?,IK Oskarshamn,?,Schweden Elitserien
+014,30.12. 19:00,EH SWE,Brynas IF,?,Malmö IF,?,Schweden Elitserien
+015,30.12. 19:00,EH SWE,Linköpings HC,?,HC Örebro,?,Schweden Elitserien
+016,30.12. 19:00,BB GER,Braunschweig,?,Oldenburg,?,Deutschland BBL
+017,30.12. 19:15,ISR 1,Hapoel Haifa,?,Beitar Jerusalem,?,Israel Winner League
+018,30.12. 19:15,EH AUT,Fehervar,?,Black Wings Linz,?,Österreich Erste Bank-EHL
+019,30.12. 19:15,EH AUT,EC Dornbirn,?,HC Bozen Foxes,?,Österreich Erste Bank-EHL
+020,30.12. 19:15,EH AUT,Villacher SV,?,KAC Klagenfurt,?,Österreich Erste Bank-EHL
+021,30.12. 19:15,EH AUT,EC RB Salzburg,?,HC Innsbruck,?,Österreich Erste Bank-EHL
+022,30.12. 19:30,EH GER,Eisbären Berlin,?,Augsburger Panth.,?,Deutschland Deutsche Eishockey Liga
+023,30.12. 19:30,EH GER,Schwenninger W.W.,?,Straubing Tigers,?,Deutschland Deutsche Eishockey Liga
+024,30.12. 19:30,EH GER,DEG Metro Stars,?,EHC Wolfsburg,?,Deutschland Deutsche Eishockey Liga
+025,30.12. 19:30,EH GER,Bremerhaven P.,?,ERC Ingolstadt,?,Deutschland Deutsche Eishockey Liga
+026,30.12. 19:30,EH GER,Kölner Haie,?,Adler Mannheim,?,Deutschland Deutsche Eishockey Liga
+027,30.12. 19:30,EH GER,EHC München,?,Krefeld Pinguine,?,Deutschland Deutsche Eishockey Liga
+028,30.12. 19:30,EH GER,Nürnberg Ice Tiger,?,Iserlohn Roosters,?,Deutschland Deutsche Eishockey Liga
+029,30.12. 19:30,EH ALP,EHC Lustenau AUT,?,Bregenzerwald AUT,?,Alps Hockey League
+030,30.12. 20:00,EH ALP,HC Pustertal ITA,?,VEU Feldkirch AUT,?,Alps Hockey League
+031,30.12. 20:30,EH ALP,HC Asiago ITA,?,SG Cortina ITA,?,Alps Hockey League
+032,30.12. 20:30,BB GER,BB Bamberg,?,Bayern München,?,Deutschland BBL
+033,30.12. 20:45,ENG CS,Derby County,?,Charlton Athletic,?,England Championship
+034,30.12. 20:45,WAL 1,Bala Town,?,Caernarfon Town,?,Wales Premier League
+035,30.12. 20:45,WAL 1,Cardiff Met Uni.,?,FC Barry Town,?,Wales Premier League
+036,30.12. 20:45,WAL 1,The New Saints FC,?,Newi Cefn Druids,?,Wales Premier League
+037,30.12. 20:45,WAL 1,Aberystwyth Town,?,Newtown AFC,?,Wales Premier League
+038,30.12. 20:45,WAL 1,Airbus,?,Connah's Quay,?,Wales Premier League
+039,31.12. 09:00,AUS 1,Central Coast,?,Perth Glory,?,Australien Hyundai A-League
+040,31.12. 14:00,TUN 1,Esp. Sp. Tunis,?,JS Kairouanaise,?,"Tunesien, Ligue 1"
+041,31.12. 15:00,EH ENG,Glasgow Clan,?,Fife Flyers,?,"England, Elite League"
+042,31.12. 17:00,EH ENG,Nottingham Panth.,?,Sheffield Steelers,?,"England, Elite League"
+043,31.12. 17:30,EH ENG,Coventry Blaze,?,Cardiff Devils,?,"England, Elite League"
+044,31.12. 19:00,NHL,Washington Cap.,?,NY Islanders,?,USA NHL
+045,31.12. 19:00,NHL,New Jersey Devils,?,Boston Bruins,?,USA NHL
+046,31.12. 21:00,NHL,Vegas Gold.Knights,?,Anaheim Ducks,?,USA NHL
+047,01.01. 00:00,NHL,Minnesota Wild,?,Toronto Maple L.,?,USA NHL
+048,01.01. 01:00,NHL,Buffalo Sabres,?,Tampa Bay Lightn.,?,USA NHL
+049,01.01. 01:00,NHL,Carolina Hurric.,?,Montreal Canad.,?,USA NHL
+050,01.01. 01:00,NHL,Columbus Blue J.,?,Florida Panthers,?,USA NHL
+051,01.01. 01:30,NHL,Detroit Red Wings,?,San Jose Sharks,?,USA NHL
+052,01.01. 02:00,NHL,Colorado Avalan.,?,Winnipeg Jets,?,USA NHL
+053,01.01. 03:00,NHL,Calgary Flames,?,Chicago Blackhawks,?,USA NHL
+054,01.01. 03:00,NHL,Edmonton Oilers,?,New York Rangers,?,USA NHL
+055,01.01. 03:00,NHL,Los Angeles Kings,?,Philadelphia Fl.,?,USA NHL
+056,01.01. 03:00,NHL,Arizona Coyotes,?,St. Louis Blues,?,USA NHL
+057,01.01. 06:35,JPN CUP,Vissel Kobe*,?,Kashima Antlers,?,Japan Emperor Cup
+058,01.01. 09:30,AUS 1,Western Sydney,?,Brisbane Roar,?,Australien Hyundai A-League
+059,01.01. 13:30,ENG PL,Brighton & Hove,?,FC Chelsea,?,England Premier League
+060,01.01. 13:30,ENG PL,FC Burnley,?,Aston Villa,?,England Premier League
+061,01.01. 13:45,ENG CS,FC Millwall,?,Luton Town,?,England Championship
+062,01.01. 16:00,ENG PL,Newcastle United,?,Leicester City,?,England Premier League
+063,01.01. 16:00,ENG PL,FC Southampton,?,Tottenham,?,England Premier League
+064,01.01. 16:00,ENG PL,FC Watford,?,Wolverhampton,?,England Premier League
+065,01.01. 16:00,ENG CS,Birmingham City,?,Wigan Athletic,?,England Championship
+066,01.01. 16:00,ENG CS,Bristol City,?,FC Brentford,?,England Championship
+067,01.01. 16:00,ENG CS,FC Fulham,?,FC Reading,?,England Championship
+068,01.01. 16:00,ENG CS,Huddersfield Town,?,Stoke City,?,England Championship
+069,01.01. 16:00,ENG CS,Nottingham Forest,?,Blackburn Rovers,?,England Championship
+070,01.01. 16:00,ENG CS,Preston North End,?,FC Middlesbrough,?,England Championship
+071,01.01. 16:00,ENG CS,Queens Park R.,?,Cardiff City,?,England Championship
+072,01.01. 16:00,ENG CS,Sheffield Wednes.,?,Hull City,?,England Championship
+073,01.01. 16:00,ENG 1,AFC Wimbledon,?,Southend United,?,England League One
+074,01.01. 16:00,ENG 1,Accrington Stanley,?,FC Rochdale,?,England League One
+075,01.01. 16:00,ENG 1,Bolton Wanderers,?,Burton Albion,?,England League One
+076,01.01. 16:00,ENG 1,Doncaster Rovers,?,Oxford United,?,England League One
+077,01.01. 16:00,ENG 1,Fleetwood Town,?,AFC Sunderland,?,England League One
+078,01.01. 16:00,ENG 1,FC Gillingham,?,FC Portsmouth,?,England League One
+079,01.01. 16:00,ENG 1,Lincoln City,?,Peterborough Utd.,?,England League One
+080,01.01. 16:00,ENG 1,MK Dons,?,Bristol Rovers,?,England League One
+081,01.01. 16:00,ENG 1,Rotherham United,?,FC Blackpool,?,England League One
+082,01.01. 16:00,ENG 1,Tranmere Rovers,?,Coventry City,?,England League One
+083,01.01. 16:00,ENG 1,Wycombe Wanderers,?,Ipswich Town,?,England League One
+084,01.01. 17:30,EH AUT,Vienna Capitals,?,Fehervar,?,Österreich Erste Bank-EHL
+085,01.01. 17:30,EH AUT,HC Znojmo,?,Black Wings Linz,?,Österreich Erste Bank-EHL
+086,01.01. 17:30,EH AUT,EC Graz 99ers,?,KAC Klagenfurt,?,Österreich Erste Bank-EHL
+087,01.01. 17:30,EH AUT,EC Dornbirn,?,HC Innsbruck,?,Österreich Erste Bank-EHL
+088,01.01. 18:00,EH AUT,HC Bozen Foxes,?,EC RB Salzburg,?,Österreich Erste Bank-EHL
+089,01.01. 18:15,ENG CS,West Bromwich,?,Leeds United,?,England Championship
+090,01.01. 18:30,ENG PL,Manchester City,?,FC Everton,?,England Premier League
+091,01.01. 18:30,ENG PL,Norwich City,?,Crystal Palace,?,England Premier League
+092,01.01. 18:30,ENG PL,West Ham United,?,AFC Bournemouth,?,England Premier League
+093,01.01. 20:00,NHL,Dallas Stars,?,Nashville Pred.,?,USA NHL
+094,01.01. 21:00,ENG PL,FC Arsenal,?,Manchester United,?,England Premier League
+095,01.01. 21:00,ENG PL,FC Arsenal,?,Manchester Utd.+1,?,England Premier League
+096,01.01. 21:00,ENG PL,FC Arsenal+1,?,Manchester United,?,England Premier League
+097,02.01. 13:30,EGY 1,Haras El Hodood,?,Pyramids FC,?,Ägypten Premier League
+099,02.01. 15:45,EH SUI,Zürcher SC Lions,?,SCL Tigers Langnau,?,Schweiz National League A
+100,02.01. 16:00,EGY 1,Al-Masry Club,?,Smouha SC,?,Ägypten Premier League
+101,02.01. 17:30,EH CZE,HC Karlsbad,?,Sparta Prag,?,Tschechische Republik Extraliga
+102,02.01. 18:00,EH SWE,Färjestads BK,?,Linköpings HC,?,Schweden Elitserien
+103,02.01. 18:30,EGY 1,El Zamalek,?,Aswan FC,?,Ägypten Premier League
+104,02.01. 19:00,BB EL,BC Zalgiris LTU,?,M.Tel Aviv ISR,?,Euroleague
+105,02.01. 19:00,BB EL,Roter Stern SRB,?,Bayern München GER,?,Euroleague
+106,02.01. 19:00,BB AUT,UBSC Graz,?,Swans Gmunden,?,Österreich Basketball Superliga
+107,02.01. 19:00,BB AUT,UBC St. Pölten,?,Gunners Oberwart,?,Österreich Basketball Superliga
+108,02.01. 19:00,BB AUT,Traiskirchen,?,WBC Wels,?,Österreich Basketball Superliga
+109,02.01. 19:00,BB AUT,BC Vienna,?,Kapfenberg Bulls,?,Österreich Basketball Superliga
+110,02.01. 19:00,BB GER,BG Göttingen,?,Skyli. Frankfurt,?,Deutschland BBL
+111,02.01. 19:45,EH SUI,SC Bern,?,EHC Biel Bienne,?,Schweiz National League A
+112,02.01. 19:45,EH SUI,HC Lausanne,?,HC Ambri Piotta,?,Schweiz National League A
+113,02.01. 19:45,EH SUI,HC Davos,?,Rapperswil Lakers,?,Schweiz National League A
+114,02.01. 19:45,EH SUI,Fribourg Gotteron,?,EV Zug,?,Schweiz National League A
+115,02.01. 20:00,BB EL,Olympiakos P. GRE,?,Fenerbahce TUR,?,Euroleague
+116,02.01. 20:45,ENG CS,Derby County,?,FC Barnsley,?,England Championship
+117,02.01. 20:45,ENG CS,Swansea City,?,Charlton Athletic,?,England Championship
+118,02.01. 21:00,ENG PL,FC Liverpool,?,Sheffield United,?,England Premier League
+119,02.01. 21:00,ENG PL,FC Liverpool,?,Sheffield United+2,?,England Premier League
+120,02.01. 21:00,BB EL,Baskonia G. ESP,?,FC Barcelona ESP,?,Euroleague

@@ -10,8 +10,8 @@ require_relative 'programs'
 
 leagues = {}    ## track league usage & names
 
-PROGRAMS.each do |program|
-   recs = CsvHash.read( "o/2019-#{program}.csv", :header_converters => :symbol )
+PROGRAMS_2020.each do |program|
+   recs = CsvHash.read( "o/#{program}.csv", :header_converters => :symbol )
    pp recs.size
    ## pp recs[0]
 
@@ -19,15 +19,20 @@ PROGRAMS.each do |program|
      league_code  = EXTRA_LEAGUE_MAPPINGS[ rec[:liga] ] || rec[:liga]    ## check for corrections / (re)mappings first
      league_title = rec[:liga_title]
 
-     if league_title =~ /Fussball/
-       league_title = league_title.sub('Fussball - ','')
-       puts "#{league_code} | #{league_title}"
+     next if HOCKEY_LEAGUES.include?( league_code ) ||     ## skip (ice) hockey leagues
+             BASKETBALL_LEAGUES.include?( league_code ) ||
+             HANDBALL_LEAGUES.include?( league_code ) ||
+             MORE_LEAGUES.include?( league_code ) ||      ## skip amercian football, etc.
+             WINTER_LEAGUES.include?( league_code )       ## skip ski alpin 
 
-       leagues[ league_code ] ||= [0, league_title]
-       leagues[ league_code ][0] += 1
-     else
-       ## skip Handball, Tennis, Hockey etc.
-     end
+
+      ## remove leading "Fussball -" from title (before 2020 format change)   
+      league_title = league_title.sub('Fussball - ','')  if league_title =~ %r{Fussball -}
+   
+      puts "#{league_code} | #{league_title}"
+
+      leagues[ league_code ] ||= [0, league_title]
+      leagues[ league_code ][0] += 1
    end
 end
 
