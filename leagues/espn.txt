@@ -1,0 +1,201 @@
+##
+# leagues from ESPN
+#  see https://www.espn.com/soccer/competitions
+
+
+###########
+# Top Competitions
+
+UEFA Champions League
+UEFA Europa League
+
+Major League Soccer
+Mexican Liga BBVA MX
+
+English Premier League
+English League Championship
+English Carabao Cup
+
+Spanish Primera División
+Italian Serie A
+German Bundesliga
+French Ligue 1
+Dutch Eredivisie
+
+
+################
+# USA, Mexico & CONCACAF
+
+CONCACAF Champions League
+CONCACAF League
+
+Major League Soccer
+United States Open Cup
+USL Championship
+
+United States NCAA Men's Soccer      ##  National Collegiate Athletic Association (NCAA)
+  | NCAA Division I
+  | NCAA Division I Men's Soccer Tournament
+  | College Cup
+
+
+Mexican Liga BBVA MX
+Mexican Ascenso MX
+Mexican Copa MX
+
+Costa Rican Primera Division
+Honduran Primera Division
+Salvadoran Primera Division
+Guatemalan Liga Nacional
+
+Jamaican Premier League
+
+
+#################################
+#  Europe
+
+UEFA Champions League
+UEFA Europa League
+
+English Premier League
+English League Championship
+English League One
+English League Two
+English National League
+English Carabao Cup
+English EFL Trophy
+English FA Cup
+
+Scottish Premiership
+Scottish Championship
+Scottish League Two
+Scottish League One
+Scottish Cup
+Scottish League Cup
+
+Northern Irish Premiership
+Welsh Premier League
+Irish Premier Division
+
+
+Spanish Primera División
+Spanish Segunda División
+Spanish Copa del Rey
+
+German Bundesliga
+German 2. Bundesliga
+German DFB Pokal
+
+Italian Serie A
+Italian Serie B
+Italian Coppa Italia
+
+French Ligue 1
+French Ligue 2
+French Coupe de la Ligue
+French Coupe de France
+
+Dutch Eredivisie
+Dutch Eerste Divisie
+Dutch KNVB Beker
+
+Belgian First Division A
+
+Russian Premier League
+Greek Super League
+Swiss Super League
+Norwegian Eliteserien
+Romanian First Division
+Maltese Premier League
+Turkish Super Lig
+Austrian Bundesliga
+Danish SAS-Ligaen
+Swedish Allsvenskanliga
+Portuguese Liga
+
+
+#################
+# Middle East
+
+Israeli Premier League
+
+
+
+###########################
+# South America
+
+CONMEBOL Copa Libertadores
+CONMEBOL Copa Sudamericana
+
+Argentine Superliga
+Argentine Nacional B
+Argentine Primera B
+Argentine Primera C
+Argentine Primera D
+Copa Argentina
+
+Brazilian Serie A
+Brazilian Serie B
+Brazilian Serie C
+Brazilian Campeonato Carioca
+Brazilian Campeonato Mineiro
+Brazilian Campeonato Gaucho
+Brazilian Campeonato Paulista
+Copa Do Brazil
+
+
+Colombian Primera A
+Colombian Primera B
+Copa Colombia
+
+Chilean Primera Division
+Copa Chile
+
+Paraguayan Primera Division
+Peruvian Primera Profesional
+Bolivian Liga Profesional
+Ecuadoran Primera A
+Uruguayan Primera Division
+Venezuelan Primera Profesional
+
+
+
+####################
+# Asia
+
+AFC Champions League
+
+Chinese Super League
+Indian Super League
+Indonesian Super League
+Singaporean Premier League
+Japanese J League
+Indian I-League
+Malaysian Super League
+Thai Premier League
+
+
+####################
+# Pacific
+
+Australian A-League
+
+
+########################
+# Africa
+
+CAF Champions League
+CAF Confederations Cup
+
+South African Premiership
+South African First Division
+South African Nedbank Cup
+South African Telkom Knockout
+
+Nigerian Professional League
+Kenyan Premier League
+Zambian Super League
+Ghanaian Premier League
+Ugandan Super League
+Zimbabwean Premier Soccer League
+
