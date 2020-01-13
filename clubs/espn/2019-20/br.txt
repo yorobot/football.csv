@@ -1,0 +1,50 @@
+= Brazilian Serie A
+
+# see https://www.espn.com/soccer/teams/_/league/BRA.1/brazilian-serie-a
+
+Athletico-PR
+Atlético-MG
+Avaí
+Bahia
+Botafogo
+CSA
+Ceará
+Chapecoense
+Corinthians
+Cruzeiro
+Flamengo
+Fluminense
+Fortaleza
+Goiás
+Grêmio
+Internacional
+Palmeiras
+Santos
+São Paulo
+Vasco da Gama
+
+
+= Brazilian Serie B
+
+# see https://www.espn.com/soccer/teams/_/league/BRA.2/brazilian-serie-b
+
+América-MG
+Atlético-GO
+Botafogo SP
+Bragantino
+Brasil de Pelotas
+CRB
+Coritiba
+Criciúma
+Cuiabá
+Figueirense
+Guarani
+Londrina
+Oeste
+Operario PR
+Paraná
+Ponte Preta
+Sport
+São Bento
+Vila Nova-GO
+Vitória
