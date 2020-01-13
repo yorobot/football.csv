@@ -1,0 +1,21 @@
+= Chinese Super League
+
+## see https://www.espn.com/soccer/teams/_/league/CHN.1/chinese-super-league
+
+Beijing Renhe
+Beijing Sinobo Guoan
+Chongqing Lifan
+Dalian Yifang
+Guangzhou Evergrande
+Guangzhou R&F
+Hebei China Fortune FC
+Henan Jianye
+Jiangsu Suning
+Shandong Luneng Taishan
+Shanghai SIPG
+Shanghai Shenhua
+Shenzhen FC
+Tianjin Quanjian
+Tianjin Teda
+Wuhan Zall
+
