@@ -1,0 +1,23 @@
+= Japanese J League
+
+# see https://www.espn.com/soccer/teams/_/league/JPN.1/japanese-j1-league
+
+Cerezo Osaka
+Consadole Sapporo
+FC Tokyo
+Gamba Osaka
+Jubilo Iwata
+Kashima Antlers
+Kawasaki Frontale
+Matsumoto Yamaga FC
+Nagoya Grampus
+Oita Trinita
+Sagan Tosu
+Sanfrecce Hiroshima
+Shimizu S-Pulse
+Shonan Bellmare
+Tokushima Vortis
+Urawa Red Diamonds
+Vegalta Sendai
+Vissel Kobe
+Yokohama F. Marinos
