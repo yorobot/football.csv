@@ -1,0 +1,66 @@
+= Argentine Superliga
+
+# see https://www.espn.com/soccer/teams/_/league/ARG.1/argentine-superliga
+
+Aldosivi
+Argentinos Juniors
+Arsenal de Sarandí
+Atlético Tucumán
+Banfield
+Boca Juniors
+Central Córdoba (Santiago del Estero)
+Colón (Santa Fe)
+Defensa y Justicia
+Estudiantes de La Plata
+Gimnasia La Plata
+Godoy Cruz Antonio Tomba
+Huracán
+Independiente
+Lanús
+Newell's Old Boys
+Patronato
+Racing Club
+River Plate
+Rosario Central
+San Lorenzo
+Talleres (Córdoba)
+Unión (Santa Fe)
+Vélez Sarsfield
+
+
+= Argentine Nacional B
+
+# see https://www.espn.com/soccer/teams/_/league/ARG.2/argentine-nacional-b
+
+Agropecuario
+All Boys
+Almagro
+Alvarado (Mar del Plata)
+Atlanta
+Atletico Rafaela
+Barracas Central
+Belgrano (Córdoba)
+Brown (Adrogué)
+Chacarita Juniors
+Defensores de Belgrano
+Deportivo Morón
+Deportivo Riestra
+Estudiantes (Buenos Aires)
+Estudiantes de Río Cuarto
+Ferro Carril Oeste
+Gimnasia (Mendoza)
+Gimnasia y Esgrima (Jujuy)
+Guillermo Brown
+Independiente Rivadavia
+Instituto (Córdoba)
+Mitre (Santiago del Estero)
+Nueva Chicago
+Platense
+Quilmes
+San Martín (San Juan)
+San Martín (Tucumán)
+Santamarina
+Sarmiento (Junín)
+Temperley
+Tigre
+Villa Dálmine
