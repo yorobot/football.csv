@@ -1,0 +1,72 @@
+= Major League Soccer
+
+# see https://www.espn.com/soccer/teams/_/league/USA.1/major-league-soccer
+
+Atlanta United FC
+Chicago Fire
+Colorado Rapids
+Columbus Crew SC
+DC United
+FC Cincinnati
+FC Dallas
+Houston Dynamo
+Inter Miami CF
+LA Galaxy
+LAFC
+Minnesota United FC
+Montreal Impact
+Nashville SC
+New England Revolution
+New York City FC
+New York Red Bulls
+Orlando City SC
+Philadelphia Union
+Portland Timbers
+Real Salt Lake
+San Jose Earthquakes
+Seattle Sounders FC
+Sporting Kansas City
+Toronto FC
+Vancouver Whitecaps
+
+
+= USL Championship
+
+# see https://www.espn.com/soccer/teams/_/league/USA.USL.1/usl-championship
+
+Atlanta United 2
+Austin Bold FC
+Birmingham Legion FC
+Charleston Battery
+Charlotte Independence
+Colorado Springs Switchbacks FC
+El Paso Locomotive FC
+FC Tulsa
+Hartford Athletic
+Indy Eleven
+LA Galaxy II
+Las Vegas Lights FC
+Loudoun United FC
+Louisville City FC
+Memphis 901 FC
+Miami FC
+New Mexico United
+New York Red Bulls II
+North Carolina FC
+Oklahoma City Energy FC
+Orange County SC
+Philadelphia Union II
+Phoenix Rising FC
+Pittsburgh Riverhounds
+Portland Timbers 2
+Real Monarchs SLC
+Reno 1868 FC
+Rio Grande Valley FC Toros
+Sacramento Republic FC
+Saint Louis FC
+San Antonio FC
+San Diego Loyal SC
+Sporting Kansas City II
+Tacoma Defiance
+Tampa Bay Rowdies
+
