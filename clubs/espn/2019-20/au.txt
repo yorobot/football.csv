@@ -1,0 +1,15 @@
+= Australian A-League
+
+# see https://www.espn.com/soccer/teams/_/league/AUS.1/australian-a-league
+
+Adelaide United
+Brisbane Roar
+Central Coast Mariners
+Melbourne City FC
+Melbourne Victory
+Newcastle Jets
+Perth Glory
+Sydney FC
+Wellington Phoenix FC
+Western Sydney Wanderers
+Western United
