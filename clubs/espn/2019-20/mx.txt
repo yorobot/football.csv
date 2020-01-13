@@ -1,0 +1,43 @@
+= Mexican Liga BBVA MX
+
+# see https://www.espn.com/soccer/teams/_/league/MEX.1/mexican-liga-bbva-mx
+
+América
+Atlas
+Atlético San Luis
+Cruz Azul
+FC Juarez
+Guadalajara
+León
+Monterrey
+Morelia
+Necaxa
+Pachuca
+Puebla
+Pumas UNAM
+Querétaro
+Santos
+Tijuana
+Toluca
+U.A.N.L
+
+
+= Mexican Ascenso MX
+
+# see https://www.espn.com/soccer/teams/_/league/MEX.2/mexican-ascenso-mx
+
+Atlante
+Atlético Zacatepec
+Cafetaleros de Chiapas
+Celaya
+Cimarrones de Sonora
+Correcaminos
+Dorados de Sinaloa
+Loros Universidad
+Mineros de Zacatecas
+Oaxaca
+Tampico Madero
+U. de G.
+UAEM Potros
+Venados FC
+
