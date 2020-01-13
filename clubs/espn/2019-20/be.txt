@@ -1,0 +1,21 @@
+= Belgian First Division A
+
+# see https://www.espn.com/soccer/teams/_/league/BEL.1/belgian-first-division-a
+
+Anderlecht
+Antwerp
+Cercle Brugge KSV
+Club Brugge
+Eupen
+KAA Gent
+KV Kortrijk
+KV Mechelen
+KV Oostende
+Mouscron
+Racing Genk
+Royal Charleroi SC
+Sint-Truidense
+Standard Liege
+Waasland-Beveren
+Zulte-Waregem
+
