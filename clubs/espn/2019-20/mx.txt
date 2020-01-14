@@ -41,3 +41,41 @@ U. de G.
 UAEM Potros
 Venados FC
 
+
+= Mexican Copa MX =
+
+# see https://www.espn.com/soccer/teams/_/league/MEX.COPA_MX/mexican-copa-mx
+
+América
+Atlante
+Atlas
+Atlético San Luis
+Atlético Zacatepec
+Cafetaleros de Chiapas
+Celaya
+Cimarrones de Sonora
+Correcaminos
+Cruz Azul
+Dorados de Sinaloa
+FC Juarez
+Guadalajara
+León
+Lobos BUAP
+Mineros de Zacatecas
+Monterrey
+Morelia
+Necaxa
+Oaxaca
+Pachuca
+Puebla
+Pumas UNAM
+Querétaro
+Santos
+Tampico Madero
+Tijuana
+Toluca
+U. de G.
+UAEM Potros
+Venados FC
+Veracruz
+
