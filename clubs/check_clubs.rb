@@ -19,7 +19,17 @@ CLUB_RE = %r{
             }x
 
 
-datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
+# datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
+datafiles = [
+ # 'espn/2019-20/mx.txt' 
+ # 'espn/2019-20/au.txt'
+ # 'espn/2019-20/us.txt' 
+ # 'espn/2019-20/be.txt' 
+ # 'espn/2019-20/at.txt' 
+ # 'espn/2019-20/jp.txt' 
+ # 'espn/2019-20/cn.txt' 
+ 'espn/2019-20/br.txt' 
+]
 # datafiles = Datafile.find( 'sportbild/2019-20', CLUB_RE )
 pp datafiles
 

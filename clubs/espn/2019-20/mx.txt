@@ -1,4 +1,4 @@
-= Mexican Liga BBVA MX
+= Liga MX
 
 # see https://www.espn.com/soccer/teams/_/league/MEX.1/mexican-liga-bbva-mx
 
@@ -22,7 +22,7 @@ Toluca
 U.A.N.L
 
 
-= Mexican Ascenso MX
+= Ascenso MX
 
 # see https://www.espn.com/soccer/teams/_/league/MEX.2/mexican-ascenso-mx
 
