@@ -70,3 +70,93 @@ Sporting Kansas City II
 Tacoma Defiance
 Tampa Bay Rowdies
 
+
+= United States Open Cup =
+
+# see https://www.espn.com/soccer/teams/_/league/USA.OPEN/united-states-open-cup
+
+AFC Ann Arbor
+Academica SC
+Atlanta United FC
+Austin Bold FC
+Birmingham Legion FC
+Black Rock FC
+Brazos Valley Cavalry FC
+Cal FC
+Charleston Battery
+Charlotte Independence
+Chattanooga Red Wolves
+Chicago Fire
+Colorado Rapids
+Colorado Springs Switchbacks FC
+Columbus Crew SC
+DC United
+Dayton Dutch Lions
+Des Moines Menace
+Duluth FC
+El Farolito
+El Paso Locomotive FC
+Erie Commodores FC
+FC Baltimore
+FC Cincinnati
+FC Dallas
+FC Denver
+FC Motown
+FC Mulhouse Portland
+FC Tulsa
+Florida Soccer Soldiers
+Forward Madison FC
+Fresno FC
+Golden State Force
+Greenville Triumph
+Hartford Athletic
+Houston Dynamo
+Indy Eleven
+LA Galaxy
+LAFC
+Lakeland Tropics
+Lansing Ignite FC
+Laredo Heat
+Las Vegas Lights FC
+Little Rock Rangers
+Louisville City FC
+Memphis 901 FC
+Miami FC
+Midland-Odessa Sockers FC
+Milwaukee Bavarian SC
+Minnesota United FC
+NTX Rayados
+Nashville SC
+New England Revolution
+New Mexico United
+New York City FC
+New York Cosmos
+New York Red Bulls
+New York Red Bulls U23
+North Carolina FC
+Oklahoma City Energy FC
+Orange County FC
+Orange County SC
+Orlando City SC
+Philadelphia Lone Star FC
+Philadelphia Union
+Phoenix Rising FC
+Pittsburgh Riverhounds
+Portland Timbers
+Reading United AC
+Real Salt Lake
+Reno 1868 FC
+Richmond Kickers
+Sacramento Republic FC
+Saint Louis FC
+San Antonio FC
+San Jose Earthquakes
+Seattle Sounders FC
+South Georgia Tormenta 2
+South Georgia Tormenta FC
+Sporting Kansas City
+Tampa Bay Rowdies
+The Villages SC
+Virginia United FC
+West Chester Predators
+
