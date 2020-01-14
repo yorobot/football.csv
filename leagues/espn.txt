@@ -34,9 +34,9 @@ United States Open Cup
 USL Championship
 
 United States NCAA Men's Soccer      ##  National Collegiate Athletic Association (NCAA)
-  | NCAA Division I
-  | NCAA Division I Men's Soccer Tournament
-  | College Cup
+   NCAA Division I                            ## or
+   NCAA Division I Men's Soccer Tournament    ## or
+   College Cup                                ## or  - todo: add support for | - why? why not?
 
 
 Mexican Liga BBVA MX
