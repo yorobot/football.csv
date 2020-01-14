@@ -1,121 +1,121 @@
 Num,Date,Liga,Team 1,Score,Team 2,Result,Liga Title
-001,03.01. 14:00,ISR 2,Hapoel Nof HaGalil,?,Hapoel Akko,?,Israel National League
-002,03.01. 14:00,ISR 2,H. Petach Tikva,?,Hapoel Ashkelon,?,Israel National League
-003,03.01. 14:00,ISR 2,Hap. Rishon LeZion,?,SC Kfar Qasem,?,Israel National League
-004,03.01. 14:00,ISR 2,Hapoel Ramat Gan,?,Hap.Kat. Jerusalem,?,Israel National League
-005,03.01. 14:00,ISR 2,Hapoel Bnei Lod,?,I. Ramat Hasharon,?,Israel National League
-006,03.01. 15:00,KHL,Avangard Omsk,?,A. Vladivostok,?,Kontinental Hockey League
-007,03.01. 17:30,KHL,Jokerit Helsinki,?,SKA St. Petersburg,?,Kontinental Hockey League
-008,03.01. 18:00,BB EL,ZSKA Moskau RUS,?,Panathinaikos GRE,?,Euroleague
-009,03.01. 18:15,HB FS,Dänemark*,?,Norwegen,?,"Freundschaftsspiele, Herren"
-010,03.01. 19:00,ESP 1,Real Valladolid,?,CD Leganes,?,Spanien Primera Division
-011,03.01. 19:00,ESP 2,UD Extremadura,?,Alcorcon AD,?,Spanien Segunda Division
-012,03.01. 19:15,EH AUT,Fehervar,?,HC Znojmo,?,Österreich Erste Bank-EHL
-013,03.01. 19:15,EH AUT,Villacher SV,?,EC Graz 99ers,?,Österreich Erste Bank-EHL
-014,03.01. 19:15,EH AUT,HC Innsbruck,?,HC Bozen Foxes,?,Österreich Erste Bank-EHL
-015,03.01. 19:15,EH AUT,EC RB Salzburg,?,EC Dornbirn,?,Österreich Erste Bank-EHL
-016,03.01. 19:15,EH AUT,Black Wings Linz,?,Vienna Capitals,?,Österreich Erste Bank-EHL
-017,03.01. 19:30,EH GER,Adler Mannheim,?,Iserlohn Roosters,?,Deutschland Deutsche Eishockey Liga
-018,03.01. 19:30,EH GER,Eisbären Berlin,?,EHC München,?,Deutschland Deutsche Eishockey Liga
-019,03.01. 19:30,EH GER,ERC Ingolstadt,?,Straubing Tigers,?,Deutschland Deutsche Eishockey Liga
-020,03.01. 19:30,EH GER,Krefeld Pinguine,?,Schwenninger W.W.,?,Deutschland Deutsche Eishockey Liga
-021,03.01. 19:30,EH GER,Bremerhaven P.,?,Nürnberg Ice Tiger,?,Deutschland Deutsche Eishockey Liga
-022,03.01. 19:30,EH GER,EHC Wolfsburg,?,Augsburger Panth.,?,Deutschland Deutsche Eishockey Liga
-023,03.01. 19:30,EH GER,Kölner Haie,?,DEG Metro Stars,?,Deutschland Deutsche Eishockey Liga
-024,03.01. 19:45,EH SUI,EHC Biel Bienne,?,HC Lausanne,?,Schweiz National League A
-025,03.01. 19:45,EH SUI,SCL Tigers Langnau,?,HC Davos,?,Schweiz National League A
-026,03.01. 19:45,EH SUI,EV Zug,?,HC Servette Genf,?,Schweiz National League A
-027,03.01. 20:55,FRA CUP,Bordeaux,?,Le Mans UC 72,?,Frankreich Coupe de France
-028,03.01. 21:00,ESP 1,FC Sevilla,?,Athletic Bilbao,?,Spanien Primera Division
-029,03.01. 21:00,ESP 2,Real Saragossa,?,Sporting Gijon,?,Spanien Segunda Division
-030,03.01. 21:00,BB EL,Valencia Bask. ESP,?,Alba Berlin GER,?,Euroleague
-031,04.01. 13:00,ESP 1,FC Valencia,?,SD Eibar,?,Spanien Primera Division
-032,04.01. 13:00,ESP 2,Fuenlabrada,?,Las Palmas UD,?,Spanien Segunda Division
-033,04.01. 13:31,ENG FA,Bristol City,?,Shrewsbury Town,?,England FA Cup
-034,04.01. 13:31,ENG FA,FC Millwall,?,Newport County,?,England FA Cup
-035,04.01. 13:31,ENG FA,FC Burnley,?,Peterborough Utd.,?,England FA Cup
-036,04.01. 13:31,ENG FA,Birmingham City,?,Blackburn Rovers,?,England FA Cup
-037,04.01. 13:31,ENG FA,Rotherham United,?,Hull City,?,England FA Cup
-038,04.01. 13:31,ENG FA,FC Rochdale,?,Newcastle United,?,England FA Cup
-039,04.01. 15:00,FRA CUP,AS Monaco,?,Stade de Reims,?,Frankreich Coupe de France
-040,04.01. 15:00,FRA CUP,FC Tours,?,Olympique Nimes,?,Frankreich Coupe de France
-041,04.01. 16:00,ESP 1,Getafe CF,?,Real Madrid,?,Spanien Primera Division
-042,04.01. 16:00,ESP 2,Ponferradina SD,?,Cadiz CF,?,Spanien Segunda Division
-043,04.01. 16:01,ENG FA,FC Reading,?,FC Blackpool,?,England FA Cup
-044,04.01. 16:01,ENG FA,FC Fulham,?,Aston Villa,?,England FA Cup
-045,04.01. 16:01,ENG FA,FC Southampton,?,Huddersfield Town,?,England FA Cup
-046,04.01. 16:01,ENG FA,Brighton & Hove,?,Sheffield Wednes.,?,England FA Cup
-047,04.01. 16:01,ENG FA,Preston North End,?,Norwich City,?,England FA Cup
-048,04.01. 16:01,ENG FA,FC Brentford,?,Stoke City,?,England FA Cup
-049,04.01. 16:30,POR 1,CD Aves,?,CD Santa Clara,?,Portugal Primeira Liga
-050,04.01. 16:30,POR 1,Boavista FC,?,Portimonense SC,?,Portugal Primeira Liga
-051,04.01. 17:20,HB FS,Deutschland,?,Island,?,"Freundschaftsspiele, Herren"
-052,04.01. 18:00,FRA CUP,Stade Rennes,?,Amiens SC,?,Frankreich Coupe de France
-053,04.01. 18:00,ESP 2,CD Lugo,?,UD Almeria,?,Spanien Segunda Division
-054,04.01. 18:00,ESP 2,Teneriffa CD,?,Albacete Balompie,?,Spanien Segunda Division
-055,04.01. 18:30,ESP 1,Atletico Madrid,?,Levante UD,?,Spanien Primera Division
-056,04.01. 18:30,GRE 1,Aris Thessaloniki,?,PAOK Thessaloniki,?,Griechenland Super League
-057,04.01. 18:31,ENG FA,Wolverhampton,?,Manchester United,?,England FA Cup
-058,04.01. 18:31,ENG FA,Leicester City,?,Wigan Athletic+2,?,England FA Cup
-059,04.01. 18:31,ENG FA,Fleetwood Town,?,FC Portsmouth,?,England FA Cup
-060,04.01. 18:31,ENG FA,AFC Bournemouth,?,Luton Town,?,England FA Cup
-061,04.01. 18:31,ENG FA,Manchester City,?,Port Vale FC+3,?,England FA Cup
-062,04.01. 19:00,POR 1,Belenenses L.,?,Sporting Braga,?,Portugal Primeira Liga
-063,04.01. 19:00,BB AUT,Swans Gmunden,?,Kapfenberg Bulls,?,Österreich Basketball Superliga
-064,04.01. 20:00,ESP 2,CD Mirandes,?,Racing Santander,?,Spanien Segunda Division
-065,04.01. 20:00,ESP 2,Elche CF,?,SD Huesca,?,Spanien Segunda Division
-066,04.01. 20:55,FRA CUP,FC Bourg Peronnas,?,Olympique Lyon,?,Frankreich Coupe de France
-067,04.01. 21:00,ESP 1,Espanyol Barcelona,?,FC Barcelona,?,Spanien Primera Division
-068,04.01. 21:30,POR 1,Vitoria Guimaraes,?,Benfica Lissabon,?,Portugal Primeira Liga
-069,04.01. 22:35,NFL,Houston Texans,?,Buffalo Bills,?,USA NFL
-070,05.01. 02:15,NFL,N.England Patriots,?,Tennessee Titans,?,USA NFL
-071,05.01. 12:00,ESP 1,Granada CF,?,RCD Mallorca,?,Spanien Primera Division
-072,05.01. 12:00,ESP 2,Numancia CD,?,Dep. La Coruna,?,Spanien Segunda Division
-073,05.01. 12:30,ITA A,Brescia Calcio,?,Lazio Rom,?,Italien Serie A
-074,05.01. 14:00,ESP 1,Real Sociedad,?,Villarreal CF,?,Spanien Primera Division
-075,05.01. 14:15,FRA CUP,FC Lorient,?,Stade Brest,?,Frankreich Coupe de France
-076,05.01. 15:00,ITA A,Spal Ferrara,?,Hellas Verona,?,Italien Serie A
-077,05.01. 15:01,ENG FA,FC Middlesbrough,?,Tottenham,?,England FA Cup
-078,05.01. 15:01,ENG FA,Burton Albion,?,Northampton,?,England FA Cup
-079,05.01. 15:01,ENG FA,Queens Park R.,?,Swansea City,?,England FA Cup
-080,05.01. 15:01,ENG FA,Charlton Athletic,?,West Bromwich,?,England FA Cup
-081,05.01. 15:01,ENG FA,FC Chelsea,?,Nottingham Forest,?,England FA Cup
-082,05.01. 15:01,ENG FA,Crystal Palace,?,Derby County,?,England FA Cup
-083,05.01. 15:01,ENG FA,Bristol Rovers,?,Coventry City,?,England FA Cup
-084,05.01. 16:00,ESP 1,CD Alaves,?,Betis Sevilla,?,Spanien Primera Division
-085,05.01. 16:00,ESP 2,Rayo Vallecano,?,FC Girona,?,Spanien Segunda Division
-086,05.01. 17:01,ENG FA,FC Liverpool,?,FC Everton,?,England FA Cup
-087,05.01. 17:30,EH AUT,Vienna Capitals,?,HC Znojmo,?,Österreich Erste Bank-EHL
-088,05.01. 17:30,EH AUT,Black Wings Linz,?,Fehervar,?,Österreich Erste Bank-EHL
-089,05.01. 17:30,EH AUT,HC Innsbruck,?,EC RB Salzburg,?,Österreich Erste Bank-EHL
-090,05.01. 17:30,EH AUT,KAC Klagenfurt,?,Villacher SV,?,Österreich Erste Bank-EHL
-091,05.01. 17:30,BB AUT,Gunners Oberwart,?,Klosterneuburg,?,Österreich Basketball Superliga
-092,05.01. 18:00,ITA A,FC Genua,?,US Sassuolo,?,Italien Serie A
-093,05.01. 18:30,POR 1,Sporting Lissabon,?,FC Porto,?,Portugal Primeira Liga
-094,05.01. 18:30,GRE 1,Olympiakos Piräus,?,Panathinaikos,?,Griechenland Super League
-095,05.01. 19:05,NFL,N. Orleans Saints,?,Minnesota Vikings,?,USA NFL
-096,05.01. 19:16,ENG FA,FC Gillingham,?,West Ham United,?,England FA Cup
-097,05.01. 20:45,ITA A,AS Roma,?,FC Torino,?,Italien Serie A
-098,05.01. 21:00,ESP 1,Celta de Vigo,?,CA Osasuna,?,Spanien Primera Division
-099,05.01. 21:00,ESP 2,Real Oviedo,?,Malaga CF,?,Spanien Segunda Division
-100,05.01. 21:00,POR 1,FC Famalicao,?,Vitoria Setubal,?,Portugal Primeira Liga
-101,05.01. 22:40,NFL,Philadelph. Eagles,?,Seattle Seahawks,?,USA NFL
-102,06.01. 12:30,ITA A,Bologna FC,?,AC Fiorentina,?,Italien Serie A
-103,06.01. 12:30,KHL,Salavat Yulaev Ufa,?,HK CSKA Moskau,?,Kontinental Hockey League
-104,06.01. 14:30,HB FS,Österreich,?,Deutschland,?,"Freundschaftsspiele, Herren"
-105,06.01. 15:00,ITA A,AC Milan,?,Sampdoria Genua,?,Italien Serie A
-106,06.01. 15:00,ITA A,Juventus Turin,?,Cagliari Calcio,?,Italien Serie A
-107,06.01. 15:00,ITA A,Atalanta Bergamo,?,FC Parma,?,Italien Serie A
-108,06.01. 15:30,KHL,Avangard Omsk,?,HC Barys,?,Kontinental Hockey League
-109,06.01. 18:00,ITA A,US Lecce,?,Udinese Calcio,?,Italien Serie A
-110,06.01. 18:00,ISR 2,M. Ahi Nazareth,?,Hapoel Afula FC,?,Israel National League
-111,06.01. 18:00,ISR 2,Bnei Sakhnin FC,?,Macc. Petach Tikva,?,Israel National League
-112,06.01. 18:00,ISR 2,Beitar Tel Aviv,?,Hapoel Umm al-Fahm,?,Israel National League
-113,06.01. 18:00,CYP 1,FC Pafos,?,Anorthosis,?,Zypern 1. Division
-114,06.01. 18:00,EH AUT,HC Bozen Foxes,?,EC Dornbirn,?,Österreich Erste Bank-EHL
-115,06.01. 18:30,KHL,HK Dinamo Riga,?,Jokerit Helsinki,?,Kontinental Hockey League
-116,06.01. 19:15,ISR 1,Maccabi Haifa,?,Maccabi Tel Aviv,?,Israel Winner League
-117,06.01. 19:30,EH GER,Kölner Haie,?,Krefeld Pinguine,?,Deutschland Deutsche Eishockey Liga
-118,06.01. 20:45,ITA A,SSC Napoli,?,Inter Mailand,?,Italien Serie A
-119,06.01. 20:55,FRA CUP,FC Rouen,?,FC Metz,?,Frankreich Coupe de France
-120,06.01. 20:56,ENG FA,FC Arsenal,?,Leeds United,?,England FA Cup
+001,03.01. 14:00,ISR 2,Hapoel Nof HaGalil,2:1,Hapoel Akko,?,Israel National League
+002,03.01. 14:00,ISR 2,H. Petach Tikva,2:1,Hapoel Ashkelon,?,Israel National League
+003,03.01. 14:00,ISR 2,Hap. Rishon LeZion,2:2,SC Kfar Qasem,?,Israel National League
+004,03.01. 14:00,ISR 2,Hapoel Ramat Gan,3:0,Hap.Kat. Jerusalem,?,Israel National League
+005,03.01. 14:00,ISR 2,Hapoel Bnei Lod,0:2,I. Ramat Hasharon,?,Israel National League
+006,03.01. 15:00,KHL,Avangard Omsk,4:1,A. Vladivostok,?,Kontinental Hockey League
+007,03.01. 17:30,KHL,Jokerit Helsinki,6:0,SKA St. Petersburg,?,Kontinental Hockey League
+008,03.01. 18:00,BB EL,ZSKA Moskau RUS,89:89,Panathinaikos GRE,?,Euroleague
+009,03.01. 18:15,HB FS,Dänemark*,28:26,Norwegen,?,"Freundschaftsspiele, Herren"
+010,03.01. 19:00,ESP 1,Real Valladolid,2:2,CD Leganes,?,Spanien Primera Division
+011,03.01. 19:00,ESP 2,UD Extremadura,0:0,Alcorcon AD,?,Spanien Segunda Division
+012,03.01. 19:15,EH AUT,Fehervar,4:0,HC Znojmo,?,Österreich Erste Bank-EHL
+013,03.01. 19:15,EH AUT,Villacher SV,5:1,EC Graz 99ers,?,Österreich Erste Bank-EHL
+014,03.01. 19:15,EH AUT,HC Innsbruck,1:3,HC Bozen Foxes,?,Österreich Erste Bank-EHL
+015,03.01. 19:15,EH AUT,EC RB Salzburg,7:1,EC Dornbirn,?,Österreich Erste Bank-EHL
+016,03.01. 19:15,EH AUT,Black Wings Linz,3:2,Vienna Capitals,?,Österreich Erste Bank-EHL
+017,03.01. 19:30,EH GER,Adler Mannheim,2:0,Iserlohn Roosters,?,Deutschland Deutsche Eishockey Liga
+018,03.01. 19:30,EH GER,Eisbären Berlin,4:3,EHC München,?,Deutschland Deutsche Eishockey Liga
+019,03.01. 19:30,EH GER,ERC Ingolstadt,2:4,Straubing Tigers,?,Deutschland Deutsche Eishockey Liga
+020,03.01. 19:30,EH GER,Krefeld Pinguine,3:0,Schwenninger W.W.,?,Deutschland Deutsche Eishockey Liga
+021,03.01. 19:30,EH GER,Bremerhaven P.,5:1,Nürnberg Ice Tiger,?,Deutschland Deutsche Eishockey Liga
+022,03.01. 19:30,EH GER,EHC Wolfsburg,0:0,Augsburger Panth.,?,Deutschland Deutsche Eishockey Liga
+023,03.01. 19:30,EH GER,Kölner Haie,1:2,DEG Metro Stars,?,Deutschland Deutsche Eishockey Liga
+024,03.01. 19:45,EH SUI,EHC Biel Bienne,4:4,HC Lausanne,?,Schweiz National League A
+025,03.01. 19:45,EH SUI,SCL Tigers Langnau,1:1,HC Davos,?,Schweiz National League A
+026,03.01. 19:45,EH SUI,EV Zug,1:5,HC Servette Genf,?,Schweiz National League A
+027,03.01. 20:55,FRA CUP,Bordeaux,2:0,Le Mans UC 72,?,Frankreich Coupe de France
+028,03.01. 21:00,ESP 1,FC Sevilla,1:1,Athletic Bilbao,?,Spanien Primera Division
+029,03.01. 21:00,ESP 2,Real Saragossa,abgesagt,Sporting Gijon,?,Spanien Segunda Division
+030,03.01. 21:00,BB EL,Valencia Bask. ESP,91:77,Alba Berlin GER,?,Euroleague
+031,04.01. 13:00,ESP 1,FC Valencia,1:0,SD Eibar,?,Spanien Primera Division
+032,04.01. 13:00,ESP 2,Fuenlabrada,0:0,Las Palmas UD,?,Spanien Segunda Division
+033,04.01. 13:31,ENG FA,Bristol City,1:1,Shrewsbury Town,?,England FA Cup
+034,04.01. 13:31,ENG FA,FC Millwall,3:0,Newport County,?,England FA Cup
+035,04.01. 13:31,ENG FA,FC Burnley,4:2,Peterborough Utd.,?,England FA Cup
+036,04.01. 13:31,ENG FA,Birmingham City,2:1,Blackburn Rovers,?,England FA Cup
+037,04.01. 13:31,ENG FA,Rotherham United,2:3,Hull City,?,England FA Cup
+038,04.01. 13:31,ENG FA,FC Rochdale,1:1,Newcastle United,?,England FA Cup
+039,04.01. 15:00,FRA CUP,AS Monaco,2:1,Stade de Reims,?,Frankreich Coupe de France
+040,04.01. 15:00,FRA CUP,FC Tours,2:2,Olympique Nimes,?,Frankreich Coupe de France
+041,04.01. 16:00,ESP 1,Getafe CF,0:3,Real Madrid,?,Spanien Primera Division
+042,04.01. 16:00,ESP 2,Ponferradina SD,0:0,Cadiz CF,?,Spanien Segunda Division
+043,04.01. 16:01,ENG FA,FC Reading,2:2,FC Blackpool,?,England FA Cup
+044,04.01. 16:01,ENG FA,FC Fulham,2:1,Aston Villa,?,England FA Cup
+045,04.01. 16:01,ENG FA,FC Southampton,2:0,Huddersfield Town,?,England FA Cup
+046,04.01. 16:01,ENG FA,Brighton & Hove,0:1,Sheffield Wednes.,?,England FA Cup
+047,04.01. 16:01,ENG FA,Preston North End,2:4,Norwich City,?,England FA Cup
+048,04.01. 16:01,ENG FA,FC Brentford,1:0,Stoke City,?,England FA Cup
+049,04.01. 16:30,POR 1,CD Aves,0:1,CD Santa Clara,?,Portugal Primeira Liga
+050,04.01. 16:30,POR 1,Boavista FC,1:1,Portimonense SC,?,Portugal Primeira Liga
+051,04.01. 17:20,HB FS,Deutschland,33:25,Island,?,"Freundschaftsspiele, Herren"
+052,04.01. 18:00,FRA CUP,Stade Rennes,0:0,Amiens SC,?,Frankreich Coupe de France
+053,04.01. 18:00,ESP 2,CD Lugo,0:4,UD Almeria,?,Spanien Segunda Division
+054,04.01. 18:00,ESP 2,Teneriffa CD,4:2,Albacete Balompie,?,Spanien Segunda Division
+055,04.01. 18:30,ESP 1,Atletico Madrid,2:1,Levante UD,?,Spanien Primera Division
+056,04.01. 18:30,GRE 1,Aris Thessaloniki,4:2,PAOK Thessaloniki,?,Griechenland Super League
+057,04.01. 18:31,ENG FA,Wolverhampton,0:0,Manchester United,?,England FA Cup
+058,04.01. 18:31,ENG FA,Leicester City,2:2,Wigan Athletic+2,?,England FA Cup
+059,04.01. 18:31,ENG FA,Fleetwood Town,1:2,FC Portsmouth,?,England FA Cup
+060,04.01. 18:31,ENG FA,AFC Bournemouth,4:0,Luton Town,?,England FA Cup
+061,04.01. 18:31,ENG FA,Manchester City,4:4,Port Vale FC+3,?,England FA Cup
+062,04.01. 19:00,POR 1,Belenenses L.,1:7,Sporting Braga,?,Portugal Primeira Liga
+063,04.01. 19:00,BB AUT,Swans Gmunden,94:76,Kapfenberg Bulls,?,Österreich Basketball Superliga
+064,04.01. 20:00,ESP 2,CD Mirandes,0:0,Racing Santander,?,Spanien Segunda Division
+065,04.01. 20:00,ESP 2,Elche CF,1:1,SD Huesca,?,Spanien Segunda Division
+066,04.01. 20:55,FRA CUP,FC Bourg Peronnas,0:7,Olympique Lyon,?,Frankreich Coupe de France
+067,04.01. 21:00,ESP 1,Espanyol Barcelona,2:2,FC Barcelona,?,Spanien Primera Division
+068,04.01. 21:30,POR 1,Vitoria Guimaraes,0:1,Benfica Lissabon,?,Portugal Primeira Liga
+069,04.01. 22:35,NFL,Houston Texans,19:19,Buffalo Bills,?,USA NFL
+070,05.01. 02:15,NFL,N.England Patriots,13:20,Tennessee Titans,?,USA NFL
+071,05.01. 12:00,ESP 1,Granada CF,1:0,RCD Mallorca,?,Spanien Primera Division
+072,05.01. 12:00,ESP 2,Numancia CD,0:1,Dep. La Coruna,?,Spanien Segunda Division
+073,05.01. 12:30,ITA A,Brescia Calcio,1:2,Lazio Rom,?,Italien Serie A
+074,05.01. 14:00,ESP 1,Real Sociedad,1:2,Villarreal CF,?,Spanien Primera Division
+075,05.01. 14:15,FRA CUP,FC Lorient,1:1,Stade Brest,?,Frankreich Coupe de France
+076,05.01. 15:00,ITA A,Spal Ferrara,0:2,Hellas Verona,?,Italien Serie A
+077,05.01. 15:01,ENG FA,FC Middlesbrough,1:1,Tottenham,?,England FA Cup
+078,05.01. 15:01,ENG FA,Burton Albion,2:4,Northampton,?,England FA Cup
+079,05.01. 15:01,ENG FA,Queens Park R.,5:1,Swansea City,?,England FA Cup
+080,05.01. 15:01,ENG FA,Charlton Athletic,0:1,West Bromwich,?,England FA Cup
+081,05.01. 15:01,ENG FA,FC Chelsea,2:0,Nottingham Forest,?,England FA Cup
+082,05.01. 15:01,ENG FA,Crystal Palace,0:1,Derby County,?,England FA Cup
+083,05.01. 15:01,ENG FA,Bristol Rovers,2:2,Coventry City,?,England FA Cup
+084,05.01. 16:00,ESP 1,CD Alaves,1:1,Betis Sevilla,?,Spanien Primera Division
+085,05.01. 16:00,ESP 2,Rayo Vallecano,1:0,FC Girona,?,Spanien Segunda Division
+086,05.01. 17:01,ENG FA,FC Liverpool,1:0,FC Everton,?,England FA Cup
+087,05.01. 17:30,EH AUT,Vienna Capitals,2:1,HC Znojmo,?,Österreich Erste Bank-EHL
+088,05.01. 17:30,EH AUT,Black Wings Linz,8:4,Fehervar,?,Österreich Erste Bank-EHL
+089,05.01. 17:30,EH AUT,HC Innsbruck,2:8,EC RB Salzburg,?,Österreich Erste Bank-EHL
+090,05.01. 17:30,EH AUT,KAC Klagenfurt,3:0,Villacher SV,?,Österreich Erste Bank-EHL
+091,05.01. 17:30,BB AUT,Gunners Oberwart,68:76,Klosterneuburg,?,Österreich Basketball Superliga
+092,05.01. 18:00,ITA A,FC Genua,2:1,US Sassuolo,?,Italien Serie A
+093,05.01. 18:30,POR 1,Sporting Lissabon,1:2,FC Porto,?,Portugal Primeira Liga
+094,05.01. 18:30,GRE 1,Olympiakos Piräus,1:0,Panathinaikos,?,Griechenland Super League
+095,05.01. 19:05,NFL,N. Orleans Saints,20:20,Minnesota Vikings,?,USA NFL
+096,05.01. 19:16,ENG FA,FC Gillingham,0:2,West Ham United,?,England FA Cup
+097,05.01. 20:45,ITA A,AS Roma,0:2,FC Torino,?,Italien Serie A
+098,05.01. 21:00,ESP 1,Celta de Vigo,1:1,CA Osasuna,?,Spanien Primera Division
+099,05.01. 21:00,ESP 2,Real Oviedo,1:1,Malaga CF,?,Spanien Segunda Division
+100,05.01. 21:00,POR 1,FC Famalicao,3:0,Vitoria Setubal,?,Portugal Primeira Liga
+101,05.01. 22:40,NFL,Philadelph. Eagles,9:17,Seattle Seahawks,?,USA NFL
+102,06.01. 12:30,ITA A,Bologna FC,1:1,AC Fiorentina,?,Italien Serie A
+103,06.01. 12:30,KHL,Salavat Yulaev Ufa,4:2,HK CSKA Moskau,?,Kontinental Hockey League
+104,06.01. 14:30,HB FS,Österreich,28:32,Deutschland,?,"Freundschaftsspiele, Herren"
+105,06.01. 15:00,ITA A,AC Milan,0:0,Sampdoria Genua,?,Italien Serie A
+106,06.01. 15:00,ITA A,Juventus Turin,4:0,Cagliari Calcio,?,Italien Serie A
+107,06.01. 15:00,ITA A,Atalanta Bergamo,5:0,FC Parma,?,Italien Serie A
+108,06.01. 15:30,KHL,Avangard Omsk,2:3,HC Barys,?,Kontinental Hockey League
+109,06.01. 18:00,ITA A,US Lecce,0:1,Udinese Calcio,?,Italien Serie A
+110,06.01. 18:00,ISR 2,M. Ahi Nazareth,0:0,Hapoel Afula FC,?,Israel National League
+111,06.01. 18:00,ISR 2,Bnei Sakhnin FC,2:1,Macc. Petach Tikva,?,Israel National League
+112,06.01. 18:00,ISR 2,Beitar Tel Aviv,2:1,Hapoel Umm al-Fahm,?,Israel National League
+113,06.01. 18:00,CYP 1,FC Pafos,0:3,Anorthosis,?,Zypern 1. Division
+114,06.01. 18:00,EH AUT,HC Bozen Foxes,2:2,EC Dornbirn,?,Österreich Erste Bank-EHL
+115,06.01. 18:30,KHL,HK Dinamo Riga,0:7,Jokerit Helsinki,?,Kontinental Hockey League
+116,06.01. 19:15,ISR 1,Maccabi Haifa,3:4,Maccabi Tel Aviv,?,Israel Winner League
+117,06.01. 19:30,EH GER,Kölner Haie,1:3,Krefeld Pinguine,?,Deutschland Deutsche Eishockey Liga
+118,06.01. 20:45,ITA A,SSC Napoli,1:3,Inter Mailand,?,Italien Serie A
+119,06.01. 20:55,FRA CUP,FC Rouen,3:0,FC Metz,?,Frankreich Coupe de France
+120,06.01. 20:56,ENG FA,FC Arsenal,1:0,Leeds United,?,England FA Cup

@@ -75,8 +75,14 @@ time = el2.text.strip
       players << player
     end
  
-    puts "#{i+1} | >#{nr}< >#{date} #{time}< >#{liga}< >#{liga_title}< >#{players[0]}< >#{players[1]}< >?< >?<"
-    recs << [nr, "#{date} #{time}", liga, players[0], '?', players[1], '?', liga_title]
+
+    el  = tr.css( 'div.t3-list-entry__result' )[0]
+    assert( el, "no result found" )
+    score = el.text.strip
+
+
+    puts "#{i+1} | >#{nr}< >#{date} #{time}< >#{liga}< >#{liga_title}< >#{players[0]}< >#{players[1]}< >#{score}< >?<"
+    recs << [nr, "#{date} #{time}", liga, players[0], score, players[1], '?', liga_title]
   end
   recs
 end # parse_tipp3
@@ -98,8 +104,9 @@ if __FILE__ == $0
     end
   end
 
-  html = File.open( "dl/2020-01b_fri-jan-3.html", 'r:utf-8' ).read
+  # html = File.open( "dl/2020-01b_fri-jan-3.html", 'r:utf-8' ).read
   # html = File.open( "dl/2020-01a_mon-dec-30.html", 'r:utf-8' ).read
+  html = File.open( "dl/2020-02a_tue-jan-7.html", 'r:utf-8' ).read
   
   recs = parse_tipp3_ii( html )
 end

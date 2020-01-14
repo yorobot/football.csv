@@ -13,3 +13,12 @@ Convert html programs (in `/dl`) to csv (in `/o`):
 Check all leagues and print league usage summary / statistics:
 
     ruby ./leagues.rb
+
+
+
+## Tips
+
+Format (beautify) HTML documents in Visual Studio Code
+
+- On Windows use `Shift + Alt + F`
+
