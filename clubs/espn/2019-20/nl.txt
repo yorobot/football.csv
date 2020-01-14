@@ -1,0 +1,48 @@
+= Dutch Eredivisie
+
+# see https://www.espn.com/soccer/teams/_/league/NED.1/dutch-eredivisie
+
+ADO Den Haag
+AZ Alkmaar
+Ajax Amsterdam
+FC Emmen VV
+FC Groningen
+FC Twente
+FC Utrecht
+Feyenoord Rotterdam
+Fortuna Sittard
+Heerenveen
+PEC Zwolle
+PSV Eindhoven
+RKC Waalwijk
+SC Heracles Almelo
+Sparta Rotterdam
+VVV Venlo
+Vitesse Arnhem
+Willem II Tilburg
+
+= Dutch Eerste Divisie
+
+# see https://www.espn.com/soccer/teams/_/league/NED.2/dutch-eerste-divisie
+
+Almere City
+De Graafschap
+Dordrecht '90
+Excelsior
+FC Den Bosch
+FC Eindhoven
+FC Oss
+FC Volendam
+Go Ahead Eagles
+Helmond Sport
+Jong AZ
+Jong Ajax
+Jong FC Utrecht
+Jong PSV
+MVV Maastricht
+NAC Breda
+NEC Nijmegen
+Roda JC Kerkrade
+SC Cambuur
+SC Stormvogels Telstar
+
