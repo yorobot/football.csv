@@ -78,6 +78,7 @@ def check_clubs( recs, country, out: nil )
           m = CLUBS.match_by( name: name, country: COUNTRIES['mc'])   if country.key == 'fr'
           m = CLUBS.match_by( name: name, country: COUNTRIES['li'])   if country.key == 'ch'
           m = CLUBS.match_by( name: name, country: COUNTRIES['ca'])   if country.key == 'us'
+          m = CLUBS.match_by( name: name, country: COUNTRIES['nz'])   if country.key == 'au'
         end
 
         if m
