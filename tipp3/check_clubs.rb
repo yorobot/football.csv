@@ -30,7 +30,7 @@ EXTRA_COUNTRY_MAPPINGS = {
 
 league_titles = {}   ## lookup league title by league code
 
-PROGRAMS_2020.each do |program|
+PROGRAMS_2019.each do |program|
    recs = CsvHash.read( "o/#{program}.csv", :header_converters => :symbol )
    pp recs.size
 

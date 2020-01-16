@@ -1,425 +1,184 @@
-# il
+# bundesliga.at
 
-OK   >Beitar Jerusalem< (1) matching >Beitar Jerusalem FC<
-OK   >Bnei Yehuda< (1) matching >Bnei Yehuda Tel-Aviv FC<
+OK   >FC Red Bull Salzburg< (1) matching >FC RB Salzburg<
+OK   >LASK< (1) matching >LASK Linz<
+OK   >SK Rapid Wien< (1) matching >SK Rapid Wien<
+OK   >RZ Pellets WAC< (1) matching >Wolfsberger AC<
 !! club missing / not found any name (1):
-    Hapoel Be'er
-OK   >Hapoel Hadera< (1) matching >Hapoel Hadera FC<
-OK   >Hapoel Haifa< (1) matching >Hapoel Haifa FC<
-OK   >Hapoel Kfar Saba< (1) matching >Hapoel Kfar-Saba FC<
+    SK Puntigamer Sturm Graz
 !! club missing / not found any name (1):
-    Hapoel Kiryat Shmona
-OK   >Hapoel Ra'anana< (1) matching >Hapoel Ra'anana AFC<
-OK   >Hapoel Tel Aviv< (1) matching >Hapoel Tel-Aviv FC<
-OK   >Maccabi Haifa< (1) matching >Maccabi Haifa FC<
-OK   >Maccabi Netanya< (1) matching >Maccabi Netanya FC<
-OK   >Maccabi Tel-Aviv< (1) matching >Maccabi Tel-Aviv FC<
+    TSV Prolactal Hartberg
+OK   >FK Austria Wien< (1) matching >FK Austria Wien<
 !! club missing / not found any name (1):
-    Moadon Sport Ashdod
+    CASHPOINT SCR Altach
 !! club missing / not found any name (1):
-    Sektzia Nes Tziona
-4
-** !!! ERROR !!! 4 club name(s) missing
+    spusu SKN St. Pölten
+!! club missing / not found any name (1):
+    FC Flyeralarm Admira
+OK   >SV Mattersburg< (1) matching >SV Mattersburg<
+OK   >WSG Swarovski Tirol< (1) matching >WSG Tirol<
+!! club missing / not found any name (1):
+    SV Guntamatic Ried
+OK   >SK Austria Klagenfurt< (1) matching >Austria Klagenfurt<
+OK   >SK Vorwärts Steyr< (1) matching >SK Vorwärts Steyr<
+!! club missing / not found any name (1):
+    SV Licht-Loidl Lafnitz
+OK   >SC Austria Lustenau< (1) matching >Austria Lustenau<
+OK   >FC Wacker Innsbruck< (1) matching >FC Wacker Innsbruck<
+OK   >FC Juniors OÖ< (1) matching >FC Juniors OÖ<
+!! club missing / not found any name (1):
+    FC Mohren Dornbirn 1913
+!! club missing / not found any name (1):
+    SKU Ertl Glas Amstetten
+OK   >FC Liefering< (1) matching >FC Liefering<
+!! club missing / not found any name (1):
+    Grazer AK 1902
+OK   >FC Blau Weiß Linz< (1) matching >FC Blau-Weiß Linz<
+OK   >Young Violets Austria Wien< (1) matching >Young Violets Austria Wien<
+!! club missing / not found any name (1):
+    FAC Wien
+!! club missing / not found any name (1):
+    SV Horn     16
+OK   >KSV 1919< (1) matching >Kapfenberger SV<
+12
+** !!! ERROR !!! 12 club name(s) missing
 
-# nl
 
-OK   >ADO Den Haag< (1) matching >ADO Den Haag<
-OK   >AZ Alkmaar< (1) matching >AZ Alkmaar<
-OK   >Ajax Amsterdam< (1) matching >Ajax Amsterdam<
-!! club missing / not found any name (1):
-    FC Emmen VV
-OK   >FC Groningen< (1) matching >FC Groningen<
-OK   >FC Twente< (1) matching >FC Twente<
-OK   >FC Utrecht< (1) matching >FC Utrecht<
-OK   >Feyenoord Rotterdam< (1) matching >Feyenoord Rotterdam<
-OK   >Fortuna Sittard< (1) matching >Fortuna Sittard<
-OK   >Heerenveen< (1) matching >SC Heerenveen<
-OK   >PEC Zwolle< (1) matching >PEC Zwolle<
-OK   >PSV Eindhoven< (1) matching >PSV Eindhoven<
-OK   >RKC Waalwijk< (1) matching >RKC Waalwijk<
-!! club missing / not found any name (1):
-    SC Heracles Almelo
-OK   >Sparta Rotterdam< (1) matching >Sparta Rotterdam<
-OK   >VVV Venlo< (1) matching >VVV Venlo<
-OK   >Vitesse Arnhem< (1) matching >Vitesse Arnhem<
-OK   >Willem II Tilburg< (1) matching >Willem II Tilburg<
-OK   >Almere City< (1) matching >Almere City FC<
-OK   >De Graafschap< (1) matching >BV De Graafschap<
-!! club missing / not found any name (1):
-    Dordrecht '90
-OK   >Excelsior< (1) matching >SBV Excelsior Rotterdam<
-OK   >FC Den Bosch< (1) matching >FC Den Bosch<
-OK   >FC Eindhoven< (1) matching >FC Eindhoven<
-OK   >FC Oss< (1) matching >FC Oss<
-OK   >FC Volendam< (1) matching >FC Volendam<
-OK   >Go Ahead Eagles< (1) matching >Go Ahead Eagles<
-OK   >Helmond Sport< (1) matching >Helmond Sport<
-!! club missing / not found any name (1):
-    Jong AZ
-!! club missing / not found any name (1):
-    Jong Ajax
-!! club missing / not found any name (1):
-    Jong FC Utrecht
-OK   >Jong PSV< (1) matching >Jong PSV<
-OK   >MVV Maastricht< (1) matching >MVV Maastricht<
-OK   >NAC Breda< (1) matching >NAC Breda<
-OK   >NEC Nijmegen< (1) matching >NEC Nijmegen<
-OK   >Roda JC Kerkrade< (1) matching >Roda JC Kerkrade<
-OK   >SC Cambuur< (1) matching >SC Cambuur<
-!! club missing / not found any name (1):
-    SC Stormvogels Telstar
-7
-** !!! ERROR !!! 7 club name(s) missing
+# bundesliga.de
 
-# pt
+OK   >RB Leipzig< (1) matching >RB Leipzig<
+OK   >Borussia Mönchengladbach< (1) matching >Bor. Mönchengladbach<
+OK   >FC Bayern München< (1) matching >Bayern München<
+OK   >Borussia Dortmund< (1) matching >Borussia Dortmund<
+OK   >FC Schalke 04< (1) matching >FC Schalke 04<
+OK   >Bayer 04 Leverkusen< (1) matching >Bayer 04 Leverkusen<
+OK   >TSG 1899 Hoffenheim< (1) matching >TSG 1899 Hoffenheim<
+!! club missing / not found any name (1):
+    Sport-Club Freiburg
+OK   >VfL Wolfsburg< (1) matching >VfL Wolfsburg<
+OK   >FC Augsburg< (1) matching >FC Augsburg<
+OK   >1. FC Union Berlin< (1) matching >1. FC Union Berlin<
+OK   >Hertha BSC< (1) matching >Hertha BSC<
+OK   >Eintracht Frankfurt< (1) matching >Eintracht Frankfurt<
+OK   >1. FSV Mainz 05< (1) matching >1. FSV Mainz 05<
+OK   >1. FC Köln< (1) matching >1. FC Köln<
+OK   >Fortuna Düsseldorf< (1) matching >Fortuna Düsseldorf<
+OK   >SV Werder Bremen< (1) matching >Werder Bremen<
+OK   >SC Paderborn 07< (1) matching >SC Paderborn 07<
+OK   >DSC Arminia Bielefeld< (1) matching >Arminia Bielefeld<
+OK   >Hamburger SV< (1) matching >Hamburger SV<
+OK   >VfB Stuttgart< (1) matching >VfB Stuttgart<
+OK   >1. FC Heidenheim 1846< (1) matching >1. FC Heidenheim<
+OK   >FC Erzgebirge Aue< (1) matching >FC Erzgebirge Aue<
+OK   >VfL Osnabrück< (1) matching >VfL Osnabrück<
+OK   >SSV Jahn Regensburg< (1) matching >SSV Jahn Regensburg<
+OK   >SpVgg Greuther Fürth< (1) matching >SpVgg Greuther Fürth<
+OK   >SV Sandhausen< (1) matching >SV Sandhausen<
+OK   >Holstein Kiel< (1) matching >Holstein Kiel<
+OK   >FC St. Pauli< (1) matching >FC St. Pauli<
+OK   >SV Darmstadt 98< (1) matching >SV Darmstadt 98<
+OK   >Hannover 96< (1) matching >Hannover 96<
+OK   >VfL Bochum 1848< (1) matching >VfL Bochum<
+OK   >Karlsruher SC< (1) matching >Karlsruher SC<
+OK   >1. FC Nürnberg< (1) matching >1. FC Nürnberg<
+OK   >SV Wehen Wiesbaden< (1) matching >SV Wehen Wiesbaden<
+OK   >SG Dynamo Dresden< (1) matching >Dynamo Dresden<
+OK   >MSV Duisburg< (1) matching >MSV Duisburg<
+OK   >FC Ingolstadt< (1) matching >FC Ingolstadt 04<
+OK   >SV Waldhof Mannheim< (1) matching >SV Waldhof Mannheim<
+OK   >Eintracht Braunschweig< (1) matching >Eintracht Braunschweig<
+OK   >SpVgg Unterhaching< (1) matching >SpVgg Unterhaching<
+OK   >Hallescher FC< (1) matching >Hallescher FC<
+OK   >SV Meppen< (1) matching >SV Meppen<
+OK   >KFC Uerdingen< (1) matching >KFC Uerdingen<
+OK   >1. FC Kaiserslautern< (1) matching >1. FC Kaiserslautern<
+OK   >TSV 1860 München< (1) matching >TSV 1860 München<
+OK   >Hansa Rostock< (1) matching >Hansa Rostock<
+OK   >1. FC Magdeburg< (1) matching >1. FC Magdeburg<
+OK   >FC Würzburger Kickers< (1) matching >Würzburger Kickers<
+OK   >FSV Zwickau< (1) matching >FSV Zwickau<
+OK   >Bayern München II< (1) matching >Bayern München II<
+OK   >FC Viktoria Köln< (1) matching >FC Viktoria Köln<
+OK   >Chemnitzer FC< (1) matching >Chemnitzer FC<
+OK   >SG Sonnenhof Großaspach< (1) matching >SG Großaspach<
+OK   >Preußen Münster< (1) matching >Preußen Münster<
+OK   >FC Carl Zeiss Jena< (1) matching >FC Carl Zeiss Jena<
+OK   >KFC Uerdingen< (1) matching >KFC Uerdingen<
+OK   >Borussia Dortmund< (1) matching >Borussia Dortmund<
+OK   >FC Ingolstadt< (1) matching >FC Ingolstadt 04<
+OK   >1. FC Nürnberg< (1) matching >1. FC Nürnberg<
+OK   >SV Sandhausen< (1) matching >SV Sandhausen<
+OK   >Borussia Mönchengladbach< (1) matching >Bor. Mönchengladbach<
+OK   >1. FC Kaiserslautern< (1) matching >1. FC Kaiserslautern<
+OK   >1. FSV Mainz 05< (1) matching >1. FSV Mainz 05<
+OK   >Alemannia Aachen< (1) matching >Alemannia Aachen<
+OK   >Bayer 04 Leverkusen< (1) matching >Bayer 04 Leverkusen<
+!! club missing / not found any name (1):
+    TuS Dassendorf
+OK   >Dynamo Dresden< (1) matching >Dynamo Dresden<
+!! club missing / not found any name (1):
+    FC 08 Villingen
+!! club missing / not found any name (1):
+    SV Drochtersen/Assel
+OK   >FC Schalke 04< (1) matching >FC Schalke 04<
+OK   >SC Verl< (1) matching >SC Verl<
+OK   >FC Augsburg< (1) matching >FC Augsburg<
+OK   >FC Viktoria 1889 Berlin< (1) matching >FC Viktoria 1889 Berlin<
+OK   >Arminia Bielefeld< (1) matching >Arminia Bielefeld<
+OK   >Wacker Nordhausen< (1) matching >Wacker Nordhausen<
+OK   >Erzgebirge Aue< (1) matching >FC Erzgebirge Aue<
+OK   >1. FC Magdeburg< (1) matching >1. FC Magdeburg<
+OK   >SC Freiburg< (1) matching >SC Freiburg<
+OK   >FC Würzburger Kickers< (1) matching >Würzburger Kickers<
+OK   >TSG Hoffenheim< (1) matching >TSG 1899 Hoffenheim<
+!! club missing / not found any name (1):
+    KSV Baunatal
+OK   >VfL Bochum< (1) matching >VfL Bochum<
+!! club missing / not found any name (1):
+    SSV Ulm 1846 Fußball
+OK   >1. FC Heidenheim< (1) matching >1. FC Heidenheim<
+!! club missing / not found any name (1):
+    Atlas Delmenhorst
+OK   >SV Werder Bremen< (1) matching >Werder Bremen<
+OK   >FSV Salmrohr< (1) matching >FSV Salmrohr<
+OK   >Holstein Kiel< (1) matching >Holstein Kiel<
+!! club missing / not found any name (1):
+    Germania Halberstadt
+OK   >1. FC Union Berlin< (1) matching >1. FC Union Berlin<
+OK   >SV Rödinghausen< (1) matching >SV Rödinghausen<
+OK   >SC Paderborn 07< (1) matching >SC Paderborn 07<
+OK   >SV Waldhof Mannheim< (1) matching >SV Waldhof Mannheim<
+OK   >Eintracht Frankfurt< (1) matching >Eintracht Frankfurt<
+OK   >FC Oberneuland< (1) matching >FC Oberneuland<
+OK   >SV Darmstadt 98< (1) matching >SV Darmstadt 98<
+OK   >1. FC Saarbrücken< (1) matching >1. FC Saarbrücken<
+OK   >Jahn Regensburg< (1) matching >SSV Jahn Regensburg<
+OK   >VfB Lübeck< (1) matching >VfB Lübeck<
+OK   >FC St. Pauli< (1) matching >FC St. Pauli<
+OK   >VfB Eichstätt< (1) matching >VfB Eichstätt<
+OK   >Hertha BSC< (1) matching >Hertha BSC<
+OK   >VfL Osnabrück< (1) matching >VfL Osnabrück<
+OK   >RB Leipzig< (1) matching >RB Leipzig<
+OK   >Chemnitzer FC< (1) matching >Chemnitzer FC<
+OK   >Hamburger SV< (1) matching >Hamburger SV<
+OK   >MSV Duisburg< (1) matching >MSV Duisburg<
+OK   >SpVgg Greuther Fürth< (1) matching >SpVgg Greuther Fürth<
+OK   >SV Wehen Wiesbaden< (1) matching >SV Wehen Wiesbaden<
+OK   >1. FC Köln< (1) matching >1. FC Köln<
+OK   >Hallescher FC< (1) matching >Hallescher FC<
+OK   >VfL Wolfsburg< (1) matching >VfL Wolfsburg<
+OK   >Karlsruher SC< (1) matching >Karlsruher SC<
+OK   >Hannover 96< (1) matching >Hannover 96<
+OK   >Hansa Rostock< (1) matching >Hansa Rostock<
+OK   >VfB Stuttgart< (1) matching >VfB Stuttgart<
+OK   >Energie Cottbus< (1) matching >Energie Cottbus<
+OK   >Bayern München< (1) matching >Bayern München<
+8
+** !!! ERROR !!! 8 club name(s) missing
 
-OK   >Belenenses< (1) matching >Os Belenenses<
-OK   >Benfica< (1) matching >SL Benfica<
-OK   >Boavista< (1) matching >Boavista FC<
-OK   >Braga< (1) matching >SC Braga<
-OK   >Desportivo Aves< (1) matching >CD Aves<
-OK   >FC Famalicao< (1) matching >FC Famalicão<
-OK   >FC Porto< (1) matching >FC Porto<
-OK   >Gil Vicente< (1) matching >Gil Vicente FC<
-OK   >Guimaraes< (1) matching >Vitória de Guimarães<
-OK   >Maritimo< (1) matching >CS Marítimo<
-OK   >Moreirense< (1) matching >Moreirense FC<
-OK   >Paços de Ferreira< (1) matching >FC Paços de Ferreira<
-OK   >Portimonense< (1) matching >Portimonense SC<
-OK   >Rio Ave< (1) matching >Rio Ave FC<
-OK   >Santa Clara< (1) matching >CD Santa Clara<
-OK   >Sporting CP< (1) matching >Sporting CP<
-OK   >Tondela< (1) matching >CD Tondela<
-OK   >Vitoria Setubal< (1) matching >Vitória de Setúbal<
 
-# co
+# ar
 
-OK   >Alianza Petrolera< (1) matching >Alianza Petrolera FC<
-OK   >América de Cali< (1) matching >América de Cali<
-OK   >Atlético Junior< (1) matching >Junior de Barranquilla<
-OK   >Atlético Nacional< (1) matching >Atlético Nacional<
-!! club missing / not found any name (1):
-    Boyacá Chicó
-!! club missing / not found any name (1):
-    Bucaramanga
-OK   >Cúcuta Deportivo< (1) matching >Cúcuta Deportivo<
-OK   >Deportes Tolima< (1) matching >Deportes Tolima<
-OK   >Deportivo Cali< (1) matching >Deportivo Cali<
-OK   >Deportivo Pasto< (1) matching >Deportivo Pasto<
-!! club missing / not found any name (1):
-    Deportivo Pereira
-OK   >Envigado< (1) matching >Envigado FC<
-OK   >Independiente Medellín< (1) matching >Independiente Medellín<
-OK   >Independiente Santa Fe< (1) matching >Independiente Santa Fe<
-OK   >Jaguares de Córdoba< (1) matching >Jaguares de Córdoba<
-OK   >La Equidad< (1) matching >La Equidad<
-OK   >Millonarios< (1) matching >Millonarios Bogotá<
-OK   >Once Caldas< (1) matching >Once Caldas<
-OK   >Patriotas< (1) matching >Patriotas Boyacá<
-OK   >Rionegro Águilas< (1) matching >Rionegro Águilas<
-3
-** !!! ERROR !!! 3 club name(s) missing
-
-# au
-!! club missing / not found any name (1):
-    Wellington Phoenix FC
-## check if nz gets auto-included in linter - why? why not?
-
-# us
-OK   >Atlanta United FC< (1) matching >Atlanta United FC<
-OK   >Chicago Fire< (1) matching >Chicago Fire<
-OK   >Colorado Rapids< (1) matching >Colorado Rapids<
-OK   >Columbus Crew SC< (1) matching >Columbus Crew SC<
-OK   >DC United< (1) matching >D.C. United<
-OK   >FC Cincinnati< (1) matching >FC Cincinnati<
-OK   >FC Dallas< (1) matching >FC Dallas<
-OK   >Houston Dynamo< (1) matching >Houston Dynamo<
-OK   >Inter Miami CF< (1) matching >Inter Miami CF<
-OK   >LA Galaxy< (1) matching >LA Galaxy<
-OK   >LAFC< (1) matching >Los Angeles FC<
-OK   >Minnesota United FC< (1) matching >Minnesota United FC<
-OK   >Montreal Impact< (1) matching >Montreal Impact<
-OK   >Nashville SC< (1) matching >Nashville SC<
-OK   >New England Revolution< (1) matching >New England Revolution<
-OK   >New York City FC< (1) matching >New York City FC<
-OK   >New York Red Bulls< (1) matching >New York Red Bulls<
-OK   >Orlando City SC< (1) matching >Orlando City SC<
-OK   >Philadelphia Union< (1) matching >Philadelphia Union<
-OK   >Portland Timbers< (1) matching >Portland Timbers<
-OK   >Real Salt Lake< (1) matching >Real Salt Lake<
-OK   >San Jose Earthquakes< (1) matching >San Jose Earthquakes<
-OK   >Seattle Sounders FC< (1) matching >Seattle Sounders FC<
-OK   >Sporting Kansas City< (1) matching >Sporting Kansas City<
-OK   >Toronto FC< (1) matching >Toronto FC<
-OK   >Vancouver Whitecaps< (1) matching >Vancouver Whitecaps FC<
-OK   >Atlanta United 2< (1) matching >Atlanta United 2<
-OK   >Austin Bold FC< (1) matching >Austin Bold FC<
-OK   >Birmingham Legion FC< (1) matching >Birmingham Legion FC<
-OK   >Charleston Battery< (1) matching >Charleston Battery<
-OK   >Charlotte Independence< (1) matching >Charlotte Independence<
-OK   >Colorado Springs Switchbacks FC< (1) matching >Colorado Springs Switchbacks FC<
-OK   >El Paso Locomotive FC< (1) matching >El Paso Locomotive FC<
-OK   >FC Tulsa< (1) matching >FC Tulsa<
-OK   >Hartford Athletic< (1) matching >Hartford Athletic<
-OK   >Indy Eleven< (1) matching >Indy Eleven<
-OK   >LA Galaxy II< (1) matching >LA Galaxy II<
-OK   >Las Vegas Lights FC< (1) matching >Las Vegas Lights FC<
-OK   >Loudoun United FC< (1) matching >Loudoun United FC<
-OK   >Louisville City FC< (1) matching >Louisville City FC<
-OK   >Memphis 901 FC< (1) matching >Memphis 901 FC<
-OK   >Miami FC< (1) matching >Miami FC<
-OK   >New Mexico United< (1) matching >New Mexico United<
-OK   >New York Red Bulls II< (1) matching >New York Red Bulls II<
-OK   >North Carolina FC< (1) matching >North Carolina FC<
-OK   >Oklahoma City Energy FC< (1) matching >OKC Energy FC<
-OK   >Orange County SC< (1) matching >Orange County SC<
-OK   >Philadelphia Union II< (1) matching >Philadelphia Union II<
-OK   >Phoenix Rising FC< (1) matching >Phoenix Rising FC<
-OK   >Pittsburgh Riverhounds< (1) matching >Pittsburgh Riverhounds SC<
-OK   >Portland Timbers 2< (1) matching >Portland Timbers 2<
-OK   >Real Monarchs SLC< (1) matching >Real Monarchs<
-OK   >Reno 1868 FC< (1) matching >Reno 1868 FC<
-OK   >Rio Grande Valley FC Toros< (1) matching >Rio Grande Valley FC Toros<
-OK   >Sacramento Republic FC< (1) matching >Sacramento Republic FC<
-OK   >Saint Louis FC< (1) matching >Saint Louis FC<
-OK   >San Antonio FC< (1) matching >San Antonio FC<
-OK   >San Diego Loyal SC< (1) matching >San Diego Loyal SC<
-OK   >Sporting Kansas City II< (1) matching >Sporting Kansas City II<
-OK   >Tacoma Defiance< (1) matching >Tacoma Defiance<
-OK   >Tampa Bay Rowdies< (1) matching >Tampa Bay Rowdies<
-!! club missing / not found any name (1):
-    AFC Ann Arbor
-!! club missing / not found any name (1):
-    Academica SC
-OK   >Atlanta United FC< (1) matching >Atlanta United FC<
-OK   >Austin Bold FC< (1) matching >Austin Bold FC<
-OK   >Birmingham Legion FC< (1) matching >Birmingham Legion FC<
-!! club missing / not found any name (1):
-    Black Rock FC
-!! club missing / not found any name (1):
-    Brazos Valley Cavalry FC
-!! club missing / not found any name (1):
-    Cal FC
-OK   >Charleston Battery< (1) matching >Charleston Battery<
-OK   >Charlotte Independence< (1) matching >Charlotte Independence<
-!! club missing / not found any name (1):
-    Chattanooga Red Wolves
-OK   >Chicago Fire< (1) matching >Chicago Fire<
-OK   >Colorado Rapids< (1) matching >Colorado Rapids<
-OK   >Colorado Springs Switchbacks FC< (1) matching >Colorado Springs Switchbacks FC<
-OK   >Columbus Crew SC< (1) matching >Columbus Crew SC<
-OK   >DC United< (1) matching >D.C. United<
-!! club missing / not found any name (1):
-    Dayton Dutch Lions
-!! club missing / not found any name (1):
-    Des Moines Menace
-!! club missing / not found any name (1):
-    Duluth FC
-!! club missing / not found any name (1):
-    El Farolito
-OK   >El Paso Locomotive FC< (1) matching >El Paso Locomotive FC<
-!! club missing / not found any name (1):
-    Erie Commodores FC
-!! club missing / not found any name (1):
-    FC Baltimore
-OK   >FC Cincinnati< (1) matching >FC Cincinnati<
-OK   >FC Dallas< (1) matching >FC Dallas<
-!! club missing / not found any name (1):
-    FC Denver
-!! club missing / not found any name (1):
-    FC Motown
-!! club missing / not found any name (1):
-    FC Mulhouse Portland
-OK   >FC Tulsa< (1) matching >FC Tulsa<
-!! club missing / not found any name (1):
-    Florida Soccer Soldiers
-!! club missing / not found any name (1):
-    Forward Madison FC
-!! club missing / not found any name (1):
-    Fresno FC
-!! club missing / not found any name (1):
-    Golden State Force
-!! club missing / not found any name (1):
-    Greenville Triumph
-OK   >Hartford Athletic< (1) matching >Hartford Athletic<
-OK   >Houston Dynamo< (1) matching >Houston Dynamo<
-OK   >Indy Eleven< (1) matching >Indy Eleven<
-OK   >LA Galaxy< (1) matching >LA Galaxy<
-OK   >LAFC< (1) matching >Los Angeles FC<
-!! club missing / not found any name (1):
-    Lakeland Tropics
-!! club missing / not found any name (1):
-    Lansing Ignite FC
-!! club missing / not found any name (1):
-    Laredo Heat
-OK   >Las Vegas Lights FC< (1) matching >Las Vegas Lights FC<
-!! club missing / not found any name (1):
-    Little Rock Rangers
-OK   >Louisville City FC< (1) matching >Louisville City FC<
-OK   >Memphis 901 FC< (1) matching >Memphis 901 FC<
-OK   >Miami FC< (1) matching >Miami FC<
-!! club missing / not found any name (1):
-    Midland-Odessa Sockers FC
-!! club missing / not found any name (1):
-    Milwaukee Bavarian SC
-OK   >Minnesota United FC< (1) matching >Minnesota United FC<
-!! club missing / not found any name (1):
-    NTX Rayados
-OK   >Nashville SC< (1) matching >Nashville SC<
-OK   >New England Revolution< (1) matching >New England Revolution<
-OK   >New Mexico United< (1) matching >New Mexico United<
-OK   >New York City FC< (1) matching >New York City FC<
-!! club missing / not found any name (1):
-    New York Cosmos
-OK   >New York Red Bulls< (1) matching >New York Red Bulls<
-!! club missing / not found any name (1):
-    New York Red Bulls U23
-OK   >North Carolina FC< (1) matching >North Carolina FC<
-OK   >Oklahoma City Energy FC< (1) matching >OKC Energy FC<
-!! club missing / not found any name (1):
-    Orange County FC
-OK   >Orange County SC< (1) matching >Orange County SC<
-OK   >Orlando City SC< (1) matching >Orlando City SC<
-!! club missing / not found any name (1):
-    Philadelphia Lone Star FC
-OK   >Philadelphia Union< (1) matching >Philadelphia Union<
-OK   >Phoenix Rising FC< (1) matching >Phoenix Rising FC<
-OK   >Pittsburgh Riverhounds< (1) matching >Pittsburgh Riverhounds SC<
-OK   >Portland Timbers< (1) matching >Portland Timbers<
-!! club missing / not found any name (1):
-    Reading United AC
-OK   >Real Salt Lake< (1) matching >Real Salt Lake<
-OK   >Reno 1868 FC< (1) matching >Reno 1868 FC<
-!! club missing / not found any name (1):
-    Richmond Kickers
-OK   >Sacramento Republic FC< (1) matching >Sacramento Republic FC<
-OK   >Saint Louis FC< (1) matching >Saint Louis FC<
-OK   >San Antonio FC< (1) matching >San Antonio FC<
-OK   >San Jose Earthquakes< (1) matching >San Jose Earthquakes<
-OK   >Seattle Sounders FC< (1) matching >Seattle Sounders FC<
-!! club missing / not found any name (1):
-    South Georgia Tormenta 2
-!! club missing / not found any name (1):
-    South Georgia Tormenta FC
-OK   >Sporting Kansas City< (1) matching >Sporting Kansas City<
-OK   >Tampa Bay Rowdies< (1) matching >Tampa Bay Rowdies<
-!! club missing / not found any name (1):
-    The Villages SC
-!! club missing / not found any name (1):
-    Virginia United FC
-!! club missing / not found any name (1):
-    West Chester Predators
-38
-** !!! ERROR !!! 38 club name(s) missing
-
-## ar
-OK   >Aldosivi< (1) matching >Club Atlético Aldosivi<
-OK   >Argentinos Juniors< (1) matching >Argentinos Juniors<
-OK   >Arsenal de Sarandí< (1) matching >Arsenal de Sarandí<
-OK   >Atlético Tucumán< (1) matching >Atlético Tucumán<
-OK   >Banfield< (1) matching >Club Atlético Banfield<
-OK   >Boca Juniors< (1) matching >Boca Juniors<
-!! club missing / not found any name (1):
-    Central Córdoba (Santiago del Estero)
-OK   >Colón (Santa Fe)< (1) matching >Colón Santa Fe<
-OK   >Defensa y Justicia< (1) matching >Defensa y Justicia<
-OK   >Estudiantes de La Plata< (1) matching >Estudiantes LP<
-!! club missing / not found any name (1):
-    Gimnasia La Plata
-OK   >Godoy Cruz Antonio Tomba< (1) matching >Godoy Cruz<
-OK   >Huracán< (1) matching >Huracán<
-OK   >Independiente< (1) matching >CA Independiente de Avellaneda<
-OK   >Lanús< (1) matching >CA Lanús<
-OK   >Newell's Old Boys< (1) matching >Newell's Old Boys<
-OK   >Patronato< (1) matching >Patronato<
-OK   >Racing Club< (1) matching >Racing Club<
-OK   >River Plate< (1) matching >River Plate<
-OK   >Rosario Central< (1) matching >Rosario Central<
-OK   >San Lorenzo< (1) matching >San Lorenzo<
-OK   >Talleres (Córdoba)< (1) matching >Talleres de Córdoba<
-OK   >Unión (Santa Fe)< (1) matching >Unión Santa Fe<
-OK   >Vélez Sarsfield< (1) matching >Vélez Sarsfield<
-!! club missing / not found any name (1):
-    Agropecuario
-OK   >All Boys< (1) matching >All Boys<
-!! club missing / not found any name (1):
-    Almagro
-!! club missing / not found any name (1):
-    Alvarado (Mar del Plata)
-!! club missing / not found any name (1):
-    Atlanta
-OK   >Atletico Rafaela< (1) matching >Atlético Rafaela<
-!! club missing / not found any name (1):
-    Barracas Central
-!! club missing / not found any name (1):
-    Belgrano (Córdoba)
-!! club missing / not found any name (1):
-    Brown (Adrogué)
-OK   >Chacarita Juniors< (1) matching >Chacarita Juniors<
 !! club missing / not found any name (1):
     Defensores de Belgrano
-!! club missing / not found any name (1):
-    Deportivo Morón
-!! club missing / not found any name (1):
-    Deportivo Riestra
-!! club missing / not found any name (1):
-    Estudiantes (Buenos Aires)
-!! club missing / not found any name (1):
-    Estudiantes de Río Cuarto
-!! club missing / not found any name (1):
-    Ferro Carril Oeste
-!! club missing / not found any name (1):
-    Gimnasia (Mendoza)
-!! club missing / not found any name (1):
-    Gimnasia y Esgrima (Jujuy)
-!! club missing / not found any name (1):
-    Guillermo Brown
-!! club missing / not found any name (1):
-    Independiente Rivadavia
-!! club missing / not found any name (1):
-    Instituto (Córdoba)
-!! club missing / not found any name (1):
-    Mitre (Santiago del Estero)
-OK   >Nueva Chicago< (1) matching >Nueva Chicago<
-!! club missing / not found any name (1):
-    Platense
-OK   >Quilmes< (1) matching >Quilmes AC<
-OK   >San Martín (San Juan)< (1) matching >San Martín<
-!! club missing / not found any name (1):
-    San Martín (Tucumán)
-!! club missing / not found any name (1):
-    Santamarina
-OK   >Sarmiento (Junín)< (1) matching >Sarmiento Junín<
-OK   >Temperley< (1) matching >Temperley<
-OK   >Tigre< (1) matching >CA Tigre<
-!! club missing / not found any name (1):
-    Villa Dálmine
-25
-** !!! ERROR !!! 25 club name(s) missing
-
-# gt
-
-!! club missing / not found any name (1):
-    Antigua
-!! club missing / not found any name (1):
-    Coban Imperial
-OK   >Comunicaciones< (1) matching >Comunicaciones FC<
-!! club missing / not found any name (1):
-    Deportivo Mixco
-!! club missing / not found any name (1):
-    Guastatoya
-!! club missing / not found any name (1):
-    Iztapa
-!! club missing / not found any name (1):
-    Malacateco
-OK   >Municipal< (1) matching >CSD Municipal<
-!! club missing / not found any name (1):
-    Sanarate
-!! club missing / not found any name (1):
-    Santa Lucía Cotzumalguapa
-!! club missing / not found any name (1):
-    Siquinalá
-OK   >Xelaju< (1) matching >Club Xelajú MC<
-9
-** !!! ERROR !!! 9 club name(s) missing
 

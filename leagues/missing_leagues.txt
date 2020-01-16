@@ -1,17 +1,17 @@
        UEFA Champions League
        UEFA Europa League
        Major League Soccer
-!!!    Mexican Liga BBVA MX
+       Mexican Liga BBVA MX
        English Premier League
        English League Championship
-!!!    English Carabao Cup
+       English Carabao Cup
        Spanish Primera División
        Italian Serie A
        German Bundesliga
        French Ligue 1
        Dutch Eredivisie
        CONCACAF Champions League
-!!!    CONCACAF League
+       CONCACAF League
        Major League Soccer
        United States Open Cup
        USL Championship
@@ -19,14 +19,14 @@
        NCAA Division I
        NCAA Division I Men's Soccer Tournament
        College Cup
-!!!    Mexican Liga BBVA MX
+       Mexican Liga BBVA MX
        Mexican Ascenso MX
        Mexican Copa MX
-!!!    Costa Rican Primera Division
-!!!    Honduran Primera Division
-!!!    Salvadoran Primera Division
-!!!    Guatemalan Liga Nacional
-!!!    Jamaican Premier League
+       Costa Rican Primera Division
+       Honduran Primera Division
+       Salvadoran Primera Division
+       Guatemalan Liga Nacional
+       Jamaican Premier League
        UEFA Champions League
        UEFA Europa League
        English Premier League
@@ -34,7 +34,7 @@
        English League One
        English League Two
        English National League
-!!!    English Carabao Cup
+       English Carabao Cup
        English EFL Trophy
        English FA Cup
        Scottish Premiership
@@ -78,10 +78,10 @@
        CONMEBOL Copa Libertadores
        CONMEBOL Copa Sudamericana
        Argentine Superliga
-!!!    Argentine Nacional B
-!!!    Argentine Primera B
-!!!    Argentine Primera C
-!!!    Argentine Primera D
+       Argentine Nacional B
+       Argentine Primera B
+       Argentine Primera C
+       Argentine Primera D
        Copa Argentina
        Brazilian Serie A
        Brazilian Serie B
@@ -96,15 +96,15 @@
        Copa Colombia
        Chilean Primera Division
        Copa Chile
-!!!    Paraguayan Primera Division
-!!!    Peruvian Primera Profesional
+       Paraguayan Primera Division
+       Peruvian Primera Profesional
        Bolivian Liga Profesional
        Ecuadoran Primera A
        Uruguayan Primera Division
        Venezuelan Primera Profesional
        AFC Champions League
        Chinese Super League
-!!!    Indian Super League
+       Indian Super League
        Indonesian Super League
        Singaporean Premier League
        Japanese J League
@@ -113,14 +113,14 @@
        Thai Premier League
        Australian A-League
        CAF Champions League
-!!!    CAF Confederations Cup
-!!!    South African Premiership
-!!!    South African First Division
-!!!    South African Nedbank Cup
-!!!    South African Telkom Knockout
-!!!    Nigerian Professional League
-!!!    Kenyan Premier League
-!!!    Zambian Super League
-!!!    Ghanaian Premier League
-!!!    Ugandan Super League
-!!!    Zimbabwean Premier Soccer League
+       CAF Confederations Cup
+       South African Premiership
+       South African First Division
+       South African Nedbank Cup
+       South African Telkom Knockout
+       Nigerian Professional League
+       Kenyan Premier League
+       Zambian Super League
+       Ghanaian Premier League
+       Ugandan Super League
+       Zimbabwean Premier Soccer League

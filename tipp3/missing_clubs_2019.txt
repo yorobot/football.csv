@@ -1,17 +1,7 @@
-League UKR 1 (8) - >Fussball - Ukraine Premier League<:
-  SFC Desna Tscherni
-  Vorskla Poltawa
-  Chernom. Odessa
-  Karpaty Lemberg
-  Arsenal Kiew
-  FC Zorya Lugansk
-  FK Mariupol
-  Volyn Lutsk
-League ROU 2 (3) - >Fussball - Rumänien, Liga 2<:
-  FC Univ. Cluj
+League ROU 2 (2) - >Rumänien, Liga 2<:
   CS Sportul Snagov
   Ripensia Timisoara
-League COPA S (9) - >Fussball - Copa Sudamericana<:
+League COPA S (8) - >Copa Sudamericana<:
   Rionegro Aguil, Colombia (co)
   Un.La Calera, Chile (cl)
   Sp. Cristal, Peru (pe)
@@ -20,32 +10,24 @@ League COPA S (9) - >Fussball - Copa Sudamericana<:
   Montev. Wand., Uruguay (uy)
   Dep.Tolima, Colombia (co)
   Atletico Nac., Colombia (co)
-  Univ. Catolica, Chile (cl)
-League SLO 1 (1) - >Fussball - Slowenien PrvaLiga Telekom<:
-  NK Krsko
-League ROU 1 (2) - >Fussball - Rumänien Liga 1<:
-  AFC Dunarea 2005
-  FC Univ. Cluj
-League FIN 2 (6) - >Fussball - Finnland Ykkonen<:
+League FIN 2 (6) - >Finnland Ykkonen<:
   TPV Tampere
   TPS Juniorijalkapa
   Musa Pori
   AC Oulu
   Mypa Myllykoski
   AC Kajaani
-League GRE 1 (1) - >Fussball - Griechenland Super League<:
-  AO Platanias
-League ITA C1A (2) - >Fussball - Italien Lega Pro Prima Divisione, Girone A<:
+League ITA C1A (2) - >Italien Lega Pro Prima Divisione, Girone A<:
   Viterbo Calcio
   Imolese Calcio
-League BRA CUP (2) - >Fussball - Brasilien Cup<:
+League BRA CUP (2) - >Brasilien Cup<:
   EC Juventude RS
   Paysandu SC PA
-League SUI 2 (3) - >Fussball - Schweiz Challenge League<:
+League SUI 2 (3) - >Schweiz Challenge League<:
   Rapperswil-Jona
   SC Kriens
   FC Stade Ls Ouchy
-League ISL 2 (10) - >Fussball - Island 1. deild<:
+League ISL 2 (10) - >Island 1. deild<:
   Haukar Hafnarfj.
   Throttur Reykjavik
   Afturelding
@@ -56,44 +38,27 @@ League ISL 2 (10) - >Fussball - Island 1. deild<:
   Grotta
   Vikingur Olafsvik
   Leiknir Reykjavik
-League AUT 2 (1) - >Fussball - Österreich Zweite Liga<:
+League AUT 2 (1) - >Österreich Zweite Liga<:
   Wack. Innsbruck II
-League SWE 2 (1) - >Fussball - Schweden Superettan<:
+League SWE 2 (1) - >Schweden Superettan<:
   IK Frej
-League FIN 1 (4) - >Fussball - Finnland Veikkausliiga<:
-  Rovaniemi PS
-  Seinajoen JK
-  Vaasa PS
-  Kuopio PS
-League NOR 1 (1) - >Fussball - Norwegen Tippeligaen<:
-  Ranheim IL
-League IRL LC (3) - >Fussball - Irland League Cup<:
-  FC Finn Harps
-  Boh. Dublin
+League IRL LC (1) - >Irland League Cup<:
   FC Bray Wanderers
-League CZE 1 (2) - >Fussball - Tschechien Gambrinus Liga<:
-  FC Jihlava
-  Zbrojovka Brno
-League SVK 1 (1) - >Fussball - Slowakei Corgon Liga<:
-  FK Poprad
-League ISL CUP (7) - >Fussball - Island Cup<:
-  UMF Grindavik
+League ISL CUP (6) - >Island Cup<:
   IF Vestri
   Keflavik IF
   UMF Njardvik
   Fjölnir
   Völsungur
   Throttur Reykjavik
-League SLO CUP (1) - >Fussball - Slowenien Cup<:
+League SLO CUP (1) - >Slowenien Cup<:
   Ol. Ljubljana
-League AUT RLO (1) - >Fussball - Österreich Regionalliga Ost<:
+League AUT RLO (1) - >Österreich Regionalliga Ost<:
   SC Parndorf
-League CAF CL (1) - >Fussball - CAF Champions League<:
-  Wydad Casabl., Morocco (ma)
-League ESP 2 (2) - >Fussball - Spanien Segunda Division<:
+League ESP 2 (2) - >Spanien Segunda Division<:
   Gimn. Tarragona
   R. Majadahonda
-League IRL 2 (9) - >Fussball - Irland First Division<:
+League IRL 2 (9) - >Irland First Division<:
   FC Longford Town
   FC Galway United
   Shelbourne Dublin
@@ -103,7 +68,7 @@ League IRL 2 (9) - >Fussball - Irland First Division<:
   FC Limerick 37
   FC Athlone Town
   Cabinteely FC
-League SWE 3N (9) - >Fussball - Schweden Div 1 Norra<:
+League SWE 3N (9) - >Schweden Div 1 Norra<:
   BK Forward
   Karlstad BK
   Umea FC
@@ -113,7 +78,7 @@ League SWE 3N (9) - >Fussball - Schweden Div 1 Norra<:
   Karlslunds IF
   Carlstad United
   Vasalunds IF
-League FIN 3 (7) - >Fussball - Finnland Kakkonen<:
+League FIN 3 (7) - >Finnland Kakkonen<:
   Kiffen
   Järvenpään PS
   Klubi 04
@@ -121,7 +86,7 @@ League FIN 3 (7) - >Fussball - Finnland Kakkonen<:
   Sudet
   Lahden Reipas
   Mikkelin Pall.
-League NOR 3 (7) - >Fussball - Norwegen 2. Division, avd. 1<:
+League NOR 3 (7) - >Norwegen 2. Division, avd. 1<:
   Sotra SK
   Mjolner FK
   Nardo
@@ -129,25 +94,7 @@ League NOR 3 (7) - >Fussball - Norwegen 2. Division, avd. 1<:
   FK Vidar
   Levanger
   FK Arendal
-League CHI 1 (2) - >Fussball - Chile Primera Divison<:
-  Univ. Catolica
-  Everton Vina d.Mar
-League THA 1 (2) - >Fussball - Thai Premier League<:
-  Buriram United FC
-  FC PTT Rayong
-League LIT 1 (2) - >Fussball - Litauen A lyga<:
-  FK Zalgiris Kaunas
-  Suduva Marijampole
-League BLR 1 (5) - >Fussball - Weißrussland Premier League<:
-  FC Torpedo Minsk
-  Shakhter Soligorsk
-  FC BGU Minsk
-  FK Dnyapro Mogilev
-  Slutsksak. Slutsk
-League IRL 1 (2) - >Fussball - Irland Premier Division<:
-  FC Finn Harps
-  Boh. Dublin
-League JPN 2 (14) - >Fussball - Japan J.League 2<:
+League JPN 2 (14) - >Japan J.League 2<:
   FC Gifu
   JEF Utd Ichihara
   Kagoshima United
@@ -162,7 +109,7 @@ League JPN 2 (14) - >Fussball - Japan J.League 2<:
   Fagiano Okayama
   Renofa Yamaguchi
   Machida Zelvia
-League SWE 3S (13) - >Fussball - Schweden Div 1 Södra<:
+League SWE 3S (13) - >Schweden Div 1 Södra<:
   Atvidaberg FF
   IK Oddevold
   Oskarshamns AIK
@@ -176,60 +123,23 @@ League SWE 3S (13) - >Fussball - Schweden Div 1 Södra<:
   IFK Värnamo
   Torns IF
   Lunds BK
-League ISL 1 (1) - >Fussball - Island Urvalsdeild<:
-  UMF Grindavik
-League ESP 2B (2) - >Fussball - Spanien Segunda Division B<:
-  Atletico Baleares
-  Melilla UD
-League AFC CL (4) - >Fussball - AFC Champions League<:
-  S. Hiroshima, Japan (jp)
-  Shandong L., China (cn)
-  Jeonbuk Hyu., South Korea (kr)
-  Al-Ahli Jeddah, Saudi Arabia (sa)
-League NOR CUP (7) - >Fussball - Norwegen Cup<:
+League NOR CUP (6) - >Norwegen Cup<:
   Grorud IL
   Fram Larvik
   Levanger
-  Ranheim IL
   Bryne FK
   Alta IF
   Baerum
-League USA CUP (2) - >Fussball - USA US Open Cup<:
-  New Mexico United
-  Saint Louis FC
-League KOR 1 (1) - >Fussball - Südkorea K-League<:
-  Seongnam Ilhwa
-League CHN 1 (6) - >Fussball - China Chinese Super League<:
-  Shenhua Shanghai
-  Hebei China Fortun
-  Dalian Aerbin FC
-  FC Henan Jianye
-  FC Tianjin Taida
-  Tianjin Songjiang
-League SIN 1 (2) - >Fussball - Singapur S.League<:
-  Balestier Khalsa
-  Albirex Niigata FC
-League LAT 1 (2) - >Fussball - Lettland LMT Virsliga<:
-  Valmiera Fk
-  Rigas Futb.Skola
-League AFC C (2) - >Fussball - AFC Cup<:
-  AL Ahed, Lebanon (lb)
+League AFC C (1) - >AFC Cup<:
   AL Wehdat JOR, Jordan (jo)
-League UEFA CL (10) - >Fussball - UEFA Champions League<:
+League UEFA CL (6) - >UEFA Champions League<:
   FC Santa Colom, Andorra (ad)
   Shk.Tetovo, North Macedonia (mk)
   Partiz.Tirana, Albania (al)
   FC Sheriff T., Moldova (md)
   Sab.Tiflis, Georgia (ge)
   Sutj. Niksic, Montenegro (me)
-  Valur Reykj., Iceland (is)
-  Vikt. Pilsen, Czech Republic (cz)
-  Macc. Tel Aviv, Israel (il)
-  Nomme Kalju, Estonia (ee)
-League UEFA EL (59) - >Fussball - UEFA Europa League<:
-  FC Barry Town, Wales (wal)
-  P. Niederkorn, Luxembourg (lu)
-  Cardiff M.U., Wales (wal)
+League UEFA EL (45) - >UEFA Europa League<:
   FC Pristina, Kosovo (xk)
   Gzira United, Malta (mt)
   Tobol Kostanay, Kazakhstan (kz)
@@ -242,14 +152,10 @@ League UEFA EL (59) - >Fussball - UEFA Europa League<:
   FC Petrocub, Moldova (md)
   FK Buducnost, Montenegro (me)
   Sabayil, Azerbaijan (az)
-  Kuopio PS, Finland (fi)
   Flora Tallinn, Estonia (ee)
   Sh. Soligorsk, Belarus (by)
   KS Kukesi, Albania (al)
   Ak.Pandev, North Macedonia (mk)
-  Zrinjs. Mostar, Bosnia and Herzegovina (ba)
-  Radnik Bijelji, Bosnia and Herzegovina (ba)
-  Shamrock, Ireland (ie)
   Sp. Nisporeni, Moldova (md)
   Neftchi Baku, Azerbaijan (az)
   Zalg. Kaunas, Lithuania (lt)
@@ -262,11 +168,9 @@ League UEFA EL (59) - >Fussball - UEFA Europa League<:
   FK Zeta Golubo, Montenegro (me)
   Dunajska Str., Slovakia (sk)
   Cracovia Krak., Poland (pl)
-  Rovaniemi PS, Finland (fi)
   Honved Budap., Hungary (hu)
   Zalg. Vilnius, Lithuania (lt)
   Kairat Almaty, Kazakhstan (kz)
-  Stjarnan Gard., Iceland (is)
   Levadia Tall., Estonia (ee)
   Ararat-Arm., Armenia (am)
   Shk.Tetovo, North Macedonia (mk)
@@ -279,23 +183,16 @@ League UEFA EL (59) - >Fussball - UEFA Europa League<:
   Aris Saloniki, Greece (gr)
   Viitorul Con., Romania (ro)
   Atromitos Ath., Greece (gr)
-  Valur Reykj., Iceland (is)
   Sab.Tiflis, Georgia (ge)
   Sutj. Niksic, Montenegro (me)
-  FK Mariupol, Ukraine (ua)
-  Vikt. Pilsen, Czech Republic (cz)
-  Macc. Tel Aviv, Israel (il)
-  TN Saints, Wales (wal)
-League ISL 3 (6) - >Fussball - Island 2. Delid<:
+League ISL 3 (6) - >Island 2. Delid<:
   UMF Tindastoll
   Völsungur
   IR Reykjavik
   Dalvik Reynir
   UMF Vidir
   Throttur Vogum
-League EST 1 (1) - >Fussball - Estland Meistriliiga<:
-  Tammeka Tartu
-League SWE CUP (11) - >Fussball - Schweden Cup<:
+League SWE CUP (11) - >Schweden Cup<:
   Vinbergs IF
   Tvaakers IF
   Carlstad United
@@ -307,7 +204,7 @@ League SWE CUP (11) - >Fussball - Schweden Cup<:
   Hittarps IK
   Eskilsminne IF
   Lunds BK
-League JPN CUP (13) - >Fussball - Japan Emperor Cup<:
+League JPN CUP (13) - >Japan Emperor Cup<:
   Ehime FC
   JEF Utd Ichihara
   Fagiano Okayama
@@ -321,50 +218,22 @@ League JPN CUP (13) - >Fussball - Japan Emperor Cup<:
   Giravanz Kitakyush
   Thespakusatsu
   Tochigi SC
-League ECU 1 (1) - >Fussball - Ecuador Serie A<:
-  Indep. del Valle
-League RUS 2 (3) - >Fussball - Russland 1. Division<:
-  Torpedo Armavir
-  FC Krasnodar 2
-  Spartak Moskau II
-League CHI CUP (3) - >Fussball - Copa Chile<:
-  Deportes Vallenar
-  Univ. Catolica
-  CD La Serena
-League BRA 2 (1) - >Fussball - Brasilien Brasilero Serie B<:
-  CR Brasil AL
-League SCO LC (6) - >Fussball - Schottland League Cup<:
+League SCO LC (6) - >Schottland League Cup<:
   FC Stenhousemuir
   FC Cowdenbeath
   FC Brechin City
   FC Queens Park
   FC Albion Rovers
   East Kilbride
-League AUT CUP (2) - >Fussball - Österreich ÖFB Cup<:
+League AUT CUP (2) - >Österreich ÖFB Cup<:
   ASK Elektra
   FC Zell am See
-League CZE 2 (4) - >Fussball - Tschechien 1. Division<:
-  FK Usti nad Labem
-  FC Jihlava
-  FC Hradec Kralove
-  FK Dukla Prag
-League BUL 1 (1) - >Fussball - Bulgarien Premier League<:
-  Vitosha Bistrica
-League COPA L (3) - >Fussball - Copa Libertadores<:
-  Ol. Asuncion, Paraguay (py)
-  CA San Lorenzo, Argentina (ar)
-  Club Nacional, Uruguay (uy)
-League ARG 1 (4) - >Fussball - Argentinien Primera Division<:
-  CA Banfield
-  CA Rosario Central
-  CA Independiente
-  Newell's Old B.
-League ITA CUP (4) - >Fussball - Italien Coppa Italia<:
+League ITA CUP (4) - >Italien Coppa Italia<:
   SSD Monza 1912
   Alessandria Calcio
   SS Cavese
   Reggina 1914
-League DEN CUP (9) - >Fussball - Dänemark Landspokalturneringen<:
+League DEN CUP (9) - >Dänemark Landspokalturneringen<:
   Marstal/Rise
   Kolding BK
   Aarhus Fremad
@@ -374,29 +243,7 @@ League DEN CUP (9) - >Fussball - Dänemark Landspokalturneringen<:
   SFB Oure FA
   Jaegersborg
   Jammerbugt FC
-League RL TIR (3) - >Fussball - Regionalliga Tirol<:
+League RL TIR (3) - >Regionalliga Tirol<:
   SC Imst 1933
   Zirl
   Telfs
-League RSA PL (1) - >Fussball - Südafrika, Premier League<:
-  Bidwest Wits FC
-League COPA MX (6) - >Fussball - Mexiko, Copa MX<:
-  Caf. de Tapachula
-  CA Zacatepec
-  Atlas FC
-  Venados FC
-  Mineros Zacatecas
-  Potros UAEM
-League AUS CUP (1) - >Fussball - Australien, FFA Cup<:
-  Western Sydney
-League COL COP (1) - >Fussball - Copa Colombia<:
-  CA Bucaramanga
-League GER CUP (3) - >Fussball - Deutschland DFB Pokal<:
-  Viktoria Berlin
-  Wacker Nordhausen
-  SV Rödinghausen
-League NL 2 (2) - >Fussball - Niederlande Jupiler League<:
-  Jong PSV Eindh.
-  AZ Alkmaar II
-League ENG LC (1) - >Fussball - England Liga Cup<:
-  FC Bury

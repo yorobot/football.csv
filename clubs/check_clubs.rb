@@ -21,6 +21,9 @@ CLUB_RE = %r{
 
 # datafiles = Datafile.find( 'uefa/2019-20', UEFA_RE )
 datafiles = [
+ # 'bundesliga.at/2019-20/clubs.txt'
+ # 'bundesliga.de/2019-20/clubs.txt'
+
  # 'espn/2019-20/ar.txt' 
  # 'espn/2019-20/at.txt' 
  # 'espn/2019-20/au.txt'
@@ -28,13 +31,13 @@ datafiles = [
  # 'espn/2019-20/br.txt' 
  # 'espn/2019-20/cn.txt' 
  # 'espn/2019-20/co.txt' 
- 'espn/2019-20/gt.txt'
+ # 'espn/2019-20/gt.txt'
  # 'espn/2019-20/il.txt' 
  # 'espn/2019-20/jp.txt' 
  # 'espn/2019-20/mx.txt' 
  # 'espn/2019-20/nl.txt' 
  # 'espn/2019-20/pt.txt' 
- # 'espn/2019-20/us.txt' 
+  'espn/2019-20/us.txt' 
 ]
 # datafiles = Datafile.find( 'sportbild/2019-20', CLUB_RE )
 pp datafiles
