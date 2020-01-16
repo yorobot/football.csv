@@ -1,0 +1,38 @@
+= AT 1
+
+# see https://www.bundesliga.at/de/tabelle/
+
+FC Red Bull Salzburg	
+LASK	
+SK Rapid Wien		
+RZ Pellets WAC		
+SK Puntigamer Sturm Graz
+TSV Prolactal Hartberg
+FK Austria Wien
+CASHPOINT SCR Altach
+spusu SKN St. Pölten
+FC Flyeralarm Admira
+SV Mattersburg
+WSG Swarovski Tirol
+
+
+= AT 2
+
+# see https://www.2liga.at/2liga/
+
+SV Guntamatic Ried	
+SK Austria Klagenfurt	
+SK Vorwärts Steyr	
+SV Licht-Loidl Lafnitz
+SC Austria Lustenau
+FC Wacker Innsbruck	
+FC Juniors OÖ		
+FC Mohren Dornbirn 1913
+SKU Ertl Glas Amstetten
+FC Liefering	
+Grazer AK 1902		
+FC Blau Weiß Linz		
+Young Violets Austria Wien		
+FAC Wien	
+SV Horn	16	
+KSV 1919
