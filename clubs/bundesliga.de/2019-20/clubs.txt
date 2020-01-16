@@ -1,0 +1,69 @@
+= DE 1
+
+# see https://www.bundesliga.com/de/bundesliga/tabelle
+
+RB Leipzig
+Borussia Mönchengladbach
+FC Bayern München
+Borussia Dortmund
+FC Schalke 04
+Bayer 04 Leverkusen
+TSG 1899 Hoffenheim
+Sport-Club Freiburg
+VfL Wolfsburg
+FC Augsburg
+1. FC Union Berlin
+Hertha BSC
+Eintracht Frankfurt
+1. FSV Mainz 05
+1. FC Köln
+Fortuna Düsseldorf
+SV Werder Bremen
+SC Paderborn 07
+
+= DE 2
+
+DSC Arminia Bielefeld
+Hamburger SV
+VfB Stuttgart
+1. FC Heidenheim 1846
+FC Erzgebirge Aue
+VfL Osnabrück
+SSV Jahn Regensburg
+SpVgg Greuther Fürth
+SV Sandhausen
+Holstein Kiel
+FC St. Pauli
+SV Darmstadt 98
+Hannover 96
+VfL Bochum 1848
+Karlsruher SC
+1. FC Nürnberg
+SV Wehen Wiesbaden
+SG Dynamo Dresden
+
+
+= DE 3
+
+# see https://www.dfb.de/3-liga/spieltagtabelle/
+
+MSV Duisburg
+FC Ingolstadt
+SV Waldhof Mannheim
+Eintracht Braunschweig
+SpVgg Unterhaching
+Hallescher FC
+SV Meppen
+KFC Uerdingen
+1. FC Kaiserslautern
+TSV 1860 München
+Hansa Rostock
+1. FC Magdeburg
+FC Würzburger Kickers
+FSV Zwickau
+Bayern München II
+FC Viktoria Köln
+Chemnitzer FC
+SG Sonnenhof Großaspach
+Preußen Münster
+FC Carl Zeiss Jena
