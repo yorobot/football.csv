@@ -20,6 +20,19 @@ Check all datasets for missing club names ?
 
 ## Todos
 
+missing clubs:
+
+```
+6 errors:
+["Cabinteely > Ireland",
+ "FC FC Voluntari > Romania",
+ "Brage > Sweden",
+ "Atlanta Utd > United States",
+ "Inter Miami CF > United States",
+ "Nashville SC > United States"]
+```
+
+
 fix error:
 
 ```
