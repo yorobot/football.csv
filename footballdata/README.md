@@ -23,8 +23,11 @@ Check all datasets for missing club names ?
 missing clubs:
 
 ```
-6 errors:
-["Cabinteely > Ireland",
+8 errors:
+["Berwick > Scotland",     ## in scottish league BUT in england!!
+                           ## see https://en.wikipedia.org/wiki/Berwick_Rangers_F.C.
+ "Heracles > Greece",  
+ "Cabinteely > Ireland",
  "FC FC Voluntari > Romania",
  "Brage > Sweden",
  "Atlanta Utd > United States",
