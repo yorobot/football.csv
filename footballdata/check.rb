@@ -55,7 +55,7 @@ end # class Names
 
 
 
-puts FOOTBALLDATA_SOURCES.size      #=>
+puts FOOTBALLDATA_SOURCES.size      #=> 11
 puts FOOTBALLDATA_SOURCES_II.size   #=> 16
 
 
