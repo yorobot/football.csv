@@ -8,8 +8,8 @@ require 'sportdb/source/footballdata'
 
 
 ## use (switch to) "external" datasets
-SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
-SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"
+# SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
+# SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"
 
 LEAGUES   = SportDb::Import.config.leagues
 CLUBS     = SportDb::Import.config.clubs
