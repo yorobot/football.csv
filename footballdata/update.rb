@@ -1,47 +1,8 @@
-# encoding: utf-8
-
-## note: use the local version of sportdb-source gem
-$LOAD_PATH.unshift( File.expand_path( './sportdb-source-footballdata/lib') )
-
-require 'sportdb/match/formats'        ## working around - why needed? activerecord auto-loading?
-require 'sportdb/source/footballdata'
-
-require './repos'
+require_relative 'boot'
+require_relative 'repos'
+require_relative 'git'
 
 
-
-
-def git_pull( repo_path )
-  savewd = Dir.pwd    # save current wd
-
-  Dir.chdir( repo_path )
-
-  puts "try git pull for >#{File.basename( repo_path )}< in (#{Dir.pwd})"
-
-  system 'git pull'
-  ## todo/fix: check print/return value
-
-  Dir.chdir( savewd )    # restore working folder
-end
-
-def git_commit( repo_path )
-  savewd = Dir.pwd    # save current wd
-
-  Dir.chdir( repo_path )
-
-  puts "try git commit for >#{File.basename( repo_path )}< in (#{Dir.pwd})"
-
-  system 'git status'
-  system 'git add .'
-  system 'git status'
-  system 'git commit -m up'
-  system 'git push'
-
-  ## todo/fix: check print/return value
-  ##   see hubba/gitti
-
-  Dir.chdir( savewd )    # restore working folder
-end
 
 
 
@@ -53,7 +14,7 @@ FOOTBALLDATA_SOURCES.each do |k,v|
   country_path    = COUNTRY_REPOS[k]
   country_sources = v
 
-    next unless [country_keys].include?( country_key )
+    next unless country_keys.include?( country_key )
 
     out_dir = "../../footballcsv/#{country_path}"
     ## out_dir = "./o/footballdata/#{country_path}"
@@ -64,7 +25,8 @@ FOOTBALLDATA_SOURCES.each do |k,v|
     Footballdata.convert_season_by_season( country_key, country_sources,
                             in_dir: './dl/footballdata',
                             out_dir: out_dir,
-                            start: start )
+                            start: start,
+                            normalize: true )
 
     print "hit return to commit: ";  ch=STDIN.getc
     git_commit( out_dir )
@@ -93,7 +55,8 @@ FOOTBALLDATA_SOURCES_II.each do |k,v|
     Footballdata.convert_all_seasons( country_key, basename,
                             in_dir: './dl/footballdata',
                             out_dir: out_dir,
-                            start: start )
+                            start: start,
+                            normalize: true )
 
     print "hit return to commit: ";  ch=STDIN.getc
     git_commit( out_dir )

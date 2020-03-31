@@ -39,6 +39,21 @@ missing clubs:
 fix error:
 
 ```
+ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/part_level.rb:46:in `build': undefined method `teams' for #<SportDb::Import::Configuration:0x3767bc8> (NoMethodError)
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/pyramid.rb:143:in `block in build'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/pyramid.rb:141:in `each'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/pyramid.rb:141:in `build'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/summary.rb:21:in `build'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/summary.rb:33:in `block in save'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/summary.rb:32:in `open'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/summary.rb:32:in `save'
+        from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/summary.rb:44:in `write'
+        from ./convert.rb:78:in `write_summary'
+        from ./convert.rb:85:in `<main>'
+```
+
+
+```
 alphabets/0.1.2 on Ruby 2.3.3 (2016-11-21) 
 date-formats/0.2.4 on Ruby 2.3.3 (2016-11-21) 
 sportdb-langs/0.1.0 on Ruby 2.3.3 (2016-11-21) 

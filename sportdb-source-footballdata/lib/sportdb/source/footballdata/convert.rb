@@ -11,7 +11,8 @@ module Footballdata
 def self.convert_season_by_season( country_key, sources,
                                    in_dir:,
                                    out_dir:,
-                                   start: nil )
+                                   start: nil,
+                                   normalize: false )
 
   sources.each do |rec|
     season_key   = rec[0]   ## note: dirname is season e.g. 2011-12 etc.
@@ -42,28 +43,11 @@ def self.convert_season_by_season( country_key, sources,
 
       matches = CsvMatchReader.read( in_path )
 
-      normalize_clubs( matches, country_key )
+      normalize_clubs( matches, country_key )  if normalize
 
       CsvMatchWriter.write( out_path, matches )
     end
   end
-
-
-  ###################################################
-  ## (auto-) add / update SUMMARY.md report
-  ## (auto-) add ) update README.md pages with standings
-
-  ## pack = CsvPackage.new( "#{out_repo_path}/#{repo}" )
-
-  ### todo:
-  ## use all-in-one   pack.update_reports - why? why not?
-
-  # summary_report = CsvSummaryReport.new( pack )
-  # summary_report.write
-  ## note: write same as summary.save( "#{out_root}/SUMMARY.md" )
-
-  ## standings_writer = CsvStandingsWriter.new( pack )
-  ## standings_writer.write
 end # method convert_season_by_season
 
 
@@ -71,7 +55,8 @@ end # method convert_season_by_season
 def self.convert_all_seasons( country_key, basename,
                                    in_dir:,
                                    out_dir:,
-                                   start: nil )
+                                   start: nil,
+                                   normalize: false )
 
   col  = 'Season'
   path = "#{in_dir}/#{basename}.csv"
@@ -101,7 +86,7 @@ def self.convert_all_seasons( country_key, basename,
 
     out_path = "#{out_dir}/#{SeasonUtils.directory(season_key)}/#{league_basename}.csv"
 
-    normalize_clubs( matches, country_key )
+    normalize_clubs( matches, country_key )  if normalize
 
     CsvMatchWriter.write( out_path, matches )
   end
