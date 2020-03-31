@@ -122,31 +122,14 @@ def self.normalize_clubs( matches, country_key )
       if club   ## bingo! found cached club match/entry
         clubs << club
       else
-        m = SportDb::Import.config.clubs.match( name )
-        if m.nil?
+        club = SportDb::Import.config.clubs.find_by( name: name, country: country_key )
+        if club.nil?
           ## todo/check: exit if no match - why? why not?
-          puts "!!! *** ERROR *** no matching club found for >#{name}< - add to clubs setup"
+          puts "!!! *** ERROR *** no matching club found for >#{name}, #{country_key}< - add to clubs setup"
           exit 1
-        else
-          if m.size == 1
-            club = m[0]
-            cache[name] = club   ## cache club match
-            clubs << club
-          else   ## assume more than one (>1) match
-            ## resolve conflict - find best match - how?
-            ## try match / filter by country
-            m2 = m.select { |c| c.country.key == country_key }
-            if m2.size == 1
-              club = m2[0]
-              cache[name] = club   ## cache club match
-              clubs << club
-            else
-              puts "!!! *** ERROR *** no clubs or too many matching clubs found for country >#{country_key}< and >#{name}< - cannot resolve conflict / find best match (automatic):"
-              pp m
-              exit 1
-            end
-          end
         end
+        cache[name] = club   ## cache club match
+        clubs << club        
       end
     end # each name
     ## update names to use canonical names

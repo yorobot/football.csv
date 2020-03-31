@@ -21,7 +21,7 @@ Hoe.spec 'sportdb-source-footballdata' do
 
   self.extra_deps = [
     ['fetcher',          '>= 0.4.5'],
-    ['footballdb-clubs', '>= 0.2.1'],
+    ['footballdb-clubs', '>= 2020.3.30'],
     ['sportdb-import',   '>= 0.2.4'],
   ]
 

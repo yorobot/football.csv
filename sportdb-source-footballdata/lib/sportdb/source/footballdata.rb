@@ -6,8 +6,8 @@
 require 'fetcher'
 
 ## sportdb libs / gems
+require 'sportdb/match/formats'   # quick hack for now - missing as dependency? check - why? why not
 require 'sportdb/import'
-
 
 ###
 # our own code
