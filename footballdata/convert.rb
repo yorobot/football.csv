@@ -78,13 +78,15 @@ def write_summary( path )
 end
 
 
-convert_season_by_season( :eng, start: '2019/20' )
-convert_all_seasons( :at, start: '2018/19' )
-convert_all_seasons( :mx )
+# convert_season_by_season( :eng, start: '2019/20' )
+# convert_all_seasons( :at, start: '2018/19' )
+# convert_all_seasons( :mx )
 
-# write_summary( './o/austria' )
-# write_summary( './o/mexico' )
+write_summary( './o/austria' )
+write_summary( './o/mexico' )
+write_summary( './o/england' )
 
 # pack = CsvPackage.new( './o/austria' )
 # puts CsvTeamsReport.new( pack ).build
 
+puts "bye"
