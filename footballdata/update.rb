@@ -16,14 +16,13 @@ FOOTBALLDATA_SOURCES.each do |k,v|
 
     next unless country_keys.include?( country_key )
 
-    out_dir = "../../footballcsv/#{country_path}"
-    ## out_dir = "./o/footballdata/#{country_path}"
+    out_dir = "../../../footballcsv/#{country_path}"
 
     git_pull( out_dir )
     print "hit return to continue: ";  ch=STDIN.getc
 
     Footballdata.convert_season_by_season( country_key, country_sources,
-                            in_dir: './dl/footballdata',
+                            in_dir: './dl',
                             out_dir: out_dir,
                             start: start,
                             normalize: true )
@@ -46,14 +45,13 @@ FOOTBALLDATA_SOURCES_II.each do |k,v|
 
     next unless country_keys.include?( country_key )
 
-    out_dir = "../../footballcsv/#{country_path}"
-    ## out_dir = "./o/footballdata/#{country_path}"
+    out_dir = "../../../footballcsv/#{country_path}"
 
     git_pull( out_dir )
     print "hit return to continue: ";  ch=STDIN.getc
 
     Footballdata.convert_all_seasons( country_key, basename,
-                            in_dir: './dl/footballdata',
+                            in_dir: './dl',
                             out_dir: out_dir,
                             start: start,
                             normalize: true )
@@ -77,7 +75,20 @@ end  # method convert_all_seasons
 ## use (switch to) "external" clubs datasets
 ## SportDb::Import.config.clubs_dir = "../../openfootball/clubs"
 
+[:eng, 
+ :sco, 
+ :de, 
+ :it, 
+ :es, 
+ :fr,
+ :nl,
+ :be,
+ :pt,
+ :tr,
+ :gr
+ ].each do |key|
+  convert_season_by_season( key, start: '2019/20' )
+end
 
-## convert_season_by_season( :eng, start: '2019/20' )
 ## convert_all_seasons( :at, start: '2018/19' )
-convert_all_seasons( :mx )
+## convert_all_seasons( :mx )
