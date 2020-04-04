@@ -39,6 +39,12 @@ missing clubs:
 fix error:
 
 ```
+tr (turkey), eng (england)
+*** !!!! wrong season format >>2019/20<<; exit; sorry
+*** !!!! wrong season format >>2019/20<<; exit; sorry
+```
+
+```
 ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/part_level.rb:46:in `build': undefined method `teams' for #<SportDb::Import::Configuration:0x3767bc8> (NoMethodError)
         from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/pyramid.rb:143:in `block in build'
         from ruby/gems/2.3.0/gems/sportdb-text-0.3.3/lib/sportdb/text/csv/reports/pyramid.rb:141:in `each'
