@@ -15,9 +15,18 @@ def sum( *country_keys )
     # summary_report.write
 
 
+    report = CsvTeamsReport.new( pack, country: country_key )
+
     buf = "# Clubs\n\n"
-    buf << CsvTeamsReport.new( pack, country: country_key ).build
+    buf << report.build
     File.open( "./tmp/CLUBS.md", 'w:utf-8' ) { |f| f.write buf }
+
+
+    report_geo = TeamsByCityPart.new( report.team_names )
+       
+    buf = "# Clubs by Geo(graphy)\n\n"
+    buf << report_geo.build
+    File.open( "./tmp/CLUBS_GEO.md", 'w:utf-8' ) { |f| f.write buf }
    end
 end  # method sum
 
@@ -37,6 +46,7 @@ end  # method sum
 =end
 
 sum( :tr )
+# sum( :eng )
 
 
 puts "bye"

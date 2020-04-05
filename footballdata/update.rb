@@ -75,6 +75,7 @@ end  # method convert_all_seasons
 ## use (switch to) "external" clubs datasets
 ## SportDb::Import.config.clubs_dir = "../../openfootball/clubs"
 
+=begin
 [:eng, 
  :sco, 
  :de, 
@@ -89,6 +90,10 @@ end  # method convert_all_seasons
  ].each do |key|
   convert_season_by_season( key, start: '2019/20' )
 end
+=end
+
+convert_season_by_season( :gr )
+
 
 ## convert_all_seasons( :at, start: '2018/19' )
 ## convert_all_seasons( :mx )
