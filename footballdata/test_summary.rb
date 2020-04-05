@@ -16,7 +16,7 @@ def sum( *country_keys )
 
 
     buf = "# Clubs\n\n"
-    buf << CsvTeamsReport.new( pack ).build
+    buf << CsvTeamsReport.new( pack, country: country_key ).build
     File.open( "./tmp/CLUBS.md", 'w:utf-8' ) { |f| f.write buf }
    end
 end  # method sum
