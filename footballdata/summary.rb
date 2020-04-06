@@ -5,7 +5,7 @@ require_relative 'git'
 
 def sum( *country_keys )
   country_keys.each do |country_key|
-    country_path    = COUNTRY_REPOS[country_key] || 'world'   ## note: if missing, fallback to world repo
+    country_path    = COUNTRY_REPOS[country_key]
 
     out_dir = "../../../footballcsv/#{country_path}"
 

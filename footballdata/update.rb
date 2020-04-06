@@ -92,8 +92,8 @@ end  # method convert_all_seasons
 end
 =end
 
-convert_season_by_season( :gr )
-
+# convert_season_by_season( :gr )
+convert_all_seasons( :ar )
 
 ## convert_all_seasons( :at, start: '2018/19' )
 ## convert_all_seasons( :mx )
