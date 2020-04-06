@@ -13,7 +13,12 @@ def sum( *country_keys )
 
     # summary_report = CsvSummaryReport.new( pack )
     # summary_report.write
-
+    report = CsvPyramidReport.new( pack ) 
+    
+    buf = "# Summary\n\n"
+    buf << report.build
+    File.open( "./tmp/SUMMARY.md", 'w:utf-8' ) { |f| f.write buf }
+  
 
     report = CsvTeamsReport.new( pack, country: country_key )
 
@@ -22,7 +27,7 @@ def sum( *country_keys )
     File.open( "./tmp/CLUBS.md", 'w:utf-8' ) { |f| f.write buf }
 
 
-    report_geo = TeamsByCityPart.new( report.team_names )
+    report_geo = TeamsByCityPart.new( report.team_mapping )
        
     buf = "# Clubs by Geo(graphy)\n\n"
     buf << report_geo.build
@@ -45,8 +50,7 @@ end  # method sum
  ]
 =end
 
-sum( :tr )
-# sum( :eng )
+sum( :es )
 
 
 puts "bye"

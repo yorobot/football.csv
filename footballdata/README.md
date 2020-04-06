@@ -39,6 +39,14 @@ missing clubs:
 fix error:
 
 ```
+[0] #<CSV::Row "Round":"?" "Date":"(Sun) 10 Feb 1929 (5)" "Team 1":"Arenas Club (1)" "FT":"2-3" "HT":"?" "Team 2":"Atl\u00E9tico Madrid (1)">
+[1] #<CSV::Row "Round":"?" "Date":"(Sun) 10 Feb 1929 (5)" "Team 1":"RCD Espa\u00F1ol (1)" "FT":"3-2" "HT":"?" "Team 2":"Real Uni\u00F3n Club (1)">
+sportdb-text/lib/sportdb/text/structs/matchlist.rb:42:in `start_date?': undefined method `date' for nil:NilClass (NoMethodError)
+        from sportdb-text/lib/sportdb/text/csv/reports/part_datafiles_by_level.rb:46:in `block (2 levels) in build'
+```
+
+
+```
 tr (turkey), eng (england)
 *** !!!! wrong season format >>2019/20<<; exit; sorry
 *** !!!! wrong season format >>2019/20<<; exit; sorry

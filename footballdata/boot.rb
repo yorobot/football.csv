@@ -6,5 +6,5 @@ $LOAD_PATH.unshift( File.expand_path( '../../../sportdb/sport.db/sportdb-text/li
 require 'sportdb/source/footballdata'
 
 ## use (switch to) "external" datasets
-# SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
-# SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"
+SportDb::Import.config.clubs_dir   = "../../../openfootball/clubs"
+SportDb::Import.config.leagues_dir = "../../../openfootball/leagues"

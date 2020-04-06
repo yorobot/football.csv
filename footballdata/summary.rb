@@ -17,25 +17,38 @@ def sum( *country_keys )
     # summary_report = CsvSummaryReport.new( pack )
     # summary_report.write
 
+    report = CsvPyramidReport.new( pack ) 
+    
     buf = "# Summary\n\n"
-    buf << CsvPyramidReport.new( pack ).build
+    buf << report.build
     File.open( "#{out_dir}/SUMMARY.md", 'w:utf-8' ) { |f| f.write buf }
+  
+
+    report = CsvTeamsReport.new( pack, country: country_key )
 
     buf = "# Clubs\n\n"
-    buf << CsvTeamsReport.new( pack ).build
+    buf << report.build
     File.open( "#{out_dir}/CLUBS.md", 'w:utf-8' ) { |f| f.write buf }
- 
+
+
+    report_geo = TeamsByCityPart.new( report.team_mapping )
+       
+    buf = "# Clubs by Geo(graphy)\n\n"
+    buf << report_geo.build
+    File.open( "#{out_dir}/CLUBS_GEO.md", 'w:utf-8' ) { |f| f.write buf }
+
 
     print "hit return to commit: ";  ch=STDIN.getc
     git_commit( out_dir )
   end
 end  # method sum
 
-=begin
-[:eng, 
- :sco, 
- :de, 
- :it, 
+
+[
+# :eng, 
+# :sco, 
+# :de, 
+# :it, 
  :es, 
  :fr,
  :nl,
@@ -43,9 +56,10 @@ end  # method sum
  :pt,
  :tr,
  :gr
- ]
-=end
+].each do |country_key|
+   sum( country_key )
+end
 
-sum( :tr )
+# sum( :tr )
 
 
