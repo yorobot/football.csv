@@ -47,8 +47,21 @@ end  # method sum
 
 
 country_keys = [
-# :ar, 
-# :br,
+ :ar, 
+ :br,
+ 
+ :cn,
+ :jp,
+
+ :fi,
+ :no,
+ :se,
+ :dk,
+ :ie,
+ :ch,
+ :pl,
+ :ro,
+ :ru,
 ] 
 sum( *country_keys )
 

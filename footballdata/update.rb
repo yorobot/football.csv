@@ -93,7 +93,7 @@ end
 =end
 
 # convert_season_by_season( :gr )
-convert_all_seasons( :ar )
+# convert_all_seasons( :ar )
 
-## convert_all_seasons( :at, start: '2018/19' )
-## convert_all_seasons( :mx )
+convert_all_seasons( :at, start: '2018/19' )
+convert_all_seasons( :mx )

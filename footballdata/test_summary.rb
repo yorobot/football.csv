@@ -51,7 +51,7 @@ end  # method sum
  ]
 =end
 
-sum( :es )
+sum( :at )
 
 
 puts "bye"

@@ -44,6 +44,7 @@ def sum( *country_keys )
 end  # method sum
 
 
+=begin
 [
 # :eng, 
 # :sco, 
@@ -59,7 +60,8 @@ end  # method sum
 ].each do |country_key|
    sum( country_key )
 end
+=end
 
-# sum( :tr )
+sum( :mx )
 
 
