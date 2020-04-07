@@ -203,10 +203,81 @@ SportDb.connect( adapter:  'sqlite3',
 ## build database schema / tables
 SportDb.create_all
 
-## turn on logging to console
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+## turn on logging to console (for debugging only)
+## ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 Footballdata.import
+```
+
+Note: Depending on your computing processing power the import might take
+10+ minutes.
+
+
+Done. Let's try some database (SQL) queries (using the sport.db ActiveRecord models):
+
+``` ruby
+## ActiveRecord model (convenience) shortcuts
+Team   = SportDb::Model::Team
+Game   = SportDb::Model::Game
+League = SportDb::Model::League
+Event  = SportDb::Model::Event
+
+
+## Let's query for some stats  - How many teams? How many games / matches? etc.
+
+puts Team.count   #=> 1143
+# SELECT COUNT(*) FROM teams
+
+puts Game.count   #=> 227_142
+# SELECT COUNT(*) FROM games
+
+puts League.count  #=> 38
+# SELECT COUNT(*) FROM leagues
+```
+
+Note: See the [SUMMARY.md](SUMMARY.md) page for a list of all 1000+ (canonical) 
+club names by country.
+
+``` ruby
+## Let's query for the Real Madrid football club from Spain
+
+madrid = Team.find_by( title: 'Real Madrid' )
+# SELECT * FROM teams WHERE title = 'Real Madrid' LIMIT 1
+
+puts madrid.games.count   #=> 1023
+# SELECT COUNT(*) FROM games WHERE (team1_id = 380 or team2_id = 380)
+g = madrid.games.first
+# SELECT * FROM "games" WHERE (team1_id = 380 or team2_id = 380) LIMIT 1
+
+puts g.team1.title #=> CA Osasuna
+puts g.team2.title #=> Real Madrid
+puts g.score_str   #=> 1 - 4
+
+
+## Or let's query for the Liverpool football club from England
+
+liverpool = Team.find_by( title: 'Liverpool FC' )
+
+puts liverpool.games.count  #=> 1025
+
+g = liverpool.games.first
+puts g.team1.title  #=> Liverpool FC
+puts g.team2.title  #=> Sheffield Wednesday FC
+puts g.score_str    #=> 2 - 0
+
+
+## Let's try the English Premier League 2019/20
+
+epl = Event.find_by( key: 'eng.1.2019/20' )
+
+puts epl.games.count  #=> 288
+
+g = epl.games.first
+puts g.team1.title  #=> Liverpool FC
+puts g.team2.title  #=> Norwich City FC
+puts g.score_str    #=> 4 - 1
+
+# and so on
 ```
 
 That's it. Enjoy the beautiful game.

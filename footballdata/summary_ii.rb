@@ -46,12 +46,11 @@ def sum( *country_keys )
 end  # method sum
 
 
-[
- :ar, 
- :br,
-].each do |country_key|
-   sum( country_key )
-end
+country_keys = [
+# :ar, 
+# :br,
+] 
+sum( *country_keys )
 
 # sum( :ar )
 

@@ -2,3 +2,8 @@ dl/
 o/
 tmp/
 
+####
+# ignore all databases
+*.db
+
+
