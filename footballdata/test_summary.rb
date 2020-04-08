@@ -1,6 +1,6 @@
 require_relative 'boot'
 require_relative 'repos'
-require_relative 'git'
+
 
 
 def sum( *country_keys )
