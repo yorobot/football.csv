@@ -1,7 +1,7 @@
 require_relative 'boot'
 
 
-def sum( path )
+def sum( path, country: nil )
     out_dir = path
 
     pack = CsvPackage.new( out_dir )
@@ -15,7 +15,7 @@ def sum( path )
     File.open( "./tmp/SUMMARY.md", 'w:utf-8' ) { |f| f.write buf }
   
 
-    report = CsvTeamsReport.new( pack )
+    report = CsvTeamsReport.new( pack, country: country )
 
     buf = "# Clubs\n\n"
     buf << report.build
@@ -23,8 +23,11 @@ def sum( path )
 end  # method sum
 
 
-path = "../../../footballcsv/europe-champions-league"
-sum( path )
+# path = "../../../footballcsv/europe-champions-league"
+# sum( path )
+
+path = "../../../footballcsv/major-league-soccer"
+sum( path, country: 'us' )
 
 
 puts "bye"
