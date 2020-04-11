@@ -1,557 +1,177 @@
-```
-146 missing:
-[1] **AE Larisa › GRE**
+21 missing:
+[1] **Bangor City › NIR**
+Bangor City › NIR - 1 season in 1 level
+  - 999 (1): 2011/12
 
-[2] **AIK Solna › SWE**
+!!!! fix - Bangor City is in WALES!!! - check why wrong country
 
-[3] **ASK Vorwarts Berlin › GER**
+Bangor City FC >  Wales
 
-[4] **Aarhus GF › DEN**
+https://www.uefa.com/teamsandplayers/teams/club=53068/profile/history
 
-[5] **Abderden › SCO**
+Season	Competition	Stage	Club Profile	P	W	D	L
+2014/15	UEFA Europa League	First qualifying round	See details	2	0	0	2
+2012/13	UEFA Europa League	First qualifying round	See details	2	0	1	1
+2011/12	UEFA Champions League	Second qualifying round	See details	2	0	0	2
+2010/11	UEFA Europa League	Third qualifying round	See details	4	1	1	2
+2009/10	UEFA Europa League	Second qualifying round	See details	2	0	0	2
+2008/09	UEFA Cup	First qualifying round	See details	2	0	0	2
+2005	UEFA Intertoto Cup	First round	 	2	0	0	2
+2003	UEFA Intertoto Cup	First round	 	2	0	0	2
+2002/03	UEFA Cup	Qualifying round	See details	2	1	0	1
+2000/01	UEFA Cup	Qualifying round	See details	2	0	0	2
+1998/99	UEFA Cup Winners' Cup	Qualifying round	 	2	0	0	2
+1995/96	UEFA Cup	Preliminary round	See details	2	0	0	2
+1994/95	UEFA Cup	Preliminary round	See details	2	0	0	2
+1985/86	UEFA Cup Winners' Cup	Second round	 	4	0	2	2
+1962/63	UEFA Cup Winners' Cup	First round	 	3	1	0	2
 
-[6] **Akademisk BK › DEN**
+[2] **Belshina Bobruisk › ISR**
+Belshina Bobruisk › ISR - 1 season in 1 level
+  - 999 (1): 2002/03
 
-[7] **Araks Ararat › ARM**
+!!!! fix - Belshina Bobruisk in in BELARUS!!! - check why wrong country
 
-[8] **Ards › NIR**
+FC Belshina Bobruisk > Belarus
+https://www.uefa.com/teamsandplayers/teams/club=62131/profile/history
 
-[9] **Aris Bonnevoie › LUX**
+Season	Competition	Stage	Club Profile	P	W	D	L
+2002/03	UEFA Champions League	Second qualifying round	See details	4	1	1	2
+2001/02	UEFA Cup	Qualifying round	See details	2	0	1	1
+1999/00	UEFA Cup	Qualifying round	See details	2	0	0	2
+1998/99	UEFA Cup	First qualifying round	See details	2	0	1	1
+1997/98	UEFA Cup Winners' Cup	First round	 	4	1	1	2
 
-[10] **Astana-64 › KAZ**
 
-[11] **Avenir Beggen › LUX**
+[3] **Buducnost › MNE**
+Buducnost › MNE - 2 seasons in 1 level
+  - 999 (2): 2012/13 2008/09
 
-[12] **B 1903 Kobenhavn › DEN**
-  
-[13] **B 1909 Odense › DEN**
+FK Budućnost Podgorica  > Montenegro
+https://www.uefa.com/teamsandplayers/teams/club=53078/profile/history/index.html
 
-[14] **B 1913 Odense › DEN**
 
-[15] **B68 Toftir › FRO**
+[4] **FK Inter Bratislava › SVK**
+FK Inter Bratislava › SVK - 3 seasons in 1 level
+  - 999 (3): 2002..2000 (2) 1959/60
 
+ > Slovakia
+https://en.wikipedia.org/wiki/FK_Inter_Bratislava
 
 
-[16] **BSG Chemie Leipzig › GER**
-BSG Chemie Leipzig › GER - 1 season
-  - champs (1): 1964/65
+[5] **FK Kareda Kaunas › LTU**
+FK Kareda Kaunas › LTU - 2 seasons in 1 level
+  - 999 (2): 1999..1997 (2)
 
-[17] **Baku › AZE**
-Baku › AZE - 2 seasons
-  - champs (2): 2009/10 2006/07
+ > Lithuania
+https://en.wikipedia.org/wiki/FK_Kareda_Kaunas
 
-[18] **Bangor City › NIR**
-Bangor City › NIR - 1 season
-  - champs (1): 2011/12
 
-[19] **Barry Town › WAL**
-Barry Town › WAL - 6 seasons
-  - champs (6): 2004...2001 (3) 2000...1997 (3)
+[6] **FK Leotar › BIH**
+FK Leotar › BIH - 1 season in 1 level
+  - 999 (1): 2003/04
 
-[20] **Belshina Bobruisk › ISR**
-Belshina Bobruisk › ISR - 1 season
-  - champs (1): 2002/03
+FK Leotar > Bosnia and Herzegovina
 
-[21] **Bohemians EKD Praha › CZE**
-Bohemians EKD Praha › CZE - 1 season
-  - champs (1): 1983/84
+Season	Competition	Stage	Club Profile	P	W	D	L
+2003/04	UEFA Champions League	Second qualifying round	See details	4	1	1	2
 
-[22] **Borac Banja Luka › BIH**
-Borac Banja Luka › BIH - 1 season
-  - champs (1): 2011/12
 
-[23] **Budapest Honved SE › HUN**
-Budapest Honved SE › HUN - 7 seasons
-  - champs (7): 1990..1988 (2) 1987...1984 (3) 1980/81 1956/57
 
-[24] **Budapesti Vasas › HUN**
-Budapesti Vasas › HUN - 6 seasons
-  - champs (6): 1977/78 1968..1966 (2) 1963..1961 (2) 1957/58
 
-[25] **Budapesti Voros Lobogo › HUN**
-Budapesti Voros Lobogo › HUN - 1 season
-  - champs (1): 1955/56
+[7] **FK Obilic › SRB**
+FK Obilic › SRB - 1 season in 1 level
+  - 999 (1): 1998/99
 
-[26] **Buducnost › MNE**
-Buducnost › MNE - 2 seasons
-  - champs (2): 2012/13 2008/09
+FK Obilic > Serbia
 
-[27] **CCA Bucuresti › ROU**
-CCA Bucuresti › ROU - 2 seasons
-  - champs (2): 1961/62 1957/58
+[8] **FK Pobeda › MKD**
+FK Pobeda › MKD - 2 seasons in 1 level
+  - 999 (2): 2007/08 2004/05
 
-[28] **Cork Celtic › IRL**
-Cork Celtic › IRL - 1 season
-  - champs (1): 1974/75
+FK Pobeda > FYR Macedonia
 
-[29] **Cork Hibernians › IRL**
-Cork Hibernians › IRL - 1 season
-  - champs (1): 1971/72
 
-[30] **Csepel SC › HUN**
-Csepel SC › HUN - 1 season
-  - champs (1): 1959/60
+[9] **FK Vllaznia › ALB**
+FK Vllaznia › ALB - 3 seasons in 1 level
+  - 999 (3): 2001/02 1998/99 1978/79
 
-[31] **Cwmbran Town › WAL**
-Cwmbran Town › WAL - 1 season
-  - champs (1): 1993/94
+[10] **GI Gota › FRO**
+GI Gota › FRO - 1 season in 1 level
+  - 999 (1): 1997/98
 
-[32] **DOS Utrecht › NED**
-DOS Utrecht › NED - 1 season
-  - champs (1): 1958/59
-
-[33] **DSO Spartak Hradec Kralove › CZE**
-DSO Spartak Hradec Kralove › CZE - 1 season
-  - champs (1): 1960/61
-
-[34] **DWS Amsterdam › NED**
-DWS Amsterdam › NED - 1 season
-  - champs (1): 1964/65
-
-[35] **Dacia Chisinau › MDA**
-Dacia Chisinau › MDA - 1 season
-  - champs (1): 2011/12
-
-[36] **Daugava Daugavpils › LVA**
-Daugava Daugavpils › LVA - 1 season
-  - champs (1): 2013/14
-
-[37] **Dila Gori › GEO**
-Dila Gori › GEO - 1 season
-  - champs (1): 2015/16
-
-[38] **Dinamo Tirana › ALB**
-Dinamo Tirana › ALB - 6 seasons
-  - champs (6): 2010/11 2008/09 2002/03 1990/91 1986/87 1980/81
-
-[39] **Dnepr Dnepropetrovsk › UKR**
-Dnepr Dnepropetrovsk › UKR - 3 seasons
-  - champs (3): 2014/15 1989/90 1984/85
-
-[40] **Dnepr Mogilev › BLR**
-Dnepr Mogilev › BLR - 1 season
-  - champs (1): 1999/00
-
-[41] **Drumcondra Dublin › IRL**
-Drumcondra Dublin › IRL - 3 seasons
-  - champs (3): 1965/66 1961/62 1958/59
-
-[42] **Dukla Praha › CZE**
-Dukla Praha › CZE - 10 seasons
-  - champs (10): 1982/83 1979/80 1977/78 1966/67 1965....1961 (4) 1959..1957 (2)
-
-[43] **Dunakanyar-Vac › HUN**
-Dunakanyar-Vac › HUN - 1 season
-  - champs (1): 1994/95
-
-[44] **Dunaujvaros › HUN**
-Dunaujvaros › HUN - 1 season
-  - champs (1): 2000/01
-
-[45] **EPA Larnaca › CYP**
-EPA Larnaca › CYP - 1 season
-  - champs (1): 1970/71
-
-[46] **Etar Tarnovo › BUL**
-Etar Tarnovo › BUL - 1 season
-  - champs (1): 1991/92
-
-[47] **FC Jazz › FIN**
-FC Jazz › FIN - 1 season
-  - champs (1): 1997/98
-
-[48] **FC Karl-Marx-Stadt › GER**
-FC Karl-Marx-Stadt › GER - 1 season
-  - champs (1): 1967/68
-
-[49] **FC Kuusysi › FIN**
-FC Kuusysi › FIN - 5 seasons
-  - champs (5): 1992/93 1990/91 1987/88 1985/86 1983/84
-
-[50] **FC La Chaux-de-Fonds › SUI**
-FC La Chaux-de-Fonds › SUI - 1 season
-  - champs (1): 1964/65
-
-[51] **FC Norma Tallinn › EST**
-FC Norma Tallinn › EST - 2 seasons
-  - champs (2): 1994..1992 (2)
-
-[52] **FC Politehnica Timisoara › ROU**
-FC Politehnica Timisoara › ROU - 1 season
-  - champs (1): 2009/10
-
-[53] **FC Reipas Lahti › FIN**
-FC Reipas Lahti › FIN - 3 seasons
-  - champs (3): 1971/72 1968/69 1964/65
-
-[54] **FC Universitatea Craiova › ROU**
-FC Universitatea Craiova › ROU - 4 seasons
-  - champs (4): 1991/92 1982..1980 (2) 1974/75
-
-[55] **FK Inter Bratislava › SVK**
-FK Inter Bratislava › SVK - 3 seasons
-  - champs (3): 2002..2000 (2) 1959/60
-
-[56] **FK Kareda Kaunas › LTU**
-FK Kareda Kaunas › LTU - 2 seasons
-  - champs (2): 1999..1997 (2)
-
-[57] **FK Leotar › BIH**
-FK Leotar › BIH - 1 season
-  - champs (1): 2003/04
-
-[58] **FK Obilic › SRB**
-FK Obilic › SRB - 1 season
-  - champs (1): 1998/99
-
-[59] **FK Pobeda › MKD**
-FK Pobeda › MKD - 2 seasons
-  - champs (2): 2007/08 2004/05
-
-[60] **FK Vllaznia › ALB**
-FK Vllaznia › ALB - 3 seasons
-  - champs (3): 2001/02 1998/99 1978/79
-
-[61] **Flora Tallinn › EST**
-Flora Tallinn › EST - 7 seasons
-  - champs (7): 2013..2011 (2) 2005...2002 (3) 2000..1998 (2)
-
-[62] **Fola Esch › LUX**
-Fola Esch › LUX - 2 seasons
-  - champs (2): 2015/16 2013/14
-
-[63] **Frankfurter SG Eintracht › GER**
-Frankfurter SG Eintracht › GER - 1 season
-  - champs (1): 1959/60
-
-[64] **GI Gota › FRO**
-GI Gota › FRO - 1 season
-  - champs (1): 1997/98
-
-[65] **Grevenmacher › LUX**
-Grevenmacher › LUX - 1 season
-  - champs (1): 2003/04
-
-[66] **Gwardia Warszawa › POL**
-Gwardia Warszawa › POL - 2 seasons
-  - champs (2): 1957/58 1955/56
-
-[67] **Gyori ETO › HUN**
-Gyori ETO › HUN - 2 seasons
-  - champs (2): 2013/14 1964/65
-
-[68] **HPS Helsinki › FIN**
-HPS Helsinki › FIN - 1 season
-  - champs (1): 1958/59
-
-[69] **HSK Zrinjski Mostar › BIH**
-HSK Zrinjski Mostar › BIH - 3 seasons
-  - champs (3): 2014/15 2009/10 2005/06
-
-[70] **Hamrun Spartans › MLT**
-Hamrun Spartans › MLT - 4 seasons
-  - champs (4): 1991/92 1989..1987 (2) 1983/84
-
-[71] **Hapoel Ironi Kiryat Shmona › ISR**
-Hapoel Ironi Kiryat Shmona › ISR - 1 season
-  - champs (1): 2012/13
-
-[72] **Helsingfors IFK › FIN**
-Helsingfors IFK › FIN - 2 seasons
-  - champs (2): 1962/63 1960/61
-
-[73] **IB Keflavik › ISL**
-IB Keflavik › ISL - 4 seasons
-  - champs (4): 1974/75 1972/73 1970/71 1965/66
-
-[74] **IB Vestmannaeyja › ISL**
-IB Vestmannaeyja › ISL - 3 seasons
-  - champs (3): 2000..1998 (2) 1980/81
-
-[75] **IFK Malmo › SWE**
-IFK Malmo › SWE - 1 season
-  - champs (1): 1960/61
-
-[76] **Inter Baku PIK › AZE**
-Inter Baku PIK › AZE - 2 seasons
-  - champs (2): 2010/11 2008/09
-
-[77] **Irtysh Pavlodar › KAZ**
-Irtysh Pavlodar › KAZ - 1 season
-  - champs (1): 2003/04
-
-[78] **KB Kobenhavn › DEN**
-KB Kobenhavn › DEN - 4 seasons
-  - champs (4): 1981/82 1975/76 1969/70 1958/59
-
-[79] **KS Elbasani › ALB**
-KS Elbasani › ALB - 2 seasons
-  - champs (2): 2006/07 1984/85
-
-[80] **KS Flamurtari Vlore › ALB**
-KS Flamurtari Vlore › ALB - 1 season
-  - champs (1): 1991/92
-
-[81] **Kapaz › AZE**
-Kapaz › AZE - 2 seasons
-  - champs (2): 2000..1998 (2)
-
-[82] **Khazar Lankaran › AZE**
-Khazar Lankaran › AZE - 1 season
-  - champs (1): 2007/08
-
-[83] **Kispesti Honved › HUN**
-Kispesti Honved › HUN - 2 seasons
-  - champs (2): 1993/94 1991/92
-
-[84] **Koge BK › DEN**
-Koge BK › DEN - 1 season
-  - champs (1): 1976/77
-
-[85] **Kuopion PS › FIN**
-Kuopion PS › FIN - 3 seasons
-  - champs (3): 1977/78 1975/76 1967/68
-
-[86] **Lantana Tallinn › EST**
-Lantana Tallinn › EST - 1 season
-  - champs (1): 1997/98
-
-[87] **Lausanne Sports › SUI**
-Lausanne Sports › SUI - 1 season
-  - champs (1): 1965/66
-
-[88] **Liepajas Metalurgs › LVA**
-Liepajas Metalurgs › LVA - 2 seasons
-  - champs (2): 2010/11 2006/07
-
-[89] **Lisburn Distillery › NIR**
-Lisburn Distillery › NIR - 1 season
-  - champs (1): 1963/64
-
-[90] **Llanelli › WAL**
-Llanelli › WAL - 1 season
-  - champs (1): 2008/09
-
-[91] **Lusitanos › AND**
-Lusitanos › AND - 2 seasons
-  - champs (2): 2014..2012 (2)
-
-[92] **Lyn Oslo › NOR**
-Lyn Oslo › NOR - 4 seasons
-  - champs (4): 1969/70 1966...1963 (3)
-
-[93] **Marsaxlokk › MLT**
-Marsaxlokk › MLT - 1 season
-  - champs (1): 2007/08
-
-[94] **Milsami Orhei › MDA**
-Milsami Orhei › MDA - 1 season
-  - champs (1): 2015/16
-
-[95] **Moss FK › NOR**
-Moss FK › NOR - 1 season
-  - champs (1): 1988/89
-
-[96] **NK Brotnjo › BIH**
-NK Brotnjo › BIH - 1 season
-  - champs (1): 2000/01
-
-[97] **NK Zagreb › CRO**
-NK Zagreb › CRO - 1 season
-  - champs (1): 2002/03
-
-[98] **Neftchi PFC Baku › AZE**
-Neftchi PFC Baku › AZE - 6 seasons
-  - champs (6): 2014...2011 (3) 2006..2004 (2) 1997/98
-
-[99] **OPS Oulu › FIN**
-OPS Oulu › FIN - 2 seasons
-  - champs (2): 1982..1980 (2)
-
-[100] **PFC Beroe › BUL**
-PFC Beroe › BUL - 1 season
-  - champs (1): 1986/87
-
-[101] **Petrzalka Akademia › SVK**
-Petrzalka Akademia › SVK - 2 seasons
-  - champs (2): 2008/09 2005/06
-
-[102] **Pezoporikos Larnaca › CYP**
-Pezoporikos Larnaca › CYP - 1 season
-  - champs (1): 1988/89
-
-[103] **Polonia Bytom › POL**
-Polonia Bytom › POL - 2 seasons
-  - champs (2): 1962/63 1958/59
-
-[104] **Portadown › NIR**
-Portadown › NIR - 3 seasons
-  - champs (3): 2002/03 1992..1990 (2)
-
-[105] **Progres Niedercorn › LUX**
-Progres Niedercorn › LUX - 2 seasons
-  - champs (2): 1981/82 1978/79
-
-[106] **Raba ETO Gyor › HUN**
-Raba ETO Gyor › HUN - 2 seasons
-  - champs (2): 1984..1982 (2)
-
-[107] **Rabat Ajax › MLT**
-Rabat Ajax › MLT - 2 seasons
-  - champs (2): 1987..1985 (2)
-
-[108] **Ranger's › AND**
-Ranger's › AND - 1 season
-  - champs (1): 2007/08
-
-[109] **Rapid JC Heerlen › NED**
-Rapid JC Heerlen › NED - 1 season
-  - champs (1): 1956/57
-
-[110] **Red Boys Differdange › LUX**
-Red Boys Differdange › LUX - 1 season
-  - champs (1): 1979/80
-
-[111] **Rhyl › WAL**
-Rhyl › WAL - 2 seasons
-  - champs (2): 2009/10 2004/05
-
-[112] **S.S. Folgore Falciano Calcio › SMR**
-S.S. Folgore Falciano Calcio › SMR - 1 season
-  - champs (1): 2015/16
-
-[113] **SC Motor Jena › GER**
-SC Motor Jena › GER - 1 season
-  - champs (1): 1963/64
-
-[114] **SC Wismut Karl-Marx-Stadt › GER**
-SC Wismut Karl-Marx-Stadt › GER - 3 seasons
-  - champs (3): 1960/61 1959..1957 (2)
-
-[115] **SSW Innsbruck › AUT**
-SSW Innsbruck › AUT - 7 seasons
-  - champs (7): 2002..2000 (2) 1977/78 1975/76 1974...1971 (3)
-
-[116] **Shakhter Karagandy › KAZ**
-Shakhter Karagandy › KAZ - 2 seasons
-  - champs (2): 2014..2012 (2)
-
-[117] **Shakhtyor Soligorsk › BLR**
-Shakhtyor Soligorsk › BLR - 1 season
-  - champs (1): 2006/07
-
-[118] **Shamkir › AZE**
-Shamkir › AZE - 2 seasons
-  - champs (2): 2002..2000 (2)
-
-[119] **Sioni Bolnisi › GEO**
-Sioni Bolnisi › GEO - 1 season
-  - champs (1): 2006/07
-
-[120] **Skeid Oslo › NOR**
-Skeid Oslo › NOR - 1 season
-  - champs (1): 1967/68
-
-[121] **Sloga Jugomagnat Skopje › MKD**
-Sloga Jugomagnat Skopje › MKD - 3 seasons
-  - champs (3): 2002...1999 (3)
-
-[122] **Spartak Plovdiv › BUL**
-Spartak Plovdiv › BUL - 1 season
-  - champs (1): 1963/64
-
-[123] **Spartak TAZ Trnava › SVK**
-Spartak TAZ Trnava › SVK - 5 seasons
-  - champs (5): 1974...1971 (3) 1970..1968 (2)
-
-[124] **Spora Luxemburg › LUX**
-Spora Luxemburg › LUX - 3 seasons
-  - champs (3): 1989/90 1961/62 1956/57
-
-[125] **Stade Dudelange › LUX**
-Stade Dudelange › LUX - 2 seasons
-  - champs (2): 1965/66 1957/58
-
-[126] **Stal Mielec › POL**
-Stal Mielec › POL - 2 seasons
-  - champs (2): 1976/77 1973/74
-
-[127] **Szombierki Bytom › POL**
-Szombierki Bytom › POL - 1 season
-  - champs (1): 1980/81
-
-[128] **TJ Vitkovice › CZE**
-TJ Vitkovice › CZE - 1 season
-  - champs (1): 1986/87
-
-[129] **TVMK › EST**
-TVMK › EST - 1 season
-  - champs (1): 2006/07
-
-[130] **Tavriya Simferopol › UKR**
-Tavriya Simferopol › UKR - 1 season
-  - champs (1): 1992/93
-
-[131] **Trakia Plovdiv › BUL**
-Trakia Plovdiv › BUL - 2 seasons
-  - champs (2): 1985/86 1967/68
-
-[132] **Tre Penne › SMR**
-Tre Penne › SMR - 2 seasons
-  - champs (2): 2014..2012 (2)
-
-[133] **UT Arad › ROU**
-UT Arad › ROU - 2 seasons
-  - champs (2): 1971..1969 (2)
-
-[134] **Ujpesti Dozsa SC › HUN**
-Ujpesti Dozsa SC › HUN - 11 seasons
-  - champs (11): 1998/99 1990/91 1980..1978 (2) 1976......1970 (6) 1960/61
-
-[135] **Ulisses › ARM**
-Ulisses › ARM - 1 season
-  - champs (1): 2012/13
-
-[136] **Union Luxembourg › LUX**
-Union Luxembourg › LUX - 5 seasons
-  - champs (5): 1993...1990 (3) 1971/72 1962/63
-
-[137] **Unirea Urziceni › ROU**
-Unirea Urziceni › ROU - 2 seasons
-  - champs (2): 2011..2009 (2)
-
-[138] **Vagur › FRO**
-Vagur › FRO - 1 season
-  - champs (1): 2001/02
-
-[139] **Vardar Skopje › MKD**
-Vardar Skopje › MKD - 6 seasons
-  - champs (6): 2015/16 2014..2012 (2) 2004..2002 (2) 1987/88
-
-[140] **Videoton › HUN**
-Videoton › HUN - 2 seasons
-  - champs (2): 2015/16 2011/12
-
-[141] **Vitosha Sofia › BUL**
-Vitosha Sofia › BUL - 1 season
-  - champs (1): 1988/89
-
-[142] **Waterford AFC › IRL**
-Waterford AFC › IRL - 6 seasons
-  - champs (6): 1974..1972 (2) 1971...1968 (3) 1966/67
-
-[143] **Zeljeznicar Sarajevo › BIH**
-Zeljeznicar Sarajevo › BIH - 6 seasons
-  - champs (6): 2014..2012 (2) 2010/11 2003..2001 (2) 1972/73
-
-[144] **Zestafoni › GEO**
-Zestafoni › GEO - 2 seasons
-  - champs (2): 2013..2011 (2)
-
-[145] **Zimbru Chisinau › MDA**
-Zimbru Chisinau › MDA - 4 seasons
-  - champs (4): 2001...1998 (3) 1993/94
-
-[146] **Zorya Voroshilovgrad › UKR**
-Zorya Voroshilovgrad › UKR - 1 season
-  - champs (1): 1973/74
+Víkingur Gøta
+The club was founded in 2008 after the merger
+ of GÍ Gøta and Leirvík ÍF
+https://en.wikipedia.org/wiki/Gøtu_Ítróttarfelag
+
+
+[11] **Gyori ETO › HUN**
+Gyori ETO › HUN - 2 seasons in 1 level
+  - 999 (2): 2013/14 1964/65
+
+[12] **Hamrun Spartans › MLT**
+Hamrun Spartans › MLT - 4 seasons in 1 level
+  - 999 (4): 1991/92 1989..1987 (2) 1983/84
+
+Hamrun Spartans FC > Malta
+
+https://www.uefa.com/teamsandplayers/teams/club=50060/profile/history/index.html
+
+
+[13] **KS Elbasani › ALB**
+KS Elbasani › ALB - 2 seasons in 1 level
+  - 999 (2): 2006/07 1984/85
+
+KF Elbasani > Albania
+
+https://www.uefa.com/teamsandplayers/teams/club=50048/profile/history/index.html
+
+
+
+[14] **Lantana Tallinn › EST**
+Lantana Tallinn › EST - 1 season in 1 level
+  - 999 (1): 1997/98
+
+[15] **Liepajas Metalurgs › LVA**
+Liepajas Metalurgs › LVA - 2 seasons in 1 level
+  - 999 (2): 2010/11 2006/07
+
+[16] **Marsaxlokk › MLT**
+Marsaxlokk › MLT - 1 season in 1 level
+  - 999 (1): 2007/08
+
+[17] **Milsami Orhei › MDA**
+Milsami Orhei › MDA - 1 season in 1 level
+  - 999 (1): 2015/16
+
+[18] **Petrzalka Akademia › SVK**
+Petrzalka Akademia › SVK - 2 seasons in 1 level
+  - 999 (2): 2008/09 2005/06
+
+[19] **Raba ETO Gyor › HUN**
+Raba ETO Gyor › HUN - 2 seasons in 1 level
+  - 999 (2): 1984..1982 (2)
+
+[20] **Spartak TAZ Trnava › SVK**
+Spartak TAZ Trnava › SVK - 5 seasons in 1 level
+  - 999 (5): 1974...1971 (3) 1970..1968 (2)
+
+[21] **Vagur › FRO**
+Vagur › FRO - 1 season in 1 level
+  - 999 (1): 2001/02
+
+__.__.1905
+foundation as VB Vagur
+__.__.1994
+merger with Sumba IF to Sumba IF/VB Vagur
+__.__.1995
+dissolution of the merger and refoundation as VB Vagur
+__.__.2006
+merger with Sumba IF to VB/Sumba
+
+
+##
+# chech name or try.
+#  https://globalsportsarchive.com/competition/soccer/uefa-champions-league-2003-2004/1st-qualifying-round/10769/
+

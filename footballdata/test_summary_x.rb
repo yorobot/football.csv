@@ -23,11 +23,11 @@ def sum( path, country: nil )
 end  # method sum
 
 
-# path = "../../../footballcsv/europe-champions-league"
-# sum( path )
+path = "../../../footballcsv/europe-champions-league"
+sum( path )
 
-path = "../../../footballcsv/major-league-soccer"
-sum( path, country: 'us' )
+# path = "../../../footballcsv/major-league-soccer"
+# sum( path, country: 'us' )
 
 
 puts "bye"

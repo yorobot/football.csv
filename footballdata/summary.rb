@@ -3,19 +3,15 @@ require_relative 'repos'
 require_relative 'git'
 
 
-def sum( *country_keys )
-  country_keys.each do |country_key|
-    country_path    = COUNTRY_REPOS[country_key]
 
-    out_dir = "../../../footballcsv/#{country_path}"
+def sum( path, country: nil )
+    out_dir = path
 
     git_pull( out_dir )
     print "hit return to continue: ";  ch=STDIN.getc
 
     pack = CsvPackage.new( out_dir )
 
-    # summary_report = CsvSummaryReport.new( pack )
-    # summary_report.write
 
     report = CsvPyramidReport.new( pack ) 
     
@@ -24,7 +20,7 @@ def sum( *country_keys )
     File.open( "#{out_dir}/SUMMARY.md", 'w:utf-8' ) { |f| f.write buf }
   
 
-    report = CsvTeamsReport.new( pack, country: country_key )
+    report = CsvTeamsReport.new( pack, country: country )
 
     buf = "# Clubs\n\n"
     buf << report.build
@@ -40,7 +36,6 @@ def sum( *country_keys )
 
     print "hit return to commit: ";  ch=STDIN.getc
     git_commit( out_dir )
-  end
 end  # method sum
 
 
@@ -57,11 +52,22 @@ end  # method sum
  :pt,
  :tr,
  :gr
-].each do |country_key|
-   sum( country_key )
+]
+=end
+
+
+=begin
+COUNTRY_REPOS.each do |country_key, country_path|
+  ## filter by country code
+  ## next   unless [:mx].include?( country_key )
+  
+  path = "../../../footballcsv/#{country_path}"
+  sum( path, country: country_key.to_s )
 end
 =end
 
-sum( :mx )
 
+### extras
+sum( "../../../footballcsv/major-league-soccer", country: 'us' )
+# sum( "../../../footballcsv/europe-champions-league"  )
 
