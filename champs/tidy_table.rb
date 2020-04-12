@@ -4,11 +4,28 @@
 require 'pp'
 
 
-txt = File.open( './tmp/champs.transfermarkt.txt', 'r:utf-8').read
+
+# in_path  = './tmp/champs.transfermarkt.txt'
+# out_path = './o/champs.transfermarkt.txt'
+
+
+# in_path = './tmp/champs.worldfootball.txt'
+# out_path = "./o/champs.worldfootball.csv"
+
+in_path  = './tmp/champs.quali.worldfootball.txt'
+out_path = "./o/champs.quali.worldfootball.csv"
+
+
+
+txt = File.open( in_path, 'r:utf-8').read
 txt = txt.tr( "\t", ' ' )   ## norm first as single line
 
-## remove (diss. 2004) markers - why? why not?
+## remove (old), (alt), (diss. 2009), etc.  markers - why? why not?
+txt = txt.gsub( '(old)', '' )
+txt = txt.gsub( '(alt)', '' )
 
+txt = txt.gsub( '(FCK II)', '' )
+txt = txt.gsub( '(diss. 2009)', '' )
 
 pp txt
 
@@ -18,65 +35,32 @@ pp txt
 #
 # 1	Real Madrid	Real Madrid	436	260	76	100	490	856
 
-re_transfermarkt = /\b
-         (?<pos>\d+) 
-       [ ]+
-         (?<club>.+)       ## note: use greedy!!!
-       [ ]+
-         (?<pld>\d+)
-       [ ]+
-         (?<w>\d+)
-       [ ]+
-         (?<d>\d+)
-       [ ]+
-         (?<l>\d+)
-       [ ]+
-         (?<gd>-?\d+)   ## note: may start with a minus (-)!
-       [ ]+
-         (?<pts>\d+)
-       \b
+
+## assume all club names are duplicates (e.g. Real Madrid Real Madrid)
+re_duplicate = /
+           \b
+         (?<club>.+?)       ## note: use non-greedy!!!
+          [ ]+
+           \k<club>
+          [ ]+
       /x
-
-
-def deduplicate( name )
-  name = name.strip
-  name = name.gsub( /[ ]{2,}/, ' ' )  ## squish - fold more than one space into one space
-
-  if name.size % 2 == 0
-    puts "!! ERROR: odd size expected for duplicate name:"
-    puts name.size
-    pp name
-    exit 1
-  end
-
-  length = (name.size-1) / 2
-  l = name[0..length-1]
-  r = name[length+1..-1]
-
-  if l != r
-    puts "!! ERROR: duplicate name mismatch:"
-    pp l
-    pp r
-    exit 1
-  end
-  l
-end
-      
 
 recs = [] 
 txt.each_line do |line|
      line = line.strip
      next if line.empty? || line.start_with?( '#' )
 
-     m = re_transfermarkt.match( line )
+     line = line.gsub( /[ ]{2,}/, ' ' )  ## squish - fold more than one space into one space
+
+
+     m = re_duplicate.match( line )
      if m.nil?
        puts "!! ERROR: cannot match line:"
        pp line
        exit 1
      end
-     values = m.captures
-     values[1] = deduplicate(values[1])
-     recs << values
+     pp m.captures
+     recs << m.captures
 end
 
 
@@ -87,10 +71,12 @@ puts
 puts "#{recs.size} records found"
 
 
-headers = %w(pos club	pld w d l gd pts)
+
+headers = %w(club)
 
 
-File.open( "./champs.transfermarkt.csv", 'w:utf-8') do |f|
+
+File.open( out_path, 'w:utf-8') do |f|
     f.write headers.join( ', ' )
     f.write "\n"
     recs.each do |rec|

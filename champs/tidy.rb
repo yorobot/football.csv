@@ -2,10 +2,12 @@
 #  tidy up all-time records for clubs
 
 require 'pp'
-require 'strscan'
+
+in_path  = './tmp/champs.txt'
+out_path = './o/champs.csv'
 
 
-txt = File.open( './tmp/champs.txt', 'r:utf-8').read
+txt = File.open( in_path, 'r:utf-8').read
 
 txt = txt.gsub( /[ ]{2,}/, ' ' )  ## squish - fold more than one space into one space
 txt = txt.tr( "\n", ' ' )   ## norm first as single line
@@ -77,7 +79,7 @@ puts "#{recs.size} records found"
 headers = %w(pos club country part titles pld w d l f a pts gd)
 ## pp recs
 
-File.open( "./champs.csv", 'w:utf-8') do |f|
+File.open( out_path, 'w:utf-8') do |f|
     f.write headers.join( ', ' )
     f.write "\n"
     recs.each do |rec|

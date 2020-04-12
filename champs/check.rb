@@ -4,7 +4,9 @@
 require_relative 'boot'
 
 
-recs = read_csv( "./champs.csv" )
+in_path = './o/champs.csv'
+
+recs = read_csv( in_path )
 puts recs.size
 
 clubs_by_country = {}
