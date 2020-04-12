@@ -4,24 +4,38 @@
 require_relative 'boot'
 
 
-recs = read_csv( "./champs.csv" )
+recs = read_csv( "./tmp/champs.engsoccer.csv" )
 puts recs.size
+
+## "Date","Season","round","leg","home","visitor","FT","HT","aet","pens",
+## "hgoal","vgoal","FTagg_home","FTagg_visitor","aethgoal","aetvgoal",
+## "tothgoal","totvgoal","totagg_home","totagg_visitor","tiewinner",
+## "hcountry","vcountry"
+## 1955-09-04,1955,"Round1","1","Sporting CP","Partizan Belgrade","3-3","1-1",NA,NA,3,3,5,8,NA,NA,3,3,5,8,"Partizan Belgrade","POR","SRB"
+
 
 clubs_by_country = {}
 
 recs.each do |rec|
-  pos         = rec[:pos]
-  club_name   = rec[:club]
-  country_key = rec[:country]
 
-  clubs_by_country[country_key] ||= []
-  clubs_by_country[country_key] << club_name
+  [[rec[:home],    rec[:hcountry]],
+   [rec[:visitor], rec[:vcountry]]].each do |club|
+  
+    club_name   = club[0]
+    country_key = club[1]
 
-  puts "#{pos}  #{club_name} > #{country_key}"
+    clubs_by_country[country_key] ||= []
+    clubs_by_country[country_key] << club_name      unless clubs_by_country[country_key].include?( club_name ) 
+
+    ## puts "   #{club_name} > #{country_key}"
+   end
 end
 
 pp clubs_by_country
 
+
+
+total = 0
 ## check countries
 clubs_by_country.each do |country_key, club_names|
   country = COUNTRIES[ country_key ]
@@ -48,9 +62,11 @@ clubs_by_country.each do |country_key, club_names|
 
   if errors > 0
     puts "#{errors} error(s)"
-    exit 1
+    ## exit 1
   end
+
+  total += errors
 end
 
-
+puts "#{total} total error(s)"
 puts "bye"
