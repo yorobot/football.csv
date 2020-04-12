@@ -3,9 +3,9 @@
 
 require_relative 'boot'
 
-# in_path = './o/champs.transfermarkt.csv'
+in_path = './o/champs.transfermarkt.csv'
 # in_path = './o/champs.worldfootball.csv'
-in_path = './o/champs.quali.worldfootball.csv'
+# in_path = './o/champs.quali.worldfootball.csv'
 
 
 recs = read_csv( in_path )

@@ -4,7 +4,9 @@
 require_relative 'boot'
 
 
-in_path = './o/champs.csv'
+# in_path = './o/champs.csv'
+in_path = './o/europa.csv'
+
 
 recs = read_csv( in_path )
 puts recs.size
@@ -50,7 +52,7 @@ clubs_by_country.each do |country_key, club_names|
 
   if errors > 0
     puts "#{errors} error(s)"
-    exit 1
+    ## exit 1
   end
 end
 

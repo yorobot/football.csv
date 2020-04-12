@@ -3,14 +3,20 @@
 
 require 'pp'
 
-in_path  = './tmp/champs.txt'
-out_path = './o/champs.csv'
+# in_path  = './tmp/champs.txt'
+# out_path = './o/champs.csv'
+in_path  = './tmp/europa.txt'
+out_path = './o/europa.csv'
 
 
 txt = File.open( in_path, 'r:utf-8').read
 
 txt = txt.gsub( /[ ]{2,}/, ' ' )  ## squish - fold more than one space into one space
 txt = txt.tr( "\n", ' ' )   ## norm first as single line
+
+## norm single quotes e.g Saint Patrick’s Athletic FC =>
+##                        Saint Patrick's Athletic FC   etc.   
+txt = txt.tr( '’', "'" )    
 
 pp txt
 
