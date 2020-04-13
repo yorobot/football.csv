@@ -27,6 +27,7 @@ end
 pp clubs_by_country
 
 ## check countries
+total = 0
 clubs_by_country.each do |country_key, club_names|
   country = COUNTRIES[ country_key ]
   if country.nil?
@@ -54,7 +55,11 @@ clubs_by_country.each do |country_key, club_names|
     puts "#{errors} error(s)"
     ## exit 1
   end
+  total += errors
 end
 
+
+puts
+puts "#{total} total error(s)"
 
 puts "bye"

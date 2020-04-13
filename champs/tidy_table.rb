@@ -12,9 +12,14 @@ require 'pp'
 # in_path = './tmp/champs.worldfootball.txt'
 # out_path = "./o/champs.worldfootball.csv"
 
-in_path  = './tmp/champs.quali.worldfootball.txt'
-out_path = "./o/champs.quali.worldfootball.csv"
+# in_path  = './tmp/champs.quali.worldfootball.txt'
+# out_path = "./o/champs.quali.worldfootball.csv"
 
+# in_path  = './tmp/europa.worldfootball.txt'
+# out_path = "./o/europa.worldfootball.csv"
+
+in_path  = './tmp/libertadores.worldfootball.txt'
+out_path = "./o/libertadores.worldfootball.csv"
 
 
 txt = File.open( in_path, 'r:utf-8').read
