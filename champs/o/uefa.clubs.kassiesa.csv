@@ -1,0 +1,450 @@
+club, country
+Real Madrid, ESP
+FC Barcelona, ESP
+Bayern München, GER
+Atlético Madrid, ESP
+Juventus, ITA
+Manchester City, ENG
+Sevilla, ESP
+Paris Saint-Germain, FRA
+Arsenal, ENG
+FC Porto, POR
+Liverpool, ENG
+Chelsea, ENG
+Borussia Dortmund, GER
+AS Roma, ITA
+Napoli, ITA
+Shakhtar Donetsk, UKR
+Tottenham Hotspur, ENG
+Manchester United, ENG
+Zenit St. Petersburg, RUS
+Ajax, NED
+Benfica, POR
+Villarreal, ESP
+Dinamo Kiev, UKR
+Schalke 04, GER
+Besiktas, TUR
+AS Monaco, FRA
+Olympique Lyon, FRA
+Bayer Leverkusen, GER
+FC Salzburg, AUT
+FC Basel, SUI
+Sporting CP Lisbon, POR
+CSKA Moscow, RUS
+Anderlecht, BEL
+Athletic Bilbao, ESP
+Olympiakos Piraeus, GRE
+VfL Wolfsburg, GER
+Club Brugge, BEL
+Fiorentina, ITA
+Valencia, ESP
+Lazio, ITA
+PSV Eindhoven, NED
+Sparta Praha, CZE
+FK Krasnodar, RUS
+Viktoria Plzen, CZE
+Fenerbahçe, TUR
+Internazionale, ITA
+Celtic, SCO
+FC København, DEN
+Olympique Marseille, FRA
+Sporting Braga, POR
+Dinamo Zagreb, CRO
+AA Gent, BEL
+Borussia Mönchengladbach, GER
+Lokomotiv Moscow, RUS
+BATE Borisov, BLR
+Young Boys, SUI
+FK Astana, KAZ
+Ludogorets Razgrad, BUL
+APOEL Nicosia, CYP
+Racing Genk, BEL
+Legia Warsaw, POL
+Eintracht Frankfurt, GER
+Dnipro Dnipropetrovsk, UKR
+Rapid Wien, AUT
+PAOK Thessaloniki, GRE
+FCSB, ROU
+AS Saint-Étienne, FRA
+Galatasaray, TUR
+RB Leipzig, GER
+Garabag Agdam, AZE
+Feyenoord, NED
+Leicester City, ENG
+Slavia Praha, CZE
+Real Betis, ESP
+Real Sociedad, ESP
+Celta de Vigo, ESP
+Malmö FF, SWE
+AC Milan, ITA
+NK Maribor, SVN
+FC Zürich, SUI
+Partizan Belgrade, SRB
+Standard Liège, BEL
+Burnley FC, ENG
+Everton, ENG
+Southampton FC, ENG
+West Ham United, ENG
+Hull City, ENG
+Red Star Belgrade, SRB
+Spartak Moscow, RUS
+Maccabi Tel-Aviv, ISR
+Dinamo Moscow, RUS
+Atalanta, ITA
+Sassuolo, ITA
+Sampdoria, ITA
+Torino, ITA
+1899 Hoffenheim, GER
+Hertha BSC, GER
+1.FC Köln, GER
+SC Freiburg, GER
+FSV Mainz 05, GER
+FC Augsburg, GER
+AEK Athens, GRE
+FC Midtjylland, DEN
+Molde FK, NOR
+NK Rijeka, CRO
+FK Rostov, RUS
+Astra Giurgiu, ROU
+Sheriff Tiraspol, MDA
+Apollon Limassol, CYP
+Hapoel Beer-Sheva, ISR
+Stade Rennais, FRA
+Girondins Bordeaux, FRA
+OGC Nice, FRA
+Lille OSC, FRA
+En Avant Guingamp, FRA
+Rosenborg BK, NOR
+Zorya Luhansk, UKR
+Istanbul Basaksehir, TUR
+AZ Alkmaar, NED
+FC Ufa, RUS
+Rubin Kazan, RUS
+Östersunds FK, SWE
+Rio Ave, POR
+Vitória Guimarães, POR
+Maritimo Funchal, POR
+FC Arouca, POR
+CF Os Belenenses, POR
+Estoril Praia, POR
+Nacional Funchal, POR
+Asteras Tripolis, GRE
+Videoton Fehérvár, HUN
+Dinamo Minsk, BLR
+HJK Helsinki, FIN
+FC Sion, SUI
+Slovan Liberec, CZE
+Spartak Trnava, SVK
+AEK Larnaca, CYP
+Hajduk Split, CRO
+Lech Poznan, POL
+Austria Wien, AUT
+Osmanlispor, TUR
+Trabzonspor, TUR
+Zulte Waregem, BEL
+KV Oostende, BEL
+Charleroi, BEL
+KSC Lokeren, BEL
+Vorskla Poltava, UKR
+FC Mariupol, UKR
+FC Oleksandriya, UKR
+Olimpik Donetsk, UKR
+Metalist Kharkiv, UKR
+Chernomorets Odesa, UKR
+Brøndby IF, DEN
+Vitesse Arnhem, NED
+Dundalk, IRL
+Konyaspor, TUR
+Skënderbeu Korçë, ALB
+Panathinaikos, GRE
+Akhisarspor, TUR
+Karabükspor, TUR
+Bursaspor, TUR
+AS Trencín, SVK
+FC Utrecht, NED
+Heracles Almelo, NED
+FC Groningen, NED
+Go Ahead Eagles, NED
+FC Twente Enschede, NED
+PEC Zwolle, NED
+F91 Dudelange, LUX
+Sturm Graz, AUT
+LASK Linz, AUT
+Admira Wacker, AUT
+Gabala FK, AZE
+SCR Altach, AUT
+Wolfsberger AC, AUT
+St. Pölten, AUT
+SV Grödig, AUT
+Shkendija Tetovo, MKD
+Zalgiris Vilnius, LTU
+The New Saints, WAL
+Slovan Bratislava, SVK
+FC Lugano, SUI
+AaB Aalborg, DEN
+FK Jablonec, CZE
+Sigma Olomouc, CZE
+FC Zlin, CZE
+Mladá Boleslav, CZE
+Atromitos FC, GRE
+Panionios, GRE
+PAS Giannina, GRE
+FH Hafnarfjardar, ISL
+Aberdeen, SCO
+AIK Stockholm, SWE
+NK Osijek, CRO
+Lokomotiva Zagreb, CRO
+RNK Split, CRO
+FC Nordsjælland, DEN
+Lyngby BK, DEN
+SønderjyskE, DEN
+Randers FC, DEN
+Esbjerg fB, DEN
+FC Luzern, SUI
+FC Sankt Gallen, SUI
+Grasshoppers Zürich, SUI
+FC Thun, SUI
+Glasgow Rangers, SCO
+Zrinjski Mostar, BIH
+Kairat Almaty, KAZ
+Vardar Skopje, MKD
+Anorthosis Famagusta, CYP
+AEL Limassol, CYP
+Omonia Nicosia, CYP
+Ermis Aradippou, CYP
+FK Kukësi, ALB
+Alashkert FC, ARM
+Spartak Subotica, SRB
+Radnicki Nis, SRB
+Vojvodina Novi Sad, SRB
+Mladost Lucani, SRB
+Cukaricki Belgrade, SRB
+FK Jagodina, SRB
+Hibernian, SCO
+St. Johnstone, SCO
+Hearts FC, SCO
+Inverness CT, SCO
+Motherwell, SCO
+Dynamo Brest, BLR
+Shakhtior Saligorsk, BLR
+Torpedo Zhodino, BLR
+Neman Grodno, BLR
+Suduva Marijampole, LTU
+NK Domzale, SVN
+Valletta FC, MLT
+Lincoln Red Imps, GIB
+Crusaders Belfast, NIR
+FK Ventspils, LVA
+Stjarnan FC, ISL
+FK Sarajevo, BIH
+Rabotnicki Skopje, MKD
+BK Häcken, SWE
+Djurgårdens IF, SWE
+IFK Norrköping, SWE
+IFK Göteborg, SWE
+IF Elfsborg, SWE
+IF Brommapojkarna, SWE
+Sarpsborg 08, NOR
+Lillestrøm SK, NOR
+Odd Grenland, NOR
+FK Haugesund, NOR
+SK Brann Bergen, NOR
+Strømsgodset IF, NOR
+Stabæk IF, NOR
+Tromsø IL, NOR
+Viitorul Constanta, ROU
+CS Fola Esch, LUX
+Víkingur, FRO
+FC Vaduz, LIE
+FC Santa Coloma, AND
+Jagiellonia Bialystok, POL
+Górnik Zabrze, POL
+Tobol Kustanai, KAZ
+Irtysh Pavlodar, KAZ
+Arka Gdynia, POL
+Ordabasy Shymkent, KAZ
+Zaglebie Lubin, POL
+Piast Gliwice, POL
+FK Aktobe, KAZ
+Cracovia Kraków, POL
+Slask Wroclaw, POL
+Ruch Chorzow, POL
+Shakhtyor Karaganda, KAZ
+Zawisza Bydgoszcz, POL
+Kesla FK, AZE
+Neftchi Baku, AZE
+Zira FK, AZE
+Kapaz Ganja, AZE
+Olimpija Ljubljana, SVN
+Spartaks Jurmala, LVA
+Cork City, IRL
+Pyunik Yerevan, ARM
+Dinamo Tbilisi, GEO
+Hapoel Haifa, ISR
+Beitar Jerusalem, ISR
+Bnei Yehuda, ISR
+Maccabi Haifa, ISR
+Hapoel Kiryat Shmona, ISR
+Hapoel Tel-Aviv, ISR
+CFR Cluj, ROU
+CSKA Sofia, BUL
+Zeljeznicar Sarajevo, BIH
+Slavia Sofia, BUL
+Ferencváros, HUN
+Kalju Nomme, EST
+Levski Sofia, BUL
+Botev Plovdiv, BUL
+Dunav Ruse, BUL
+FC Beroe Stara Zagora, BUL
+Cherno More Varna, BUL
+Litex Lovech, BUL
+FK Trakai, LTU
+Buducnost Podgorica, MNE
+Levadia Tallinn, EST
+Universitatea Craiova, ROU
+Dinamo Bucuresti, ROU
+Pandurii Târgu Jiu, ROU
+CSMS Iasi, ROU
+ASA Tirgu Mures, ROU
+FC Botosani, ROU
+Petrolul Ploiesti, ROU
+DAC Dunajska Streda, SVK
+MSK Zilina, SVK
+MFK Ruzomberok, SVK
+Spartak Myjava, SVK
+MFK Kosice, SVK
+La Fiorita, SMR
+B36 Torshavn, FRO
+Chikhura Sachkhere, GEO
+Sutjeska Niksic, MNE
+Rudar Velenje, SVN
+OFK Titograd, MNE
+Partizani Tirana, ALB
+Nova Gorica, SVN
+DVSC Debrecen, HUN
+NK Koper, SVN
+NK Celje, SVN
+Torpedo Kutaisi, GEO
+Valur Reykjavik, ISL
+Progrès Niederkorn, LUX
+Milsami Orhei, MDA
+Honvéd Budapest, HUN
+Flora Tallinn, EST
+FK Liepaja, LVA
+Cliftonville, NIR
+Hibernians FC, MLT
+KR Reykjavik, ISL
+Balzan FC, MLT
+KF Laçi, ALB
+Samtredia, GEO
+Shamrock Rovers, IRL
+Siroki Brijeg, BIH
+Rudar Pljevlja, MNE
+Birkirkara, MLT
+Linfield Belfast, NIR
+Újpest TE, HUN
+Vasas Budapest, HUN
+MTK Budapest, HUN
+Diósgyöri Miskolc, HUN
+ETO Györ, HUN
+Europa FC, GIB
+FK Jelgava, LVA
+Zimbru Chisinau, MDA
+Zaria Balti, MDA
+Connah's Quay, WAL
+NSI Runavik, FRO
+Derry City, IRL
+Glenavon, NIR
+Banants Yerevan, ARM
+Folgore, SMR
+St. Patrick's Athletic, IRL
+FK Shkupi, MKD
+Pelister Bitola, MKD
+Sileks Kratovo, MKD
+Renova Dzepciste, MKD
+Metalurg Skopje, MKD
+FK Turnovo, MKD
+Petrocub Hîncesti, MDA
+Dacia Chisinau, MDA
+Saxan Gagauz Yeri, MDA
+FC Tiraspol, MDA
+Veris Chisinau, MDA
+FC Drita, KVX
+Luftëtari Gjirokastër, ALB
+SJK Seinäjoki, FIN
+Shirak Gyumri, ARM
+SK Tirana, ALB
+HB Torshavn, FRO
+Teuta Durrës, ALB
+KS Flamurtari Vlorë, ALB
+Uni College Dublin, IRL
+Sligo Rovers, IRL
+FC Lahti, FIN
+Ilves Tampere, FIN
+KuPS Kuopio, FIN
+IFK Mariehamn, FIN
+VPS Vaasa, FIN
+RoPS Rovaniemi, FIN
+MyPa-47, FIN
+Honka Espoo, FIN
+IBV Vestmannaeyjar, ISL
+Breidablik, ISL
+Vikingur Reykjavik, ISL
+Fram Reykjavik, ISL
+Radnik Bijeljina, BIH
+Sloboda Tuzla, BIH
+Olimpic Sarajevo, BIH
+Stumbras Kaunas, LTU
+Atlantas Klaipeda, LTU
+Kruoja Pakruojis, LTU
+Banga Gargzdai, LTU
+Ekranas Panevezys, LTU
+Gandzasar Kapan, ARM
+KI Klaksvik, FRO
+Coleraine, NIR
+FC Prishtina, KVX
+Bala Town, WAL
+Sant Julià, AND
+Differdange 03, LUX
+Dila Gori, GEO
+Riga FC, LVA
+Skonto Riga, LVA
+Daugava Daugavpils, LVA
+Daugava Riga, LVA
+Racing Union Luxembourg, LUX
+Jeunesse d'Esch, LUX
+Ulisses Yerevan, ARM
+Mika Ashtarak, ARM
+Gzira United, MLT
+Floriana, MLT
+Sliema Wanderers, MLT
+Trans Narva, EST
+UE Engordany, AND
+Tre Fiori, SMR
+FCI Tallinn, EST
+Kalev Sillamäe, EST
+Santos Tartu, EST
+Dinamo Batumi, GEO
+Spartak Tskhinvali, GEO
+FC Zestafoni, GEO
+Sioni Bolnisi, GEO
+Cefn Druids, WAL
+Bangor City, WAL
+Zeta Golubovci, MNE
+Bokelj Kotor, MNE
+Llandudno FC, WAL
+Newtown, WAL
+Airbus UK Broughton, WAL
+Aberystwyth Town, WAL
+Celik Niksic, MNE
+Lovcen Cetinje, MNE
+St Joseph's FC, GIB
+IF Fuglafjørdur, FRO
+Ballymena United, NIR
+Glentoran, NIR
+Tre Penne, SMR
+UE Santa Coloma, AND
+Trepça'89, KVX
+FC Lusitanos, AND
+Juvenes Dogana, SMR
+Libertas, SMR

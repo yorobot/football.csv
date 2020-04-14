@@ -5,7 +5,8 @@ require_relative 'boot'
 
 
 # in_path = './o/champs.csv'
-in_path = './o/europa.csv'
+# in_path = './o/europa.csv'
+in_path = "./o/uefa.clubs.kassiesa.csv"
 
 
 recs = read_csv( in_path )
@@ -29,6 +30,7 @@ pp clubs_by_country
 ## check countries
 total = 0
 clubs_by_country.each do |country_key, club_names|
+
   country = COUNTRIES[ country_key ]
   if country.nil?
     puts "!! ERROR - no country found for key >#{country_key}<"
