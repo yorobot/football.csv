@@ -6,7 +6,7 @@ require_relative 'boot'
 
 # in_path = './o/champs.csv'
 # in_path = './o/europa.csv'
-in_path = "./o/uefa.clubs.kassiesa.csv"
+in_path = "./o/uefa.clubs.kassiesa.1975.csv"
 
 
 recs = read_csv( in_path )
@@ -27,9 +27,30 @@ end
 
 pp clubs_by_country
 
+alt_country_codes = { 'GDR' => 'GER' }
+
 ## check countries
 total = 0
 clubs_by_country.each do |country_key, club_names|
+
+
+  ## skip old countries for now
+  ## TCH  - Old Czech Slovak Republic  - split into 2 countries
+  ## YUG  - Yuguslavia                 - split into x countries
+  ## URS  - Soviet Union               - split into x countries
+  ## GDR  - German Democratic Republic
+
+  ## todo/fix: use ??? or XXX for search without country - why? why not?
+
+  country_key = alt_country_codes[country_key] || country_key
+
+  if ['TCH',
+      'YUG',
+      'URS'].include?( country_key )
+        puts "skipping historic country >#{country_key}< and #{club_names.size} clubs:"
+        pp club_names
+        next
+  end
 
   country = COUNTRIES[ country_key ]
   if country.nil?
