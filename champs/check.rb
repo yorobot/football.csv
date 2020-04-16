@@ -4,26 +4,38 @@
 require_relative 'boot'
 
 
-# in_path = './o/champs.csv'
-# in_path = './o/europa.csv'
-in_path = "./o/uefa.clubs.kassiesa.1975.csv"
-
-
-recs = read_csv( in_path )
-puts recs.size
-
 clubs_by_country = {}
 
-recs.each do |rec|
-  pos         = rec[:pos]
-  club_name   = rec[:club]
-  country_key = rec[:country]
+[
+# 'champs.csv',   ## uefa champs stats handbook
+# 'europa.csv',   ## uefa europa stats handbook
+# 'uefa.clubs.kassiesa.1975.csv',
+# 'uefa.clubs.kassiesa.1985.csv',
+# 'uefa.clubs.kassiesa.1991.csv',
+# 'uefa.clubs.kassiesa.1999.csv',
+# 'uefa.clubs.kassiesa.2003.csv',
+# 'uefa.clubs.kassiesa.2019.csv',
 
-  clubs_by_country[country_key] ||= []
-  clubs_by_country[country_key] << club_name
+  'uefa.clubs.coefficient.csv',
+].each do |name|
 
-  puts "#{pos}  #{club_name} > #{country_key}"
+  path = "./o/#{name}"
+
+  recs = read_csv( path )
+  puts recs.size
+
+  recs.each do |rec|
+    pos         = rec[:pos]
+    club_name   = rec[:club]
+    country_key = rec[:country]
+
+    clubs_by_country[country_key] ||= Hash.new(0)
+    clubs_by_country[country_key][ club_name ] += 1
+
+    puts "#{pos}  #{club_name} > #{country_key}"
+  end
 end
+
 
 pp clubs_by_country
 
@@ -62,13 +74,13 @@ clubs_by_country.each do |country_key, club_names|
 
   errors = 0
   puts "check #{club_names.size} club names in #{country.name} (#{country.key}):"
-  club_names.each do |club_name|
+  club_names.each do |club_name, count|
     club = CLUBS.find_by( name: club_name, country: country )
     if club.nil?
-        puts "!!     #{club_name}"
+        puts "!!    (#{count})   #{club_name}"
         errors += 1
     else
-        print "   OK  #{club_name}"
+        print "   OK (#{count})  #{club_name}"
         print " => #{club.name}"  if club_name != club.name
         print "\n"
     end

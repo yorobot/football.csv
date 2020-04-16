@@ -3,35 +3,46 @@
 
 require_relative 'boot'
 
-# in_path = './o/champs.transfermarkt.csv'
-# in_path = './o/champs.worldfootball.csv'
-# in_path = './o/champs.quali.worldfootball.csv'
-in_path = './o/europa.worldfootball.csv'
-# in_path = './o/libertadores.worldfootball.csv'
 
+club_names = Hash.new(0)
 
-recs = read_csv( in_path )
-puts recs.size
+[
+  'champs.transfermarkt.csv',
+  'champs.worldfootball.csv',
+  'champs.quali.worldfootball.csv',
+  'europa.worldfootball.csv',
+  # 'libertadores.worldfootball.csv',
+].each do |name|
+
+  path = "./o/#{name}"
+
+  recs = read_csv( path )
+  puts recs.size
+
+  recs.each do |rec|
+    club_names[ rec[:club] ] += 1
+  end
+end
+
 
 
 ## check countries
 errors = 0
 
-recs.each do |rec|
-  club_name = rec[:club]
+club_names.each do |club_name, count|
 
   clubs = CLUBS.match( club_name )
   if clubs.nil?
-    puts "!!     #{club_name}"
+    puts "!!    (#{count})  #{club_name}"
     errors += 1
   elsif clubs.size == 1
     club = clubs[0]
-    print "   OK  #{club_name}"
+    print "   OK (#{count})  #{club_name}"
     print " => #{club.name}"  if club_name != club.name
     print ", #{club.country.name}"
     print "\n"
   else
-    puts "x#{clubs.size}     #{club_name}"
+    puts "x#{clubs.size}  (#{count})    #{club_name}"
     errors += 1
   end
 end
