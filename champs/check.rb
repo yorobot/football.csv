@@ -16,7 +16,8 @@ clubs_by_country = {}
 # 'uefa.clubs.kassiesa.2003.csv',
 # 'uefa.clubs.kassiesa.2019.csv',
 
-  'uefa.clubs.coefficient.csv',
+# 'uefa.clubs.coefficient.csv',
+  'clubs.europe.footballdatabase.csv',
 ].each do |name|
 
   path = "./o/#{name}"

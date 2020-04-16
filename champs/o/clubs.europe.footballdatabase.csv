@@ -1,0 +1,1121 @@
+pos, club, country
+1, Liverpool FC, England
+2, Bayern München, Germany
+3, Manchester City, England
+4, Barcelona, Spain
+5, Paris Saint-Germain, France
+6, Juventus, Italy
+7, RasenBallsport Leipzig, Germany
+8, Atalanta, Italy
+9, Real Madrid, Spain
+10, Atlético Madrid, Spain
+11, Borussia Dortmund, Germany
+12, Inter Milan, Italy
+13, Lazio, Italy
+14, Ajax Amsterdam, Netherlands
+15, Bayer Leverkusen, Germany
+16, FC Porto, Portugal
+17, Shakhtar Donetsk, Ukraine
+18, Benfica, Portugal
+19, Manchester United, England
+20, Sevilla, Spain
+21, Getafe, Spain
+22, SSC Napoli, Italy
+23, Chelsea FC, England
+24, Borussia Mönchengladbach, Germany
+25, Real Sociedad, Spain
+26, Leicester City, England
+27, Arsenal, England
+28, Salzburg, Austria
+29, Wolverhampton Wanderers, England
+30, Olympiakos, Greece
+31, Roma, Italy
+32, Celtic, Scotland
+33, Valencia, Spain
+34, Tottenham Hotspur, England
+35, Lyon, France
+36, Zenit St. Petersburg, Russia
+37, PSV Eindhoven, Netherlands
+38, FC Basel, Switzerland
+39, Dinamo Zagreb, Croatia
+40, Flora Tallinn, Estonia
+41, Athletic Bilbao, Spain
+42, Marseille, France
+43, PAOK Thessaloniki FC, Greece
+44, Wolfsburg, Germany
+45, Dynamo Kyiv, Ukraine
+46, FCI Levadia Tallinn, Estonia
+47, Slavia Prague, Czech Republic
+48, FK Red Star Belgrade, Serbia
+49, Feyenoord, Netherlands
+50, PFC Ludogorets 1945 Razgrad, Bulgaria
+51, Braga, Portugal
+52, Villarreal, Spain
+53, Real Betis, Spain
+54, Club Brugge, Belgium
+55, AZ Alkmaar, Netherlands
+56, İstanbul Başakşehir, Turkey
+57, Sporting, Portugal
+58, Dundalk FC, Ireland
+59, Viktoria Plzeň, Czech Republic
+60, AC Milan, Italy
+61, Lille, France
+62, Everton FC, England
+63, Rangers, Scotland
+64, Nomme JK Kalju, Estonia
+65, Maccabi Tel Aviv FC, Israel
+66, Rennes, France
+67, Sheffield United FC, England
+68, The New Saints, Wales
+69, Hoffenheim, Germany
+70, Crystal Palace, England
+71, PFC CSKA-Sofia, Bulgaria
+72, Young Boys, Switzerland
+73, FC Sheriff, Moldova
+74, Burnley, England
+75, APOEL Nicosia, Cyprus
+76, FC Krasnodar, Russia
+77, Schalke 04, Germany
+78, 1. FC Köln, Germany
+79, Deportivo Alaves, Spain
+80, BATE Borisov, Belarus
+81, Eintracht Frankfurt, Germany
+82, Levante, Spain
+83, Celta Vigo, Spain
+84, Galatasaray, Turkey
+85, Partizan Beograd , Serbia
+86, CFR Cluj, Romania
+87, CSKA Moskva, Russia
+88, Newcastle United, England
+89, Eibar, Spain
+90, Malmö FF, Sweden
+91, Fiorentina, Italy
+92, AEK, Greece
+93, Watford, England
+94, Granada, Spain
+95, Montpellier, France
+96, Sassuolo, Italy
+97, Apollon Limassol, Cyprus
+98, Reims, France
+99, Ferencváros, Hungary
+100, Gent, Belgium
+101, Mainz 05, Germany
+102, Parma, Italy
+103, København, Denmark
+104, Nice, France
+105, Lokomotiv Moskva, Russia
+106, Southampton, England
+107, Slovan Bratislava, Slovakia
+108, AIK, Sweden
+109, Trabzonspor, Turkey
+110, Beşiktaş, Turkey
+111, Litex Lovech, Bulgaria
+112, Freiburg , Germany
+113, Leganes, Spain
+114, FC Midtjylland, Denmark
+115, Molde FK, Norway
+116, Bologna, Italy
+117, RCD Espanyol, Spain
+118, 1. FC Union Berlin, Germany
+119, AEK Larnaca, Cyprus
+120, Dacia Chisinau, Moldova
+121, West Ham United, England
+122, Maribor, Slovenia
+123, SD Huesca, Spain
+124, Real Valladolid, Spain
+125, Zorya Luhansk, Ukraine
+126, Bordeaux, France
+127, RC Strasbourg, France
+128, Shamrock Rovers, Ireland
+129, Lokomotiv Astana, Kazakhstan
+130, Levski Sofia, Bulgaria
+131, Qarabağ, Azerbaijan
+132, FC Utrecht, Netherlands
+133, Osasuna, Spain
+134, Sparta Prague, Czech Republic
+135, Elche, Spain
+136, Shakhter Soligorsk , Belarus
+137, Steaua Bucureşti, Romania
+138, Cagliari, Italy
+139, Monaco, France
+140, Verona , Italy
+141, NK Olimpija Ljubljana, Slovenia
+142, Rijeka, Croatia
+143, Vitória Guimarães, Portugal
+144, Standard Liège, Belgium
+145, Norrköping, Sweden
+146, Torino, Italy
+147, Girona, Spain
+148, LASK Linz, Austria
+149, Genoa, Italy
+150, FK Rostov, Russia
+151, Udinese, Italy
+152, Hamburger SV, Germany
+153, Fenerbahçe, Turkey
+154, Mallorca, Spain
+155, Nantes, France
+156, Rio Ave, Portugal
+157, Jablonec, Czech Republic
+158, Dnipro Dnipropetrovsk, Ukraine
+159, Augsburg, Germany
+160, Fortuna Düsseldorf, Germany
+161, Sporting Charleroi, Belgium
+162, Angers, France
+163, Spartak Moskva, Russia
+164, Ingolstadt, Germany
+165, Hertha BSC, Germany
+166, Anorthosis, Cyprus
+167, Sampdoria, Italy
+168, Vitesse, Netherlands
+169, MOL Fehérvár FC, Hungary
+170, Carpi, Italy
+171, Kairat Almaty, Kazakhstan
+172, KRC Genk, Belgium
+173, Stoke City, England
+174, Brighton & Hove Albion, England
+175, VfB Stuttgart, Germany
+176, Djurgården, Sweden
+177, Rayo Vallecano, Spain
+178, West Brom, England
+179, Legia Warszawa , Poland
+180, Swansea City, England
+181, Wigan Athletic, England
+182, Crotone, Italy
+183, Panathinaikos, Greece
+184, Empoli FC, Italy
+185, HJK Helsinki, Finland
+186, Rosenborg BK, Norway
+187, Werder Bremen, Germany
+188, Omonia Nicosia, Cyprus
+189, RSC Anderlecht, Belgium
+190, Sporting Gijón, Spain
+191, Royal Antwerp, Belgium
+192, Hajduk Split, Croatia
+193, AFC Bournemouth, England
+194, Timişoara, Romania
+195, Willem II, Netherlands
+196, Neath Athletic, Wales
+197, Nîmes Olympique, France
+198, Birmingham City, England
+199, Saint-Étienne, France
+200, Sivasspor, Turkey
+201, FC Brest, Belarus
+202, Rapid Wien, Austria
+203, Zalgiris Vilnius, Lithuania
+204, Lecce, Italy
+205, Catania, Italy
+206, Hammarby IF, Sweden
+207, Deportivo Xerez, Spain
+208, Sochaux, France
+209, Hapoel Be'er Sheva, Israel
+210, Žilina, Slovakia
+211, Slovan Liberec, Czech Republic
+212, Deportivo La Coruña, Spain
+213, Oleksandriya, Ukraine
+214, FC Arsenal Tula, Russia
+215, Suduva Marijampole , Lithuania
+216, Aberdeen, Scotland
+217, Beroe, Bulgaria
+218, Radnički Niš, Serbia
+219, KuPS, Finland
+220, BK Häcken, Sweden
+221, FK Sarajevo, Bosnia and Herzegovina
+222, Maccabi Haifa FC, Israel
+223, FC Infonet Tallinn, Estonia
+224, Dinamo Minsk, Belarus
+225, CS Universitatea Craiova, Romania
+226, Bolton Wanderers, England
+227, FC Groningen, Netherlands
+228, Dinamo Moskva, Russia
+229, Metz, France
+230, FK Desna Chernihiv, Ukraine
+231, Cardiff City, England
+232, AEL Limassol, Cyprus
+233, Real Zaragoza, Spain
+234, Hull City, England
+235, Dijon, France
+236, Blackpool, England
+237, Beitar Jerusalem FC, Israel
+238, Mladá Boleslav, Czech Republic
+239, Darmstadt, Germany
+240, Tenerife, Spain
+241, Brøndby, Denmark
+242, SC Bastia, France
+243, Neftçi, Azerbaijan
+244, Moreirense, Portugal
+245, Viitorul Constanţa, Romania
+246, Sporting Fingal, Ireland
+247, Sillamäe Kalev, Estonia
+248, NK Osijek, Croatia
+249, Auxerre, France
+250, Atromitos, Greece
+251, Almería, Spain
+252, Alanyaspor, Turkey
+253, Blackburn Rovers F.C., England
+254, Heracles, Netherlands
+255, Olympiakos Volos, Greece
+256, Novara, Italy
+257, FC Vaslui, Romania
+258, Györi ETO, Hungary
+259, Lokomotiv Sofia, Bulgaria
+260, Siena, Italy
+261, Čukarički, Serbia
+262, Norwich City, England
+263, FC Milsami Orhei, Moldova
+264, Eintracht Braunschweig, Germany
+265, Connah's Quay, Wales
+266, Astra Ploieşti, Romania
+267, Brest, France
+268, Tiraspol, Moldova
+269, Boavista, Portugal
+270, Cherno More Varna, Bulgaria
+271, Slovácko, Czech Republic
+272, Hsk Zrinjski Mostar, Bosnia and Herzegovina
+273, SC Heerenveen, Netherlands
+274, Budućnost, Montenegro
+275, Sigma Olomouc, Czech Republic
+276, Queens Park Rangers, England
+277, NK Celje, Slovenia
+278, Málaga, Spain
+279, Lech Poznań, Poland
+280, Lorient, France
+281, FC Famalicão, Portugal
+282, SPAL 2013, Italy
+283, Honka, Finland
+284, Sutjeska, Montenegro
+285, Middlesbrough, England
+286, Vojvodina, Serbia
+287, Željezničar, Bosnia and Herzegovina
+288, FC Ufa, Russia
+289, Torpedo Zhodino, Belarus
+290, Iskra-Stal, Moldova
+291, Lokomotiva, Croatia
+292, Aston Villa, England
+293, Nancy, France
+294, Evian TG, France
+295, Dunajska Streda, Slovakia
+296, GFC Ajaccio, France
+297, FC Rubin Kazan, Russia
+298, Domžale, Slovenia
+299, Baník Ostrava, Czech Republic
+300, FK Akhmat Grozny, Russia
+301, CD Santa Clara, Portugal
+302, Metalist Kharkiv, Ukraine
+303, Metalurh Donetsk, Ukraine
+304, Cork City, Ireland
+305, Bangor City, Wales
+306, Bohemian FC, Ireland
+307, Sunderland, England
+308, KF Shkendija, Macedonia
+309, Reading, England
+310, Hércules, Spain
+311, Ordabasy Shymkent, Kazakhstan
+312, Tobol Kostanay, Kazakhstan
+313, Hannover 96, Germany
+314, Portsmouth, England
+315, Piast Gliwice, Poland
+316, FC Ural, Russia
+317, Amiens SC, France
+318, Sturm Graz, Austria
+319, Botev Plovdiv, Bulgaria
+320, FC St. Gallen 1879, Switzerland
+321, Bala Town FC , Wales
+322, Lokomotiv Plovdiv, Bulgaria
+323, Göztepe AŞ, Turkey
+324, SC Paderborn 07 , Germany
+325, Dinamo Tbilisi, Georgia
+326, St. Pauli, Germany
+327, Kaiserslautern, Germany
+328, Aris Thessaloniki, Greece
+329, IFK Göteborg, Sweden
+330, Moskva, Russia
+331, Botoşani, Romania
+332, Jagiellonia Białystok, Poland
+333, Fulham, England
+334, Wolfsberger AC, Austria
+335, Guingamp, France
+336, Kortrijk, Belgium
+337, Dinamo Bucureşti, Romania
+338, FC Emmen, Netherlands
+339, Greuther Fürth, Germany
+340, KV Mechelen, Belgium
+341, FC Orenburg, Russia
+342, Slavia Sofia, Bulgaria
+343, Amkar Perm', Russia
+344, Luzern, Switzerland
+345, SK Brann, Norway
+346, Nordsjælland, Denmark
+347, Vitória Setúbal, Portugal
+348, FK Haugesund , Norway
+349, Kuban' Krasnodar, Russia
+350, Le Mans, France
+351, Zürich, Switzerland
+352, Derry City, Ireland
+353, Ilves, Finland
+354, Bochum, Germany
+355, Odds Ballklubb, Norway
+356, PEC Zwolle, Netherlands
+357, Hibernian, Scotland
+358, Vardar Skopje, Macedonia
+359, Keşlə Futbol Klubu, Azerbaijan
+360, Frosinone, Italy
+361, Široki Brijeg, Bosnia and Herzegovina
+362, Gaz Metan Mediaş, Romania
+363, Narva Trans, Estonia
+364, Asteras Tripolis, Greece
+365, Elfsborg, Sweden
+366, Benevento, Italy
+367, Lechia Gdańsk, Poland
+368, Saturn, Russia
+369, Grenoble, France
+370, Qäbälä, Azerbaijan
+371, Bari, Italy
+372, AGF, Denmark
+373, NŠ Mura, Slovenia
+374, Palermo, Italy
+375, Viking FK, Norway
+376, FK Riteriai, Lithuania
+377, St Patrick's, Ireland
+378, Ružomberok, Slovakia
+379, ADO Den Haag, Netherlands
+380, Boulogne, France
+381, Caen, France
+382, Belenenses, Portugal
+383, Brescia, Italy
+384, Sint-Truiden, Belgium
+385, Cracovia Kraków, Poland
+386, CS Marítimo Madeira, Portugal
+387, Lugano, Switzerland
+388, Nürnberg, Germany
+389, Veres Rivne, Ukraine
+390, Servette, Switzerland
+391, Konyaspor, Turkey
+392, PFC Sochi, Russia
+393, Polonia Warszawa, Poland
+394, Chaves, Portugal
+395, Las Palmas, Spain
+396, FK Mariupol Illichivets', Ukraine
+397, Kilmarnock, Scotland
+398, Zulte Waregem , Belgium
+399, Gil Vicente FC , Portugal
+400, Valenciennes, France
+401, Śląsk Wrocław, Poland
+402, Austria Wien, Austria
+403, Aluminij, Slovenia
+404, Gazişehir Gaziantep FK, Turkey
+405, Sparta Rotterdam, Netherlands
+406, Pogoń Szczecin, Poland
+407, Chernomorets Burgas, Bulgaria
+408, Koper, Slovenia
+409, FC Inter, Finland
+410, Racing Santander, Spain
+411, Paide Linnameeskond, Estonia
+412, FK Tambov, Russia
+413, Kavala, Greece
+414, Mezőkövesd-Zsóry, Hungary
+415, Bodø / Glimt, Norway
+416, Bnei Yehuda Tel Aviv FC, Israel
+417, MP Antalyaspor, Turkey
+418, Spartak Trnava, Slovakia
+419, Zagłębie Lubin, Poland
+420, Arouca, Portugal
+422, Honvéd, Hungary
+423, Újpest, Hungary
+424, Strømsgodset, Norway
+425, Yeni Malatyaspor, Turkey
+426, SC Dnipro-1, Ukraine
+427, Hapoel Tel Aviv FC, Israel
+428, Topolski Sportski Club, Serbia
+429, Aktobe, Kazakhstan
+430, Chievo Verona, Italy
+431, Zimbru, Moldova
+432, Nea Salamis, Cyprus
+433, Motherwell, Scotland
+434, Bursaspor, Turkey
+435, Bohemians 1905, Czech Republic
+436, HNK Gorica, Croatia
+437, Zhetysu Taldykorgan, Kazakhstan
+438, NEC Nijmegen, Netherlands
+439, Linfield, Northern Ireland
+440, Xanthi FC, Greece
+441, Puskás FC, Hungary
+442, AaB, Denmark
+443, Osmanlıspor FK, Turkey
+444, Oestersunds FK, Sweden
+445, Sion, Switzerland
+446, Gençlerbirligi, Turkey
+447, FK Mladost Lučani, Serbia
+448, Debrecen, Hungary
+449, Krylya Sovetov Samara, Russia
+450, Livingston FC, Scotland
+451, Troyes, France
+452, FC Torpedo Moscow, Russia
+453, Kasımpaşa, Turkey
+454, Pandurii Târgu Jiu, Romania
+455, Vorskla Poltava, Ukraine
+456, Tondela, Portugal
+457, Ajaccio, France
+458, Lens, France
+459, Samsunspor, Turkey
+460, Erzurum BB, Turkey
+461, Wisła Kraków, Poland
+462, Odense Boldklub, Denmark
+463, Royal Excel Mouscron Péruwelz, Belgium
+464, Iraklis, Greece
+465, Irtysh Pavlodar, Kazakhstan
+466, Excelsior, Netherlands
+467, FC Twente, Netherlands
+468, Estoril, Portugal
+469, Sarpsborg 08, Norway
+470, FC Veris, Moldova
+471, RoPS Rovaniemi, Finland
+472, Ventspils, Latvia
+473, Gornik Zabrze, Poland
+474, Rizespor, Turkey
+475, Kristiansund BK, Norway
+476, VVV-Venlo, Netherlands
+477, FK Spartak Subotica, Serbia
+478, Lamia, Greece
+479, Crusaders, Northern Ireland
+480, Larisa Ael, Greece
+481, Córdoba CF, Spain
+482, České Budějovice, Czech Republic
+483, OFI Crete, Greece
+484, Mouscron-Péruwelz, Belgium
+485, Stabæk, Norway
+486, FK Gorodeya, Belarus
+487, Fortuna Sittard, Netherlands
+488, FC Lahti, Finland
+489, Waterford FC, Ireland
+490, Cesena, Italy
+491, Randers FC, Denmark
+492, Huddersfield Town, England
+493, Diósgyör, Hungary
+494, Trenčín, Slovakia
+495, FC Skonto Riga, Latvia
+496, Pafos FC, Cyprus
+497, Rapid Bucureşti, Romania
+498, Paços de Ferreira, Portugal
+499, Elazığspor, Turkey
+500, Teplice, Czech Republic
+501, Coleraine, Northern Ireland
+502, Kryvbas, Ukraine
+503, Vålerenga, Norway
+504, Port Talbot, Wales
+505, Hapoel Haifa FC, Israel
+506, Portimonense, Portugal
+507, St. Johnstone, Scotland
+508, Riga FC, Latvia
+509, Maccabi Netanya FC, Israel
+510, Uniao da Madeira, Portugal
+511, Saburtalo, Georgia
+512, FC Kolos Kovalivka, Ukraine
+513, Roda JC Kerkrade, Netherlands
+514, Eskişehirspor, Turkey
+515, Spartak Myjava, Slovakia
+516, Akhisar Belediye, Turkey
+517, FK Vitebsk, Belarus
+518, Llanelli, Wales
+519, Arles, France
+521, Neman Grodno, Belarus
+522, Beira-Mar, Portugal
+523, Rudar Pljevlja, Montenegro
+524, Voždovac, Serbia
+525, FC Zbrojovka Brno, Czech Republic
+526, Vysočina Jihlava, Czech Republic
+527, PAS Giannina, Greece
+528, Wisła Płock, Poland
+529, Zaria Bălți, Moldova
+530, Isloch, Belarus
+531, Khazar Lankaran FK, Azerbaijan
+532, Thun, Switzerland
+533, Sloboda Užice, Serbia
+534, Livorno, Italy
+535, Mordovia Saransk, Russia
+536, De Graafschap, Netherlands
+537, IFK Mariehamn, Finland
+538, Shakhter Karagandy, Kazakhstan
+539, MFK Karviná, Czech Republic
+540, Sligo Rovers, Ireland
+541, FC Lviv, Ukraine
+542, Borac Banja Luka , Bosnia and Herzegovina
+543, Newtown, Wales
+544, Acs Sepsi Osk Sfantu Gheorghe, Romania
+545, Oud-Heverlee, Belgium
+546, Naval 1º de Maio, Portugal
+547, Denizlispor, Turkey
+548, FK Zirka Kirovohrad, Ukraine
+549, Maccabi Petah Tikva, Israel
+550, Zirə, Azerbaijan
+551, Zeta, Montenegro
+552, Gorica, Slovenia
+553, Aalesund, Norway
+554, MTK Budapest, Hungary
+555, Volos New Football Club, Greece
+556, Zavrč, Slovenia
+557, Kecskeméti TE, Hungary
+558, Paksi FC, Hungary
+559, CS Petrocub, Moldova
+560, Oţelul Galaţi, Romania
+561, HIFK, Finland
+562, Stal Kamianske, Ukraine
+563, Znojmo, Czech Republic
+564, Altach, Austria
+565, Varda SE, Hungary
+566, FK Napredak Krusevac, Serbia
+567, MyPa, Finland
+568, Etar, Bulgaria
+569, Bakı, Azerbaijan
+571, Braşov, Romania
+572, Olhanense, Portugal
+573, Inverness CT, Scotland
+574, FC Arsenal Kiev, Ukraine
+575, Petrolul Ploieşti, Romania
+576, Sevastopol, Ukraine
+577, Rhyl, Wales
+578, FC Energetik-BGU Minsk, Belarus
+579, Košice, Slovakia
+580, Barry Town United FC , Wales
+581, Ried, Austria
+582, Seinaejoen JK, Finland
+583, OFK Titograd, Montenegro
+584, Örebro, Sweden
+585, Roeselare, Belgium
+586, Orduspor, Turkey
+587, Balıkesirspor, Turkey
+588, Kaisar Kyzylorda, Kazakhstan
+589, KS Raków Częstochowa, Poland
+590, Mura 05, Slovenia
+591, Torpedo Kutaisi, Georgia
+592, Olimpik Donetsk, Ukraine
+593, Hajduk Kula, Serbia
+594, Pécsi MFC, Hungary
+595, Heart of Midlothian, Scotland
+596, Simurq, Azerbaijan
+597, Cardiff Met University, Wales
+598, Karpaty Lviv, Ukraine
+599, Neuchâtel Xamax, Switzerland
+600, Septemvri Sofia , Bulgaria
+601, Académica, Portugal
+603, Spartak Nal'chik, Russia
+604, Panionios, Greece
+605, Hapoel Hadera, Israel
+606, FC Minsk, Belarus
+607, Helsingborgs IF, Sweden
+608, Kayseri Erciyesspor, Turkey
+609, Union St.-Gilloise, Belgium
+610, Kayserispor, Turkey
+611, FK Radnik Bijeljina, Bosnia and Herzegovina
+612, Yenisey Krasnoyarsk, Russia
+613, Zemplin Michalovce, Slovakia
+614, Chornomorets Odesa, Ukraine
+615, Leixões, Portugal
+616, Ironi Kiryat Schmona, Israel
+617, Manisaspor, Turkey
+618, Slaven, Croatia
+619, Universitatea Cluj, Romania
+620, FK Tosno, Russia
+621, Grödig, Austria
+622, Lillestrøm, Norway
+623, Balmazújváros, Hungary
+624, FC Arda Kardzhali, Bulgaria
+625, Monaghan United, Ireland
+626, Eupen, Belgium
+627, Unirea Urziceni, Romania
+628, Panetolikos, Greece
+629, Joenkoepings Soedra, Sweden
+630, Enosis Paralimni, Cyprus
+631, Belshina Bobruisk, Belarus
+632, FK Liepājas Metalurgs, Latvia
+633, Cliftonville, Northern Ireland
+634, SønderjyskE, Denmark
+635, Tampere United, Finland
+636, Rigas Futbola skola, Latvia
+637, Sibir Novosibirsk, Russia
+638, CSMS Iaşi, Romania
+639, FC Fastav Zlin, Czech Republic
+640, NK Bravo, Slovenia
+641, Mons, Belgium
+642, CD das Aves, Portugal
+643, FK Proleter Novi Sad, Serbia
+644, NK Tabor Sežana, Slovenia
+645, Chikhura, Georgia
+646, Šibenik, Croatia
+647, Botev Vratsa, Bulgaria
+648, Mattersburg, Austria
+649, Aberystwyth, Wales
+650, FK Radnik Surdulica, Serbia
+651, Toulouse, France
+652, TSV Hartberg, Austria
+653, Szombathelyi Haladás, Hungary
+654, Ergotelis, Greece
+655, Lučko, Croatia
+656, Tromsø IL, Norway
+657, Admira Wacker Mödling, Austria
+658, Minyor Pernik, Bulgaria
+659, Dundee United, Scotland
+660, Tammeka, Estonia
+661, FK Tuzla City, Bosnia and Herzegovina
+662, Pirin Blagoevgrad, Bulgaria
+663, Hradec Králové, Czech Republic
+664, Zawisza Bydgoszcz, Poland
+665, Grasshopper Club Zürich, Switzerland
+666, FC Daugava, Latvia
+667, Gefle, Sweden
+668, FC Ruh Brest, Belarus
+669, Turnu Severin, Romania
+670, RKC Waalwijk, Netherlands
+671, Widzew Łódz, Poland
+672, FC Dinamo Batumi, Georgia
+673, FK Iskra, Montenegro
+674, Pescara, Italy
+675, Waterford United FC, Ireland
+676, AZAL PFC Baku, Azerbaijan
+677, Mjällby, Sweden
+678, Alaniya, Russia
+679, Airbus UK Broughton FC , Wales
+680, GIF Sundsvall, Sweden
+681, AFC Herrmannstadt Sibiu, Romania
+682, Vasas Budapest, Hungary
+683, Podbeskidzie Bielsko-Biala, Poland
+684, VPS, Finland
+685, Kladno, Czech Republic
+686, Assyriska, Sweden
+687, NAC Breda, Netherlands
+688, Penafiel, Portugal
+689, Turku PS, Finland
+690, Ankaragücü, Turkey
+691, Dila Gori, Georgia
+692, Oulu, Finland
+693, KV Oostende, Belgium
+694, Korona Kielce, Poland
+695, Nacional, Portugal
+696, Alki Oroklinis, Cyprus
+697, Săgeata Năvodari, Romania
+698, FC Ashdod, Israel
+699, ACS FC Academica Clinceni, Romania
+700, FC Tsarsko Selo Sofia 2015, Bulgaria
+701, Fredrikstad, Norway
+702, Sogndal, Norway
+703, FC Anzhi Makhachkala, Russia
+704, Viborg, Denmark
+705, FC Dnyapro Mogilev, Belarus
+706, Feirense, Portugal
+707, FK Slutsk, Belarus
+708, Sumqayıt, Azerbaijan
+709, ŠKF Sereď, Slovakia
+710, FC Dordrecht, Netherlands
+711, Zalaegerszegi TE, Hungary
+712, Rudar Velenje, Slovenia
+714, Ekranas, Lithuania
+715, Bucaspor, Turkey
+716, Ruch Chorzów, Poland
+717, Lokeren, Belgium
+718, Opava, Czech Republic
+720, Glenavon, Northern Ireland
+721, Kalmar FF, Sweden
+722, Gaziantepspor, Turkey
+723, Sirius, Sweden
+724, Caernarfon, Wales
+725, Viktoria Žižkov, Czech Republic
+726, Esbjerg fB, Denmark
+727, Westerlo, Belgium
+728, Rabotnički, Macedonia
+729, Adanaspor, Turkey
+730, Doxa Katokopia, Cyprus
+731, Jagodina, Serbia
+732, Lierse, Belgium
+733, Öster, Sweden
+734, Obolon', Ukraine
+735, Larne FC, Northern Ireland
+736, Cambuur, Netherlands
+737, MZKS Arka Gdynia, Poland
+738, NK Krka, Slovenia
+739, União de Leiria, Portugal
+740, Karmiotissa Pano Polemidion, Cyprus
+741, FC Chindia Târgovişte, Romania
+742, Olympiakos Nicosia, Cyprus
+743, Karlovac, Croatia
+744, SV Roeselare, Belgium
+745, Atyrau, Kazakhstan
+746, Dukla Praha, Czech Republic
+747, Vestsjælland, Denmark
+748, Dunav Ruse, Bulgaria
+749, Gornik Leczna, Poland
+750, Internaţional Curtea de Argeş, Romania
+752, AOK Kerkyra, Greece
+753, Cefn Druids AFC, Wales
+754, Hønefoss, Norway
+755, Lokomotiv Mezdra, Bulgaria
+756, Ranheim, Norway
+757, Taraz, Kazakhstan
+758, Skenderbeu, Albania
+759, Veria FC, Greece
+760, FF Jaro, Finland
+761, Grbalj Radanovici, Montenegro
+762, Glentoran, Northern Ireland
+763, Hapoel Rishon LeZion, Israel
+764, Åtvidaberg, Sweden
+765, Polonia Bytom, Poland
+766, Bnei Sakhnin, Israel
+767, FC KTP, Finland
+768, Panserraikos, Greece
+769, FC Vaduz, Switzerland
+770, Volyn, Ukraine
+771, Örgryte, Sweden
+772, Falkirk, Scotland
+773, Waasland-Beveren, Belgium
+774, Othellos Athienou FC, Cyprus
+775, FK Krupa, Bosnia and Herzegovina
+776, FC Dunărea Călăraşi, Romania
+777, Granit, Belarus
+778, GAIS, Sweden
+779, Ironi Ramat HaSharon, Israel
+780, FC Voluntari, Romania
+781, Čelik Nikšić, Montenegro
+782, WSG Swarovski Tirol, Austria
+783, Ross County, Scotland
+784, Miedź Legnica, Poland
+785, RNK Split, Croatia
+786, Costuleni, Moldova
+787, Sfîntul Gheorghe, Moldova
+788, Lyngby, Denmark
+789, Târgu Mureş, Romania
+790, Carmarthen, Wales
+791, Bekescsaba, Hungary
+792, Diyarbakirspor, Turkey
+793, Sandecja Nowy Sącz, Poland
+794, Universitatea Craiova, Romania
+795, Partick Thistle, Scotland
+796, FC Samtredia, Georgia
+797, Lokomotivi Tbilisi , Georgia
+798, Politehnica Iaşi, Romania
+799, Dubnica, Slovakia
+800, Voinţa Sibiu, Romania
+801, OFK Beograd, Serbia
+802, FK Sileks, Macedonia
+803, Bełchatów, Poland
+804, Gomel, Belarus
+805, Hapoel Kfar Saba FC , Israel
+806, FK Senica, Slovakia
+807, Haka, Finland
+808, ACS Poli Timişoara, Romania
+809, Lausanne Sport, Switzerland
+810, Drava, Slovenia
+811, Muğan, Azerbaijan
+812, Příbram, Czech Republic
+813, FC Rapid Ghidighici, Moldova
+814, Mersin İdmanyurdu, Turkey
+815, KPV, Finland
+816, AC Horsens, Denmark
+817, FC Luch Minsk, Belarus
+818, Dalkurd FF, Sweden
+819, FK Spartaks, Latvia
+820, Speranţa Crihana, Moldova
+821, Javor, Serbia
+822, Lokomotiv Gorna Oryahovitsa, Bulgaria
+823, Akademija Pandev, Macedonia
+824, Levadiakos, Greece
+825, Hapoel Petah Tikva FC, Israel
+826, FK Renova, Macedonia
+827, Shkupi Skopje, Macedonia
+828, FK Sloboda Tuzla, Bosnia and Herzegovina
+829, Vejle Boldklub, Denmark
+830, Odra Wodzisław, Poland
+831, Okzhetpes Kokshetau, Kazakhstan
+832, Granit Mikashevichi, Belarus
+833, Vendsyssel FF, Denmark
+834, Volga Nyzhnyi, Russia
+835, Sektzia Ness Ziona FC, Israel
+836, F91 Dudelange, Luxembourg
+837, SKA-Khabarovsk, Russia
+838, FK Zemun, Serbia
+839, Germinal Beerschot, Belgium
+840, Podbrezová, Slovakia
+841, Slavia-Mozyr, Belarus
+842, Primorje, Slovenia
+843, Aris Limassol, Cyprus
+844, Termalica Nieciecza, Poland
+845, Athlone Town, Ireland
+846, Aarau, Switzerland
+847, Dunaújváros Pálhalma SE, Hungary
+848, Radnički 1923 Kragujevac, Serbia
+849, NK Zadar, Croatia
+850, Nitra, Slovakia
+851, Nyíregyháza Spartacus, Hungary
+852, Wiener Neustadt, Austria
+853, Medimurje, Croatia
+854, Smolevichy, Belarus
+855, FC Kapaz, Azerbaijan
+856, Gyirmót SE, Hungary
+857, FK Pohronie, Slovakia
+858, St. Mirren, Scotland
+859, Hapoel Ra'anana, Israel
+860, FK Donji Srem, Serbia
+861, Hrvatski Dragovoljac, Croatia
+862, Galway United FC, Ireland
+863, AEL Kalloni FC, Greece
+864, Olimpik Sarajevo, Bosnia and Herzegovina
+865, FC Wacker Innsbruck, Austria
+866, Mjøndalen IF, Norway
+867, Ústí nad Labem, Czech Republic
+868, Dinamo-Auto, Moldova
+869, Dukla Banska Bystrica, Slovakia
+870, Victoria Branesti, Romania
+871, BSK Borča, Serbia
+872, Go Ahead Eagles, Netherlands
+873, FC Tskhinvali, Georgia
+874, Llandudno FC, Wales
+875, Siófok, Hungary
+876, Tavriia, Ukraine
+877, Səbail FK, Azerbaijan
+878, NK Triglav Kranj, Slovenia
+879, Unirea Alba Iulia, Romania
+880, Petržalka, Slovakia
+881, Ethnikos Achnas, Cyprus
+882, Cercle Brugge, Belgium
+883, FK Mladost Doboj Kakanj, Bosnia and Herzegovina
+884, Akzhaiyk Uralsk, Kazakhstan
+885, FK Bokelj, Montenegro
+886, Čelik Zenica, Bosnia and Herzegovina
+887, FK Horizont Turnovo, Macedonia
+888, Hobro, Denmark
+889, Neftochimic Burgas 1962, Bulgaria
+890, FK Zvijezda 09, Bosnia and Herzegovina
+893, FK Panevėžys, Lithuania
+894, Kongsvinger, Norway
+895, Halmstads BK, Sweden
+896, Nafta, Slovenia
+897, Sandnes, Norway
+898, Mladi Radnik, Serbia
+899, Surkhon-2011, Uzbekistan
+900, Ankaran Hrvatini, Slovenia
+901, Ceahlăul Piatra, Romania
+902, Mogren, Montenegro
+903, Doxa Dramas, Greece
+904, Dinamo Vranje, Serbia
+905, Sportul Studentesc, Romania
+906, Panthrakikos Komotini, Greece
+907, APOP / Kinyras, Cyprus
+908, Tom' Tomsk, Russia
+909, Spartak Semey, Kazakhstan
+910, Zagłębie Sosnowiec, Poland
+911, Partizani Tirana, Albania
+913, Shelbourne FC , Ireland
+914, Velež Mostar, Bosnia and Herzegovina
+915, Zlate Moravce, Slovakia
+916, FK Kom Podgorica, Montenegro
+917, Limerick, Ireland
+918, Hamilton Academical, Scotland
+919, Marek Dupnitsa, Bulgaria
+921, Ararat-Armenia FC, Armenia
+922, Sabah FK, Azerbaijan
+923, Ermis Aradippou, Cyprus
+924, FK Kauno Zalgiris, Lithuania
+925, FK Šilas, Lithuania
+926, FC Merani Tbilisi, Georgia
+927, Tallinna JK Legion, Estonia
+928, FC Telavi, Georgia
+929, Sunkar, Kazakhstan
+930, OFK Mladost Ljeskopolje, Montenegro
+931, Sliven, Bulgaria
+932, Metalleghe BSI, Bosnia and Herzegovina
+933, Zestafoni, Georgia
+934, Tamme Auto, Estonia
+935, FK Metalac, Serbia
+936, Warrior, Estonia
+937, FK Inđija, Serbia
+938, Platanias, Greece
+939, Krumkachy Minsk, Belarus
+940, Stjarnan, Iceland
+941, APEP, Cyprus
+942, Akademik Sofia, Bulgaria
+943, FC Pasching, Austria
+944, FK Kaspiy Aktau, Kazakhstan
+946, Differdange 03, Luxembourg
+947, Petrovac, Montenegro
+948, Skalica, Slovakia
+949, Kukesi, Albania
+950, FK Jelgava, Latvia
+951, Łódzki KS, Poland
+952, Araz PFK, Azerbaijan
+953, Szolnoki MÁV, Hungary
+954, Sportist Svoge, Bulgaria
+955, Finn Harps , Ireland
+956, Vostok, Kazakhstan
+957, Kokand 1912, Uzbekistan
+958, FK Gorno Lisice, Macedonia
+959, Concordia Chiajna, Romania
+961, SKN Sankt Pölten, Austria
+962, Interblock, Slovenia
+963, Haskovo 2009, Bulgaria
+964, NK Zagreb, Croatia
+965, Kazakhmys, Kazakhstan
+966, FH Hafnarfjordur, Iceland
+967, FK Belasica Strumica, Macedonia
+968, Partizan Minsk, Belarus
+969, FC Spicul Chișcăreni, Moldova
+970, Standard, Azerbaijan
+971, Dunfermline Athletic, Scotland
+972, NK Krsko, Slovenia
+973, Smorgon, Belarus
+974, FK Atlantas, Lithuania
+975, Wexford Youths, Ireland
+976, Penybont FC, Wales
+977, Ballymena United, Northern Ireland
+978, FK Skopje, Macedonia
+979, Cibalia, Croatia
+980, AFC Eskilstuna, Sweden
+981, Lyn, Norway
+982, Bellinzona, Switzerland
+983, Bray Wanderers, Ireland
+984, Prestatyn Town FC, Wales
+985, Mačva Šabac, Serbia
+986, Novi Pazar, Serbia
+988, Jyvaskyla JK, Finland
+989, Sandefjord, Norway
+990, FC Helsingør, Denmark
+992, Hapoel Ramat Gan, Israel
+993, Gloria Bistrita, Romania
+994, Kapfenberger SV, Austria
+995, Hapoel Ironi Akko, Israel
+996, Lovćen, Montenegro
+997, AEZ Zakakiou, Cyprus
+998, Pelister, Macedonia
+999, Maccabi Ahi Nazareth, Israel
+1000, Trelleborgs FF, Sweden
+1001, PK-35 Vantaa, Finland
+1002, Zaprešić, Croatia
+1003, Kyzylzhar Petropavlovsk, Kazakhstan
+1004, Syrianska, Sweden
+1005, Slavija Sarajevo, Bosnia and Herzegovina
+1006, Pirin Gotse Delchev, Bulgaria
+1007, FC Academia Chisinau, Moldova
+1008, Porthmadog, Wales
+1009, NK Rudeš, Croatia
+1010, Hoverla Uzhhorod, Ukraine
+1011, Kruoja Pakruojis, Lithuania
+1012, FK Bačka Palanka, Serbia
+1013, Mladost Velika, Bosnia and Herzegovina
+1014, PS Kemi, Finland
+1015, Revan Baku, Azerbaijan
+1016, Makedonija GjP, Macedonia
+1017, Johvi FC Lokomotiv, Estonia
+1018, SK Babīte, Latvia
+1019, GOŠK Gabela, Bosnia and Herzegovina
+1020, FK Bregalnica Stip, Macedonia
+1021, FB Gulbene, Latvia
+1022, Start, Norway
+1023, Khimki, Russia
+1024, AE Kouklion, Cyprus
+1025, Vidima-Rakovski, Bulgaria
+1026, Apollon Smyrnis, Greece
+1027, Karabükspor, Turkey
+1028, Smederevo, Serbia
+1029, NK Istra 1961, Croatia
+1030, Karvan, Azerbaijan
+1031, Longford Town, Ireland
+1032, Eger, Hungary
+1033, Borac Čačak, Serbia
+1034, Welshpool Town, Wales
+1035, NK Zvijezda Gradacac, Bosnia and Herzegovina
+1036, Hapoel Ashkelon, Israel
+1037, Corona Braşov, Romania
+1038, Rad Beograd, Serbia
+1039, Anagennisi Deryneia, Cyprus
+1040, Naftan Novopolotsk, Belarus
+1041, Haverfordwest County, Wales
+1042, Rudar Prijedor, Bosnia and Herzegovina
+1043, Kaliakra, Bulgaria
+1044, Lietava Jonava, Lithuania
+1045, Travnik, Bosnia and Herzegovina
+1046, Kozara Gradiška, Bosnia and Herzegovina
+1047, CF Ungheni, Moldova
+1048, Lootus, Estonia
+1049, FK Utenis Utena, Lithuania
+1050, FC Stumbras, Lithuania
+1051, MOIK, Azerbaijan
+1052, Gagauziya, Moldova
+1053, Drogheda United, Ireland
+1054, Austria Kärnten, Austria
+1055, FC Sioni Bolnisi, Georgia
+1056, FC Saxan, Moldova
+1057, Croatia Sesvete, Croatia
+1058, Juventus Bucureşti, Romania
+1059, Turan Tovuz, Azerbaijan
+1060, Maardu Linnameeskond, Estonia
+1061, Svetkavitsa, Bulgaria
+1062, Silkeborg, Denmark
+1063, NK Varaždin, Croatia
+1064, Sapovnela, Georgia
+1065, Fk Metalurg Skopje, Macedonia
+1066, FC Rustavi, Georgia
+1067, Lyubimets, Bulgaria
+1068, Pápa, Hungary
+1069, Mioveni, Romania
+1070, Valmiera FK, Latvia
+1071, Dundee FC, Scotland
+1072, FK Drina Zvornik, Bosnia and Herzegovina
+1073, FC Codru Lozova, Moldova
+1074, Kaposvári Rákóczi, Hungary
+1075, Dečić, Montenegro
+1076, FK Palanga, Lithuania
+1077, Brommapojkarna, Sweden
+1078, Dinamo Bender, Moldova
+1079, Falkenbergs FF, Sweden
+1080, Gradina Srebrenik, Bosnia and Herzegovina
+1081, Caersws, Wales
+1082, Tulevik Viljandi, Estonia
+1083, Alki, Cyprus
+1084, Vitez, Bosnia and Herzegovina
+1085, Jedinstvo BP, Montenegro
+1086, FC Guria Lanchkhuti, Georgia
+1087, FC Shukura Kobuleti, Georgia
+1088, Vitosha Bistritsa, Bulgaria
+1089, Napredok, Macedonia
+1090, Rakvere JK Tarvas, Estonia
+1091, HB Køge, Denmark
+1092, Klaipedos Granitas, Lithuania
+1093, Newry City AFC, Northern Ireland
+1094, FK Teteks, Macedonia
+1095, Carrick Rangers, Northern Ireland
+1096, Montana, Bulgaria
+1097, Dungannon Swifts, Northern Ireland
+1098, Ballinamallard United, Northern Ireland
+1099, FK Gostivar, Macedonia
+1100, Afan Lido, Wales
+1101, Tatran Prešov, Slovakia
+1102, Ilukstes NSS, Latvia
+1103, Mladost CD, Macedonia
+1104, FK Banga Gargzdai , Lithuania
+1105, Pobeda, Macedonia
+1106, Dnepr Mogilev, Belarus
+1107, Nistru, Moldova
+1108, Pärnu JK Vaprus, Estonia
+1109, WIT Georgia Tbilisi , Georgia
+1110, Paernu Linnameeskond, Estonia
+1111, FK Leotar, Bosnia and Herzegovina
+1112, Ayia Napa, Cyprus
+1113, University College Dublin, Ireland
+1114, FK Tauras Taurage, Lithuania
+1115, Berane, Montenegro
+1116, Institute FC, Northern Ireland
+1117, Ards, Northern Ireland
+1118, Ajax Lasnamäe, Estonia
+1119, Merani Martvili, Georgia
+1120, Vereya, Bulgaria
+1121, Niki Volou, Greece
+1122, Mornar, Montenegro
+1123, FC Zugdidi, Georgia
+1124, Siauliai, Lithuania
+1125, Radomlje, Slovenia
+1126, FC Torpedo Minsk, Belarus
+1127, FC Kolkheti-1913 Poti, Georgia
+1128, Talinna Kalev, Estonia
+1129, FC Jurmala, Latvia
+1130, Warrenpoint Town, Northern Ireland
+1131, BFC Daugavpils, Latvia
+1132, FC Kuressaare, Estonia
+1133, Metalurh Zaporizhya, Ukraine
+1134, FS Metta/LU, Latvia
+1135, Dainava Alytus, Lithuania
