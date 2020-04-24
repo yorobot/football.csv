@@ -1,17 +1,27 @@
+SPORTDB_PATH = '../../../sportdb/sport.db'
+## note: use the local version of sportdb gems
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-formats/lib" ))
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-countries/lib" ))
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-leagues/lib" ))
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-clubs/lib" ))
+
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-match-formats/lib" ))
+
+
+
 require 'sportdb/readers'
 
 
 
 OPENFOOTBALL_PATH = '../../../openfootball'
-
 ## use (switch to) "external" datasets
 SportDb::Import.config.clubs_dir   = "#{OPENFOOTBALL_PATH}/clubs"
 SportDb::Import.config.leagues_dir = "#{OPENFOOTBALL_PATH}/leagues"
 
 ### "pre-load" leagues & clubs
+COUNTRIES = SportDb::Import.config.countries
 LEAGUES   = SportDb::Import.config.leagues
 CLUBS     = SportDb::Import.config.clubs
-COUNTRIES = SportDb::Import.config.countries
 
 
 
@@ -35,7 +45,12 @@ end
 
 
 
-def read_conf( path, lang:, country: nil, mapping: {} )
+def read_conf( path,
+                lang:,
+                country: nil,
+                mapping: {},
+                exclude: nil,
+                include: nil )
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
@@ -45,11 +60,22 @@ def read_conf( path, lang:, country: nil, mapping: {} )
   DateFormats.lang  = lang
   SportDb.lang.lang = lang
 
-  buf = String.new
-  sum_buf = String.new    ## summary / header buffer
+  buf     = String.new('')
+  sum_buf = String.new('')    ## summary / header buffer
 
   datafiles = Datafile.find( path, MATCH_RE )
   pp datafiles
+
+  if exclude
+    ## filter/select datafiles
+    datafiles = datafiles.select {|datafile| !exclude.call(datafile) }
+  end
+
+  if include   ## todo/check: is include a reserved keyword????
+    ## filter/select datafiles
+    datafiles = datafiles.select {|datafile| include.call(datafile) }
+  end
+
 
   line = "#{datafiles.size} datafiles:\n"
   sum_buf << line; puts line
@@ -73,8 +99,8 @@ def read_conf( path, lang:, country: nil, mapping: {} )
       buf << line; sum_buf << line; puts line
 
       secs.each do |sec|
-        sum_line       = String.new    ## header line
-        sum_more_lines = String.new    ##  optional "body" lines listing errors
+        sum_line       = String.new('')    ## header line
+        sum_more_lines = String.new('')    ##  optional "body" lines listing errors
 
         line =  "    #{sec[:lines].size} lines - "
         line << "league: >#{sec[:league].name}< (#{sec[:league].key}), "
@@ -253,7 +279,8 @@ mapping_cl = {'Arsenal'      => 'Arsenal, ENG',
               'Barcelona'    => 'Barcelona, ESP',
               'Valencia'     => 'Valencia, ESP'}
 path = cl
-buf = read_conf( path, lang: 'en', mapping: mapping_cl )
+buf = read_conf( path, lang: 'en', mapping: mapping_cl,
+                                   exclude: ->(datafile) { datafile =~ /archive/ } )
 
 puts buf
 
