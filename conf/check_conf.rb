@@ -88,9 +88,7 @@ def read_conf( path,
     line = "[#{i+1}/#{datafiles.size}] >#{path_rel}<\n"
     buf << line; sum_buf << line; puts line
 
-
-    txt = File.open( datafile, 'r:utf-8' ).read
-    secs = SportDb::LeagueOutlineReader.parse( txt )
+    secs = SportDb::LeagueOutlineReader.read( datafile )
     if secs.size == 0
       line = "  !!! ERROR !!! - NO sections found; 0 sections\n"
       buf << line;  sum_buf << line; puts line
@@ -113,7 +111,7 @@ def read_conf( path,
         buf << line; puts line
 
 
-        clubs, rounds = parse( sec[:lines ])
+        clubs, rounds, groups, round_defs, group_defs = parse( sec[:lines ])
         line = "      #{clubs.size} clubs:\n"
         buf << line
 
@@ -203,20 +201,52 @@ def read_conf( path,
           end
         end
 
-        line = "      #{rounds.size} rounds:\n"
-        buf << line
 
-        sum_line << ", #{rounds.size} rounds"
-
-
-        rounds.each do |round_name, round_hash|
-          line = "        "
-          line << "#{round_name}"
-          line << " ×#{round_hash[:count]}"     if round_hash[:count] > 1
-          line << ", #{round_hash[:match_count]} matches"
-          line << "\n"
+        if groups.size > 0
+          line = "      #{groups.size} groups:\n"
           buf << line
+
+          groups.each do |group_name, group_hash|
+            line = "        "
+            line << "#{group_name}"
+            line << " ×#{group_hash[:count]}"     if group_hash[:count] > 1
+            line << ", #{group_hash[:match_count]} matches"
+            line << "\n"
+            buf << line
+          end
         end
+
+        if round_defs.size > 0
+          line = "      #{round_defs.size} round defs:\n"
+          buf << line
+
+          round_defs.each do |round_name, _|
+            line = "        "
+            line << "#{round_name}"
+            line << "\n"
+            buf << line
+          end
+        end
+
+        if rounds.size > 0
+          line = "      #{rounds.size} rounds:\n"
+          buf << line
+
+          rounds.each do |round_name, round_hash|
+            line = "        "
+            line << "#{round_name}"
+            line << " ×#{round_hash[:count]}"     if round_hash[:count] > 1
+            line << ", #{round_hash[:match_count]} matches"
+            line << "\n"
+            buf << line
+          end
+        end
+
+
+        sum_line << ", #{group_defs.size} group def"    if group_defs.size > 0
+        sum_line << ", #{groups.size} groups"           if groups.size > 0
+        sum_line << ", #{round_defs.size} round defs"   if round_defs.size > 0
+        sum_line << ", #{rounds.size} rounds"
 
         sum_buf << sum_line
         sum_buf << "\n"
