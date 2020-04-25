@@ -52,6 +52,10 @@ def read_conf( path,
                 exclude: nil,
                 include: nil )
 
+  ## track all unmatched lines etc.
+  errors = {}
+
+
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
     puts "  dir >#{path}< missing; NOT found"
     exit 1
@@ -96,7 +100,7 @@ def read_conf( path,
       line = "  #{secs.size} section(s):\n"
       buf << line; sum_buf << line; puts line
 
-      secs.each do |sec|
+      secs.each_with_index do |sec,j|
         sum_line       = String.new('')    ## header line
         sum_more_lines = String.new('')    ##  optional "body" lines listing errors
 
@@ -111,12 +115,20 @@ def read_conf( path,
         buf << line; puts line
 
 
-        clubs, rounds, groups, round_defs, group_defs = parse( sec[:lines ])
+        clubs, rounds, groups, round_defs, group_defs, warns = parse( sec[:lines ])
+
+        if warns.size > 0
+          buf << "!! #{warns.size} warn(s) - unmatched lines:\n"
+          warns.each do |warn|
+             buf << "   >#{warn}<\n"
+          end
+
+          errors["#{path_rel}[#{j+1}]"][:warns] = warns
+        end
+
+
         line = "      #{clubs.size} clubs:\n"
         buf << line
-
-        sum_line << ", #{clubs.size} clubs"
-
 
         ## sort clubs by usage
         clubs_sorted = clubs.to_a.sort do |l,r|
@@ -142,6 +154,12 @@ def read_conf( path,
                              ## warn and try again with country
                              line = "    WARN: too many name matches (#{m.size}) found for >#{club_name}<\n"
                              ## todo/fix: add / log club matches here too!!!
+
+                             ## todo/fix: too_many_matches - find a better name?
+                             errors["#{path_rel}[#{j+1}]"] ||= {}
+                             errors["#{path_rel}[#{j+1}]"][:club_too_many_matches] ||= []
+                             errors["#{path_rel}[#{j+1}]"][:club_too_many_matches] << club_name
+
                              buf << line; sum_buf << line
                              values = mapping[ club_name ].split( ',' )
                              values = values.map { |value| value.strip }  ## strip all spaces
@@ -169,6 +187,10 @@ def read_conf( path,
           line = "     "
           if club_rec.nil?
              line << "!! "
+
+             errors["#{path_rel}[#{j+1}]"] ||= {}
+             errors["#{path_rel}[#{j+1}]"][:club_missing] ||= []
+             errors["#{path_rel}[#{j+1}]"][:club_missing] << club_name
           else
              line << "   "
           end
@@ -197,6 +219,10 @@ def read_conf( path,
             if names.size > 1
               line = "    #{names.size} duplicate names for >#{rec.name}<:  #{names.join(' | ')}\n"
               buf << line; sum_more_lines << line
+
+              errors["#{path_rel}[#{j+1}]"] ||= {}
+              errors["#{path_rel}[#{j+1}]"][:club_duplicates] ||= []
+              errors["#{path_rel}[#{j+1}]"][:club_duplicates] << line
             end
           end
         end
@@ -242,7 +268,7 @@ def read_conf( path,
           end
         end
 
-
+        sum_line << ", #{clubs.size} clubs"
         sum_line << ", #{group_defs.size} group def"    if group_defs.size > 0
         sum_line << ", #{groups.size} groups"           if groups.size > 0
         sum_line << ", #{round_defs.size} round defs"   if round_defs.size > 0
@@ -255,8 +281,7 @@ def read_conf( path,
     end
   end
 
-
-  sum_buf + "\n\n" + buf
+  [sum_buf + "\n\n" + buf, errors]
 end
 
 
@@ -309,10 +334,16 @@ mapping_cl = {'Arsenal'      => 'Arsenal, ENG',
               'Barcelona'    => 'Barcelona, ESP',
               'Valencia'     => 'Valencia, ESP'}
 path = cl
-buf = read_conf( path, lang: 'en', mapping: mapping_cl,
+buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
                                    exclude: ->(datafile) { datafile =~ /archive/ } )
 
 puts buf
+
+if errors.size > 0
+  puts "!! errors / warns:"
+  pp errors
+end
+
 
 
 ## save
