@@ -6,10 +6,11 @@ $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-leagues/lib" ))
 $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-clubs/lib" ))
 
 $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-match-formats/lib" ))
+$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-config/lib" ))
 
 
 
-require 'sportdb/readers'
+require 'sportdb/readers'  ## fix: use/try sportdb/config !!!!
 
 
 
@@ -19,9 +20,10 @@ SportDb::Import.config.clubs_dir   = "#{OPENFOOTBALL_PATH}/clubs"
 SportDb::Import.config.leagues_dir = "#{OPENFOOTBALL_PATH}/leagues"
 
 ### "pre-load" leagues & clubs
-COUNTRIES = SportDb::Import.config.countries
-LEAGUES   = SportDb::Import.config.leagues
-CLUBS     = SportDb::Import.config.clubs
+COUNTRIES      = SportDb::Import.config.countries
+LEAGUES        = SportDb::Import.config.leagues
+CLUBS          = SportDb::Import.config.clubs
+NATIONAL_TEAMS = SportDb::Import.config.national_teams
 
 
 
@@ -30,17 +32,53 @@ CLUBS     = SportDb::Import.config.clubs
 MATCH_RE = %r{ /(
                   \d{4}-\d{2}   ## (summer/winter) season folder e.g. /2019-20
                    |
-                  \d{4}         ## all year season folder e.g. /2019
+                  \d{4}(--[^/]+)?     ## all year season folder e.g. /2019 or /2016--france
                 )
                    /[a-z0-9_-]+\.txt$  ## txt e.g /1-premierleague.txt
-                }x
+              }x
 
 
 
 def parse( lines )
-  start = Date.new( Date.today.year, 7, 1 )   ## fix: use a better date heuristic / guesser
+  start = Date.new( Date.today.year, 6, 1 )   ## fix: use a better date heuristic / guesser
   parser = SportDb::AutoConfParser.new( lines, start )
   parser.parse
+end
+
+
+
+def find_club_by( name:, country: nil, mapping: nil, warns: nil )
+  club_name = name
+
+  if country
+    CLUBS.find_by( name: club_name, country: country )
+  else  ## assume int'l competition
+    m = CLUBS.match( club_name )
+    if m
+      if m.size > 1
+        if mapping[ club_name ]
+          ## warn and try again with countr
+          if warns
+            warns << "WARN: too many name matches (#{m.size}) found for >#{club_name}<"
+            ## todo/fix: add / log club matches here too!!!
+          end
+
+          values = mapping[ club_name ].split( ',' )
+          values = values.map { |value| value.strip }  ## strip all spaces
+          club_name_fix, country_fix = values
+          CLUBS.find_by( name: club_name_fix, country: country_fix )
+        else
+          puts "** ERROR: too many name matches for >#{club_name}<:"
+          pp m
+          exit 1
+        end
+      else
+        m[0]
+      end
+    else
+      nil
+    end
+  end
 end
 
 
@@ -53,7 +91,7 @@ def read_conf( path,
                 include: nil )
 
   ## track all unmatched lines etc.
-  errors = {}
+  errors = []
 
 
   unless File.directory?( path )   ## check if path exists (AND is a direcotry)
@@ -115,111 +153,95 @@ def read_conf( path,
         buf << line; puts line
 
 
-        clubs, rounds, groups, round_defs, group_defs, warns = parse( sec[:lines ])
+        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( sec[:lines ])
 
-        if warns.size > 0
-          buf << "!! #{warns.size} warn(s) - unmatched lines:\n"
-          warns.each do |warn|
-             buf << "   >#{warn}<\n"
+        if extra_lines.size > 0
+          buf << "!! #{extra_lines.size} unmatched lines:\n"
+          extra_lines.each do |line|
+             buf << "   >#{line}<\n"
           end
 
-          errors["#{path_rel}[#{j+1}]"][:warns] = warns
+          errors << "#{path_rel}[#{j+1}] - #{extra_lines.size} unmatched lines: #{extra_lines}"
         end
 
 
-        line = "      #{clubs.size} clubs:\n"
+        line = "      #{teams.size} teams:\n"
         buf << line
 
-        ## sort clubs by usage
-        clubs_sorted = clubs.to_a.sort do |l,r|
+        ## sort teams by usage
+        teams_sorted = teams.to_a.sort do |l,r|
           res =  r[1] <=> l[1]   ## by count
-          res =  l[0] <=> r[0]  if res == 0  ## by club name
+          res =  l[0] <=> r[0]  if res == 0  ## by team name
           res
         end
 
-        club_recs      = []
-        club_recs_uniq = {}   ## for reporting duplicate club records
+        team_recs      = []
+        team_recs_uniq = {}   ## for reporting duplicate team records
 
-        clubs_sorted.each do |rec|
-          club_name, count = rec
+        teams_sorted.each do |rec|
+          name, count = rec
+          team_rec = nil
 
           ## try matching club name
-          club_rec = if country
-                       CLUBS.find_by( name: club_name, country: country )
-                     else  ## assume int'l competition
-                       m = CLUBS.match( club_name )
-                       if m
-                         if m.size > 1
-                           if mapping[ club_name ]
-                             ## warn and try again with country
-                             line = "    WARN: too many name matches (#{m.size}) found for >#{club_name}<\n"
-                             ## todo/fix: add / log club matches here too!!!
+          if sec[:league].clubs?
+            warns = []
+            team_rec = find_club_by( name:    name,
+                                     country: country,
+                                     mapping: mapping,
+                                     warns:   warns )
 
-                             ## todo/fix: too_many_matches - find a better name?
-                             errors["#{path_rel}[#{j+1}]"] ||= {}
-                             errors["#{path_rel}[#{j+1}]"][:club_too_many_matches] ||= []
-                             errors["#{path_rel}[#{j+1}]"][:club_too_many_matches] << club_name
+            if warns.size > 0
+              line = warns.join("\n")+"\n"
+              buf << line; sum_buf << line
 
-                             buf << line; sum_buf << line
-                             values = mapping[ club_name ].split( ',' )
-                             values = values.map { |value| value.strip }  ## strip all spaces
-                             club_name_fix, country_fix = values
-                             CLUBS.find_by( name: club_name_fix, country: country_fix )
-                           else
-                             puts "** ERROR: too many name matches for >#{club_name}<:"
-                             pp m
-                             exit 1
-                           end
-                         else
-                           m[0]
-                         end
-                       else
-                         nil
-                       end
-                     end
+              errors << "#{path_rel}[#{j+1}] - #{warns.join('; ')}"
+            end
+          else
+            team_rec = NATIONAL_TEAMS.find( name )
+          end
 
-          if club_rec   ## add if match found
-             club_recs << club_rec
-             club_recs_uniq[club_rec] ||= []
-             club_recs_uniq[club_rec] << club_name
+
+          if team_rec   ## add if match found
+             team_recs << team_rec
+             team_recs_uniq[team_rec] ||= []
+             team_recs_uniq[team_rec] << name
           end
 
           line = "     "
-          if club_rec.nil?
+          if team_rec.nil?
              line << "!! "
 
-             errors["#{path_rel}[#{j+1}]"] ||= {}
-             errors["#{path_rel}[#{j+1}]"][:club_missing] ||= []
-             errors["#{path_rel}[#{j+1}]"][:club_missing] << club_name
+             errors << "#{path_rel}[#{j+1}] - team missing / not found >#{name}<"
           else
              line << "   "
           end
 
           line << "#{count}× "     if count > 1
-          line << "#{club_name}"
+          line << "#{name}"
 
-          ## note: only print mapping if club name differs (from canonical club name)
-          if club_rec && club_rec.name != club_name
-            line << " ⇒ #{club_rec.name}"
+          ## note: only print mapping if team name differs (from canonical team name)
+          if team_rec && team_rec.name != name
+            line << " ⇒ #{team_rec.name}"
           end
 
           line << "\n"
           buf << line
-          sum_more_lines << line    if club_rec.nil?
+          sum_more_lines << line    if team_rec.nil?
         end
 
         ## check if all club_recs are uniq(ue)
-        diff = club_recs.size - club_recs_uniq.size
+        diff = team_recs.size - team_recs_uniq.size
         if diff > 0
-          line = "!! ERROR: #{diff} duplicate club record(s) found\n"
+          line = "!! ERROR: #{diff} duplicate team record(s) found\n"
           buf << line; sum_more_lines << line
 
           ## find duplicate records
-          club_recs_uniq.each do |rec, names|
+          team_recs_uniq.each do |rec, names|
             if names.size > 1
               line = "    #{names.size} duplicate names for >#{rec.name}<:  #{names.join(' | ')}\n"
               buf << line; sum_more_lines << line
 
+              ### fix!!!! use errors << line!!!
               errors["#{path_rel}[#{j+1}]"] ||= {}
               errors["#{path_rel}[#{j+1}]"][:club_duplicates] ||= []
               errors["#{path_rel}[#{j+1}]"][:club_duplicates] << line
@@ -268,7 +290,7 @@ def read_conf( path,
           end
         end
 
-        sum_line << ", #{clubs.size} clubs"
+        sum_line << ", #{teams.size} teams"
         sum_line << ", #{group_defs.size} group def"    if group_defs.size > 0
         sum_line << ", #{groups.size} groups"           if groups.size > 0
         sum_line << ", #{round_defs.size} round defs"   if round_defs.size > 0
@@ -298,6 +320,9 @@ ru  = "#{OPENFOOTBALL_PATH}/russia"
 mx  = "#{OPENFOOTBALL_PATH}/mexico"
 
 cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
+
+euro  = "#{OPENFOOTBALL_PATH}/euro-cup"
+world = "#{OPENFOOTBALL_PATH}/world-cup"
 
 # path = eng
 # buf = read_conf( path, lang: 'en', country: 'eng' )
@@ -333,16 +358,26 @@ mapping_cl = {'Arsenal'      => 'Arsenal, ENG',
               'Liverpool FC' => 'Liverpool, ENG',
               'Barcelona'    => 'Barcelona, ESP',
               'Valencia'     => 'Valencia, ESP'}
-path = cl
-buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
-                                   exclude: ->(datafile) { datafile =~ /archive/ } )
+# path = cl
+# buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
+#                                   exclude: ->(datafile) { datafile =~ /archive/ } )
+
+# path = euro
+# buf, errors = read_conf( path, lang: 'en' )
+
+path = world
+buf, errors = read_conf( path, lang: 'en' )
 
 puts buf
 
 if errors.size > 0
-  puts "!! errors / warns:"
-  pp errors
+  puts "#{errors.size} errors / warns:"
+  errors.each do |error|
+    puts "!! error: #{error}"
+  end
 end
+
+puts "bye"
 
 
 
