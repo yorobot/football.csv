@@ -1,41 +1,4 @@
-SPORTDB_PATH = '../../../sportdb/sport.db'
-## note: use the local version of sportdb gems
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-formats/lib" ))
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-countries/lib" ))
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-leagues/lib" ))
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-clubs/lib" ))
-
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-match-formats/lib" ))
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-config/lib" ))
-
-
-
-require 'sportdb/readers'  ## fix: use/try sportdb/config !!!!
-
-
-
-OPENFOOTBALL_PATH = '../../../openfootball'
-## use (switch to) "external" datasets
-SportDb::Import.config.clubs_dir   = "#{OPENFOOTBALL_PATH}/clubs"
-SportDb::Import.config.leagues_dir = "#{OPENFOOTBALL_PATH}/leagues"
-
-### "pre-load" leagues & clubs
-COUNTRIES      = SportDb::Import.config.countries
-LEAGUES        = SportDb::Import.config.leagues
-CLUBS          = SportDb::Import.config.clubs
-NATIONAL_TEAMS = SportDb::Import.config.national_teams
-
-
-
-
-
-MATCH_RE = %r{ /(
-                  \d{4}-\d{2}   ## (summer/winter) season folder e.g. /2019-20
-                   |
-                  \d{4}(--[^/]+)?     ## all year season folder e.g. /2019 or /2016--france
-                )
-                   /[a-z0-9_-]+\.txt$  ## txt e.g /1-premierleague.txt
-              }x
+require_relative 'boot'
 
 
 
@@ -47,37 +10,22 @@ end
 
 
 
+
 def find_club_by( name:, country: nil, mapping: nil, warns: nil )
-  club_name = name
 
-  if country
-    CLUBS.find_by( name: club_name, country: country )
-  else  ## assume int'l competition
-    m = CLUBS.match( club_name )
-    if m
-      if m.size > 1
-        if mapping[ club_name ]
-          ## warn and try again with countr
-          if warns
-            warns << "WARN: too many name matches (#{m.size}) found for >#{club_name}<"
-            ## todo/fix: add / log club matches here too!!!
-          end
-
-          values = mapping[ club_name ].split( ',' )
-          values = values.map { |value| value.strip }  ## strip all spaces
-          club_name_fix, country_fix = values
-          CLUBS.find_by( name: club_name_fix, country: country_fix )
-        else
-          puts "** ERROR: too many name matches for >#{club_name}<:"
-          pp m
-          exit 1
-        end
-      else
-        m[0]
+  if mapping && mapping[ name ]
+    ## todo/fix: check for warn too many matches or no match etc. -why? why not?
+    if warns
+      m = CLUBS.match( name )
+      if m && m.size > 1
+         warns << "WARN: too many name matches (#{m.size}) found for >#{name}<"
+        ## todo/fix: add / log club matches here too!!!
       end
-    else
-      nil
     end
+
+    mapping[ name ]
+  else
+    CLUBS.find_by( name: name, country: country )
   end
 end
 
@@ -93,50 +41,79 @@ def read_conf( path,
   ## track all unmatched lines etc.
   errors = []
 
+  pack = SportDb::Package.new( path )
 
-  unless File.directory?( path )   ## check if path exists (AND is a direcotry)
-    puts "  dir >#{path}< missing; NOT found"
-    exit 1
-  end
+  SportDb::Import.config.lang = lang
 
-  DateFormats.lang  = lang
-  SportDb.lang.lang = lang
 
-  buf     = String.new('')
+  buf     = String.new('')    ## fix: use Buffer.new !!!! check string lang utils?
   sum_buf = String.new('')    ## summary / header buffer
 
-  datafiles = Datafile.find( path, MATCH_RE )
-  pp datafiles
 
-  if exclude
-    ## filter/select datafiles
-    datafiles = datafiles.select {|datafile| !exclude.call(datafile) }
+  country =  COUNTRIES.find( country )   if country  ## map to country_rec - fix: in find_by !!!!
+
+  ##
+  ##  todo/fix: use pack.exclude =
+  ##            use pack.include =
+  ##   and than use "internal" filter method - why? why not?
+
+
+  filter = ->(entry) do
+    if include
+      if include.call( entry.name )   ## todo/check: is include a reserved keyword????
+        true  ## todo/check: check for exclude here too - why? why not?
+      else
+        false
+      end
+    else
+      if exclude && exclude.call( entry.name )
+        false
+      else
+        true
+      end
+    end
   end
 
-  if include   ## todo/check: is include a reserved keyword????
-    ## filter/select datafiles
-    datafiles = datafiles.select {|datafile| include.call(datafile) }
-  end
 
+  ## pass 1: collect datafiles
+  datafiles = []
+  pack.each_match do |entry|
+    puts entry.name
+
+    ## filter/select datafiles
+    next  unless filter.call( entry )
+
+    datafiles << entry.name
+  end
 
   line = "#{datafiles.size} datafiles:\n"
-  sum_buf << line; puts line
+  sum_buf << line
 
 
-  country =  COUNTRIES[ country ]   if country  ## map to country_rec - fix: in find_by !!!!
 
-  datafiles.each_with_index do |datafile,i|
-    path_rel = datafile[path.length+1..-1]
-    line = "[#{i+1}/#{datafiles.size}] >#{path_rel}<\n"
-    buf << line; sum_buf << line; puts line
+  datafile_count = pack.match_count
 
-    secs = SportDb::LeagueOutlineReader.read( datafile )
+
+  pack.each_match_with_index do |entry,i|
+    puts entry.name
+
+    ## filter/select datafiles
+    next  unless filter.call( entry )
+
+    line = "[#{i+1}/#{datafiles.size}] >#{entry.name}<\n"
+    buf << line; sum_buf << line
+
+    secs = SportDb::LeagueOutlineReader.parse( entry.read )
+
     if secs.size == 0
       line = "  !!! ERROR !!! - NO sections found; 0 sections\n"
-      buf << line;  sum_buf << line; puts line
-    else
+      buf << line;  sum_buf << line
+      next
+    end
+
+
       line = "  #{secs.size} section(s):\n"
-      buf << line; sum_buf << line; puts line
+      buf << line; sum_buf << line
 
       secs.each_with_index do |sec,j|
         sum_line       = String.new('')    ## header line
@@ -161,12 +138,11 @@ def read_conf( path,
              buf << "   >#{line}<\n"
           end
 
-          errors << "#{path_rel}[#{j+1}] - #{extra_lines.size} unmatched lines: #{extra_lines}"
+          errors << "#{entry.name}[#{j+1}] - #{extra_lines.size} unmatched lines: #{extra_lines}"
         end
 
 
-        line = "      #{teams.size} teams:\n"
-        buf << line
+        buf << "      #{teams.size} teams:\n"
 
         ## sort teams by usage
         teams_sorted = teams.to_a.sort do |l,r|
@@ -194,7 +170,7 @@ def read_conf( path,
               line = warns.join("\n")+"\n"
               buf << line; sum_buf << line
 
-              errors << "#{path_rel}[#{j+1}] - #{warns.join('; ')}"
+              errors << "#{entry.name}[#{j+1}] - #{warns.join('; ')}"
             end
           else
             team_rec = NATIONAL_TEAMS.find( name )
@@ -211,7 +187,7 @@ def read_conf( path,
           if team_rec.nil?
              line << "!! "
 
-             errors << "#{path_rel}[#{j+1}] - team missing / not found >#{name}<"
+             errors << "#{entry.name}[#{j+1}] - team missing / not found >#{name}<"
           else
              line << "   "
           end
@@ -241,18 +217,14 @@ def read_conf( path,
               line = "    #{names.size} duplicate names for >#{rec.name}<:  #{names.join(' | ')}\n"
               buf << line; sum_more_lines << line
 
-              ### fix!!!! use errors << line!!!
-              errors["#{path_rel}[#{j+1}]"] ||= {}
-              errors["#{path_rel}[#{j+1}]"][:club_duplicates] ||= []
-              errors["#{path_rel}[#{j+1}]"][:club_duplicates] << line
+              errors << "#{entry.name}[#{j+1}] #{line}"
             end
           end
         end
 
 
         if groups.size > 0
-          line = "      #{groups.size} groups:\n"
-          buf << line
+          buf << "      #{groups.size} groups:\n"
 
           groups.each do |group_name, group_hash|
             line = "        "
@@ -265,8 +237,7 @@ def read_conf( path,
         end
 
         if round_defs.size > 0
-          line = "      #{round_defs.size} round defs:\n"
-          buf << line
+          buf << "      #{round_defs.size} round defs:\n"
 
           round_defs.each do |round_name, _|
             line = "        "
@@ -277,8 +248,7 @@ def read_conf( path,
         end
 
         if rounds.size > 0
-          line = "      #{rounds.size} rounds:\n"
-          buf << line
+          buf << "      #{rounds.size} rounds:\n"
 
           rounds.each do |round_name, round_hash|
             line = "        "
@@ -299,12 +269,12 @@ def read_conf( path,
         sum_buf << sum_line
         sum_buf << "\n"
         sum_buf << sum_more_lines
-      end ## each section
-    end
-  end
+      end  # each sec
+  end  # each entry
 
   [sum_buf + "\n\n" + buf, errors]
 end
+
 
 
 at  = "#{OPENFOOTBALL_PATH}/austria"   ## de
@@ -352,21 +322,45 @@ world = "#{OPENFOOTBALL_PATH}/world-cup"
 # buf = read_conf( path, lang: 'es', country: 'mx' )
 
 
-mapping_cl = {'Arsenal'      => 'Arsenal, ENG',
-              'Arsenal FC'   => 'Arsenal, ENG',
-              'Liverpool'    => 'Liverpool, ENG',
-              'Liverpool FC' => 'Liverpool, ENG',
-              'Barcelona'    => 'Barcelona, ESP',
-              'Valencia'     => 'Valencia, ESP'}
-# path = cl
-# buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
-#                                   exclude: ->(datafile) { datafile =~ /archive/ } )
+def build_mapping( mapping )
+  mapping.reduce({}) do |h,(club_names, club_line)|
+
+    values = club_line.split( ',' )
+    values = values.map { |value| value.strip }  ## strip all spaces
+
+    ## todo/fix: make sure country is present !!!!
+    club_name, country_name = values
+    club = CLUBS.find_by!( name: club_name, country: country_name )
+
+    values = club_names.split( '|' )
+    values = values.map { |value| value.strip }  ## strip all spaces
+
+    values.each do |club_name|
+      h[club_name] = club
+    end
+    h
+  end
+end
+
+
+mapping_cl = build_mapping({
+'Arsenal   | Arsenal FC'    => 'Arsenal, ENG',
+'Liverpool | Liverpool FC'  => 'Liverpool, ENG',
+'Barcelona'                 => 'Barcelona, ESP',
+'Valencia'                  => 'Valencia, ESP'
+})
+
+
+
+path = cl
+buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
+                                   exclude: ->(datafile) { datafile =~ /archive/ } )
 
 # path = euro
 # buf, errors = read_conf( path, lang: 'en' )
 
-path = world
-buf, errors = read_conf( path, lang: 'en' )
+# path = world
+# buf, errors = read_conf( path, lang: 'en' )
 
 puts buf
 
@@ -382,6 +376,6 @@ puts "bye"
 
 
 ## save
-File.open( "#{path}/.build/conf.txt", 'w:utf-8' ) do |f|
- f.write( buf )
-end
+# File.open( "#{path}/.build/conf.txt", 'w:utf-8' ) do |f|
+# f.write( buf )
+# end
