@@ -2,8 +2,7 @@ require_relative 'boot'
 
 
 
-def parse( lines )
-  start = Date.new( Date.today.year, 6, 1 )   ## fix: use a better date heuristic / guesser
+def parse( lines, start: )
   parser = SportDb::AutoConfParser.new( lines, start )
   parser.parse
 end
@@ -42,6 +41,8 @@ def read_conf( path,
   errors = []
 
   pack = SportDb::Package.new( path )
+  pack.include = include
+  pack.exclude = exclude
 
   SportDb::Import.config.lang = lang
 
@@ -52,56 +53,21 @@ def read_conf( path,
 
   country =  COUNTRIES.find( country )   if country  ## map to country_rec - fix: in find_by !!!!
 
-  ##
-  ##  todo/fix: use pack.exclude =
-  ##            use pack.include =
-  ##   and than use "internal" filter method - why? why not?
 
 
-  filter = ->(entry) do
-    if include
-      if include.call( entry.name )   ## todo/check: is include a reserved keyword????
-        true  ## todo/check: check for exclude here too - why? why not?
-      else
-        false
-      end
-    else
-      if exclude && exclude.call( entry.name )
-        false
-      else
-        true
-      end
-    end
-  end
-
-
-  ## pass 1: collect datafiles
-  datafiles = []
-  pack.each_match do |entry|
-    puts entry.name
-
-    ## filter/select datafiles
-    next  unless filter.call( entry )
-
-    datafiles << entry.name
-  end
-
-  line = "#{datafiles.size} datafiles:\n"
-  sum_buf << line
-
-
-
+  ## pass 1: count datafiles
   datafile_count = pack.match_count
+
+  line = "#{datafile_count} datafiles:\n"
+  sum_buf << line
 
 
   pack.each_match_with_index do |entry,i|
     puts entry.name
 
-    ## filter/select datafiles
-    next  unless filter.call( entry )
-
-    line = "[#{i+1}/#{datafiles.size}] >#{entry.name}<\n"
+    line = "[#{i+1}/#{datafile_count}] >#{entry.name}<\n"
     buf << line; sum_buf << line
+
 
     secs = SportDb::LeagueOutlineReader.parse( entry.read )
 
@@ -129,8 +95,15 @@ def read_conf( path,
         line << "\n"
         buf << line; puts line
 
+        season = SportDb::Import::Season.new( sec[:season] )
+        start  = if season.year?
+                   Date.new( season.start_year, 1, 1 )
+                 else
+                  ## use 6,1  - why? why not?
+                   Date.new( season.start_year, 7, 1 )
+                 end
 
-        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( sec[:lines ])
+        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( sec[:lines ], start: start )
 
         if extra_lines.size > 0
           buf << "!! #{extra_lines.size} unmatched lines:\n"
@@ -167,10 +140,12 @@ def read_conf( path,
                                      warns:   warns )
 
             if warns.size > 0
-              line = warns.join("\n")+"\n"
-              buf << line; sum_buf << line
+              warns.each do |warn|
+               line = warn
+               buf << line; sum_buf << line
 
-              errors << "#{entry.name}[#{j+1}] - #{warns.join('; ')}"
+               errors << "#{entry.name}[#{j+1}] - #{warn}"
+              end
             end
           else
             team_rec = NATIONAL_TEAMS.find( name )
@@ -277,49 +252,7 @@ end
 
 
 
-at  = "#{OPENFOOTBALL_PATH}/austria"   ## de
-fr  = "#{OPENFOOTBALL_PATH}/france"    ## fr
-it  = "#{OPENFOOTBALL_PATH}/italy"     ## it
-es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
 
-de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
-eng = "#{OPENFOOTBALL_PATH}/england"   ## en
-
-br  = "#{OPENFOOTBALL_PATH}/brazil"
-ru  = "#{OPENFOOTBALL_PATH}/russia"
-mx  = "#{OPENFOOTBALL_PATH}/mexico"
-
-cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
-
-euro  = "#{OPENFOOTBALL_PATH}/euro-cup"
-world = "#{OPENFOOTBALL_PATH}/world-cup"
-
-# path = eng
-# buf = read_conf( path, lang: 'en', country: 'eng' )
-
-# path = de
-# buf = read_conf( path, lang: 'de', country: 'de' )
-
-# path = at
-# buf = read_conf( path, lang: 'de', country: 'at' )
-
-# path = es
-# buf = read_conf( path, lang: 'es', country: 'es' )
-
-# path = fr
-# buf = read_conf( path, lang: 'fr', country: 'fr' )
-
-# path = it
-# buf = read_conf( path, lang: 'it', country: 'it' )
-
-# path = ru
-# buf = read_conf( path, lang: 'en', country: 'ru' )   ## note: use english fallback / default lang for now
-
-# path = br
-# buf = read_conf( path, lang: 'pt', country: 'br' )
-
-# path = mx
-# buf = read_conf( path, lang: 'es', country: 'mx' )
 
 
 def build_mapping( mapping )
@@ -342,7 +275,6 @@ def build_mapping( mapping )
   end
 end
 
-
 mapping_cl = build_mapping({
 'Arsenal   | Arsenal FC'    => 'Arsenal, ENG',
 'Liverpool | Liverpool FC'  => 'Liverpool, ENG',
@@ -352,24 +284,74 @@ mapping_cl = build_mapping({
 
 
 
-path = cl
-buf, errors = read_conf( path, lang: 'en', mapping: mapping_cl,
-                                   exclude: ->(datafile) { datafile =~ /archive/ } )
+eng = "#{OPENFOOTBALL_PATH}/england"   ## en
+de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
+at  = "#{OPENFOOTBALL_PATH}/austria"   ## de
+es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
+fr  = "#{OPENFOOTBALL_PATH}/france"    ## fr
+it  = "#{OPENFOOTBALL_PATH}/italy"     ## it
+ru  = "#{OPENFOOTBALL_PATH}/russia"
 
-# path = euro
-# buf, errors = read_conf( path, lang: 'en' )
+br  = "#{OPENFOOTBALL_PATH}/brazil"
+mx  = "#{OPENFOOTBALL_PATH}/mexico"
 
-# path = world
-# buf, errors = read_conf( path, lang: 'en' )
+cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
 
-puts buf
+euro  = "#{OPENFOOTBALL_PATH}/euro-cup"
+world = "#{OPENFOOTBALL_PATH}/world-cup"
 
-if errors.size > 0
-  puts "#{errors.size} errors / warns:"
-  errors.each do |error|
-    puts "!! error: #{error}"
+
+datasets = [
+  [eng, { lang: 'en', country: 'eng' }],
+  [de,  { lang: 'de', country: 'de' }],
+  [at,  { lang: 'de', country: 'at' }],
+  [es,  { lang: 'es', country: 'es' }],
+  [fr,  { lang: 'fr', country: 'fr' }],
+  [it,  { lang: 'it', country: 'it' }],
+  [ru,  { lang: 'en', country: 'ru' }],   ## note: use english fallback / default lang for now
+
+  [br,  { lang: 'pt', country: 'br' }],
+  [mx,  { lang: 'es', country: 'mx' }],
+
+  [cl,  { lang: 'en', mapping: mapping_cl }],
+
+  [euro,  { lang: 'en' }],
+  [world, { lang: 'en' }],
+]
+
+
+errors_by_dataset = []
+
+datasets.each do |dataset|
+  path   = dataset[0]
+  kwargs = dataset[1]
+
+  buf, errors = read_conf( path, exclude: /archive/,
+                                 **kwargs )
+  puts buf
+
+  errors_by_dataset << [File.basename(path), errors]
+end
+
+
+errors_by_dataset.each do |rec|
+  dataset = rec[0]
+  errors  = rec[1]
+
+  puts
+  puts "==== #{dataset} ===="
+
+  if errors.size > 0
+    puts "#{errors.size} error(s) / warn(s):"
+    errors.each do |error|
+      puts "!! error: #{error}"
+    end
+  else
+    puts "#{errors.size} errors / warns"
   end
 end
+
+
 
 puts "bye"
 
