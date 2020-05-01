@@ -7,6 +7,10 @@ def parse( lines, start: )
   parser.parse
 end
 
+def parse_match( lines, teams, start: )
+  parser = SportDb::MatchParserSimpleV2.new( lines, teams, start )
+  parser.parse
+end
 
 
 
@@ -104,6 +108,12 @@ def read_conf( path,
                  end
 
         teams, rounds, groups, round_defs, group_defs, extra_lines = parse( sec[:lines ], start: start )
+
+        ### also try parse and check for errors
+        ##  todo: check for more stats and errors
+        ##   returns matches, rounds, groups
+        matches, _ = parse_match( sec[:lines ], teams.keys, start: start )
+
 
         if extra_lines.size > 0
           buf << "!! #{extra_lines.size} unmatched lines:\n"
