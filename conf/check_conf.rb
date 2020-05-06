@@ -14,30 +14,10 @@ end
 
 
 
-def find_club_by( name:, country: nil, mapping: nil, warns: nil )
-
-  if mapping && mapping[ name ]
-    ## todo/fix: check for warn too many matches or no match etc. -why? why not?
-    if warns
-      m = CLUBS.match( name )
-      if m && m.size > 1
-         warns << "WARN: too many name matches (#{m.size}) found for >#{name}<"
-        ## todo/fix: add / log club matches here too!!!
-      end
-    end
-
-    mapping[ name ]
-  else
-    CLUBS.find_by( name: name, country: country )
-  end
-end
-
-
-
 def read_conf( path,
                 lang:,
                 country: nil,
-                mapping: {},
+                mods: nil,
                 exclude: nil,
                 include: nil )
 
@@ -69,37 +49,27 @@ def read_conf( path,
   pack.each_match_with_index do |entry,i|
     puts entry.name
 
-    line = "[#{i+1}/#{datafile_count}] >#{entry.name}<\n"
-    buf << line; sum_buf << line
-
-
     secs = SportDb::LeagueOutlineReader.parse( entry.read )
 
+    header_line = "== [#{i+1}/#{datafile_count}] >#{entry.name}< - #{secs.size} section(s) ==\n"
+    buf     << header_line
+    sum_buf << header_line
+
     if secs.size == 0
-      line = "  !!! ERROR !!! - NO sections found; 0 sections\n"
-      buf << line;  sum_buf << line
+      sum_buf << "  !!! ERROR !!! - NO sections found; 0 sections\n"
       next
     end
-
-
-      line = "  #{secs.size} section(s):\n"
-      buf << line; sum_buf << line
 
       secs.each_with_index do |sec,j|
         sum_line       = String.new('')    ## header line
         sum_more_lines = String.new('')    ##  optional "body" lines listing errors
 
-        line =  "    #{sec[:lines].size} lines - "
-        line << "league: >#{sec[:league].name}< (#{sec[:league].key}), "
-        line << "season: >#{sec[:season]}<"
-        line << ", stage: >#{sec[:stage]}<"  if sec[:stage]
+        lines  = sec[:lines]
+        league = sec[:league]
+        season = sec[:season]
+        stage  = sec[:stage]
 
-        sum_line << line
 
-        line << "\n"
-        buf << line; puts line
-
-        season = SportDb::Import::Season.new( sec[:season] )
         start  = if season.year?
                    Date.new( season.start_year, 1, 1 )
                  else
@@ -107,13 +77,23 @@ def read_conf( path,
                    Date.new( season.start_year, 7, 1 )
                  end
 
-        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( sec[:lines ], start: start )
+        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( lines, start: start )
 
         ### also try parse and check for errors
         ##  todo: check for more stats and errors
         ##   returns matches, rounds, groups
-        matches, _ = parse_match( sec[:lines ], teams.keys, start: start )
+        matches, _ = parse_match( lines, teams.keys, start: start )
 
+
+        line =  "    #{lines.size} lines, #{matches.size} matches - "
+        line << "league: >#{league.name}< (#{league.key}), "
+        line << "season: >#{season.key}<"
+        line << ", stage: >#{stage}<"  if stage
+
+        sum_line << line
+
+        line << "\n"
+        buf << line
 
         if extra_lines.size > 0
           buf << "!! #{extra_lines.size} unmatched lines:\n"
@@ -143,20 +123,19 @@ def read_conf( path,
 
           ## try matching club name
           if sec[:league].clubs?
-            warns = []
-            team_rec = find_club_by( name:    name,
-                                     country: country,
-                                     mapping: mapping,
-                                     warns:   warns )
-
-            if warns.size > 0
-              warns.each do |warn|
-               line = warn
-               buf << line; sum_buf << line
-
-               errors << "#{entry.name}[#{j+1}] - #{warn}"
-              end
-            end
+            team_rec = if mods && mods[ name ]
+                         ## double check for too many machtes warning
+                         m = CLUBS.match( name )
+                         if m && m.size > 1
+                          line = "WARN: too many name matches (#{m.size}) found for >#{name}<"
+                          ## todo/fix: add / log club matches here too!!!
+                          buf << line; sum_buf << line
+                          errors << "#{entry.name}[#{j+1}] - #{line}"
+                         end
+                         mods[ name ]
+                       else
+                         CLUBS.find_by( name: name, country: country )
+                       end
           else
             team_rec = NATIONAL_TEAMS.find( name )
           end
@@ -265,33 +244,14 @@ end
 
 
 
-def build_mapping( mapping )
-  mapping.reduce({}) do |h,(club_names, club_line)|
 
-    values = club_line.split( ',' )
-    values = values.map { |value| value.strip }  ## strip all spaces
-
-    ## todo/fix: make sure country is present !!!!
-    club_name, country_name = values
-    club = CLUBS.find_by!( name: club_name, country: country_name )
-
-    values = club_names.split( '|' )
-    values = values.map { |value| value.strip }  ## strip all spaces
-
-    values.each do |club_name|
-      h[club_name] = club
-    end
-    h
-  end
-end
-
-mapping_cl = build_mapping({
+## champions league mods
+mods = CLUBS.build_mods({
 'Arsenal   | Arsenal FC'    => 'Arsenal, ENG',
 'Liverpool | Liverpool FC'  => 'Liverpool, ENG',
 'Barcelona'                 => 'Barcelona, ESP',
 'Valencia'                  => 'Valencia, ESP'
 })
-
 
 
 eng = "#{OPENFOOTBALL_PATH}/england"   ## en
@@ -311,28 +271,61 @@ euro  = "#{OPENFOOTBALL_PATH}/euro-cup"
 world = "#{OPENFOOTBALL_PATH}/world-cup"
 
 
-datasets = [
-  [eng, { lang: 'en', country: 'eng' }],
-  [de,  { lang: 'de', country: 'de' }],
-  [at,  { lang: 'de', country: 'at' }],
-  [es,  { lang: 'es', country: 'es' }],
-  [fr,  { lang: 'fr', country: 'fr' }],
-  [it,  { lang: 'it', country: 'it' }],
-  [ru,  { lang: 'en', country: 'ru' }],   ## note: use english fallback / default lang for now
+datasets = {
+  'eng' => [eng, { lang: 'en', country: 'eng' }],
+  'de'  => [de,  { lang: 'de', country: 'de' }],
+  'at'  => [at,  { lang: 'de', country: 'at' }],
+  'es'  => [es,  { lang: 'es', country: 'es' }],
+  'fr'  => [fr,  { lang: 'fr', country: 'fr' }],
+  'it'  => [it,  { lang: 'it', country: 'it' }],
+  'ru'  => [ru,  { lang: 'en', country: 'ru' }],   ## note: use english fallback / default lang for now
 
-  [br,  { lang: 'pt', country: 'br' }],
-  [mx,  { lang: 'es', country: 'mx' }],
+  'br'  => [br,  { lang: 'pt', country: 'br' }],
+  'mx'  => [mx,  { lang: 'es', country: 'mx' }],
 
-  [cl,  { lang: 'en', mapping: mapping_cl }],
+  'cl'  => [cl,  { lang: 'en', mods: mods }],
 
-  [euro,  { lang: 'en' }],
-  [world, { lang: 'en' }],
-]
+  'euro'  => [euro,  { lang: 'en' }],
+  'world' => [world, { lang: 'en' }],
+}
 
 
+def print_errors( errors )
+  if errors.size > 0
+    puts "#{errors.size} error(s) / warn(s):"
+    errors.each do |error|
+      puts "!! error: #{error}"
+    end
+  else
+    puts "#{errors.size} errors / warns"
+  end
+end
+
+
+if ARGV.size > 0
+
+  dataset = datasets[ ARGV[0] ]
+
+  path   = dataset[0]
+  kwargs = dataset[1]
+
+  buf, errors = read_conf( path, exclude: /archive/,
+                                 **kwargs )
+  puts buf
+  puts
+  print_errors( errors )
+
+## save
+# out_path = "#{path}/.build/conf.txt"
+out_path = "./tmp/conf.txt"
+File.open( out_path , 'w:utf-8' ) do |f|
+ f.write( buf )
+end
+
+else    ## check all
 errors_by_dataset = []
 
-datasets.each do |dataset|
+datasets.values.each do |dataset|
   path   = dataset[0]
   kwargs = dataset[1]
 
@@ -351,23 +344,9 @@ errors_by_dataset.each do |rec|
   puts
   puts "==== #{dataset} ===="
 
-  if errors.size > 0
-    puts "#{errors.size} error(s) / warn(s):"
-    errors.each do |error|
-      puts "!! error: #{error}"
-    end
-  else
-    puts "#{errors.size} errors / warns"
-  end
+  print_errors( errors )
 end
-
-
+end
 
 puts "bye"
 
-
-
-## save
-# File.open( "#{path}/.build/conf.txt", 'w:utf-8' ) do |f|
-# f.write( buf )
-# end

@@ -51,3 +51,7 @@ build/
 ###
 ## ignore sportweb directories
 /log/
+
+###
+# ignore tmp in conf checker
+/conf/tmp/

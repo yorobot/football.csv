@@ -9,7 +9,6 @@ $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-teams/lib" ))
 $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/footballdb-leagues/lib" ))
 $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/footballdb-clubs/lib" ))
 
-$LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-match-formats/lib" ))
 $LOAD_PATH.unshift( File.expand_path( "#{SPORTDB_PATH}/sportdb-config/lib" ))
 
 
@@ -28,3 +27,4 @@ COUNTRIES      = SportDb::Import.catalog.countries
 LEAGUES        = SportDb::Import.catalog.leagues
 CLUBS          = SportDb::Import.catalog.clubs
 NATIONAL_TEAMS = SportDb::Import.catalog.national_teams
+TEAMS          = SportDb::Import.catalog.teams
