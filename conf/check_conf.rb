@@ -16,7 +16,6 @@ end
 
 def read_conf( path,
                 lang:,
-                country: nil,
                 mods: nil,
                 exclude: nil,
                 include: nil )
@@ -35,34 +34,29 @@ def read_conf( path,
   sum_buf = String.new('')    ## summary / header buffer
 
 
-  country =  COUNTRIES.find( country )   if country  ## map to country_rec - fix: in find_by !!!!
+  ## pass 1: count match (datafile) entries
+  entries        = pack.match   ## get all match (datafile) entries
 
-
-
-  ## pass 1: count datafiles
-  datafile_count = pack.match_count
-
-  line = "#{datafile_count} datafiles:\n"
+  line = "#{entries.size} datafiles:\n"
   sum_buf << line
 
-
-  pack.each_match_with_index do |entry,i|
+  entries.each_with_index do |entry,i|
     puts entry.name
+    errors_entry = []    ## track local errors; see errors for all
 
     secs = SportDb::LeagueOutlineReader.parse( entry.read )
 
-    header_line = "== [#{i+1}/#{datafile_count}] >#{entry.name}< - #{secs.size} section(s) ==\n"
+    header_line = "[#{i+1}/#{entries.size}] >#{entry.name}< - #{secs.size} section(s):\n"
     buf     << header_line
     sum_buf << header_line
 
     if secs.size == 0
-      sum_buf << "  !!! ERROR !!! - NO sections found; 0 sections\n"
+      sum_buf << "  !! ERROR: NO sections found\n"
       next
     end
 
       secs.each_with_index do |sec,j|
         sum_line       = String.new('')    ## header line
-        sum_more_lines = String.new('')    ##  optional "body" lines listing errors
 
         lines  = sec[:lines]
         league = sec[:league]
@@ -86,8 +80,8 @@ def read_conf( path,
 
 
         line =  "    #{lines.size} lines, #{matches.size} matches - "
-        line << "league: >#{league.name}< (#{league.key}), "
-        line << "season: >#{season.key}<"
+        line << "#{league.name} (#{league.key}) "
+        line << "#{season.key}"
         line << ", stage: >#{stage}<"  if stage
 
         sum_line << line
@@ -101,94 +95,19 @@ def read_conf( path,
              buf << "   >#{line}<\n"
           end
 
-          errors << "#{entry.name}[#{j+1}] - #{extra_lines.size} unmatched lines: #{extra_lines}"
+          errors_entry << "WARN: #{extra_lines.size} unmatched lines: #{extra_lines}"
         end
 
 
-        buf << "      #{teams.size} teams:\n"
+        buf << "      #{teams.size} teams (referenced):\n"
 
-        ## sort teams by usage
-        teams_sorted = teams.to_a.sort do |l,r|
-          res =  r[1] <=> l[1]   ## by count
-          res =  l[0] <=> r[0]  if res == 0  ## by team name
-          res
-        end
-
-        team_recs      = []
-        team_recs_uniq = {}   ## for reporting duplicate team records
-
-        teams_sorted.each do |rec|
-          name, count = rec
-          team_rec = nil
-
-          ## try matching club name
-          if sec[:league].clubs?
-            team_rec = if mods && mods[ name ]
-                         ## double check for too many machtes warning
-                         m = CLUBS.match( name )
-                         if m && m.size > 1
-                          line = "WARN: too many name matches (#{m.size}) found for >#{name}<"
-                          ## todo/fix: add / log club matches here too!!!
-                          buf << line; sum_buf << line
-                          errors << "#{entry.name}[#{j+1}] - #{line}"
-                         end
-                         mods[ name ]
-                       else
-                         CLUBS.find_by( name: name, country: country )
-                       end
-          else
-            team_rec = NATIONAL_TEAMS.find( name )
-          end
-
-
-          if team_rec   ## add if match found
-             team_recs << team_rec
-             team_recs_uniq[team_rec] ||= []
-             team_recs_uniq[team_rec] << name
-          end
-
-          line = "     "
-          if team_rec.nil?
-             line << "!! "
-
-             errors << "#{entry.name}[#{j+1}] - team missing / not found >#{name}<"
-          else
-             line << "   "
-          end
-
-          line << "#{count}× "     if count > 1
-          line << "#{name}"
-
-          ## note: only print mapping if team name differs (from canonical team name)
-          if team_rec && team_rec.name != name
-            line << " ⇒ #{team_rec.name}"
-          end
-
-          line << "\n"
-          buf << line
-          sum_more_lines << line    if team_rec.nil?
-        end
-
-        ## check if all club_recs are uniq(ue)
-        diff = team_recs.size - team_recs_uniq.size
-        if diff > 0
-          line = "!! ERROR: #{diff} duplicate team record(s) found\n"
-          buf << line; sum_more_lines << line
-
-          ## find duplicate records
-          team_recs_uniq.each do |rec, names|
-            if names.size > 1
-              line = "    #{names.size} duplicate names for >#{rec.name}<:  #{names.join(' | ')}\n"
-              buf << line; sum_more_lines << line
-
-              errors << "#{entry.name}[#{j+1}] #{line}"
-            end
-          end
-        end
+        buf_teams, errors_teams = check_teams( teams, league: league, mods: mods)
+        buf          << buf_teams
+        errors_entry += errors_teams
 
 
         if groups.size > 0
-          buf << "      #{groups.size} groups:\n"
+          buf << "      #{groups.size} groups (referenced):\n"
 
           groups.each do |group_name, group_hash|
             line = "        "
@@ -201,7 +120,7 @@ def read_conf( path,
         end
 
         if round_defs.size > 0
-          buf << "      #{round_defs.size} round defs:\n"
+          buf << "      #{round_defs.size} rounds (defined):\n"
 
           round_defs.each do |round_name, _|
             line = "        "
@@ -212,7 +131,7 @@ def read_conf( path,
         end
 
         if rounds.size > 0
-          buf << "      #{rounds.size} rounds:\n"
+          buf << "      #{rounds.size} rounds (referenced):\n"
 
           rounds.each do |round_name, round_hash|
             line = "        "
@@ -224,15 +143,24 @@ def read_conf( path,
           end
         end
 
-        sum_line << ", #{teams.size} teams"
-        sum_line << ", #{group_defs.size} group def"    if group_defs.size > 0
-        sum_line << ", #{groups.size} groups"           if groups.size > 0
-        sum_line << ", #{round_defs.size} round defs"   if round_defs.size > 0
-        sum_line << ", #{rounds.size} rounds"
+        sum_line << ", #{teams.size} team refs"
+        sum_line << ", #{group_defs.size} group defs"    if group_defs.size > 0
+        sum_line << ", #{groups.size} group refs"        if groups.size > 0
+        sum_line << ", #{round_defs.size} round defs"    if round_defs.size > 0
+        sum_line << ", #{rounds.size} round defs"
 
         sum_buf << sum_line
         sum_buf << "\n"
-        sum_buf << sum_more_lines
+
+        if errors_entry.size > 0
+          sum_buf << "  !! #{errors_entry.size} error(s) / warn(s):\n"
+
+          errors_entry.each do |error|
+            sum_buf << "    #{error}\n"
+            errors << "#{entry.name}[#{j+1}] - #{error}"
+          end
+        end
+
       end  # each sec
   end  # each entry
 
@@ -240,7 +168,89 @@ def read_conf( path,
 end
 
 
+def check_teams( team_usage, league:, mods: )
+  buf    = String.new('')
+  errors = []
 
+  ## sort teams by usage
+  team_usage_sorted = team_usage.to_a.sort do |l,r|
+          res =  r[1] <=> l[1]   ## by count
+          res =  l[0] <=> r[0]  if res == 0  ## by team name
+          res
+  end
+
+  team_recs      = []
+  team_recs_uniq = {}   ## for reporting duplicate team records
+
+  team_usage_sorted.each do |team_usage_rec|
+     name, count = team_usage_rec
+
+     ## try matching club name
+     team_rec = if league.clubs?
+                  if mods && mods[ name ]
+                    ## double check for too many machtes warning
+                    m = CLUBS.match( name )
+                    if m && m.size > 1
+                      line = "WARN: too many name matches (#{m.size}) found for >#{name}<"
+                      ## todo/fix: add / log club matches here too!!!
+                      buf << "!! #{line}\n"
+                      errors << "#{line}"
+                    end
+                    mods[ name ]
+                  else
+                    CLUBS.find_by( name: name, country: league.country )
+                  end
+                else
+                  NATIONAL_TEAMS.find( name )
+                end
+
+
+    if team_rec   ## add if match found
+      team_recs << team_rec
+
+      team_recs_uniq[team_rec] ||= []
+      team_recs_uniq[team_rec] << name
+    end
+
+    ## start print team new line
+    buf << "     "
+    if team_rec.nil?
+      errors << "ERROR: team missing / not found >#{name}<"
+
+      buf << "!! "
+    else
+      buf << "   "
+    end
+
+    buf << "#{count}× "     if count > 1
+    buf << "#{name}"
+
+    ## note: only print mapping if team name differs (from canonical team name)
+    if team_rec && team_rec.name != name
+      buf << " ⇒ #{team_rec.name}"
+    end
+    buf << "\n"
+  end  # each team
+
+
+  ## check if all team recs are uniq(ue)
+  diff = team_recs.size - team_recs_uniq.size
+  if diff > 0
+      buf << "!! ERROR: #{diff} duplicate team record(s) found:\n"
+
+      ## find duplicate records
+      team_recs_uniq.each do |rec, names|
+        if names.size > 1
+          msg = "#{names.size} duplicate names for >#{rec.name}<: #{names.join(' | ')}"
+          buf << "   #{msg}\n"
+
+          errors << "WARN: #{msg}"
+        end
+      end
+  end
+
+  [buf, errors]
+end  # method check_teams
 
 
 
@@ -272,16 +282,16 @@ world = "#{OPENFOOTBALL_PATH}/world-cup"
 
 
 datasets = {
-  'eng' => [eng, { lang: 'en', country: 'eng' }],
-  'de'  => [de,  { lang: 'de', country: 'de' }],
-  'at'  => [at,  { lang: 'de', country: 'at' }],
-  'es'  => [es,  { lang: 'es', country: 'es' }],
-  'fr'  => [fr,  { lang: 'fr', country: 'fr' }],
-  'it'  => [it,  { lang: 'it', country: 'it' }],
-  'ru'  => [ru,  { lang: 'en', country: 'ru' }],   ## note: use english fallback / default lang for now
+  'eng' => [eng, { lang: 'en' }],
+  'de'  => [de,  { lang: 'de' }],
+  'at'  => [at,  { lang: 'de' }],
+  'es'  => [es,  { lang: 'es' }],
+  'fr'  => [fr,  { lang: 'fr' }],
+  'it'  => [it,  { lang: 'it' }],
+  'ru'  => [ru,  { lang: 'en' }],   ## note: use english fallback / default lang for now
 
-  'br'  => [br,  { lang: 'pt', country: 'br' }],
-  'mx'  => [mx,  { lang: 'es', country: 'mx' }],
+  'br'  => [br,  { lang: 'pt' }],
+  'mx'  => [mx,  { lang: 'es' }],
 
   'cl'  => [cl,  { lang: 'en', mods: mods }],
 
@@ -294,7 +304,7 @@ def print_errors( errors )
   if errors.size > 0
     puts "#{errors.size} error(s) / warn(s):"
     errors.each do |error|
-      puts "!! error: #{error}"
+      puts "!! ERROR: #{error}"
     end
   else
     puts "#{errors.size} errors / warns"
