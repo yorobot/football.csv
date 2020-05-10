@@ -1,0 +1,3510 @@
+{
+    "VfL Bochum": {
+        "Dornebusch, Felix": {
+            "number": "32",
+            "birthdate": "12.07.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Luthe, Andreas": {
+            "number": "1",
+            "birthdate": "10.03.1987",
+            "position": "GK",
+            "country": "GER",
+            "since": "2001"
+        },
+        "Riemann, Manuel": {
+            "number": "33",
+            "birthdate": "09.09.1988",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bastians, Felix": {
+            "number": "5",
+            "birthdate": "09.05.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Cacutalua, Malcolm": {
+            "number": "4",
+            "birthdate": "15.11.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Celozzi, Stefano": {
+            "number": "21",
+            "birthdate": "02.11.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Fabian, Patrick": {
+            "number": "19",
+            "birthdate": "11.10.1987",
+            "position": "DF",
+            "country": "GER",
+            "since": "2000"
+        },
+        "Gyamerah, Jan": {
+            "number": "18",
+            "birthdate": "18.06.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Niepsuj, David": {
+            "number": "30",
+            "birthdate": "16.08.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Perthel, Timo": {
+            "number": "24",
+            "birthdate": "11.02.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Simunek, Jan": {
+            "number": "6",
+            "birthdate": "20.02.1987",
+            "position": "DF",
+            "country": "CZE",
+            "since": "2014"
+        },
+        "Wijnaldum, Giliano": {
+            "number": "3",
+            "birthdate": "31.08.1992",
+            "position": "DF",
+            "country": "NED",
+            "since": "2015"
+        },
+        "Bulut, Onur": {
+            "number": "25",
+            "birthdate": "16.04.1994",
+            "position": "MF",
+            "country": "TUR",
+            "since": "2008"
+        },
+        "Cwielong, Piotr": {
+            "number": "20",
+            "birthdate": "23.04.1986",
+            "position": "MF",
+            "country": "POL",
+            "since": "2013"
+        },
+        "Eisfeld, Thomas": {
+            "number": "13",
+            "birthdate": "18.01.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Gül, Gökhan": {
+            "number": "16",
+            "birthdate": "17.07.1998",
+            "position": "MF",
+            "country": "GER",
+            "since": "2005"
+        },
+        "Hoogland, Tim": {
+            "number": "2",
+            "birthdate": "11.06.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Losilla, Anthony": {
+            "number": "8",
+            "birthdate": "10.03.1986",
+            "position": "MF",
+            "country": "FRA",
+            "since": "2014"
+        },
+        "Maria, Michael": {
+            "number": "27",
+            "birthdate": "31.01.1995",
+            "position": "MF",
+            "country": "NED",
+            "since": "2014"
+        },
+        "Novikovas, Arvydas": {
+            "number": "11",
+            "birthdate": "18.12.1990",
+            "position": "MF",
+            "country": "LTU",
+            "since": "2015"
+        },
+        "Stock, Julian": {
+            "number": "29",
+            "birthdate": "23.10.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2003"
+        },
+        "Weis, Tobias": {
+            "number": "17",
+            "birthdate": "30.07.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Gündüz, Selim": {
+            "number": "7",
+            "birthdate": "16.05.1994",
+            "position": "FW",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Haberer, Janik": {
+            "number": "23",
+            "birthdate": "02.04.1994",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Mlapa, Peniel": {
+            "number": "14",
+            "birthdate": "20.02.1991",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Rafael, Nando": {
+            "number": "9",
+            "birthdate": "10.01.1984",
+            "position": "FW",
+            "country": "ANG",
+            "since": "2015"
+        },
+        "Terodde, Simon": {
+            "number": "22",
+            "birthdate": "02.03.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Terrazzino, Marco": {
+            "number": "10",
+            "birthdate": "15.04.1991",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        }
+    },
+    "SC Freiburg": {
+        "Fuhry, Konstantin": {
+            "number": "29",
+            "birthdate": "02.09.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Klandt, Patric": {
+            "number": "21",
+            "birthdate": "29.09.1983",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Schwolow, Alexander": {
+            "number": "1",
+            "birthdate": "02.06.1992",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Föhrenbach, Jonas": {
+            "number": "25",
+            "birthdate": "26.01.1996",
+            "position": "DF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Günter, Christian": {
+            "number": "30",
+            "birthdate": "28.02.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2007"
+        },
+        "Hedenstad, Vegar Eggen": {
+            "number": "2",
+            "birthdate": "26.06.1991",
+            "position": "DF",
+            "country": "NOR",
+            "since": "2015"
+        },
+        "Höhn, Immanuel": {
+            "number": "4",
+            "birthdate": "23.12.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Kempf, Marc-Oliver": {
+            "number": "20",
+            "birthdate": "28.01.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Kübler, Lukas": {
+            "number": "17",
+            "birthdate": "30.08.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Mujdza, Mensur": {
+            "number": "24",
+            "birthdate": "28.03.1984",
+            "position": "DF",
+            "country": "BIH",
+            "since": "2009"
+        },
+        "Torrejon, Marc": {
+            "number": "3",
+            "birthdate": "18.02.1986",
+            "position": "DF",
+            "country": "ESP",
+            "since": "2014"
+        },
+        "Abrashi, Amir": {
+            "number": "6",
+            "birthdate": "27.03.1990",
+            "position": "MF",
+            "country": "ALB",
+            "since": "2015"
+        },
+        "Frantz, Mike": {
+            "number": "8",
+            "birthdate": "14.10.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Grifo, Vincenzo": {
+            "number": "32",
+            "birthdate": "07.04.1993",
+            "position": "MF",
+            "country": "ITA",
+            "since": "2015"
+        },
+        "Hingerl, Marco": {
+            "number": "28",
+            "birthdate": "03.05.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Höfler, Nicolas": {
+            "number": "27",
+            "birthdate": "09.03.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Hufnagel, Lucas": {
+            "number": "35",
+            "birthdate": "29.01.1994",
+            "position": "MF",
+            "country": "GEO",
+            "since": "2015"
+        },
+        "Kath, Florian": {
+            "number": "19",
+            "birthdate": "21.10.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Möller Daehli, Mats": {
+            "number": "16",
+            "birthdate": "02.03.1995",
+            "position": "MF",
+            "country": "NOR",
+            "since": "2015"
+        },
+        "Schuster, Julian": {
+            "number": "23",
+            "birthdate": "15.04.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Stanko, Caleb": {
+            "number": "33",
+            "birthdate": "26.07.1993",
+            "position": "MF",
+            "country": "USA",
+            "since": "2011"
+        },
+        "Falahen, Amir": {
+            "number": "34",
+            "birthdate": "15.03.1993",
+            "position": "FW",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Guedé, Karim": {
+            "number": "31",
+            "birthdate": "07.01.1985",
+            "position": "FW",
+            "country": "SVK",
+            "since": "2012"
+        },
+        "Kleindienst, Tim": {
+            "number": "9",
+            "birthdate": "31.08.1995",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Mees, Joshua": {
+            "number": "xx",
+            "birthdate": "15.04.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Petersen, Nils": {
+            "number": "18",
+            "birthdate": "06.12.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Philipp, Maximilian": {
+            "number": "26",
+            "birthdate": "01.03.1994",
+            "position": "FW",
+            "country": "GER",
+            "since": "2013"
+        }
+    },
+    "1. FC Heidenheim": {
+        "Müller, Kevin": {
+            "number": "22",
+            "birthdate": "15.03.1991",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Ullrich, Sven": {
+            "number": "19",
+            "birthdate": "28.05.1997",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Zimmermann, Jan": {
+            "number": "1",
+            "birthdate": "19.04.1985",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Beermann, Timo": {
+            "number": "33",
+            "birthdate": "10.12.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Feick, Arne": {
+            "number": "28",
+            "birthdate": "01.04.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Göhlert, Tim": {
+            "number": "16",
+            "birthdate": "15.09.1984",
+            "position": "DF",
+            "country": "GER",
+            "since": "2005"
+        },
+        "Heidinger, Sebastian": {
+            "number": "2",
+            "birthdate": "11.01.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kraus, Kevin": {
+            "number": "23",
+            "birthdate": "12.08.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Njie, Kevin": {
+            "number": "37",
+            "birthdate": "16.04.1996",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Philp, Ronny": {
+            "number": "3",
+            "birthdate": "28.01.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Scioscia, Maurizio": {
+            "number": "14",
+            "birthdate": "06.12.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Strauß, Robert": {
+            "number": "29",
+            "birthdate": "07.10.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Wittek, Mathias": {
+            "number": "5",
+            "birthdate": "30.03.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Gnaase, Dave": {
+            "number": "36",
+            "birthdate": "14.12.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Griesbeck, Sebastian": {
+            "number": "18",
+            "birthdate": "03.10.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Halloran, Ben": {
+            "number": "21",
+            "birthdate": "14.06.1992",
+            "position": "MF",
+            "country": "AUS",
+            "since": "2015"
+        },
+        "Leipertz, Robert": {
+            "number": "13",
+            "birthdate": "01.02.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Reinhardt, Julius": {
+            "number": "6",
+            "birthdate": "29.03.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Schnatterer, Marc": {
+            "number": "7",
+            "birthdate": "18.11.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Skarke, Tim": {
+            "number": "38",
+            "birthdate": "07.09.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Theuerkauf, Norman": {
+            "number": "30",
+            "birthdate": "24.01.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Titsch-Rivero, Marcel": {
+            "number": "26",
+            "birthdate": "02.11.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Widemann, Dominik": {
+            "number": "31",
+            "birthdate": "30.07.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Frahn, Daniel": {
+            "number": "11",
+            "birthdate": "03.06.1987",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Grimaldi, Adriano": {
+            "number": "39",
+            "birthdate": "05.04.1991",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Morabit, Smail": {
+            "number": "9",
+            "birthdate": "05.07.1988",
+            "position": "FW",
+            "country": "FRA",
+            "since": "2013"
+        },
+        "Schröter, Felix": {
+            "number": "20",
+            "birthdate": "23.01.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Voglsammer, Andreas": {
+            "number": "17",
+            "birthdate": "09.01.1992",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        }
+    },
+    "FC St. Pauli": {
+        "Brodersen, Svend": {
+            "number": "33",
+            "birthdate": "22.03.1997",
+            "position": "GK",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Heerwagen, Philipp": {
+            "number": "1",
+            "birthdate": "13.04.1983",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Himmelmann, Robin": {
+            "number": "30",
+            "birthdate": "05.02.1989",
+            "position": "GK",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Buballa, Daniel": {
+            "number": "15",
+            "birthdate": "11.05.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Drobo-Ampem, Davidson": {
+            "number": "17",
+            "birthdate": "26.03.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Dudziak, Jeremy": {
+            "number": "8",
+            "birthdate": "28.08.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Gonther, Sören": {
+            "number": "26",
+            "birthdate": "15.12.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Hornschuh, Marc": {
+            "number": "16",
+            "birthdate": "02.03.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kalla, Jan-Philipp": {
+            "number": "27",
+            "birthdate": "06.08.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2003"
+        },
+        "Sobiech, Lasse": {
+            "number": "3",
+            "birthdate": "18.01.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Startsev, Andrej": {
+            "number": "34",
+            "birthdate": "30.11.1994",
+            "position": "DF",
+            "country": "KAZ",
+            "since": "2010"
+        },
+        "Ziereis, Philipp": {
+            "number": "4",
+            "birthdate": "14.03.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Alushi, Enis": {
+            "number": "19",
+            "birthdate": "22.12.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Buchtmann, Christopher": {
+            "number": "10",
+            "birthdate": "25.04.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Choi, Kyoung-Rok": {
+            "number": "37",
+            "birthdate": "15.03.1995",
+            "position": "MF",
+            "country": "KOR",
+            "since": "2012"
+        },
+        "Cooper, Armando": {
+            "number": "40",
+            "birthdate": "26.11.1987",
+            "position": "MF",
+            "country": "PAN",
+            "since": "2015"
+        },
+        "Kurt, Okan": {
+            "number": "36",
+            "birthdate": "11.01.1995",
+            "position": "MF",
+            "country": "TUR",
+            "since": "2002"
+        },
+        "Litka, Maurice Jerome": {
+            "number": "31",
+            "birthdate": "02.01.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2006"
+        },
+        "Maier, Sebastian": {
+            "number": "29",
+            "birthdate": "18.09.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Miyaichi, Ryo": {
+            "number": "13",
+            "birthdate": "14.12.1992",
+            "position": "MF",
+            "country": "JPN",
+            "since": "2015"
+        },
+        "Nehrig, Bernd": {
+            "number": "7",
+            "birthdate": "28.09.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Rosin, Dennis": {
+            "number": "25",
+            "birthdate": "27.06.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Rzatkowski, Marc": {
+            "number": "11",
+            "birthdate": "02.03.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Sobota, Waldemar": {
+            "number": "28",
+            "birthdate": "19.05.1987",
+            "position": "MF",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Empen, Nico": {
+            "number": "24",
+            "birthdate": "11.01.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Picault, Fabrice-Jean": {
+            "number": "xx",
+            "birthdate": "23.02.1991",
+            "position": "FW",
+            "country": "HAI",
+            "since": "2015"
+        },
+        "Thy, Lennart": {
+            "number": "18",
+            "birthdate": "25.02.1992",
+            "position": "FW",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Verhoek, John": {
+            "number": "12",
+            "birthdate": "25.03.1989",
+            "position": "FW",
+            "country": "NED",
+            "since": "2013"
+        }
+    },
+    "RasenBallsport Leipzig": {
+        "Bellot, Benjamin": {
+            "number": "22",
+            "birthdate": "30.07.1990",
+            "position": "GK",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Coltorti, Fabio": {
+            "number": "1",
+            "birthdate": "03.12.1980",
+            "position": "GK",
+            "country": "SUI",
+            "since": "2012"
+        },
+        "Gulacsi, Peter": {
+            "number": "32",
+            "birthdate": "06.05.1990",
+            "position": "GK",
+            "country": "HUN",
+            "since": "2015"
+        },
+        "Compper, Marvin": {
+            "number": "33",
+            "birthdate": "14.06.1985",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Gipson, Ken": {
+            "number": "20",
+            "birthdate": "24.02.1996",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Halstenberg, Marcel": {
+            "number": "23",
+            "birthdate": "27.09.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Jung, Anthony": {
+            "number": "3",
+            "birthdate": "03.11.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Klostermann, Lukas": {
+            "number": "16",
+            "birthdate": "03.06.1996",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Nukan, Atinc": {
+            "number": "5",
+            "birthdate": "20.07.1993",
+            "position": "DF",
+            "country": "TUR",
+            "since": "2015"
+        },
+        "Orban, Willi": {
+            "number": "4",
+            "birthdate": "03.11.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Sebastian, Tim": {
+            "number": "8",
+            "birthdate": "17.01.1984",
+            "position": "DF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Sumusalo, Mikko": {
+            "number": "xx",
+            "birthdate": "12.03.1990",
+            "position": "DF",
+            "country": "FIN",
+            "since": "2015"
+        },
+        "Teigl, Georg": {
+            "number": "39",
+            "birthdate": "09.02.1991",
+            "position": "DF",
+            "country": "AUT",
+            "since": "2014"
+        },
+        "Bruno, Massimo": {
+            "number": "14",
+            "birthdate": "17.09.1993",
+            "position": "MF",
+            "country": "BEL",
+            "since": "2015"
+        },
+        "Demme, Diego": {
+            "number": "31",
+            "birthdate": "21.11.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Hierländer, Stefan": {
+            "number": "25",
+            "birthdate": "03.02.1991",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2014"
+        },
+        "Ilsanker, Stefan": {
+            "number": "13",
+            "birthdate": "18.05.1989",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Kaiser, Dominik": {
+            "number": "24",
+            "birthdate": "16.09.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Kalmar, Zsolt": {
+            "number": "19",
+            "birthdate": "09.06.1995",
+            "position": "MF",
+            "country": "HUN",
+            "since": "2014"
+        },
+        "Khedira, Rani": {
+            "number": "6",
+            "birthdate": "27.01.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Sabitzer, Marcel": {
+            "number": "7",
+            "birthdate": "17.03.1994",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Strauß, John-Patrick": {
+            "number": "2",
+            "birthdate": "28.01.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Boyd, Terrence": {
+            "number": "18",
+            "birthdate": "16.02.1991",
+            "position": "FW",
+            "country": "USA",
+            "since": "2014"
+        },
+        "Forsberg, Emil": {
+            "number": "10",
+            "birthdate": "23.10.1991",
+            "position": "FW",
+            "country": "SWE",
+            "since": "2015"
+        },
+        "Poulsen, Yussuf": {
+            "number": "9",
+            "birthdate": "15.06.1994",
+            "position": "FW",
+            "country": "DEN",
+            "since": "2013"
+        },
+        "Quaschner, Nils": {
+            "number": "17",
+            "birthdate": "22.04.1994",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Selke, Davie": {
+            "number": "27",
+            "birthdate": "20.01.1995",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        }
+    },
+    "1. FC Kaiserslautern": {
+        "Alomerovic, Zlatan": {
+            "number": "33",
+            "birthdate": "15.06.1991",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Müller, Marius": {
+            "number": "32",
+            "birthdate": "12.07.1993",
+            "position": "GK",
+            "country": "GER",
+            "since": "2003"
+        },
+        "Pollersbeck, Julian": {
+            "number": "22",
+            "birthdate": "16.08.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Fomitschow, André": {
+            "number": "17",
+            "birthdate": "07.09.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Heubach, Tim": {
+            "number": "3",
+            "birthdate": "12.04.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Löwe, Chris": {
+            "number": "31",
+            "birthdate": "16.04.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Mockenhaupt, Sascha": {
+            "number": "5",
+            "birthdate": "10.09.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Schindele, Michael": {
+            "number": "38",
+            "birthdate": "27.01.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Schulze, Michael": {
+            "number": "7",
+            "birthdate": "13.01.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Vucur, Stipe": {
+            "number": "29",
+            "birthdate": "22.05.1992",
+            "position": "DF",
+            "country": "CRO",
+            "since": "2015"
+        },
+        "Zimmer, Jean": {
+            "number": "39",
+            "birthdate": "06.12.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2004"
+        },
+        "Gaus, Marcel": {
+            "number": "19",
+            "birthdate": "02.08.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Halfar, Daniel": {
+            "number": "28",
+            "birthdate": "07.01.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Jenssen, Ruben": {
+            "number": "11",
+            "birthdate": "04.05.1988",
+            "position": "MF",
+            "country": "NOR",
+            "since": "2013"
+        },
+        "Karl, Markus": {
+            "number": "37",
+            "birthdate": "14.02.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Klich, Mateusz": {
+            "number": "23",
+            "birthdate": "13.06.1990",
+            "position": "MF",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Osei Kwadwo, Manfred": {
+            "number": "36",
+            "birthdate": "30.05.1995",
+            "position": "MF",
+            "country": "GHA",
+            "since": "2010"
+        },
+        "Piossek, Marcus": {
+            "number": "8",
+            "birthdate": "21.07.1989",
+            "position": "MF",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Ring, Alexander": {
+            "number": "6",
+            "birthdate": "09.04.1991",
+            "position": "MF",
+            "country": "FIN",
+            "since": "2013"
+        },
+        "Thommy, Erik": {
+            "number": "18",
+            "birthdate": "20.08.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Ziegler, Patrick": {
+            "number": "4",
+            "birthdate": "09.02.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Colak, Antonio-Mirko": {
+            "number": "xx",
+            "birthdate": "17.09.1993",
+            "position": "FW",
+            "country": "CRO",
+            "since": "2015"
+        },
+        "Görtler, Lukas": {
+            "number": "9",
+            "birthdate": "15.06.1994",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Jacob, Sebastian": {
+            "number": "14",
+            "birthdate": "26.06.1993",
+            "position": "FW",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Pich, Robert": {
+            "number": "13",
+            "birthdate": "12.11.1988",
+            "position": "FW",
+            "country": "SVK",
+            "since": "2015"
+        },
+        "Przybylko, Kacper": {
+            "number": "20",
+            "birthdate": "25.03.1993",
+            "position": "FW",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Wekesser, Erik": {
+            "number": "16",
+            "birthdate": "03.07.1997",
+            "position": "FW",
+            "country": "GER",
+            "since": "2007"
+        }
+    },
+    "SV Sandhausen": {
+        "Knaller, Marco": {
+            "number": "1",
+            "birthdate": "26.03.1987",
+            "position": "GK",
+            "country": "AUT",
+            "since": "2013"
+        },
+        "Kühn, Phillipp": {
+            "number": "28",
+            "birthdate": "02.09.1992",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Wulle, Rick": {
+            "number": "33",
+            "birthdate": "04.06.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Hammann, Nico": {
+            "number": "2",
+            "birthdate": "16.03.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Hübner, Florian": {
+            "number": "17",
+            "birthdate": "01.03.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Kister, Tim": {
+            "number": "14",
+            "birthdate": "30.12.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Klingmann, Philipp": {
+            "number": "24",
+            "birthdate": "22.04.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Olajengbesi, Seyi": {
+            "number": "27",
+            "birthdate": "17.11.1980",
+            "position": "DF",
+            "country": "NGA",
+            "since": "2013"
+        },
+        "Paqarada, Leart": {
+            "number": "19",
+            "birthdate": "08.10.1994",
+            "position": "DF",
+            "country": "ALB",
+            "since": "2014"
+        },
+        "Roßbach, Damian": {
+            "number": "4",
+            "birthdate": "27.02.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Schulz, Daniel": {
+            "number": "5",
+            "birthdate": "21.02.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Bieler, Alexander": {
+            "number": "15",
+            "birthdate": "05.09.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Kosecki, Jakub": {
+            "number": "13",
+            "birthdate": "29.08.1990",
+            "position": "MF",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Kratz, Kevin": {
+            "number": "23",
+            "birthdate": "21.01.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Kuhn, Moritz": {
+            "number": "11",
+            "birthdate": "01.08.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Kulovits, Stefan": {
+            "number": "31",
+            "birthdate": "19.04.1983",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2013"
+        },
+        "Linsmayer, Denis": {
+            "number": "6",
+            "birthdate": "19.09.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Schaaf, Eric": {
+            "number": "29",
+            "birthdate": "29.05.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Stiefler, Manuel": {
+            "number": "21",
+            "birthdate": "25.07.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Stolz, Dominik": {
+            "number": "25",
+            "birthdate": "04.05.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Thiede, Marco": {
+            "number": "7",
+            "birthdate": "20.05.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Zellner, Steven": {
+            "number": "18",
+            "birthdate": "14.03.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Zenga, Erik": {
+            "number": "16",
+            "birthdate": "18.01.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Zillner, Robert": {
+            "number": "10",
+            "birthdate": "04.08.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Bouhaddouz, Aziz": {
+            "number": "9",
+            "birthdate": "30.03.1987",
+            "position": "FW",
+            "country": "MAR",
+            "since": "2014"
+        },
+        "Jovanovic, Ranisav": {
+            "number": "26",
+            "birthdate": "05.11.1980",
+            "position": "FW",
+            "country": "SRB",
+            "since": "2013"
+        },
+        "Vunguidica, José Pierre": {
+            "number": "20",
+            "birthdate": "03.01.1990",
+            "position": "FW",
+            "country": "ANG",
+            "since": "2015"
+        },
+        "Wooten, Andrew": {
+            "number": "8",
+            "birthdate": "30.09.1989",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        }
+    },
+    "Eintracht Braunschweig": {
+        "Engelhardt, Marcel": {
+            "number": "1",
+            "birthdate": "05.04.1993",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Fejzic, Jasmin": {
+            "number": "16",
+            "birthdate": "15.05.1986",
+            "position": "GK",
+            "country": "BIH",
+            "since": "2015"
+        },
+        "Gikiewicz, Rafal": {
+            "number": "33",
+            "birthdate": "26.10.1987",
+            "position": "GK",
+            "country": "POL",
+            "since": "2014"
+        },
+        "Baffo, Joseph": {
+            "number": "4",
+            "birthdate": "07.11.1992",
+            "position": "DF",
+            "country": "SWE",
+            "since": "2015"
+        },
+        "Baghdadi, Mohammed": {
+            "number": "36",
+            "birthdate": "30.10.1996",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Correia, Marcel": {
+            "number": "25",
+            "birthdate": "16.05.1989",
+            "position": "DF",
+            "country": "POR",
+            "since": "2011"
+        },
+        "Decarli, Saulo": {
+            "number": "3",
+            "birthdate": "04.02.1992",
+            "position": "DF",
+            "country": "SUI",
+            "since": "2014"
+        },
+        "Ofosu-Ayeh, Phil": {
+            "number": "17",
+            "birthdate": "15.09.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Reichel, Ken": {
+            "number": "19",
+            "birthdate": "19.12.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2007"
+        },
+        "Sauer, Maximilian": {
+            "number": "24",
+            "birthdate": "15.05.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Slamar, Dennis": {
+            "number": "28",
+            "birthdate": "08.09.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Boland, Mirko": {
+            "number": "10",
+            "birthdate": "23.04.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Hochscheidt, Jan": {
+            "number": "11",
+            "birthdate": "04.10.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Holtmann, Gerrit": {
+            "number": "38",
+            "birthdate": "25.03.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Khelifi, Salim": {
+            "number": "22",
+            "birthdate": "26.01.1994",
+            "position": "MF",
+            "country": "SUI",
+            "since": "2014"
+        },
+        "Kijewski, Niko": {
+            "number": "27",
+            "birthdate": "28.03.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Matuschyk, Adam": {
+            "number": "8",
+            "birthdate": "14.02.1989",
+            "position": "MF",
+            "country": "POL",
+            "since": "2015"
+        },
+        "Omladic, Nik": {
+            "number": "12",
+            "birthdate": "21.08.1989",
+            "position": "MF",
+            "country": "SVN",
+            "since": "2015"
+        },
+        "Pfitzner, Marc": {
+            "number": "31",
+            "birthdate": "28.08.1984",
+            "position": "MF",
+            "country": "GER",
+            "since": "2005"
+        },
+        "Schönfeld, Patrick": {
+            "number": "21",
+            "birthdate": "21.06.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Vrancic, Damir": {
+            "number": "6",
+            "birthdate": "04.10.1985",
+            "position": "MF",
+            "country": "BIH",
+            "since": "2009"
+        },
+        "Zuck, Hendrick": {
+            "number": "30",
+            "birthdate": "21.07.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Ademi, Orhan": {
+            "number": "18",
+            "birthdate": "28.10.1991",
+            "position": "FW",
+            "country": "SUI",
+            "since": "2015"
+        },
+        "Berggreen, Emil": {
+            "number": "9",
+            "birthdate": "10.05.1993",
+            "position": "FW",
+            "country": "DEN",
+            "since": "2015"
+        },
+        "Düker, Julius": {
+            "number": "26",
+            "birthdate": "04.01.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Hvilsom, Mads": {
+            "number": "23",
+            "birthdate": "23.08.1992",
+            "position": "FW",
+            "country": "DEN",
+            "since": "2015"
+        }
+    },
+    "FSV Frankfurt": {
+        "Pellowski, Jannis": {
+            "number": "18",
+            "birthdate": "15.06.1992",
+            "position": "GK",
+            "country": "GER",
+            "since": "2006"
+        },
+        "Pirson, Sören": {
+            "number": "21",
+            "birthdate": "27.08.1985",
+            "position": "GK",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Weis, André": {
+            "number": "1",
+            "birthdate": "30.09.1989",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Andacic, Mateo": {
+            "number": "xx",
+            "birthdate": "16.11.1997",
+            "position": "DF",
+            "country": "CRO",
+            "since": "2011"
+        },
+        "Ballas, Florian": {
+            "number": "25",
+            "birthdate": "08.01.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Barry, Shawn Maurice": {
+            "number": "24",
+            "birthdate": "23.04.1990",
+            "position": "DF",
+            "country": "USA",
+            "since": "2015"
+        },
+        "Belegu, Florijon": {
+            "number": "32",
+            "birthdate": "13.03.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Bittroff, Alexander": {
+            "number": "14",
+            "birthdate": "19.09.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Gugganig, Lukas": {
+            "number": "27",
+            "birthdate": "14.02.1995",
+            "position": "DF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Haji Safi, Ehsan": {
+            "number": "xx",
+            "birthdate": "25.02.1990",
+            "position": "DF",
+            "country": "IRN",
+            "since": "2015"
+        },
+        "Huber, Alexander": {
+            "number": "15",
+            "birthdate": "25.02.1985",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Oumari, Joan": {
+            "number": "17",
+            "birthdate": "19.08.1988",
+            "position": "DF",
+            "country": "LIB",
+            "since": "2013"
+        },
+        "Schmidtgal, Heinrich": {
+            "number": "16",
+            "birthdate": "20.11.1985",
+            "position": "DF",
+            "country": "KAZ",
+            "since": "2015"
+        },
+        "Engels, Mario": {
+            "number": "8",
+            "birthdate": "22.10.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Epstein, Denis": {
+            "number": "26",
+            "birthdate": "02.07.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Gebru, Nahom": {
+            "number": "23",
+            "birthdate": "26.09.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Golley, Timm": {
+            "number": "22",
+            "birthdate": "17.02.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Halimi, Besar": {
+            "number": "10",
+            "birthdate": "12.12.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Hammel, Leon": {
+            "number": "31",
+            "birthdate": "24.04.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Konrad, Manuel": {
+            "number": "5",
+            "birthdate": "14.04.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Kruska, Marc Andre": {
+            "number": "7",
+            "birthdate": "29.06.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Mangafic, Denis": {
+            "number": "30",
+            "birthdate": "12.12.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Park, In-Hyeok": {
+            "number": "11",
+            "birthdate": "29.12.1995",
+            "position": "MF",
+            "country": "KOR",
+            "since": "2015"
+        },
+        "Perdedaj, Fanol": {
+            "number": "6",
+            "birthdate": "16.07.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Yann": {
+            "number": "28",
+            "birthdate": "15.03.1995",
+            "position": "MF",
+            "country": "BRA",
+            "since": "2015"
+        },
+        "Awoniyi, Taiwo": {
+            "number": "xx",
+            "birthdate": "12.08.1997",
+            "position": "FW",
+            "country": "NGA",
+            "since": "2015"
+        },
+        "Dedic, Zlatko": {
+            "number": "29",
+            "birthdate": "05.10.1984",
+            "position": "FW",
+            "country": "SVN",
+            "since": "2014"
+        },
+        "Felipe Pires": {
+            "number": "38",
+            "birthdate": "18.04.1995",
+            "position": "FW",
+            "country": "BRA",
+            "since": "2015"
+        },
+        "Kapllani, Edmond": {
+            "number": "9",
+            "birthdate": "31.07.1982",
+            "position": "FW",
+            "country": "ALB",
+            "since": "2012"
+        },
+        "Schahin, Dani": {
+            "number": "19",
+            "birthdate": "09.07.1989",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        }
+    },
+    "1. FC Nürnberg": {
+        "Kirschbaum, Thorsten": {
+            "number": "26",
+            "birthdate": "20.04.1987",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Rakovsky, Patrick": {
+            "number": "22",
+            "birthdate": "02.06.1993",
+            "position": "GK",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Schäfer, Raphael": {
+            "number": "1",
+            "birthdate": "30.01.1979",
+            "position": "GK",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Brecko, Miso": {
+            "number": "2",
+            "birthdate": "01.05.1984",
+            "position": "DF",
+            "country": "SVN",
+            "since": "2015"
+        },
+        "Bulthuis, Dave": {
+            "number": "4",
+            "birthdate": "28.06.1990",
+            "position": "DF",
+            "country": "NED",
+            "since": "2014"
+        },
+        "Hovland, Even": {
+            "number": "3",
+            "birthdate": "14.02.1989",
+            "position": "DF",
+            "country": "NOR",
+            "since": "2014"
+        },
+        "Leibold, Tim": {
+            "number": "23",
+            "birthdate": "30.11.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Margreitter, Georg": {
+            "number": "33",
+            "birthdate": "07.11.1988",
+            "position": "DF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Mössmer, Jürgen": {
+            "number": "5",
+            "birthdate": "11.06.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Sepsi, Laszlo": {
+            "number": "6",
+            "birthdate": "07.06.1987",
+            "position": "DF",
+            "country": "ROM",
+            "since": "2015"
+        },
+        "Behrens, Hanno": {
+            "number": "18",
+            "birthdate": "26.03.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Blum, Danny": {
+            "number": "7",
+            "birthdate": "07.01.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Burgstaller, Guido": {
+            "number": "9",
+            "birthdate": "29.04.1989",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Evseev, Willi": {
+            "number": "21",
+            "birthdate": "14.02.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Füllkrug, Niclas": {
+            "number": "24",
+            "birthdate": "09.02.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Gebhart, Timo": {
+            "number": "10",
+            "birthdate": "12.04.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Gislason, Rurik": {
+            "number": "19",
+            "birthdate": "25.02.1988",
+            "position": "MF",
+            "country": "ISL",
+            "since": "2015"
+        },
+        "Kerk, Sebastian": {
+            "number": "17",
+            "birthdate": "17.04.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Koch, Robert": {
+            "number": "15",
+            "birthdate": "26.02.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Möhwald, Kevin": {
+            "number": "14",
+            "birthdate": "03.07.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Petrak, Ondrej": {
+            "number": "31",
+            "birthdate": "11.03.1992",
+            "position": "MF",
+            "country": "CZE",
+            "since": "2014"
+        },
+        "Polak, Jan": {
+            "number": "8",
+            "birthdate": "14.03.1981",
+            "position": "MF",
+            "country": "CZE",
+            "since": "2014"
+        },
+        "Schöpf, Alessandro": {
+            "number": "28",
+            "birthdate": "07.02.1994",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2014"
+        },
+        "Hercher, Philipp": {
+            "number": "27",
+            "birthdate": "21.03.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Kutschke, Stefan": {
+            "number": "20",
+            "birthdate": "03.11.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Sylvestr, Jakub": {
+            "number": "11",
+            "birthdate": "02.02.1989",
+            "position": "FW",
+            "country": "SVK",
+            "since": "2014"
+        },
+        "Teuchert, Cedric": {
+            "number": "36",
+            "birthdate": "14.01.1997",
+            "position": "FW",
+            "country": "GER",
+            "since": "2009"
+        }
+    },
+    "Arminia Bielefeld": {
+        "Davari, Daniel": {
+            "number": "34",
+            "birthdate": "06.01.1988",
+            "position": "GK",
+            "country": "IRN",
+            "since": "2015"
+        },
+        "Hesl, Wolfgang": {
+            "number": "1",
+            "birthdate": "13.01.1986",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Rehnen, Nikolai": {
+            "number": "33",
+            "birthdate": "04.02.1997",
+            "position": "GK",
+            "country": "GER",
+            "since": "2007"
+        },
+        "Benamar, Samir": {
+            "number": "29",
+            "birthdate": "23.08.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Börner, Julian": {
+            "number": "13",
+            "birthdate": "21.01.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Burmeister, Felix": {
+            "number": "19",
+            "birthdate": "09.03.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Dick, Florian": {
+            "number": "23",
+            "birthdate": "09.11.1984",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Hornig, Manuel": {
+            "number": "14",
+            "birthdate": "18.12.1982",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Lang, Steffen": {
+            "number": "2",
+            "birthdate": "14.08.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Salger, Stephan": {
+            "number": "11",
+            "birthdate": "30.01.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Schuppan, Sebastian": {
+            "number": "27",
+            "birthdate": "18.07.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Strifler, Jonas": {
+            "number": "38",
+            "birthdate": "30.01.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Affane, Amin": {
+            "number": "21",
+            "birthdate": "21.01.1994",
+            "position": "MF",
+            "country": "SWE",
+            "since": "2015"
+        },
+        "Behrendt, Brian": {
+            "number": "3",
+            "birthdate": "24.10.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Brinkmann, Daniel": {
+            "number": "8",
+            "birthdate": "29.01.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Görlitz, Michael": {
+            "number": "7",
+            "birthdate": "08.03.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Hober, Marco": {
+            "number": "36",
+            "birthdate": "09.09.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Jopek, Björn": {
+            "number": "25",
+            "birthdate": "24.08.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Junglas, Manuel": {
+            "number": "20",
+            "birthdate": "31.01.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kluge, Peer": {
+            "number": "24",
+            "birthdate": "22.11.1980",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Mast, Dennis": {
+            "number": "16",
+            "birthdate": "15.02.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Müller, Christian": {
+            "number": "37",
+            "birthdate": "28.02.1984",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Schütz, Tom": {
+            "number": "6",
+            "birthdate": "20.01.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Ulm, David": {
+            "number": "5",
+            "birthdate": "30.06.1984",
+            "position": "MF",
+            "country": "FRA",
+            "since": "2014"
+        },
+        "Hemlein, Christoph": {
+            "number": "17",
+            "birthdate": "16.12.1990",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Klos, Fabian": {
+            "number": "9",
+            "birthdate": "02.12.1987",
+            "position": "FW",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Nöthe, Christopher": {
+            "number": "18",
+            "birthdate": "03.01.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "van der Biezen, Koen": {
+            "number": "28",
+            "birthdate": "10.07.1985",
+            "position": "FW",
+            "country": "NED",
+            "since": "2015"
+        }
+    },
+    "Karlsruher SC": {
+        "Orlishausen, Dirk": {
+            "number": "1",
+            "birthdate": "15.08.1982",
+            "position": "GK",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Stritzel, Florian": {
+            "number": "25",
+            "birthdate": "31.01.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Vollath, René": {
+            "number": "24",
+            "birthdate": "20.03.1990",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Bader, Matthias": {
+            "number": "35",
+            "birthdate": "17.06.1997",
+            "position": "DF",
+            "country": "GER",
+            "since": "2006"
+        },
+        "Gordon, Daniel": {
+            "number": "3",
+            "birthdate": "16.01.1985",
+            "position": "DF",
+            "country": "JAM",
+            "since": "2012"
+        },
+        "Gulde, Manuel": {
+            "number": "14",
+            "birthdate": "12.02.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Kempe, Dennis": {
+            "number": "5",
+            "birthdate": "24.06.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Mauersberger, Jan": {
+            "number": "6",
+            "birthdate": "17.06.1985",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Stoll, Martin": {
+            "number": "4",
+            "birthdate": "09.02.1983",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Thoelke, Bjarne": {
+            "number": "26",
+            "birthdate": "11.04.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Traut, Sascha": {
+            "number": "7",
+            "birthdate": "21.05.1985",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Barry, Boubacar": {
+            "number": "15",
+            "birthdate": "15.05.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Gouaida, Mohamed": {
+            "number": "17",
+            "birthdate": "15.05.1993",
+            "position": "MF",
+            "country": "TUN",
+            "since": "2015"
+        },
+        "Grupp, Tim": {
+            "number": "34",
+            "birthdate": "05.01.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Krebs, Gaetan": {
+            "number": "21",
+            "birthdate": "18.11.1985",
+            "position": "MF",
+            "country": "FRA",
+            "since": "2009"
+        },
+        "Meffert, Jonas": {
+            "number": "23",
+            "birthdate": "04.09.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Mehlem, Marvin": {
+            "number": "16",
+            "birthdate": "11.09.1997",
+            "position": "MF",
+            "country": "GER",
+            "since": "2006"
+        },
+        "Peitz, Dominic": {
+            "number": "13",
+            "birthdate": "11.09.1984",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Prömel, Grischa": {
+            "number": "19",
+            "birthdate": "09.01.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Sallahi, Ylli": {
+            "number": "20",
+            "birthdate": "06.04.1994",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Torres, Manuel": {
+            "number": "18",
+            "birthdate": "05.01.1991",
+            "position": "MF",
+            "country": "ESP",
+            "since": "2013"
+        },
+        "Valentini, Enrico": {
+            "number": "22",
+            "birthdate": "20.02.1989",
+            "position": "MF",
+            "country": "ITA",
+            "since": "2014"
+        },
+        "Yamada, Hiroki": {
+            "number": "10",
+            "birthdate": "27.12.1988",
+            "position": "MF",
+            "country": "JPN",
+            "since": "2014"
+        },
+        "Diamantakos, Dimitris": {
+            "number": "9",
+            "birthdate": "05.03.1993",
+            "position": "FW",
+            "country": "GRE",
+            "since": "2015"
+        },
+        "Hoffer, Erwin": {
+            "number": "8",
+            "birthdate": "14.04.1987",
+            "position": "FW",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Köpke, Pascal": {
+            "number": "27",
+            "birthdate": "03.09.1995",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Manzon, Vadim": {
+            "number": "29",
+            "birthdate": "05.12.1994",
+            "position": "FW",
+            "country": "RUS",
+            "since": "2015"
+        },
+        "Nazarov, Dimitrij": {
+            "number": "11",
+            "birthdate": "04.04.1990",
+            "position": "FW",
+            "country": "AZE",
+            "since": "2013"
+        }
+    },
+    "SpVgg Greuther Fürth": {
+        "Flekken, Mark": {
+            "number": "30",
+            "birthdate": "13.06.1993",
+            "position": "GK",
+            "country": "NED",
+            "since": "2013"
+        },
+        "Lerch, Bastian": {
+            "number": "40",
+            "birthdate": "26.03.1996",
+            "position": "GK",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Mielitz, Sebastian": {
+            "number": "1",
+            "birthdate": "18.07.1989",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Zingerle, Leopold": {
+            "number": "xx",
+            "birthdate": "10.04.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Caligiuri, Marco": {
+            "number": "13",
+            "birthdate": "14.04.1984",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Franke, Marcel": {
+            "number": "28",
+            "birthdate": "05.04.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Gießelmann, Niko": {
+            "number": "7",
+            "birthdate": "26.09.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Korcsmar, Zsolt": {
+            "number": "3",
+            "birthdate": "09.01.1989",
+            "position": "DF",
+            "country": "HUN",
+            "since": "2013"
+        },
+        "Röcker, Benedikt": {
+            "number": "2",
+            "birthdate": "19.11.1989",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Schröck, Stephan": {
+            "number": "10",
+            "birthdate": "21.08.1986",
+            "position": "DF",
+            "country": "PHI",
+            "since": "2014"
+        },
+        "Thesker, Stefan": {
+            "number": "4",
+            "birthdate": "11.04.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bodenröder, Tim": {
+            "number": "38",
+            "birthdate": "15.01.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Gjasula, Jurgen": {
+            "number": "8",
+            "birthdate": "05.12.1985",
+            "position": "MF",
+            "country": "ALB",
+            "since": "2015"
+        },
+        "Hofmann, Andreas": {
+            "number": "6",
+            "birthdate": "13.04.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Lam, Zhi-Gin": {
+            "number": "26",
+            "birthdate": "04.06.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Stiepermann, Marco": {
+            "number": "23",
+            "birthdate": "09.02.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Sukalo, Goran": {
+            "number": "16",
+            "birthdate": "24.08.1981",
+            "position": "MF",
+            "country": "SVN",
+            "since": "2013"
+        },
+        "Trinks, Florian": {
+            "number": "11",
+            "birthdate": "11.03.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Trybull, Tom": {
+            "number": "39",
+            "birthdate": "09.03.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Weilandt, Tom": {
+            "number": "14",
+            "birthdate": "27.04.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Berisha, Veton": {
+            "number": "19",
+            "birthdate": "13.04.1994",
+            "position": "FW",
+            "country": "NOR",
+            "since": "2015"
+        },
+        "Davies, George": {
+            "number": "25",
+            "birthdate": "16.11.1996",
+            "position": "FW",
+            "country": "SLE",
+            "since": "2014"
+        },
+        "Freis, Sebastian": {
+            "number": "9",
+            "birthdate": "23.04.1985",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kumbela, Domi": {
+            "number": "18",
+            "birthdate": "20.04.1984",
+            "position": "FW",
+            "country": "COD",
+            "since": "2015"
+        },
+        "Maderer, Stefan": {
+            "number": "37",
+            "birthdate": "01.09.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Tripic, Zlatko": {
+            "number": "17",
+            "birthdate": "02.12.1992",
+            "position": "FW",
+            "country": "NOR",
+            "since": "2015"
+        },
+        "Wurtz, Johannes": {
+            "number": "22",
+            "birthdate": "19.06.1992",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Zulj, Robert": {
+            "number": "20",
+            "birthdate": "05.02.1992",
+            "position": "FW",
+            "country": "AUT",
+            "since": "2014"
+        }
+    },
+    "1. FC Union Berlin": {
+        "Amsif, Mohamed": {
+            "number": "30",
+            "birthdate": "07.02.1989",
+            "position": "GK",
+            "country": "MAR",
+            "since": "2014"
+        },
+        "Haas, Daniel": {
+            "number": "1",
+            "birthdate": "01.08.1983",
+            "position": "GK",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Kroll, Steve": {
+            "number": "20",
+            "birthdate": "07.05.1997",
+            "position": "GK",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Kessel, Benjamin": {
+            "number": "5",
+            "birthdate": "01.10.1987",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Leistner, Toni": {
+            "number": "37",
+            "birthdate": "19.08.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Parensen, Michael": {
+            "number": "29",
+            "birthdate": "24.06.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Prychynenko, Denis": {
+            "number": "6",
+            "birthdate": "17.02.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Puncec, Roberto": {
+            "number": "4",
+            "birthdate": "27.10.1991",
+            "position": "DF",
+            "country": "CRO",
+            "since": "2012"
+        },
+        "Schönheim, Fabian": {
+            "number": "34",
+            "birthdate": "14.02.1987",
+            "position": "DF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Trimmel, Christopher": {
+            "number": "28",
+            "birthdate": "24.02.1987",
+            "position": "DF",
+            "country": "AUT",
+            "since": "2014"
+        },
+        "Daube, Dennis": {
+            "number": "10",
+            "birthdate": "11.07.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Fürstner, Stephan": {
+            "number": "8",
+            "birthdate": "11.09.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Koch, Leonard": {
+            "number": "31",
+            "birthdate": "23.05.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Köhler, Benjamin": {
+            "number": "7",
+            "birthdate": "04.08.1980",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Korte, Raffael": {
+            "number": "13",
+            "birthdate": "29.08.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kreilach, Damir": {
+            "number": "19",
+            "birthdate": "16.04.1989",
+            "position": "MF",
+            "country": "CRO",
+            "since": "2013"
+        },
+        "Nikci, Adrian": {
+            "number": "14",
+            "birthdate": "10.11.1989",
+            "position": "MF",
+            "country": "SUI",
+            "since": "2015"
+        },
+        "Quiring, Christopher": {
+            "number": "2",
+            "birthdate": "23.11.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2002"
+        },
+        "Redondo, Kenny Prince": {
+            "number": "18",
+            "birthdate": "29.08.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Thiel, Maximilian": {
+            "number": "11",
+            "birthdate": "03.02.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Zejnullahu, Eroll": {
+            "number": "27",
+            "birthdate": "19.10.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Brandy, Sören": {
+            "number": "9",
+            "birthdate": "06.05.1985",
+            "position": "FW",
+            "country": "GER",
+            "since": "182"
+        },
+        "Nebihi, Bajram": {
+            "number": "33",
+            "birthdate": "05.08.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Quaner, Collin": {
+            "number": "21",
+            "birthdate": "18.06.1991",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Skrzybski, Steven": {
+            "number": "24",
+            "birthdate": "18.11.1992",
+            "position": "FW",
+            "country": "GER",
+            "since": "2000"
+        },
+        "Wood, Bobby": {
+            "number": "15",
+            "birthdate": "15.11.1992",
+            "position": "FW",
+            "country": "USA",
+            "since": "2015"
+        }
+    },
+    "SC Paderborn 07": {
+        "Brammen, Jonas": {
+            "number": "35",
+            "birthdate": "19.07.1997",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Heuer Fernandes, Daniel": {
+            "number": "24",
+            "birthdate": "13.11.1992",
+            "position": "GK",
+            "country": "POR",
+            "since": "2015"
+        },
+        "Kruse, Lukas": {
+            "number": "1",
+            "birthdate": "09.07.1983",
+            "position": "GK",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Bertels, Thomas": {
+            "number": "14",
+            "birthdate": "05.11.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Brückner, Daniel": {
+            "number": "21",
+            "birthdate": "14.02.1981",
+            "position": "DF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Hartherz, Florian": {
+            "number": "26",
+            "birthdate": "29.05.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Heinloth, Michael": {
+            "number": "22",
+            "birthdate": "09.02.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Hoheneder, Niklas": {
+            "number": "17",
+            "birthdate": "17.08.1986",
+            "position": "DF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Narey, Khaled": {
+            "number": "25",
+            "birthdate": "23.07.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Rafa Lopez": {
+            "number": "3",
+            "birthdate": "09.04.1985",
+            "position": "DF",
+            "country": "ESP",
+            "since": "2014"
+        },
+        "Ruck, Florian": {
+            "number": "15",
+            "birthdate": "06.02.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Wahl, Hauke": {
+            "number": "29",
+            "birthdate": "15.04.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bakalorz, Marvin": {
+            "number": "6",
+            "birthdate": "13.09.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Bickel, Christian": {
+            "number": "16",
+            "birthdate": "27.01.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Kirch, Oliver": {
+            "number": "12",
+            "birthdate": "21.08.1982",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Koc, Süleyman": {
+            "number": "30",
+            "birthdate": "09.06.1989",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Ndjeng, Marcel": {
+            "number": "7",
+            "birthdate": "06.05.1982",
+            "position": "MF",
+            "country": "CMR",
+            "since": "2015"
+        },
+        "Ouali, Idir": {
+            "number": "27",
+            "birthdate": "21.05.1988",
+            "position": "MF",
+            "country": "ALG",
+            "since": "2014"
+        },
+        "Pepic, Mirnes": {
+            "number": "23",
+            "birthdate": "19.12.1995",
+            "position": "MF",
+            "country": "MNE",
+            "since": "2013"
+        },
+        "Schonlau, Sebastian": {
+            "number": "13",
+            "birthdate": "05.08.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Stöger, Kevin": {
+            "number": "18",
+            "birthdate": "27.08.1993",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Stoppelkamp, Moritz": {
+            "number": "11",
+            "birthdate": "11.12.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Vucinovic, Marc": {
+            "number": "20",
+            "birthdate": "19.09.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Wydra, Dominik": {
+            "number": "5",
+            "birthdate": "21.03.1994",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Brasnic, Marc": {
+            "number": "19",
+            "birthdate": "21.10.1996",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Lakic, Srdjan": {
+            "number": "9",
+            "birthdate": "02.10.1983",
+            "position": "FW",
+            "country": "CRO",
+            "since": "2015"
+        },
+        "Proschwitz, Nick": {
+            "number": "8",
+            "birthdate": "28.11.1986",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Saglik, Mahir": {
+            "number": "10",
+            "birthdate": "18.01.1983",
+            "position": "FW",
+            "country": "TUR",
+            "since": "2013"
+        }
+    },
+    "1860 München": {
+        "Eicher, Vitus": {
+            "number": "1",
+            "birthdate": "05.11.1990",
+            "position": "GK",
+            "country": "GER",
+            "since": "2000"
+        },
+        "Netolitzky, Michael": {
+            "number": "22",
+            "birthdate": "12.01.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Ortega, Stefan": {
+            "number": "24",
+            "birthdate": "06.11.1992",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Bandowski, Jannik": {
+            "number": "17",
+            "birthdate": "30.03.1994",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bülow, Kai": {
+            "number": "4",
+            "birthdate": "31.05.1986",
+            "position": "DF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Degenek, Milos": {
+            "number": "30",
+            "birthdate": "28.04.1994",
+            "position": "DF",
+            "country": "AUS",
+            "since": "2015"
+        },
+        "Kagelmacher, Gary": {
+            "number": "25",
+            "birthdate": "21.04.1988",
+            "position": "DF",
+            "country": "URU",
+            "since": "2014"
+        },
+        "Kovac, Vladimir": {
+            "number": "39",
+            "birthdate": "29.04.1991",
+            "position": "DF",
+            "country": "SVK",
+            "since": "2013"
+        },
+        "Rodnei": {
+            "number": "8",
+            "birthdate": "11.09.1985",
+            "position": "DF",
+            "country": "BRA",
+            "since": "2015"
+        },
+        "Schindler, Christopher": {
+            "number": "26",
+            "birthdate": "29.04.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "1999"
+        },
+        "Vallori, Guillermo": {
+            "number": "5",
+            "birthdate": "24.06.1982",
+            "position": "DF",
+            "country": "ESP",
+            "since": "2012"
+        },
+        "Wittek, Maximilian": {
+            "number": "3",
+            "birthdate": "21.08.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2003"
+        },
+        "Adlung, Daniel": {
+            "number": "11",
+            "birthdate": "01.10.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Claasen, Daylon": {
+            "number": "7",
+            "birthdate": "28.01.1990",
+            "position": "MF",
+            "country": "RSA",
+            "since": "2014"
+        },
+        "Lacazette, Romuald": {
+            "number": "38",
+            "birthdate": "03.01.1994",
+            "position": "MF",
+            "country": "FRA",
+            "since": "2015"
+        },
+        "Liendl, Michael": {
+            "number": "xx",
+            "birthdate": "25.10.1985",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2015"
+        },
+        "Neudecker, Richard": {
+            "number": "31",
+            "birthdate": "29.10.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Rama, Valdet": {
+            "number": "20",
+            "birthdate": "20.11.1987",
+            "position": "MF",
+            "country": "ALB",
+            "since": "2014"
+        },
+        "Stahl, Dominik": {
+            "number": "6",
+            "birthdate": "20.08.1988",
+            "position": "MF",
+            "country": "GER",
+            "since": "2004"
+        },
+        "Taffertshofer, Emanuel": {
+            "number": "35",
+            "birthdate": "24.02.1995",
+            "position": "MF",
+            "country": "GER",
+            "since": "2003"
+        },
+        "Vollmann, Korbinian": {
+            "number": "33",
+            "birthdate": "27.10.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Hain, Stephan": {
+            "number": "16",
+            "birthdate": "27.09.1988",
+            "position": "FW",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Mugosa, Stefan": {
+            "number": "9",
+            "birthdate": "26.02.1992",
+            "position": "FW",
+            "country": "MNE",
+            "since": "2015"
+        },
+        "Mulic, Fejsal": {
+            "number": "34",
+            "birthdate": "03.10.1994",
+            "position": "FW",
+            "country": "SRB",
+            "since": "2013"
+        },
+        "Okotie, Rubin": {
+            "number": "19",
+            "birthdate": "06.06.1987",
+            "position": "FW",
+            "country": "AUT",
+            "since": "2014"
+        },
+        "Simon, Krisztian": {
+            "number": "14",
+            "birthdate": "10.06.1991",
+            "position": "FW",
+            "country": "HUN",
+            "since": "2015"
+        },
+        "Wolf, Marius": {
+            "number": "27",
+            "birthdate": "27.05.1995",
+            "position": "FW",
+            "country": "GER",
+            "since": "2012"
+        }
+    },
+    "MSV Duisburg": {
+        "Lenz, Marcel": {
+            "number": "30",
+            "birthdate": "03.05.1991",
+            "position": "GK",
+            "country": "GER",
+            "since": "2010"
+        },
+        "Ratajczak, Michael": {
+            "number": "1",
+            "birthdate": "16.04.1982",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Schumacher, Maurice": {
+            "number": "22",
+            "birthdate": "14.03.1994",
+            "position": "GK",
+            "country": "GER",
+            "since": "2000"
+        },
+        "Bajic, Branimir": {
+            "number": "5",
+            "birthdate": "19.10.1979",
+            "position": "DF",
+            "country": "BIH",
+            "since": "2010"
+        },
+        "Bohl, Steffen": {
+            "number": "28",
+            "birthdate": "28.12.1983",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Bomheuer, Dustin": {
+            "number": "4",
+            "birthdate": "17.04.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Dvali, Lasha": {
+            "number": "7",
+            "birthdate": "14.05.1995",
+            "position": "DF",
+            "country": "GEO",
+            "since": "2015"
+        },
+        "Feltscher, Rolf": {
+            "number": "21",
+            "birthdate": "06.10.1990",
+            "position": "DF",
+            "country": "VEN",
+            "since": "2014"
+        },
+        "Kühne, Matthias": {
+            "number": "2",
+            "birthdate": "27.09.1987",
+            "position": "DF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Meißner, Thomas": {
+            "number": "25",
+            "birthdate": "26.03.1991",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Poggenberg, Dan-Patrick": {
+            "number": "27",
+            "birthdate": "28.03.1992",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Wille, Erik": {
+            "number": "15",
+            "birthdate": "28.03.1993",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Wolze, Kevin": {
+            "number": "17",
+            "birthdate": "09.03.1990",
+            "position": "DF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Albutat, Tim": {
+            "number": "14",
+            "birthdate": "23.09.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Behr, Dominik": {
+            "number": "24",
+            "birthdate": "26.01.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Dausch, Martin": {
+            "number": "6",
+            "birthdate": "04.03.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "De Wit, Pierre": {
+            "number": "9",
+            "birthdate": "26.09.1987",
+            "position": "MF",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Engin, Ahmet": {
+            "number": "26",
+            "birthdate": "29.08.1996",
+            "position": "MF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "Grote, Dennis": {
+            "number": "20",
+            "birthdate": "09.08.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Hajri, Enis": {
+            "number": "3",
+            "birthdate": "06.03.1983",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Holland, James": {
+            "number": "23",
+            "birthdate": "15.05.1989",
+            "position": "MF",
+            "country": "AUS",
+            "since": "2015"
+        },
+        "Janjic, Zlatko": {
+            "number": "13",
+            "birthdate": "07.05.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Klotz, Nico": {
+            "number": "19",
+            "birthdate": "20.09.1986",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Wiegel, Andreas": {
+            "number": "16",
+            "birthdate": "21.07.1991",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Brandstetter, Simon": {
+            "number": "18",
+            "birthdate": "02.05.1990",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bröker, Thomas": {
+            "number": "8",
+            "birthdate": "22.01.1985",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Iljutcenko, Stanislav": {
+            "number": "11",
+            "birthdate": "13.08.1990",
+            "position": "FW",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Onuegbu, Kingsley": {
+            "number": "10",
+            "birthdate": "05.03.1986",
+            "position": "FW",
+            "country": "NGA",
+            "since": "2013"
+        },
+        "Scheidhauer, Kevin": {
+            "number": "33",
+            "birthdate": "13.02.1992",
+            "position": "FW",
+            "country": "GER",
+            "since": "2014"
+        }
+    },
+    "Fortuna Düsseldorf": {
+        "Rensing, Michael": {
+            "number": "1",
+            "birthdate": "14.05.1984",
+            "position": "GK",
+            "country": "GER",
+            "since": "2013"
+        },
+        "Unnerstall, Lars": {
+            "number": "19",
+            "birthdate": "20.07.1990",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Wiesner, Tim": {
+            "number": "38",
+            "birthdate": "21.11.1996",
+            "position": "GK",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Akpoguma, Kevin": {
+            "number": "6",
+            "birthdate": "19.04.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Haggui, Karim": {
+            "number": "3",
+            "birthdate": "20.01.1984",
+            "position": "DF",
+            "country": "TUN",
+            "since": "2015"
+        },
+        "Holthaus, Fabian": {
+            "number": "35",
+            "birthdate": "17.01.1995",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Schauerte, Julian": {
+            "number": "4",
+            "birthdate": "02.04.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Schmitz, Lukas": {
+            "number": "15",
+            "birthdate": "13.10.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Strohdiek, Christian": {
+            "number": "34",
+            "birthdate": "22.01.1988",
+            "position": "DF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Akca, Kaan": {
+            "number": "14",
+            "birthdate": "21.02.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2008"
+        },
+        "Avevor, Christopher": {
+            "number": "5",
+            "birthdate": "11.02.1992",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Bellinghausen, Axel": {
+            "number": "11",
+            "birthdate": "17.05.1983",
+            "position": "MF",
+            "country": "GER",
+            "since": "2012"
+        },
+        "Bodzek, Adam": {
+            "number": "13",
+            "birthdate": "07.09.1985",
+            "position": "MF",
+            "country": "GER",
+            "since": "2011"
+        },
+        "da Silva Pinto, Sergio": {
+            "number": "8",
+            "birthdate": "16.10.1980",
+            "position": "MF",
+            "country": "GER",
+            "since": "2014"
+        },
+        "Demirbay, Kerem": {
+            "number": "10",
+            "birthdate": "03.07.1993",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Erat, Tugrul": {
+            "number": "25",
+            "birthdate": "17.06.1992",
+            "position": "MF",
+            "country": "AZE",
+            "since": "2009"
+        },
+        "Fink, Oliver": {
+            "number": "7",
+            "birthdate": "06.06.1982",
+            "position": "MF",
+            "country": "GER",
+            "since": "2009"
+        },
+        "Gartner, Christian": {
+            "number": "21",
+            "birthdate": "03.04.1994",
+            "position": "MF",
+            "country": "AUT",
+            "since": "2013"
+        },
+        "Koch, Julian": {
+            "number": "2",
+            "birthdate": "11.11.1990",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Sararer, Sercan": {
+            "number": "22",
+            "birthdate": "27.11.1989",
+            "position": "MF",
+            "country": "TUR",
+            "since": "2015"
+        },
+        "Sobottka, Marcel": {
+            "number": "31",
+            "birthdate": "25.04.1994",
+            "position": "MF",
+            "country": "GER",
+            "since": "2015"
+        },
+        "Bebou, Ihlas": {
+            "number": "37",
+            "birthdate": "23.04.1994",
+            "position": "FW",
+            "country": "TOG",
+            "since": "2011"
+        },
+        "Bolly, Mathis": {
+            "number": "18",
+            "birthdate": "14.11.1990",
+            "position": "FW",
+            "country": "CIV",
+            "since": "2013"
+        },
+        "Pohjanpalo, Joel": {
+            "number": "20",
+            "birthdate": "13.09.1994",
+            "position": "FW",
+            "country": "FIN",
+            "since": "2014"
+        },
+        "van Duinen, Mike": {
+            "number": "9",
+            "birthdate": "06.11.1991",
+            "position": "FW",
+            "country": "NED",
+            "since": "2015"
+        },
+        "Ya Konan, Didier": {
+            "number": "33",
+            "birthdate": "22.05.1984",
+            "position": "FW",
+            "country": "CIV",
+            "since": "2015"
+        }
+    }
+}
