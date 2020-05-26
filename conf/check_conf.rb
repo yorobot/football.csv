@@ -2,18 +2,6 @@ require_relative 'boot'
 
 
 
-def parse( lines, start: )
-  parser = SportDb::AutoConfParser.new( lines, start )
-  parser.parse
-end
-
-def parse_match( lines, teams, start: )
-  parser = SportDb::MatchParserSimpleV2.new( lines, teams, start )
-  parser.parse
-end
-
-
-
 def read_conf( path,
                 lang:,
                 mods: nil,
@@ -71,12 +59,12 @@ def read_conf( path,
                    Date.new( season.start_year, 7, 1 )
                  end
 
-        teams, rounds, groups, round_defs, group_defs, extra_lines = parse( lines, start: start )
+        teams, rounds, groups, round_defs, group_defs, extra_lines = SportDb::AutoConfParser.parse( lines, start: start )
 
         ### also try parse and check for errors
         ##  todo: check for more stats and errors
         ##   returns matches, rounds, groups
-        matches, _ = parse_match( lines, teams.keys, start: start )
+        matches, _ = SportDb::MatchParser.parse( lines, teams.keys, start: start )
 
 
         line =  "    #{lines.size} lines, #{matches.size} matches - "
@@ -264,21 +252,21 @@ mods = CLUBS.build_mods({
 })
 
 
-eng = "#{OPENFOOTBALL_PATH}/england"   ## en
-de  = "#{OPENFOOTBALL_PATH}/deutschland"   ## de
-at  = "#{OPENFOOTBALL_PATH}/austria"   ## de
-es  = "#{OPENFOOTBALL_PATH}/espana"    ## es
-fr  = "#{OPENFOOTBALL_PATH}/france"    ## fr
-it  = "#{OPENFOOTBALL_PATH}/italy"     ## it
-ru  = "#{OPENFOOTBALL_PATH}/russia"
+eng = "#{OPENFOOTBALL_DIR}/england"   ## en
+de  = "#{OPENFOOTBALL_DIR}/deutschland"   ## de
+at  = "#{OPENFOOTBALL_DIR}/austria"   ## de
+es  = "#{OPENFOOTBALL_DIR}/espana"    ## es
+fr  = "#{OPENFOOTBALL_DIR}/france"    ## fr
+it  = "#{OPENFOOTBALL_DIR}/italy"     ## it
+ru  = "#{OPENFOOTBALL_DIR}/russia"
 
-br  = "#{OPENFOOTBALL_PATH}/brazil"
-mx  = "#{OPENFOOTBALL_PATH}/mexico"
+br  = "#{OPENFOOTBALL_DIR}/brazil"
+mx  = "#{OPENFOOTBALL_DIR}/mexico"
 
-cl  = "#{OPENFOOTBALL_PATH}/europe-champions-league"
+cl  = "#{OPENFOOTBALL_DIR}/europe-champions-league"
 
-euro  = "#{OPENFOOTBALL_PATH}/euro-cup"
-world = "#{OPENFOOTBALL_PATH}/world-cup"
+euro  = "#{OPENFOOTBALL_DIR}/euro-cup"
+world = "#{OPENFOOTBALL_DIR}/world-cup"
 
 
 datasets = {
