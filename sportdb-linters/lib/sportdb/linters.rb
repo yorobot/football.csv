@@ -8,6 +8,7 @@ require 'sportdb/linters/club_linter'
 require 'sportdb/linters/conf_linter'
 require 'sportdb/linters/conf_linter_old'
 require 'sportdb/linters/match_linter'
+require 'sportdb/linters/package_linter'
 
 require 'sportdb/linters/season_utils'
 require 'sportdb/linters/level_utils'
