@@ -9,3 +9,6 @@ require 'minitest/autorun'
 ## our own code
 require 'sportdb/auto'
 
+
+LEAGUES = SportDb::Import.catalog.leagues
+CLUBS   = SportDb::Import.catalog.clubs

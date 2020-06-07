@@ -48,6 +48,8 @@ module SportDb
       season = nil
       start  = nil
 
+      event_rec = nil
+
       ###
       ## todo/check/fix:  move to LeagueOutlineReader for (re)use - why? why not?
       ##                    use sec[:lang] or something?
@@ -106,6 +108,10 @@ module SportDb
               pp season
               pp league
 
+              event_rec = Sync::Event.find_by!( league: league,
+                                                season: season )
+              pp event_rec
+
               ## hack for now: switch lang
               ## todo/fix: set lang for now depending on league country!!!
               if league.intl?   ## todo/fix: add intl? to ActiveRecord league!!!
@@ -144,12 +150,37 @@ module SportDb
                  ## auto-fill / patch match line - found match line with missing score
                  logger.debug "[#{'%03d' % lineno}] !! auto-fill / patch match line >#{line}<"
 
-                 score = find_match_result( league, season, teams[0], teams[1] )
-                 if score
+                 team1 = catalog.teams.find_by!( name: teams[0], league: league )
+                 team2 = catalog.teams.find_by!( name: teams[1], league: league )
+                 pp team1
+                 pp team2
+
+                 team1_rec = Model::Team.find_by!( name: team1.name )
+                 team2_rec = Model::Team.find_by!( name: team2.name )
+
+                 score = find_match_result( event_rec, team1_rec, team2_rec )
+                 if score.score1 && score.score2
                    pp score
                    ## todo/check:  score might all be nil (not yet played; match in the future)
+
+                   ## patch score
+                   ##  use simple regex for now
+                   linesrc = linesrc.sub( /[ ]+
+                                            -
+                                           [ ]+/x
+                                        ) do |_|
+                      m = Regexp.last_match    ## last match
+                      old_score = m[0]
+                      new_score = "  #{score.score1}-#{score.score2}  "
+                      msg = "changing >#{old_score}< to >#{new_score}<"
+                      puts msg
+
+                      changelog << "line #{lineno} - #{msg}"
+                      new_score
+                   end
                  else
-                   puts "!! no matching match found for:"
+                   puts "warn: score is nil for match for:"
+                   pp score
                    pp teams
                  end
                end
@@ -171,8 +202,28 @@ module SportDb
 
 
 
-def find_match_result( league, season, team1, team2 )
-  score = Score.new( nil, nil, 2, 1 )   ## ht1,ht2,ft1,ft2
+def find_match_result( event_rec, team1_rec, team2_rec )
+
+  recs = Model::Match.where( event_id: event_rec.id,
+                             team1_id: team1_rec.id,
+                             team2_id: team2_rec.id ).to_a
+
+  if recs.empty?
+    puts "!! ERROR - no match found for #{team1_rec.name} - #{team2_rec.name}"
+    exit 1
+  end
+
+  if recs.size > 1
+    puts "!! ERROR - too many matches found for #{team1_rec.name} - #{team2_rec.name}; expected one - got #{recs.size}"
+    exit 1
+  end
+
+  match_rec = recs[0]    ## bingo!! if we get here - assume we got a match record
+
+  score = Score.new( match_rec.score1i,
+                     match_rec.score2i,
+                     match_rec.score1,
+                     match_rec.score2 )   ## ht1,ht2,ft1,ft2
   score
 end
 
