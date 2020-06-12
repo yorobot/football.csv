@@ -1,0 +1,178 @@
+21 missing:
+[1] **Bangor City › NIR**
+Bangor City › NIR - 1 season in 1 level
+  - 999 (1): 2011/12
+
+!!!! fix - Bangor City is in WALES!!! - check why wrong country
+
+Bangor City FC >  Wales
+
+https://www.uefa.com/teamsandplayers/teams/club=53068/profile/history
+
+Season	Competition	Stage	Club Profile	P	W	D	L
+2014/15	UEFA Europa League	First qualifying round	See details	2	0	0	2
+2012/13	UEFA Europa League	First qualifying round	See details	2	0	1	1
+2011/12	UEFA Champions League	Second qualifying round	See details	2	0	0	2
+2010/11	UEFA Europa League	Third qualifying round	See details	4	1	1	2
+2009/10	UEFA Europa League	Second qualifying round	See details	2	0	0	2
+2008/09	UEFA Cup	First qualifying round	See details	2	0	0	2
+2005	UEFA Intertoto Cup	First round	 	2	0	0	2
+2003	UEFA Intertoto Cup	First round	 	2	0	0	2
+2002/03	UEFA Cup	Qualifying round	See details	2	1	0	1
+2000/01	UEFA Cup	Qualifying round	See details	2	0	0	2
+1998/99	UEFA Cup Winners' Cup	Qualifying round	 	2	0	0	2
+1995/96	UEFA Cup	Preliminary round	See details	2	0	0	2
+1994/95	UEFA Cup	Preliminary round	See details	2	0	0	2
+1985/86	UEFA Cup Winners' Cup	Second round	 	4	0	2	2
+1962/63	UEFA Cup Winners' Cup	First round	 	3	1	0	2
+
+[2] **Belshina Bobruisk › ISR**
+Belshina Bobruisk › ISR - 1 season in 1 level
+  - 999 (1): 2002/03
+
+!!!! fix - Belshina Bobruisk in in BELARUS!!! - check why wrong country
+
+FC Belshina Bobruisk > Belarus
+https://www.uefa.com/teamsandplayers/teams/club=62131/profile/history
+
+Season	Competition	Stage	Club Profile	P	W	D	L
+2002/03	UEFA Champions League	Second qualifying round	See details	4	1	1	2
+2001/02	UEFA Cup	Qualifying round	See details	2	0	1	1
+1999/00	UEFA Cup	Qualifying round	See details	2	0	0	2
+1998/99	UEFA Cup	First qualifying round	See details	2	0	1	1
+1997/98	UEFA Cup Winners' Cup	First round	 	4	1	1	2
+
+
+[3] **Buducnost › MNE**
+Buducnost › MNE - 2 seasons in 1 level
+  - 999 (2): 2012/13 2008/09
+
+FK Budućnost Podgorica  > Montenegro
+https://www.uefa.com/teamsandplayers/teams/club=53078/profile/history/index.html
+
+
+[4] **FK Inter Bratislava › SVK**
+FK Inter Bratislava › SVK - 3 seasons in 1 level
+  - 999 (3): 2002..2000 (2) 1959/60
+
+ > Slovakia
+https://en.wikipedia.org/wiki/FK_Inter_Bratislava
+
+
+[5] **FK Kareda Kaunas › LTU**
+FK Kareda Kaunas › LTU - 2 seasons in 1 level
+  - 999 (2): 1999..1997 (2)
+
+ > Lithuania
+https://en.wikipedia.org/wiki/FK_Kareda_Kaunas
+
+
+[6] **FK Leotar › BIH**
+FK Leotar › BIH - 1 season in 1 level
+  - 999 (1): 2003/04
+
+FK Leotar > Bosnia and Herzegovina
+
+Season	Competition	Stage	Club Profile	P	W	D	L
+2003/04	UEFA Champions League	Second qualifying round	See details	4	1	1	2
+
+
+
+
+[7] **FK Obilic › SRB**
+FK Obilic › SRB - 1 season in 1 level
+  - 999 (1): 1998/99
+
+FK Obilic > Serbia
+
+[8] **FK Pobeda › MKD**
+FK Pobeda › MKD - 2 seasons in 1 level
+  - 999 (2): 2007/08 2004/05
+
+FK Pobeda > FYR Macedonia
+
+
+[9] **FK Vllaznia › ALB**
+FK Vllaznia › ALB - 3 seasons in 1 level
+  - 999 (3): 2001/02 1998/99 1978/79
+
+[10] **GI Gota › FRO**
+GI Gota › FRO - 1 season in 1 level
+  - 999 (1): 1997/98
+
+Víkingur Gøta
+The club was founded in 2008 after the merger
+ of GÍ Gøta and Leirvík ÍF
+https://en.wikipedia.org/wiki/Gøtu_Ítróttarfelag
+
+
+[11] **Gyori ETO › HUN**
+Gyori ETO › HUN - 2 seasons in 1 level
+  - 999 (2): 2013/14 1964/65
+
+[12] **Hamrun Spartans › MLT**
+Hamrun Spartans › MLT - 4 seasons in 1 level
+  - 999 (4): 1991/92 1989..1987 (2) 1983/84
+
+Hamrun Spartans FC > Malta
+
+https://www.uefa.com/teamsandplayers/teams/club=50060/profile/history/index.html
+
+
+[13] **KS Elbasani › ALB**
+KS Elbasani › ALB - 2 seasons in 1 level
+  - 999 (2): 2006/07 1984/85
+
+KF Elbasani > Albania
+
+https://www.uefa.com/teamsandplayers/teams/club=50048/profile/history/index.html
+
+
+
+[14] **Lantana Tallinn › EST**
+Lantana Tallinn › EST - 1 season in 1 level
+  - 999 (1): 1997/98
+
+[15] **Liepajas Metalurgs › LVA**
+Liepajas Metalurgs › LVA - 2 seasons in 1 level
+  - 999 (2): 2010/11 2006/07
+
+[16] **Marsaxlokk › MLT**
+Marsaxlokk › MLT - 1 season in 1 level
+  - 999 (1): 2007/08
+
+[17] **Milsami Orhei › MDA**
+Milsami Orhei › MDA - 1 season in 1 level
+  - 999 (1): 2015/16
+
+[18] **Petrzalka Akademia › SVK**
+Petrzalka Akademia › SVK - 2 seasons in 1 level
+  - 999 (2): 2008/09 2005/06
+
+[19] **Raba ETO Gyor › HUN**
+Raba ETO Gyor › HUN - 2 seasons in 1 level
+  - 999 (2): 1984..1982 (2)
+
+[20] **Spartak TAZ Trnava › SVK**
+Spartak TAZ Trnava › SVK - 5 seasons in 1 level
+  - 999 (5): 1974...1971 (3) 1970..1968 (2)
+
+[21] **Vagur › FRO**
+Vagur › FRO - 1 season in 1 level
+  - 999 (1): 2001/02
+
+__.__.1905
+foundation as VB Vagur
+__.__.1994
+merger with Sumba IF to Sumba IF/VB Vagur
+__.__.1995
+dissolution of the merger and refoundation as VB Vagur
+__.__.2006
+merger with Sumba IF to VB/Sumba
+
+
+##
+# chech name or try.
+#  https://globalsportsarchive.com/competition/soccer/uefa-champions-league-2003-2004/1st-qualifying-round/10769/
+
+
