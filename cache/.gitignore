@@ -1,0 +1,10 @@
+###
+# ignore  dl (download) and o (output) folder
+
+dl/
+o/
+
+
+
+
+
