@@ -155,10 +155,15 @@ module SportDb
                  # pp team1
                  # pp team2
 
-                 team1_rec = Model::Team.find_by!( name: team1.name )
-                 team2_rec = Model::Team.find_by!( name: team2.name )
+                 team1_rec = Model::Team.find_by( name: team1.name )
+                 team2_rec = Model::Team.find_by( name: team2.name )
 
-                 match_rec = find_match( event_rec, team1_rec, team2_rec )
+                 match_rec =  if team1_rec && team2_rec
+                                find_match( event_rec, team1_rec, team2_rec )
+                              else
+                                 puts "!! WARN - no team record(s) found in db; cannot lookup match"
+                                 nil   # no match found (even possible)
+                              end
 
                  if match_rec
                   if match_rec.score1 && match_rec.score2
@@ -185,7 +190,7 @@ module SportDb
                    pp teams
                  end
                 else
-                   puts "!! WARN - no match found for #{team1_rec.name} - #{team2_rec.name}"
+                   puts "!! WARN - no match found for #{team1.name} - #{team2.name}"
                 end
                end
               else  ## no two teams found; assume it's NOT a match line
