@@ -102,18 +102,19 @@ end # class Names
 
 
 
-  def self.build( path )
-    new( path ).build
+  def self.build( path, start: nil )
+    new( path ).build( start: start )
   end
 
   def initialize( path )
     @path = path
   end
 
-  def build
+  def build( start: nil )
 datafiles = Dir[ "#{@path}/**/*.csv" ]
 puts "#{datafiles.size} datafiles"
 
+ start_season = start ? Import::Season.new( start ) : nil
 
 countries = {}
 datafiles.each do |datafile|
@@ -121,6 +122,15 @@ datafiles.each do |datafile|
   ##  e.g.  eng.3b.csv or eng3b.csv or ENG3B.csv
   ##         result in eng
   country_key = basename.downcase.scan( /^[a-z]+/ )[0]   ## note: scan return an array; use first item
+
+  ## check for season
+  if start_season
+    dirname = File.basename( File.dirname( datafile ))
+    season = Import::Season.new( dirname )
+    ##  skip if season is older
+    next if start_season.start_year > season.start_year
+  end
+
 
   countries[ country_key] ||= Names.new( country_key )
   names = countries[ country_key]
