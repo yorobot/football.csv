@@ -14,6 +14,7 @@ require 'sportdb/linters/season_utils'
 require 'sportdb/linters/level_utils'
 
 require 'sportdb/linters/team_summary'
+require 'sportdb/linters/season_summary'
 
 require 'sportdb/linters/csv/parser_utils'
 require 'sportdb/linters/csv/writer'

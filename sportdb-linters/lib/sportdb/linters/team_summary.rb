@@ -143,10 +143,9 @@ datafiles.each do |datafile|
   names.add_matches( matches )
 end
 
+
 errors = []
 buf = String.new('')
-buf << "# Summary\n\n"
-buf << "#{datafiles.size} datafiles\n\n"
 
 countries.each do |country_key, names|
   more_buf, more_errors = names.build
@@ -155,14 +154,19 @@ countries.each do |country_key, names|
   errors += more_errors
 end
 
-if errors.size > 0
-  buf << "\n\n#{errors.size} errors:\n"
-  buf << "```\n"
-  buf << errors.pretty_inspect
-  buf << "\n```\n"
-end
+  header = String.new('')
+  header << "# Summary\n\n"
+  header << "#{datafiles.size} datafiles\n\n"
 
-  [buf, errors]
+  if errors.size > 0
+    header << "\n\n**#{errors.size} error(s):**\n"
+    errors.each do |msg|
+      header << "- **#{msg}**\n"
+    end
+    header << "\n\n"
+  end
+
+  [header+buf, errors]
 end
 end # class TeamSummary
 end # module SportDb
